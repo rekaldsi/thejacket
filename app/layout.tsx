@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import Link from "next/link";
-import Image from "next/image";
 import MobileNav from "@/components/MobileNav";
 import "./globals.css";
 
@@ -33,9 +32,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="mx-auto flex min-h-screen w-full max-w-7xl flex-col px-4 md:px-8">
           <header className="sticky top-0 z-50 bg-jacket-black/95 backdrop-blur-sm border-b border-jacket-border">
             <nav className="flex items-center justify-between py-4">
-              <Link href="/" className="flex items-center gap-2.5">
-                <Image src="/logo.png" alt="TheJacket" width={32} height={32} className="rounded-sm" />
-                <span className="text-xl font-extrabold uppercase tracking-tight text-jacket-white">THEJACKET</span>
+              <Link href="/" className="text-xl font-extrabold uppercase tracking-tight text-jacket-white">
+                THEJACKET
               </Link>
 
               <div className="hidden items-center gap-3 text-xs uppercase tracking-widest text-zinc-300 sm:flex">

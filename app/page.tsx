@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { getAllCandidates, getRaces } from "@/lib/data";
 import { buildScorecard } from "@/lib/scoring";
 import type { ScorecardEntry } from "@/lib/scoring";
@@ -59,25 +60,44 @@ export default function HomePage() {
     <div className="space-y-24">
 
       {/* ── HERO ── */}
-      <section className="space-y-4 py-6">
-        <p className="font-mono text-xs uppercase tracking-[0.22em] text-jacket-amber">
-          ILLINOIS PRIMARY — MARCH 17, 2026 — COOK COUNTY
-        </p>
-        <h1 className="text-4xl font-black uppercase leading-none tracking-tight sm:text-7xl md:text-9xl">THEJACKET</h1>
-        <div className="h-1 w-20 bg-jacket-amber" />
-        <p className="max-w-3xl text-xl text-zinc-300">See who they really work for.</p>
-        <p className="my-4 max-w-2xl border-l-2 border-zinc-700 pl-3 text-sm italic text-zinc-500">
-          &ldquo;Politicians should wear sponsor jackets like NASCAR drivers, then we know who owns them.&rdquo; — Robin Williams
-        </p>
-        <Link
-          href="/races"
-          className="inline-block rounded-sm bg-jacket-amber px-5 py-2.5 font-mono text-sm font-black uppercase tracking-widest text-jacket-black transition-opacity hover:opacity-90"
-        >
-          Find your ballot →
-        </Link>
-        <p className="pt-2 font-mono text-xs uppercase tracking-[0.22em] text-zinc-500">
-          PRIMARY IN {daysToPrimary} DAY{daysToPrimary !== 1 ? "S" : ""}
-        </p>
+      <section className="flex flex-col-reverse items-center gap-8 py-6 md:flex-row md:items-center md:justify-between md:gap-12">
+
+        {/* Text */}
+        <div className="flex-1 space-y-4">
+          <p className="font-mono text-xs uppercase tracking-[0.22em] text-jacket-amber">
+            ILLINOIS PRIMARY — MARCH 17, 2026 — COOK COUNTY
+          </p>
+          <h1 className="text-5xl font-black uppercase leading-none tracking-tight sm:text-7xl">THEJACKET</h1>
+          <div className="h-1 w-20 bg-jacket-amber" />
+          <p className="max-w-xl text-xl text-zinc-300">See who they really work for.</p>
+          <p className="max-w-lg border-l-2 border-zinc-700 pl-3 text-sm italic text-zinc-500">
+            &ldquo;Politicians should wear sponsor jackets like NASCAR drivers, then we know who owns them.&rdquo; — Robin Williams
+          </p>
+          <div className="flex items-center gap-4 pt-2">
+            <Link
+              href="/races"
+              className="inline-block rounded-sm bg-jacket-amber px-5 py-2.5 font-mono text-sm font-black uppercase tracking-widest text-jacket-black transition-opacity hover:opacity-90"
+            >
+              Find your ballot →
+            </Link>
+            <span className="font-mono text-xs uppercase tracking-[0.22em] text-zinc-500">
+              PRIMARY IN {daysToPrimary} DAY{daysToPrimary !== 1 ? "S" : ""}
+            </span>
+          </div>
+        </div>
+
+        {/* Jacket visual */}
+        <div className="w-56 shrink-0 md:w-72 lg:w-80">
+          <Image
+            src="/logo.png"
+            alt="The Jacket — sponsor patches on a politician's blazer"
+            width={512}
+            height={512}
+            className="h-auto w-full opacity-90 drop-shadow-[0_0_40px_rgba(245,158,11,0.15)]"
+            priority
+          />
+        </div>
+
       </section>
 
       {/* ── FEATURED RACES ── */}
