@@ -31,6 +31,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   Races
                 </Link>
                 <span className="text-zinc-600">|</span>
+                <Link href="/scorecard" className="transition-colors hover:text-jacket-amber">
+                  Scorecard
+                </Link>
+                <span className="text-zinc-600">|</span>
                 <Link href="/about" className="transition-colors hover:text-jacket-amber">
                   About
                 </Link>
