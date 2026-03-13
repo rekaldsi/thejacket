@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="h-1 w-full bg-jacket-amber" />
 
         <div className="mx-auto flex min-h-screen w-full max-w-7xl flex-col px-4 md:px-8">
-          <header className="relative border-b border-jacket-border">
+          <header className="sticky top-0 z-50 bg-jacket-black/95 backdrop-blur-sm border-b border-jacket-border">
             <nav className="flex items-center justify-between py-4">
               <Link href="/" className="text-xl font-extrabold uppercase tracking-tight text-jacket-white">
                 THEJACKET
