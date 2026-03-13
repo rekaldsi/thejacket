@@ -1,8 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
-import { getAllCandidates, getRaces } from "@/lib/data";
+import { getAllCandidates, getAllJudges, getRaces } from "@/lib/data";
 import { buildScorecard } from "@/lib/scoring";
+import { scoreJudge } from "@/lib/judgeScoring";
 import type { ScorecardEntry } from "@/lib/scoring";
+import type { Judge } from "@/lib/types";
 
 const PRIMARY_DATE_UTC = Date.UTC(2026, 2, 17);
 const MS_PER_DAY = 1000 * 60 * 60 * 24;
@@ -43,11 +45,55 @@ function SnapshotRow({ entry }: { entry: ScorecardEntry }) {
   );
 }
 
+// The 4 most alarming judicial candidates for the home page callout
+const JUDICIAL_WATCH_IDS = [
+  "natalie-l-howse",       // Unanimous NR, wins uncontested
+  "john-harkins",          // Zero experience, patronage pick
+  "brittany-michelle-pedersen", // 3 DUIs, venue-shopping
+  "michael-cabonargi",     // Appointed, ethics/campaign finance questions
+];
+
+function JudicialAlarmCard({ judge }: { judge: Judge }) {
+  const entry = scoreJudge(judge);
+  const topFlag = judge.red_flags[0];
+  return (
+    <Link
+      href="/judges"
+      className="group border border-jacket-red/40 p-4 transition-colors hover:border-jacket-red hover:bg-red-950/10"
+    >
+      <div className="mb-2 flex items-center gap-2">
+        <div className="flex h-9 w-9 shrink-0 flex-col items-center justify-center rounded-sm border border-jacket-border bg-zinc-900 group-hover:border-jacket-red">
+          <span className={`font-mono text-sm font-black leading-none ${entry.gradeColor}`}>{entry.grade}</span>
+          <span className="font-mono text-[9px] text-zinc-500">{entry.score}</span>
+        </div>
+        <div>
+          <p className="font-bold leading-tight text-jacket-white group-hover:text-jacket-amber">{judge.name}</p>
+          <p className="font-mono text-[10px] text-zinc-500 uppercase tracking-wide">
+            {judge.subcircuit === "countywide" ? "Countywide" : `${judge.subcircuit} Subcircuit`}
+            {judge.uncontested ? " · Uncontested" : ""}
+          </p>
+        </div>
+      </div>
+      {topFlag && (
+        <p className="mt-1 line-clamp-2 text-xs text-zinc-400">
+          <span className="mr-1">{topFlag.confirmed ? "🚩" : "⚠️"}</span>
+          {topFlag.label}
+        </p>
+      )}
+    </Link>
+  );
+}
+
 export default function HomePage() {
   const races = getRaces();
   const candidates = getAllCandidates();
+  const judges = getAllJudges();
   const scorecard = buildScorecard(candidates);
   const daysToPrimary = getDaysToPrimary();
+
+  const alarmJudges = JUDICIAL_WATCH_IDS
+    .map((id) => judges.find((j) => j.id === id))
+    .filter(Boolean) as Judge[];
 
   const featuredRaces = FEATURED_RACE_SLUGS
     .map((slug) => races.find((r) => r.slug === slug))
@@ -128,6 +174,29 @@ export default function HomePage() {
             </Link>
           ))}
         </div>
+      </section>
+
+      {/* ── JUDICIAL WATCH ── */}
+      <section>
+        <div className="mb-4 flex items-center justify-between">
+          <div>
+            <h2 className="pb-1 pt-4 text-2xl font-black uppercase tracking-tight">Judicial Watch</h2>
+            <p className="text-sm text-zinc-400 max-w-lg">
+              Nobody covers judicial races. We do. Here are the 4 most alarming Cook County judge candidates on your March 17 ballot.
+            </p>
+          </div>
+          <Link href="/judges" className="shrink-0 text-xs uppercase tracking-widest text-jacket-amber">
+            All judges →
+          </Link>
+        </div>
+        <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-4">
+          {alarmJudges.map((judge) => (
+            <JudicialAlarmCard key={judge.id} judge={judge} />
+          ))}
+        </div>
+        <p className="mt-3 text-[11px] text-zinc-600">
+          Scores based on Alliance of Bar Associations ratings · CBA Voters Guide · Injustice Watch investigative reporting
+        </p>
       </section>
 
       {/* ── TRANSPARENCY SNAPSHOT ── */}

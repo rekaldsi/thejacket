@@ -1,0 +1,29 @@
+{
+  "id": "monica-somerville",
+  "name": "Monica Somerville",
+  "party": "Democratic",
+  "office": "circuit",
+  "subcircuit": "19th",
+  "race_id": "judicial-19th-subcircuit-kane-vacancy",
+  "vacancy_of": "Judge Kane",
+  "bio": "Monica Somerville received one Not Qualified rating from an Alliance bar association. She was reportedly terminated from two government agency positions. These circumstances raise questions about her fitness for a judicial seat, though the terminations have not been fully adjudicated or confirmed through independent reporting.",
+  "background": "Attorney with government agency background. Twice terminated from government positions.",
+  "years_experience": 10,
+  "bar_ratings": {
+    "alliance_rating": "NQ",
+    "alliance_detail": "1 NQ from Alliance bar associations",
+    "cba_rating": "R",
+    "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx"
+  },
+  "red_flags": [
+    {
+      "type": "ethics",
+      "label": "Terminated from two government agency positions",
+      "detail": "Monica Somerville was reportedly terminated from two government agency positions. The circumstances of these terminations have not been independently verified or confirmed through official records. This detail was surfaced in connection with bar association evaluations.",
+      "source": "https://www.injusticewatch.org/judges/judicial-elections/2026-primary/",
+      "confirmed": false
+    }
+  ],
+  "uncontested": false,
+  "photo_url": null
+}

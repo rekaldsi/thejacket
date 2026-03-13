@@ -102,3 +102,43 @@ export type Race = {
   uncontested?: boolean;
   note?: string;
 };
+
+export type BarRating = "Q" | "R" | "HR" | "NQ" | "NR" | "Mixed" | "Pending";
+
+export type JudgeBarRatings = {
+  alliance_rating: BarRating;
+  alliance_detail?: string;
+  cba_rating: BarRating;
+  source: string;
+};
+
+export type JudicialRace = {
+  id: string;
+  slug: string;
+  title: string;
+  subcircuit: string;
+  office: "circuit" | "appellate";
+  vacancy_of: string;
+  description: string;
+  candidateCount: number;
+  uncontested?: boolean;
+  note?: string;
+};
+
+export type Judge = {
+  id: string;
+  name: string;
+  party: "Democratic";
+  office: "circuit" | "appellate";
+  subcircuit: string;
+  race_id: string;
+  vacancy_of: string;
+  bio: string;
+  background: string;
+  years_experience: number;
+  bar_ratings: JudgeBarRatings;
+  red_flags: RedFlag[];
+  uncontested: boolean;
+  website?: string;
+  photo_url?: string | null;
+};

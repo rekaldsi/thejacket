@@ -1,0 +1,21 @@
+{
+  "id": "kathleen-carole-morrison",
+  "name": "Kathleen Carole Morrison",
+  "party": "Democratic",
+  "office": "circuit",
+  "subcircuit": "8th",
+  "race_id": "judicial-8th-subcircuit-mivka-vacancy",
+  "vacancy_of": "Judge Mivka",
+  "bio": "Kathleen Carole Morrison received a Qualified rating from the Chicago Bar Association. Only one Alliance bar association rated her (Not Qualified), while the majority did not rate her — making her bar association record somewhat limited. Compared to her opponent Dan Balanoff, who received near-universal NR/NQ ratings, Morrison presents as the more bar-supported candidate in this race.",
+  "background": "Attorney with civil litigation background.",
+  "years_experience": 15,
+  "bar_ratings": {
+    "alliance_rating": "NQ",
+    "alliance_detail": "1 NQ from Alliance bar associations — limited ratings overall",
+    "cba_rating": "Q",
+    "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx"
+  },
+  "red_flags": [],
+  "uncontested": false,
+  "photo_url": null
+}

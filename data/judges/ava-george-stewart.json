@@ -1,0 +1,22 @@
+{
+  "id": "ava-george-stewart",
+  "name": "Ava George Stewart",
+  "party": "Democratic",
+  "office": "circuit",
+  "subcircuit": "countywide",
+  "race_id": "judicial-countywide-hooks-vacancy",
+  "vacancy_of": "Judge Hooks",
+  "bio": "Ava George Stewart received unanimous Qualified ratings from the Alliance bar associations, with two Highly Recommended ratings, and a Recommended from the CBA. She is among the most positively rated candidates in the 2026 Cook County judicial elections. She is running uncontested.",
+  "background": "Attorney with strong bar association endorsements across the board.",
+  "years_experience": 16,
+  "bar_ratings": {
+    "alliance_rating": "HR",
+    "alliance_detail": "Qualified unanimous + 2 Highly Recommended from Alliance bar associations",
+    "cba_rating": "R",
+    "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx"
+  },
+  "red_flags": [],
+  "uncontested": true,
+  "website": "https://avageorgestewart.com",
+  "photo_url": null
+}
