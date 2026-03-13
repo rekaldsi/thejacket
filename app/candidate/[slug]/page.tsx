@@ -63,6 +63,9 @@ export default function CandidatePage({ params }: { params: { slug: string } }) 
                 <span className={`rounded-full px-2 py-0.5 text-xs ${getPartyPillClasses(candidate.party)}`}>{candidate.party}</span>
                 <span className="rounded-full bg-zinc-900 px-2 py-0.5 text-xs text-zinc-300">{candidate.office}</span>
                 {isUncontested && <UncontestedBadge />}
+                {candidate.data_status === "limited" && (
+                  <span className="rounded-full bg-zinc-700 px-2 py-0.5 text-xs text-zinc-400">Limited Data</span>
+                )}
               </div>
 
               {/* Uncontested incumbency callout */}
@@ -97,7 +100,7 @@ export default function CandidatePage({ params }: { params: { slug: string } }) 
                 ) : null}
                 {candidate.jacket.ilsbe_id ? (
                   <a
-                    href={`https://www.transparencyusa.org/il/committee/friends-of-dart-${candidate.jacket.ilsbe_id}/contributors`}
+                    href={`https://www.illinoissunshine.org/committees/${candidate.jacket.ilsbe_id}/`}
                     target="_blank"
                     rel="noreferrer"
                     className="text-xs text-zinc-400 hover:text-jacket-amber hover:underline"
@@ -115,6 +118,16 @@ export default function CandidatePage({ params }: { params: { slug: string } }) 
           </div>
         </div>
       </section>
+
+      {/* Limited data banner */}
+      {candidate.data_status === "limited" ? (
+        <section className="border-l-4 border-zinc-600 bg-zinc-900/50 px-5 py-4">
+          <p className="text-sm text-zinc-400">
+            <span className="font-mono font-bold text-zinc-300">Limited public data.</span>{" "}
+            {candidate.data_note || "Check your county clerk's office or the Illinois State Board of Elections for filing info."}
+          </p>
+        </section>
+      ) : null}
 
       {/* Uncontested lede — shown before main content */}
       {isUncontested ? (
@@ -184,6 +197,7 @@ export default function CandidatePage({ params }: { params: { slug: string } }) 
             totalRaised={candidate.jacket.total_raised}
             donors={candidate.jacket.donors}
             sourceCitation={candidate.jacket.source}
+            donorsNote={candidate.jacket.donors_note}
           />
         </div>
       </section>
@@ -260,14 +274,17 @@ export default function CandidatePage({ params }: { params: { slug: string } }) 
                     ? "bg-red-900 text-red-300"
                     : candidate.social_pulse.sentiment === "mixed"
                     ? "bg-amber-900 text-jacket-amber"
-                    : "bg-zinc-800 text-zinc-400"
+                    : "bg-zinc-800 text-zinc-500"
                 }`}
               >
-                {candidate.social_pulse.sentiment}
+                {candidate.social_pulse.sentiment === "low-profile" ? "low profile" : candidate.social_pulse.sentiment}
               </span>
               <span className="font-mono text-xs text-zinc-600">Updated {candidate.social_pulse.last_updated}</span>
             </div>
             <p className="text-sm text-zinc-300">{candidate.social_pulse.summary}</p>
+            {candidate.social_pulse.sentiment === "low-profile" && (
+              <p className="text-xs text-zinc-500 italic">Low profile means limited public presence — not a red flag on its own.</p>
+            )}
             {candidate.social_pulse.hashtags && candidate.social_pulse.hashtags.length > 0 ? (
               <div className="flex flex-wrap gap-2">
                 {candidate.social_pulse.hashtags.map((tag) => (

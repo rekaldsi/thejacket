@@ -34,7 +34,7 @@ export default function Scorecard({ entries, limit }: ScorecardProps) {
   return (
     <div className="divide-y divide-jacket-border">
       {visible.map((entry, idx) => {
-        const { candidate, score, grade, gradeColor, deductions, bonuses } = entry;
+        const { candidate, score, grade, gradeColor, deductions, bonuses, gradeDataLimited } = entry;
         const rankColor =
           idx === 0 ? "text-green-400" :
           idx === 1 ? "text-lime-400" :
@@ -53,9 +53,17 @@ export default function Scorecard({ entries, limit }: ScorecardProps) {
             </span>
 
             {/* Grade badge */}
-            <div className="flex h-12 w-12 shrink-0 flex-col items-center justify-center rounded-sm bg-zinc-900 border border-jacket-border group-hover:border-jacket-amber transition-colors">
+            <div className="relative flex h-12 w-12 shrink-0 flex-col items-center justify-center rounded-sm bg-zinc-900 border border-jacket-border group-hover:border-jacket-amber transition-colors">
               <span className={`font-mono text-lg font-black leading-none ${gradeColor}`}>{grade}</span>
               <span className="font-mono text-xs text-zinc-500">{score}</span>
+              {gradeDataLimited && (
+                <span
+                  className="absolute -right-1 -top-1 flex h-4 w-4 items-center justify-center rounded-full bg-amber-600 text-[9px] font-bold text-white"
+                  title="Grade based on available public data — limited info"
+                >
+                  ?
+                </span>
+              )}
             </div>
 
             {/* Candidate info */}

@@ -10,6 +10,7 @@ type TheJacketProps = {
   totalRaised: number | null;
   donors: Donor[];
   sourceCitation?: string;
+  donorsNote?: string;
 };
 
 const categoryColor: Record<string, string> = {
@@ -27,7 +28,7 @@ const categoryColor: Record<string, string> = {
   labor: "#34d399"
 };
 
-export default function TheJacket({ candidateName, totalRaised, donors, sourceCitation }: TheJacketProps) {
+export default function TheJacket({ candidateName, totalRaised, donors, sourceCitation, donorsNote }: TheJacketProps) {
   const donorsWithAmounts = donors.filter((d) => typeof d.amount === "number" && d.amount > 0);
 
   const grouped = donorsWithAmounts.reduce<Record<string, number>>((acc, donor) => {
@@ -38,6 +39,11 @@ export default function TheJacket({ candidateName, totalRaised, donors, sourceCi
   const barData = Object.entries(grouped)
     .map(([category, amount]) => ({ category, amount }))
     .sort((a, b) => b.amount - a.amount);
+
+  // Compute partial donor coverage warning
+  const listedTotal = donorsWithAmounts.reduce((sum, d) => sum + (d.amount as number), 0);
+  const coveragePct = totalRaised && totalRaised > 0 ? listedTotal / totalRaised : null;
+  const showPartialNote = coveragePct !== null && coveragePct < 0.9 && donorsWithAmounts.length > 0;
 
   return (
     <section className="space-y-6 border border-jacket-border p-4">
@@ -53,15 +59,15 @@ export default function TheJacket({ candidateName, totalRaised, donors, sourceCi
       </div>
 
       {donorsWithAmounts.length === 0 ? (
-        <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
-          {Array.from({ length: 6 }).map((_, i) => (
-            <div
-              key={i}
-              className="flex min-h-16 items-center justify-center border border-dashed border-zinc-800 p-3 text-center text-xs text-zinc-600"
-            >
-              FEC DATA PENDING
-            </div>
-          ))}
+        <div className="border border-dashed border-zinc-800 p-4 space-y-2">
+          <p className="text-sm text-zinc-400">No donor breakdown available yet.</p>
+          <p className="text-xs text-zinc-600">
+            This candidate has limited public financial disclosure. Check{" "}
+            <a href="https://www.fec.gov/data/candidates/" target="_blank" rel="noreferrer" className="text-jacket-amber hover:underline">FEC.gov</a>
+            {" "}or{" "}
+            <a href="https://www.illinoissunshine.org/" target="_blank" rel="noreferrer" className="text-jacket-amber hover:underline">IllinoisSunshine.org</a>
+            {" "}for filing details.
+          </p>
         </div>
       ) : (
         <>
@@ -135,6 +141,16 @@ export default function TheJacket({ candidateName, totalRaised, donors, sourceCi
               </tbody>
             </table>
           </div>
+
+          {(showPartialNote || donorsNote) && (
+            <div className="border border-amber-900/40 bg-amber-950/20 px-3 py-2 text-xs text-amber-400">
+              {donorsNote
+                ? donorsNote
+                : coveragePct !== null
+                  ? `Showing ${donorsWithAmounts.length} donor${donorsWithAmounts.length !== 1 ? "s" : ""} (${Math.round(coveragePct * 100)}% of total raised). See source filing for full breakdown.`
+                  : null}
+            </div>
+          )}
         </>
       )}
     </section>

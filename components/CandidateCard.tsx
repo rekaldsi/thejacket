@@ -43,6 +43,9 @@ export default function CandidateCard({ candidate }: CandidateCardProps) {
           <div className="flex flex-wrap items-center gap-2">
             <h3 className="text-base font-bold">{candidate.name}</h3>
             <span className={`rounded-full px-2 py-0.5 text-xs ${getPartyPillClasses(candidate.party)}`}>{candidate.party}</span>
+            {candidate.data_status === "limited" && (
+              <span className="rounded-full bg-zinc-700 px-2 py-0.5 text-xs text-zinc-400">Limited Data</span>
+            )}
           </div>
           <p className="mt-1 text-xs text-zinc-400">{candidate.office}</p>
 
