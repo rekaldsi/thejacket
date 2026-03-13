@@ -223,6 +223,33 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ── FIND YOUR FULL BALLOT ── */}
+      <section className="rounded-sm border border-jacket-amber/30 bg-jacket-amber/5 px-6 py-8 text-center">
+        <p className="mb-1 font-mono text-xs uppercase tracking-[0.22em] text-jacket-amber">Illinois Primary — March 17, 2026</p>
+        <h2 className="mb-2 text-2xl font-black uppercase tracking-tight">See Your Full Ballot</h2>
+        <p className="mx-auto mb-6 max-w-lg text-sm text-zinc-400">
+          TheJacket covers the contested races. Your actual ballot also includes Cook County commissioners, water reclamation district seats, state legislative races, and more — all by your address.
+        </p>
+        <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
+          <a
+            href="https://www.elections.il.gov/ElectionInformation/GetElectionSampleBallot.aspx"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block whitespace-nowrap rounded-sm bg-jacket-amber px-6 py-3 font-mono text-sm font-black uppercase tracking-widest text-jacket-black transition-opacity hover:opacity-90"
+          >
+            My Full Ballot (ILSOS) →
+          </a>
+          <a
+            href="https://chicagoelections.gov/voting/my-voter-information"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block whitespace-nowrap rounded-sm border border-jacket-amber px-6 py-3 font-mono text-sm font-black uppercase tracking-widest text-jacket-amber transition-opacity hover:opacity-90"
+          >
+            Chicago Voters →
+          </a>
+        </div>
+      </section>
+
     </div>
   );
 }
