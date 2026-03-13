@@ -7,15 +7,30 @@
   "incumbent": true,
   "bio": "Beth McElroy Kirkwood is an educator, community leader, and current MWRD Commissioner. She chairs the Moraine Valley Community College Board, where she oversees a $161 million budget and long-term strategic planning. She emphasizes fiscal responsibility and intergovernmental collaboration in water management.",
   "prior_office": "MWRD Commissioner (incumbent; exact start date not confirmed in available sources). Chair, Moraine Valley Community College Board (oversight of $161M budget). Educator and community leader.",
-  "website": null,
+  "website": "https://kirkwoodformwrd.com",
   "jacket": {
-    "total_raised": null,
+    "total_raised": 64150,
     "donors": [],
-    "source": "Illinois State Board of Elections (not retrieved)",
+    "source": "https://www.illinoissunshine.org/committees/40660/",
     "note": "Campaign finance data not pulled; check ISBE for current cycle filings",
     "data_date": "2026-03-13"
   },
-  "red_flags": [],
+  "red_flags": [
+    {
+      "type": "ethics",
+      "label": "No environmental credentials at time of appointment — appointed by political all",
+      "detail": "No environmental credentials at time of appointment — appointed by political ally (Pritzker) rather than on environmental merit",
+      "source": "https://kirkwoodformwrd.com",
+      "confirmed": false
+    },
+    {
+      "type": "ethics",
+      "label": "Challenger Sarah Bury (environmental lawyer with Sierra Club, EPA, and DOJ exper",
+      "detail": "Challenger Sarah Bury (environmental lawyer with Sierra Club, EPA, and DOJ experience) argues McElroy Kirkwood is a machine appointee",
+      "source": "https://kirkwoodformwrd.com",
+      "confirmed": false
+    }
+  ],
   "key_votes": [
     {
       "bill": "Supports investment in green infrastructure (permeable pavement, green alleys, bioswales, rain gardens, green roofs)",
@@ -50,7 +65,7 @@
     },
     {
       "topic": "Platform",
-      "position": "Modernize treatment plants \u2014 nutrient removal and water reuse",
+      "position": "Modernize treatment plants — nutrient removal and water reuse",
       "source": null
     },
     {

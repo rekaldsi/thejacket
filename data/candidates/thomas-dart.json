@@ -11,9 +11,9 @@
   "website": "https://www.cookcountysheriff.org",
   "photo_url": null,
   "jacket": {
-    "total_raised": 388603,
+    "total_raised": 388604,
     "data_date": "2026-03-13",
-    "source": "https://www.transparencyusa.org/il/committee/friends-of-dart-19319/contributors",
+    "source": "https://www.illinoissunshine.org/committees/19319/",
     "note": "County/state office — ILSBE filing, not FEC. 'Friends of Dart' committee ID #19319. Cash on hand as of Q4 2025.",
     "donors_note": "Showing top 5 donors ($15,000 — 3.9% of total raised). Full contributor list: illinoissunshine.org/committees/19319/",
     "fec_id": null,
@@ -52,6 +52,69 @@
         "amount": 500,
         "category": "Corporate",
         "source": "ILSBE",
+        "confirmed": true
+      },
+      {
+        "name": "James V. Riley",
+        "amount": 56000,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/19319/",
+        "confirmed": true
+      },
+      {
+        "name": "George Zervas",
+        "amount": 55000,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/19319/",
+        "confirmed": true
+      },
+      {
+        "name": "SEIU Illinois Council PAC Fund",
+        "amount": 37965.63,
+        "category": "labor",
+        "source": "https://www.illinoissunshine.org/committees/19319/",
+        "confirmed": true
+      },
+      {
+        "name": "Peter Spyropoulos",
+        "amount": 32000,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/19319/",
+        "confirmed": true
+      },
+      {
+        "name": "John F. Winters, Jr.",
+        "amount": 30800,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/19319/",
+        "confirmed": true
+      },
+      {
+        "name": "UA Political Education Committee (Plumbers union)",
+        "amount": 25000,
+        "category": "labor",
+        "source": "https://www.illinoissunshine.org/committees/19319/",
+        "confirmed": true
+      },
+      {
+        "name": "Construction & General Laborers' District Council",
+        "amount": 23700,
+        "category": "labor",
+        "source": "https://www.illinoissunshine.org/committees/19319/",
+        "confirmed": true
+      },
+      {
+        "name": "Nicolay & Dart LLC",
+        "amount": 23500,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/19319/",
+        "confirmed": true
+      },
+      {
+        "name": "Michael Mackey",
+        "amount": 23450,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/19319/",
         "confirmed": true
       }
     ]
@@ -126,9 +189,80 @@
       "detail": "According to a report by C4 Cook County, Dart allegedly hired Deborah Mell — daughter of political figure Richard Mell and sister-in-law of impeached Governor Rod Blagojevich — as a director-level employee at the Sheriff's Office. This claim has not been independently verified, and no impropriety in the hiring has been established.",
       "source": "https://www.c4cookcounty.org/articles/corruption-exposed",
       "confirmed": false
+    },
+    {
+      "type": "ethics",
+      "label": "Electronic monitoring program sunset in 2024 following years of civil rights cri",
+      "detail": "Electronic monitoring program sunset in 2024 following years of civil rights criticism — advocates called it a 'human rights crisis' with arbitrary restrictions on liberty",
+      "source": "https://www.cookcountysheriff.org",
+      "confirmed": false
+    },
+    {
+      "type": "ethics",
+      "label": "Nicolay & Dart LLC ($23,500 donor) — company shares candidate's surname; potenti",
+      "detail": "Nicolay & Dart LLC ($23,500 donor) — company shares candidate's surname; potential conflict not investigated but notable",
+      "source": "https://www.cookcountysheriff.org",
+      "confirmed": false
+    },
+    {
+      "type": "ethics",
+      "label": "20+ years in office: Critics note incumbency entrenchment and minimal electoral ",
+      "detail": "20+ years in office: Critics note incumbency entrenchment and minimal electoral competition (2026 primary: no Democratic challenger filed)",
+      "source": "https://www.cookcountysheriff.org",
+      "confirmed": false
+    },
+    {
+      "type": "ethics",
+      "label": "Justice Not Fear and Chicago Appleseed documented harms to EM participants under",
+      "detail": "Justice Not Fear and Chicago Appleseed documented harms to EM participants under Dart's oversight — Dart accused of spreading 'disinformation' about EM reforms",
+      "source": "https://www.cookcountysheriff.org",
+      "confirmed": false
     }
   ],
-  "key_votes": [],
+  "key_votes": [
+    {
+      "bill": "2008: Suspended all foreclosure evictions in Cook County during subprime mortgag",
+      "vote": "record",
+      "summary": "2008: Suspended all foreclosure evictions in Cook County during subprime mortgage crisis, citing harm to renters — Time magazine named him one of 100 Most Influential People (2009)",
+      "source": "https://www.cookcountysheriff.org"
+    },
+    {
+      "bill": "2013: Launched Office of Mental Health Policy & Advocacy — 24-hour Care Line for",
+      "vote": "record",
+      "summary": "2013: Launched Office of Mental Health Policy & Advocacy — 24-hour Care Line for mentally ill ex-inmates, screening all pre-bond detainees; pioneered diversion-over-incarceration approach",
+      "source": "https://www.cookcountysheriff.org"
+    },
+    {
+      "bill": "2019: Filed lawsuit against Craigslist to close 'erotic services' section — dism",
+      "vote": "record",
+      "summary": "2019: Filed lawsuit against Craigslist to close 'erotic services' section — dismissed on Section 230 immunity grounds",
+      "source": "https://www.cookcountysheriff.org"
+    },
+    {
+      "bill": "2020-2024: Ran nation's largest single-site jail (Cook County), reduced populati",
+      "vote": "record",
+      "summary": "2020-2024: Ran nation's largest single-site jail (Cook County), reduced population through electronic monitoring — program overseen 1989-2025",
+      "source": "https://www.cookcountysheriff.org"
+    },
+    {
+      "bill": "2024 Nov: Cook County Board voted to sunset Dart's electronic monitoring program",
+      "vote": "record",
+      "summary": "2024 Nov: Cook County Board voted to sunset Dart's electronic monitoring program, transferring oversight to Chief Judge amid human rights concerns about restrictive conditions",
+      "source": "https://www.cookcountysheriff.org"
+    },
+    {
+      "bill": "2025 Mar: EM program formally transferred to Chief Judge's office; Dart's office",
+      "vote": "record",
+      "summary": "2025 Mar: EM program formally transferred to Chief Judge's office; Dart's office offered 100 EM unit employees transition positions",
+      "source": "https://www.cookcountysheriff.org"
+    },
+    {
+      "bill": "2006-present: Refused to honor ICE detainer requests — Cook County does not hold",
+      "vote": "record",
+      "summary": "2006-present: Refused to honor ICE detainer requests — Cook County does not hold immigrants for ICE beyond release date; sanctuary jurisdiction",
+      "source": "https://www.cookcountysheriff.org"
+    }
+  ],
   "endorsements": [
     {
       "org": "Cook County Democratic Party",

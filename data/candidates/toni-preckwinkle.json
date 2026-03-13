@@ -6,14 +6,85 @@
   "race_id": "cook-county-board-president-d-2026",
   "bio": "Toni Preckwinkle is the incumbent Cook County Board President, first elected in 2010, and chair of the Cook County Democratic Party. She previously served as a Chicago alderperson representing the 4th Ward for nearly two decades. (Source: Cook County official website; WTTW Voter Guide 2026)",
   "prior_office": "Cook County Board President (2010–present); Chicago Alderman (4th Ward, 1991–2010)",
-  "website": "https://www.cookcountyil.gov/person/toni-preckwinkle",
+  "website": "https://tonipreckwinkle.org",
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Toni_Preckwinkle_press_conference_210226-Z-AZ071-3051_%281%29.jpg",
   "jacket": {
-    "total_raised": null,
+    "total_raised": 2043023,
     "data_date": "2026-03-13",
-    "source": "https://www.elections.il.gov/CampaignDisclosure",
+    "source": "https://www.illinoissunshine.org/committees/21644/",
     "note": "County race — ILSBE filing, not FEC.",
-    "donors": [],
+    "donors": [
+      {
+        "name": "SEIU Illinois Council PAC Fund",
+        "amount": 546200,
+        "category": "labor",
+        "source": "https://www.illinoissunshine.org/committees/21644/",
+        "confirmed": true
+      },
+      {
+        "name": "SEIU Illinois State Council PAC",
+        "amount": 450217.1,
+        "category": "labor",
+        "source": "https://www.illinoissunshine.org/committees/21644/",
+        "confirmed": true
+      },
+      {
+        "name": "I.U.O.E. Local 399 (Operating Engineers)",
+        "amount": 253000,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/21644/",
+        "confirmed": true
+      },
+      {
+        "name": "Jay Robert Pritzker Revocable Trust (Gov. Pritzker)",
+        "amount": 250000,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/21644/",
+        "confirmed": true
+      },
+      {
+        "name": "SEIU Healthcare IL IN PAC",
+        "amount": 240243.33,
+        "category": "labor",
+        "source": "https://www.illinoissunshine.org/committees/21644/",
+        "confirmed": true
+      },
+      {
+        "name": "IBEW Local 134 State & Muni",
+        "amount": 205300,
+        "category": "labor",
+        "source": "https://www.illinoissunshine.org/committees/21644/",
+        "confirmed": true
+      },
+      {
+        "name": "Illinois Hospital Association PAC",
+        "amount": 167339.56,
+        "category": "pac",
+        "source": "https://www.illinoissunshine.org/committees/21644/",
+        "confirmed": true
+      },
+      {
+        "name": "JB For Governor",
+        "amount": 165100,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/21644/",
+        "confirmed": true
+      },
+      {
+        "name": "Chicago Regional Council of Carpenters PAC",
+        "amount": 162900,
+        "category": "labor",
+        "source": "https://www.illinoissunshine.org/committees/21644/",
+        "confirmed": true
+      },
+      {
+        "name": "Teamsters Volunteers in Politics",
+        "amount": 150100,
+        "category": "labor",
+        "source": "https://www.illinoissunshine.org/committees/21644/",
+        "confirmed": true
+      }
+    ],
     "fec_id": null
   },
   "red_flags": [
@@ -30,9 +101,87 @@
       "detail": "Preckwinkle championed a controversial penny-per-ounce soda tax in 2017, which reached 87% disapproval in polls and was repealed. She later admitted the primary motivation was revenue, not public health.",
       "source": "https://www.chicagotribune.com/business/ct-biz-cook-county-soda-tax-repeal-20171010-story.html",
       "confirmed": true
+    },
+    {
+      "type": "ethics",
+      "label": "Tyler Technologies contract scandal — $265M+ in contracts and $122M in borrowing",
+      "detail": "Tyler Technologies contract scandal — $265M+ in contracts and $122M in borrowing by other taxing bodies; delayed 2024 tax bills; Preckwinkle acknowledged project was 'bumpy'",
+      "source": "https://tonipreckwinkle.org",
+      "confirmed": false
+    },
+    {
+      "type": "ethics",
+      "label": "Machine politician ties — chairs Cook County Democratic Party, uses endorsement ",
+      "detail": "Machine politician ties — chairs Cook County Democratic Party, uses endorsement power as de facto patronage (per critics)",
+      "source": "https://tonipreckwinkle.org",
+      "confirmed": false
+    },
+    {
+      "type": "ethics",
+      "label": "2026: Supported ICE data-sharing contract renewal — contradicts stated sanctuary",
+      "detail": "2026: Supported ICE data-sharing contract renewal — contradicts stated sanctuary city values; several board commissioners abstained in protest",
+      "source": "https://tonipreckwinkle.org",
+      "confirmed": false
+    },
+    {
+      "type": "ethics",
+      "label": "Sales tax hike (2015) after campaigning against it in 2010 — documented broken c",
+      "detail": "Sales tax hike (2015) after campaigning against it in 2010 — documented broken campaign promise",
+      "source": "https://tonipreckwinkle.org",
+      "confirmed": false
+    },
+    {
+      "type": "ethics",
+      "label": "Donor base dominated by public-sector unions (SEIU, AFSCME, Operating Engineers,",
+      "detail": "Donor base dominated by public-sector unions (SEIU, AFSCME, Operating Engineers, Carpenters) — raises potential conflicts with county labor negotiations",
+      "source": "https://tonipreckwinkle.org",
+      "confirmed": false
     }
   ],
-  "key_votes": [],
+  "key_votes": [
+    {
+      "bill": "2015: Pushed through Cook County sales tax increase (1% → restore Stroger-era ta",
+      "vote": "record",
+      "summary": "2015: Pushed through Cook County sales tax increase (1% → restore Stroger-era tax) to fund pensions — later drew attack ads citing 2010 campaign promise not to raise it",
+      "source": "https://tonipreckwinkle.org"
+    },
+    {
+      "bill": "2017: Led sweetened beverage tax (soda tax) — repealed after 4 months following ",
+      "vote": "record",
+      "summary": "2017: Led sweetened beverage tax (soda tax) — repealed after 4 months following industry-funded backlash campaign",
+      "source": "https://tonipreckwinkle.org"
+    },
+    {
+      "bill": "2020-2024: Oversaw Tyler Technologies contract for property tax system upgrade —",
+      "vote": "record",
+      "summary": "2020-2024: Oversaw Tyler Technologies contract for property tax system upgrade — cost overruns totaling $265M+ and delayed tax bills in 2024, acknowledged as troubled",
+      "source": "https://tonipreckwinkle.org"
+    },
+    {
+      "bill": "2024: Cook County board approved sunsetting of Sheriff's electronic monitoring p",
+      "vote": "record",
+      "summary": "2024: Cook County board approved sunsetting of Sheriff's electronic monitoring program, transferring oversight to Chief Judge",
+      "source": "https://tonipreckwinkle.org"
+    },
+    {
+      "bill": "2025-2026: Supported renewal of data contract with company providing information",
+      "vote": "record",
+      "summary": "2025-2026: Supported renewal of data contract with company providing information to ICE and federal agencies — drew criticism from immigrant advocates",
+      "source": "https://tonipreckwinkle.org"
+    },
+    {
+      "bill": "16 years: Balanced budgets, 4 bond rating upgrades, no property tax/fee increase",
+      "vote": "record",
+      "summary": "16 years: Balanced budgets, 4 bond rating upgrades, no property tax/fee increases in recent years, pension funding improved from near-insolvency to 66% funded",
+      "source": "https://tonipreckwinkle.org"
+    },
+    {
+      "bill": "Criminal justice reform champion — reduced pretrial detention, led Cook County H",
+      "vote": "record",
+      "summary": "Criminal justice reform champion — reduced pretrial detention, led Cook County Health expansion, supported Kim Foxx as State's Attorney",
+      "source": "https://tonipreckwinkle.org"
+    }
+  ],
   "endorsements": [
     {
       "org": "Chicago Mayor Brandon Johnson",

@@ -6,17 +6,147 @@
   "race_id": "cook-county-assessor-d-2026",
   "bio": "Fritz Kaegi is the incumbent Cook County Assessor and a candidate in the 2026 Democratic primary. The assessor's office oversees property assessment values used in county tax billing. (Source: scout ballot context, March 13, 2026)",
   "prior_office": "Cook County Assessor",
-  "website": "https://www.cookcountyassessor.com/about-assessor-fritz-kaegi",
+  "website": "https://www.fritzforassessor.com",
   "jacket": {
-    "total_raised": null,
+    "total_raised": 2792789,
     "data_date": "2026-03-13",
-    "source": "https://www.elections.il.gov/CampaignDisclosure",
+    "source": "https://www.illinoissunshine.org/committees/33897/",
     "note": "County race — ILSBE filing, not FEC.",
-    "donors": [],
+    "donors": [
+      {
+        "name": "Fritz Kaegi (self)",
+        "amount": 7137456.35,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/33897/",
+        "confirmed": true
+      },
+      {
+        "name": "Fred Eychaner",
+        "amount": 362900,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/33897/",
+        "confirmed": true
+      },
+      {
+        "name": "Joe Mansueto",
+        "amount": 156000,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/33897/",
+        "confirmed": true
+      },
+      {
+        "name": "Stephen Schuler",
+        "amount": 156000,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/33897/",
+        "confirmed": true
+      },
+      {
+        "name": "Leo A Smith",
+        "amount": 102700,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/33897/",
+        "confirmed": true
+      },
+      {
+        "name": "Daniel Tierney",
+        "amount": 50000,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/33897/",
+        "confirmed": true
+      },
+      {
+        "name": "Jerry Reinsdorf",
+        "amount": 41600,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/33897/",
+        "confirmed": true
+      },
+      {
+        "name": "Peter Ehrich",
+        "amount": 41400,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/33897/",
+        "confirmed": true
+      },
+      {
+        "name": "Michael Fenstermacher",
+        "amount": 39000,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/33897/",
+        "confirmed": true
+      },
+      {
+        "name": "Thomas Roberts",
+        "amount": 33162.7,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/33897/",
+        "confirmed": true
+      }
+    ],
     "fec_id": null
   },
-  "red_flags": [],
-  "key_votes": [],
+  "red_flags": [
+    {
+      "type": "ethics",
+      "label": "Both candidates accuse each other of accepting questionable donations (Fox32 Feb",
+      "detail": "Both candidates accuse each other of accepting questionable donations (Fox32 Feb 2026 — mutual accusations, neither substantiated)",
+      "source": "https://www.fritzforassessor.com",
+      "confirmed": false
+    },
+    {
+      "type": "ethics",
+      "label": "Hynes campaign argues Kaegi's data errors caused chaotic assessment appeals and ",
+      "detail": "Hynes campaign argues Kaegi's data errors caused chaotic assessment appeals and missed deadlines — contested claim",
+      "source": "https://www.fritzforassessor.com",
+      "confirmed": false
+    },
+    {
+      "type": "ethics",
+      "label": "Kaegi has loaned his own campaign $5.4M (debt obligation on ILSBE) — heavy self-",
+      "detail": "Kaegi has loaned his own campaign $5.4M (debt obligation on ILSBE) — heavy self-funding by a wealthy candidate",
+      "source": "https://www.fritzforassessor.com",
+      "confirmed": false
+    }
+  ],
+  "key_votes": [
+    {
+      "bill": "2018: Defeated incumbent Joseph Berrios (implicated in pay-to-play) — ran on tra",
+      "vote": "record",
+      "summary": "2018: Defeated incumbent Joseph Berrios (implicated in pay-to-play) — ran on transparency/anti-corruption platform",
+      "source": "https://www.fritzforassessor.com"
+    },
+    {
+      "bill": "2018-present: Implemented mass reassessment reforms using data-driven methods; U",
+      "vote": "record",
+      "summary": "2018-present: Implemented mass reassessment reforms using data-driven methods; U of Chicago study (2024) found 'substantial progress in improving fairness of residential assessments'",
+      "source": "https://www.fritzforassessor.com"
+    },
+    {
+      "bill": "2022: Survived primary challenge from Kari Steele (MWRD President) 53.8% to 46.2",
+      "vote": "record",
+      "summary": "2022: Survived primary challenge from Kari Steele (MWRD President) 53.8% to 46.2% — contested race reflecting industry pushback",
+      "source": "https://www.fritzforassessor.com"
+    },
+    {
+      "bill": "2022-2025: Launched Affordable Housing Program, automated senior/veteran exempti",
+      "vote": "record",
+      "summary": "2022-2025: Launched Affordable Housing Program, automated senior/veteran exemption renewals, expanded field inspection staff",
+      "source": "https://www.fritzforassessor.com"
+    },
+    {
+      "bill": "2025: Cook County Assessor's Office released 2024 Chicago Reassessment Report sh",
+      "vote": "record",
+      "summary": "2025: Cook County Assessor's Office released 2024 Chicago Reassessment Report showing equity improvements; expanded commercial valuation reform with PTAX Reform Group",
+      "source": "https://www.fritzforassessor.com"
+    },
+    {
+      "bill": "Debts of $5.4M on committee suggest significant self-loan to campaign",
+      "vote": "record",
+      "summary": "Debts of $5.4M on committee suggest significant self-loan to campaign",
+      "source": "https://www.fritzforassessor.com"
+    }
+  ],
   "endorsements": [],
   "photo_url": null,
   "career_history": [

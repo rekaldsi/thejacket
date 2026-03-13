@@ -9,14 +9,45 @@
   "prior_office": "Student Representative, Whitney Young High School Local School Council (early 2000s). No prior elected office held. Candidate for MWRD Commissioner (2019, did not win); applicant for MWRD board appointment (2024).",
   "website": "https://www.sarah4waterrec.org",
   "jacket": {
-    "total_raised": null,
+    "total_raised": 5353,
     "donors": [],
-    "source": "Illinois State Board of Elections (not retrieved)",
+    "source": "https://www.illinoissunshine.org/committees/sarah-bury-for-water-reclamation-35354/",
     "note": "Grassroots campaign; likely small-dollar fundraising compared to incumbents",
     "data_date": "2026-03-13"
   },
   "red_flags": [],
-  "key_votes": [],
+  "key_votes": [
+    {
+      "bill": "First-time candidate — environmental lawyer, no prior elected office",
+      "vote": "record",
+      "summary": "First-time candidate — environmental lawyer, no prior elected office",
+      "source": "https://www.sarah4waterrec.org"
+    },
+    {
+      "bill": "Experience: EPA, Department of Justice, Alliance for the Great Lakes, League of ",
+      "vote": "record",
+      "summary": "Experience: EPA, Department of Justice, Alliance for the Great Lakes, League of Women Voters, Sierra Club",
+      "source": "https://www.sarah4waterrec.org"
+    },
+    {
+      "bill": "Master's degree in environmental politics",
+      "vote": "record",
+      "summary": "Master's degree in environmental politics",
+      "source": "https://www.sarah4waterrec.org"
+    },
+    {
+      "bill": "Priorities: UV vs. chlorine water treatment, equitable green space, flood reduct",
+      "vote": "record",
+      "summary": "Priorities: UV vs. chlorine water treatment, equitable green space, flood reduction, remote public comment restoration",
+      "source": "https://www.sarah4waterrec.org"
+    },
+    {
+      "bill": "Endorsed by Sierra Club",
+      "vote": "record",
+      "summary": "Endorsed by Sierra Club",
+      "source": "https://www.sarah4waterrec.org"
+    }
+  ],
   "policy_platform": [
     {
       "topic": "Platform",
@@ -56,19 +87,19 @@
   ],
   "career_history": [
     {
-      "role": "Senior Project Manager / Attorney (current) \u2014 works in discovery on corporate litigation matters",
+      "role": "Senior Project Manager / Attorney (current) — works in discovery on corporate litigation matters",
       "org": "",
       "years": "",
       "highlight": ""
     },
     {
-      "role": "Dale Bryson Water Quality Fellow, Alliance for the Great Lakes \u2014 drafted letters on water pollution, compared phosphorus laws across Midwest states",
+      "role": "Dale Bryson Water Quality Fellow, Alliance for the Great Lakes — drafted letters on water pollution, compared phosphorus laws across Midwest states",
       "org": "",
       "years": "",
       "highlight": ""
     },
     {
-      "role": "Water Issue Specialist, League of Women Voters of Illinois \u2014 tracked water-related legislation",
+      "role": "Water Issue Specialist, League of Women Voters of Illinois — tracked water-related legislation",
       "org": "",
       "years": "",
       "highlight": ""
@@ -80,7 +111,7 @@
       "highlight": ""
     },
     {
-      "role": "Volunteer, Sierra Club Chicago Water Team \u2014 monitored stormwater permit compliance, tested Chicago River for phosphorus and dissolved oxygen",
+      "role": "Volunteer, Sierra Club Chicago Water Team — monitored stormwater permit compliance, tested Chicago River for phosphorus and dissolved oxygen",
       "org": "",
       "years": "",
       "highlight": ""
@@ -92,7 +123,7 @@
       "highlight": ""
     },
     {
-      "role": "Field Organizer, Ald. Maria Hadden campaign (49th Ward); Bring Chicago Home ballot campaign (2023\u20132024)",
+      "role": "Field Organizer, Ald. Maria Hadden campaign (49th Ward); Bring Chicago Home ballot campaign (2023–2024)",
       "org": "",
       "years": "",
       "highlight": ""
