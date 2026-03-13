@@ -45,6 +45,16 @@ export interface AccountabilityGap {
   read_more: { label: string; url: string }[];
 }
 
+export type TransparencyScore = {
+  grade: 'A' | 'B' | 'C' | 'D' | 'F';
+  computed: true;
+  financial_transparency: 'A' | 'B' | 'C' | 'D' | 'F';
+  platform_completeness: 'A' | 'B' | 'C' | 'D' | 'F';
+  record_available: boolean;
+  red_flags_count: number;
+  computed_at: string;
+};
+
 export type Candidate = {
   id: string;
   name: string;
@@ -57,6 +67,8 @@ export type Candidate = {
   photo_url: string | null;
   uncontested?: boolean;
   years_in_office?: number;
+  data_status?: 'limited' | 'partial' | 'full';
+  data_note?: string;
   jail_timeline?: JailTimelineEvent[];
   accountability_gap?: AccountabilityGap;
   jacket: {
@@ -64,6 +76,7 @@ export type Candidate = {
     data_date: string;
     source: string;
     note: string;
+    donors_note?: string;
     fec_id?: string | null;
     ilsbe_id?: string | null;
     donors: Donor[];
@@ -75,6 +88,7 @@ export type Candidate = {
   policy_platform?: Array<{ topic: string; position: string; source?: string }>;
   social_pulse?: { summary: string; sentiment: 'positive' | 'negative' | 'mixed' | 'low-profile'; hashtags?: string[]; last_updated: string };
   trust_indicators?: Array<{ label: string; value: boolean | string; type: 'positive' | 'negative' | 'neutral' }>;
+  transparency_score?: TransparencyScore;
 };
 
 export type Race = {

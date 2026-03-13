@@ -7,6 +7,7 @@ export type ScorecardEntry = {
   gradeColor: string;
   deductions: { reason: string; points: number }[];
   bonuses: { reason: string; points: number }[];
+  gradeDataLimited: boolean;
 };
 
 const FLAG_DEDUCTIONS: Record<string, number> = {
@@ -15,17 +16,35 @@ const FLAG_DEDUCTIONS: Record<string, number> = {
   criminal: 25,
   ethics: 20,
   epstein: 30,
+  "civil-rights": 10,
+  patronage: 10,
 };
 
 const ALLEGED_DEDUCTION = 8;
 
+// Grades: A requires positive evidence, not just absence of flags.
+// A+ is never awarded — no candidate has justified it with full transparent disclosure.
 function letterGrade(score: number): { grade: string; color: string } {
-  if (score >= 90) return { grade: "A+", color: "text-green-400" };
-  if (score >= 80) return { grade: "A",  color: "text-green-400" };
+  if (score >= 85) return { grade: "A",  color: "text-green-400" };
   if (score >= 70) return { grade: "B",  color: "text-lime-400" };
-  if (score >= 60) return { grade: "C",  color: "text-yellow-400" };
-  if (score >= 50) return { grade: "D",  color: "text-orange-400" };
+  if (score >= 55) return { grade: "C",  color: "text-yellow-400" };
+  if (score >= 40) return { grade: "D",  color: "text-orange-400" };
   return { grade: "F", color: "text-jacket-red" };
+}
+
+// Compute financial transparency grade based on % of total_raised broken out in donors array
+function financialTransparencyGrade(candidate: Candidate): string {
+  const total = candidate.jacket.total_raised;
+  if (!total || total === 0) return "?";
+  const listed = candidate.jacket.donors
+    .filter((d) => typeof d.amount === "number" && d.amount > 0)
+    .reduce((sum, d) => sum + (d.amount as number), 0);
+  const pct = listed / total;
+  if (pct >= 0.75) return "A";
+  if (pct >= 0.50) return "B";
+  if (pct >= 0.25) return "C";
+  if (pct >= 0.05) return "D";
+  return "F";
 }
 
 export function scoreCandidate(candidate: Candidate): ScorecardEntry {
@@ -62,6 +81,23 @@ export function scoreCandidate(candidate: Candidate): ScorecardEntry {
     bonuses.push({ reason: "FEC filing on record", points: 5 });
   }
 
+  // Deduct if data is limited (can't properly evaluate transparency)
+  const gradeDataLimited = candidate.data_status === "limited";
+  if (gradeDataLimited) {
+    score = Math.min(score, 60); // Cap at C — we can't give a good grade without data
+    deductions.push({ reason: "Limited public data — transparency unverifiable", points: 0 });
+  }
+
+  // Deduct for poor financial transparency (< 5% of total disclosed in donor breakdown)
+  const ftGrade = financialTransparencyGrade(candidate);
+  if (ftGrade === "F" && candidate.jacket.total_raised && candidate.jacket.total_raised > 10000) {
+    score -= 15;
+    deductions.push({ reason: "< 5% of total raised broken out in donor disclosure", points: 15 });
+  } else if (ftGrade === "D" && candidate.jacket.total_raised && candidate.jacket.total_raised > 10000) {
+    score -= 8;
+    deductions.push({ reason: "< 25% of total raised broken out in donor disclosure", points: 8 });
+  }
+
   score = Math.max(0, Math.min(100, score));
 
   const { grade, color } = letterGrade(score);
@@ -73,6 +109,7 @@ export function scoreCandidate(candidate: Candidate): ScorecardEntry {
     gradeColor: color,
     deductions,
     bonuses,
+    gradeDataLimited,
   };
 }
 
