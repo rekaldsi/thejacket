@@ -5,13 +5,13 @@
   "office": "Cook County Assessor",
   "race_id": "cook-county-assessor-d-2026",
   "bio": "Patrick (Pat) Hynes has served as Lyons Township Assessor since 2021 and brings 30 years of property tax experience to his challenge of incumbent Fritz Kaegi. He is also a firefighter and EMT. His campaign focuses on assessment accuracy errors he attributes to Kaegi's tenure. (Source: Ballotpedia Cook County Assessor 2026)",
-  "prior_office": "Lyons Township Assessor (2021–present)",
+  "prior_office": "Lyons Township Assessor (2021\u2013present)",
   "website": "https://www.assessorhynes.com",
   "jacket": {
     "total_raised": null,
     "data_date": "2026-03-13",
     "source": "https://www.elections.il.gov/CampaignDisclosure",
-    "note": "ILSBE committee totals pending ETL import. County race — no FEC filing.",
+    "note": "ILSBE committee totals pending ETL import. County race \u2014 no FEC filing.",
     "donors": []
   },
   "red_flags": [],
@@ -26,7 +26,7 @@
     {
       "role": "Lyons Township Assessor",
       "org": "Lyons Township",
-      "years": "2021–present",
+      "years": "2021\u2013present",
       "highlight": "30 years of property tax experience; firefighter and EMT"
     },
     {
@@ -87,5 +87,6 @@
     "record_available": false,
     "red_flags_count": 0,
     "computed_at": "2026-03-13"
-  }
+  },
+  "data_status": "limited"
 }
