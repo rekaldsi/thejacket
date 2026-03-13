@@ -4,11 +4,11 @@
   "party": "Democratic",
   "office": "U.S. Senate (Illinois)",
   "race_id": "us-senate-il-d-2026",
-  "data_status": "limited",
+  "data_status": "partial",
   "data_note": "Limited public information available. Check your county clerk's office or the Illinois State Board of Elections for filing info.",
-  "bio": "Kevin Ryan is listed as a Democratic candidate in Illinois' 2026 U.S. Senate primary field. His candidacy appears in statewide ballot reporting for the March 17 primary. (Source: Shaw Local primary ballot guide, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
-  "prior_office": "Not listed in source summary",
-  "website": "",
+  "bio": "Kevin Ryan is a Chicago Public Schools teacher (18 years at Lindblom High School, West Englewood) and U.S. Marine Corps Reserve officer. He served as a policy adviser at the U.S. Treasury under the Biden Administration and holds degrees from U of I, Oxford (diplomacy), and Georgetown. His central campaign platform is a constitutional amendment to establish campaign spending limits \u2014 making him one of the most relevant candidates to TheJacket's mission. (Source: Ballotpedia; ILSOS filing confirmed)",
+  "prior_office": "Policy Adviser, U.S. Treasury (Biden Administration)",
+  "website": "https://www.ballotpedia.org/Kevin_Ryan_(Illinois)",
   "jacket": {
     "total_raised": null,
     "data_date": "2026-03-13",
@@ -21,16 +21,44 @@
   "endorsements": [],
   "career_history": [
     {
-      "role": "Candidate — no confirmed prior office",
-      "org": "Public sources as of March 2026",
-      "years": "n/a",
-      "highlight": "No confirmed career history from public sources as of March 2026"
+      "role": "U.S. Marine Corps Reserve Officer",
+      "org": "United States Marine Corps",
+      "years": "2014\u2013present",
+      "highlight": "Active reservist; military service alongside teaching career"
+    },
+    {
+      "role": "Chicago Public Schools Teacher",
+      "org": "Lindblom Math & Science Academy, West Englewood",
+      "years": "2006\u2013present",
+      "highlight": "18 years in the classroom; brother died of overdose, which inspired teaching career"
+    },
+    {
+      "role": "Policy Adviser",
+      "org": "U.S. Treasury (Biden Administration)",
+      "years": "2021\u20132022",
+      "highlight": "Federal policy work on economic issues"
     }
   ],
   "policy_platform": [
     {
-      "topic": "Platform",
-      "position": "No detailed policy platform available from public sources as of March 2026."
+      "topic": "Campaign Finance Reform",
+      "position": "Constitutional amendment to establish campaign spending limits. Cites this as the root cause of all other political failures.",
+      "source": "https://ballotpedia.org/Kevin_Ryan_(Illinois)"
+    },
+    {
+      "topic": "Workers & Economy",
+      "position": "Living wage for all full-time workers. Medicare for All. Housing and education as basic rights.",
+      "source": "https://ballotpedia.org/Kevin_Ryan_(Illinois)"
+    },
+    {
+      "topic": "Criminal Justice",
+      "position": "Abolish the death penalty; prison reform; anti-poverty programs.",
+      "source": "https://ballotpedia.org/Kevin_Ryan_(Illinois)"
+    },
+    {
+      "topic": "Democracy Reform",
+      "position": "Term limits, age limits in Congress, filibuster reform, ranked choice voting.",
+      "source": "https://ballotpedia.org/Kevin_Ryan_(Illinois)"
     }
   ],
   "social_pulse": {

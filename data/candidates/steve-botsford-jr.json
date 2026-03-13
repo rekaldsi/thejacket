@@ -4,11 +4,11 @@
   "party": "Democratic",
   "office": "U.S. Senate (Illinois)",
   "race_id": "us-senate-il-d-2026",
-  "data_status": "limited",
+  "data_status": "partial",
   "data_note": "Limited public information available. Check your county clerk's office or the Illinois State Board of Elections for filing info.",
-  "bio": "Steve Botsford Jr. is listed among Democratic candidates for the 2026 Illinois U.S. Senate primary. His name appears in statewide candidate summaries for the March 17 ballot. (Source: Shaw Local primary ballot guide, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
-  "prior_office": "Not listed in source summary",
-  "website": "",
+  "bio": "Steve Botsford Jr. is a Chicago real estate manager (family-owned business) and former legislative aide to Rep. Tony C\u00e1rdenas (D-CA). He ran for Chicago City Council Ward 43 in 2023 (finished 5th). He holds degrees from Notre Dame (BA 2011), Georgetown (MA applied economics 2018), and Northwestern Kellogg (MBA 2021). His platform focuses on broadening the Democratic coalition and supply-side progressive economics. (Source: Ballotpedia; ILSOS filing confirmed)",
+  "prior_office": "Legislative Aide to Rep. Tony C\u00e1rdenas (D-CA); 2023 Chicago City Council candidate (Ward 43)",
+  "website": "https://ballotpedia.org/Steve_Botsford_Jr.",
   "jacket": {
     "total_raised": null,
     "data_date": "2026-03-13",
@@ -21,16 +21,39 @@
   "endorsements": [],
   "career_history": [
     {
-      "role": "Candidate — no confirmed prior office",
-      "org": "Public sources as of March 2026",
-      "years": "n/a",
-      "highlight": "No confirmed career history from public sources as of March 2026"
+      "role": "Real Estate Manager",
+      "org": "Family-owned business",
+      "years": "2021\u2013present",
+      "highlight": "Northwestern MBA 2021"
+    },
+    {
+      "role": "Legislative Aide",
+      "org": "Office of Rep. Tony C\u00e1rdenas (D-CA)",
+      "years": "pre-2021",
+      "highlight": "Congressional staff experience; Georgetown MA applied economics 2018"
+    },
+    {
+      "role": "Chicago City Council Candidate, Ward 43",
+      "org": "Chicago city election",
+      "years": "2023",
+      "highlight": "Finished 5th with 9% \u2014 first political campaign"
     }
   ],
   "policy_platform": [
     {
-      "topic": "Platform",
-      "position": "No detailed policy platform available from public sources as of March 2026."
+      "topic": "Cost of Living",
+      "position": "Build more housing, expand clean energy, cut regulatory barriers driving up prices.",
+      "source": "https://ballotpedia.org/Steve_Botsford_Jr."
+    },
+    {
+      "topic": "Democratic Party Reform",
+      "position": "Broaden the Democratic Party coalition; appeal to moderates and independents. Term limits and filibuster reform supporter.",
+      "source": "https://ballotpedia.org/Steve_Botsford_Jr."
+    },
+    {
+      "topic": "Economy",
+      "position": "Restore the American Dream and upward mobility. Supply-side progressive approach.",
+      "source": "https://ballotpedia.org/Steve_Botsford_Jr."
     }
   ],
   "social_pulse": {
