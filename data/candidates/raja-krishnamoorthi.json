@@ -5,7 +5,7 @@
   "office": "U.S. Senate (Illinois)",
   "race_id": "us-senate-il-d-2026",
   "bio": "Raja Krishnamoorthi is a U.S. Representative from Illinois's 8th congressional district who filed for the 2026 Democratic U.S. Senate primary. He has served in Congress since 2017 and previously worked in state and federal policy roles. (Source: FEC S6IL00482; Shaw Local primary ballot guide, March 5, 2026)",
-  "prior_office": "U.S. Representative (IL-08, 2017–present)",
+  "prior_office": "U.S. Representative (IL-08, 2017\u2013present)",
   "website": "https://rajaforil.com",
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Raja_Krishnamoorthi_official_photo.jpg",
   "jacket": {
@@ -20,7 +20,7 @@
         "category": "individual",
         "source": "https://www.opensecrets.org/members-of-congress/raja-krishnamoorthi/summary?cid=N00030676",
         "confirmed": false,
-        "amount_note": "Estimated career-total sector figure from OpenSecrets — exact Senate cycle amount unconfirmed"
+        "amount_note": "Estimated career-total sector figure from OpenSecrets \u2014 exact Senate cycle amount unconfirmed"
       },
       {
         "name": "Fairshake (Crypto Industry PAC)",
@@ -28,7 +28,7 @@
         "category": "pac",
         "source": "https://www.fec.gov/data/candidate/S6IL00482/",
         "confirmed": true,
-        "amount_note": "⚠️ MISSING AMOUNT — donor presence confirmed but specific dollar amount not yet sourced; needs FEC lookup"
+        "amount_note": "\u26a0\ufe0f MISSING AMOUNT \u2014 donor presence confirmed but specific dollar amount not yet sourced; needs FEC lookup"
       },
       {
         "name": "Pro-Israel / AIPAC-aligned donors",
@@ -36,7 +36,7 @@
         "category": "aipac",
         "source": "https://www.opensecrets.org/members-of-congress/raja-krishnamoorthi/summary?cid=N00030676",
         "confirmed": false,
-        "amount_note": "Estimated career-total sector figure from OpenSecrets — exact Senate cycle amount unconfirmed"
+        "amount_note": "Estimated career-total sector figure from OpenSecrets \u2014 exact Senate cycle amount unconfirmed"
       },
       {
         "name": "Shyam Sankar (Palantir CTO, ICE contractor)",
@@ -44,15 +44,15 @@
         "category": "individual",
         "source": "https://chicago.suntimes.com/politics/2025/12/08/krishnamoorthi-maga-donors",
         "confirmed": true,
-        "amount_note": "⚠️ MISSING AMOUNT — donor presence confirmed (Sun-Times reporting) but specific dollar amount not yet sourced; needs FEC lookup"
+        "amount_note": "\u26a0\ufe0f MISSING AMOUNT \u2014 donor presence confirmed (Sun-Times reporting) but specific dollar amount not yet sourced; needs FEC lookup"
       },
       {
-        "name": "Friends of Raja for Congress (prior House committee — transfer)",
+        "name": "Friends of Raja for Congress (prior House committee \u2014 transfer)",
         "amount": 19285171,
         "category": "individual",
         "source": "https://api.open.fec.gov/v1/candidate/S6IL00482/totals/?cycle=2026",
         "confirmed": true,
-        "amount_note": "FEC confirmed transfer from his prior House committee into Senate committee — largest single funding source"
+        "amount_note": "FEC confirmed transfer from his prior House committee into Senate committee \u2014 largest single funding source"
       },
       {
         "name": "Attorneys / Law Firms sector",
@@ -87,7 +87,7 @@
         "amount_note": "Career-total sector estimate from OpenSecrets; exact Senate-cycle AIPAC-network amount unconfirmed"
       }
     ],
-    "donors_note": "Donors list is PARTIAL — only notable/flagged donors are itemized. total_raised ($30,000,000) reflects full FEC aggregate total (S6IL00482). Full donor breakdown pending ETL import. Two donors have null amounts (Fairshake, Shyam Sankar) — amounts must be sourced from FEC. Two donors (Attorneys/Law Firms, AIPAC-aligned) are unconfirmed sector estimates from OpenSecrets, not exact Senate-cycle figures.",
+    "donors_note": "Donors list is PARTIAL \u2014 only notable/flagged donors are itemized. total_raised ($30,000,000) reflects full FEC aggregate total (S6IL00482). Full donor breakdown pending ETL import. Two donors have null amounts (Fairshake, Shyam Sankar) \u2014 amounts must be sourced from FEC. Two donors (Attorneys/Law Firms, AIPAC-aligned) are unconfirmed sector estimates from OpenSecrets, not exact Senate-cycle figures.",
     "fec_id": "S6IL00482"
   },
   "red_flags": [
@@ -108,7 +108,7 @@
     {
       "type": "dark-money",
       "label": "Donors with MAGA / Trump ties",
-      "detail": "The Chicago Sun-Times reported in December 2025 that Krishnamoorthi accepted donations from Trump-aligned donors and political figures, including Shyam Sankar, CTO of Palantir — a company with ICE contracts.",
+      "detail": "The Chicago Sun-Times reported in December 2025 that Krishnamoorthi accepted donations from Trump-aligned donors and political figures, including Shyam Sankar, CTO of Palantir \u2014 a company with ICE contracts.",
       "source": "https://chicago.suntimes.com/politics/2025/12/08/krishnamoorthi-maga-donors",
       "confirmed": true
     }
@@ -121,31 +121,31 @@
       "source": "https://clerk.house.gov/Votes/2024"
     },
     {
-      "bill": "H.R. 8034 — Israel Security Supplemental Appropriations Act, 2024",
+      "bill": "H.R. 8034 \u2014 Israel Security Supplemental Appropriations Act, 2024",
       "vote": "yes",
       "summary": "Voted yes on $26.4B in emergency military aid to Israel. Passed 366-58 on April 20, 2024.",
       "source": "https://clerk.house.gov/Votes/2024152"
     },
     {
-      "bill": "H.R. 8369 — Israel Security Assistance Support Act, 2024",
+      "bill": "H.R. 8369 \u2014 Israel Security Assistance Support Act, 2024",
       "vote": "yes",
       "summary": "Voted yes to direct Biden to release withheld weapons to Israel. Passed 334-79 on May 15, 2024.",
       "source": "https://www.govtrack.us/congress/votes/118-2024/h217"
     },
     {
-      "bill": "H.R. 7521 — Protecting Americans from Foreign Adversary Controlled Applications Act (TikTok ban), 2024",
+      "bill": "H.R. 7521 \u2014 Protecting Americans from Foreign Adversary Controlled Applications Act (TikTok ban), 2024",
       "vote": "yes",
       "summary": "Krishnamoorthi was a lead sponsor. Requires ByteDance to divest TikTok or face US ban. Passed 316-94 on April 19, 2024.",
       "source": "https://www.govtrack.us/congress/members/raja_krishnamoorthi/412701"
     },
     {
-      "bill": "H. Res. 1099 — Reaffirming Iran as largest state sponsor of terrorism, 2026",
+      "bill": "H. Res. 1099 \u2014 Reaffirming Iran as largest state sponsor of terrorism, 2026",
       "vote": "no",
       "summary": "Voted nay on this bipartisan resolution. One of only 53 members to vote no. Passed 372-53 on March 5, 2026.",
       "source": "https://repcloakroom.house.gov/vote_sheet/vote-series-i-thursday-march-5th-2026/"
     },
     {
-      "bill": "H.R. 2 — Laken Riley Act, 2026",
+      "bill": "H.R. 2 \u2014 Laken Riley Act, 2026",
       "vote": "no",
       "summary": "Voted nay on legislation requiring detention of undocumented immigrants arrested for certain crimes. Passed 341-79 on January 14, 2026. Kelly also voted no.",
       "source": "https://clerk.house.gov/Votes/202614"
@@ -156,23 +156,23 @@
     {
       "role": "U.S. Representative, IL-08",
       "org": "U.S. House of Representatives",
-      "years": "2017–present",
+      "years": "2017\u2013present",
       "highlight": "House Permanent Select Committee on Intelligence; House Select Committee on China"
     },
     {
       "role": "Deputy Treasurer of Illinois",
       "org": "Illinois State Treasurer's Office",
-      "years": "2009–2010"
+      "years": "2009\u20132010"
     },
     {
       "role": "Special Assistant Attorney General",
       "org": "Illinois Attorney General's Office",
-      "years": "2005–2006"
+      "years": "2005\u20132006"
     },
     {
       "role": "Associate",
       "org": "Sidley Austin LLP",
-      "years": "2003–2005"
+      "years": "2003\u20132005"
     }
   ],
   "policy_platform": [

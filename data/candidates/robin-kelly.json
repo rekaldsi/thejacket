@@ -5,7 +5,7 @@
   "office": "U.S. Senate (Illinois)",
   "race_id": "us-senate-il-d-2026",
   "bio": "Robin Kelly is a U.S. Representative from Illinois's 2nd congressional district and a leading candidate in the 2026 Democratic U.S. Senate primary. She has served in Congress since 2013 and is known for her gun violence prevention work. (Source: FEC S6IL00474; robinkelly.house.gov)",
-  "prior_office": "U.S. Representative (IL-02, 2013–present); Illinois State Representative; Cook County Treasurer",
+  "prior_office": "U.S. Representative (IL-02, 2013\u2013present); Illinois State Representative; Cook County Treasurer",
   "website": "https://robinforsenate.com",
   "photo_url": null,
   "jacket": {
@@ -20,8 +20,8 @@
         "category": "pac",
         "source": "https://www.fec.gov/data/candidate/S6IL00474/",
         "confirmed": false,
-        "amount_note": "⚠️ MISSING AMOUNT — historical donor category, presence unconfirmed for Senate race; needs FEC lookup for 2026 cycle",
-        "confirmed_note": "Unconfirmed — referenced from prior House race history, not verified for this Senate campaign"
+        "amount_note": "\u26a0\ufe0f MISSING AMOUNT \u2014 historical donor category, presence unconfirmed for Senate race; needs FEC lookup for 2026 cycle",
+        "confirmed_note": "Unconfirmed \u2014 referenced from prior House race history, not verified for this Senate campaign"
       },
       {
         "name": "J Street (centrist pro-Israel) donors (prior career)",
@@ -29,8 +29,8 @@
         "category": "aipac",
         "source": "https://www.opensecrets.org",
         "confirmed": false,
-        "amount_note": "⚠️ MISSING AMOUNT — historical donor category; needs OpenSecrets/FEC lookup for 2026 cycle",
-        "confirmed_note": "Unconfirmed — referenced from career history, not verified for this Senate campaign"
+        "amount_note": "\u26a0\ufe0f MISSING AMOUNT \u2014 historical donor category; needs OpenSecrets/FEC lookup for 2026 cycle",
+        "confirmed_note": "Unconfirmed \u2014 referenced from career history, not verified for this Senate campaign"
       },
       {
         "name": "American Mobilization PAC (Washington DC)",
@@ -54,7 +54,7 @@
         "category": "pac",
         "source": "https://api.open.fec.gov/v1/candidate/S6IL00474/totals/?cycle=2026",
         "confirmed": true,
-        "amount_note": "FEC aggregate 'other_political_committee_contributions' — PAC money from committees; individual PAC breakdown requires itemized receipt lookup"
+        "amount_note": "FEC aggregate 'other_political_committee_contributions' \u2014 PAC money from committees; individual PAC breakdown requires itemized receipt lookup"
       },
       {
         "name": "Transfer from prior Robin Kelly House committee",
@@ -62,40 +62,40 @@
         "category": "individual",
         "source": "https://api.open.fec.gov/v1/candidate/S6IL00474/totals/?cycle=2026",
         "confirmed": true,
-        "amount_note": "FEC confirmed $2,152,081 transferred from prior House committee — largest funding source"
+        "amount_note": "FEC confirmed $2,152,081 transferred from prior House committee \u2014 largest funding source"
       }
     ],
-    "donors_note": "Donors list is PARTIAL — only notable/flagged historical donor categories are noted; neither has a confirmed amount or confirmed Senate-cycle presence. total_raised ($4,000,000) reflects FEC aggregate total (S6IL00474). Full itemized donor breakdown pending ETL import. Both listed donors need sourcing.",
+    "donors_note": "Donors list is PARTIAL \u2014 only notable/flagged historical donor categories are noted; neither has a confirmed amount or confirmed Senate-cycle presence. total_raised ($4,000,000) reflects FEC aggregate total (S6IL00474). Full itemized donor breakdown pending ETL import. Both listed donors need sourcing.",
     "fec_id": "S6IL00474"
   },
   "red_flags": [],
   "key_votes": [
     {
-      "bill": "H.R. 8034 — Israel Security Supplemental Appropriations Act, 2024",
+      "bill": "H.R. 8034 \u2014 Israel Security Supplemental Appropriations Act, 2024",
       "vote": "yes",
       "summary": "Voted yes on $26.4B emergency military aid to Israel. Passed 366-58 on April 20, 2024.",
       "source": "https://clerk.house.gov/Votes/2024152"
     },
     {
-      "bill": "H.R. 8369 — Israel Security Assistance Support Act, 2024",
+      "bill": "H.R. 8369 \u2014 Israel Security Assistance Support Act, 2024",
       "vote": "yes",
       "summary": "Voted yes to release withheld weapons to Israel. Passed 334-79 on May 15, 2024.",
       "source": "https://www.govtrack.us/congress/votes/118-2024/h217"
     },
     {
-      "bill": "H.Con.Res. 21 — Remove US Forces from Yemen (War Powers Resolution), 2023",
+      "bill": "H.Con.Res. 21 \u2014 Remove US Forces from Yemen (War Powers Resolution), 2023",
       "vote": "yes",
       "summary": "Voted yes to direct removal of US military from Yemen operations not authorized by Congress. Failed 102-321 on April 27, 2023.",
       "source": "https://www.govtrack.us/congress/members/robin_kelly/412595"
     },
     {
-      "bill": "H.R. 1197 — PREEMIE Reauthorization Act of 2025",
+      "bill": "H.R. 1197 \u2014 PREEMIE Reauthorization Act of 2025",
       "vote": "yes",
       "summary": "Kelly was primary sponsor. Reauthorizes research programs to reduce premature births and infant mortality. Enacted 2025.",
       "source": "https://www.govtrack.us/congress/members/robin_kelly/412595"
     },
     {
-      "bill": "H.R. 4387 — Maternal Health Quality Improvement Act of 2021",
+      "bill": "H.R. 4387 \u2014 Maternal Health Quality Improvement Act of 2021",
       "vote": "yes",
       "summary": "Kelly sponsored legislation addressing maternal mortality crisis, particularly for Black women. Enacted 2022.",
       "source": "https://www.govtrack.us/congress/members/robin_kelly/412595"
@@ -106,24 +106,24 @@
     {
       "role": "U.S. Representative, IL-02",
       "org": "U.S. House of Representatives",
-      "years": "2013–present",
+      "years": "2013\u2013present",
       "highlight": "Chair, House Gun Violence Prevention Task Force"
     },
     {
       "role": "Illinois Treasurer",
       "org": "Office of the Illinois Treasurer",
-      "years": "2011–2013",
+      "years": "2011\u20132013",
       "highlight": "First African American State Treasurer"
     },
     {
       "role": "Illinois State Representative",
       "org": "Illinois General Assembly",
-      "years": "2003–2007"
+      "years": "2003\u20132007"
     },
     {
       "role": "Chief of Staff",
       "org": "Cook County Board of Commissioners",
-      "years": "2007–2011"
+      "years": "2007\u20132011"
     }
   ],
   "policy_platform": [
@@ -165,7 +165,7 @@
       "type": "positive"
     },
     {
-      "label": "Gun control legislative record — consistent",
+      "label": "Gun control legislative record \u2014 consistent",
       "value": true,
       "type": "positive"
     },

@@ -6,7 +6,7 @@
   "race_id": "us-senate-il-d-2026",
   "data_status": "partial",
   "data_note": "Limited public information available. Check your county clerk's office or the Illinois State Board of Elections for filing info.",
-  "bio": "Jonathan Dean is a Chicago solar energy development entrepreneur and former civil litigation attorney at ArentFox Schiff. He holds a BA from University of Minnesota (2005) and JD from Northwestern University School of Law (2013). His campaign platform centers on economic populism, democratic reform, and explicitly tracking AIPAC influence — making him one of the most ideologically aligned candidates with TheJacket's transparency mission. (Source: Ballotpedia candidate survey, March 5, 2026; ILSOS filing confirmed)",
+  "bio": "Jonathan Dean is a Chicago solar energy development entrepreneur and former civil litigation attorney at ArentFox Schiff. He holds a BA from University of Minnesota (2005) and JD from Northwestern University School of Law (2013). His campaign platform centers on economic populism, democratic reform, and explicitly tracking AIPAC influence \u2014 making him one of the most ideologically aligned candidates with TheJacket's transparency mission. (Source: Ballotpedia candidate survey, March 5, 2026; ILSOS filing confirmed)",
   "prior_office": "Civil Litigation Attorney, ArentFox Schiff",
   "website": "https://ballotpedia.org/Jonathan_Dean",
   "jacket": {
@@ -41,7 +41,7 @@
     {
       "role": "Solar Energy Entrepreneur",
       "org": "Private solar development",
-      "years": "2013–present",
+      "years": "2013\u2013present",
       "highlight": "Built clean energy business in Chicago"
     },
     {

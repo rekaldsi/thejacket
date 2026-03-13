@@ -18,8 +18,8 @@
   "red_flags": [
     {
       "type": "ethics",
-      "label": "No environmental credentials at time of appointment — appointed by political all",
-      "detail": "No environmental credentials at time of appointment — appointed by political ally (Pritzker) rather than on environmental merit",
+      "label": "No environmental credentials at time of appointment \u2014 appointed by political all",
+      "detail": "No environmental credentials at time of appointment \u2014 appointed by political ally (Pritzker) rather than on environmental merit",
       "source": "https://kirkwoodformwrd.com",
       "confirmed": false
     },
@@ -29,6 +29,12 @@
       "detail": "Challenger Sarah Bury (environmental lawyer with Sierra Club, EPA, and DOJ experience) argues McElroy Kirkwood is a machine appointee",
       "source": "https://kirkwoodformwrd.com",
       "confirmed": false
+    },
+    {
+      "label": "No environmental credentials at time of appointment \u2014 appointed by political ally (Pritzker) rather than on environmental merit"
+    },
+    {
+      "label": "Challenger Sarah Bury (environmental lawyer with Sierra Club, EPA, and DOJ experience) argues McElroy Kirkwood is a machine appointee"
     }
   ],
   "key_votes": [
@@ -65,7 +71,7 @@
     },
     {
       "topic": "Platform",
-      "position": "Modernize treatment plants — nutrient removal and water reuse",
+      "position": "Modernize treatment plants \u2014 nutrient removal and water reuse",
       "source": null
     },
     {

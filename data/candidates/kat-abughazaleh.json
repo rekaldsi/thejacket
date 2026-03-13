@@ -2,7 +2,7 @@
   "id": "kat-abughazaleh",
   "name": "Kat Abughazaleh",
   "party": "Democratic",
-  "office": "U.S. House — IL-09",
+  "office": "U.S. House \u2014 IL-09",
   "race_id": "il-09-us-house-d-2026",
   "bio": "Kat Abughazaleh is a Palestinian-American journalist and social media personality (formerly of Media Matters) running in the Democratic primary for Illinois's 9th congressional district. She has raised approximately $2.7M, largely through small-dollar online donations. (Source: FEC H6IL09178; Wikipedia)",
   "prior_office": null,
@@ -12,7 +12,7 @@
     "total_raised": 3359875,
     "data_date": "2026-03-13",
     "source": "https://www.fec.gov/data/candidate/H6IL09178/",
-    "note": "~$2.7M raised through Dec 31, 2025 per FEC filings. Average donation ~$32 — predominantly small-dollar. No corporate PAC money reported.",
+    "note": "~$2.7M raised through Dec 31, 2025 per FEC filings. Average donation ~$32 \u2014 predominantly small-dollar. No corporate PAC money reported.",
     "donors": [
       {
         "name": "Small-dollar individual donors (avg $32)",
@@ -22,12 +22,12 @@
         "confirmed": true
       },
       {
-        "name": "Small-dollar individual donors — unitemized (grassroots, avg ~$32)",
+        "name": "Small-dollar individual donors \u2014 unitemized (grassroots, avg ~$32)",
         "amount": 2247721,
         "category": "individual",
         "source": "https://api.open.fec.gov/v1/candidate/H6IL09178/totals/?cycle=2026",
         "confirmed": true,
-        "amount_note": "FEC confirmed: $2,247,721 in unitemized contributions — predominantly small-dollar grassroots"
+        "amount_note": "FEC confirmed: $2,247,721 in unitemized contributions \u2014 predominantly small-dollar grassroots"
       },
       {
         "name": "Individual itemized contributions",
@@ -43,7 +43,7 @@
         "category": "pac",
         "source": "https://api.open.fec.gov/v1/candidate/H6IL09178/totals/?cycle=2026",
         "confirmed": true,
-        "amount_note": "FEC confirmed: only $2,416 from other political committees — campaign explicitly rejects corporate PAC money"
+        "amount_note": "FEC confirmed: only $2,416 from other political committees \u2014 campaign explicitly rejects corporate PAC money"
       }
     ],
     "fec_id": "H6IL09178"
@@ -51,14 +51,14 @@
   "red_flags": [
     {
       "type": "criminal",
-      "label": "Federal DOJ Indictment — ICE Facility Protest (Oct 2025)",
+      "label": "Federal DOJ Indictment \u2014 ICE Facility Protest (Oct 2025)",
       "detail": "Abughazaleh was federally indicted in October 2025 on charges of allegedly physically hindering and impeding a federal ICE agent during a protest at a Broadview, IL immigration detention facility in September 2025. She and supporters characterize the charges as political prosecution. Her case was pending as of the March 2026 primary.",
       "source": "https://www.justice.gov",
       "confirmed": true
     },
     {
       "type": "criminal",
-      "label": "Federal indictment — impeding ICE agent (Oct 2025)",
+      "label": "Federal indictment \u2014 impeding ICE agent (Oct 2025)",
       "detail": "Abughazaleh was federally indicted in October 2025 for allegedly impeding an ICE agent at a Broadview, IL immigration detention facility protest in September 2025. Case pending as of March 2026. She has maintained the charges are politically motivated.",
       "source": "https://katforillinois.com/",
       "confirmed": true
@@ -79,13 +79,13 @@
     {
       "role": "Media Reporter / Journalist",
       "org": "Media Matters for America",
-      "years": "2020–2024",
+      "years": "2020\u20132024",
       "highlight": "Covered right-wing media and misinformation"
     },
     {
       "role": "TikTok Political Commentator",
       "org": "Independent / Social Media",
-      "years": "2020–2024",
+      "years": "2020\u20132024",
       "highlight": "Built large progressive audience through short-form video"
     }
   ],
@@ -120,7 +120,7 @@
   },
   "trust_indicators": [
     {
-      "label": "No corporate PAC money — 100% small-dollar funded",
+      "label": "No corporate PAC money \u2014 100% small-dollar funded",
       "value": true,
       "type": "positive"
     },

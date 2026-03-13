@@ -4,7 +4,7 @@
   "party": "Democratic",
   "office": "U.S. House (IL-07)",
   "race_id": "il-07-us-house-d-2026",
-  "bio": "Richard Boykin is listed as a Democratic candidate in the 2026 IL-07 open-seat primary. He previously served on the Cook County Board of Commissioners. (Source: Shaw Local candidate list, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/) Boykin served as chief of staff to Rep. Danny K. Davis (1997–2006) before winning Cook County Commissioner District 1 in 2014. He lost reelection in 2018 to Brandon Johnson's predecessor. He received a J.D. from the University of Dayton and a B.A. from Central State University. He ran for Cook County Board President in 2018, losing to Toni Preckwinkle. Currently lives in Oak Park, IL.",
+  "bio": "Richard Boykin is listed as a Democratic candidate in the 2026 IL-07 open-seat primary. He previously served on the Cook County Board of Commissioners. (Source: Shaw Local candidate list, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/) Boykin served as chief of staff to Rep. Danny K. Davis (1997\u20132006) before winning Cook County Commissioner District 1 in 2014. He lost reelection in 2018 to Brandon Johnson's predecessor. He received a J.D. from the University of Dayton and a B.A. from Central State University. He ran for Cook County Board President in 2018, losing to Toni Preckwinkle. Currently lives in Oak Park, IL.",
   "prior_office": "Former Cook County Commissioner",
   "website": "https://www.richardboykinforcongress.com",
   "jacket": {
@@ -13,7 +13,7 @@
     "source": "https://www.fec.gov/data/elections/house/IL/07/",
     "note": "~$383K raised as of Feb 25, 2026 (FEC). FEC ID: H6IL07370",
     "donors": [],
-    "donors_note": "No itemized donor breakdown available yet. total_raised reflects FEC aggregate total (H6IL07370) — detailed donor records pending ETL import.",
+    "donors_note": "No itemized donor breakdown available yet. total_raised reflects FEC aggregate total (H6IL07370) \u2014 detailed donor records pending ETL import.",
     "fec_id": "H6IL07370"
   },
   "red_flags": [],
@@ -37,7 +37,7 @@
     {
       "role": "Cook County Commissioner, District 1",
       "org": "Cook County Board of Commissioners",
-      "years": "2010–2018",
+      "years": "2010\u20132018",
       "highlight": "Former commissioner; lost reelection in 2018"
     },
     {
@@ -60,7 +60,7 @@
   },
   "trust_indicators": [
     {
-      "label": "Former elected official — public record exists",
+      "label": "Former elected official \u2014 public record exists",
       "value": true,
       "type": "neutral"
     },

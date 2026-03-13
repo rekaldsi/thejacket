@@ -13,7 +13,7 @@
     "source": "https://www.fec.gov/data/elections/house/IL/07/",
     "note": "~$55K raised as of Feb 25, 2026 (FEC). FEC ID: H0IL07167",
     "donors": [],
-    "donors_note": "No itemized donor breakdown available yet. total_raised reflects FEC aggregate total (H0IL07167) — detailed donor records pending ETL import.",
+    "donors_note": "No itemized donor breakdown available yet. total_raised reflects FEC aggregate total (H0IL07167) \u2014 detailed donor records pending ETL import.",
     "fec_id": "H0IL07167"
   },
   "red_flags": [],
@@ -24,7 +24,7 @@
     {
       "role": "U.S. Representative, IL-07",
       "org": "U.S. House of Representatives",
-      "years": "2023–present",
+      "years": "2023\u2013present",
       "highlight": "Defeated 30-year incumbent Danny K. Davis in 2022 Democratic primary"
     },
     {

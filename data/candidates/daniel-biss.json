@@ -2,10 +2,10 @@
   "id": "daniel-biss",
   "name": "Daniel Biss",
   "party": "Democratic",
-  "office": "U.S. House — IL-09",
+  "office": "U.S. House \u2014 IL-09",
   "race_id": "il-09-us-house-d-2026",
   "bio": "Daniel Biss is the Mayor of Evanston and a former Illinois state senator who ran for governor in 2018. He is running for the open IL-09 congressional seat with the endorsement of retiring Rep. Jan Schakowsky. He has raised approximately $2M. (Source: FEC H6IL09228; Wikipedia)",
-  "prior_office": "Mayor of Evanston (2021–present); Illinois State Senator (9th District); Illinois State Representative",
+  "prior_office": "Mayor of Evanston (2021\u2013present); Illinois State Senator (9th District); Illinois State Representative",
   "website": "https://www.danielbiss.com",
   "photo_url": null,
   "jacket": {
@@ -39,7 +39,7 @@
         "amount_note": "Estimated from Biss campaign statement that 85% of Q4 2025 donations were from Illinois donors out of $1.98M raised. Confirmed as pattern, not exact FEC line item."
       },
       {
-        "name": "Out-of-state donors — Massachusetts",
+        "name": "Out-of-state donors \u2014 Massachusetts",
         "amount": 26500,
         "category": "individual",
         "source": "https://dailynorthwestern.com/2026/02/02/city/abughazaleh-biss-fine-lead-fundraising-as-11-million-floods-congressional-race/",
@@ -47,7 +47,7 @@
         "amount_note": "Confirmed by Daily Northwestern FEC data analysis"
       },
       {
-        "name": "Out-of-state donors — New York",
+        "name": "Out-of-state donors \u2014 New York",
         "amount": 25000,
         "category": "individual",
         "source": "https://dailynorthwestern.com/2026/02/02/city/abughazaleh-biss-fine-lead-fundraising-as-11-million-floods-congressional-race/",
@@ -55,7 +55,7 @@
         "amount_note": "Confirmed by Daily Northwestern FEC data analysis"
       }
     ],
-    "donors_note": "No itemized donor breakdown available yet. total_raised reflects FEC aggregate total (H6IL09228) — detailed donor records pending ETL import.",
+    "donors_note": "No itemized donor breakdown available yet. total_raised reflects FEC aggregate total (H6IL09228) \u2014 detailed donor records pending ETL import.",
     "fec_id": "H6IL09228"
   },
   "red_flags": [
@@ -69,7 +69,7 @@
   ],
   "key_votes": [
     {
-      "bill": "Illinois SB 1 — Pension Reform Act, 2013",
+      "bill": "Illinois SB 1 \u2014 Pension Reform Act, 2013",
       "vote": "yes",
       "summary": "As IL state senator, Biss was lead champion of pension reform to address $100B+ state pension deficit. Passed with bipartisan support. Later struck down by IL Supreme Court as unconstitutional in 2015.",
       "source": "https://en.wikipedia.org/wiki/Daniel_Biss"
@@ -77,7 +77,7 @@
     {
       "bill": "Evanston Reparations Program (Resolution 126-R-19), 2021",
       "vote": "yes",
-      "summary": "As Evanston mayor, Biss signed the first city-funded reparations program in US history, providing $25,000 grants to Black residents affected by discriminatory housing policies (1919–1969). Funded through cannabis tax revenue.",
+      "summary": "As Evanston mayor, Biss signed the first city-funded reparations program in US history, providing $25,000 grants to Black residents affected by discriminatory housing policies (1919\u20131969). Funded through cannabis tax revenue.",
       "source": "https://www.cityofevanston.org/reparations"
     },
     {
@@ -98,24 +98,24 @@
     {
       "role": "Mayor of Evanston",
       "org": "City of Evanston",
-      "years": "2021–present",
-      "highlight": "Oversaw historic reparations program — first city-funded reparations in U.S."
+      "years": "2021\u2013present",
+      "highlight": "Oversaw historic reparations program \u2014 first city-funded reparations in U.S."
     },
     {
       "role": "Illinois State Senator",
       "org": "Illinois Senate",
-      "years": "2013–2019",
+      "years": "2013\u20132019",
       "highlight": "Led pension reform efforts; ran for Governor 2018"
     },
     {
       "role": "Illinois State Representative",
       "org": "Illinois General Assembly",
-      "years": "2011–2013"
+      "years": "2011\u20132013"
     },
     {
       "role": "Mathematics Professor",
       "org": "University of Chicago",
-      "years": "2005–2011",
+      "years": "2005\u20132011",
       "highlight": "PhD in Mathematics from MIT; research in topology"
     }
   ],
@@ -164,7 +164,7 @@
       "type": "positive"
     },
     {
-      "label": "MIT PhD — policy depth credential",
+      "label": "MIT PhD \u2014 policy depth credential",
       "value": true,
       "type": "positive"
     },

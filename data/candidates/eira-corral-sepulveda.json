@@ -1,12 +1,12 @@
 {
   "id": "eira-corral-sepulveda",
-  "name": "Eira Lizeth Corral Sepúlveda",
+  "name": "Eira Lizeth Corral Sep\u00falveda",
   "party": "Democratic",
   "office": "MWRD Commissioner",
   "race_id": "mwrd-6yr-2026",
   "incumbent": true,
-  "bio": "Eira Corral Sepúlveda is a Latina environmental policy professional and current MWRD Commissioner, first elected in 2020. She previously served as an environmental policy advisor and has deep ties to suburban Cook County environmental justice communities. She is a key voice for equity in infrastructure investment and climate resilience at MWRD.",
-  "prior_office": "MWRD Commissioner (elected 2020–present). Environmental policy background; civic work in Hanover Park, Berwyn, and North Riverside areas.",
+  "bio": "Eira Corral Sep\u00falveda is a Latina environmental policy professional and current MWRD Commissioner, first elected in 2020. She previously served as an environmental policy advisor and has deep ties to suburban Cook County environmental justice communities. She is a key voice for equity in infrastructure investment and climate resilience at MWRD.",
+  "prior_office": "MWRD Commissioner (elected 2020\u2013present). Environmental policy background; civic work in Hanover Park, Berwyn, and North Riverside areas.",
   "website": "https://www.eira4water.com",
   "jacket": {
     "total_raised": null,
@@ -20,7 +20,7 @@
     {
       "bill": "First Latina elected to MWRD board (Dec 2020)",
       "vote": "record",
-      "summary": "Incumbent MWRD Commissioner since Dec 8, 2020 — first Latina elected to MWRD board. Former Hanover Park Village Clerk (2009-2021). Environmental justice focus: climate resilience, MWRD as intersection of climate/infrastructure/workforce/equity.",
+      "summary": "Incumbent MWRD Commissioner since Dec 8, 2020 \u2014 first Latina elected to MWRD board. Former Hanover Park Village Clerk (2009-2021). Environmental justice focus: climate resilience, MWRD as intersection of climate/infrastructure/workforce/equity.",
       "source": "https://www.eira4water.com"
     },
     {
@@ -38,7 +38,7 @@
     },
     {
       "topic": "Platform",
-      "position": "Environmental justice — equitable inclusion of diverse communities in infrastructure spending",
+      "position": "Environmental justice \u2014 equitable inclusion of diverse communities in infrastructure spending",
       "source": null
     },
     {
@@ -58,7 +58,7 @@
     },
     {
       "topic": "Platform",
-      "position": "Community ambassador role — annual Monarch Fests and grassroots outreach",
+      "position": "Community ambassador role \u2014 annual Monarch Fests and grassroots outreach",
       "source": null
     }
   ],
