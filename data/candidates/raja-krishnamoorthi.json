@@ -5,7 +5,7 @@
   "office": "U.S. Senate (Illinois)",
   "race_id": "us-senate-il-d-2026",
   "bio": "Raja Krishnamoorthi is a U.S. Representative from Illinois's 8th congressional district who filed for the 2026 Democratic U.S. Senate primary. He has served in Congress since 2017 and previously worked in state and federal policy roles. (Source: FEC S6IL00482; Shaw Local primary ballot guide, March 5, 2026)",
-  "prior_office": "U.S. Representative (IL-08, 2017–present)",
+  "prior_office": "U.S. Representative (IL-08, 2017\u2013present)",
   "website": "https://www.raja2026.com",
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Raja_Krishnamoorthi_official_photo.jpg",
   "jacket": {
@@ -14,11 +14,36 @@
     "source": "https://www.fec.gov/data/candidate/S6IL00482/",
     "note": "Approximately $30M raised as of March 2026 per The Intercept and Chicago Business reporting. Detailed donor breakdown pending FEC ETL.",
     "donors": [
-      { "name": "Attorneys / Law Firms", "amount": 1000000, "category": "individual", "source": "https://www.opensecrets.org/members-of-congress/raja-krishnamoorthi/summary?cid=N00030676", "confirmed": false },
-      { "name": "Fairshake (Crypto Industry PAC)", "amount": null, "category": "pac", "source": "https://www.fec.gov/data/candidate/S6IL00482/", "confirmed": true },
-      { "name": "Pro-Israel / AIPAC-aligned donors", "amount": 250000, "category": "aipac", "source": "https://www.opensecrets.org/members-of-congress/raja-krishnamoorthi/summary?cid=N00030676", "confirmed": false },
-      { "name": "Shyam Sankar (Palantir CTO, ICE contractor)", "amount": null, "category": "individual", "source": "https://chicago.suntimes.com/politics/2025/12/08/krishnamoorthi-maga-donors", "confirmed": true }
-    ]
+      {
+        "name": "Attorneys / Law Firms",
+        "amount": 1000000,
+        "category": "individual",
+        "source": "https://www.opensecrets.org/members-of-congress/raja-krishnamoorthi/summary?cid=N00030676",
+        "confirmed": false
+      },
+      {
+        "name": "Fairshake (Crypto Industry PAC)",
+        "amount": null,
+        "category": "pac",
+        "source": "https://www.fec.gov/data/candidate/S6IL00482/",
+        "confirmed": true
+      },
+      {
+        "name": "Pro-Israel / AIPAC-aligned donors",
+        "amount": 250000,
+        "category": "aipac",
+        "source": "https://www.opensecrets.org/members-of-congress/raja-krishnamoorthi/summary?cid=N00030676",
+        "confirmed": false
+      },
+      {
+        "name": "Shyam Sankar (Palantir CTO, ICE contractor)",
+        "amount": null,
+        "category": "individual",
+        "source": "https://chicago.suntimes.com/politics/2025/12/08/krishnamoorthi-maga-donors",
+        "confirmed": true
+      }
+    ],
+    "fec_id": "S6IL00482"
   },
   "red_flags": [
     {
@@ -38,7 +63,7 @@
     {
       "type": "dark-money",
       "label": "Donors with MAGA / Trump ties",
-      "detail": "The Chicago Sun-Times reported in December 2025 that Krishnamoorthi accepted donations from Trump-aligned donors and political figures, including Shyam Sankar, CTO of Palantir — a company with ICE contracts.",
+      "detail": "The Chicago Sun-Times reported in December 2025 that Krishnamoorthi accepted donations from Trump-aligned donors and political figures, including Shyam Sankar, CTO of Palantir \u2014 a company with ICE contracts.",
       "source": "https://chicago.suntimes.com/politics/2025/12/08/krishnamoorthi-maga-donors",
       "confirmed": true
     }

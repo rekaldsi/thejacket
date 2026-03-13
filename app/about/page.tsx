@@ -83,8 +83,19 @@ export default function AboutPage() {
       </section>
 
       <section className="border border-jacket-border p-6">
-        <h2 className="font-mono text-2xl uppercase">Contact</h2>
-        <p className="mt-3 text-zinc-300">editor@thejacket.cc</p>
+        <h2 className="font-mono text-2xl uppercase">Submit a Correction</h2>
+        <p className="mt-3 text-zinc-300">
+          Found an error or have a sourced update? Open an issue on{" "}
+          <a
+            href="https://github.com/rekaldsi/thejacket/issues"
+            target="_blank"
+            rel="noreferrer"
+            className="text-jacket-amber underline"
+          >
+            GitHub
+          </a>
+          . All corrections must include a source URL.
+        </p>
       </section>
     </div>
   );

@@ -5,15 +5,16 @@
   "office": "Cook County Board President",
   "race_id": "cook-county-board-president-d-2026",
   "bio": "Toni Preckwinkle is the incumbent Cook County Board President, first elected in 2010, and chair of the Cook County Democratic Party. She previously served as a Chicago alderperson representing the 4th Ward for nearly two decades. (Source: Cook County official website; WTTW Voter Guide 2026)",
-  "prior_office": "Cook County Board President (2010–present); Chicago Alderman (4th Ward, 1991–2010)",
-  "website": null,
+  "prior_office": "Cook County Board President (2010\u2013present); Chicago Alderman (4th Ward, 1991\u20132010)",
+  "website": "https://www.cookcountyil.gov/person/toni-preckwinkle",
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Toni_Preckwinkle_press_conference_210226-Z-AZ071-3051_%281%29.jpg",
   "jacket": {
     "total_raised": null,
     "data_date": "2026-03-13",
     "source": "https://www.elections.il.gov/CampaignDisclosure",
-    "note": "County race — ILSBE filing, not FEC. Totals pending ETL import.",
-    "donors": []
+    "note": "County race \u2014 ILSBE filing, not FEC.",
+    "donors": [],
+    "fec_id": null
   },
   "red_flags": [
     {
@@ -25,7 +26,7 @@
     },
     {
       "type": "ethics",
-      "label": "Soda Tax Backlash — Revenue Motive Admitted",
+      "label": "Soda Tax Backlash \u2014 Revenue Motive Admitted",
       "detail": "Preckwinkle championed a controversial penny-per-ounce soda tax in 2017, which reached 87% disapproval in polls and was repealed. She later admitted the primary motivation was revenue, not public health.",
       "source": "https://www.chicagotribune.com/business/ct-biz-cook-county-soda-tax-repeal-20171010-story.html",
       "confirmed": true
@@ -33,6 +34,9 @@
   ],
   "key_votes": [],
   "endorsements": [
-    { "org": "Chicago Mayor Brandon Johnson", "significance": "Mayoral endorsement signals progressive coalition alignment" }
+    {
+      "org": "Chicago Mayor Brandon Johnson",
+      "significance": "Mayoral endorsement signals progressive coalition alignment"
+    }
   ]
 }

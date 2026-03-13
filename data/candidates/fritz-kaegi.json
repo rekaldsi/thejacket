@@ -6,15 +6,17 @@
   "race_id": "cook-county-assessor-d-2026",
   "bio": "Fritz Kaegi is the incumbent Cook County Assessor and a candidate in the 2026 Democratic primary. The assessor's office oversees property assessment values used in county tax billing. (Source: scout ballot context, March 13, 2026)",
   "prior_office": "Cook County Assessor",
-  "website": "https://www.fritzkaegi.com",
+  "website": "https://www.cookcountyassessor.com/about-assessor-fritz-kaegi",
   "jacket": {
     "total_raised": null,
     "data_date": "2026-03-13",
     "source": "https://www.elections.il.gov/CampaignDisclosure",
-    "note": "ILSBE committee totals pending ETL import.",
-    "donors": []
+    "note": "County race \u2014 ILSBE filing, not FEC.",
+    "donors": [],
+    "fec_id": null
   },
   "red_flags": [],
   "key_votes": [],
-  "endorsements": []
+  "endorsements": [],
+  "photo_url": null
 }

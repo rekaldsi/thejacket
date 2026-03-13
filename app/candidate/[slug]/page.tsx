@@ -57,16 +57,28 @@ export default function CandidatePage({ params }: { params: { slug: string } }) 
                 <span className={`rounded-full px-2 py-0.5 text-xs ${getPartyPillClasses(candidate.party)}`}>{candidate.party}</span>
                 <span className="rounded-full bg-zinc-900 px-2 py-0.5 text-xs text-zinc-300">{candidate.office}</span>
               </div>
-              {candidate.website ? (
-                <Link
-                  href={candidate.website}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="mt-3 inline-block text-xs text-jacket-amber hover:underline"
-                >
-                  Official website
-                </Link>
-              ) : null}
+              <div className="mt-3 flex flex-wrap gap-3">
+                {candidate.website ? (
+                  <a
+                    href={candidate.website}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-xs text-jacket-amber hover:underline"
+                  >
+                    ↗ Campaign site
+                  </a>
+                ) : null}
+                {candidate.jacket.fec_id ? (
+                  <a
+                    href={`https://www.fec.gov/data/candidate/${candidate.jacket.fec_id}/`}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-xs text-zinc-400 hover:text-jacket-amber hover:underline"
+                  >
+                    ↗ FEC filing ({candidate.jacket.fec_id})
+                  </a>
+                ) : null}
+              </div>
             </div>
           </div>
 

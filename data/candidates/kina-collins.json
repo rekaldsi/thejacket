@@ -8,13 +8,15 @@
   "prior_office": "Community organizer; prior congressional candidate",
   "website": "",
   "jacket": {
-    "total_raised": null,
+    "total_raised": 55000,
     "data_date": "2026-03-13",
     "source": "https://www.fec.gov/data/elections/house/IL/07/",
-    "note": "FEC candidate totals pending ETL import.",
-    "donors": []
+    "note": "~$55K raised as of Feb 25, 2026 (FEC). FEC ID: H0IL07167",
+    "donors": [],
+    "fec_id": "H0IL07167"
   },
   "red_flags": [],
   "key_votes": [],
-  "endorsements": []
+  "endorsements": [],
+  "photo_url": null
 }
