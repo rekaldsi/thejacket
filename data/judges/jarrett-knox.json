@@ -1,0 +1,21 @@
+{
+  "id": "jarrett-knox",
+  "name": "Jarrett Knox",
+  "party": "Democratic",
+  "office": "circuit",
+  "subcircuit": "11th",
+  "race_id": "judicial-11th-subcircuit",
+  "vacancy_of": "Open seat",
+  "bio": "Jarrett Knox has devoted his entire legal career to public interest law. He received all positive ratings from the Alliance bar associations. His commitment to public service distinguishes him from his opponent in this two-candidate race. Knox represents the kind of public-interest-focused legal background that reform advocates typically seek in judicial candidates.",
+  "background": "Entire career in public interest law.",
+  "years_experience": 14,
+  "bar_ratings": {
+    "alliance_rating": "Q",
+    "alliance_detail": "All positive ratings from Alliance bar associations",
+    "cba_rating": "R",
+    "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx"
+  },
+  "red_flags": [],
+  "uncontested": false,
+  "photo_url": null
+}

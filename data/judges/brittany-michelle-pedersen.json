@@ -1,0 +1,36 @@
+{
+  "id": "brittany-michelle-pedersen",
+  "name": "Brittany Michelle Pedersen",
+  "party": "Democratic",
+  "office": "circuit",
+  "subcircuit": "13th",
+  "race_id": "judicial-13th-subcircuit",
+  "vacancy_of": "Open seat",
+  "bio": "Brittany Michelle Pedersen is running uncontested for a 13th Subcircuit seat. She faces a striking background: three DUI charges (one dismissed, two reduced to reckless driving). She previously failed judicial bids in Kane County while living there — receiving negative bar ratings — and subsequently moved to Cook County to run again. She has stated publicly: \"I believe that people deserve second chances, and third chances, and maybe sometimes a fourth.\" She will win this seat unopposed.",
+  "background": "Attorney. Moved from Kane County to Cook County to run for judge. Previously ran in Kane County with negative bar ratings.",
+  "years_experience": 12,
+  "bar_ratings": {
+    "alliance_rating": "Pending",
+    "alliance_detail": "Ratings not available from Alliance — previously received negative ratings in Kane County judicial bids",
+    "cba_rating": "Pending",
+    "source": "https://www.injusticewatch.org/judges/judicial-elections/2026-primary/"
+  },
+  "red_flags": [
+    {
+      "type": "criminal",
+      "label": "3 DUI charges — 1 dismissed, 2 reduced to reckless driving",
+      "detail": "Brittany Michelle Pedersen has faced three DUI charges during her legal career. One charge was dismissed and two were reduced to reckless driving. An attorney seeking to become a judge is held to a higher standard of conduct; these charges raise questions about her judgment and fitness for the bench.",
+      "source": "https://www.injusticewatch.org/judges/judicial-elections/2026-primary/",
+      "confirmed": true
+    },
+    {
+      "type": "ethics",
+      "label": "Moved to Cook County specifically to run; previously failed judicial bids in Kane County with negative ratings",
+      "detail": "Pedersen previously sought judgeships in Kane County — where she lived — and received negative bar ratings. She then relocated to Cook County and is now running uncontested for a Cook County circuit court seat. Her own public quote: \"I believe that people deserve second chances, and third chances, and maybe sometimes a fourth.\" The legal community's prior negative assessments raise concerns about qualifications that venue-shopping cannot solve.",
+      "source": "https://www.injusticewatch.org/judges/judicial-elections/2026-primary/",
+      "confirmed": true
+    }
+  ],
+  "uncontested": true,
+  "photo_url": null
+}

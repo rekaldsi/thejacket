@@ -1,0 +1,29 @@
+{
+  "id": "natalia-moore",
+  "name": "Natalia Moore",
+  "party": "Democratic",
+  "office": "circuit",
+  "subcircuit": "17th",
+  "race_id": "judicial-17th-subcircuit-brooks-vacancy",
+  "vacancy_of": "Judge Brooks",
+  "bio": "Natalia Moore received Not Recommended ratings from every Alliance bar association that evaluated her, and a Not Recommended from the CBA. Both candidates in this 17th Subcircuit race received universally negative bar ratings, creating a race with no bar-endorsed option for voters.",
+  "background": "Attorney — civil practice.",
+  "years_experience": 7,
+  "bar_ratings": {
+    "alliance_rating": "NR",
+    "alliance_detail": "Not Recommended — unanimous from all Alliance bar associations",
+    "cba_rating": "NR",
+    "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx"
+  },
+  "red_flags": [
+    {
+      "type": "ethics",
+      "label": "Universal Not Recommended from all bar associations",
+      "detail": "Every bar association in the Alliance of Bar Associations for Judicial Screening, as well as the Chicago Bar Association, rated Natalia Moore as Not Recommended. This unanimous rejection from the legal community raises serious concerns about her fitness for the bench.",
+      "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx",
+      "confirmed": true
+    }
+  ],
+  "uncontested": false,
+  "photo_url": null
+}

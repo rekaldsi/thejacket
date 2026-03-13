@@ -1,0 +1,22 @@
+{
+  "id": "judith-c-rice",
+  "name": "Judith C. Rice",
+  "party": "Democratic",
+  "office": "appellate",
+  "subcircuit": "appellate-1st-district",
+  "race_id": "judicial-appellate-1st-district-hoffman-vacancy",
+  "vacancy_of": "Judge Hoffman",
+  "bio": "Judge Judith C. Rice has served as a Cook County Circuit Court judge since 2014. Since 2021, she has presided over the Domestic Violence Division — one of the most demanding and sensitive courtrooms in the county system. She received unanimously positive ratings from all 13 Alliance bar associations, one of the strongest assessments in this election cycle. She is the clear choice of the legal community for this appellate court elevation.",
+  "background": "Cook County Circuit Court judge since 2014. Presiding Judge, Domestic Violence Division since 2021.",
+  "years_experience": 12,
+  "bar_ratings": {
+    "alliance_rating": "Q",
+    "alliance_detail": "Unanimously positive from all 13 Alliance bar associations — one of the strongest ratings in the cycle",
+    "cba_rating": "R",
+    "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx"
+  },
+  "red_flags": [],
+  "uncontested": true,
+  "website": "https://judgerice.com",
+  "photo_url": null
+}

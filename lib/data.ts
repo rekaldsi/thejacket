@@ -1,9 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
 import races from "@/data/races.json";
-import type { Candidate, Race } from "@/lib/types";
+import type { Candidate, Judge, Race } from "@/lib/types";
 
 const candidatesDir = path.join(process.cwd(), "data", "candidates");
+const judgesDir = path.join(process.cwd(), "data", "judges");
 
 export function getRaces(): Race[] {
   return races as Race[];
@@ -34,4 +35,24 @@ export function getCandidatesByRaceId(raceId: string): Candidate[] {
 
 export function getRaceBySlug(slug: string): Race | null {
   return getRaces().find((race) => race.slug === slug) ?? null;
+}
+
+export function getAllJudges(): Judge[] {
+  const files = fs.readdirSync(judgesDir);
+  return files
+    .filter((file) => file.endsWith(".json"))
+    .map((file) => {
+      const fullPath = path.join(judgesDir, file);
+      const contents = fs.readFileSync(fullPath, "utf-8");
+      return JSON.parse(contents) as Judge;
+    })
+    .sort((a, b) => a.name.localeCompare(b.name));
+}
+
+export function getJudgesByRaceId(raceId: string): Judge[] {
+  return getAllJudges().filter((judge) => judge.race_id === raceId);
+}
+
+export function getJudicialRaces(): Race[] {
+  return getRaces().filter((race) => race.note === "judicial");
 }

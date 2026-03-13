@@ -73,5 +73,152 @@
     "candidateCount": 1,
     "uncontested": true,
     "note": "Thomas Dart is running unopposed. 20-year incumbent."
+  },
+  {
+    "id": "judicial-19th-subcircuit-kane-vacancy",
+    "slug": "judicial-19th-subcircuit-kane-vacancy",
+    "title": "Circuit Court \u2014 19th Subcircuit (Kane Vacancy)",
+    "jurisdiction": "Cook County Circuit Court \u2014 19th Subcircuit",
+    "description": "The most alarming judicial race in 2026: one candidate (John Harkins) has zero legal experience and is backed by his brother-in-law Alderman Matt O\u2019Shea and employer Sheriff Tom Dart. All bar associations rate him Not Recommended. Qualified candidate Dave Condron (25 years, City of Chicago Law Dept) is the clear alternative.",
+    "party": "Democratic",
+    "candidateCount": 3,
+    "note": "judicial"
+  },
+  {
+    "id": "judicial-1st-subcircuit-balanoff-vacancy",
+    "slug": "judicial-1st-subcircuit-balanoff-vacancy",
+    "title": "Circuit Court \u2014 1st Subcircuit (Balanoff Vacancy)",
+    "jurisdiction": "Cook County Circuit Court \u2014 1st Subcircuit",
+    "description": "Natalie L. Howse is running uncontested despite unanimous Not Recommended ratings from every bar association. She will become a Cook County judge because the machine left no room for opposition.",
+    "party": "Democratic",
+    "candidateCount": 1,
+    "uncontested": true,
+    "note": "judicial"
+  },
+  {
+    "id": "judicial-13th-subcircuit",
+    "slug": "judicial-13th-subcircuit",
+    "title": "Circuit Court \u2014 13th Subcircuit",
+    "jurisdiction": "Cook County Circuit Court \u2014 13th Subcircuit",
+    "description": "Brittany Michelle Pedersen runs uncontested with 3 DUI charges on her record. She moved from Kane County \u2014 where she had previously failed judicial bids with negative bar ratings \u2014 specifically to run here.",
+    "party": "Democratic",
+    "candidateCount": 1,
+    "uncontested": true,
+    "note": "judicial"
+  },
+  {
+    "id": "judicial-countywide-coghlan-vacancy",
+    "slug": "judicial-countywide-coghlan-vacancy",
+    "title": "Circuit Court \u2014 Countywide (Coghlan Vacancy)",
+    "jurisdiction": "Cook County Circuit Court \u2014 Countywide",
+    "description": "Appointed incumbent Michael Cabonargi faces ethics questions and reported campaign finance violations per Injustice Watch and the Sun-Times. Ashonta C. Rice is a clean, unanimously-qualified alternative.",
+    "party": "Democratic",
+    "candidateCount": 2,
+    "note": "judicial"
+  },
+  {
+    "id": "judicial-8th-subcircuit-mivka-vacancy",
+    "slug": "judicial-8th-subcircuit-mivka-vacancy",
+    "title": "Circuit Court \u2014 8th Subcircuit (Mivka Vacancy)",
+    "jurisdiction": "Cook County Circuit Court \u2014 8th Subcircuit",
+    "description": "Dan Balanoff \u2014 son and grandson of Cook County judges \u2014 received 9 NR/NQ ratings from bar associations. Kathleen Carole Morrison, while not universally praised, is the clearly more qualified option.",
+    "party": "Democratic",
+    "candidateCount": 2,
+    "note": "judicial"
+  },
+  {
+    "id": "judicial-17th-subcircuit-brooks-vacancy",
+    "slug": "judicial-17th-subcircuit-brooks-vacancy",
+    "title": "Circuit Court \u2014 17th Subcircuit (Brooks Vacancy)",
+    "jurisdiction": "Cook County Circuit Court \u2014 17th Subcircuit",
+    "description": "Both candidates received near-universal or universal Not Recommended ratings from bar associations. Voters in the 17th Subcircuit have no bar-endorsed option \u2014 a troubling situation the machine created.",
+    "party": "Democratic",
+    "candidateCount": 2,
+    "note": "judicial"
+  },
+  {
+    "id": "judicial-16th-subcircuit-mendoza-vacancy",
+    "slug": "judicial-16th-subcircuit-mendoza-vacancy",
+    "title": "Circuit Court \u2014 16th Subcircuit (Mendoza Vacancy)",
+    "jurisdiction": "Cook County Circuit Court \u2014 16th Subcircuit",
+    "description": "Jessica Karina Velez runs uncontested despite 6 NR/NQ ratings from bar associations. Another example of an uncontested seat allowing an unqualified candidate to obtain a judgeship.",
+    "party": "Democratic",
+    "candidateCount": 1,
+    "uncontested": true,
+    "note": "judicial"
+  },
+  {
+    "id": "judicial-countywide-karkula-vacancy",
+    "slug": "judicial-countywide-karkula-vacancy",
+    "title": "Circuit Court \u2014 Countywide (Karkula Vacancy)",
+    "jurisdiction": "Cook County Circuit Court \u2014 Countywide",
+    "description": "D. Anthony Thedford is unanimously Qualified by bar associations but runs uncontested. Injustice Watch reported a history of failing to pay income taxes \u2014 a notable concern for someone who will hold others accountable under the law.",
+    "party": "Democratic",
+    "candidateCount": 1,
+    "uncontested": true,
+    "note": "judicial"
+  },
+  {
+    "id": "judicial-countywide-cobbs-vacancy",
+    "slug": "judicial-countywide-cobbs-vacancy",
+    "title": "Circuit Court \u2014 Countywide (Cobbs Vacancy)",
+    "jurisdiction": "Cook County Circuit Court \u2014 Countywide",
+    "description": "Luz Maria Toledo (ASA since 2007, unanimously Qualified) vs. appointed incumbent Linda Sackey (clerked for IL Supreme Court Chief Justice Theis, mixed Alliance ratings). Both are qualified candidates; this is a genuine merit-based choice.",
+    "party": "Democratic",
+    "candidateCount": 2,
+    "note": "judicial"
+  },
+  {
+    "id": "judicial-1st-subcircuit-walker-vacancy",
+    "slug": "judicial-1st-subcircuit-walker-vacancy",
+    "title": "Circuit Court \u2014 1st Subcircuit (Walker Vacancy)",
+    "jurisdiction": "Cook County Circuit Court \u2014 1st Subcircuit",
+    "description": "Three-way race. Tiffany N. Brooks received universal NR ratings from all bar associations. Incumbent Judge Ginger Odom and public defender Ashley Greer Shambley are both positively rated.",
+    "party": "Democratic",
+    "candidateCount": 3,
+    "note": "judicial"
+  },
+  {
+    "id": "judicial-11th-subcircuit",
+    "slug": "judicial-11th-subcircuit",
+    "title": "Circuit Court \u2014 11th Subcircuit",
+    "jurisdiction": "Cook County Circuit Court \u2014 11th Subcircuit",
+    "description": "Jarrett Knox (entire career in public interest law) vs. John Carrozza (private practice, tied composite Alliance score). Both positively rated \u2014 this race comes down to values and background.",
+    "party": "Democratic",
+    "candidateCount": 2,
+    "note": "judicial"
+  },
+  {
+    "id": "judicial-countywide-burke-vacancy",
+    "slug": "judicial-countywide-burke-vacancy",
+    "title": "Circuit Court \u2014 Countywide (Burke Vacancy)",
+    "jurisdiction": "Cook County Circuit Court \u2014 Countywide",
+    "description": "Steven Q. McKenzie (City of Chicago Law Dept since 2006) runs uncontested with mostly positive bar ratings and a CBA Recommended. Minor note: one NR from the PRBBA.",
+    "party": "Democratic",
+    "candidateCount": 1,
+    "uncontested": true,
+    "note": "judicial"
+  },
+  {
+    "id": "judicial-countywide-hooks-vacancy",
+    "slug": "judicial-countywide-hooks-vacancy",
+    "title": "Circuit Court \u2014 Countywide (Hooks Vacancy)",
+    "jurisdiction": "Cook County Circuit Court \u2014 Countywide",
+    "description": "Ava George Stewart runs uncontested with some of the strongest bar ratings in the 2026 cycle \u2014 unanimous Qualified plus two Highly Recommended from Alliance associations.",
+    "party": "Democratic",
+    "candidateCount": 1,
+    "uncontested": true,
+    "note": "judicial"
+  },
+  {
+    "id": "judicial-appellate-1st-district-hoffman-vacancy",
+    "slug": "judicial-appellate-1st-district-hoffman-vacancy",
+    "title": "Appellate Court \u2014 1st District (Hoffman Vacancy)",
+    "jurisdiction": "Illinois Appellate Court \u2014 1st District",
+    "description": "Judge Judith C. Rice runs uncontested for appellate court elevation. Incumbent circuit judge since 2014, presiding the Domestic Violence Division since 2021. Unanimously positive from all 13 Alliance bar associations \u2014 one of the strongest records in the cycle.",
+    "party": "Democratic",
+    "candidateCount": 1,
+    "uncontested": true,
+    "note": "judicial"
   }
 ]

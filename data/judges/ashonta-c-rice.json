@@ -1,0 +1,22 @@
+{
+  "id": "ashonta-c-rice",
+  "name": "Ashonta C. Rice",
+  "party": "Democratic",
+  "office": "circuit",
+  "subcircuit": "countywide",
+  "race_id": "judicial-countywide-coghlan-vacancy",
+  "vacancy_of": "Judge Coghlan",
+  "bio": "Ashonta C. Rice is a private attorney with a practice spanning family law, real estate, and criminal defense. She served as an Assistant Public Guardian from 2004 to 2007, giving her experience with vulnerable populations in the court system. She received unanimous Qualified ratings from the Alliance of Bar Associations and a Recommended from the CBA.",
+  "background": "Private attorney — family, real estate, criminal. Former Assistant Public Guardian (Cook County) 2004–2007.",
+  "years_experience": 22,
+  "bar_ratings": {
+    "alliance_rating": "Q",
+    "alliance_detail": "Qualified — unanimous from all Alliance bar associations",
+    "cba_rating": "R",
+    "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx"
+  },
+  "red_flags": [],
+  "uncontested": false,
+  "website": "https://ashontaforjudge.com",
+  "photo_url": null
+}

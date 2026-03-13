@@ -4,11 +4,11 @@
   "party": "Democratic",
   "office": "U.S. Senate (Illinois)",
   "race_id": "us-senate-il-d-2026",
-  "data_status": "limited",
+  "data_status": "partial",
   "data_note": "Limited public information available. Check your county clerk's office or the Illinois State Board of Elections for filing info.",
-  "bio": "Bryan Maxwell is listed among candidates in the Democratic primary for Illinois' open U.S. Senate seat in 2026. Public ballot reporting includes him in the March 17 primary field. (Source: Shaw Local primary ballot guide, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
-  "prior_office": "Not listed in source summary",
-  "website": "",
+  "bio": "Bryan Maxwell is an Assistant Research Scientist and Project Engineer at the Illinois Sustainable Technology Center at the University of Illinois Urbana-Champaign. He is running in the U.S. Senate Democratic primary on an anti-war, progressive platform. Completed a Ballotpedia Candidate Connection survey in 2025. (Source: Ballotpedia; ILSOS filing confirmed)",
+  "prior_office": "Research Scientist, University of Illinois",
+  "website": "https://ballotpedia.org/Bryan_Maxwell",
   "jacket": {
     "total_raised": null,
     "data_date": "2026-03-13",
@@ -21,16 +21,32 @@
   "endorsements": [],
   "career_history": [
     {
-      "role": "Candidate — no confirmed prior office",
-      "org": "Public sources as of March 2026",
+      "role": "Assistant Research Scientist & Project Engineer",
+      "org": "Illinois Sustainable Technology Center, UIUC",
       "years": "n/a",
-      "highlight": "No confirmed career history from public sources as of March 2026"
+      "highlight": "Science and engineering background; progressive policy platform"
     }
   ],
   "policy_platform": [
     {
-      "topic": "Platform",
-      "position": "No detailed policy platform available from public sources as of March 2026."
+      "topic": "Healthcare",
+      "position": "Medicare for All.",
+      "source": "https://ballotpedia.org/Bryan_Maxwell"
+    },
+    {
+      "topic": "Economy",
+      "position": "Tax the rich; sustainable agriculture; affordable housing.",
+      "source": "https://ballotpedia.org/Bryan_Maxwell"
+    },
+    {
+      "topic": "Foreign Policy",
+      "position": "Anti-war position. End foreign military interventions.",
+      "source": "https://ballotpedia.org/Bryan_Maxwell"
+    },
+    {
+      "topic": "Environment",
+      "position": "Climate change action; sustainable technology policy.",
+      "source": "https://ballotpedia.org/Bryan_Maxwell"
     }
   ],
   "social_pulse": {

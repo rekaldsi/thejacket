@@ -35,6 +35,9 @@ export default function MobileNav() {
             <Link href="/races" className="hover:text-jacket-amber" onClick={() => setOpen(false)}>
               Races
             </Link>
+            <Link href="/judges" className="hover:text-jacket-amber" onClick={() => setOpen(false)}>
+              Judges
+            </Link>
             <Link href="/scorecard" className="hover:text-jacket-amber" onClick={() => setOpen(false)}>
               Scorecard
             </Link>

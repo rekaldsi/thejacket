@@ -1,0 +1,29 @@
+{
+  "id": "d-anthony-thedford",
+  "name": "D. Anthony Thedford",
+  "party": "Democratic",
+  "office": "circuit",
+  "subcircuit": "countywide",
+  "race_id": "judicial-countywide-karkula-vacancy",
+  "vacancy_of": "Judge Karkula",
+  "bio": "D. Anthony Thedford received unanimous Qualified ratings from all Alliance bar associations and a Recommended from the CBA — among the stronger bar assessments in this judicial election cycle. He is running uncontested and will win the seat. However, Injustice Watch has reported that Thedford has a history of failing to pay income taxes, which raises questions about financial responsibility and fitness for a position of public trust.",
+  "background": "Attorney with civil litigation background.",
+  "years_experience": 18,
+  "bar_ratings": {
+    "alliance_rating": "Q",
+    "alliance_detail": "Qualified — unanimous from all Alliance bar associations",
+    "cba_rating": "R",
+    "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx"
+  },
+  "red_flags": [
+    {
+      "type": "ethics",
+      "label": "History of failing to pay income taxes, per Injustice Watch",
+      "detail": "Injustice Watch reported that D. Anthony Thedford has a history of failing to pay income taxes. While he received strong bar ratings, a pattern of tax non-payment is a significant ethical concern for a candidate seeking to serve as a judge — someone who will be enforcing the law and holding others to account.",
+      "source": "https://www.injusticewatch.org/judges/judicial-elections/2026-primary/",
+      "confirmed": true
+    }
+  ],
+  "uncontested": true,
+  "photo_url": null
+}

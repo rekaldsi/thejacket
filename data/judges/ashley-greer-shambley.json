@@ -1,0 +1,21 @@
+{
+  "id": "ashley-greer-shambley",
+  "name": "Ashley Greer Shambley",
+  "party": "Democratic",
+  "office": "circuit",
+  "subcircuit": "1st",
+  "race_id": "judicial-1st-subcircuit-walker-vacancy",
+  "vacancy_of": "Judge Walker",
+  "bio": "Ashley Greer Shambley is a Cook County Assistant Public Defender, bringing public interest legal experience to her judicial candidacy. She received all positive ratings from the Alliance bar associations and a Recommended from the CBA, matching Judge Odom's ratings in this three-way race.",
+  "background": "Cook County Assistant Public Defender.",
+  "years_experience": 12,
+  "bar_ratings": {
+    "alliance_rating": "Q",
+    "alliance_detail": "All positive ratings from Alliance bar associations",
+    "cba_rating": "R",
+    "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx"
+  },
+  "red_flags": [],
+  "uncontested": false,
+  "photo_url": null
+}

@@ -4,11 +4,11 @@
   "party": "Democratic",
   "office": "U.S. Senate (Illinois)",
   "race_id": "us-senate-il-d-2026",
-  "data_status": "limited",
+  "data_status": "partial",
   "data_note": "Limited public information available. Check your county clerk's office or the Illinois State Board of Elections for filing info.",
-  "bio": "Jonathan Dean appears in public reporting as a Democratic candidate for Illinois' 2026 U.S. Senate primary. He is part of the open-seat field for the March 17 primary election. (Source: Shaw Local primary ballot guide, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
-  "prior_office": "Not listed in source summary",
-  "website": "",
+  "bio": "Jonathan Dean is a Chicago solar energy development entrepreneur and former civil litigation attorney at ArentFox Schiff. He holds a BA from University of Minnesota (2005) and JD from Northwestern University School of Law (2013). His campaign platform centers on economic populism, democratic reform, and explicitly tracking AIPAC influence \u2014 making him one of the most ideologically aligned candidates with TheJacket's transparency mission. (Source: Ballotpedia candidate survey, March 5, 2026; ILSOS filing confirmed)",
+  "prior_office": "Civil Litigation Attorney, ArentFox Schiff",
+  "website": "https://ballotpedia.org/Jonathan_Dean",
   "jacket": {
     "total_raised": null,
     "data_date": "2026-03-13",
@@ -21,16 +21,38 @@
   "endorsements": [],
   "career_history": [
     {
-      "role": "Candidate — no confirmed prior office",
-      "org": "Public sources as of March 2026",
-      "years": "n/a",
-      "highlight": "No confirmed career history from public sources as of March 2026"
+      "role": "Solar Energy Entrepreneur",
+      "org": "Private solar development",
+      "years": "2013\u2013present",
+      "highlight": "Built clean energy business in Chicago"
+    },
+    {
+      "role": "Civil Litigation Attorney",
+      "org": "ArentFox Schiff",
+      "years": "pre-2013",
+      "highlight": "JD Northwestern 2013"
     }
   ],
   "policy_platform": [
     {
-      "topic": "Platform",
-      "position": "No detailed policy platform available from public sources as of March 2026."
+      "topic": "Economic Justice",
+      "position": "End trickle-down economics; tax the wealthy. Affordable housing through dramatic building program and ban on corporate real estate speculation.",
+      "source": "https://ballotpedia.org/Jonathan_Dean"
+    },
+    {
+      "topic": "Democracy Reform",
+      "position": "Term limits, ranked-choice voting, abolish Electoral College, public financing of elections. Democratic Party must modernize on social media.",
+      "source": "https://ballotpedia.org/Jonathan_Dean"
+    },
+    {
+      "topic": "Transparency & AIPAC",
+      "position": "Explicitly lists 'Track AIPAC' as a campaign priority. Supports full disclosure of foreign-influenced political donations.",
+      "source": "https://ballotpedia.org/Jonathan_Dean"
+    },
+    {
+      "topic": "Immigration & Rule of Law",
+      "position": "Immigration reform; Supreme Court reform; protection of democratic institutions.",
+      "source": "https://ballotpedia.org/Jonathan_Dean"
     }
   ],
   "social_pulse": {

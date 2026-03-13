@@ -1,0 +1,22 @@
+{
+  "id": "linda-sackey",
+  "name": "Linda Sackey",
+  "party": "Democratic",
+  "office": "circuit",
+  "subcircuit": "countywide",
+  "race_id": "judicial-countywide-cobbs-vacancy",
+  "vacancy_of": "Judge Cobbs",
+  "bio": "Judge Linda Sackey was appointed to the circuit court in January 2025. Prior to her appointment, she clerked for Illinois Supreme Court Chief Justice Mary Jane Theis from 2019 to 2025 — one of the most prestigious clerkships in the Illinois court system. Her Alliance ratings were mixed: she received a Not Recommended from the Puerto Rican Bar Association of Illinois, though all other associations rated her positively.",
+  "background": "Appointed circuit judge January 2025; clerked for IL Supreme Court Chief Justice Theis 2019–2025.",
+  "years_experience": 6,
+  "bar_ratings": {
+    "alliance_rating": "Mixed",
+    "alliance_detail": "Mixed — one NR from Puerto Rican Bar Association of Illinois (PRBBA); all other Alliance associations positive",
+    "cba_rating": "R",
+    "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx"
+  },
+  "red_flags": [],
+  "uncontested": false,
+  "website": "https://judgelindasackey.com",
+  "photo_url": null
+}

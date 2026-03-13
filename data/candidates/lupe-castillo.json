@@ -4,11 +4,11 @@
   "party": "Republican",
   "office": "U.S. House (IL-04)",
   "race_id": "il-04-us-house-open-2026",
-  "data_status": "limited",
+  "data_status": "partial",
   "data_note": "Limited public information available. Check your county clerk's office or the Illinois State Board of Elections for filing info.",
-  "bio": "Lupe Castillo is listed as the Republican candidate for IL-04 in public 2026 ballot reporting. The seat is open in 2026 after Rep. Chuy Garcia's retirement. (Source: Shaw Local candidate list, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
-  "prior_office": "Not listed in source summary",
-  "website": "",
+  "bio": "Lupe Castillo is a community activist from Little Village (40 years) and perennial Republican candidate in the heavily Democratic IL-04 district. She is the sole Republican candidate in the IL-04 primary. She has run twice against Chuy Garcia (2022: 28.1%, 2024: 27.3%). Born in San Antonio; Spanish is her first language; associate degree from Washburne Community Trade School. Trump-aligned platform. (Source: Ballotpedia 2024 survey; ILSOS filing confirmed)",
+  "prior_office": "Candidate for IL-04 (2022, 2024); Candidate for IL House District 23 (withdrew 2024)",
+  "website": "https://lupe4congress.com",
   "jacket": {
     "total_raised": null,
     "data_date": "2026-03-13",
@@ -21,16 +21,32 @@
   "endorsements": [],
   "career_history": [
     {
-      "role": "Community advocate / activist",
-      "org": "Various Chicago-area organizations",
+      "role": "Community Activist / CAPS Member",
+      "org": "10th CPD District Advisory Committee; Little Village Community Council; Southwest Side GOP",
       "years": "n/a",
-      "highlight": "Background in community organizing; limited public record as of March 2026"
+      "highlight": "40 years in Little Village; born in San Antonio TX; perennial candidate in D+17 district"
     }
   ],
   "policy_platform": [
     {
-      "topic": "Platform",
-      "position": "No detailed policy platform confirmed from public sources as of March 2026."
+      "topic": "Immigration & Border",
+      "position": "Border security and immigration reform; finish the border wall; no sanctuary cities; overhaul the asylum process.",
+      "source": "https://ballotpedia.org/Lupe_Castillo"
+    },
+    {
+      "topic": "Public Safety",
+      "position": "Support law enforcement; oppose defunding. Strong crime reduction focus.",
+      "source": "https://ballotpedia.org/Lupe_Castillo"
+    },
+    {
+      "topic": "Economy",
+      "position": "No more taxes on Social Security, tips, or overtime. Cut government spending. Energy independence.",
+      "source": "https://ballotpedia.org/Lupe_Castillo"
+    },
+    {
+      "topic": "Foreign Policy",
+      "position": "Strong support for Israel. NATO burden-sharing for Ukraine.",
+      "source": "https://ballotpedia.org/Lupe_Castillo"
     }
   ],
   "social_pulse": {
@@ -53,5 +69,6 @@
     "record_available": false,
     "red_flags_count": 0,
     "computed_at": "2026-03-13"
-  }
+  },
+  "uncontested": true
 }

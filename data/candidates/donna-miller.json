@@ -4,11 +4,11 @@
   "party": "Democratic",
   "office": "U.S. House (IL-02)",
   "race_id": "il-02-us-house-d-2026",
-  "data_status": "limited",
+  "data_status": "partial",
   "data_note": "Limited public information available. Check your county clerk's office or the Illinois State Board of Elections for filing info.",
-  "bio": "Donna Miller is listed as a Democratic candidate in the 2026 IL-02 congressional primary. She is a Cook County Commissioner and entered the open-seat contest. (Source: Shaw Local candidate list, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
-  "prior_office": "Cook County Commissioner",
-  "website": "",
+  "bio": "Donna Miller is a Cook County Board Commissioner (District 6, south suburban Cook County, since 2018) running for the open IL-02 Congressional seat vacated by Robin Kelly. She is one of approximately 10 candidates in a crowded Democratic primary for a D+18 district covering the South Side of Chicago and south suburbs. (Source: WTTW Voter Guide 2026; Chicago Sun-Times; ILSOS filing confirmed)",
+  "prior_office": "Cook County Board Commissioner, District 6 (2018\u2013present)",
+  "website": "https://donnaforcongress.com",
   "jacket": {
     "total_raised": null,
     "data_date": "2026-03-13",
@@ -21,16 +21,17 @@
   "endorsements": [],
   "career_history": [
     {
-      "role": "Cook County Commissioner",
+      "role": "Cook County Board Commissioner, District 6",
       "org": "Cook County Board of Commissioners",
-      "years": "n/a",
-      "highlight": "Current Cook County Commissioner; limited public record detail as of March 2026"
+      "years": "2018\u2013present",
+      "highlight": "South suburban Cook County; stepping up to federal office"
     }
   ],
   "policy_platform": [
     {
-      "topic": "Platform",
-      "position": "No detailed policy platform confirmed from public sources as of March 2026."
+      "topic": "Public Service Record",
+      "position": "Cook County Commissioner since 2018, focusing on south suburban constituent services and county governance.",
+      "source": "https://news.wttw.com/elections/voters-guide/2026-primary/donna-miller"
     }
   ],
   "social_pulse": {
