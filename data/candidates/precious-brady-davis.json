@@ -1,0 +1,117 @@
+{
+  "id": "precious-brady-davis",
+  "name": "Precious Brady-Davis",
+  "party": "Democratic",
+  "office": "MWRD Commissioner",
+  "race_id": "mwrd-6yr-2026",
+  "incumbent": true,
+  "bio": "Precious Brady-Davis is a transgender activist and environmental advocate appointed to the MWRD board on July 5, 2023 by Gov. J.B. Pritzker to fill the vacancy left by Kimberly du Buclet. She won a special general election in November 2024, defeating Republican R. Cary Capparelli 69.3% to 30.7%. She is seeking her first full 6-year elected term in 2026.",
+  "prior_office": "MWRD Commissioner (appointed 2023, special election 2024\u2013present). Former communications professional and LGBTQ+ rights advocate. Author of 'I Have Always Been Me' (2018 memoir).",
+  "website": "https://www.preciousbd.com",
+  "jacket": {
+    "total_raised": null,
+    "donors": [],
+    "source": "Illinois State Board of Elections (not retrieved)",
+    "note": "Campaign finance data not pulled; check ISBE or OpenSecrets for current cycle filings",
+    "data_date": "2026-03-13"
+  },
+  "red_flags": [],
+  "key_votes": [
+    {
+      "bill": "Voted to advance the Ostara nutrient recovery program (phosphorus removal from wastewater)",
+      "vote": "yes",
+      "summary": "Voted to advance the Ostara nutrient recovery program (phosphorus removal from wastewater)",
+      "source": "https://www.preciousbd.com"
+    },
+    {
+      "bill": "Supported drug take-back partnership with Cook County Sheriff",
+      "vote": "yes",
+      "summary": "Supported drug take-back partnership with Cook County Sheriff",
+      "source": "https://www.preciousbd.com"
+    },
+    {
+      "bill": "Supported expanding green infrastructure playground investments",
+      "vote": "yes",
+      "summary": "Supported expanding green infrastructure playground investments",
+      "source": "https://www.preciousbd.com"
+    }
+  ],
+  "policy_platform": [
+    {
+      "topic": "Platform",
+      "position": "Expand green infrastructure: rain gardens, permeable pavement, restored wetlands",
+      "source": "https://www.preciousbd.com"
+    },
+    {
+      "topic": "Platform",
+      "position": "Modernize aging sewer infrastructure",
+      "source": "https://www.preciousbd.com"
+    },
+    {
+      "topic": "Platform",
+      "position": "Strengthen water quality monitoring and removal of invasive species",
+      "source": "https://www.preciousbd.com"
+    },
+    {
+      "topic": "Platform",
+      "position": "Increase public transparency and communications outreach",
+      "source": "https://www.preciousbd.com"
+    },
+    {
+      "topic": "Platform",
+      "position": "Climate resilience as central priority",
+      "source": "https://www.preciousbd.com"
+    },
+    {
+      "topic": "Platform",
+      "position": "Environmental justice focus \u2014 centering underserved communities",
+      "source": "https://www.preciousbd.com"
+    }
+  ],
+  "career_history": [
+    {
+      "role": "MWRD Commissioner, appointed 2023 by Gov. Pritzker",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "MWRD Commissioner, special election win Nov. 2024",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "Author, 'I Have Always Been Me' (memoir, 2018)",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "Communications and advocacy work",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "Prominent LGBTQ+ and transgender rights advocate",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    }
+  ],
+  "endorsements": [
+    "Cook County Democratic Party",
+    "SEIU Illinois State Council",
+    "Citizens Action Illinois"
+  ],
+  "data_status": "partial",
+  "sources": [
+    "https://news.wttw.com/elections/voters-guide/2026-primary/precious-brady-davis",
+    "https://ballotpedia.org/Precious_Brady-Davis"
+  ],
+  "photo_url": null,
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "wesam-shahed",
+  "name": "Wesam Shahed",
+  "party": "Democratic",
+  "office": "Cook County Commissioner District 6",
+  "race_id": "cook-county-commissioner-dist-6",
+  "incumbent": false,
+  "bio": "Wesam Shahed is a former prosecutor running in the open District 6 Democratic primary. He has notable endorsements including from the Chicago Tribune.",
+  "prior_office": "Former prosecutor (Cook County State's Attorney's Office or similar)",
+  "website": null,
+  "jacket": {
+    "total_raised": null,
+    "donors": [],
+    "source": "Illinois State Board of Elections (not retrieved)",
+    "note": "Campaign finance not retrieved",
+    "data_date": "2026-03-13"
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "policy_platform": [],
+  "career_history": [
+    {
+      "role": "Former prosecutor",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    }
+  ],
+  "endorsements": [
+    "Chicago Tribune"
+  ],
+  "data_status": "stub",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election"
+  ],
+  "photo_url": null,
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": null
+}

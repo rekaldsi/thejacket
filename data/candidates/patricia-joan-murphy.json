@@ -1,0 +1,58 @@
+{
+  "id": "patricia-joan-murphy",
+  "name": "Patricia Joan Murphy",
+  "party": "Democratic",
+  "office": "Cook County Commissioner District 6",
+  "race_id": "cook-county-commissioner-dist-6",
+  "incumbent": false,
+  "bio": "Patricia Joan Murphy is the Worth Township Supervisor and daughter of former Cook County Commissioner Joan Patricia Murphy. She previously ran for this same seat in 2018. She is considered one of the stronger candidates in this open-seat race and has received endorsements including from Alexi Giannoulias, multiple Cook County commissioners, and the Chicago Tribune.",
+  "prior_office": "Worth Township Supervisor (current). Candidate for Cook County Commissioner District 6 (2018).",
+  "website": null,
+  "jacket": {
+    "total_raised": null,
+    "donors": [],
+    "source": "Illinois State Board of Elections (not retrieved)",
+    "note": "Campaign finance not retrieved; notable endorsements suggest strong fundraising",
+    "data_date": "2026-03-13"
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "policy_platform": [],
+  "career_history": [
+    {
+      "role": "Worth Township Supervisor (current)",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "Candidate, Cook County Commissioner District 6 (2018)",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    }
+  ],
+  "endorsements": [
+    "Alexi Giannoulias (Illinois Secretary of State)",
+    "Frank Aguilar (Cook County Commissioner, District 16)",
+    "John Daley (Cook County Commissioner, District 11)",
+    "Tom Dart (Cook County Sheriff)",
+    "Monica Gordon (Cook County Clerk)",
+    "Kisha McCaskill (Cook County Commissioner, District 5)",
+    "Stanley Moore (Cook County Commissioner, District 4)",
+    "Josina Morita (Cook County Commissioner, District 13)",
+    "Kevin Morrison (Cook County Commissioner, District 15)",
+    "Mariyana Spyropoulos (Clerk of Circuit Court)",
+    "Chicago Federation of Labor",
+    "Cook County College Teachers Union Local 1600",
+    "Chicago Tribune"
+  ],
+  "data_status": "partial",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election"
+  ],
+  "photo_url": null,
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": null
+}

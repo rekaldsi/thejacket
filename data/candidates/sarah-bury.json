@@ -1,0 +1,142 @@
+{
+  "id": "sarah-bury",
+  "name": "Sarah Bury",
+  "party": "Democratic",
+  "office": "MWRD Commissioner",
+  "race_id": "mwrd-6yr-2026",
+  "incumbent": false,
+  "bio": "Sarah Bury (age 42) is a Rogers Park-based attorney, environmental advocate, and organizer challenging three incumbents for one of the three open MWRD 6-year term seats. She earned a joint JD/MA in environmental law and policy from American University (Washington, DC), with internships at the City of Chicago legal department, U.S. EPA, Center for International Environmental Law, and DOJ. She grew up in a home that flooded and has experienced basement flooding in multiple Cook County neighborhoods. She previously ran for MWRD in 2019 and applied for a board appointment in 2024.",
+  "prior_office": "Student Representative, Whitney Young High School Local School Council (early 2000s). No prior elected office held. Candidate for MWRD Commissioner (2019, did not win); applicant for MWRD board appointment (2024).",
+  "website": "https://www.sarah4waterrec.org",
+  "jacket": {
+    "total_raised": null,
+    "donors": [],
+    "source": "Illinois State Board of Elections (not retrieved)",
+    "note": "Grassroots campaign; likely small-dollar fundraising compared to incumbents",
+    "data_date": "2026-03-13"
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "policy_platform": [
+    {
+      "topic": "Platform",
+      "position": "Government accountability and transparency at MWRD",
+      "source": "https://www.sarah4waterrec.org"
+    },
+    {
+      "topic": "Platform",
+      "position": "Responsible management of taxpayer money",
+      "source": "https://www.sarah4waterrec.org"
+    },
+    {
+      "topic": "Platform",
+      "position": "Facilitating public participation in MWRD decisions",
+      "source": "https://www.sarah4waterrec.org"
+    },
+    {
+      "topic": "Platform",
+      "position": "Clean water access and flood prevention",
+      "source": "https://www.sarah4waterrec.org"
+    },
+    {
+      "topic": "Platform",
+      "position": "Reducing combined sewer overflows",
+      "source": "https://www.sarah4waterrec.org"
+    },
+    {
+      "topic": "Platform",
+      "position": "Environmental justice with focus on working-class and diverse communities",
+      "source": "https://www.sarah4waterrec.org"
+    },
+    {
+      "topic": "Platform",
+      "position": "Back to Basics: ensuring MWRD fulfills core mission responsibly",
+      "source": "https://www.sarah4waterrec.org"
+    }
+  ],
+  "career_history": [
+    {
+      "role": "Senior Project Manager / Attorney (current) \u2014 works in discovery on corporate litigation matters",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "Dale Bryson Water Quality Fellow, Alliance for the Great Lakes \u2014 drafted letters on water pollution, compared phosphorus laws across Midwest states",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "Water Issue Specialist, League of Women Voters of Illinois \u2014 tracked water-related legislation",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "Vice President (now Treasurer), League of Women Voters Lake Michigan Region",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "Volunteer, Sierra Club Chicago Water Team \u2014 monitored stormwater permit compliance, tested Chicago River for phosphorus and dissolved oxygen",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "Secretary, Loyola Park Advisory Council",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "Field Organizer, Ald. Maria Hadden campaign (49th Ward); Bring Chicago Home ballot campaign (2023\u20132024)",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "Volunteer Management, Operation Swing State (Kamala Harris campaign 2024)",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "Steering Committee Member, Network 49 (current)",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "Collected signatures for current MWRD Commissioner Cam Davis alongside former Commissioner Debra Shore",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "Attended UNFCCC Conference of Parties (UN climate negotiations)",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "JD/MA, American University, internships at City of Chicago legal dept, US EPA, CIEL, DOJ",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    }
+  ],
+  "endorsements": [],
+  "data_status": "partial",
+  "sources": [
+    "https://news.wttw.com/elections/voters-guide/2026-primary/sarah-bury",
+    "https://www.sarah4waterrec.org/about-sarah",
+    "https://ballotpedia.org/Sarah_Bury"
+  ],
+  "photo_url": null,
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": null
+}

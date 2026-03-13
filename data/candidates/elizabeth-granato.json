@@ -1,0 +1,85 @@
+{
+  "id": "elizabeth-granato",
+  "name": "Elizabeth Granato",
+  "party": "Democratic",
+  "office": "Cook County Commissioner District 12",
+  "race_id": "cook-county-commissioner-dist-12",
+  "incumbent": false,
+  "bio": "Elizabeth Granato is the Bureau Chief of the Cook County Bureau of Asset Management and wife of State Senator Ram Villivalam. She is the frontrunner in the open District 12 race (incumbent Bridget Degnen is retiring). She holds an extensive list of endorsements from U.S. Congress members, state legislators, labor unions, and the Chicago Tribune.",
+  "prior_office": "Bureau Chief, Cook County Bureau of Asset Management",
+  "website": null,
+  "jacket": {
+    "total_raised": null,
+    "donors": [],
+    "source": "Illinois State Board of Elections (not retrieved)",
+    "note": "Likely the most-funded candidate in this race given endorsement roster",
+    "data_date": "2026-03-13"
+  },
+  "red_flags": [
+    "Spousal political connection \u2014 husband Ram Villivalam is IL State Senator; potential conflicts if both serve in overlapping jurisdictions"
+  ],
+  "key_votes": [],
+  "policy_platform": [],
+  "career_history": [
+    {
+      "role": "Bureau Chief, Cook County Bureau of Asset Management",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "County government administrator",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    }
+  ],
+  "endorsements": [
+    "Chuy Garc\u00eda (U.S. Rep, IL-04)",
+    "Raja Krishnamoorthi (U.S. Rep, IL-08)",
+    "Mike Quigley (U.S. Rep, IL-05)",
+    "Delia Ramirez (U.S. Rep, IL-03)",
+    "Jan Schakowsky (U.S. Rep, IL-09)",
+    "Omar Aquino (IL State Senator)",
+    "Mattie Hunter (IL State Senator)",
+    "Robert Martwick (IL State Senator)",
+    "Robert Peters (IL State Senator)",
+    "Ram Villivalam (IL State Senator, husband)",
+    "Michael Kelly (IL State Rep)",
+    "Kevin Olickal (IL State Rep)",
+    "Scott Britton (Cook County Commissioner, District 12 predecessor)",
+    "Daniel La Spata (Chicago Alder, 1st Ward)",
+    "Bill Lowry (Cook County Commissioner, District 3)",
+    "Stanley Moore (Cook County Commissioner, District 4)",
+    "Josina Morita (Cook County Commissioner, District 13)",
+    "Samantha Nugent (Chicago City Council President Pro Tempore)",
+    "Ameya Pawar (former Chicago Alder)",
+    "Chicago Federation of Labor",
+    "Amalgamated Transit Union Local 241",
+    "Brotherhood of Locomotive Engineers and Trainmen IL State Legislative Board",
+    "Brotherhood of Maintenance of Way Employes",
+    "Brotherhood of Railroad Signalmen",
+    "Chicago Fire Fighters Union Local 2",
+    "Heat and Frost Insulators Local 17",
+    "IAM (International Association of Machinists)",
+    "SMART-TD (Sheet Metal, Air, Rail and Transportation Workers)",
+    "IBEW Local 9",
+    "IUOE Local 150",
+    "Ironworkers District Council of Chicago",
+    "Mid-America Carpenters Regional Council",
+    "SEIU Illinois State Council",
+    "Teamsters Local 700",
+    "Citizen Action Illinois",
+    "Sierra Club Illinois",
+    "Chicago Tribune",
+    "Bricklayers and Allied Craftworkers Administrative DC 1"
+  ],
+  "data_status": "partial",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election"
+  ],
+  "photo_url": null,
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": null
+}

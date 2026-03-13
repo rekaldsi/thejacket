@@ -1,0 +1,38 @@
+{
+  "id": "richard-nolan-dist5",
+  "name": "Richard Nolan",
+  "party": "Democratic",
+  "office": "Cook County Commissioner District 5",
+  "race_id": "cook-county-commissioner-dist-5",
+  "incumbent": false,
+  "bio": "Richard Nolan is a former Riverdale, Illinois trustee also running in the District 5 Democratic primary.",
+  "prior_office": "Former Trustee, Riverdale, Illinois",
+  "website": null,
+  "jacket": {
+    "total_raised": null,
+    "donors": [],
+    "source": "Illinois State Board of Elections (not retrieved)",
+    "note": "Campaign finance not retrieved",
+    "data_date": "2026-03-13"
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "policy_platform": [],
+  "career_history": [
+    {
+      "role": "Former Trustee, Riverdale, Illinois",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    }
+  ],
+  "data_status": "stub",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election"
+  ],
+  "photo_url": null,
+  "endorsements": [],
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": null
+}

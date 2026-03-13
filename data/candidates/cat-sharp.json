@@ -1,0 +1,40 @@
+{
+  "id": "cat-sharp",
+  "name": "Cat Sharp",
+  "party": "Democratic",
+  "office": "Cook County Commissioner District 12",
+  "race_id": "cook-county-commissioner-dist-12",
+  "incumbent": false,
+  "bio": "Cat Sharp is the Chief of Staff to Chicago Alder Andre Vasquez (40th Ward). She received the endorsement of retiring incumbent Commissioner Bridget Degnen.",
+  "prior_office": "Chief of Staff to Chicago Alder Andre Vasquez (40th Ward)",
+  "website": null,
+  "jacket": {
+    "total_raised": null,
+    "donors": [],
+    "source": "Illinois State Board of Elections (not retrieved)",
+    "note": "Campaign finance not retrieved",
+    "data_date": "2026-03-13"
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "policy_platform": [],
+  "career_history": [
+    {
+      "role": "Chief of Staff to Chicago Alder Andre Vasquez (40th Ward)",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    }
+  ],
+  "endorsements": [
+    "Bridget Degnen (retiring incumbent Cook County Commissioner, District 12)"
+  ],
+  "data_status": "stub",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election"
+  ],
+  "photo_url": null,
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": null
+}

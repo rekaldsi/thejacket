@@ -1,0 +1,54 @@
+{
+  "id": "kisha-mccaskill",
+  "name": "Kisha McCaskill",
+  "party": "Democratic",
+  "office": "Cook County Commissioner District 5",
+  "race_id": "cook-county-commissioner-dist-5",
+  "incumbent": true,
+  "bio": "Kisha McCaskill is the incumbent 5th District Commissioner, first appointed in 2025. She is seeking re-election to her first full term in a contested Democratic primary. She holds endorsements from major county officials, labor unions, and legislators including Toni Preckwinkle, AFSCME Council 31, Chicago Federation of Labor, SEIU, and multiple state legislators. She is challenged by Kiana Belcher and at least one additional challenger.",
+  "prior_office": "Cook County Commissioner District 5 (appointed 2025\u2013present). Background not fully detailed in available sources.",
+  "website": null,
+  "jacket": {
+    "total_raised": null,
+    "donors": [],
+    "source": "Illinois State Board of Elections (not retrieved)",
+    "note": "Strong establishment backing; likely well-funded",
+    "data_date": "2026-03-13"
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "policy_platform": [],
+  "career_history": [
+    {
+      "role": "Cook County Commissioner District 5 (appointed 2025)",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    }
+  ],
+  "endorsements": [
+    "Toni Preckwinkle (Cook County Board President)",
+    "AFSCME Council 31",
+    "Chicago Federation of Labor",
+    "Chicago Fire Fighters Union Local 2",
+    "IBEW Local 134",
+    "IUOE Local 150",
+    "Napoleon Harris (IL State Senator)",
+    "Debbie Meyers-Martin (IL State Rep)",
+    "Bob Rita (IL State Rep)",
+    "Justin Slaughter (IL State Rep)",
+    "Chris Welch (IL House Speaker)",
+    "Anthony Beale (Chicago Alder, 9th Ward)",
+    "Howard Brookins (former Chicago Alder, 21st Ward)",
+    "Ronnie Mosley (Chicago Alder, 21st Ward)",
+    "Deborah Sims (former Cook County Commissioner, 5th District)"
+  ],
+  "data_status": "partial",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election"
+  ],
+  "photo_url": null,
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": null
+}

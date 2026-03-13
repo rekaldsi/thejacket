@@ -1,0 +1,38 @@
+{
+  "id": "veronica-bolling-franklin",
+  "name": "Veronica Bolling-Franklin",
+  "party": "Democratic",
+  "office": "Cook County Commissioner District 6",
+  "race_id": "cook-county-commissioner-dist-6",
+  "incumbent": false,
+  "bio": "Veronica Bolling-Franklin is a school board member of Elementary School District 159, running in the open District 6 Democratic primary.",
+  "prior_office": "School Board Member, Elementary School District 159",
+  "website": null,
+  "jacket": {
+    "total_raised": null,
+    "donors": [],
+    "source": "Illinois State Board of Elections (not retrieved)",
+    "note": "Campaign finance not retrieved",
+    "data_date": "2026-03-13"
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "policy_platform": [],
+  "career_history": [
+    {
+      "role": "School Board Member, Elementary School District 159",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    }
+  ],
+  "data_status": "stub",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election"
+  ],
+  "photo_url": null,
+  "endorsements": [],
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": null
+}

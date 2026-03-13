@@ -1,0 +1,44 @@
+{
+  "id": "jessica-vasquez-dist8",
+  "name": "Jessica Vasquez",
+  "party": "Democratic",
+  "office": "Cook County Commissioner District 8",
+  "race_id": "cook-county-commissioner-dist-8",
+  "incumbent": true,
+  "bio": "Jessica Vasquez is the incumbent 8th District Commissioner, first appointed in 2025. She is seeking re-election to her first full term and is challenged by Nicholas Cade, a U.S. Navy veteran. Notable endorsements include Abundant Housing Illinois, Illinois Veterans for Change, VoteVets, and A City That Works newsletter.",
+  "prior_office": "Cook County Commissioner District 8 (appointed 2025\u2013present)",
+  "website": null,
+  "jacket": {
+    "total_raised": null,
+    "donors": [],
+    "source": "Illinois State Board of Elections (not retrieved)",
+    "note": "Campaign finance not retrieved",
+    "data_date": "2026-03-13"
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "policy_platform": [],
+  "career_history": [
+    {
+      "role": "Cook County Commissioner District 8 (appointed 2025)",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    }
+  ],
+  "endorsements": [
+    "Abundant Housing Illinois",
+    "Chicago Growth Project",
+    "Illinois Veterans for Change",
+    "VoteVets",
+    "A City That Works"
+  ],
+  "data_status": "stub",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election"
+  ],
+  "photo_url": null,
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": null
+}

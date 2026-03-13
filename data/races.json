@@ -220,5 +220,120 @@
     "candidateCount": 1,
     "uncontested": true,
     "note": "judicial"
+  },
+  {
+    "id": "mwrd-6yr-2026",
+    "title": "MWRD Commissioner \u2014 6-Year Term",
+    "office": "Metropolitan Water Reclamation District",
+    "level": "county",
+    "party": "Democratic",
+    "description": "Top 3 of 4 candidates advance. The MWRD controls sewage and stormwater infrastructure for 5 million people across greater Chicago with a $2B+ annual budget.",
+    "candidates": [
+      "precious-brady-davis",
+      "eira-corral-sepulveda",
+      "beth-mcelroy-kirkwood",
+      "sarah-bury"
+    ]
+  },
+  {
+    "id": "mwrd-2yr-2026",
+    "title": "MWRD Commissioner \u2014 2-Year Unexpired Term",
+    "office": "Metropolitan Water Reclamation District",
+    "level": "county",
+    "party": "Democratic",
+    "description": "Uncontested race for a 2-year unexpired term seat.",
+    "candidates": [
+      "cameron-cam-davis"
+    ]
+  },
+  {
+    "id": "cook-county-commissioner-dist-2",
+    "title": "Cook County Commissioner \u2014 District 2",
+    "office": "Cook County Board of Commissioners",
+    "level": "county",
+    "party": "Democratic",
+    "description": "Contested Democratic primary for District 2 seat.",
+    "candidates": [
+      "michael-scott-jr",
+      "andre-smith-dist2"
+    ]
+  },
+  {
+    "id": "cook-county-commissioner-dist-5",
+    "title": "Cook County Commissioner \u2014 District 5",
+    "office": "Cook County Board of Commissioners",
+    "level": "county",
+    "party": "Democratic",
+    "description": "Contested Democratic primary for District 5 seat.",
+    "candidates": [
+      "kisha-mccaskill",
+      "kiana-belcher",
+      "richard-nolan-dist5"
+    ]
+  },
+  {
+    "id": "cook-county-commissioner-dist-6",
+    "title": "Cook County Commissioner \u2014 District 6",
+    "office": "Cook County Board of Commissioners",
+    "level": "county",
+    "party": "Democratic",
+    "description": "Open seat \u2014 5-way Democratic primary for District 6.",
+    "candidates": [
+      "antoine-bass",
+      "veronica-bolling-franklin",
+      "sylvester-fulcher",
+      "patricia-joan-murphy",
+      "wesam-shahed"
+    ]
+  },
+  {
+    "id": "cook-county-commissioner-dist-8",
+    "title": "Cook County Commissioner \u2014 District 8",
+    "office": "Cook County Board of Commissioners",
+    "level": "county",
+    "party": "Democratic",
+    "description": "Contested Democratic primary for District 8 seat.",
+    "candidates": [
+      "jessica-vasquez-dist8",
+      "nicholas-cade"
+    ]
+  },
+  {
+    "id": "cook-county-commissioner-dist-10",
+    "title": "Cook County Commissioner \u2014 District 10",
+    "office": "Cook County Board of Commissioners",
+    "level": "county",
+    "party": "Democratic",
+    "description": "Contested Democratic primary for District 10 seat.",
+    "candidates": [
+      "bridget-gainer",
+      "drake-warren"
+    ]
+  },
+  {
+    "id": "cook-county-commissioner-dist-12",
+    "title": "Cook County Commissioner \u2014 District 12",
+    "office": "Cook County Board of Commissioners",
+    "level": "county",
+    "party": "Democratic",
+    "description": "Open seat \u2014 5-way Democratic primary for District 12.",
+    "candidates": [
+      "elizabeth-granato",
+      "cat-sharp",
+      "isaiah-white-dist12",
+      "che-che-wilson",
+      "alice-hu"
+    ]
+  },
+  {
+    "id": "cook-county-commissioner-dist-15",
+    "title": "Cook County Commissioner \u2014 District 15",
+    "office": "Cook County Board of Commissioners",
+    "level": "county",
+    "party": "Democratic",
+    "description": "Open seat Democratic primary for District 15.",
+    "candidates": [
+      "ted-mason-dist15"
+    ]
   }
 ]
