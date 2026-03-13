@@ -6,10 +6,10 @@
   "race_id": "us-senate-il-d-2026",
   "bio": "Robin Kelly is a U.S. Representative from Illinois's 2nd congressional district and a leading candidate in the 2026 Democratic U.S. Senate primary. She has served in Congress since 2013 and is known for her gun violence prevention work. (Source: FEC S6IL00474; robinkelly.house.gov)",
   "prior_office": "U.S. Representative (IL-02, 2013–present); Illinois State Representative; Cook County Treasurer",
-  "website": "https://robinkelly.house.gov",
+  "website": "https://robinforsenate.com",
   "photo_url": null,
   "jacket": {
-    "total_raised": 4000000,
+    "total_raised": 3307722,
     "data_date": "2026-03-13",
     "source": "https://www.fec.gov/data/candidate/S6IL00474/",
     "note": "~$4M raised for Senate race as of Q4 2025 (The Intercept). FEC ID: S6IL00474",
@@ -31,13 +31,76 @@
         "confirmed": false,
         "amount_note": "⚠️ MISSING AMOUNT — historical donor category; needs OpenSecrets/FEC lookup for 2026 cycle",
         "confirmed_note": "Unconfirmed — referenced from career history, not verified for this Senate campaign"
+      },
+      {
+        "name": "American Mobilization PAC (Washington DC)",
+        "amount": 5000,
+        "category": "pac",
+        "source": "https://www.thetelegraph.com/news/article/illinois-senate-race-fundraising-juliana-stratton-21335519.php",
+        "confirmed": true,
+        "amount_note": "Largest single Q4 2025 donation per FEC data via The Telegraph"
+      },
+      {
+        "name": "Congressional Black Caucus PAC",
+        "amount": null,
+        "category": "pac",
+        "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
+        "confirmed": true,
+        "amount_note": "CBC PAC endorsement and likely contribution confirmed; exact amount requires itemized FEC lookup"
+      },
+      {
+        "name": "Other Political Committee contributions (aggregate)",
+        "amount": 189501,
+        "category": "pac",
+        "source": "https://api.open.fec.gov/v1/candidate/S6IL00474/totals/?cycle=2026",
+        "confirmed": true,
+        "amount_note": "FEC aggregate 'other_political_committee_contributions' — PAC money from committees; individual PAC breakdown requires itemized receipt lookup"
+      },
+      {
+        "name": "Transfer from prior Robin Kelly House committee",
+        "amount": 2152081,
+        "category": "individual",
+        "source": "https://api.open.fec.gov/v1/candidate/S6IL00474/totals/?cycle=2026",
+        "confirmed": true,
+        "amount_note": "FEC confirmed $2,152,081 transferred from prior House committee — largest funding source"
       }
     ],
     "donors_note": "Donors list is PARTIAL — only notable/flagged historical donor categories are noted; neither has a confirmed amount or confirmed Senate-cycle presence. total_raised ($4,000,000) reflects FEC aggregate total (S6IL00474). Full itemized donor breakdown pending ETL import. Both listed donors need sourcing.",
     "fec_id": "S6IL00474"
   },
   "red_flags": [],
-  "key_votes": [],
+  "key_votes": [
+    {
+      "bill": "H.R. 8034 — Israel Security Supplemental Appropriations Act, 2024",
+      "vote": "yes",
+      "summary": "Voted yes on $26.4B emergency military aid to Israel. Passed 366-58 on April 20, 2024.",
+      "source": "https://clerk.house.gov/Votes/2024152"
+    },
+    {
+      "bill": "H.R. 8369 — Israel Security Assistance Support Act, 2024",
+      "vote": "yes",
+      "summary": "Voted yes to release withheld weapons to Israel. Passed 334-79 on May 15, 2024.",
+      "source": "https://www.govtrack.us/congress/votes/118-2024/h217"
+    },
+    {
+      "bill": "H.Con.Res. 21 — Remove US Forces from Yemen (War Powers Resolution), 2023",
+      "vote": "yes",
+      "summary": "Voted yes to direct removal of US military from Yemen operations not authorized by Congress. Failed 102-321 on April 27, 2023.",
+      "source": "https://www.govtrack.us/congress/members/robin_kelly/412595"
+    },
+    {
+      "bill": "H.R. 1197 — PREEMIE Reauthorization Act of 2025",
+      "vote": "yes",
+      "summary": "Kelly was primary sponsor. Reauthorizes research programs to reduce premature births and infant mortality. Enacted 2025.",
+      "source": "https://www.govtrack.us/congress/members/robin_kelly/412595"
+    },
+    {
+      "bill": "H.R. 4387 — Maternal Health Quality Improvement Act of 2021",
+      "vote": "yes",
+      "summary": "Kelly sponsored legislation addressing maternal mortality crisis, particularly for Black women. Enacted 2022.",
+      "source": "https://www.govtrack.us/congress/members/robin_kelly/412595"
+    }
+  ],
   "endorsements": [],
   "career_history": [
     {

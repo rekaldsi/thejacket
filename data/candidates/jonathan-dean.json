@@ -6,15 +6,33 @@
   "race_id": "us-senate-il-d-2026",
   "data_status": "partial",
   "data_note": "Limited public information available. Check your county clerk's office or the Illinois State Board of Elections for filing info.",
-  "bio": "Jonathan Dean is a Chicago solar energy development entrepreneur and former civil litigation attorney at ArentFox Schiff. He holds a BA from University of Minnesota (2005) and JD from Northwestern University School of Law (2013). His campaign platform centers on economic populism, democratic reform, and explicitly tracking AIPAC influence \u2014 making him one of the most ideologically aligned candidates with TheJacket's transparency mission. (Source: Ballotpedia candidate survey, March 5, 2026; ILSOS filing confirmed)",
+  "bio": "Jonathan Dean is a Chicago solar energy development entrepreneur and former civil litigation attorney at ArentFox Schiff. He holds a BA from University of Minnesota (2005) and JD from Northwestern University School of Law (2013). His campaign platform centers on economic populism, democratic reform, and explicitly tracking AIPAC influence — making him one of the most ideologically aligned candidates with TheJacket's transparency mission. (Source: Ballotpedia candidate survey, March 5, 2026; ILSOS filing confirmed)",
   "prior_office": "Civil Litigation Attorney, ArentFox Schiff",
   "website": "https://ballotpedia.org/Jonathan_Dean",
   "jacket": {
-    "total_raised": null,
+    "total_raised": 107149,
     "data_date": "2026-03-13",
     "source": "https://www.fec.gov/data/candidates/senate/?cycle=2026",
     "note": "FEC totals pending direct ETL import.",
-    "donors": []
+    "donors": [
+      {
+        "name": "Jonathan Dean (candidate self-loan)",
+        "amount": 61000,
+        "category": "individual",
+        "source": "https://api.open.fec.gov/v1/candidate/S6IL00623/totals/?cycle=2026",
+        "confirmed": true,
+        "amount_note": "FEC confirmed: $61,000 in loans made by candidate to own campaign"
+      },
+      {
+        "name": "Individual contributions (other donors)",
+        "amount": 34240,
+        "category": "individual",
+        "source": "https://api.open.fec.gov/v1/candidate/S6IL00623/totals/?cycle=2026",
+        "confirmed": true,
+        "amount_note": "FEC confirmed: $34,240 in individual contributions from non-candidate donors"
+      }
+    ],
+    "fec_id": "S6IL00623"
   },
   "red_flags": [],
   "key_votes": [],
@@ -23,7 +41,7 @@
     {
       "role": "Solar Energy Entrepreneur",
       "org": "Private solar development",
-      "years": "2013\u2013present",
+      "years": "2013–present",
       "highlight": "Built clean energy business in Chicago"
     },
     {

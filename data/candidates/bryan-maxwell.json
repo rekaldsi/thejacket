@@ -10,11 +10,29 @@
   "prior_office": "Research Scientist, University of Illinois",
   "website": "https://ballotpedia.org/Bryan_Maxwell",
   "jacket": {
-    "total_raised": null,
+    "total_raised": 21976,
     "data_date": "2026-03-13",
     "source": "https://www.fec.gov/data/candidates/senate/?cycle=2026",
     "note": "FEC totals pending direct ETL import.",
-    "donors": []
+    "donors": [
+      {
+        "name": "Individual itemized contributions",
+        "amount": 20232,
+        "category": "individual",
+        "source": "https://api.open.fec.gov/v1/candidate/S6IL00649/totals/?cycle=2026",
+        "confirmed": true,
+        "amount_note": "FEC confirmed: $20,232 itemized individual contributions"
+      },
+      {
+        "name": "Individual unitemized contributions",
+        "amount": 1744,
+        "category": "individual",
+        "source": "https://api.open.fec.gov/v1/candidate/S6IL00649/totals/?cycle=2026",
+        "confirmed": true,
+        "amount_note": "FEC confirmed: $1,744 small-dollar unitemized contributions"
+      }
+    ],
+    "fec_id": "S6IL00649"
   },
   "red_flags": [],
   "key_votes": [],

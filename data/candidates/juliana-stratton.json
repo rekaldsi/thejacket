@@ -6,10 +6,10 @@
   "race_id": "us-senate-il-d-2026",
   "bio": "Juliana Stratton is the Lieutenant Governor of Illinois, serving alongside Gov. J.B. Pritzker since 2019. She previously served in the Illinois General Assembly and is running for the open U.S. Senate seat with Pritzker's backing. (Source: FEC S6IL00458; WTTW Voter Guide 2026)",
   "prior_office": "Lieutenant Governor of Illinois (2019–present); Illinois State Representative",
-  "website": null,
+  "website": "https://www.julianastratton.com",
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Juliana_Stratton_2023_%28cropped%29.jpg",
   "jacket": {
-    "total_raised": 4000000,
+    "total_raised": 4058200,
     "pac_support_total": 5000000,
     "data_date": "2026-03-13",
     "source": "https://www.fec.gov/data/candidate/S6IL00458/",
@@ -47,7 +47,32 @@
       "confirmed": true
     }
   ],
-  "key_votes": [],
+  "key_votes": [
+    {
+      "bill": "HB 40 (Illinois) — Reproductive Health Act, 2017",
+      "vote": "yes",
+      "summary": "As IL state representative, Stratton led the fight for HB 40, ensuring Illinois women retain access to abortion regardless of insurance coverage if Roe v. Wade were overturned. Signed into law 2017.",
+      "source": "https://emilyslist.org/candidate/juliana-stratton/"
+    },
+    {
+      "bill": "Cannabis Regulation and Tax Act (Illinois SB 1557), 2019",
+      "vote": "yes",
+      "summary": "As Lt. Governor, Stratton championed Illinois's landmark cannabis legalization law including equity provisions for expungements and minority business licensing. Signed Jan 2020.",
+      "source": "https://en.wikipedia.org/wiki/Juliana_Stratton"
+    },
+    {
+      "bill": "SAFE-T Act (Illinois SB 2328) — criminal justice reform, 2021",
+      "vote": "yes",
+      "summary": "Stratton publicly supported and advocated for Illinois's comprehensive criminal justice reform package (SAFE-T Act), which included ending cash bail and police accountability measures. Signed by Pritzker Feb 2021.",
+      "source": "https://ltgov.illinois.gov/"
+    },
+    {
+      "bill": "Illinois Governor Budget Signing — FY2025 ($53.1B), 2024",
+      "vote": "yes",
+      "summary": "As Lt. Governor, Stratton co-signed the FY2025 state budget which included expanded mental health and social service funding. Standard executive role.",
+      "source": "https://www.julianastratton.com/"
+    }
+  ],
   "endorsements": [
     {
       "org": "Gov. J.B. Pritzker",

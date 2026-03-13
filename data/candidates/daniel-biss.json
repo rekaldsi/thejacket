@@ -9,7 +9,7 @@
   "website": "https://www.danielbiss.com",
   "photo_url": null,
   "jacket": {
-    "total_raised": 2540000,
+    "total_raised": 2539961,
     "data_date": "2026-03-13",
     "source": "https://www.fec.gov/data/candidate/H6IL09228/",
     "note": "~$2M raised through Dec 31, 2025 per FEC filings.",
@@ -29,6 +29,30 @@
         "note": "Pro-science hybrid PAC spent $158K+ in independent expenditures supporting Biss through mailers featuring Sen. Elizabeth Warren's endorsement.",
         "source": "https://legis1.com/news/the-money-race-to-replace-jan-schakowsky-whos-funding-the-fight-for-illinoiss-9th-congressional-district-in-2026/",
         "confirmed": true
+      },
+      {
+        "name": "In-state Illinois individual donors (85% of contributions)",
+        "amount": 1300000,
+        "category": "individual",
+        "source": "https://dailynorthwestern.com/2026/02/02/city/abughazaleh-biss-fine-lead-fundraising-as-11-million-floods-congressional-race/",
+        "confirmed": false,
+        "amount_note": "Estimated from Biss campaign statement that 85% of Q4 2025 donations were from Illinois donors out of $1.98M raised. Confirmed as pattern, not exact FEC line item."
+      },
+      {
+        "name": "Out-of-state donors — Massachusetts",
+        "amount": 26500,
+        "category": "individual",
+        "source": "https://dailynorthwestern.com/2026/02/02/city/abughazaleh-biss-fine-lead-fundraising-as-11-million-floods-congressional-race/",
+        "confirmed": true,
+        "amount_note": "Confirmed by Daily Northwestern FEC data analysis"
+      },
+      {
+        "name": "Out-of-state donors — New York",
+        "amount": 25000,
+        "category": "individual",
+        "source": "https://dailynorthwestern.com/2026/02/02/city/abughazaleh-biss-fine-lead-fundraising-as-11-million-floods-congressional-race/",
+        "confirmed": true,
+        "amount_note": "Confirmed by Daily Northwestern FEC data analysis"
       }
     ],
     "donors_note": "No itemized donor breakdown available yet. total_raised reflects FEC aggregate total (H6IL09228) — detailed donor records pending ETL import.",
@@ -43,7 +67,26 @@
       "confirmed": false
     }
   ],
-  "key_votes": [],
+  "key_votes": [
+    {
+      "bill": "Illinois SB 1 — Pension Reform Act, 2013",
+      "vote": "yes",
+      "summary": "As IL state senator, Biss was lead champion of pension reform to address $100B+ state pension deficit. Passed with bipartisan support. Later struck down by IL Supreme Court as unconstitutional in 2015.",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Biss"
+    },
+    {
+      "bill": "Evanston Reparations Program (Resolution 126-R-19), 2021",
+      "vote": "yes",
+      "summary": "As Evanston mayor, Biss signed the first city-funded reparations program in US history, providing $25,000 grants to Black residents affected by discriminatory housing policies (1919–1969). Funded through cannabis tax revenue.",
+      "source": "https://www.cityofevanston.org/reparations"
+    },
+    {
+      "bill": "Evanston Civilian Police Review Board",
+      "vote": "yes",
+      "summary": "Biss supported establishment of civilian oversight of Evanston police department as part of broader police accountability reforms during his mayoral tenure.",
+      "source": "https://www.danielbiss.com"
+    }
+  ],
   "endorsements": [
     {
       "org": "Rep. Jan Schakowsky",
