@@ -1,0 +1,28 @@
+{
+  "id": "frank-avila-jr",
+  "name": "Frank Avila Jr.",
+  "party": "Democratic",
+  "office": "Cook County Board President",
+  "race_id": "cook-county-board-president-d-2026",
+  "bio": "Frank Avila Jr. is listed as a Democratic candidate for Cook County Board President in the 2026 primary cycle. He has previously held local elected office in Cook County. (Source: public ballot reporting and Cook County race context from scout docs)",
+  "prior_office": "Local elected office (Cook County)",
+  "website": "",
+  "jacket": {
+    "total_raised": null,
+    "data_date": "2026-03-13",
+    "source": "https://www.elections.il.gov/CampaignDisclosure",
+    "note": "ILSBE committee totals pending ETL import.",
+    "donors": []
+  },
+  "red_flags": [
+    {
+      "type": "data-gap",
+      "label": "Finance data incomplete",
+      "detail": "Committee-level donor intake is allegedly incomplete until next ILSBE ETL pass.",
+      "source": "https://www.elections.il.gov/CampaignDisclosure",
+      "confirmed": false
+    }
+  ],
+  "key_votes": [],
+  "endorsements": []
+}

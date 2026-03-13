@@ -1,0 +1,24 @@
+{
+  "id": "robin-kelly",
+  "name": "Robin Kelly",
+  "party": "Democratic",
+  "office": "U.S. Senate (Illinois)",
+  "race_id": "us-senate-il-d-2026",
+  "bio": "Robin Kelly is a U.S. Representative from Illinois and entered the 2026 Democratic primary for U.S. Senate. She has served in Congress since 2013 and previously served in the Illinois House. (Source: Shaw Local primary ballot guide, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
+  "prior_office": "U.S. Representative (IL-02); Illinois House",
+  "website": "https://www.robinkelly.org",
+  "jacket": {
+    "total_raised": null,
+    "data_date": "2026-03-13",
+    "source": "https://www.fec.gov/data/candidates/senate/?cycle=2026",
+    "note": "FEC totals pending direct ETL import.",
+    "donors": [
+      { "name": "Data pending", "amount": null, "category": "individual", "source": "https://api.open.fec.gov/v1/", "confirmed": false }
+    ]
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "endorsements": [
+    { "org": "Various Illinois Democratic officials", "significance": "Coalition support reported during statewide launch." }
+  ]
+}

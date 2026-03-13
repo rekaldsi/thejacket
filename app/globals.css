@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  border-color: #333333;
+}
+
+body {
+  margin: 0;
+  background: #0d0d0d;
+  color: #f5f4f0;
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+::selection {
+  background: #f59e0b;
+  color: #0d0d0d;
+}
+
+a {
+  color: #f5f4f0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f59e0b;
+}

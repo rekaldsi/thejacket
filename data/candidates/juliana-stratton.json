@@ -1,0 +1,22 @@
+{
+  "id": "juliana-stratton",
+  "name": "Juliana Stratton",
+  "party": "Democratic",
+  "office": "U.S. Senate (Illinois)",
+  "race_id": "us-senate-il-d-2026",
+  "bio": "Juliana Stratton is Illinois Lieutenant Governor and a candidate in the 2026 Democratic primary for U.S. Senate. She previously served in the Illinois House and became lieutenant governor in 2019. (Source: Shaw Local primary ballot guide, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
+  "prior_office": "Lieutenant Governor of Illinois; Illinois House",
+  "website": "https://www.julianaforillinois.com",
+  "jacket": {
+    "total_raised": null,
+    "data_date": "2026-03-13",
+    "source": "https://www.fec.gov/data/candidates/senate/?cycle=2026",
+    "note": "FEC totals pending direct ETL import.",
+    "donors": [
+      { "name": "Data pending", "amount": null, "category": "labor", "source": "https://api.open.fec.gov/v1/", "confirmed": false }
+    ]
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "endorsements": []
+}

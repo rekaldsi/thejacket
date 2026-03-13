@@ -1,0 +1,20 @@
+{
+  "id": "kat-abughazaleh",
+  "name": "Kat Abughazaleh",
+  "party": "Democratic",
+  "office": "U.S. House (IL-09)",
+  "race_id": "il-09-us-house-d-2026",
+  "bio": "Kat Abughazaleh is listed among Democratic candidates for the 2026 IL-09 primary. Public election reporting places her in the open-seat field after Rep. Jan Schakowsky's retirement. (Source: Shaw Local candidate list, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
+  "prior_office": "Media and advocacy background",
+  "website": "",
+  "jacket": {
+    "total_raised": null,
+    "data_date": "2026-03-13",
+    "source": "https://www.fec.gov/data/elections/house/IL/09/",
+    "note": "FEC candidate totals pending ETL import.",
+    "donors": []
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "endorsements": []
+}

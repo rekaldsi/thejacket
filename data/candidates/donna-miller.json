@@ -1,0 +1,20 @@
+{
+  "id": "donna-miller",
+  "name": "Donna Miller",
+  "party": "Democratic",
+  "office": "U.S. House (IL-02)",
+  "race_id": "il-02-us-house-d-2026",
+  "bio": "Donna Miller is listed as a Democratic candidate in the 2026 IL-02 congressional primary. She is a Cook County Commissioner and entered the open-seat contest. (Source: Shaw Local candidate list, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
+  "prior_office": "Cook County Commissioner",
+  "website": "",
+  "jacket": {
+    "total_raised": null,
+    "data_date": "2026-03-13",
+    "source": "https://www.fec.gov/data/elections/house/IL/02/",
+    "note": "FEC candidate totals pending ETL import.",
+    "donors": []
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "endorsements": []
+}

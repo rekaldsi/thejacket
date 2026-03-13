@@ -1,0 +1,20 @@
+{
+  "id": "delia-hynes",
+  "name": "Delia Hynes",
+  "party": "Democratic",
+  "office": "Cook County Assessor",
+  "race_id": "cook-county-assessor-d-2026",
+  "bio": "Delia Hynes is a Democratic candidate for Cook County Assessor in the 2026 primary. This race focuses on property valuation policy and fairness across Cook County neighborhoods. (Source: scout ballot context, March 13, 2026)",
+  "prior_office": "Local public service roles",
+  "website": "",
+  "jacket": {
+    "total_raised": null,
+    "data_date": "2026-03-13",
+    "source": "https://www.elections.il.gov/CampaignDisclosure",
+    "note": "ILSBE committee totals pending ETL import.",
+    "donors": []
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "endorsements": []
+}

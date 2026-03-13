@@ -1,0 +1,20 @@
+{
+  "id": "toni-preckwinkle",
+  "name": "Toni Preckwinkle",
+  "party": "Democratic",
+  "office": "Cook County Board President",
+  "race_id": "cook-county-board-president-d-2026",
+  "bio": "Toni Preckwinkle is the incumbent Cook County Board President and a candidate in the 2026 Democratic primary. She has led county government since 2010 after serving as a Chicago alderperson. (Source: Cook County race context and WTTW voter guide link in scout file: https://news.wttw.com/elections/voters-guide/2026-primary)",
+  "prior_office": "Cook County Board President; Chicago Alderman (4th Ward)",
+  "website": "https://www.toni2026.com",
+  "jacket": {
+    "total_raised": null,
+    "data_date": "2026-03-13",
+    "source": "https://www.elections.il.gov/CampaignDisclosure",
+    "note": "ILSBE committee totals pending ETL import.",
+    "donors": []
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "endorsements": []
+}

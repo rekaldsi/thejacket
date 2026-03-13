@@ -1,0 +1,22 @@
+{
+  "id": "raja-krishnamoorthi",
+  "name": "Raja Krishnamoorthi",
+  "party": "Democratic",
+  "office": "U.S. Senate (Illinois)",
+  "race_id": "us-senate-il-d-2026",
+  "bio": "Raja Krishnamoorthi is a U.S. Representative from Illinois who filed for the 2026 Democratic U.S. Senate primary. He has represented IL-08 in Congress and previously worked in state and federal policy roles. (Source: Shaw Local primary ballot guide, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
+  "prior_office": "U.S. Representative (IL-08)",
+  "website": "https://www.raja2026.com",
+  "jacket": {
+    "total_raised": null,
+    "data_date": "2026-03-13",
+    "source": "https://www.fec.gov/data/candidates/senate/?cycle=2026",
+    "note": "FEC totals pending direct ETL import.",
+    "donors": [
+      { "name": "Data pending", "amount": null, "category": "finance", "source": "https://api.open.fec.gov/v1/", "confirmed": false }
+    ]
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "endorsements": []
+}

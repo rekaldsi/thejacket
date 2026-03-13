@@ -1,0 +1,20 @@
+{
+  "id": "patty-garcia",
+  "name": "Patty Garcia",
+  "party": "Democratic",
+  "office": "U.S. House (IL-04)",
+  "race_id": "il-04-us-house-open-2026",
+  "bio": "Patty Garcia is listed as the Democratic candidate filed for IL-04 in 2026 after Rep. Chuy Garcia's retirement announcement. Public election reporting identifies her as part of the open-seat field. (Source: Shaw Local candidate list, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
+  "prior_office": "Not listed in source summary",
+  "website": "",
+  "jacket": {
+    "total_raised": null,
+    "data_date": "2026-03-13",
+    "source": "https://www.fec.gov/data/elections/house/IL/04/",
+    "note": "FEC candidate totals pending ETL import.",
+    "donors": []
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "endorsements": []
+}
