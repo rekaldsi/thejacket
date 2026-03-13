@@ -2,7 +2,7 @@
   {
     "id": "us-senate-il-d-2026",
     "slug": "us-senate-il-democratic-primary",
-    "title": "U.S. Senate — Illinois Democratic Primary",
+    "title": "U.S. Senate \u2014 Illinois Democratic Primary",
     "jurisdiction": "State of Illinois",
     "description": "Illinois voters choose the Democratic nominee for the open U.S. Senate seat after Sen. Dick Durbin's retirement. The winner advances to the November general election and could shape federal policy on spending, immigration, and judicial confirmations.",
     "party": "Democratic",
@@ -11,16 +11,17 @@
   {
     "id": "cook-county-board-president-d-2026",
     "slug": "cook-county-board-president-democratic-primary",
-    "title": "Cook County Board President — Democratic Primary",
+    "title": "Cook County Board President \u2014 Democratic Primary",
     "jurisdiction": "Cook County",
     "description": "The Cook County Board President leads the county's executive agenda and oversees a multibillion-dollar county budget. This race affects county health systems, criminal justice administration, and property-tax-adjacent policy decisions.",
     "party": "Democratic",
-    "candidateCount": 2
+    "candidateCount": 1,
+    "note": "Preckwinkle running for re-election. No confirmed challenger found in public filings as of March 13, 2026."
   },
   {
     "id": "cook-county-assessor-d-2026",
     "slug": "cook-county-assessor-democratic-primary",
-    "title": "Cook County Assessor — Democratic Primary",
+    "title": "Cook County Assessor \u2014 Democratic Primary",
     "jurisdiction": "Cook County",
     "description": "The Cook County Assessor sets assessed property values used to calculate tax bills across the county. This office has direct impact on homeowners, renters, and businesses through assessment policy and appeals administration.",
     "party": "Democratic",
@@ -29,7 +30,7 @@
   {
     "id": "il-02-us-house-d-2026",
     "slug": "il-02-us-house-democratic-primary",
-    "title": "U.S. House IL-02 — Democratic Primary",
+    "title": "U.S. House IL-02 \u2014 Democratic Primary",
     "jurisdiction": "Illinois Congressional District 02",
     "description": "This is an open congressional seat after Robin Kelly launched a U.S. Senate run. Primary voters in IL-02 choose who will represent the district in the U.S. House if they win the general election.",
     "party": "Democratic",
@@ -38,7 +39,7 @@
   {
     "id": "il-04-us-house-open-2026",
     "slug": "il-04-us-house-open-primary",
-    "title": "U.S. House IL-04 — Open Primary Field",
+    "title": "U.S. House IL-04 \u2014 Open Primary Field",
     "jurisdiction": "Illinois Congressional District 04",
     "description": "IL-04 is an open seat after Rep. Chuy Garc\u00eda announced retirement. Voters choose among candidates filing across parties, with each party's nominee moving to the general election.",
     "party": "Multi-party",
@@ -47,7 +48,7 @@
   {
     "id": "il-07-us-house-d-2026",
     "slug": "il-07-us-house-democratic-primary",
-    "title": "U.S. House IL-07 — Democratic Primary",
+    "title": "U.S. House IL-07 \u2014 Democratic Primary",
     "jurisdiction": "Illinois Congressional District 07",
     "description": "IL-07 is open after Rep. Danny Davis announced retirement. Democratic primary voters decide the nominee for a high-profile West Side and central Chicago district.",
     "party": "Democratic",
@@ -56,7 +57,7 @@
   {
     "id": "il-09-us-house-d-2026",
     "slug": "il-09-us-house-democratic-primary",
-    "title": "U.S. House IL-09 — Democratic Primary",
+    "title": "U.S. House IL-09 \u2014 Democratic Primary",
     "jurisdiction": "Illinois Congressional District 09",
     "description": "IL-09 is open following Rep. Jan Schakowsky's retirement announcement. The district's Democratic primary is a marquee North Side and North Shore contest.",
     "party": "Democratic",

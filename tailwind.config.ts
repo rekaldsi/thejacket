@@ -17,6 +17,7 @@ const config: Config = {
         "jacket-border": "#333333"
       },
       fontFamily: {
+        sans: ["var(--font-space-grotesk)", "ui-sans-serif", "system-ui", "sans-serif"],
         mono: ["JetBrains Mono", "ui-monospace", "SFMono-Regular", "Menlo", "monospace"]
       }
     }

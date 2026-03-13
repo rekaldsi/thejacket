@@ -2,19 +2,33 @@
   "id": "kat-abughazaleh",
   "name": "Kat Abughazaleh",
   "party": "Democratic",
-  "office": "U.S. House (IL-09)",
+  "office": "U.S. House — IL-09",
   "race_id": "il-09-us-house-d-2026",
-  "bio": "Kat Abughazaleh is listed among Democratic candidates for the 2026 IL-09 primary. Public election reporting places her in the open-seat field after Rep. Jan Schakowsky's retirement. (Source: Shaw Local candidate list, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
-  "prior_office": "Media and advocacy background",
-  "website": "",
+  "bio": "Kat Abughazaleh is a Palestinian-American journalist and social media personality (formerly of Media Matters) running in the Democratic primary for Illinois's 9th congressional district. She has raised approximately $2.7M, largely through small-dollar online donations. (Source: FEC H6IL09178; Wikipedia)",
+  "prior_office": null,
+  "website": null,
+  "photo_url": null,
   "jacket": {
-    "total_raised": null,
+    "total_raised": 2700000,
     "data_date": "2026-03-13",
-    "source": "https://www.fec.gov/data/elections/house/IL/09/",
-    "note": "FEC candidate totals pending ETL import.",
-    "donors": []
+    "source": "https://www.fec.gov/data/candidate/H6IL09178/",
+    "note": "~$2.7M raised through Dec 31, 2025 per FEC filings. Average donation ~$32 — predominantly small-dollar. No corporate PAC money reported.",
+    "donors": [
+      { "name": "Small-dollar individual donors (avg $32)", "amount": 2700000, "category": "individual", "source": "https://www.fec.gov/data/candidate/H6IL09178/", "confirmed": true }
+    ]
   },
-  "red_flags": [],
+  "red_flags": [
+    {
+      "type": "criminal",
+      "label": "Federal DOJ Indictment — ICE Facility Protest (Oct 2025)",
+      "detail": "Abughazaleh was federally indicted in October 2025 on charges of allegedly physically hindering and impeding a federal ICE agent during a protest at a Broadview, IL immigration detention facility in September 2025. She and supporters characterize the charges as political prosecution. Her case was pending as of the March 2026 primary.",
+      "source": "https://www.justice.gov",
+      "confirmed": true
+    }
+  ],
   "key_votes": [],
-  "endorsements": []
+  "endorsements": [
+    { "org": "Justice Democrats", "significance": "Progressive grassroots endorsement network" },
+    { "org": "Rep. Ro Khanna", "significance": "Progressive congressional endorsement" }
+  ]
 }
