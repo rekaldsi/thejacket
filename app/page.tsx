@@ -178,17 +178,15 @@ export default function HomePage() {
 
       {/* ── JUDICIAL WATCH ── */}
       <section>
-        <div className="mb-4 flex items-center justify-between">
-          <div>
-            <h2 className="pb-1 pt-4 text-2xl font-black uppercase tracking-tight">Judicial Watch</h2>
-            <p className="text-sm text-zinc-400 max-w-lg">
-              Nobody covers judicial races. We do. Here are the 4 most alarming Cook County judge candidates on your March 17 ballot.
-            </p>
-          </div>
+        <div className="mb-2 flex items-center justify-between">
+          <h2 className="pb-1 pt-4 text-2xl font-black uppercase tracking-tight">Judicial Watch</h2>
           <Link href="/judges" className="shrink-0 text-xs uppercase tracking-widest text-jacket-amber">
             All judges →
           </Link>
         </div>
+        <p className="mb-4 text-sm text-zinc-400 max-w-lg">
+          Nobody covers judicial races. We do. Here are the 4 most alarming Cook County judge candidates on your March 17 ballot.
+        </p>
         <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-4">
           {alarmJudges.map((judge) => (
             <JudicialAlarmCard key={judge.id} judge={judge} />
