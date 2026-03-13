@@ -99,7 +99,18 @@ export default function HomePage() {
     .map((slug) => races.find((r) => r.slug === slug))
     .filter(Boolean) as typeof races;
 
-  const top3 = scorecard.slice(0, 3);
+  // Shuffle tied top-scorers so the snapshot isn't always alphabetical Commissioner picks.
+  // Seed by calendar date so it's stable within a day but rotates daily.
+  const topScore = scorecard[0]?.score ?? 100;
+  const topTier = scorecard.filter((e) => e.score === topScore);
+  const restTop = scorecard.filter((e) => e.score < topScore);
+  const daySeed = Math.floor(Date.now() / 86_400_000);
+  const shuffledTop = [...topTier].sort((a, b) => {
+    const ha = Math.sin(daySeed + a.candidate.id.length * 31) * 10000;
+    const hb = Math.sin(daySeed + b.candidate.id.length * 31 + 1) * 10000;
+    return (ha - Math.floor(ha)) - (hb - Math.floor(hb));
+  });
+  const top3 = [...shuffledTop, ...restTop].slice(0, 3);
   const bottom3 = scorecard.slice(-3);
 
   return (
