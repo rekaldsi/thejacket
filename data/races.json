@@ -233,7 +233,10 @@
       "eira-corral-sepulveda",
       "beth-mcelroy-kirkwood",
       "sarah-bury"
-    ]
+    ],
+    "slug": "mwrd-commissioner-6-year-term",
+    "jurisdiction": "Cook County",
+    "candidateCount": 4
   },
   {
     "id": "mwrd-2yr-2026",
@@ -244,7 +247,10 @@
     "description": "Uncontested race for a 2-year unexpired term seat.",
     "candidates": [
       "cameron-cam-davis"
-    ]
+    ],
+    "slug": "mwrd-commissioner-2-year-unexpired-term",
+    "jurisdiction": "Cook County",
+    "candidateCount": 1
   },
   {
     "id": "cook-county-commissioner-dist-2",
@@ -256,7 +262,10 @@
     "candidates": [
       "michael-scott-jr",
       "andre-smith-dist2"
-    ]
+    ],
+    "slug": "cook-county-commissioner-district-2",
+    "jurisdiction": "Cook County \u2014 District 2",
+    "candidateCount": 2
   },
   {
     "id": "cook-county-commissioner-dist-5",
@@ -269,7 +278,10 @@
       "kisha-mccaskill",
       "kiana-belcher",
       "richard-nolan-dist5"
-    ]
+    ],
+    "slug": "cook-county-commissioner-district-5",
+    "jurisdiction": "Cook County \u2014 District 5",
+    "candidateCount": 3
   },
   {
     "id": "cook-county-commissioner-dist-6",
@@ -284,7 +296,10 @@
       "sylvester-fulcher",
       "patricia-joan-murphy",
       "wesam-shahed"
-    ]
+    ],
+    "slug": "cook-county-commissioner-district-6",
+    "jurisdiction": "Cook County \u2014 District 6",
+    "candidateCount": 5
   },
   {
     "id": "cook-county-commissioner-dist-8",
@@ -296,7 +311,10 @@
     "candidates": [
       "jessica-vasquez-dist8",
       "nicholas-cade"
-    ]
+    ],
+    "slug": "cook-county-commissioner-district-8",
+    "jurisdiction": "Cook County \u2014 District 8",
+    "candidateCount": 2
   },
   {
     "id": "cook-county-commissioner-dist-10",
@@ -308,7 +326,10 @@
     "candidates": [
       "bridget-gainer",
       "drake-warren"
-    ]
+    ],
+    "slug": "cook-county-commissioner-district-10",
+    "jurisdiction": "Cook County \u2014 District 10",
+    "candidateCount": 2
   },
   {
     "id": "cook-county-commissioner-dist-12",
@@ -323,7 +344,10 @@
       "isaiah-white-dist12",
       "che-che-wilson",
       "alice-hu"
-    ]
+    ],
+    "slug": "cook-county-commissioner-district-12",
+    "jurisdiction": "Cook County \u2014 District 12",
+    "candidateCount": 5
   },
   {
     "id": "cook-county-commissioner-dist-15",
@@ -334,6 +358,9 @@
     "description": "Open seat Democratic primary for District 15.",
     "candidates": [
       "ted-mason-dist15"
-    ]
+    ],
+    "slug": "cook-county-commissioner-district-15",
+    "jurisdiction": "Cook County \u2014 District 15",
+    "candidateCount": 1
   }
 ]
