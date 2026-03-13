@@ -22,6 +22,7 @@
         "confirmed": true
       }
     ],
+    "donors_note": "Donors list is PARTIAL — only notable/flagged donors are itemized. total_raised ($2,000,000) reflects the full FEC aggregate total (H6IL09194). Full donor breakdown pending ETL import. The Gessner family entry represents $14,000 of documented AIPAC-network contributions; remaining $1,986,000 is unitemized in this record.",
     "fec_id": "H6IL09194"
   },
   "red_flags": [
