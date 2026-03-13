@@ -2,11 +2,11 @@
   "id": "laura-fine",
   "name": "Laura Fine",
   "party": "Democratic",
-  "office": "U.S. House — IL-09",
+  "office": "U.S. House \u2014 IL-09",
   "race_id": "il-09-us-house-d-2026",
-  "bio": "Laura Fine is an Illinois state senator representing the 9th district — the same seat once held by Daniel Biss. A former journalist, she is running for the open IL-09 congressional seat. She has raised approximately $2M. (Source: FEC H6IL09194; Wikipedia)",
-  "prior_office": "Illinois State Senator (9th District, 2019–present)",
-  "website": null,
+  "bio": "Laura Fine is an Illinois state senator representing the 9th district \u2014 the same seat once held by Daniel Biss. A former journalist, she is running for the open IL-09 congressional seat. She has raised approximately $2M. (Source: FEC H6IL09194; Wikipedia)",
+  "prior_office": "Illinois State Senator (9th District, 2019\u2013present)",
+  "website": "https://laurafineforillinois.com",
   "photo_url": null,
   "jacket": {
     "total_raised": 2000000,
@@ -14,8 +14,15 @@
     "source": "https://www.fec.gov/data/candidate/H6IL09194/",
     "note": "~$2M raised through Dec 31, 2025 per FEC filings.",
     "donors": [
-      { "name": "Gessner family (AIPAC-network donors)", "amount": 14000, "category": "aipac", "source": "https://evanstonroundtable.com/2025/10/23/aipac-donors-flood-fines-campaign/", "confirmed": true }
-    ]
+      {
+        "name": "Gessner family (AIPAC-network donors)",
+        "amount": 14000,
+        "category": "aipac",
+        "source": "https://evanstonroundtable.com/2025/10/23/aipac-donors-flood-fines-campaign/",
+        "confirmed": true
+      }
+    ],
+    "fec_id": "H6IL09194"
   },
   "red_flags": [
     {

@@ -2,18 +2,19 @@
   "id": "daniel-biss",
   "name": "Daniel Biss",
   "party": "Democratic",
-  "office": "U.S. House — IL-09",
+  "office": "U.S. House \u2014 IL-09",
   "race_id": "il-09-us-house-d-2026",
   "bio": "Daniel Biss is the Mayor of Evanston and a former Illinois state senator who ran for governor in 2018. He is running for the open IL-09 congressional seat with the endorsement of retiring Rep. Jan Schakowsky. He has raised approximately $2M. (Source: FEC H6IL09228; Wikipedia)",
-  "prior_office": "Mayor of Evanston (2021–present); Illinois State Senator (9th District); Illinois State Representative",
-  "website": null,
+  "prior_office": "Mayor of Evanston (2021\u2013present); Illinois State Senator (9th District); Illinois State Representative",
+  "website": "https://www.danielbiss.com",
   "photo_url": null,
   "jacket": {
     "total_raised": 2000000,
     "data_date": "2026-03-13",
     "source": "https://www.fec.gov/data/candidate/H6IL09228/",
     "note": "~$2M raised through Dec 31, 2025 per FEC filings.",
-    "donors": []
+    "donors": [],
+    "fec_id": "H6IL09228"
   },
   "red_flags": [
     {
@@ -26,6 +27,9 @@
   ],
   "key_votes": [],
   "endorsements": [
-    { "org": "Rep. Jan Schakowsky", "significance": "Retiring incumbent's endorsement in her own district is the most powerful signal in this race" }
+    {
+      "org": "Rep. Jan Schakowsky",
+      "significance": "Retiring incumbent's endorsement in her own district is the most powerful signal in this race"
+    }
   ]
 }

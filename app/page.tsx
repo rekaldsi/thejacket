@@ -49,14 +49,14 @@ export default function HomePage() {
               href={`/race/${race.slug}`}
               className="border-l-2 border-jacket-amber px-4 py-3 transition-colors hover:bg-jacket-gray/40"
             >
-              <div className="flex items-start justify-between gap-3">
-                <h3 className="text-lg font-black uppercase">{race.title}</h3>
-                <span className="rounded-full bg-jacket-amber/20 px-2 py-1 text-xs font-mono text-jacket-amber">
-                  {race.candidateCount} CANDIDATES
+              <div className="mb-2 flex items-center gap-2">
+                <span className="rounded-full bg-jacket-amber/20 px-2 py-0.5 font-mono text-xs text-jacket-amber whitespace-nowrap">
+                  {race.candidateCount} CAND.
                 </span>
+                <span className="font-mono text-xs uppercase tracking-widest text-zinc-500 truncate">{race.jurisdiction}</span>
               </div>
-              <p className="mt-2 font-mono text-xs uppercase tracking-widest text-zinc-500">{race.jurisdiction}</p>
-              <p className="mt-3 text-sm text-zinc-300">{race.description}</p>
+              <h3 className="text-base font-black uppercase leading-snug">{race.title}</h3>
+              <p className="mt-2 text-sm text-zinc-400 line-clamp-2">{race.description}</p>
             </Link>
           ))}
         </div>

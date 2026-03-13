@@ -5,18 +5,31 @@
   "office": "U.S. Senate (Illinois)",
   "race_id": "us-senate-il-d-2026",
   "bio": "Robin Kelly is a U.S. Representative from Illinois's 2nd congressional district and a leading candidate in the 2026 Democratic U.S. Senate primary. She has served in Congress since 2013 and is known for her gun violence prevention work. (Source: FEC S6IL00474; robinkelly.house.gov)",
-  "prior_office": "U.S. Representative (IL-02, 2013–present); Illinois State Representative; Cook County Treasurer",
-  "website": null,
+  "prior_office": "U.S. Representative (IL-02, 2013\u2013present); Illinois State Representative; Cook County Treasurer",
+  "website": "https://robinkelly.house.gov",
   "photo_url": null,
   "jacket": {
     "total_raised": 4000000,
     "data_date": "2026-03-13",
     "source": "https://www.fec.gov/data/candidate/S6IL00474/",
-    "note": "Approximately $4M raised for Senate race as of Q4 2025 (The Intercept). Detailed donor breakdown pending FEC ETL.",
+    "note": "~$4M raised for Senate race as of Q4 2025 (The Intercept). FEC ID: S6IL00474",
     "donors": [
-      { "name": "Bloomberg-affiliated gun control PACs (prior House races)", "amount": null, "category": "pac", "source": "https://www.fec.gov/data/candidate/S6IL00474/", "confirmed": false },
-      { "name": "J Street (centrist pro-Israel) donors (prior career)", "amount": null, "category": "aipac", "source": "https://www.opensecrets.org", "confirmed": false }
-    ]
+      {
+        "name": "Bloomberg-affiliated gun control PACs (prior House races)",
+        "amount": null,
+        "category": "pac",
+        "source": "https://www.fec.gov/data/candidate/S6IL00474/",
+        "confirmed": false
+      },
+      {
+        "name": "J Street (centrist pro-Israel) donors (prior career)",
+        "amount": null,
+        "category": "aipac",
+        "source": "https://www.opensecrets.org",
+        "confirmed": false
+      }
+    ],
+    "fec_id": "S6IL00474"
   },
   "red_flags": [],
   "key_votes": [],

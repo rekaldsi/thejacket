@@ -41,6 +41,7 @@ export type Candidate = {
     data_date: string;
     source: string;
     note: string;
+    fec_id?: string | null;
     donors: Donor[];
   };
   red_flags: RedFlag[];

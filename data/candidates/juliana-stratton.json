@@ -5,23 +5,36 @@
   "office": "U.S. Senate (Illinois)",
   "race_id": "us-senate-il-d-2026",
   "bio": "Juliana Stratton is the Lieutenant Governor of Illinois, serving alongside Gov. J.B. Pritzker since 2019. She previously served in the Illinois General Assembly and is running for the open U.S. Senate seat with Pritzker's backing. (Source: FEC S6IL00458; WTTW Voter Guide 2026)",
-  "prior_office": "Lieutenant Governor of Illinois (2019–present); Illinois State Representative",
+  "prior_office": "Lieutenant Governor of Illinois (2019\u2013present); Illinois State Representative",
   "website": null,
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Juliana_Stratton_2023_%28cropped%29.jpg",
   "jacket": {
     "total_raised": 4000000,
     "data_date": "2026-03-13",
     "source": "https://www.fec.gov/data/candidate/S6IL00458/",
-    "note": "Approximately $4M raised directly; Gov. Pritzker donated $5M to a supporting PAC. ≥27 AIPAC-network donors gave $70K+ directly to campaign (The Intercept, March 12, 2026).",
+    "note": "Approximately $4M raised directly; Gov. Pritzker donated $5M to a supporting PAC. \u226527 AIPAC-network donors gave $70K+ directly to campaign (The Intercept, March 12, 2026).",
     "donors": [
-      { "name": "Gov. J.B. Pritzker (via supporting PAC)", "amount": 5000000, "category": "pac", "source": "https://theintercept.com/2026/03/12/illinois-senate-aipac-stratton/", "confirmed": true },
-      { "name": "AIPAC-network donors (≥27 individuals)", "amount": 70000, "category": "aipac", "source": "https://theintercept.com/2026/03/12/illinois-senate-aipac-stratton/", "confirmed": true }
-    ]
+      {
+        "name": "Gov. J.B. Pritzker (via supporting PAC)",
+        "amount": 5000000,
+        "category": "pac",
+        "source": "https://theintercept.com/2026/03/12/illinois-senate-aipac-stratton/",
+        "confirmed": true
+      },
+      {
+        "name": "AIPAC-network donors (\u226527 individuals)",
+        "amount": 70000,
+        "category": "aipac",
+        "source": "https://theintercept.com/2026/03/12/illinois-senate-aipac-stratton/",
+        "confirmed": true
+      }
+    ],
+    "fec_id": "S6IL00458"
   },
   "red_flags": [
     {
       "type": "aipac",
-      "label": "AIPAC Donor Network — $70K+ Direct + Former AIPAC President on Finance Committee",
+      "label": "AIPAC Donor Network \u2014 $70K+ Direct + Former AIPAC President on Finance Committee",
       "detail": "The Intercept reported on March 12, 2026 that at least 27 AIPAC donors gave $70K+ directly to Stratton's Senate campaign. Lee Rosenberg, a former president of AIPAC, sits on her campaign finance committee. AIPAC is officially staying neutral in the IL Senate race but its donor network is active for Stratton.",
       "source": "https://theintercept.com/2026/03/12/illinois-senate-aipac-stratton/",
       "confirmed": true
@@ -29,7 +42,13 @@
   ],
   "key_votes": [],
   "endorsements": [
-    { "org": "Gov. J.B. Pritzker", "significance": "$5M PAC support; governor's endorsement carries major downstate name recognition" },
-    { "org": "Sen. Tammy Duckworth", "significance": "Senior Illinois senator endorsement" }
+    {
+      "org": "Gov. J.B. Pritzker",
+      "significance": "$5M PAC support; governor's endorsement carries major downstate name recognition"
+    },
+    {
+      "org": "Sen. Tammy Duckworth",
+      "significance": "Senior Illinois senator endorsement"
+    }
   ]
 }

@@ -8,13 +8,15 @@
   "prior_office": "Former Cook County Commissioner",
   "website": "",
   "jacket": {
-    "total_raised": null,
+    "total_raised": 383000,
     "data_date": "2026-03-13",
     "source": "https://www.fec.gov/data/elections/house/IL/07/",
-    "note": "FEC candidate totals pending ETL import.",
-    "donors": []
+    "note": "~$383K raised as of Feb 25, 2026 (FEC). FEC ID: H6IL07370",
+    "donors": [],
+    "fec_id": "H6IL07370"
   },
   "red_flags": [],
   "key_votes": [],
-  "endorsements": []
+  "endorsements": [],
+  "photo_url": null
 }
