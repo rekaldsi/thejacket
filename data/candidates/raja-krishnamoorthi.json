@@ -5,7 +5,7 @@
   "office": "U.S. Senate (Illinois)",
   "race_id": "us-senate-il-d-2026",
   "bio": "Raja Krishnamoorthi is a U.S. Representative from Illinois's 8th congressional district who filed for the 2026 Democratic U.S. Senate primary. He has served in Congress since 2017 and previously worked in state and federal policy roles. (Source: FEC S6IL00482; Shaw Local primary ballot guide, March 5, 2026)",
-  "prior_office": "U.S. Representative (IL-08, 2017\u2013present)",
+  "prior_office": "U.S. Representative (IL-08, 2017–present)",
   "website": "https://www.raja2026.com",
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Raja_Krishnamoorthi_official_photo.jpg",
   "jacket": {
@@ -68,7 +68,7 @@
     {
       "type": "dark-money",
       "label": "Donors with MAGA / Trump ties",
-      "detail": "The Chicago Sun-Times reported in December 2025 that Krishnamoorthi accepted donations from Trump-aligned donors and political figures, including Shyam Sankar, CTO of Palantir \u2014 a company with ICE contracts.",
+      "detail": "The Chicago Sun-Times reported in December 2025 that Krishnamoorthi accepted donations from Trump-aligned donors and political figures, including Shyam Sankar, CTO of Palantir — a company with ICE contracts.",
       "source": "https://chicago.suntimes.com/politics/2025/12/08/krishnamoorthi-maga-donors",
       "confirmed": true
     }
@@ -83,29 +83,100 @@
   ],
   "endorsements": [],
   "career_history": [
-    { "role": "U.S. Representative, IL-08", "org": "U.S. House of Representatives", "years": "2017–present", "highlight": "House Permanent Select Committee on Intelligence; House Select Committee on China" },
-    { "role": "Deputy Treasurer of Illinois", "org": "Illinois State Treasurer's Office", "years": "2009–2010" },
-    { "role": "Special Assistant Attorney General", "org": "Illinois Attorney General's Office", "years": "2005–2006" },
-    { "role": "Associate", "org": "Sidley Austin LLP", "years": "2003–2005" }
+    {
+      "role": "U.S. Representative, IL-08",
+      "org": "U.S. House of Representatives",
+      "years": "2017–present",
+      "highlight": "House Permanent Select Committee on Intelligence; House Select Committee on China"
+    },
+    {
+      "role": "Deputy Treasurer of Illinois",
+      "org": "Illinois State Treasurer's Office",
+      "years": "2009–2010"
+    },
+    {
+      "role": "Special Assistant Attorney General",
+      "org": "Illinois Attorney General's Office",
+      "years": "2005–2006"
+    },
+    {
+      "role": "Associate",
+      "org": "Sidley Austin LLP",
+      "years": "2003–2005"
+    }
   ],
   "policy_platform": [
-    { "topic": "China Policy & National Security", "position": "Led House Select Committee on the Chinese Communist Party; authored legislation on TikTok national security review; hawkish on economic competition with China.", "source": "https://krishnamoorthi.house.gov" },
-    { "topic": "Technology Regulation", "position": "Supports antitrust enforcement against Big Tech; focused on AI governance and data privacy legislation.", "source": "https://krishnamoorthi.house.gov" },
-    { "topic": "Gaza / Foreign Policy", "position": "Voted for additional military aid to Israel (2024). Has called for humanitarian pauses but stopped short of arms embargo. Backed by AIPAC-aligned donors.", "source": "https://clerk.house.gov/Votes/2024" },
-    { "topic": "Economic Policy", "position": "Centrist Democrat; supports manufacturing reshoring, semiconductor investment (CHIPS Act), and workforce development.", "source": "https://krishnamoorthi.house.gov" }
+    {
+      "topic": "China Policy & National Security",
+      "position": "Led House Select Committee on the Chinese Communist Party; authored legislation on TikTok national security review; hawkish on economic competition with China.",
+      "source": "https://krishnamoorthi.house.gov"
+    },
+    {
+      "topic": "Technology Regulation",
+      "position": "Supports antitrust enforcement against Big Tech; focused on AI governance and data privacy legislation.",
+      "source": "https://krishnamoorthi.house.gov"
+    },
+    {
+      "topic": "Gaza / Foreign Policy",
+      "position": "Voted for additional military aid to Israel (2024). Has called for humanitarian pauses but stopped short of arms embargo. Backed by AIPAC-aligned donors.",
+      "source": "https://clerk.house.gov/Votes/2024"
+    },
+    {
+      "topic": "Economic Policy",
+      "position": "Centrist Democrat; supports manufacturing reshoring, semiconductor investment (CHIPS Act), and workforce development.",
+      "source": "https://krishnamoorthi.house.gov"
+    }
   ],
   "social_pulse": {
     "summary": "Mixed-to-negative among progressive primary voters due to AIPAC ties and Gaza votes. Positive mainstream press for China committee work. High name recognition statewide.",
     "sentiment": "mixed",
-    "hashtags": ["#Raja2026", "#RajaForSenate", "#NoAIPACMoney", "#Krishnamoorthi"],
+    "hashtags": [
+      "#Raja2026",
+      "#RajaForSenate",
+      "#NoAIPACMoney",
+      "#Krishnamoorthi"
+    ],
     "last_updated": "2026-03-13"
   },
   "trust_indicators": [
-    { "label": "FEC filings current", "value": true, "type": "positive" },
-    { "label": "Harvard AB / Princeton JD education", "value": true, "type": "neutral" },
-    { "label": "AIPAC endorsement + $250K+ from pro-Israel donors", "value": true, "type": "negative" },
-    { "label": "Accepted donations from Trump-aligned donors (Palantir CTO)", "value": true, "type": "negative" },
-    { "label": "Crypto PAC money (Fairshake)", "value": true, "type": "negative" },
-    { "label": "No personal ethics violations on record", "value": true, "type": "positive" }
-  ]
+    {
+      "label": "FEC filings current",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "Harvard AB / Princeton JD education",
+      "value": true,
+      "type": "neutral"
+    },
+    {
+      "label": "AIPAC endorsement + $250K+ from pro-Israel donors",
+      "value": true,
+      "type": "negative"
+    },
+    {
+      "label": "Accepted donations from Trump-aligned donors (Palantir CTO)",
+      "value": true,
+      "type": "negative"
+    },
+    {
+      "label": "Crypto PAC money (Fairshake)",
+      "value": true,
+      "type": "negative"
+    },
+    {
+      "label": "No personal ethics violations on record",
+      "value": true,
+      "type": "positive"
+    }
+  ],
+  "transparency_score": {
+    "grade": "C",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "A",
+    "record_available": true,
+    "red_flags_count": 3,
+    "computed_at": "2026-03-13"
+  }
 }

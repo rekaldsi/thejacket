@@ -20,10 +20,18 @@
   "key_votes": [],
   "endorsements": [],
   "career_history": [
-    { "role": "Community advocate / activist", "org": "Various Chicago-area organizations", "years": "n/a", "highlight": "Background in community organizing; limited public record as of March 2026" }
+    {
+      "role": "Community advocate / activist",
+      "org": "Various Chicago-area organizations",
+      "years": "n/a",
+      "highlight": "Background in community organizing; limited public record as of March 2026"
+    }
   ],
   "policy_platform": [
-    { "topic": "Platform", "position": "No detailed policy platform confirmed from public sources as of March 2026." }
+    {
+      "topic": "Platform",
+      "position": "No detailed policy platform confirmed from public sources as of March 2026."
+    }
   ],
   "social_pulse": {
     "summary": "Limited social media presence found in available sources as of March 2026.",
@@ -31,6 +39,19 @@
     "last_updated": "2026-03-13"
   },
   "trust_indicators": [
-    { "label": "Disclosure filings status", "value": "Not confirmed in public sources as of March 2026", "type": "neutral" }
-  ]
+    {
+      "label": "Disclosure filings status",
+      "value": "Not confirmed in public sources as of March 2026",
+      "type": "neutral"
+    }
+  ],
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "F",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-13"
+  }
 }

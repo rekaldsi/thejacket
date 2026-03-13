@@ -2,10 +2,10 @@
   "id": "daniel-biss",
   "name": "Daniel Biss",
   "party": "Democratic",
-  "office": "U.S. House \u2014 IL-09",
+  "office": "U.S. House — IL-09",
   "race_id": "il-09-us-house-d-2026",
   "bio": "Daniel Biss is the Mayor of Evanston and a former Illinois state senator who ran for governor in 2018. He is running for the open IL-09 congressional seat with the endorsement of retiring Rep. Jan Schakowsky. He has raised approximately $2M. (Source: FEC H6IL09228; Wikipedia)",
-  "prior_office": "Mayor of Evanston (2021\u2013present); Illinois State Senator (9th District); Illinois State Representative",
+  "prior_office": "Mayor of Evanston (2021–present); Illinois State Senator (9th District); Illinois State Representative",
   "website": "https://www.danielbiss.com",
   "photo_url": null,
   "jacket": {
@@ -34,27 +34,92 @@
     }
   ],
   "career_history": [
-    { "role": "Mayor of Evanston", "org": "City of Evanston", "years": "2021–present", "highlight": "Oversaw historic reparations program — first city-funded reparations in U.S." },
-    { "role": "Illinois State Senator", "org": "Illinois Senate", "years": "2013–2019", "highlight": "Led pension reform efforts; ran for Governor 2018" },
-    { "role": "Illinois State Representative", "org": "Illinois General Assembly", "years": "2011–2013" },
-    { "role": "Mathematics Professor", "org": "University of Chicago", "years": "2005–2011", "highlight": "PhD in Mathematics from MIT; research in topology" }
+    {
+      "role": "Mayor of Evanston",
+      "org": "City of Evanston",
+      "years": "2021–present",
+      "highlight": "Oversaw historic reparations program — first city-funded reparations in U.S."
+    },
+    {
+      "role": "Illinois State Senator",
+      "org": "Illinois Senate",
+      "years": "2013–2019",
+      "highlight": "Led pension reform efforts; ran for Governor 2018"
+    },
+    {
+      "role": "Illinois State Representative",
+      "org": "Illinois General Assembly",
+      "years": "2011–2013"
+    },
+    {
+      "role": "Mathematics Professor",
+      "org": "University of Chicago",
+      "years": "2005–2011",
+      "highlight": "PhD in Mathematics from MIT; research in topology"
+    }
   ],
   "policy_platform": [
-    { "topic": "Reparations", "position": "Led Evanston's first-in-nation municipal reparations program for Black residents affected by discriminatory housing policies.", "source": "https://www.cityofevanston.org/reparations" },
-    { "topic": "Housing Affordability", "position": "Supports expanded affordable housing, anti-displacement policies, and community land trusts.", "source": "https://bissforcongress.com" },
-    { "topic": "Progressive Taxation", "position": "Consistent advocate for taxing the wealthy and funding public services; supported graduated income tax proposal.", "source": "https://bissforcongress.com" }
+    {
+      "topic": "Reparations",
+      "position": "Led Evanston's first-in-nation municipal reparations program for Black residents affected by discriminatory housing policies.",
+      "source": "https://www.cityofevanston.org/reparations"
+    },
+    {
+      "topic": "Housing Affordability",
+      "position": "Supports expanded affordable housing, anti-displacement policies, and community land trusts.",
+      "source": "https://bissforcongress.com"
+    },
+    {
+      "topic": "Progressive Taxation",
+      "position": "Consistent advocate for taxing the wealthy and funding public services; supported graduated income tax proposal.",
+      "source": "https://bissforcongress.com"
+    }
   ],
   "social_pulse": {
     "summary": "Strong positive sentiment among progressives. National attention for Evanston reparations. Well-regarded as policy intellectual. Evanston-focused, building broader base.",
     "sentiment": "positive",
-    "hashtags": ["#DanielBiss", "#Evanston", "#Reparations", "#BissForCongress"],
+    "hashtags": [
+      "#DanielBiss",
+      "#Evanston",
+      "#Reparations",
+      "#BissForCongress"
+    ],
     "last_updated": "2026-03-13"
   },
   "trust_indicators": [
-    { "label": "FEC filings current", "value": true, "type": "positive" },
-    { "label": "No ethics violations on record", "value": true, "type": "positive" },
-    { "label": "Led first U.S. city-funded reparations program", "value": true, "type": "positive" },
-    { "label": "MIT PhD — policy depth credential", "value": true, "type": "positive" },
-    { "label": "Lost 2018 gubernatorial primary", "value": "Challenged Pritzker, lost decisively", "type": "neutral" }
-  ]
+    {
+      "label": "FEC filings current",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "No ethics violations on record",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "Led first U.S. city-funded reparations program",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "MIT PhD — policy depth credential",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "Lost 2018 gubernatorial primary",
+      "value": "Challenged Pritzker, lost decisively",
+      "type": "neutral"
+    }
+  ],
+  "transparency_score": {
+    "grade": "C",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "B",
+    "record_available": false,
+    "red_flags_count": 1,
+    "computed_at": "2026-03-13"
+  }
 }

@@ -19,11 +19,41 @@
     "fec_id": null,
     "ilsbe_id": "19319",
     "donors": [
-      { "name": "IUOE Local 399 Political Education Fund", "amount": 10000, "category": "Union PAC", "source": "ILSBE", "confirmed": true },
-      { "name": "Thomas M. Tully", "amount": 2500, "category": "Individual", "source": "ILSBE", "confirmed": true },
-      { "name": "GRG Holdings LLC", "amount": 1000, "category": "Corporate", "source": "ILSBE", "confirmed": true },
-      { "name": "JMS Electric Inc", "amount": 1000, "category": "Corporate", "source": "ILSBE", "confirmed": true },
-      { "name": "All-Circo Inc", "amount": 500, "category": "Corporate", "source": "ILSBE", "confirmed": true }
+      {
+        "name": "IUOE Local 399 Political Education Fund",
+        "amount": 10000,
+        "category": "Union PAC",
+        "source": "ILSBE",
+        "confirmed": true
+      },
+      {
+        "name": "Thomas M. Tully",
+        "amount": 2500,
+        "category": "Individual",
+        "source": "ILSBE",
+        "confirmed": true
+      },
+      {
+        "name": "GRG Holdings LLC",
+        "amount": 1000,
+        "category": "Corporate",
+        "source": "ILSBE",
+        "confirmed": true
+      },
+      {
+        "name": "JMS Electric Inc",
+        "amount": 1000,
+        "category": "Corporate",
+        "source": "ILSBE",
+        "confirmed": true
+      },
+      {
+        "name": "All-Circo Inc",
+        "amount": 500,
+        "category": "Corporate",
+        "source": "ILSBE",
+        "confirmed": true
+      }
     ]
   },
   "red_flags": [
@@ -110,15 +140,51 @@
     }
   ],
   "jail_timeline": [
-    { "year": 2006, "event": "Dart elected Cook County Sheriff, defeating incumbent Michael Sheahan's chosen successor", "type": "milestone" },
-    { "year": 2010, "event": "DOJ files federal lawsuit — 'unconstitutional living conditions' at Cook County Jail", "type": "legal" },
-    { "year": 2017, "event": "DOJ consent decree lifted after 7+ years of federal oversight", "type": "legal" },
-    { "year": 2022, "event": "FBI joins internal ghost payrolling probe — employees allegedly working second jobs on county time", "type": "legal" },
-    { "year": 2023, "event": "18 detainee deaths — deadliest year in 30+ years. Dart fails to notify regulators or families.", "type": "death" },
-    { "year": 2024, "event": "Cory Ulmer beaten to death by guards. Dart initially calls it 'a medical emergency.' 73-page federal civil rights suit filed.", "type": "death" },
-    { "year": 2024, "event": "County Board calls hearing on jail deaths. Dart does not attend.", "type": "ethics" },
-    { "year": 2025, "event": "Sgt. Pagani files 60-page federal whistleblower suit — ghost pay, COVID fraud, nepotism, racist images, campaign coercion", "type": "legal" },
-    { "year": 2026, "event": "Running unopposed. Again. 20th year in office.", "type": "election" }
+    {
+      "year": 2006,
+      "event": "Dart elected Cook County Sheriff, defeating incumbent Michael Sheahan's chosen successor",
+      "type": "milestone"
+    },
+    {
+      "year": 2010,
+      "event": "DOJ files federal lawsuit — 'unconstitutional living conditions' at Cook County Jail",
+      "type": "legal"
+    },
+    {
+      "year": 2017,
+      "event": "DOJ consent decree lifted after 7+ years of federal oversight",
+      "type": "legal"
+    },
+    {
+      "year": 2022,
+      "event": "FBI joins internal ghost payrolling probe — employees allegedly working second jobs on county time",
+      "type": "legal"
+    },
+    {
+      "year": 2023,
+      "event": "18 detainee deaths — deadliest year in 30+ years. Dart fails to notify regulators or families.",
+      "type": "death"
+    },
+    {
+      "year": 2024,
+      "event": "Cory Ulmer beaten to death by guards. Dart initially calls it 'a medical emergency.' 73-page federal civil rights suit filed.",
+      "type": "death"
+    },
+    {
+      "year": 2024,
+      "event": "County Board calls hearing on jail deaths. Dart does not attend.",
+      "type": "ethics"
+    },
+    {
+      "year": 2025,
+      "event": "Sgt. Pagani files 60-page federal whistleblower suit — ghost pay, COVID fraud, nepotism, racist images, campaign coercion",
+      "type": "legal"
+    },
+    {
+      "year": 2026,
+      "event": "Running unopposed. Again. 20th year in office.",
+      "type": "election"
+    }
   ],
   "accountability_gap": {
     "oversight_bodies": [
@@ -148,34 +214,111 @@
       "Register to vote in the November 2026 general election, when independent candidates may appear on the ballot."
     ],
     "read_more": [
-      { "label": "Injustice Watch: Dying on Dart's Watch", "url": "https://www.injusticewatch.org/project/jail-deaths/" },
-      { "label": "Chicago Sun-Times: Campaign coercion investigation", "url": "https://chicago.suntimes.com/the-watchdogs/2024/05/27/cook-county-jail-officials-fired-coerced-political-work-sheriff-tom-dart" },
-      { "label": "CWB Chicago: Pagani whistleblower lawsuit", "url": "https://cwbchicago.com/2025/01/in-federal-lawsuit-demoted-investigator-claims-she-found-ghost-payrolling-covid-fraud-nepotism-and-more-at-the-sheriffs-office.html" }
+      {
+        "label": "Injustice Watch: Dying on Dart's Watch",
+        "url": "https://www.injusticewatch.org/project/jail-deaths/"
+      },
+      {
+        "label": "Chicago Sun-Times: Campaign coercion investigation",
+        "url": "https://chicago.suntimes.com/the-watchdogs/2024/05/27/cook-county-jail-officials-fired-coerced-political-work-sheriff-tom-dart"
+      },
+      {
+        "label": "CWB Chicago: Pagani whistleblower lawsuit",
+        "url": "https://cwbchicago.com/2025/01/in-federal-lawsuit-demoted-investigator-claims-she-found-ghost-payrolling-covid-fraud-nepotism-and-more-at-the-sheriffs-office.html"
+      }
     ]
   },
   "career_history": [
-    { "role": "Cook County Sheriff", "org": "Cook County Sheriff's Office", "years": "2006–present", "highlight": "20-year incumbency; runs the second-largest single-site jail in the U.S." },
-    { "role": "State Representative", "org": "Illinois House of Representatives", "years": "1993–2003", "highlight": "10 years in the state legislature" },
-    { "role": "State Senator", "org": "Illinois Senate", "years": "1991–1993" },
-    { "role": "Private Attorney", "org": "Private Practice", "years": "pre-1991" }
+    {
+      "role": "Cook County Sheriff",
+      "org": "Cook County Sheriff's Office",
+      "years": "2006–present",
+      "highlight": "20-year incumbency; runs the second-largest single-site jail in the U.S."
+    },
+    {
+      "role": "State Representative",
+      "org": "Illinois House of Representatives",
+      "years": "1993–2003",
+      "highlight": "10 years in the state legislature"
+    },
+    {
+      "role": "State Senator",
+      "org": "Illinois Senate",
+      "years": "1991–1993"
+    },
+    {
+      "role": "Private Attorney",
+      "org": "Private Practice",
+      "years": "pre-1991"
+    }
   ],
   "policy_platform": [
-    { "topic": "Jail Reform", "position": "Has resisted calls for large-scale decarceration; opposes elimination of cash bail without alternatives. Has framed jail conditions as a mental-health crisis requiring more resources, not fewer detainees.", "source": "https://www.injusticewatch.org/project/jail-deaths/" },
-    { "topic": "Electronic Monitoring", "position": "Expanded electronic monitoring as an alternative to detention, but faces lawsuits alleging unlawful detention of people who paid bond.", "source": "https://www.injusticewatch.org/criminal-courts/cook-county-jail/2020/dart-electronic-monitoring-lawsuit-appellate-court/" },
-    { "topic": "Gun Control", "position": "Has publicly opposed Pornhub and payment processors facilitating gun straw purchases. Supports background check legislation.", "source": "https://www.cookcountysheriff.org" }
+    {
+      "topic": "Jail Reform",
+      "position": "Has resisted calls for large-scale decarceration; opposes elimination of cash bail without alternatives. Has framed jail conditions as a mental-health crisis requiring more resources, not fewer detainees.",
+      "source": "https://www.injusticewatch.org/project/jail-deaths/"
+    },
+    {
+      "topic": "Electronic Monitoring",
+      "position": "Expanded electronic monitoring as an alternative to detention, but faces lawsuits alleging unlawful detention of people who paid bond.",
+      "source": "https://www.injusticewatch.org/criminal-courts/cook-county-jail/2020/dart-electronic-monitoring-lawsuit-appellate-court/"
+    },
+    {
+      "topic": "Gun Control",
+      "position": "Has publicly opposed Pornhub and payment processors facilitating gun straw purchases. Supports background check legislation.",
+      "source": "https://www.cookcountysheriff.org"
+    }
   ],
   "social_pulse": {
     "summary": "Predominantly negative coverage. Jail death investigations dominate social discourse around Dart. Supporters credit him with expanding diversion programs; critics cite 20+ years of jail deaths and federal investigations.",
     "sentiment": "negative",
-    "hashtags": ["#FreeCookCountyJail", "#JailDeaths", "#DyingOnDartsWatch", "#TomDart"],
+    "hashtags": [
+      "#FreeCookCountyJail",
+      "#JailDeaths",
+      "#DyingOnDartsWatch",
+      "#TomDart"
+    ],
     "last_updated": "2026-03-13"
   },
   "trust_indicators": [
-    { "label": "FEC/ILSBE disclosure filed", "value": true, "type": "positive" },
-    { "label": "DOJ consent decree (2010–2017)", "value": "Federal oversight for unconstitutional jail conditions", "type": "negative" },
-    { "label": "18 detainee deaths in 2023 — deadliest in 30+ years", "value": true, "type": "negative" },
-    { "label": "FBI ghost payroll probe (2022–2024)", "value": "Confirmed FBI involvement; no federal charges filed", "type": "negative" },
-    { "label": "Running unopposed in 2026 primary", "value": true, "type": "negative" },
-    { "label": "Skipped County Board hearing on jail deaths (Dec 2024)", "value": true, "type": "negative" }
-  ]
+    {
+      "label": "FEC/ILSBE disclosure filed",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "DOJ consent decree (2010–2017)",
+      "value": "Federal oversight for unconstitutional jail conditions",
+      "type": "negative"
+    },
+    {
+      "label": "18 detainee deaths in 2023 — deadliest in 30+ years",
+      "value": true,
+      "type": "negative"
+    },
+    {
+      "label": "FBI ghost payroll probe (2022–2024)",
+      "value": "Confirmed FBI involvement; no federal charges filed",
+      "type": "negative"
+    },
+    {
+      "label": "Running unopposed in 2026 primary",
+      "value": true,
+      "type": "negative"
+    },
+    {
+      "label": "Skipped County Board hearing on jail deaths (Dec 2024)",
+      "value": true,
+      "type": "negative"
+    }
+  ],
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "B",
+    "record_available": false,
+    "red_flags_count": 10,
+    "computed_at": "2026-03-13"
+  }
 }

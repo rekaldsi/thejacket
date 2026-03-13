@@ -21,11 +21,24 @@
   "endorsements": [],
   "photo_url": null,
   "career_history": [
-    { "role": "Cook County Commissioner, District 1", "org": "Cook County Board of Commissioners", "years": "2010–2018", "highlight": "Former commissioner; lost reelection in 2018" },
-    { "role": "Candidate for Cook County Board President", "org": "Cook County Board", "years": "2018", "highlight": "Ran against Toni Preckwinkle; lost in primary" }
+    {
+      "role": "Cook County Commissioner, District 1",
+      "org": "Cook County Board of Commissioners",
+      "years": "2010–2018",
+      "highlight": "Former commissioner; lost reelection in 2018"
+    },
+    {
+      "role": "Candidate for Cook County Board President",
+      "org": "Cook County Board",
+      "years": "2018",
+      "highlight": "Ran against Toni Preckwinkle; lost in primary"
+    }
   ],
   "policy_platform": [
-    { "topic": "Platform", "position": "No detailed current policy platform confirmed from public sources as of March 2026." }
+    {
+      "topic": "Platform",
+      "position": "No detailed current policy platform confirmed from public sources as of March 2026."
+    }
   ],
   "social_pulse": {
     "summary": "Former officeholder with some name recognition on Chicago's South Side. Limited current social media presence.",
@@ -33,7 +46,24 @@
     "last_updated": "2026-03-13"
   },
   "trust_indicators": [
-    { "label": "Former elected official — public record exists", "value": true, "type": "neutral" },
-    { "label": "Disclosure filings status", "value": "Not confirmed in public sources as of March 2026", "type": "neutral" }
-  ]
+    {
+      "label": "Former elected official — public record exists",
+      "value": true,
+      "type": "neutral"
+    },
+    {
+      "label": "Disclosure filings status",
+      "value": "Not confirmed in public sources as of March 2026",
+      "type": "neutral"
+    }
+  ],
+  "transparency_score": {
+    "grade": "D",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "D",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-13"
+  }
 }

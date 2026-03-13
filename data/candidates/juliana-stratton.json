@@ -5,7 +5,7 @@
   "office": "U.S. Senate (Illinois)",
   "race_id": "us-senate-il-d-2026",
   "bio": "Juliana Stratton is the Lieutenant Governor of Illinois, serving alongside Gov. J.B. Pritzker since 2019. She previously served in the Illinois General Assembly and is running for the open U.S. Senate seat with Pritzker's backing. (Source: FEC S6IL00458; WTTW Voter Guide 2026)",
-  "prior_office": "Lieutenant Governor of Illinois (2019\u2013present); Illinois State Representative",
+  "prior_office": "Lieutenant Governor of Illinois (2019–present); Illinois State Representative",
   "website": null,
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Juliana_Stratton_2023_%28cropped%29.jpg",
   "jacket": {
@@ -41,7 +41,7 @@
   "red_flags": [
     {
       "type": "aipac",
-      "label": "AIPAC Donor Network \u2014 $70K+ Direct + Former AIPAC President on Finance Committee",
+      "label": "AIPAC Donor Network — $70K+ Direct + Former AIPAC President on Finance Committee",
       "detail": "The Intercept reported on March 12, 2026 that at least 27 AIPAC donors gave $70K+ directly to Stratton's Senate campaign. Lee Rosenberg, a former president of AIPAC, sits on her campaign finance committee. AIPAC is officially staying neutral in the IL Senate race but its donor network is active for Stratton.",
       "source": "https://theintercept.com/2026/03/12/illinois-senate-aipac-stratton/",
       "confirmed": true
@@ -59,25 +59,81 @@
     }
   ],
   "career_history": [
-    { "role": "Lieutenant Governor of Illinois", "org": "State of Illinois", "years": "2019–present", "highlight": "Running mate to Gov. JB Pritzker; broke barriers as first Black Lt. Governor" },
-    { "role": "Illinois State Representative", "org": "Illinois General Assembly", "years": "2015–2019", "highlight": "House Judiciary Committee; criminal justice reform focus" },
-    { "role": "Attorney / Law Professor", "org": "University of Illinois Chicago School of Law", "years": "pre-2015", "highlight": "Adjunct professor; focused on legal aid and social justice" }
+    {
+      "role": "Lieutenant Governor of Illinois",
+      "org": "State of Illinois",
+      "years": "2019–present",
+      "highlight": "Running mate to Gov. JB Pritzker; broke barriers as first Black Lt. Governor"
+    },
+    {
+      "role": "Illinois State Representative",
+      "org": "Illinois General Assembly",
+      "years": "2015–2019",
+      "highlight": "House Judiciary Committee; criminal justice reform focus"
+    },
+    {
+      "role": "Attorney / Law Professor",
+      "org": "University of Illinois Chicago School of Law",
+      "years": "pre-2015",
+      "highlight": "Adjunct professor; focused on legal aid and social justice"
+    }
   ],
   "policy_platform": [
-    { "topic": "Criminal Justice Reform", "position": "Championed sentencing reform, rehabilitation over punishment, and reducing mass incarceration in Illinois.", "source": "https://julianaforsenate.com" },
-    { "topic": "Equity & Education", "position": "Supports equitable school funding, early childhood education investment.", "source": "https://julianaforsenate.com" },
-    { "topic": "Cannabis Legalization", "position": "Supported Illinois cannabis legalization (2019); advocate for equity in licensing and expungement of prior convictions.", "source": "https://julianaforsenate.com" }
+    {
+      "topic": "Criminal Justice Reform",
+      "position": "Championed sentencing reform, rehabilitation over punishment, and reducing mass incarceration in Illinois.",
+      "source": "https://julianaforsenate.com"
+    },
+    {
+      "topic": "Equity & Education",
+      "position": "Supports equitable school funding, early childhood education investment.",
+      "source": "https://julianaforsenate.com"
+    },
+    {
+      "topic": "Cannabis Legalization",
+      "position": "Supported Illinois cannabis legalization (2019); advocate for equity in licensing and expungement of prior convictions.",
+      "source": "https://julianaforsenate.com"
+    }
   ],
   "social_pulse": {
     "summary": "Positive sentiment among progressives and African American communities. Moderate statewide name recognition. Benefits from incumbency in Lt. Governor role.",
     "sentiment": "positive",
-    "hashtags": ["#JulianaStratton", "#JulianaForSenate", "#CriminalJusticeReform"],
+    "hashtags": [
+      "#JulianaStratton",
+      "#JulianaForSenate",
+      "#CriminalJusticeReform"
+    ],
     "last_updated": "2026-03-13"
   },
   "trust_indicators": [
-    { "label": "FEC filings current", "value": true, "type": "positive" },
-    { "label": "No ethics violations on record", "value": true, "type": "positive" },
-    { "label": "Consistent progressive voting record in General Assembly", "value": true, "type": "positive" },
-    { "label": "First Black Lt. Governor of Illinois", "value": true, "type": "positive" }
-  ]
+    {
+      "label": "FEC filings current",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "No ethics violations on record",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "Consistent progressive voting record in General Assembly",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "First Black Lt. Governor of Illinois",
+      "value": true,
+      "type": "positive"
+    }
+  ],
+  "transparency_score": {
+    "grade": "A",
+    "computed": true,
+    "financial_transparency": "A",
+    "platform_completeness": "B",
+    "record_available": false,
+    "red_flags_count": 1,
+    "computed_at": "2026-03-13"
+  }
 }

@@ -21,23 +21,69 @@
   "endorsements": [],
   "photo_url": null,
   "career_history": [
-    { "role": "Illinois State Representative, District 8", "org": "Illinois General Assembly", "years": "2007–present", "highlight": "17 years in the Illinois House; chairs Appropriations subcommittees" },
-    { "role": "Small Business Owner", "org": "Various", "years": "pre-2007" }
+    {
+      "role": "Illinois State Representative, District 8",
+      "org": "Illinois General Assembly",
+      "years": "2007–present",
+      "highlight": "17 years in the Illinois House; chairs Appropriations subcommittees"
+    },
+    {
+      "role": "Small Business Owner",
+      "org": "Various",
+      "years": "pre-2007"
+    }
   ],
   "policy_platform": [
-    { "topic": "Education Equity", "position": "Advocates for school funding reform and expanded vocational training.", "source": "https://www.ilga.gov" },
-    { "topic": "Criminal Justice", "position": "Supported SAFE-T Act provisions; advocates for pre-trial reform and anti-recidivism programs.", "source": "https://www.ilga.gov" },
-    { "topic": "Economic Development", "position": "Focuses on West Side Chicago economic investment and small business support.", "source": "https://www.ilga.gov" }
+    {
+      "topic": "Education Equity",
+      "position": "Advocates for school funding reform and expanded vocational training.",
+      "source": "https://www.ilga.gov"
+    },
+    {
+      "topic": "Criminal Justice",
+      "position": "Supported SAFE-T Act provisions; advocates for pre-trial reform and anti-recidivism programs.",
+      "source": "https://www.ilga.gov"
+    },
+    {
+      "topic": "Economic Development",
+      "position": "Focuses on West Side Chicago economic investment and small business support.",
+      "source": "https://www.ilga.gov"
+    }
   ],
   "social_pulse": {
     "summary": "Low national profile but solid West Side Chicago presence. Moderate positive sentiment among constituents. No major social media controversies.",
     "sentiment": "low-profile",
-    "hashtags": ["#LaShawnFord", "#IL08", "#WestSide"],
+    "hashtags": [
+      "#LaShawnFord",
+      "#IL08",
+      "#WestSide"
+    ],
     "last_updated": "2026-03-13"
   },
   "trust_indicators": [
-    { "label": "ILSBE filings current", "value": true, "type": "positive" },
-    { "label": "17-year legislative record", "value": true, "type": "positive" },
-    { "label": "No major ethics violations on record", "value": true, "type": "positive" }
-  ]
+    {
+      "label": "ILSBE filings current",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "17-year legislative record",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "No major ethics violations on record",
+      "value": true,
+      "type": "positive"
+    }
+  ],
+  "transparency_score": {
+    "grade": "C",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "B",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-13"
+  }
 }

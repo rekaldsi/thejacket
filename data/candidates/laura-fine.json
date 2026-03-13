@@ -2,10 +2,10 @@
   "id": "laura-fine",
   "name": "Laura Fine",
   "party": "Democratic",
-  "office": "U.S. House \u2014 IL-09",
+  "office": "U.S. House — IL-09",
   "race_id": "il-09-us-house-d-2026",
-  "bio": "Laura Fine is an Illinois state senator representing the 9th district \u2014 the same seat once held by Daniel Biss. A former journalist, she is running for the open IL-09 congressional seat. She has raised approximately $2M. (Source: FEC H6IL09194; Wikipedia)",
-  "prior_office": "Illinois State Senator (9th District, 2019\u2013present)",
+  "bio": "Laura Fine is an Illinois state senator representing the 9th district — the same seat once held by Daniel Biss. A former journalist, she is running for the open IL-09 congressional seat. She has raised approximately $2M. (Source: FEC H6IL09194; Wikipedia)",
+  "prior_office": "Illinois State Senator (9th District, 2019–present)",
   "website": "https://laurafineforillinois.com",
   "photo_url": null,
   "jacket": {
@@ -37,23 +37,70 @@
   "key_votes": [],
   "endorsements": [],
   "career_history": [
-    { "role": "Illinois State Senator", "org": "Illinois Senate", "years": "2019–present", "highlight": "Senate Mental Health Committee; behavioral health policy leader" },
-    { "role": "Illinois State Representative", "org": "Illinois General Assembly", "years": "2013–2019", "highlight": "Represented Glenview/Northbrook area suburbs" }
+    {
+      "role": "Illinois State Senator",
+      "org": "Illinois Senate",
+      "years": "2019–present",
+      "highlight": "Senate Mental Health Committee; behavioral health policy leader"
+    },
+    {
+      "role": "Illinois State Representative",
+      "org": "Illinois General Assembly",
+      "years": "2013–2019",
+      "highlight": "Represented Glenview/Northbrook area suburbs"
+    }
   ],
   "policy_platform": [
-    { "topic": "Mental Health", "position": "Lead advocate for expanded mental health funding in Illinois; authored mental health parity legislation.", "source": "https://www.ilga.gov" },
-    { "topic": "Education", "position": "Supports increased K-12 and higher education funding; backed Evidence-Based Funding formula.", "source": "https://www.ilga.gov" },
-    { "topic": "Environment", "position": "Consistent votes for environmental protection legislation; supports clean energy transition.", "source": "https://www.ilga.gov" }
+    {
+      "topic": "Mental Health",
+      "position": "Lead advocate for expanded mental health funding in Illinois; authored mental health parity legislation.",
+      "source": "https://www.ilga.gov"
+    },
+    {
+      "topic": "Education",
+      "position": "Supports increased K-12 and higher education funding; backed Evidence-Based Funding formula.",
+      "source": "https://www.ilga.gov"
+    },
+    {
+      "topic": "Environment",
+      "position": "Consistent votes for environmental protection legislation; supports clean energy transition.",
+      "source": "https://www.ilga.gov"
+    }
   ],
   "social_pulse": {
     "summary": "Low public profile outside her district. Positive among mental health advocacy community. No major controversies.",
     "sentiment": "low-profile",
-    "hashtags": ["#LauraFine", "#MentalHealthIL", "#IL29"],
+    "hashtags": [
+      "#LauraFine",
+      "#MentalHealthIL",
+      "#IL29"
+    ],
     "last_updated": "2026-03-13"
   },
   "trust_indicators": [
-    { "label": "ILSBE filings current", "value": true, "type": "positive" },
-    { "label": "No ethics violations on record", "value": true, "type": "positive" },
-    { "label": "Mental health policy champion in Illinois Senate", "value": true, "type": "positive" }
-  ]
+    {
+      "label": "ILSBE filings current",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "No ethics violations on record",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "Mental health policy champion in Illinois Senate",
+      "value": true,
+      "type": "positive"
+    }
+  ],
+  "transparency_score": {
+    "grade": "C",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "B",
+    "record_available": false,
+    "red_flags_count": 1,
+    "computed_at": "2026-03-13"
+  }
 }

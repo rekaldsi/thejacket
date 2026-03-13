@@ -26,21 +26,57 @@
   "key_votes": [],
   "endorsements": [],
   "career_history": [
-    { "role": "U.S. Representative, IL-02", "org": "U.S. House of Representatives", "years": "1995–2012", "highlight": "Resigned in 2012 amid federal corruption investigation" },
-    { "role": "Federal Prison (Butner Federal Correctional Institution)", "org": "Federal Bureau of Prisons", "years": "2013–2015", "highlight": "Served 2.5 years for campaign finance fraud" }
+    {
+      "role": "U.S. Representative, IL-02",
+      "org": "U.S. House of Representatives",
+      "years": "1995–2012",
+      "highlight": "Resigned in 2012 amid federal corruption investigation"
+    },
+    {
+      "role": "Federal Prison (Butner Federal Correctional Institution)",
+      "org": "Federal Bureau of Prisons",
+      "years": "2013–2015",
+      "highlight": "Served 2.5 years for campaign finance fraud"
+    }
   ],
   "policy_platform": [
-    { "topic": "Platform", "position": "No current policy platform confirmed from public sources as of March 2026. Any candidacy in 2026 is not confirmed." }
+    {
+      "topic": "Platform",
+      "position": "No current policy platform confirmed from public sources as of March 2026. Any candidacy in 2026 is not confirmed."
+    }
   ],
   "social_pulse": {
     "summary": "Controversial public figure. Primarily known for 2012 federal corruption conviction. Any political comeback would face significant scrutiny.",
     "sentiment": "negative",
-    "hashtags": ["#JesseJacksonJr"],
+    "hashtags": [
+      "#JesseJacksonJr"
+    ],
     "last_updated": "2026-03-13"
   },
   "trust_indicators": [
-    { "label": "Federal conviction — campaign finance fraud (2013)", "value": true, "type": "negative" },
-    { "label": "Resigned from Congress during federal investigation", "value": true, "type": "negative" },
-    { "label": "Disclosure filings status", "value": "Not confirmed in public sources as of March 2026", "type": "neutral" }
-  ]
+    {
+      "label": "Federal conviction — campaign finance fraud (2013)",
+      "value": true,
+      "type": "negative"
+    },
+    {
+      "label": "Resigned from Congress during federal investigation",
+      "value": true,
+      "type": "negative"
+    },
+    {
+      "label": "Disclosure filings status",
+      "value": "Not confirmed in public sources as of March 2026",
+      "type": "neutral"
+    }
+  ],
+  "transparency_score": {
+    "grade": "D",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "D",
+    "record_available": false,
+    "red_flags_count": 1,
+    "computed_at": "2026-03-13"
+  }
 }

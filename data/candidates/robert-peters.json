@@ -21,25 +21,81 @@
   "endorsements": [],
   "photo_url": null,
   "career_history": [
-    { "role": "Illinois State Senator, District 13", "org": "Illinois Senate", "years": "2019–present", "highlight": "Progressive leader on criminal justice and housing" },
-    { "role": "Community Organizer", "org": "Various Chicago advocacy organizations", "years": "2010–2019", "highlight": "Tenant rights, housing justice, and anti-violence work" },
-    { "role": "Legal Aid Attorney", "org": "Legal Aid Chicago / Prairie State Legal Services", "years": "2008–2014" }
+    {
+      "role": "Illinois State Senator, District 13",
+      "org": "Illinois Senate",
+      "years": "2019–present",
+      "highlight": "Progressive leader on criminal justice and housing"
+    },
+    {
+      "role": "Community Organizer",
+      "org": "Various Chicago advocacy organizations",
+      "years": "2010–2019",
+      "highlight": "Tenant rights, housing justice, and anti-violence work"
+    },
+    {
+      "role": "Legal Aid Attorney",
+      "org": "Legal Aid Chicago / Prairie State Legal Services",
+      "years": "2008–2014"
+    }
   ],
   "policy_platform": [
-    { "topic": "Criminal Justice Reform", "position": "Led passage of SAFE-T Act in Illinois Senate; consistent advocate for ending cash bail and reducing pretrial incarceration.", "source": "https://www.ilga.gov" },
-    { "topic": "Housing Justice", "position": "Supports strong tenant protections, just-cause eviction standards, and affordable housing funding.", "source": "https://www.ilga.gov" },
-    { "topic": "Gun Violence", "position": "Supports gun control legislation; advocates for community investment as violence prevention.", "source": "https://www.ilga.gov" }
+    {
+      "topic": "Criminal Justice Reform",
+      "position": "Led passage of SAFE-T Act in Illinois Senate; consistent advocate for ending cash bail and reducing pretrial incarceration.",
+      "source": "https://www.ilga.gov"
+    },
+    {
+      "topic": "Housing Justice",
+      "position": "Supports strong tenant protections, just-cause eviction standards, and affordable housing funding.",
+      "source": "https://www.ilga.gov"
+    },
+    {
+      "topic": "Gun Violence",
+      "position": "Supports gun control legislation; advocates for community investment as violence prevention.",
+      "source": "https://www.ilga.gov"
+    }
   ],
   "social_pulse": {
     "summary": "Positive among progressive activists; well-regarded as policy leader on criminal justice in Illinois. Moderate public profile statewide.",
     "sentiment": "positive",
-    "hashtags": ["#RobertPeters", "#SAFETAct", "#IL13", "#CriminalJusticeReform"],
+    "hashtags": [
+      "#RobertPeters",
+      "#SAFETAct",
+      "#IL13",
+      "#CriminalJusticeReform"
+    ],
     "last_updated": "2026-03-13"
   },
   "trust_indicators": [
-    { "label": "ILSBE filings current", "value": true, "type": "positive" },
-    { "label": "No ethics violations on record", "value": true, "type": "positive" },
-    { "label": "SAFE-T Act author — led bail reform in Illinois", "value": true, "type": "positive" },
-    { "label": "Former legal aid attorney — public interest background", "value": true, "type": "positive" }
-  ]
+    {
+      "label": "ILSBE filings current",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "No ethics violations on record",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "SAFE-T Act author — led bail reform in Illinois",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "Former legal aid attorney — public interest background",
+      "value": true,
+      "type": "positive"
+    }
+  ],
+  "transparency_score": {
+    "grade": "C",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "B",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-13"
+  }
 }
