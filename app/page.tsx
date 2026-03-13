@@ -76,7 +76,7 @@ export default function HomePage() {
           <div className="flex items-center gap-4 pt-2">
             <Link
               href="/races"
-              className="inline-block rounded-sm bg-jacket-amber px-5 py-2.5 font-mono text-sm font-black uppercase tracking-widest text-jacket-black transition-opacity hover:opacity-90"
+              className="inline-block whitespace-nowrap rounded-sm bg-jacket-amber px-5 py-2.5 font-mono text-sm font-black uppercase tracking-widest text-jacket-black transition-opacity hover:opacity-90"
             >
               Find your ballot →
             </Link>
@@ -87,7 +87,7 @@ export default function HomePage() {
         </div>
 
         {/* Jacket visual */}
-        <div className="w-56 shrink-0 md:w-72 lg:w-80">
+        <div className="w-72 shrink-0 sm:w-64 md:w-72 lg:w-80">
           <Image
             src="/logo.png"
             alt="The Jacket — sponsor patches on a politician's blazer"
