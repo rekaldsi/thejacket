@@ -31,5 +31,29 @@
       "org": "Rep. Jan Schakowsky",
       "significance": "Retiring incumbent's endorsement in her own district is the most powerful signal in this race"
     }
+  ],
+  "career_history": [
+    { "role": "Mayor of Evanston", "org": "City of Evanston", "years": "2021–present", "highlight": "Oversaw historic reparations program — first city-funded reparations in U.S." },
+    { "role": "Illinois State Senator", "org": "Illinois Senate", "years": "2013–2019", "highlight": "Led pension reform efforts; ran for Governor 2018" },
+    { "role": "Illinois State Representative", "org": "Illinois General Assembly", "years": "2011–2013" },
+    { "role": "Mathematics Professor", "org": "University of Chicago", "years": "2005–2011", "highlight": "PhD in Mathematics from MIT; research in topology" }
+  ],
+  "policy_platform": [
+    { "topic": "Reparations", "position": "Led Evanston's first-in-nation municipal reparations program for Black residents affected by discriminatory housing policies.", "source": "https://www.cityofevanston.org/reparations" },
+    { "topic": "Housing Affordability", "position": "Supports expanded affordable housing, anti-displacement policies, and community land trusts.", "source": "https://bissforcongress.com" },
+    { "topic": "Progressive Taxation", "position": "Consistent advocate for taxing the wealthy and funding public services; supported graduated income tax proposal.", "source": "https://bissforcongress.com" }
+  ],
+  "social_pulse": {
+    "summary": "Strong positive sentiment among progressives. National attention for Evanston reparations. Well-regarded as policy intellectual. Evanston-focused, building broader base.",
+    "sentiment": "positive",
+    "hashtags": ["#DanielBiss", "#Evanston", "#Reparations", "#BissForCongress"],
+    "last_updated": "2026-03-13"
+  },
+  "trust_indicators": [
+    { "label": "FEC filings current", "value": true, "type": "positive" },
+    { "label": "No ethics violations on record", "value": true, "type": "positive" },
+    { "label": "Led first U.S. city-funded reparations program", "value": true, "type": "positive" },
+    { "label": "MIT PhD — policy depth credential", "value": true, "type": "positive" },
+    { "label": "Lost 2018 gubernatorial primary", "value": "Challenged Pritzker, lost decisively", "type": "neutral" }
   ]
 }

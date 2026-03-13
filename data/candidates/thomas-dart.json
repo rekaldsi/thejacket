@@ -151,5 +151,30 @@
       { "label": "Chicago Sun-Times: Campaign coercion investigation", "url": "https://chicago.suntimes.com/the-watchdogs/2024/05/27/cook-county-jail-officials-fired-coerced-political-work-sheriff-tom-dart" },
       { "label": "CWB Chicago: Pagani whistleblower lawsuit", "url": "https://cwbchicago.com/2025/01/in-federal-lawsuit-demoted-investigator-claims-she-found-ghost-payrolling-covid-fraud-nepotism-and-more-at-the-sheriffs-office.html" }
     ]
-  }
+  },
+  "career_history": [
+    { "role": "Cook County Sheriff", "org": "Cook County Sheriff's Office", "years": "2006–present", "highlight": "20-year incumbency; runs the second-largest single-site jail in the U.S." },
+    { "role": "State Representative", "org": "Illinois House of Representatives", "years": "1993–2003", "highlight": "10 years in the state legislature" },
+    { "role": "State Senator", "org": "Illinois Senate", "years": "1991–1993" },
+    { "role": "Private Attorney", "org": "Private Practice", "years": "pre-1991" }
+  ],
+  "policy_platform": [
+    { "topic": "Jail Reform", "position": "Has resisted calls for large-scale decarceration; opposes elimination of cash bail without alternatives. Has framed jail conditions as a mental-health crisis requiring more resources, not fewer detainees.", "source": "https://www.injusticewatch.org/project/jail-deaths/" },
+    { "topic": "Electronic Monitoring", "position": "Expanded electronic monitoring as an alternative to detention, but faces lawsuits alleging unlawful detention of people who paid bond.", "source": "https://www.injusticewatch.org/criminal-courts/cook-county-jail/2020/dart-electronic-monitoring-lawsuit-appellate-court/" },
+    { "topic": "Gun Control", "position": "Has publicly opposed Pornhub and payment processors facilitating gun straw purchases. Supports background check legislation.", "source": "https://www.cookcountysheriff.org" }
+  ],
+  "social_pulse": {
+    "summary": "Predominantly negative coverage. Jail death investigations dominate social discourse around Dart. Supporters credit him with expanding diversion programs; critics cite 20+ years of jail deaths and federal investigations.",
+    "sentiment": "negative",
+    "hashtags": ["#FreeCookCountyJail", "#JailDeaths", "#DyingOnDartsWatch", "#TomDart"],
+    "last_updated": "2026-03-13"
+  },
+  "trust_indicators": [
+    { "label": "FEC/ILSBE disclosure filed", "value": true, "type": "positive" },
+    { "label": "DOJ consent decree (2010–2017)", "value": "Federal oversight for unconstitutional jail conditions", "type": "negative" },
+    { "label": "18 detainee deaths in 2023 — deadliest in 30+ years", "value": true, "type": "negative" },
+    { "label": "FBI ghost payroll probe (2022–2024)", "value": "Confirmed FBI involvement; no federal charges filed", "type": "negative" },
+    { "label": "Running unopposed in 2026 primary", "value": true, "type": "negative" },
+    { "label": "Skipped County Board hearing on jail deaths (Dec 2024)", "value": true, "type": "negative" }
+  ]
 }

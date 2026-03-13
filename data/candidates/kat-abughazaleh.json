@@ -43,5 +43,26 @@
       "org": "Rep. Ro Khanna",
       "significance": "Progressive congressional endorsement"
     }
+  ],
+  "career_history": [
+    { "role": "Media Reporter / Journalist", "org": "Media Matters for America", "years": "2020–2024", "highlight": "Covered right-wing media and misinformation" },
+    { "role": "TikTok Political Commentator", "org": "Independent / Social Media", "years": "2020–2024", "highlight": "Built large progressive audience through short-form video" }
+  ],
+  "policy_platform": [
+    { "topic": "Immigration", "position": "Opposes ICE detention facilities; advocates for humane immigration system. Federally indicted at Broadview ICE facility protest in Oct 2025.", "source": "https://www.justice.gov" },
+    { "topic": "Media & Democracy", "position": "Supports breaking up media monopolies; advocate for press freedom and anti-disinformation legislation.", "source": "https://abughazalehforcongress.com" },
+    { "topic": "Gaza / Foreign Policy", "position": "Supports unconditional ceasefire and arms embargo on Israel. Palestinian-American identity central to campaign.", "source": "https://abughazalehforcongress.com" }
+  ],
+  "social_pulse": {
+    "summary": "Extremely high social media engagement for a first-time candidate. Small-dollar fundraising phenomenon. Federal indictment energized her base rather than suppressing it.",
+    "sentiment": "positive",
+    "hashtags": ["#KatForCongress", "#IL09", "#DropTheCharges", "#CeasefireNow", "#KatAbughazaleh"],
+    "last_updated": "2026-03-13"
+  },
+  "trust_indicators": [
+    { "label": "No corporate PAC money — 100% small-dollar funded", "value": true, "type": "positive" },
+    { "label": "FEC filings current", "value": true, "type": "positive" },
+    { "label": "Federal indictment pending (Oct 2025 ICE facility protest)", "value": true, "type": "negative" },
+    { "label": "No prior elected office experience", "value": true, "type": "neutral" }
   ]
 }

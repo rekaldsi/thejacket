@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import Link from "next/link";
+import MobileNav from "@/components/MobileNav";
 import "./globals.css";
 
 const spaceGrotesk = Space_Grotesk({
@@ -20,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="h-1 w-full bg-jacket-amber" />
 
         <div className="mx-auto flex min-h-screen w-full max-w-7xl flex-col px-4 md:px-8">
-          <header className="border-b border-jacket-border">
+          <header className="relative border-b border-jacket-border">
             <nav className="flex items-center justify-between py-4">
               <Link href="/" className="text-xl font-extrabold uppercase tracking-tight text-jacket-white">
                 THEJACKET
@@ -40,7 +41,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 </Link>
               </div>
 
-              <span className="font-mono text-xs uppercase tracking-widest text-jacket-amber">COOK COUNTY &mdash; MAR 17</span>
+              <div className="flex items-center gap-3">
+                <span className="hidden font-mono text-xs uppercase tracking-widest text-jacket-amber sm:inline">COOK COUNTY &mdash; MAR 17</span>
+                <MobileNav />
+              </div>
             </nav>
           </header>
 

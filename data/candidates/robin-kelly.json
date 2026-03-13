@@ -33,5 +33,28 @@
   },
   "red_flags": [],
   "key_votes": [],
-  "endorsements": []
+  "endorsements": [],
+  "career_history": [
+    { "role": "U.S. Representative, IL-02", "org": "U.S. House of Representatives", "years": "2013–present", "highlight": "Chair, House Gun Violence Prevention Task Force" },
+    { "role": "Illinois Treasurer", "org": "Office of the Illinois Treasurer", "years": "2011–2013", "highlight": "First African American State Treasurer" },
+    { "role": "Illinois State Representative", "org": "Illinois General Assembly", "years": "2003–2007" },
+    { "role": "Chief of Staff", "org": "Cook County Board of Commissioners", "years": "2007–2011" }
+  ],
+  "policy_platform": [
+    { "topic": "Gun Violence Prevention", "position": "Lead champion in Congress for gun control legislation; authored bills on background check reform, assault weapon restrictions.", "source": "https://robinkelly.house.gov" },
+    { "topic": "Healthcare", "position": "Supports Medicare expansion; focused on maternal mortality and health equity in underserved communities.", "source": "https://robinkelly.house.gov" },
+    { "topic": "Economic Justice", "position": "Advocates for minimum wage increases, union rights, and investment in South Side / south suburban infrastructure.", "source": "https://robinkelly.house.gov" }
+  ],
+  "social_pulse": {
+    "summary": "Positive among gun control advocates. Moderate progressive profile. Lower social media footprint compared to higher-profile Senate candidates.",
+    "sentiment": "positive",
+    "hashtags": ["#RobinKelly", "#GunControl", "#IL02"],
+    "last_updated": "2026-03-13"
+  },
+  "trust_indicators": [
+    { "label": "FEC filings current", "value": true, "type": "positive" },
+    { "label": "No confirmed ethics violations", "value": true, "type": "positive" },
+    { "label": "Gun control legislative record — consistent", "value": true, "type": "positive" },
+    { "label": "Endorsed by Everytown for Gun Safety", "value": true, "type": "positive" }
+  ]
 }

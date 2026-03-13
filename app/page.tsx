@@ -29,7 +29,7 @@ export default function HomePage() {
         <p className="font-mono text-xs uppercase tracking-[0.22em] text-jacket-amber">
           ILLINOIS PRIMARY — MARCH 17, 2026 — COOK COUNTY
         </p>
-        <h1 className="text-8xl font-black uppercase leading-none tracking-tight md:text-9xl">THEJACKET</h1>
+        <h1 className="text-5xl font-black uppercase leading-none tracking-tight sm:text-7xl md:text-9xl">THEJACKET</h1>
         <div className="h-1 w-20 bg-jacket-amber" />
         <p className="max-w-3xl text-xl text-zinc-300">See who they really work for.</p>
         <p className="my-4 max-w-2xl border-l-2 border-zinc-700 pl-3 text-sm italic text-zinc-500">

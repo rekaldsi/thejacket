@@ -18,5 +18,26 @@
   "red_flags": [],
   "key_votes": [],
   "endorsements": [],
-  "photo_url": null
+  "photo_url": null,
+  "career_history": [
+    { "role": "Cook County Assessor", "org": "Cook County Assessor's Office", "years": "2018–present", "highlight": "Won on reform platform; overhauled assessment equity practices" },
+    { "role": "Portfolio Manager / Asset Manager", "org": "Columbia Wanger Asset Management", "years": "2001–2018", "highlight": "~17 years managing equity portfolios" }
+  ],
+  "policy_platform": [
+    { "topic": "Property Tax Equity", "position": "Championed fair property assessment reform, reducing the longstanding 'regressivity' that over-taxed lower-value properties while undertaxing commercial real estate.", "source": "https://www.cookcountyassessor.com" },
+    { "topic": "Transparency", "position": "Created online appeal tracking, published assessment methodology, expanded data access. First assessor to publish detailed mass appraisal models.", "source": "https://www.cookcountyassessor.com" },
+    { "topic": "Commercial Property Assessment", "position": "Raised assessments on undervalued commercial and industrial properties; faced intense opposition from commercial real estate lobby.", "source": "https://www.chicagomag.com" }
+  ],
+  "social_pulse": {
+    "summary": "Positive among housing equity advocates and progressive media. Negative from commercial real estate and property tax appeal attorneys. Moderate name recognition overall.",
+    "sentiment": "mixed",
+    "hashtags": ["#FritzKaegi", "#CookCountyAssessor", "#PropertyTaxEquity"],
+    "last_updated": "2026-03-13"
+  },
+  "trust_indicators": [
+    { "label": "Reform-oriented assessor — reduced assessment regressivity", "value": true, "type": "positive" },
+    { "label": "Published assessment methodology publicly", "value": true, "type": "positive" },
+    { "label": "No confirmed corruption or ethics findings", "value": true, "type": "positive" },
+    { "label": "Contested race — faces challenger(s)", "value": true, "type": "neutral" }
+  ]
 }

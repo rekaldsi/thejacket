@@ -38,5 +38,28 @@
       "org": "Chicago Mayor Brandon Johnson",
       "significance": "Mayoral endorsement signals progressive coalition alignment"
     }
+  ],
+  "career_history": [
+    { "role": "Cook County Board President", "org": "Cook County Board of Commissioners", "years": "2010–present", "highlight": "Longest-serving County Board President; oversaw $6B+ budget" },
+    { "role": "Alderman, 4th Ward", "org": "Chicago City Council", "years": "1991–2010", "highlight": "19 years representing Hyde Park / Kenwood" },
+    { "role": "High School Teacher", "org": "Chicago Public Schools", "years": "1970s–1991" }
+  ],
+  "policy_platform": [
+    { "topic": "Criminal Justice Reform", "position": "Supported bail reform and reducing pre-trial detention. Has called for accountability at Cook County Jail — complicated by reliance on Sheriff Dart.", "source": "https://www.cookcountyil.gov" },
+    { "topic": "Public Health", "position": "Led Cook County Health expansion; championed mental health services as alternative to incarceration.", "source": "https://www.cookcountyil.gov" },
+    { "topic": "Revenue & Taxation", "position": "Passed controversial soda tax (2016, later repealed). Supports progressive revenue tools.", "source": "https://www.chicago.suntimes.com" }
+  ],
+  "social_pulse": {
+    "summary": "Establishment Democrat with mixed sentiment. Respected for longevity and institutional competence; criticized by progressives for relationships with machine figures like Dart. High name recognition.",
+    "sentiment": "mixed",
+    "hashtags": ["#ToniPreckwinkle", "#CookCounty", "#BoardPresident"],
+    "last_updated": "2026-03-13"
+  },
+  "trust_indicators": [
+    { "label": "ILSBE filings current", "value": true, "type": "positive" },
+    { "label": "Longest-serving Board President — institutional experience", "value": true, "type": "positive" },
+    { "label": "Soda tax controversy (2016) — passed then repealed", "value": true, "type": "negative" },
+    { "label": "No personal ethics violations on record", "value": true, "type": "positive" },
+    { "label": "Cook County Democratic Party Chair", "value": "Dual role raises questions about conflicts of interest", "type": "negative" }
   ]
 }

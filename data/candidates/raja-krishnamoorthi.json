@@ -76,5 +76,31 @@
       "source": "https://clerk.house.gov/Votes/2024"
     }
   ],
-  "endorsements": []
+  "endorsements": [],
+  "career_history": [
+    { "role": "U.S. Representative, IL-08", "org": "U.S. House of Representatives", "years": "2017–present", "highlight": "House Permanent Select Committee on Intelligence; House Select Committee on China" },
+    { "role": "Deputy Treasurer of Illinois", "org": "Illinois State Treasurer's Office", "years": "2009–2010" },
+    { "role": "Special Assistant Attorney General", "org": "Illinois Attorney General's Office", "years": "2005–2006" },
+    { "role": "Associate", "org": "Sidley Austin LLP", "years": "2003–2005" }
+  ],
+  "policy_platform": [
+    { "topic": "China Policy & National Security", "position": "Led House Select Committee on the Chinese Communist Party; authored legislation on TikTok national security review; hawkish on economic competition with China.", "source": "https://krishnamoorthi.house.gov" },
+    { "topic": "Technology Regulation", "position": "Supports antitrust enforcement against Big Tech; focused on AI governance and data privacy legislation.", "source": "https://krishnamoorthi.house.gov" },
+    { "topic": "Gaza / Foreign Policy", "position": "Voted for additional military aid to Israel (2024). Has called for humanitarian pauses but stopped short of arms embargo. Backed by AIPAC-aligned donors.", "source": "https://clerk.house.gov/Votes/2024" },
+    { "topic": "Economic Policy", "position": "Centrist Democrat; supports manufacturing reshoring, semiconductor investment (CHIPS Act), and workforce development.", "source": "https://krishnamoorthi.house.gov" }
+  ],
+  "social_pulse": {
+    "summary": "Mixed-to-negative among progressive primary voters due to AIPAC ties and Gaza votes. Positive mainstream press for China committee work. High name recognition statewide.",
+    "sentiment": "mixed",
+    "hashtags": ["#Raja2026", "#RajaForSenate", "#NoAIPACMoney", "#Krishnamoorthi"],
+    "last_updated": "2026-03-13"
+  },
+  "trust_indicators": [
+    { "label": "FEC filings current", "value": true, "type": "positive" },
+    { "label": "Harvard AB / Princeton JD education", "value": true, "type": "neutral" },
+    { "label": "AIPAC endorsement + $250K+ from pro-Israel donors", "value": true, "type": "negative" },
+    { "label": "Accepted donations from Trump-aligned donors (Palantir CTO)", "value": true, "type": "negative" },
+    { "label": "Crypto PAC money (Fairshake)", "value": true, "type": "negative" },
+    { "label": "No personal ethics violations on record", "value": true, "type": "positive" }
+  ]
 }

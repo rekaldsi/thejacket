@@ -18,5 +18,25 @@
   "key_votes": [],
   "endorsements": [
     { "org": "Thornton Township Assessor Cassandra Elston", "significance": "Township assessor peer endorsement" }
+  ],
+  "career_history": [
+    { "role": "Lyons Township Assessor", "org": "Lyons Township", "years": "2021–present", "highlight": "30 years of property tax experience; firefighter and EMT" },
+    { "role": "Property Tax Professional", "org": "Various", "years": "pre-2021", "highlight": "30+ years in property assessment field" }
+  ],
+  "policy_platform": [
+    { "topic": "Assessment Accuracy", "position": "Challenges Kaegi's assessment methodology; argues inaccuracies have driven up tax bills for homeowners.", "source": "https://www.assessorhynes.com" },
+    { "topic": "Transparency", "position": "Supports clearer communication with property owners on assessment appeals and valuation methods.", "source": "https://www.assessorhynes.com" },
+    { "topic": "Property Tax Relief", "position": "Advocates for more accurate assessments to reduce homeowner over-taxation.", "source": "https://www.assessorhynes.com" }
+  ],
+  "social_pulse": {
+    "summary": "Low social media profile. Cook County assessor race challenger with township assessor backing. No major national controversies.",
+    "sentiment": "low-profile",
+    "hashtags": ["#PatHynes", "#CookCountyAssessor"],
+    "last_updated": "2026-03-13"
+  },
+  "trust_indicators": [
+    { "label": "ILSBE filings current", "value": true, "type": "positive" },
+    { "label": "No ethics violations on record", "value": true, "type": "positive" },
+    { "label": "Township assessor peer endorsement", "value": true, "type": "positive" }
   ]
 }

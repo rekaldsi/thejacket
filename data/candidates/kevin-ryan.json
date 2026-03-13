@@ -16,5 +16,19 @@
   },
   "red_flags": [],
   "key_votes": [],
-  "endorsements": []
+  "endorsements": [],
+  "career_history": [
+    { "role": "Candidate — no confirmed prior office", "org": "Public sources as of March 2026", "years": "n/a", "highlight": "No confirmed career history from public sources as of March 2026" }
+  ],
+  "policy_platform": [
+    { "topic": "Platform", "position": "No detailed policy platform available from public sources as of March 2026." }
+  ],
+  "social_pulse": {
+    "summary": "No significant social media presence or public discourse found in available sources as of March 2026.",
+    "sentiment": "low-profile",
+    "last_updated": "2026-03-13"
+  },
+  "trust_indicators": [
+    { "label": "Disclosure filings status", "value": "Not confirmed in public sources as of March 2026", "type": "neutral" }
+  ]
 }
