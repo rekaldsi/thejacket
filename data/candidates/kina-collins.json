@@ -1,0 +1,20 @@
+{
+  "id": "kina-collins",
+  "name": "Kina Collins",
+  "party": "Democratic",
+  "office": "U.S. House (IL-07)",
+  "race_id": "il-07-us-house-d-2026",
+  "bio": "Kina Collins is listed as a Democratic candidate in the 2026 IL-07 primary field. She has previously run in IL-07 and re-entered the race after the incumbent retirement. (Source: Shaw Local candidate list, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
+  "prior_office": "Community organizer; prior congressional candidate",
+  "website": "",
+  "jacket": {
+    "total_raised": null,
+    "data_date": "2026-03-13",
+    "source": "https://www.fec.gov/data/elections/house/IL/07/",
+    "note": "FEC candidate totals pending ETL import.",
+    "donors": []
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "endorsements": []
+}

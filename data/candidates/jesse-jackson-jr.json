@@ -1,0 +1,28 @@
+{
+  "id": "jesse-jackson-jr",
+  "name": "Jesse Jackson Jr.",
+  "party": "Democratic",
+  "office": "U.S. House (IL-02)",
+  "race_id": "il-02-us-house-d-2026",
+  "bio": "Jesse Jackson Jr. is listed as a Democratic candidate in the 2026 IL-02 race. Local election coverage notes his return to electoral politics in this open-seat contest. (Source: Chicago Sun-Times voter guide, March 2026: https://chicago.suntimes.com/politics/elections/2026/voter-guide/candidates)",
+  "prior_office": "Former U.S. Representative (IL-02)",
+  "website": "",
+  "jacket": {
+    "total_raised": null,
+    "data_date": "2026-03-13",
+    "source": "https://www.fec.gov/data/elections/house/IL/02/",
+    "note": "FEC candidate totals pending ETL import.",
+    "donors": []
+  },
+  "red_flags": [
+    {
+      "type": "ethics",
+      "label": "Prior conviction",
+      "detail": "Candidate previously had a federal conviction; historical reporting is public record.",
+      "source": "https://www.justice.gov/usao-dc/pr/former-us-congressman-jesse-jackson-jr-pleads-guilty-federal-charges",
+      "confirmed": true
+    }
+  ],
+  "key_votes": [],
+  "endorsements": []
+}
