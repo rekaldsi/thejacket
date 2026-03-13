@@ -1,6 +1,6 @@
 "use client";
 
-import { Bar, BarChart, Cell, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
+import { Bar, BarChart, Cell, LabelList, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import type { Donor } from "@/lib/types";
 import DonorTreemap from "@/components/DonorTreemap";
 import MoneyAmount from "@/components/MoneyAmount";
@@ -13,14 +13,18 @@ type TheJacketProps = {
 };
 
 const categoryColor: Record<string, string> = {
-  individual: "#3b82f6",
-  pac: "#f97316",
-  "dark-money": "#dc2626",
-  aipac: "#dc2626",
-  "real-estate": "#8b5cf6",
-  finance: "#eab308",
-  defense: "#6b7280",
-  labor: "#10b981"
+  individual: "#60a5fa",
+  pac: "#fb923c",
+  "Union PAC": "#fb923c",
+  "union pac": "#fb923c",
+  Corporate: "#a78bfa",
+  corporate: "#a78bfa",
+  "dark-money": "#f87171",
+  aipac: "#f87171",
+  "real-estate": "#a78bfa",
+  finance: "#facc15",
+  defense: "#94a3b8",
+  labor: "#34d399"
 };
 
 export default function TheJacket({ candidateName, totalRaised, donors, sourceCitation }: TheJacketProps) {
@@ -74,11 +78,15 @@ export default function TheJacket({ candidateName, totalRaised, donors, sourceCi
             ))}
           </div>
 
-          <div className="h-72 border border-jacket-border p-2">
+          <div className="h-80 border border-jacket-border p-2">
             <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={barData} layout="vertical" margin={{ left: 0, right: 10, top: 10, bottom: 10 }}>
-                <XAxis type="number" stroke="#71717a" />
-                <YAxis dataKey="category" type="category" width={120} stroke="#a1a1aa" className="font-mono text-xs" />
+              <BarChart data={barData} layout="vertical" margin={{ left: 0, right: 80, top: 10, bottom: 10 }}>
+                <XAxis
+                  type="number"
+                  stroke="#71717a"
+                  tickFormatter={(v: number) => "$" + (v / 1000).toFixed(0) + "k"}
+                />
+                <YAxis dataKey="category" type="category" width={140} stroke="#a1a1aa" className="font-mono text-xs" />
                 <Tooltip
                   formatter={(value: number) =>
                     new Intl.NumberFormat("en-US", {
@@ -92,6 +100,12 @@ export default function TheJacket({ candidateName, totalRaised, donors, sourceCi
                   {barData.map((entry) => (
                     <Cell key={entry.category} fill={categoryColor[entry.category] ?? "#444"} />
                   ))}
+                  <LabelList
+                    dataKey="amount"
+                    position="right"
+                    fill="#a1a1aa"
+                    formatter={(v: number) => "$" + (v >= 1000 ? (v / 1000).toFixed(0) + "k" : v)}
+                  />
                 </Bar>
               </BarChart>
             </ResponsiveContainer>

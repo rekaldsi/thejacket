@@ -34,5 +34,25 @@
     }
   ],
   "key_votes": [],
-  "endorsements": []
+  "endorsements": [],
+  "career_history": [
+    { "role": "Illinois State Senator", "org": "Illinois Senate", "years": "2019–present", "highlight": "Senate Mental Health Committee; behavioral health policy leader" },
+    { "role": "Illinois State Representative", "org": "Illinois General Assembly", "years": "2013–2019", "highlight": "Represented Glenview/Northbrook area suburbs" }
+  ],
+  "policy_platform": [
+    { "topic": "Mental Health", "position": "Lead advocate for expanded mental health funding in Illinois; authored mental health parity legislation.", "source": "https://www.ilga.gov" },
+    { "topic": "Education", "position": "Supports increased K-12 and higher education funding; backed Evidence-Based Funding formula.", "source": "https://www.ilga.gov" },
+    { "topic": "Environment", "position": "Consistent votes for environmental protection legislation; supports clean energy transition.", "source": "https://www.ilga.gov" }
+  ],
+  "social_pulse": {
+    "summary": "Low public profile outside her district. Positive among mental health advocacy community. No major controversies.",
+    "sentiment": "low-profile",
+    "hashtags": ["#LauraFine", "#MentalHealthIL", "#IL29"],
+    "last_updated": "2026-03-13"
+  },
+  "trust_indicators": [
+    { "label": "ILSBE filings current", "value": true, "type": "positive" },
+    { "label": "No ethics violations on record", "value": true, "type": "positive" },
+    { "label": "Mental health policy champion in Illinois Senate", "value": true, "type": "positive" }
+  ]
 }

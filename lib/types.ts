@@ -71,6 +71,10 @@ export type Candidate = {
   red_flags: RedFlag[];
   key_votes: KeyVote[];
   endorsements: Endorsement[];
+  career_history?: Array<{ role: string; org: string; years: string; highlight?: string }>;
+  policy_platform?: Array<{ topic: string; position: string; source?: string }>;
+  social_pulse?: { summary: string; sentiment: 'positive' | 'negative' | 'mixed' | 'low-profile'; hashtags?: string[]; last_updated: string };
+  trust_indicators?: Array<{ label: string; value: boolean | string; type: 'positive' | 'negative' | 'neutral' }>;
 };
 
 export type Race = {

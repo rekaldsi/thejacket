@@ -35,6 +35,8 @@ function getVoteTone(vote: string) {
   return "bg-zinc-800 text-zinc-200";
 }
 
+const sectionHeader = "border-l-2 border-jacket-amber pl-3 text-sm font-black uppercase tracking-widest text-zinc-200";
+
 export default function CandidatePage({ params }: { params: { slug: string } }) {
   const candidate = getCandidateBySlug(params.slug);
   if (!candidate) notFound();
@@ -56,7 +58,7 @@ export default function CandidatePage({ params }: { params: { slug: string } }) 
             </div>
 
             <div>
-              <h1 className="text-4xl font-black uppercase tracking-tight">{candidate.name}</h1>
+              <h1 className="text-2xl font-black uppercase tracking-tight sm:text-4xl">{candidate.name}</h1>
               <div className="mt-2 flex flex-wrap items-center gap-2">
                 <span className={`rounded-full px-2 py-0.5 text-xs ${getPartyPillClasses(candidate.party)}`}>{candidate.party}</span>
                 <span className="rounded-full bg-zinc-900 px-2 py-0.5 text-xs text-zinc-300">{candidate.office}</span>
@@ -136,15 +138,13 @@ export default function CandidatePage({ params }: { params: { slug: string } }) 
       <section className="grid gap-8 lg:grid-cols-5">
         <div className="space-y-6 lg:col-span-2">
           <article className="space-y-3">
-            <h2 className="border-l-2 border-jacket-amber pl-3 text-sm font-black uppercase tracking-widest text-zinc-200">Bio</h2>
+            <h2 className={sectionHeader}>Bio</h2>
             <p className="text-sm leading-relaxed text-zinc-300">{candidate.bio}</p>
             <p className="text-xs text-zinc-400">Prior office: {candidate.prior_office || "n/a"}</p>
           </article>
 
           <article className="space-y-3">
-            <h2 className="border-l-2 border-jacket-amber pl-3 text-sm font-black uppercase tracking-widest text-zinc-200">
-              Key Votes
-            </h2>
+            <h2 className={sectionHeader}>Key Votes</h2>
             {candidate.key_votes.length > 0 ? (
               <ul className="space-y-3 text-sm">
                 {candidate.key_votes.map((vote) => (
@@ -158,14 +158,12 @@ export default function CandidatePage({ params }: { params: { slug: string } }) 
                 ))}
               </ul>
             ) : (
-              <p className="text-sm text-zinc-400">No vote records seeded yet.</p>
+              <p className="text-sm text-zinc-400">No public vote records on file for this candidate.</p>
             )}
           </article>
 
           <article className="space-y-3">
-            <h2 className="border-l-2 border-jacket-amber pl-3 text-sm font-black uppercase tracking-widest text-zinc-200">
-              Endorsements
-            </h2>
+            <h2 className={sectionHeader}>Endorsements</h2>
             {candidate.endorsements.length > 0 ? (
               <ul className="list-disc space-y-2 pl-5 text-sm text-zinc-300">
                 {candidate.endorsements.map((endorsement) => (
@@ -175,7 +173,7 @@ export default function CandidatePage({ params }: { params: { slug: string } }) 
                 ))}
               </ul>
             ) : (
-              <p className="text-sm text-zinc-400">No endorsements seeded yet.</p>
+              <p className="text-sm text-zinc-400">No endorsements on file for this candidate.</p>
             )}
           </article>
         </div>
@@ -196,6 +194,112 @@ export default function CandidatePage({ params }: { params: { slug: string } }) 
           {candidate.red_flags.map((flag) => (
             <RedFlagBadge key={`${flag.type}-${flag.label}`} flag={flag} />
           ))}
+        </section>
+      ) : null}
+
+      {/* Career Timeline */}
+      {candidate.career_history && candidate.career_history.length > 0 ? (
+        <section className="space-y-4">
+          <h2 className={sectionHeader}>Career History</h2>
+          <ol className="space-y-4 border-l-2 border-zinc-800 pl-4">
+            {candidate.career_history.map((entry, i) => (
+              <li key={i} className="relative">
+                <span className="absolute -left-[1.3rem] top-1 h-2.5 w-2.5 rounded-full bg-jacket-amber" />
+                <div className="flex flex-wrap items-baseline justify-between gap-2">
+                  <span className="font-black text-zinc-100">
+                    {entry.role}
+                    {entry.org ? <span className="font-normal text-zinc-400"> — {entry.org}</span> : null}
+                  </span>
+                  <span className="font-mono text-xs text-jacket-amber">{entry.years}</span>
+                </div>
+                {entry.highlight ? (
+                  <p className="mt-0.5 text-sm text-zinc-400">{entry.highlight}</p>
+                ) : null}
+              </li>
+            ))}
+          </ol>
+        </section>
+      ) : null}
+
+      {/* What They Stand For */}
+      {candidate.policy_platform && candidate.policy_platform.length > 0 ? (
+        <section className="space-y-4">
+          <h2 className={sectionHeader}>What They Stand For</h2>
+          <div className="grid gap-3 sm:grid-cols-2">
+            {candidate.policy_platform.map((item, i) => (
+              <div key={i} className="border border-jacket-border p-4 hover:bg-jacket-gray/30 transition-colors">
+                <p className="mb-1 font-mono text-xs font-black uppercase tracking-widest text-jacket-amber">{item.topic}</p>
+                <p className="text-sm text-zinc-300">{item.position}</p>
+                {item.source ? (
+                  <a
+                    href={item.source}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mt-1 block text-xs text-zinc-500 hover:text-jacket-amber hover:underline"
+                  >
+                    ↗ Source
+                  </a>
+                ) : null}
+              </div>
+            ))}
+          </div>
+        </section>
+      ) : null}
+
+      {/* Social Media Pulse */}
+      {candidate.social_pulse ? (
+        <section className="space-y-3">
+          <h2 className={sectionHeader}>Social Media Pulse</h2>
+          <div className="border border-jacket-border p-4 space-y-3">
+            <div className="flex items-center gap-3">
+              <span
+                className={`rounded-full px-2 py-0.5 text-xs font-mono font-black uppercase tracking-widest ${
+                  candidate.social_pulse.sentiment === "positive"
+                    ? "bg-green-900 text-green-300"
+                    : candidate.social_pulse.sentiment === "negative"
+                    ? "bg-red-900 text-red-300"
+                    : candidate.social_pulse.sentiment === "mixed"
+                    ? "bg-amber-900 text-jacket-amber"
+                    : "bg-zinc-800 text-zinc-400"
+                }`}
+              >
+                {candidate.social_pulse.sentiment}
+              </span>
+              <span className="font-mono text-xs text-zinc-600">Updated {candidate.social_pulse.last_updated}</span>
+            </div>
+            <p className="text-sm text-zinc-300">{candidate.social_pulse.summary}</p>
+            {candidate.social_pulse.hashtags && candidate.social_pulse.hashtags.length > 0 ? (
+              <div className="flex flex-wrap gap-2">
+                {candidate.social_pulse.hashtags.map((tag) => (
+                  <span key={tag} className="rounded-sm bg-zinc-800 px-2 py-0.5 font-mono text-xs text-zinc-300">
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            ) : null}
+          </div>
+        </section>
+      ) : null}
+
+      {/* Trust Indicators */}
+      {candidate.trust_indicators && candidate.trust_indicators.length > 0 ? (
+        <section className="space-y-3">
+          <h2 className={sectionHeader}>Trust Indicators</h2>
+          <ul className="space-y-2">
+            {candidate.trust_indicators.map((indicator, i) => (
+              <li key={i} className="flex items-start gap-2 text-sm">
+                <span className="shrink-0 text-base leading-snug">
+                  {indicator.type === "positive" ? "✅" : indicator.type === "negative" ? "❌" : "⚪"}
+                </span>
+                <span className="text-zinc-300">
+                  {indicator.label}
+                  {typeof indicator.value === "string" && indicator.value !== "true" && indicator.value !== "false" ? (
+                    <span className="ml-1 text-zinc-500">— {indicator.value}</span>
+                  ) : null}
+                </span>
+              </li>
+            ))}
+          </ul>
         </section>
       ) : null}
 

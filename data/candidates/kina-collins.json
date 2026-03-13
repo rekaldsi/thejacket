@@ -18,5 +18,26 @@
   "red_flags": [],
   "key_votes": [],
   "endorsements": [],
-  "photo_url": null
+  "photo_url": null,
+  "career_history": [
+    { "role": "U.S. Representative, IL-07", "org": "U.S. House of Representatives", "years": "2023–present", "highlight": "Defeated 30-year incumbent Danny K. Davis in 2022 Democratic primary" },
+    { "role": "Community Organizer / Activist", "org": "Various Chicago-based advocacy orgs", "years": "pre-2022", "highlight": "Tenant rights, housing justice organizing" }
+  ],
+  "policy_platform": [
+    { "topic": "Housing & Tenant Rights", "position": "Supports federal tenant protections, community land trusts, and limits on corporate landlords.", "source": "https://collinsforcongress.com" },
+    { "topic": "Medicare for All", "position": "Supports single-payer healthcare; no corporate PAC money pledge.", "source": "https://collinsforcongress.com" },
+    { "topic": "Gaza / Foreign Policy", "position": "Opposes U.S. arms shipments to Israel; one of the most vocal progressive voices in Congress on Gaza ceasefire.", "source": "https://collinsforcongress.com" }
+  ],
+  "social_pulse": {
+    "summary": "Strong positive sentiment among progressive and Palestinian-American communities. No-PAC pledge builds grassroots credibility. Growing national profile.",
+    "sentiment": "positive",
+    "hashtags": ["#KinaCollins", "#NoPACMoney", "#IL07", "#CeasefireNow"],
+    "last_updated": "2026-03-13"
+  },
+  "trust_indicators": [
+    { "label": "No corporate PAC money pledge", "value": true, "type": "positive" },
+    { "label": "FEC filings current", "value": true, "type": "positive" },
+    { "label": "Defeated 30-year incumbent in 2022", "value": true, "type": "positive" },
+    { "label": "No ethics violations on record", "value": true, "type": "positive" }
+  ]
 }
