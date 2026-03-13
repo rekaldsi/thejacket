@@ -26,6 +26,25 @@ export type Endorsement = {
   significance: string;
 };
 
+export interface JailTimelineEvent {
+  year: number;
+  event: string;
+  type: 'milestone' | 'legal' | 'death' | 'ethics' | 'election';
+}
+
+export interface AccountabilityOversight {
+  name: string;
+  role: string;
+  race_link: string | null;
+  action: string;
+}
+
+export interface AccountabilityGap {
+  oversight_bodies: AccountabilityOversight[];
+  what_you_can_do: string[];
+  read_more: { label: string; url: string }[];
+}
+
 export type Candidate = {
   id: string;
   name: string;
@@ -36,12 +55,17 @@ export type Candidate = {
   prior_office: string;
   website: string;
   photo_url: string | null;
+  uncontested?: boolean;
+  years_in_office?: number;
+  jail_timeline?: JailTimelineEvent[];
+  accountability_gap?: AccountabilityGap;
   jacket: {
     total_raised: number | null;
     data_date: string;
     source: string;
     note: string;
     fec_id?: string | null;
+    ilsbe_id?: string | null;
     donors: Donor[];
   };
   red_flags: RedFlag[];
@@ -57,4 +81,6 @@ export type Race = {
   description: string;
   party: string;
   candidateCount: number;
+  uncontested?: boolean;
+  note?: string;
 };
