@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import Link from "next/link";
 import MobileNav from "@/components/MobileNav";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const spaceGrotesk = Space_Grotesk({
@@ -62,6 +63,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </header>
 
           <main className="flex-1 py-8">{children}</main>
+          <Analytics />
 
           <footer className="border-t border-jacket-border py-6 text-xs uppercase tracking-wide text-zinc-400">
             <div className="flex flex-col justify-between gap-2 md:flex-row">

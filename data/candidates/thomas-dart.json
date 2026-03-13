@@ -29,7 +29,7 @@
       {
         "name": "Thomas M. Tully",
         "amount": 2500,
-        "category": "Individual",
+        "category": "individual",
         "source": "ILSBE",
         "confirmed": true
       },

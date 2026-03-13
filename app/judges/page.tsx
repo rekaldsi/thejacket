@@ -277,14 +277,38 @@ export default function JudgesPage() {
         </p>
       </div>
 
+      {/* Jump-link TOC */}
+      <div className="border border-jacket-border p-4 space-y-2">
+        <p className="font-mono text-[10px] uppercase tracking-widest text-zinc-500 mb-2">Jump to race</p>
+        <div className="flex flex-wrap gap-2">
+          {sortedRaces.map((race) => {
+            const entries = scoredByRace[race.id] ?? [];
+            const minScore = entries.length > 0 ? Math.min(...entries.map((e) => e.score)) : 100;
+            const isAlarm = minScore < 40 || (race.uncontested && entries.some((e) => e.judge.red_flags.length > 0));
+            return (
+              <a
+                key={race.id}
+                href={`#race-${race.id}`}
+                className={`rounded-sm border px-2 py-1 font-mono text-[10px] uppercase tracking-wide transition-colors hover:border-jacket-amber hover:text-jacket-amber ${
+                  isAlarm ? "border-jacket-red/60 text-jacket-red" : "border-jacket-border text-zinc-400"
+                }`}
+              >
+                {race.title.replace("Circuit Court – ", "").replace("Appellate Court – ", "Appellate – ")}
+              </a>
+            );
+          })}
+        </div>
+      </div>
+
       {/* Race cards */}
       <div className="space-y-5">
         {sortedRaces.map((race) => (
-          <RaceCard
-            key={race.id}
-            race={race}
-            entries={scoredByRace[race.id] ?? []}
-          />
+          <div key={race.id} id={`race-${race.id}`} className="scroll-mt-20">
+            <RaceCard
+              race={race}
+              entries={scoredByRace[race.id] ?? []}
+            />
+          </div>
         ))}
       </div>
 
