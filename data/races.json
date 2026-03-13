@@ -62,5 +62,16 @@
     "description": "IL-09 is open following Rep. Jan Schakowsky's retirement announcement. The district's Democratic primary is a marquee North Side and North Shore contest.",
     "party": "Democratic",
     "candidateCount": 3
+  },
+  {
+    "id": "cook-county-sheriff-d-2026",
+    "slug": "cook-county-sheriff-democratic-primary",
+    "title": "Cook County Sheriff \u2014 Democratic Primary",
+    "jurisdiction": "Cook County",
+    "description": "Cook County Sheriff oversees the second-largest single-site jail in the United States, with ~6,700 employees and a $700M+ annual budget. The Sheriff manages pretrial detention for all Cook County criminal cases. In 2026, incumbent Thomas Dart faces no Democratic primary challenger.",
+    "party": "Democratic",
+    "candidateCount": 1,
+    "uncontested": true,
+    "note": "Thomas Dart is running unopposed. 20-year incumbent."
   }
 ]

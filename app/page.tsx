@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Scorecard from "@/components/Scorecard";
+import UncontestedBanner from "@/components/UncontestedBanner";
 import { getAllCandidates, getRaces } from "@/lib/data";
 import { buildScorecard } from "@/lib/scoring";
 
@@ -18,6 +19,7 @@ export default function HomePage() {
   const candidates = getAllCandidates();
   const scorecard = buildScorecard(candidates);
   const daysToPrimary = getDaysToPrimary();
+  const uncontested = candidates.filter((c) => c.uncontested);
 
   return (
     <div className="space-y-16">
@@ -37,6 +39,11 @@ export default function HomePage() {
           PRIMARY IN {daysToPrimary} DAY{daysToPrimary !== 1 ? "S" : ""}
         </p>
       </section>
+
+      {/* ── RUNNING ALONE BANNER ── */}
+      {uncontested.length > 0 ? (
+        <UncontestedBanner count={uncontested.length} topCandidate="Thomas Dart" />
+      ) : null}
 
       {/* ── TRANSPARENCY SCORECARD ── */}
       <section>

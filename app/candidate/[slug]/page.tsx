@@ -4,6 +4,9 @@ import { notFound } from "next/navigation";
 import TheJacket from "@/components/TheJacket";
 import RedFlagBadge from "@/components/RedFlagBadge";
 import MoneyAmount from "@/components/MoneyAmount";
+import UncontestedBadge from "@/components/UncontestedBadge";
+import JailDeathTimeline from "@/components/JailDeathTimeline";
+import AccountabilityGap from "@/components/AccountabilityGap";
 import { getAllCandidates, getCandidateBySlug } from "@/lib/data";
 
 export function generateStaticParams() {
@@ -37,6 +40,7 @@ export default function CandidatePage({ params }: { params: { slug: string } }) 
   if (!candidate) notFound();
 
   const initials = getInitials(candidate.name);
+  const isUncontested = candidate.uncontested === true;
 
   return (
     <div className="space-y-8">
@@ -56,7 +60,18 @@ export default function CandidatePage({ params }: { params: { slug: string } }) 
               <div className="mt-2 flex flex-wrap items-center gap-2">
                 <span className={`rounded-full px-2 py-0.5 text-xs ${getPartyPillClasses(candidate.party)}`}>{candidate.party}</span>
                 <span className="rounded-full bg-zinc-900 px-2 py-0.5 text-xs text-zinc-300">{candidate.office}</span>
+                {isUncontested && <UncontestedBadge />}
               </div>
+
+              {/* Uncontested incumbency callout */}
+              {isUncontested && candidate.years_in_office ? (
+                <p className="mt-2 font-mono text-xs uppercase tracking-wider text-zinc-500">
+                  Year{" "}
+                  <span className="text-red-400">{candidate.years_in_office}</span>{" "}
+                  in office — running unopposed
+                </p>
+              ) : null}
+
               <div className="mt-3 flex flex-wrap gap-3">
                 {candidate.website ? (
                   <a
@@ -78,6 +93,16 @@ export default function CandidatePage({ params }: { params: { slug: string } }) 
                     ↗ FEC filing ({candidate.jacket.fec_id})
                   </a>
                 ) : null}
+                {candidate.jacket.ilsbe_id ? (
+                  <a
+                    href={`https://www.transparencyusa.org/il/committee/friends-of-dart-${candidate.jacket.ilsbe_id}/contributors`}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-xs text-zinc-400 hover:text-jacket-amber hover:underline"
+                  >
+                    ↗ ILSBE filing ({candidate.jacket.ilsbe_id})
+                  </a>
+                ) : null}
               </div>
             </div>
           </div>
@@ -88,6 +113,25 @@ export default function CandidatePage({ params }: { params: { slug: string } }) 
           </div>
         </div>
       </section>
+
+      {/* Uncontested lede — shown before main content */}
+      {isUncontested ? (
+        <section className="border-l-4 border-red-700 bg-red-950/20 px-5 py-4">
+          <p className="text-base italic leading-relaxed text-zinc-300">
+            {candidate.id === "thomas-dart" ? (
+              <>
+                Thomas Dart has run Cook County&apos;s jail for 20 years. In 2023, 18 people died inside it — the deadliest year in three decades. In 2026, he faces no primary opponent. This is his record.
+              </>
+            ) : (
+              <>
+                {candidate.name} is running unopposed in the {candidate.office} race.{" "}
+                {candidate.years_in_office ? `${candidate.years_in_office} years in office. ` : ""}
+                No challenger doesn&apos;t mean no record.
+              </>
+            )}
+          </p>
+        </section>
+      ) : null}
 
       <section className="grid gap-8 lg:grid-cols-5">
         <div className="space-y-6 lg:col-span-2">
@@ -152,6 +196,24 @@ export default function CandidatePage({ params }: { params: { slug: string } }) 
           {candidate.red_flags.map((flag) => (
             <RedFlagBadge key={`${flag.type}-${flag.label}`} flag={flag} />
           ))}
+        </section>
+      ) : null}
+
+      {/* Jail Death Timeline */}
+      {candidate.jail_timeline && candidate.jail_timeline.length > 0 ? (
+        <section className="space-y-4">
+          <h2 className="border-l-2 border-jacket-amber pl-3 text-2xl font-black uppercase tracking-tight text-zinc-100">
+            The Record
+          </h2>
+          <p className="text-sm text-zinc-500">A timeline of key events on this incumbent&apos;s watch.</p>
+          <JailDeathTimeline events={candidate.jail_timeline} />
+        </section>
+      ) : null}
+
+      {/* Accountability Gap */}
+      {candidate.accountability_gap ? (
+        <section className="space-y-4">
+          <AccountabilityGap gap={candidate.accountability_gap} />
         </section>
       ) : null}
     </div>
