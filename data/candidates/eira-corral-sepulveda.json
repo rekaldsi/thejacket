@@ -1,0 +1,119 @@
+{
+  "id": "eira-corral-sepulveda",
+  "name": "Eira Lizeth Corral Sep\u00falveda",
+  "party": "Democratic",
+  "office": "MWRD Commissioner",
+  "race_id": "mwrd-6yr-2026",
+  "incumbent": true,
+  "bio": "Eira Corral Sep\u00falveda is a Latina environmental policy professional and current MWRD Commissioner, first elected in 2020. She previously served as an environmental policy advisor and has deep ties to suburban Cook County environmental justice communities. She is a key voice for equity in infrastructure investment and climate resilience at MWRD.",
+  "prior_office": "MWRD Commissioner (elected 2020\u2013present). Environmental policy background; civic work in Hanover Park, Berwyn, and North Riverside areas.",
+  "website": null,
+  "jacket": {
+    "total_raised": null,
+    "donors": [],
+    "source": "Illinois State Board of Elections (not retrieved)",
+    "note": "Campaign finance data not pulled; check ISBE for current cycle filings",
+    "data_date": "2026-03-13"
+  },
+  "red_flags": [],
+  "key_votes": [
+    {
+      "bill": "Approved 125 green infrastructure projects through MWRD cost-sharing program since 2020 (9.9M gallon retention capacity, 2,400+ structures protected)",
+      "vote": "yes",
+      "summary": "Approved 125 green infrastructure projects through MWRD cost-sharing program since 2020 (9.9M gallon retention capacity, 2,400+ structures protected)",
+      "source": null
+    },
+    {
+      "bill": "Helped develop MWRD's first Environmental Justice Policy",
+      "vote": "yes",
+      "summary": "Helped develop MWRD's first Environmental Justice Policy",
+      "source": null
+    },
+    {
+      "bill": "Supported creation of Environmental Justice Division",
+      "vote": "yes",
+      "summary": "Supported creation of Environmental Justice Division",
+      "source": null
+    },
+    {
+      "bill": "Launched 'Suburban Green Playground Program'",
+      "vote": "yes",
+      "summary": "Launched 'Suburban Green Playground Program'",
+      "source": null
+    },
+    {
+      "bill": "Supported Stickney and Kirie WRP phosphorus removal system installations",
+      "vote": "yes",
+      "summary": "Supported Stickney and Kirie WRP phosphorus removal system installations",
+      "source": null
+    },
+    {
+      "bill": "Part of launching 2024 multi-year research project with Argonne National Lab, University of Chicago, and Current",
+      "vote": "yes",
+      "summary": "Part of launching 2024 multi-year research project with Argonne National Lab, University of Chicago, and Current",
+      "source": null
+    }
+  ],
+  "policy_platform": [
+    {
+      "topic": "Platform",
+      "position": "Infrastructure investment resilient to climate change",
+      "source": null
+    },
+    {
+      "topic": "Platform",
+      "position": "Environmental justice \u2014 equitable inclusion of diverse communities in infrastructure spending",
+      "source": null
+    },
+    {
+      "topic": "Platform",
+      "position": "Fiscal responsibility and enterprise resilience",
+      "source": null
+    },
+    {
+      "topic": "Platform",
+      "position": "Expand green infrastructure; downspout disconnection education for property owners",
+      "source": null
+    },
+    {
+      "topic": "Platform",
+      "position": "Nutrient reduction strategy (phosphorus, nitrogen) at water reclamation plants",
+      "source": null
+    },
+    {
+      "topic": "Platform",
+      "position": "Community ambassador role \u2014 annual Monarch Fests and grassroots outreach",
+      "source": null
+    }
+  ],
+  "career_history": [
+    {
+      "role": "MWRD Commissioner (elected 2020)",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "Environmental policy professional with prior advisory roles",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "Community organizing in suburban Cook County",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    }
+  ],
+  "endorsements": [],
+  "data_status": "partial",
+  "sources": [
+    "https://news.wttw.com/elections/voters-guide/2026-primary/eira-lizeth-corral-sepulveda",
+    "https://ballotpedia.org/Eira_Corral_Sepulveda"
+  ],
+  "photo_url": null,
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": null
+}

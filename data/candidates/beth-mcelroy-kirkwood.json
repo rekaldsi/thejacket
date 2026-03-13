@@ -1,0 +1,113 @@
+{
+  "id": "beth-mcelroy-kirkwood",
+  "name": "Beth McElroy Kirkwood",
+  "party": "Democratic",
+  "office": "MWRD Commissioner",
+  "race_id": "mwrd-6yr-2026",
+  "incumbent": true,
+  "bio": "Beth McElroy Kirkwood is an educator, community leader, and current MWRD Commissioner. She chairs the Moraine Valley Community College Board, where she oversees a $161 million budget and long-term strategic planning. She emphasizes fiscal responsibility and intergovernmental collaboration in water management.",
+  "prior_office": "MWRD Commissioner (incumbent; exact start date not confirmed in available sources). Chair, Moraine Valley Community College Board (oversight of $161M budget). Educator and community leader.",
+  "website": null,
+  "jacket": {
+    "total_raised": null,
+    "donors": [],
+    "source": "Illinois State Board of Elections (not retrieved)",
+    "note": "Campaign finance data not pulled; check ISBE for current cycle filings",
+    "data_date": "2026-03-13"
+  },
+  "red_flags": [],
+  "key_votes": [
+    {
+      "bill": "Supports investment in green infrastructure (permeable pavement, green alleys, bioswales, rain gardens, green roofs)",
+      "vote": "yes",
+      "summary": "Supports investment in green infrastructure (permeable pavement, green alleys, bioswales, rain gardens, green roofs)",
+      "source": null
+    },
+    {
+      "bill": "Supports PFAS TRUST Act advocacy",
+      "vote": "yes",
+      "summary": "Supports PFAS TRUST Act advocacy",
+      "source": null
+    },
+    {
+      "bill": "Supports extended producer responsibility legislation for pharmaceutical contaminants",
+      "vote": "yes",
+      "summary": "Supports extended producer responsibility legislation for pharmaceutical contaminants",
+      "source": null
+    },
+    {
+      "bill": "Supports modernizing treatment plants for nutrient reduction and water reuse projects",
+      "vote": "yes",
+      "summary": "Supports modernizing treatment plants for nutrient reduction and water reuse projects",
+      "source": null
+    }
+  ],
+  "policy_platform": [
+    {
+      "topic": "Platform",
+      "position": "Expand green infrastructure in communities with chronic flooding",
+      "source": null
+    },
+    {
+      "topic": "Platform",
+      "position": "Modernize treatment plants \u2014 nutrient removal and water reuse",
+      "source": null
+    },
+    {
+      "topic": "Platform",
+      "position": "PFAS and pharmaceutical contaminant reduction via source control and legislation",
+      "source": null
+    },
+    {
+      "topic": "Platform",
+      "position": "Regional coordination with municipalities to reduce sewage overflows",
+      "source": null
+    },
+    {
+      "topic": "Platform",
+      "position": "Fiscal responsibility and public budgeting expertise",
+      "source": null
+    },
+    {
+      "topic": "Platform",
+      "position": "Invasive species prevention through federal/state partnerships",
+      "source": null
+    }
+  ],
+  "career_history": [
+    {
+      "role": "MWRD Commissioner (incumbent)",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "Chair, Moraine Valley Community College Board",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "Educator",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "Community leader with intergovernmental collaboration experience",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    }
+  ],
+  "endorsements": [],
+  "data_status": "partial",
+  "sources": [
+    "https://news.wttw.com/elections/voters-guide/2026-primary/beth-mcelroy-kirkwood",
+    "https://ballotpedia.org/Beth_McElroy_Kirkwood"
+  ],
+  "photo_url": null,
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": null
+}
