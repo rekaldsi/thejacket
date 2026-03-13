@@ -113,8 +113,24 @@ export function scoreCandidate(candidate: Candidate): ScorecardEntry {
   };
 }
 
+// Office tier — higher = more prominent on scorecard when scores are tied
+function officeTier(office: string): number {
+  const o = office.toLowerCase();
+  if (o.includes("u.s. senate") || o.includes("senate (illinois)")) return 5;
+  if (o.includes("u.s. house") || o.includes("u.s. rep")) return 4;
+  if (o.includes("state senate") || o.includes("il senate")) return 3;
+  if (o.includes("state rep") || o.includes("il house")) return 3;
+  if (o.includes("assessor") || o.includes("board president") || o.includes("sheriff") || o.includes("treasurer")) return 2;
+  if (o.includes("mwrd")) return 1;
+  return 0; // commissioner districts, etc.
+}
+
 export function buildScorecard(candidates: Candidate[]): ScorecardEntry[] {
   return candidates
     .map(scoreCandidate)
-    .sort((a, b) => b.score - a.score);
+    .sort((a, b) => {
+      if (b.score !== a.score) return b.score - a.score;
+      // Tiebreak by office prominence
+      return officeTier(b.candidate.office) - officeTier(a.candidate.office);
+    });
 }

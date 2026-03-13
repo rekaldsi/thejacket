@@ -16,7 +16,13 @@
     "data_date": "2026-03-13"
   },
   "red_flags": [
-    "Spousal political connection \u2014 husband Ram Villivalam is IL State Senator; potential conflicts if both serve in overlapping jurisdictions"
+    {
+      "type": "conflict",
+      "label": "Spousal political connection",
+      "detail": "Husband Ram Villivalam is an IL State Senator; potential conflicts if both serve in overlapping jurisdictions.",
+      "source": "https://en.wikipedia.org/wiki/Ram_Villivalam",
+      "confirmed": false
+    }
   ],
   "key_votes": [],
   "policy_platform": [],
