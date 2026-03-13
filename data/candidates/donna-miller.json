@@ -7,23 +7,76 @@
   "data_status": "partial",
   "data_note": "Limited public information available. Check your county clerk's office or the Illinois State Board of Elections for filing info.",
   "bio": "Donna Miller is a Cook County Board Commissioner (District 6, south suburban Cook County, since 2018) running for the open IL-02 Congressional seat vacated by Robin Kelly. She is one of approximately 10 candidates in a crowded Democratic primary for a D+18 district covering the South Side of Chicago and south suburbs. (Source: WTTW Voter Guide 2026; Chicago Sun-Times; ILSOS filing confirmed)",
-  "prior_office": "Cook County Board Commissioner, District 6 (2018\u2013present)",
+  "prior_office": "Cook County Board Commissioner, District 6 (2018–present)",
   "website": "https://donnaforcongress.com",
   "jacket": {
-    "total_raised": null,
+    "total_raised": 1295068,
     "data_date": "2026-03-13",
     "source": "https://www.fec.gov/data/elections/house/IL/02/",
     "note": "FEC candidate totals pending ETL import.",
-    "donors": []
+    "donors": [
+      {
+        "name": "Jeremy Pava",
+        "employer": "Real estate investment executive (CT)",
+        "amount": 7000,
+        "category": "individual",
+        "note": "Previously gave at least $283,000 to AIPAC/UDP (2023–2025). Max contribution to Miller. Also gave max to Fine and Bean.",
+        "source": "https://www.hpherald.com/evening_digest/out-of-state-donors-propel-donna-miller-to-fundraising-lead/article_e7a30f4f-7a33-43bc-bc00-5e25cf63d49f.html",
+        "confirmed": true
+      },
+      {
+        "name": "Ann Pava",
+        "employer": "Real estate investment executive spouse (CT)",
+        "amount": 7000,
+        "category": "individual",
+        "note": "Spouse of Jeremy Pava. Gave maximum donation mid-December 2025. AIPAC-linked donor.",
+        "source": "https://www.hpherald.com/evening_digest/out-of-state-donors-propel-donna-miller-to-fundraising-lead/article_e7a30f4f-7a33-43bc-bc00-5e25cf63d49f.html",
+        "confirmed": true
+      },
+      {
+        "name": "Jerry Bednyak",
+        "employer": "Co-founder, Vivid Seats (Glencoe, IL)",
+        "amount": 7000,
+        "category": "individual",
+        "note": "In-state donor. Has given at least $1.1M to AIPAC and UDP. Max contribution to Miller.",
+        "source": "https://www.hpherald.com/evening_digest/out-of-state-donors-propel-donna-miller-to-fundraising-lead/article_e7a30f4f-7a33-43bc-bc00-5e25cf63d49f.html",
+        "confirmed": true
+      },
+      {
+        "name": "AIPAC-linked donor network (258+ donors)",
+        "amount": 470000,
+        "category": "coordinated_individual_network",
+        "note": "At least 258 individual donors who previously gave to AIPAC/UDP contributed ~$470K+ to Miller in Q4 2025, representing 36%+ of total fundraising. Not a single entity — FEC-documented via donor overlap analysis.",
+        "source": "https://www.hpherald.com/evening_digest/out-of-state-donors-propel-donna-miller-to-fundraising-lead/article_e7a30f4f-7a33-43bc-bc00-5e25cf63d49f.html",
+        "confirmed": true
+      },
+      {
+        "name": "Affordable Chicago Now (Super PAC)",
+        "amount": null,
+        "category": "independent_expenditure_super_pac",
+        "note": "Pop-up super PAC organized Jan 2026 running TV ads supporting Miller. Donors currently undisclosed. Identified by The American Prospect as part of AIPAC stealth infrastructure.",
+        "source": "https://prospect.org/2026/02/06/aipac-coordinates-donors-in-illinois-house-primaries/",
+        "confirmed": true
+      }
+    ],
+    "fec_id": "H6IL02355"
   },
-  "red_flags": [],
+  "red_flags": [
+    {
+      "type": "aipac",
+      "label": "AIPAC-Linked Out-of-State Donor Network",
+      "detail": "87% of Q4 2025 fundraising (~$892K) came from out-of-state donors. At least 258 of Miller's donors previously gave to AIPAC/UDP. A super PAC called 'Affordable Chicago Now' (donors undisclosed) is also running ads in her support. Miller's campaign denied soliciting AIPAC support but acknowledged accepting donations from known AIPAC contributors.",
+      "source": "https://www.hpherald.com/evening_digest/out-of-state-donors-propel-donna-miller-to-fundraising-lead/article_e7a30f4f-7a33-43bc-bc00-5e25cf63d49f.html",
+      "confirmed": true
+    }
+  ],
   "key_votes": [],
   "endorsements": [],
   "career_history": [
     {
       "role": "Cook County Board Commissioner, District 6",
       "org": "Cook County Board of Commissioners",
-      "years": "2018\u2013present",
+      "years": "2018–present",
       "highlight": "South suburban Cook County; stepping up to federal office"
     }
   ],

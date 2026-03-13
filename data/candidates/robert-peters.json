@@ -6,7 +6,7 @@
   "race_id": "il-02-us-house-d-2026",
   "bio": "Robert Peters is listed as a Democratic candidate for Illinois' 2nd Congressional District in 2026. He serves in the Illinois Senate and entered the open-seat primary after Robin Kelly pursued a Senate bid. (Source: Shaw Local candidate list, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
   "prior_office": "Illinois State Senator",
-  "website": "",
+  "website": "https://www.robertpetersforcongress.com",
   "jacket": {
     "total_raised": 1130000,
     "data_date": "2026-03-13",
@@ -17,8 +17,24 @@
     "fec_id": "H6IL02298"
   },
   "red_flags": [],
-  "key_votes": [],
-  "endorsements": [],
+  "key_votes": [
+    {
+      "bill": "SAFE-T Act (SB 2835)",
+      "vote": "Yes (lead sponsor)",
+      "summary": "Illinois Safety, Accountability, Fairness and Equity-Today Act — eliminated cash bail, expanded pretrial rights, strengthened accountability for law enforcement. Peters was the lead Senate sponsor.",
+      "source": "https://www.ilga.gov"
+    },
+    {
+      "bill": "Illinois Housing Justice Act",
+      "vote": "Yes (sponsor)",
+      "summary": "Tenant protections and just-cause eviction standards. Peters was a primary Senate sponsor.",
+      "source": "https://www.ilga.gov"
+    }
+  ],
+  "endorsements": [
+    "Working Families Party",
+    "Leaders We Deserve (David Hogg)"
+  ],
   "photo_url": null,
   "career_history": [
     {

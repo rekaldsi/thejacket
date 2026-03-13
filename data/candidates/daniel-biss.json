@@ -9,11 +9,28 @@
   "website": "https://www.danielbiss.com",
   "photo_url": null,
   "jacket": {
-    "total_raised": 2000000,
+    "total_raised": 2540000,
     "data_date": "2026-03-13",
     "source": "https://www.fec.gov/data/candidate/H6IL09228/",
     "note": "~$2M raised through Dec 31, 2025 per FEC filings.",
-    "donors": [],
+    "donors": [
+      {
+        "name": "J Street PAC",
+        "amount": null,
+        "category": "pac",
+        "note": "J Street PAC listed as contributing to Biss (part of $108,809 from committees). Amount not itemized in public sources.",
+        "source": "https://legis1.com/news/the-money-race-to-replace-jan-schakowsky-whos-funding-the-fight-for-illinoiss-9th-congressional-district-in-2026/",
+        "confirmed": true
+      },
+      {
+        "name": "3.14 Action Fund (outside/independent)",
+        "amount": 158000,
+        "category": "independent_expenditure_pac",
+        "note": "Pro-science hybrid PAC spent $158K+ in independent expenditures supporting Biss through mailers featuring Sen. Elizabeth Warren's endorsement.",
+        "source": "https://legis1.com/news/the-money-race-to-replace-jan-schakowsky-whos-funding-the-fight-for-illinoiss-9th-congressional-district-in-2026/",
+        "confirmed": true
+      }
+    ],
     "donors_note": "No itemized donor breakdown available yet. total_raised reflects FEC aggregate total (H6IL09228) — detailed donor records pending ETL import.",
     "fec_id": "H6IL09228"
   },
@@ -31,7 +48,8 @@
     {
       "org": "Rep. Jan Schakowsky",
       "significance": "Retiring incumbent's endorsement in her own district is the most powerful signal in this race"
-    }
+    },
+    "Sen. Elizabeth Warren"
   ],
   "career_history": [
     {

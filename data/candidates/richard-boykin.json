@@ -4,9 +4,9 @@
   "party": "Democratic",
   "office": "U.S. House (IL-07)",
   "race_id": "il-07-us-house-d-2026",
-  "bio": "Richard Boykin is listed as a Democratic candidate in the 2026 IL-07 open-seat primary. He previously served on the Cook County Board of Commissioners. (Source: Shaw Local candidate list, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
+  "bio": "Richard Boykin is listed as a Democratic candidate in the 2026 IL-07 open-seat primary. He previously served on the Cook County Board of Commissioners. (Source: Shaw Local candidate list, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/) Boykin served as chief of staff to Rep. Danny K. Davis (1997–2006) before winning Cook County Commissioner District 1 in 2014. He lost reelection in 2018 to Brandon Johnson's predecessor. He received a J.D. from the University of Dayton and a B.A. from Central State University. He ran for Cook County Board President in 2018, losing to Toni Preckwinkle. Currently lives in Oak Park, IL.",
   "prior_office": "Former Cook County Commissioner",
-  "website": "",
+  "website": "https://www.richardboykinforcongress.com",
   "jacket": {
     "total_raised": 383000,
     "data_date": "2026-03-13",
@@ -17,7 +17,20 @@
     "fec_id": "H6IL07370"
   },
   "red_flags": [],
-  "key_votes": [],
+  "key_votes": [
+    {
+      "bill": "Cook County Sweetened Beverage Tax (\"Soda Tax\")",
+      "vote": "No (led repeal effort)",
+      "summary": "Boykin was the first Democrat to oppose the Cook County sweetened beverage tax in 2016, then led the Board to repeal it in 2017 over President Toni Preckwinkle's objections.",
+      "source": "https://en.wikipedia.org/wiki/Richard_Boykin"
+    },
+    {
+      "bill": "Mental Health Funding Referendum (Nov 2014)",
+      "vote": "Yes (initiated)",
+      "summary": "Boykin led the initiative to place a county-wide referendum on expanded mental health treatment funding on the November 2014 ballot. The referendum passed with over 1.4 million votes.",
+      "source": "https://www.linkedin.com/in/richard-boykin-25a44514/"
+    }
+  ],
   "endorsements": [],
   "photo_url": null,
   "career_history": [

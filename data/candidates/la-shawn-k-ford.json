@@ -6,7 +6,7 @@
   "race_id": "il-07-us-house-d-2026",
   "bio": "La Shawn K. Ford is listed as a Democratic candidate in IL-07's 2026 congressional primary. He has served in the Illinois House and entered the open race after Rep. Danny Davis retired. (Source: Shaw Local candidate list, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
   "prior_office": "Illinois State Representative",
-  "website": "",
+  "website": "https://fordforcongress.com",
   "jacket": {
     "total_raised": 495000,
     "data_date": "2026-03-13",
@@ -17,8 +17,29 @@
     "fec_id": "H6IL07354"
   },
   "red_flags": [],
-  "key_votes": [],
-  "endorsements": [],
+  "key_votes": [
+    {
+      "bill": "Record Sealing and Expungement Laws (multiple bills)",
+      "vote": "Yes (author/sponsor)",
+      "summary": "Ford authored many of Illinois's major record sealing and expungement laws, expanding job opportunities for people with non-violent criminal records. Also authored bail cost reduction legislation and court debt protection laws.",
+      "source": "https://fordforcongress.com/about/"
+    },
+    {
+      "bill": "Prison Gerrymandering Reform",
+      "vote": "Yes (champion)",
+      "summary": "Led push to end prison gerrymandering — ensuring incarcerated people are counted in their home communities for redistricting purposes.",
+      "source": "https://fordforcongress.com/about/"
+    },
+    {
+      "bill": "National Popular Vote Compact",
+      "vote": "Yes (supported)",
+      "summary": "Illinois was an early adopter of the National Popular Vote Compact; Ford supported it.",
+      "source": "https://fordforcongress.com/about/"
+    }
+  ],
+  "endorsements": [
+    "Rep. Danny K. Davis"
+  ],
   "photo_url": null,
   "career_history": [
     {
