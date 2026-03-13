@@ -19,16 +19,21 @@
         "amount": null,
         "category": "pac",
         "source": "https://www.fec.gov/data/candidate/S6IL00474/",
-        "confirmed": false
+        "confirmed": false,
+        "amount_note": "⚠️ MISSING AMOUNT — historical donor category, presence unconfirmed for Senate race; needs FEC lookup for 2026 cycle",
+        "confirmed_note": "Unconfirmed — referenced from prior House race history, not verified for this Senate campaign"
       },
       {
         "name": "J Street (centrist pro-Israel) donors (prior career)",
         "amount": null,
         "category": "aipac",
         "source": "https://www.opensecrets.org",
-        "confirmed": false
+        "confirmed": false,
+        "amount_note": "⚠️ MISSING AMOUNT — historical donor category; needs OpenSecrets/FEC lookup for 2026 cycle",
+        "confirmed_note": "Unconfirmed — referenced from career history, not verified for this Senate campaign"
       }
     ],
+    "donors_note": "Donors list is PARTIAL — only notable/flagged historical donor categories are noted; neither has a confirmed amount or confirmed Senate-cycle presence. total_raised ($4,000,000) reflects FEC aggregate total (S6IL00474). Full itemized donor breakdown pending ETL import. Both listed donors need sourcing.",
     "fec_id": "S6IL00474"
   },
   "red_flags": [],

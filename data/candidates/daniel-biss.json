@@ -14,6 +14,7 @@
     "source": "https://www.fec.gov/data/candidate/H6IL09228/",
     "note": "~$2M raised through Dec 31, 2025 per FEC filings.",
     "donors": [],
+    "donors_note": "No itemized donor breakdown available yet. total_raised reflects FEC aggregate total (H6IL09228) — detailed donor records pending ETL import.",
     "fec_id": "H6IL09228"
   },
   "red_flags": [

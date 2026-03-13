@@ -19,30 +19,35 @@
         "amount": 1000000,
         "category": "individual",
         "source": "https://www.opensecrets.org/members-of-congress/raja-krishnamoorthi/summary?cid=N00030676",
-        "confirmed": false
+        "confirmed": false,
+        "amount_note": "Estimated career-total sector figure from OpenSecrets — exact Senate cycle amount unconfirmed"
       },
       {
         "name": "Fairshake (Crypto Industry PAC)",
         "amount": null,
         "category": "pac",
         "source": "https://www.fec.gov/data/candidate/S6IL00482/",
-        "confirmed": true
+        "confirmed": true,
+        "amount_note": "⚠️ MISSING AMOUNT — donor presence confirmed but specific dollar amount not yet sourced; needs FEC lookup"
       },
       {
         "name": "Pro-Israel / AIPAC-aligned donors",
         "amount": 250000,
         "category": "aipac",
         "source": "https://www.opensecrets.org/members-of-congress/raja-krishnamoorthi/summary?cid=N00030676",
-        "confirmed": false
+        "confirmed": false,
+        "amount_note": "Estimated career-total sector figure from OpenSecrets — exact Senate cycle amount unconfirmed"
       },
       {
         "name": "Shyam Sankar (Palantir CTO, ICE contractor)",
         "amount": null,
         "category": "individual",
         "source": "https://chicago.suntimes.com/politics/2025/12/08/krishnamoorthi-maga-donors",
-        "confirmed": true
+        "confirmed": true,
+        "amount_note": "⚠️ MISSING AMOUNT — donor presence confirmed (Sun-Times reporting) but specific dollar amount not yet sourced; needs FEC lookup"
       }
     ],
+    "donors_note": "Donors list is PARTIAL — only notable/flagged donors are itemized. total_raised ($30,000,000) reflects full FEC aggregate total (S6IL00482). Full donor breakdown pending ETL import. Two donors have null amounts (Fairshake, Shyam Sankar) — amounts must be sourced from FEC. Two donors (Attorneys/Law Firms, AIPAC-aligned) are unconfirmed sector estimates from OpenSecrets, not exact Senate-cycle figures.",
     "fec_id": "S6IL00482"
   },
   "red_flags": [

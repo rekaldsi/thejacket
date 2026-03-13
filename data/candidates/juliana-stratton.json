@@ -10,23 +10,30 @@
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Juliana_Stratton_2023_%28cropped%29.jpg",
   "jacket": {
     "total_raised": 4000000,
+    "pac_support_total": 5000000,
     "data_date": "2026-03-13",
     "source": "https://www.fec.gov/data/candidate/S6IL00458/",
-    "note": "Approximately $4M raised directly; Gov. Pritzker donated $5M to a supporting PAC. \u226527 AIPAC-network donors gave $70K+ directly to campaign (The Intercept, March 12, 2026).",
+    "note": "Approximately $4M raised directly to campaign committee (FEC S6IL00458). Separately, Gov. Pritzker donated $5M to an independent expenditure PAC supporting Stratton — this is NOT campaign committee money and is tracked in pac_support_total. ≥27 AIPAC-network donors gave $70K+ directly to campaign committee (The Intercept, March 12, 2026).",
     "donors": [
       {
-        "name": "Gov. J.B. Pritzker (via supporting PAC)",
+        "name": "Gov. J.B. Pritzker (via independent expenditure PAC — NOT campaign committee funds)",
         "amount": 5000000,
         "category": "pac",
+        "pac_type": "independent_expenditure",
+        "label": "Independent Expenditure / PAC — NOT campaign committee funds",
         "source": "https://theintercept.com/2026/03/12/illinois-senate-aipac-stratton/",
-        "confirmed": true
+        "confirmed": true,
+        "counts_toward_total_raised": false
       },
       {
-        "name": "AIPAC-network donors (\u226527 individuals)",
+        "name": "AIPAC-network donors (≥27 individuals — direct to campaign committee)",
         "amount": 70000,
         "category": "aipac",
+        "pac_type": null,
+        "label": "Direct contributions to campaign committee",
         "source": "https://theintercept.com/2026/03/12/illinois-senate-aipac-stratton/",
-        "confirmed": true
+        "confirmed": true,
+        "counts_toward_total_raised": true
       }
     ],
     "fec_id": "S6IL00458"

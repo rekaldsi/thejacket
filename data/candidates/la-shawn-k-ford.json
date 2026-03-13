@@ -13,6 +13,7 @@
     "source": "https://www.fec.gov/data/elections/house/IL/07/",
     "note": "~$495K raised as of Feb 25, 2026 (FEC). FEC ID: H6IL07354",
     "donors": [],
+    "donors_note": "No itemized donor breakdown available yet. total_raised reflects FEC aggregate total (H6IL07354) — detailed donor records pending ETL import.",
     "fec_id": "H6IL07354"
   },
   "red_flags": [],
