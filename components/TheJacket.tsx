@@ -86,13 +86,13 @@ export default function TheJacket({ candidateName, totalRaised, donors, sourceCi
 
           <div className="h-80 border border-jacket-border p-2">
             <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={barData} layout="vertical" margin={{ left: 0, right: 80, top: 10, bottom: 10 }}>
+              <BarChart data={barData} layout="vertical" margin={{ left: 0, right: 50, top: 10, bottom: 10 }}>
                 <XAxis
                   type="number"
                   stroke="#71717a"
                   tickFormatter={(v: number) => "$" + (v / 1000).toFixed(0) + "k"}
                 />
-                <YAxis dataKey="category" type="category" width={140} stroke="#a1a1aa" className="font-mono text-xs" />
+                <YAxis dataKey="category" type="category" width={100} stroke="#a1a1aa" className="font-mono text-xs" />
                 <Tooltip
                   formatter={(value: number) =>
                     new Intl.NumberFormat("en-US", {
@@ -117,8 +117,8 @@ export default function TheJacket({ candidateName, totalRaised, donors, sourceCi
             </ResponsiveContainer>
           </div>
 
-          <div className="overflow-hidden border border-jacket-border">
-            <table className="w-full border-collapse text-sm">
+          <div className="overflow-x-auto border border-jacket-border">
+            <table className="w-full min-w-[520px] border-collapse text-sm">
               <thead>
                 <tr className="border-b border-jacket-border bg-jacket-gray/30 text-left">
                   <th className="p-2 font-mono">Donor</th>
