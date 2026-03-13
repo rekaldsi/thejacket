@@ -2,21 +2,30 @@
   "id": "daniel-biss",
   "name": "Daniel Biss",
   "party": "Democratic",
-  "office": "U.S. House (IL-09)",
+  "office": "U.S. House — IL-09",
   "race_id": "il-09-us-house-d-2026",
-  "bio": "Daniel Biss is listed as a Democratic candidate in the 2026 IL-09 open-seat primary. He is the mayor of Evanston and previously served in the Illinois General Assembly. (Source: Shaw Local candidate list, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
-  "prior_office": "Mayor of Evanston; former state legislator",
-  "website": "",
+  "bio": "Daniel Biss is the Mayor of Evanston and a former Illinois state senator who ran for governor in 2018. He is running for the open IL-09 congressional seat with the endorsement of retiring Rep. Jan Schakowsky. He has raised approximately $2M. (Source: FEC H6IL09228; Wikipedia)",
+  "prior_office": "Mayor of Evanston (2021–present); Illinois State Senator (9th District); Illinois State Representative",
+  "website": null,
+  "photo_url": null,
   "jacket": {
-    "total_raised": null,
+    "total_raised": 2000000,
     "data_date": "2026-03-13",
-    "source": "https://www.fec.gov/data/elections/house/IL/09/",
-    "note": "FEC candidate totals pending ETL import.",
+    "source": "https://www.fec.gov/data/candidate/H6IL09228/",
+    "note": "~$2M raised through Dec 31, 2025 per FEC filings.",
     "donors": []
   },
-  "red_flags": [],
+  "red_flags": [
+    {
+      "type": "aipac",
+      "label": "Allegedly Sought AIPAC Support Before Distancing",
+      "detail": "Jewish Insider reported that Biss allegedly sought support from AIPAC before publicly distancing himself from the organization. Biss denied initiating contact, saying AIPAC approached him. A mutual FEC complaint was filed between the Biss and Fine campaigns over related campaign finance claims in 2026.",
+      "source": "https://jewishinsider.com",
+      "confirmed": false
+    }
+  ],
   "key_votes": [],
   "endorsements": [
-    { "org": "Jan Schakowsky", "significance": "Incumbent endorsement noted in local reporting." }
+    { "org": "Rep. Jan Schakowsky", "significance": "Retiring incumbent's endorsement in her own district is the most powerful signal in this race" }
   ]
 }

@@ -35,6 +35,7 @@ export type Candidate = {
   bio: string;
   prior_office: string;
   website: string;
+  photo_url: string | null;
   jacket: {
     total_raised: number | null;
     data_date: string;

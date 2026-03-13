@@ -1,6 +1,12 @@
 import type { Metadata } from "next";
+import { Space_Grotesk } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  variable: "--font-space-grotesk"
+});
 
 export const metadata: Metadata = {
   title: "TheJacket",
@@ -10,14 +16,27 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>
+      <body className={`${spaceGrotesk.variable} bg-jacket-black font-sans text-jacket-white antialiased`}>
+        <div className="h-1 w-full bg-jacket-amber" />
+
         <div className="mx-auto flex min-h-screen w-full max-w-7xl flex-col px-4 md:px-8">
-          <header className="border-b border-jacket-border py-5">
-            <nav className="flex items-center justify-between font-mono uppercase tracking-wider">
-              <Link href="/" className="text-xl text-jacket-white">
+          <header className="border-b border-jacket-border">
+            <nav className="flex items-center justify-between py-4">
+              <Link href="/" className="text-xl font-extrabold uppercase tracking-tight text-jacket-white">
                 THEJACKET
               </Link>
-              <span className="text-jacket-amber">thejacket.cc</span>
+
+              <div className="hidden items-center gap-3 text-xs uppercase tracking-widest text-zinc-300 sm:flex">
+                <Link href="/races" className="transition-colors hover:text-jacket-amber">
+                  Races
+                </Link>
+                <span className="text-zinc-600">|</span>
+                <Link href="/about" className="transition-colors hover:text-jacket-amber">
+                  About
+                </Link>
+              </div>
+
+              <span className="font-mono text-xs uppercase tracking-widest text-jacket-amber">COOK COUNTY &mdash; MAR 17</span>
             </nav>
           </header>
 

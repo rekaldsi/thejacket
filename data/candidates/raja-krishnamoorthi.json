@@ -4,19 +4,52 @@
   "party": "Democratic",
   "office": "U.S. Senate (Illinois)",
   "race_id": "us-senate-il-d-2026",
-  "bio": "Raja Krishnamoorthi is a U.S. Representative from Illinois who filed for the 2026 Democratic U.S. Senate primary. He has represented IL-08 in Congress and previously worked in state and federal policy roles. (Source: Shaw Local primary ballot guide, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
-  "prior_office": "U.S. Representative (IL-08)",
+  "bio": "Raja Krishnamoorthi is a U.S. Representative from Illinois's 8th congressional district who filed for the 2026 Democratic U.S. Senate primary. He has served in Congress since 2017 and previously worked in state and federal policy roles. (Source: FEC S6IL00482; Shaw Local primary ballot guide, March 5, 2026)",
+  "prior_office": "U.S. Representative (IL-08, 2017–present)",
   "website": "https://www.raja2026.com",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Raja_Krishnamoorthi_official_photo.jpg",
   "jacket": {
-    "total_raised": null,
+    "total_raised": 30000000,
     "data_date": "2026-03-13",
-    "source": "https://www.fec.gov/data/candidates/senate/?cycle=2026",
-    "note": "FEC totals pending direct ETL import.",
+    "source": "https://www.fec.gov/data/candidate/S6IL00482/",
+    "note": "Approximately $30M raised as of March 2026 per The Intercept and Chicago Business reporting. Detailed donor breakdown pending FEC ETL.",
     "donors": [
-      { "name": "Data pending", "amount": null, "category": "finance", "source": "https://api.open.fec.gov/v1/", "confirmed": false }
+      { "name": "Attorneys / Law Firms", "amount": 1000000, "category": "individual", "source": "https://www.opensecrets.org/members-of-congress/raja-krishnamoorthi/summary?cid=N00030676", "confirmed": false },
+      { "name": "Fairshake (Crypto Industry PAC)", "amount": null, "category": "pac", "source": "https://www.fec.gov/data/candidate/S6IL00482/", "confirmed": true },
+      { "name": "Pro-Israel / AIPAC-aligned donors", "amount": 250000, "category": "aipac", "source": "https://www.opensecrets.org/members-of-congress/raja-krishnamoorthi/summary?cid=N00030676", "confirmed": false },
+      { "name": "Shyam Sankar (Palantir CTO, ICE contractor)", "amount": null, "category": "individual", "source": "https://chicago.suntimes.com/politics/2025/12/08/krishnamoorthi-maga-donors", "confirmed": true }
     ]
   },
-  "red_flags": [],
-  "key_votes": [],
+  "red_flags": [
+    {
+      "type": "aipac",
+      "label": "AIPAC Endorsement + Pro-Israel Donor Network",
+      "detail": "AIPAC endorsed Krishnamoorthi for his 2024 House reelection. He has received over $250K from pro-Israel lobby groups over his career. AIPAC-aligned donors are active in his Senate campaign.",
+      "source": "https://www.opensecrets.org/members-of-congress/raja-krishnamoorthi/summary?cid=N00030676",
+      "confirmed": true
+    },
+    {
+      "type": "dark-money",
+      "label": "Crypto Industry PAC Money (Fairshake)",
+      "detail": "Krishnamoorthi has accepted money from Fairshake, a crypto industry PAC that has spent heavily to influence congressional elections nationwide.",
+      "source": "https://www.fec.gov/data/candidate/S6IL00482/",
+      "confirmed": true
+    },
+    {
+      "type": "dark-money",
+      "label": "Donors with MAGA / Trump ties",
+      "detail": "The Chicago Sun-Times reported in December 2025 that Krishnamoorthi accepted donations from Trump-aligned donors and political figures, including Shyam Sankar, CTO of Palantir — a company with ICE contracts.",
+      "source": "https://chicago.suntimes.com/politics/2025/12/08/krishnamoorthi-maga-donors",
+      "confirmed": true
+    }
+  ],
+  "key_votes": [
+    {
+      "bill": "Israel Security Assistance Support Act (2024)",
+      "vote": "yes",
+      "summary": "Voted to provide additional military aid to Israel.",
+      "source": "https://clerk.house.gov/Votes/2024"
+    }
+  ],
   "endorsements": []
 }

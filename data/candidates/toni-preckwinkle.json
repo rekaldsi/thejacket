@@ -4,17 +4,35 @@
   "party": "Democratic",
   "office": "Cook County Board President",
   "race_id": "cook-county-board-president-d-2026",
-  "bio": "Toni Preckwinkle is the incumbent Cook County Board President and a candidate in the 2026 Democratic primary. She has led county government since 2010 after serving as a Chicago alderperson. (Source: Cook County race context and WTTW voter guide link in scout file: https://news.wttw.com/elections/voters-guide/2026-primary)",
-  "prior_office": "Cook County Board President; Chicago Alderman (4th Ward)",
-  "website": "https://www.toni2026.com",
+  "bio": "Toni Preckwinkle is the incumbent Cook County Board President, first elected in 2010, and chair of the Cook County Democratic Party. She previously served as a Chicago alderperson representing the 4th Ward for nearly two decades. (Source: Cook County official website; WTTW Voter Guide 2026)",
+  "prior_office": "Cook County Board President (2010–present); Chicago Alderman (4th Ward, 1991–2010)",
+  "website": null,
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Toni_Preckwinkle_press_conference_210226-Z-AZ071-3051_%281%29.jpg",
   "jacket": {
     "total_raised": null,
     "data_date": "2026-03-13",
     "source": "https://www.elections.il.gov/CampaignDisclosure",
-    "note": "ILSBE committee totals pending ETL import.",
+    "note": "County race — ILSBE filing, not FEC. Totals pending ETL import.",
     "donors": []
   },
-  "red_flags": [],
+  "red_flags": [
+    {
+      "type": "ethics",
+      "label": "Connected to Ald. Burke Federal Corruption Case",
+      "detail": "Preckwinkle returned over $100,000 in fundraising linked to indicted Chicago Alderman Edward Burke following his 2019 federal corruption charges. She also allegedly hired Burke's son as a six-figure county employee. Preckwinkle was not charged and denied any quid pro quo.",
+      "source": "https://www.chicagotribune.com/politics/preckwinkle-burke",
+      "confirmed": false
+    },
+    {
+      "type": "ethics",
+      "label": "Soda Tax Backlash — Revenue Motive Admitted",
+      "detail": "Preckwinkle championed a controversial penny-per-ounce soda tax in 2017, which reached 87% disapproval in polls and was repealed. She later admitted the primary motivation was revenue, not public health.",
+      "source": "https://www.chicagotribune.com/business/ct-biz-cook-county-soda-tax-repeal-20171010-story.html",
+      "confirmed": true
+    }
+  ],
   "key_votes": [],
-  "endorsements": []
+  "endorsements": [
+    { "org": "Chicago Mayor Brandon Johnson", "significance": "Mayoral endorsement signals progressive coalition alignment" }
+  ]
 }

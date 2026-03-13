@@ -2,19 +2,30 @@
   "id": "laura-fine",
   "name": "Laura Fine",
   "party": "Democratic",
-  "office": "U.S. House (IL-09)",
+  "office": "U.S. House — IL-09",
   "race_id": "il-09-us-house-d-2026",
-  "bio": "Laura Fine is listed as a Democratic candidate in IL-09 for the 2026 primary. She currently serves in the Illinois Senate and is part of the open-seat contest. (Source: Shaw Local candidate list, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
-  "prior_office": "Illinois State Senator",
-  "website": "",
+  "bio": "Laura Fine is an Illinois state senator representing the 9th district — the same seat once held by Daniel Biss. A former journalist, she is running for the open IL-09 congressional seat. She has raised approximately $2M. (Source: FEC H6IL09194; Wikipedia)",
+  "prior_office": "Illinois State Senator (9th District, 2019–present)",
+  "website": null,
+  "photo_url": null,
   "jacket": {
-    "total_raised": null,
+    "total_raised": 2000000,
     "data_date": "2026-03-13",
-    "source": "https://www.fec.gov/data/elections/house/IL/09/",
-    "note": "FEC candidate totals pending ETL import.",
-    "donors": []
+    "source": "https://www.fec.gov/data/candidate/H6IL09194/",
+    "note": "~$2M raised through Dec 31, 2025 per FEC filings.",
+    "donors": [
+      { "name": "Gessner family (AIPAC-network donors)", "amount": 14000, "category": "aipac", "source": "https://evanstonroundtable.com/2025/10/23/aipac-donors-flood-fines-campaign/", "confirmed": true }
+    ]
   },
-  "red_flags": [],
+  "red_flags": [
+    {
+      "type": "aipac",
+      "label": "AIPAC-Connected Donors Flooding Campaign",
+      "detail": "Evanston Now reported in October 2025 that AIPAC-linked donors are actively funding Fine's IL-09 campaign, including $14,000 from the Gessner family, documented AIPAC donors. WBEZ reported in February 2026 that pro-Israel groups and affiliates have poured $13.7M into Chicago-area primaries.",
+      "source": "https://evanstonroundtable.com/2025/10/23/aipac-donors-flood-fines-campaign/",
+      "confirmed": true
+    }
+  ],
   "key_votes": [],
   "endorsements": []
 }
