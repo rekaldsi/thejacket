@@ -4,33 +4,31 @@
   "party": "Democratic",
   "office": "U.S. Senate (Illinois)",
   "race_id": "us-senate-il-d-2026",
-  "bio": "Robin Kelly is a U.S. Representative from Illinois's 2nd congressional district and a leading candidate in the 2026 Democratic U.S. Senate primary. She has served in Congress since 2013 and is known for her gun violence prevention work. (Source: FEC S6IL00474; robinkelly.house.gov)",
-  "prior_office": "U.S. Representative (IL-02, 2013–present); Illinois State Representative; Cook County Treasurer",
+  "bio": "Robin Lynne Kelly was born April 30, 1956 in Harlem, New York, the daughter of a grocer. She moved to Illinois to attend Bradley University in Peoria, where she earned a B.A. in psychology (1977) and an M.A. in counseling (1982), and directed a crisis nursery while there. She later earned a Ph.D. in political science from Northern Illinois University in 2004. From 1992–2006 she served as Director of Community Affairs for Matteson, Illinois. She served in the Illinois House of Representatives (38th District) from 2003–2007, then became Chief of Staff to Illinois Treasurer Alexi Giannoulias — the first African American woman to serve as chief of staff to a statewide elected officeholder. She was appointed Cook County President Toni Preckwinkle's Chief Administrative Officer in 2011. Kelly won the 2013 special election to succeed Jesse Jackson Jr. in IL-02, and has been reelected continuously. She serves as Chair of the House Gun Violence Prevention Task Force. She announced her Senate candidacy on May 6, 2025, upon Dick Durbin's retirement. She chairs no major Senate committee but sits on the House Energy & Commerce Committee. Running a distant third in most polls of the Democratic primary, she has cited her cross-district legislative record and gun violence prevention work. (Sources: Wikipedia; robinkelly.house.gov; Capitol News Illinois; FEC S6IL00474)",
+  "prior_office": "U.S. Representative (IL-02, 2013–present); Chair, Illinois Democratic Party (2021–2022); Cook County Chief Administrative Officer (2011–2013); Chief of Staff, IL State Treasurer (2007–2011); Illinois State Representative (38th District, 2003–2007)",
   "website": "https://robinforsenate.com",
   "photo_url": null,
   "jacket": {
     "total_raised": 3307722,
     "data_date": "2026-03-13",
     "source": "https://www.fec.gov/data/candidate/S6IL00474/",
-    "note": "~$4M raised for Senate race as of Q4 2025 (The Intercept). FEC ID: S6IL00474",
+    "note": "FEC total raised for Senate committee S6IL00474 as of Q4 2025. Kelly raised $565,775 in Q2 2025 (April–June) and held ~$2M in her accounts as of mid-2025 per Capitol News Illinois (July 28, 2025). Trailing Krishnamoorthi ($30.5M) and Stratton ($4M+) substantially.",
     "donors": [
       {
-        "name": "Bloomberg-affiliated gun control PACs (prior House races)",
-        "amount": null,
-        "category": "pac",
-        "source": "https://www.fec.gov/data/candidate/S6IL00474/",
-        "confirmed": false,
-        "amount_note": "⚠️ MISSING AMOUNT — historical donor category, presence unconfirmed for Senate race; needs FEC lookup for 2026 cycle",
-        "confirmed_note": "Unconfirmed — referenced from prior House race history, not verified for this Senate campaign"
+        "name": "Transfer from prior Robin Kelly House committee (H0IL02052)",
+        "amount": 2152081,
+        "category": "transfer",
+        "source": "https://api.open.fec.gov/v1/candidate/S6IL00474/totals/?cycle=2026",
+        "confirmed": true,
+        "amount_note": "FEC confirmed $2,152,081 transferred from prior House committee — largest single funding source for Senate bid"
       },
       {
-        "name": "J Street (centrist pro-Israel) donors (prior career)",
-        "amount": null,
-        "category": "aipac",
-        "source": "https://www.opensecrets.org",
-        "confirmed": false,
-        "amount_note": "⚠️ MISSING AMOUNT — historical donor category; needs OpenSecrets/FEC lookup for 2026 cycle",
-        "confirmed_note": "Unconfirmed — referenced from career history, not verified for this Senate campaign"
+        "name": "Other Political Committee contributions (PAC aggregate)",
+        "amount": 189501,
+        "category": "pac",
+        "source": "https://api.open.fec.gov/v1/candidate/S6IL00474/totals/?cycle=2026",
+        "confirmed": true,
+        "amount_note": "FEC aggregate 'other_political_committee_contributions' — combined PAC receipts; individual PAC breakdown requires itemized FEC lookup"
       },
       {
         "name": "American Mobilization PAC (Washington DC)",
@@ -41,34 +39,56 @@
         "amount_note": "Largest single Q4 2025 donation per FEC data via The Telegraph"
       },
       {
-        "name": "Congressional Black Caucus PAC",
+        "name": "Congressional Black Caucus PAC (CBCPAC)",
         "amount": null,
         "category": "pac",
-        "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
+        "source": "https://www.cbcpac.org/",
         "confirmed": true,
-        "amount_note": "CBC PAC endorsement and likely contribution confirmed; exact amount requires itemized FEC lookup"
+        "amount_note": "CBC PAC listed as official endorser on Kelly campaign website; exact dollar amount pending itemized FEC lookup"
       },
       {
-        "name": "Other Political Committee contributions (aggregate)",
-        "amount": 189501,
+        "name": "Corporate PACs (aggregate — multiple)",
+        "amount": null,
         "category": "pac",
-        "source": "https://api.open.fec.gov/v1/candidate/S6IL00474/totals/?cycle=2026",
+        "source": "https://capitolnewsillinois.com/news/who-is-contributing-to-illinois-u-s-senate-candidates/",
         "confirmed": true,
-        "amount_note": "FEC aggregate 'other_political_committee_contributions' — PAC money from committees; individual PAC breakdown requires itemized receipt lookup"
+        "amount_note": "Capitol News Illinois confirmed Kelly, unlike Stratton, has accepted corporate PAC money; exact aggregate pending FEC itemized lookup"
       },
       {
-        "name": "Transfer from prior Robin Kelly House committee",
-        "amount": 2152081,
-        "category": "individual",
-        "source": "https://api.open.fec.gov/v1/candidate/S6IL00474/totals/?cycle=2026",
+        "name": "Protect Progress PAC (Fairshake-aligned, pro-crypto)",
+        "amount": 89900,
+        "category": "outside_pac",
+        "source": "https://chicago.suntimes.com/elections/2026/03/10/us-senate-democratic-primary-kelly-krishnamoorthi-stratton-super-pac-war",
         "confirmed": true,
-        "amount_note": "FEC confirmed $2,152,081 transferred from prior House committee — largest funding source"
+        "amount_note": "Outside independent expenditure PAC — $89,900 spent supporting Kelly per Chicago Sun-Times (March 10, 2026). NOT direct campaign funds — cannot coordinate with campaign. Fairshake is funded primarily by Marc Andreessen and Ben Horowitz (gave $11M to MAGA Inc)."
       }
     ],
-    "donors_note": "Donors list is PARTIAL — only notable/flagged historical donor categories are noted; neither has a confirmed amount or confirmed Senate-cycle presence. total_raised ($4,000,000) reflects FEC aggregate total (S6IL00474). Full itemized donor breakdown pending ETL import. Both listed donors need sourcing.",
+    "donors_note": "Kelly is the lowest-funded of the three major candidates. Notable: Protect Progress (Fairshake-aligned, crypto PAC funded by Trump megadonors Andreessen/Horowitz) spent $89,900 in outside support for Kelly — political insiders say this is a Krishnamoorthi strategy to split the vote between Kelly and Stratton. Kelly herself said at a WTTW debate: 'super PAC money, dark money, to my knowledge, I haven't received any of that' — technically true of her campaign committee. (Source: Chicago Sun-Times, March 10, 2026)",
     "fec_id": "S6IL00474"
   },
-  "red_flags": [],
+  "red_flags": [
+    {
+      "type": "political-conflict",
+      "label": "Forced Out as Illinois Democratic Party Chair — Pritzker Conflict",
+      "detail": "Kelly was elected Illinois Democratic Party Chair in March 2021, defeating a Pritzker-backed candidate (Chicago Ald. Michelle Harris). In July 2022, Kelly ended her bid for reelection as chair after it became clear she lacked support to beat State Rep. Lisa Hernandez — who was also backed by Gov. Pritzker. Capitol News Illinois reported the ouster as a Pritzker-engineered defeat. This conflict colors the current Senate race, where Pritzker is backing Stratton over Kelly. The Congressional Black Caucus publicly accused Pritzker of 'heavy-handing' the race. This is a pattern of Pritzker-vs.-Kelly conflict, now in its third round.",
+      "source": "https://capitolnewsillinois.com/news/congressional-black-caucus-accuses-pritzker-of-heavy-handing-senate-race/",
+      "confirmed": true
+    },
+    {
+      "type": "dark-money",
+      "label": "Outside Support from Crypto PAC Linked to Trump Megadonors",
+      "detail": "Protect Progress, a PAC aligned with the Fairshake crypto PAC, spent $89,900 in outside support for Kelly. Fairshake is primarily funded by Marc Andreessen and Ben Horowitz (Andreessen Horowitz / a16z), who gave $11M to MAGA Inc. (a Trump-supporting PAC) per the New York Times. Political insiders believe the spending on Kelly is designed to split the Black vote with Stratton to benefit Krishnamoorthi. Kelly's campaign cannot legally coordinate with these PACs and has distanced itself from their support.",
+      "source": "https://chicago.suntimes.com/elections/2026/03/10/us-senate-democratic-primary-kelly-krishnamoorthi-stratton-super-pac-war",
+      "confirmed": true
+    },
+    {
+      "type": "foreign-policy",
+      "label": "Voted Yes on $26.4B Military Aid to Israel (2024)",
+      "detail": "Kelly voted yes on H.R. 8034 (April 20, 2024) providing $26.4B in emergency military aid to Israel and yes on H.R. 8369 (May 15, 2024) to release withheld weapons to Israel. Both are on the record. She also voted yes on the Yemen War Powers Resolution (2023) — an anti-war vote showing some limit to her hawkishness. Her voting record on Gaza/Israel is a mixed signal for progressive primary voters.",
+      "source": "https://clerk.house.gov/Votes/2024152",
+      "confirmed": true
+    }
+  ],
   "key_votes": [
     {
       "bill": "H.R. 8034 — Israel Security Supplemental Appropriations Act, 2024",
@@ -89,6 +109,18 @@
       "source": "https://www.govtrack.us/congress/members/robin_kelly/412595"
     },
     {
+      "bill": "H.R. 1808 — Assault Weapons Ban of 2022",
+      "vote": "yes",
+      "summary": "Voted yes on legislation to ban semiautomatic assault weapons and high-capacity magazines. Passed 217-213 in the House. Did not advance in the Senate.",
+      "source": "https://ballotpedia.org/Robin_Kelly"
+    },
+    {
+      "bill": "H.R. 5376 — Inflation Reduction Act, 2022",
+      "vote": "yes",
+      "summary": "Voted yes on legislation investing $369B in climate/energy, extending ACA subsidies, and allowing Medicare drug price negotiation. Passed 220-207.",
+      "source": "https://ballotpedia.org/Robin_Kelly"
+    },
+    {
       "bill": "H.R. 1197 — PREEMIE Reauthorization Act of 2025",
       "vote": "yes",
       "summary": "Kelly was primary sponsor. Reauthorizes research programs to reduce premature births and infant mortality. Enacted 2025.",
@@ -99,59 +131,131 @@
       "vote": "yes",
       "summary": "Kelly sponsored legislation addressing maternal mortality crisis, particularly for Black women. Enacted 2022.",
       "source": "https://www.govtrack.us/congress/members/robin_kelly/412595"
+    },
+    {
+      "bill": "H.R. 2 — Laken Riley Act, 2026",
+      "vote": "no",
+      "summary": "Voted nay on legislation requiring detention of undocumented immigrants arrested for certain crimes. Passed 341-79 on January 14, 2026.",
+      "source": "https://clerk.house.gov/Votes/202614"
     }
   ],
-  "endorsements": [],
+  "endorsements": [
+    {
+      "org": "Congressional Black Caucus (CBC)",
+      "significance": "Full caucus endorsement — CBC Chair Rep. Yvette Clarke publicly called out Gov. Pritzker for 'heavy-handing' the race by backing Stratton over CBC member Kelly. Reflects institutional Black political establishment support."
+    },
+    {
+      "org": "Brady PAC (Everytown-affiliated gun control)",
+      "significance": "Kelly's signature issue — reflects 12+ years leading House Gun Violence Prevention Task Force"
+    },
+    {
+      "org": "CAIR Action (Midwest)",
+      "significance": "Endorsement from Council on American-Islamic Relations Midwest chapter — notable in context of Israel/Gaza votes"
+    },
+    {
+      "org": "Illinois Muslim Civic Coalition",
+      "significance": "Muslim American advocacy endorsement"
+    },
+    {
+      "org": "Everytown for Gun Safety (Gun Sense Voter)",
+      "significance": "America's largest gun violence prevention organization; Kelly has led House gun prevention task force since founding"
+    },
+    {
+      "org": "U.S. Senators Cory Booker (NJ) and Chris Murphy (CT)",
+      "significance": "High-profile national Senate endorsers — Murphy led Senate filibuster after Sandy Hook, Booker is prominent Black caucus ally"
+    },
+    {
+      "org": "Rep. Ayanna Pressley (MA-07), Rep. Rashida Tlaib (MI-12), Rep. Ilhan Omar (MN-05)",
+      "significance": "Squad-adjacent endorsers — suggests some progressive credibility despite mixed Israel votes"
+    },
+    {
+      "org": "Rep. Jim Clyburn (SC-06)",
+      "significance": "Most influential Black Democrat in House; his endorsement is a major signal of establishment Black political support"
+    },
+    {
+      "org": "Rep. Maxine Waters (CA-43)",
+      "significance": "Longtime CBC leader; adds national name recognition weight"
+    },
+    {
+      "org": "Former Mayor Lori Lightfoot (Chicago)",
+      "significance": "Former Chicago mayor — notable given Kelly's base in south suburban IL-02"
+    },
+    {
+      "org": "Kankakee Friends of Labor",
+      "significance": "Local union endorsement — represents downstate labor base"
+    }
+  ],
   "career_history": [
     {
       "role": "U.S. Representative, IL-02",
       "org": "U.S. House of Representatives",
       "years": "2013–present",
-      "highlight": "Chair, House Gun Violence Prevention Task Force"
+      "highlight": "Chair, House Gun Violence Prevention Task Force; House Energy & Commerce Committee; succeeded Jesse Jackson Jr. via 2013 special election"
     },
     {
-      "role": "Illinois Treasurer",
-      "org": "Office of the Illinois Treasurer",
+      "role": "Chair, Illinois Democratic Party",
+      "org": "Democratic Party of Illinois",
+      "years": "2021–2022",
+      "highlight": "Defeated Pritzker-backed candidate to win chair in 2021; did not seek reelection in 2022 after Pritzker again backed her opponent (Lisa Hernandez)"
+    },
+    {
+      "role": "Chief Administrative Officer",
+      "org": "Cook County Board (President Toni Preckwinkle)",
       "years": "2011–2013",
-      "highlight": "First African American State Treasurer"
-    },
-    {
-      "role": "Illinois State Representative",
-      "org": "Illinois General Assembly",
-      "years": "2003–2007"
+      "highlight": "Senior county administrator role"
     },
     {
       "role": "Chief of Staff",
-      "org": "Cook County Board of Commissioners",
-      "years": "2007–2011"
+      "org": "Illinois State Treasurer (Alexi Giannoulias)",
+      "years": "2007–2011",
+      "highlight": "First African American woman to serve as chief of staff to an elected IL statewide officeholder"
+    },
+    {
+      "role": "Illinois State Representative, 38th District",
+      "org": "Illinois General Assembly",
+      "years": "2003–2007",
+      "highlight": "Served on Appropriations-Human Services, Mass Transit (Vice Chair), Housing & Urban Development committees"
+    },
+    {
+      "role": "Director of Community Affairs",
+      "org": "Village of Matteson, Illinois",
+      "years": "1992–2006",
+      "highlight": "14-year local government service role"
     }
   ],
   "policy_platform": [
     {
       "topic": "Gun Violence Prevention",
-      "position": "Lead champion in Congress for gun control legislation; authored bills on background check reform, assault weapon restrictions.",
+      "position": "Lead champion in Congress for gun control legislation; authored bills on background check reform, assault weapon restrictions; chairs House Gun Violence Prevention Task Force since founding. Campaign platform calls her signature issue 'People Over Profits' and includes universal background checks and assault weapon bans.",
       "source": "https://robinkelly.house.gov"
     },
     {
-      "topic": "Healthcare",
-      "position": "Supports Medicare expansion; focused on maternal mortality and health equity in underserved communities.",
-      "source": "https://robinkelly.house.gov"
+      "topic": "Healthcare — Medicare for All / Health Equity",
+      "position": "Campaign website lists Medicare for All as a goal. Led legislation on maternal mortality (Maternal Health Quality Improvement Act, 2022) and premature births (PREEMIE Reauthorization Act, 2025). Focuses on health equity for Black and underserved communities.",
+      "source": "https://www.robinforsenate.com"
     },
     {
       "topic": "Economic Justice",
-      "position": "Advocates for minimum wage increases, union rights, and investment in South Side / south suburban infrastructure.",
-      "source": "https://robinkelly.house.gov"
+      "position": "Campaign platform 'People Over Profits' calls for minimum wage of $17/hour, minimum tax on individuals earning $100M+/year, union rights protections, and infrastructure investment in south suburban and rural IL-02 communities.",
+      "source": "https://ballotpedia.org/Juliana_Stratton"
+    },
+    {
+      "topic": "Criminal Justice",
+      "position": "Supported federal decriminalization of marijuana (H.R. 3617, MORE Act, 2022). Supports American Dream and Promise Act for DACA/TPS recipients. Voted no on Laken Riley Act (2026).",
+      "source": "https://ballotpedia.org/Robin_Kelly"
     }
   ],
   "social_pulse": {
-    "summary": "Positive among gun control advocates. Moderate progressive profile. Lower social media footprint compared to higher-profile Senate candidates.",
-    "sentiment": "positive",
+    "summary": "Positive among gun control advocates and Black political establishment. Supportive coverage from CAIR/Muslim civic groups notable given Gaza votes. Low social media footprint relative to Krishnamoorthi and Stratton — media portrays her as distant third in race. CBC endorsement triggered news cycle about Pritzker's 'heavy-handing.' Fairshake PAC support for Kelly drew negative attention and allegations she's being used as a vote-splitter.",
+    "sentiment": "positive-with-caveats",
     "hashtags": [
       "#RobinKelly",
+      "#KellyForSenate",
       "#GunControl",
+      "#PeopleOverProfits",
       "#IL02"
     ],
-    "last_updated": "2026-03-13"
+    "last_updated": "2026-03-14"
   },
   "trust_indicators": [
     {
@@ -160,28 +264,59 @@
       "type": "positive"
     },
     {
-      "label": "No confirmed ethics violations",
+      "label": "No personal ethics violations on record",
       "value": true,
       "type": "positive"
     },
     {
-      "label": "Gun control legislative record — consistent",
+      "label": "Consistent gun control legislative record (12+ years)",
       "value": true,
       "type": "positive"
     },
     {
-      "label": "Endorsed by Everytown for Gun Safety",
+      "label": "Endorsed by Congressional Black Caucus",
       "value": true,
       "type": "positive"
+    },
+    {
+      "label": "Endorsed by Everytown for Gun Safety / Brady PAC",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "Endorsed by CAIR Midwest and Muslim civic orgs despite Israel votes",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "Voted YES — $26.4B military aid to Israel (April 2024)",
+      "value": true,
+      "type": "negative"
+    },
+    {
+      "label": "Outside support from Fairshake-aligned crypto PAC (Protect Progress, $89.9K) — Trump megadonor funded",
+      "value": true,
+      "type": "negative"
+    },
+    {
+      "label": "Ousted as IL Dem Party Chair by Pritzker-backed candidate (2022)",
+      "value": true,
+      "type": "neutral"
+    },
+    {
+      "label": "Substantially outspent — $3.3M vs Krishnamoorthi's $30.5M",
+      "value": true,
+      "type": "neutral"
     }
   ],
   "transparency_score": {
-    "grade": "A",
+    "grade": "A-",
     "computed": true,
-    "financial_transparency": "B",
-    "platform_completeness": "B",
+    "financial_transparency": "B+",
+    "platform_completeness": "A",
     "record_available": true,
-    "red_flags_count": 0,
+    "red_flags_count": 3,
+    "notes": "Red flags are structural/political (no personal ethics violations). Outside PAC support from crypto-Trump-aligned Fairshake network raises questions. Strong legislative record and consistent issue focus.",
     "computed_at": "2026-03-14"
   }
 }

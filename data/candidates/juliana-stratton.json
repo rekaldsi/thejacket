@@ -4,83 +4,241 @@
   "party": "Democratic",
   "office": "U.S. Senate (Illinois)",
   "race_id": "us-senate-il-d-2026",
-  "bio": "Juliana Stratton is the Lieutenant Governor of Illinois, serving alongside Gov. J.B. Pritzker since 2019. She previously served in the Illinois General Assembly and is running for the open U.S. Senate seat with Pritzker's backing. (Source: FEC S6IL00458; WTTW Voter Guide 2026)",
-  "prior_office": "Lieutenant Governor of Illinois (2019–present); Illinois State Representative",
+  "bio": "Juliana Stratton is the Lieutenant Governor of Illinois, serving as J.B. Pritzker's running mate since January 2019. She was born and raised in Chicago. She earned a B.S. in Broadcast Journalism from the University of Illinois at Urbana-Champaign (1987) and a J.D. from DePaul University College of Law (1992). After law school, she founded JDS Mediation Services, Inc. and served as Executive Director of Cook County Justice for Children and the Cook County Justice Advisory Council. She taught conflict management and negotiation skills at Loyola University Chicago, and served as Director of the Center for Public Safety and Justice at University of Illinois at Chicago. Stratton was elected to the Illinois House of Representatives (26th District / later 5th District under redistricting) in 2014, serving 2015–2019 with a focus on the House Judiciary-Criminal Law Committee and criminal justice reform. She was elected Lieutenant Governor of Illinois in 2018 — the first Black woman elected to statewide office in Illinois history — and reelected in 2022. As Lt. Gov., she has led the Governor's Rural Affairs Council and championed cannabis legalization equity provisions. She announced her Senate candidacy in late April 2025, one day after Dick Durbin announced his retirement. Gov. Pritzker endorsed her immediately and has committed $5M to the independent expenditure PAC supporting her (Illinois Future PAC). She pledged not to accept any corporate PAC money for her Senate campaign. She has surged in polling in the final weeks before the March 17 primary, with one poll showing her at 33% (vs. Krishnamoorthi at 29%). (Sources: Ballotpedia; Chicago Sun-Times; WTTW Voter Guide 2026; FEC S6IL00458)",
+  "prior_office": "Lieutenant Governor of Illinois (2019–present); Illinois State Representative (26th/5th District, 2015–2019)",
   "website": "https://www.julianastratton.com",
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Juliana_Stratton_2023_%28cropped%29.jpg",
   "jacket": {
     "total_raised": 4058200,
-    "pac_support_total": 5000000,
+    "pac_support_total": 11800000,
     "data_date": "2026-03-13",
     "source": "https://www.fec.gov/data/candidate/S6IL00458/",
-    "note": "Approximately $4M raised directly to campaign committee (FEC S6IL00458). Separately, Gov. Pritzker donated $5M to an independent expenditure PAC supporting Stratton — this is NOT campaign committee money and is tracked in pac_support_total. ≥27 AIPAC-network donors gave $70K+ directly to campaign committee (The Intercept, March 12, 2026).",
+    "note": "FEC campaign committee S6IL00458 raised ~$4M directly. Illinois Future PAC — an independent expenditure PAC backing Stratton — has spent at least $11.8M per FEC records (Capitol News Illinois, March 2026). Pritzker committed $5M to Illinois Future PAC; other contributors include Laura Ricketts (Chicago Cubs co-owner, $250K) and multiple Pritzker family members. Stratton pledged no corporate PAC money to her campaign committee — a pledge she has kept to her campaign committee, but critics note she benefits from the Illinois Future PAC super PAC.",
     "donors": [
       {
-        "name": "Gov. J.B. Pritzker (via independent expenditure PAC — NOT campaign committee funds)",
+        "name": "Gov. J.B. Pritzker (via Illinois Future PAC — independent expenditure)",
         "amount": 5000000,
-        "category": "pac",
+        "category": "outside_pac",
         "pac_type": "independent_expenditure",
-        "label": "Independent Expenditure / PAC — NOT campaign committee funds",
-        "source": "https://theintercept.com/2026/03/12/illinois-senate-aipac-stratton/",
+        "label": "Independent Expenditure PAC — NOT campaign committee funds",
+        "source": "https://www.chicagotribune.com/2026/02/01/illinois-us-senate-democrats-campaign-reports-reports-2025/",
         "confirmed": true,
-        "counts_toward_total_raised": false
+        "counts_toward_total_raised": false,
+        "amount_note": "$5M confirmed to Illinois Future PAC per Chicago Tribune (Feb. 1, 2026). Cannot legally coordinate with campaign."
       },
       {
-        "name": "AIPAC-network donors (≥27 individuals — direct to campaign committee)",
+        "name": "Laura Ricketts (Chicago Cubs co-owner)",
+        "amount": 250000,
+        "category": "outside_pac",
+        "pac_type": "independent_expenditure",
+        "label": "Contribution to Illinois Future PAC (independent expenditure)",
+        "source": "https://capitolnewsillinois.com/news/outside-groups-spending-big-on-illinois-senate-race/",
+        "confirmed": true,
+        "counts_toward_total_raised": false,
+        "amount_note": "Largest single non-Pritzker disclosed contribution to Illinois Future PAC in last two months per Capitol News Illinois"
+      },
+      {
+        "name": "Pritzker family members (MK Pritzker, adult children, cousins Adam/John/Gigi/Jennifer Pritzker)",
+        "amount": 42000,
+        "category": "individual",
+        "pac_type": null,
+        "label": "Direct individual contributions to campaign committee",
+        "source": "https://capitolnewsillinois.com/news/who-is-contributing-to-illinois-u-s-senate-candidates/",
+        "confirmed": true,
+        "counts_toward_total_raised": true,
+        "amount_note": "MK Pritzker, two adult children, and four cousins each contributed the max $7,000 (split primary/general = $3,500 + $3,500 per person). Six family members × $7,000 = $42,000. JB Pritzker himself gave the max $7,000 directly. Jennifer Pritzker is a former Trump supporter who has more recently backed Democrats. (Capitol News Illinois, July 28, 2025)"
+      },
+      {
+        "name": "AIPAC-network donors (≥27 individuals — direct campaign committee)",
         "amount": 70000,
         "category": "aipac",
         "pac_type": null,
         "label": "Direct contributions to campaign committee",
         "source": "https://theintercept.com/2026/03/12/illinois-senate-aipac-stratton/",
         "confirmed": true,
-        "counts_toward_total_raised": true
+        "counts_toward_total_raised": true,
+        "amount_note": "The Intercept (March 12, 2026): at least 27 AIPAC donors gave $70K+ directly to Stratton's Senate campaign committee. Lee Rosenberg, former AIPAC president, sits on Stratton's campaign finance committee."
+      },
+      {
+        "name": "Illinois General Assembly members (12 donors)",
+        "amount": null,
+        "category": "individual",
+        "source": "https://capitolnewsillinois.com/news/who-is-contributing-to-illinois-u-s-senate-candidates/",
+        "confirmed": true,
+        "counts_toward_total_raised": true,
+        "amount_note": "12 IL General Assembly members contributed to campaign; amounts not aggregated in reporting — requires itemized FEC lookup"
+      },
+      {
+        "name": "Jerry Reinsdorf (White Sox and Bulls owner) and family",
+        "amount": null,
+        "category": "individual",
+        "source": "https://capitolnewsillinois.com/news/who-is-contributing-to-illinois-u-s-senate-candidates/",
+        "confirmed": true,
+        "counts_toward_total_raised": true,
+        "amount_note": "Jerry Reinsdorf, son and Bulls President Michael Reinsdorf each contributed per Capitol News Illinois. Exact amounts require itemized FEC lookup."
+      },
+      {
+        "name": "Danny Wirtz (Blackhawks CEO)",
+        "amount": null,
+        "category": "individual",
+        "source": "https://capitolnewsillinois.com/news/who-is-contributing-to-illinois-u-s-senate-candidates/",
+        "confirmed": true,
+        "counts_toward_total_raised": true,
+        "amount_note": "Confirmed per Capitol News Illinois (July 28, 2025). Amount requires itemized FEC lookup."
+      },
+      {
+        "name": "Sen. Tammy Duckworth",
+        "amount": null,
+        "category": "individual",
+        "source": "https://capitolnewsillinois.com/news/who-is-contributing-to-illinois-u-s-senate-candidates/",
+        "confirmed": true,
+        "counts_toward_total_raised": true,
+        "amount_note": "Confirmed per Capitol News Illinois. Amount requires FEC lookup."
+      },
+      {
+        "name": "Marquis Energy Corporate PAC",
+        "amount": 5000,
+        "category": "pac",
+        "label": "Returned — no longer in campaign funds",
+        "source": "https://www.chicagotribune.com/2025/11/06/end-citizens-united-endorses-stratton-senate/",
+        "confirmed": true,
+        "counts_toward_total_raised": false,
+        "amount_note": "Stratton's campaign received $5,000 from Marquis Energy Corporate PAC and returned it in June 2025 per Chicago Tribune. However, campaign accepted $21,000 from Marquis family members personally. Marquis family also contributed $46,000 to Level Up PAC (Stratton's hybrid PAC) per Sun-Times."
       }
     ],
+    "donors_note": "Stratton pledged no corporate PAC money to her campaign committee — a pledge confirmed by Sun-Times and Tribune. BUT: (1) Her prior state campaign funds accepted corporate PAC money; (2) she accepted $21,000 from Marquis Energy family members individually; (3) Illinois Future PAC — which has spent $11.8M on her behalf — is overwhelmingly funded by billionaire Gov. Pritzker; (4) her own Level Up PAC (created Jan. 2025) accepted $46,000 from Marquis family and $5,000 in corporate PAC money. Krishnamoorthi calls this 'shameless hypocrisy.' (Sources: Chicago Sun-Times 11/21/2025; Chicago Tribune 11/6/2025; Capitol News Illinois 3/10/2026)",
     "fec_id": "S6IL00458"
   },
   "red_flags": [
     {
       "type": "aipac",
       "label": "AIPAC Donor Network — $70K+ Direct + Former AIPAC President on Finance Committee",
-      "detail": "The Intercept reported on March 12, 2026 that at least 27 AIPAC donors gave $70K+ directly to Stratton's Senate campaign. Lee Rosenberg, a former president of AIPAC, sits on her campaign finance committee. AIPAC is officially staying neutral in the IL Senate race but its donor network is active for Stratton.",
+      "detail": "The Intercept reported on March 12, 2026 that at least 27 AIPAC donors gave $70K+ directly to Stratton's Senate campaign. Lee Rosenberg, a former president of AIPAC, sits on her campaign finance committee. AIPAC is officially staying neutral in the IL Senate race but its donor network is active for Stratton. This is an apparent tension with her progressive positioning, particularly given that she has been endorsed by Elizabeth Warren and End Citizens United.",
       "source": "https://theintercept.com/2026/03/12/illinois-senate-aipac-stratton/",
       "confirmed": true
+    },
+    {
+      "type": "dark-money",
+      "label": "Corporate Contributions Despite 'No Corporate PAC' Pledge — Sun-Times Investigation",
+      "detail": "Chicago Sun-Times (Nov. 21, 2025) reported that while Stratton vowed to reject corporate PAC money, she has a history of accepting corporate PAC and direct corporate contributions in her state campaign funds since 2016. For her Senate race: she returned a $5,000 Marquis Energy PAC check but accepted $21,000 from Marquis family members personally, and her Level Up PAC accepted $46,000 from Marquis family and $5,000 in corporate PAC money. Krishnamoorthi's campaign aired a TV ad citing the Sun-Times story. Stratton's campaign says the pledge applies only to her Senate campaign committee, which has held to it.",
+      "source": "https://chicago.suntimes.com/the-watchdogs/2025/11/21/juliana-stratton-us-senate-bid-march-primary-corporate-pac-money",
+      "confirmed": true
+    },
+    {
+      "type": "dark-money",
+      "label": "Illinois Future PAC — $11.8M in Outside Spending, Pritzker-Controlled",
+      "detail": "Illinois Future PAC, which has spent $11.8M supporting Stratton and attacking Krishnamoorthi, is overwhelmingly funded by Gov. JB Pritzker ($5M) and allies including Laura Ricketts ($250K). Stratton benefits directly from this spending while officially not coordinating. The Fairshake PAC's ads and the Indian American Impact Fund PAC have attacked Stratton for 'relying on dark money super PACs.' Capitol News Illinois (March 10, 2026) confirmed Illinois Future PAC as the largest outside spender in the race.",
+      "source": "https://capitolnewsillinois.com/news/outside-groups-spending-big-on-illinois-senate-race/",
+      "confirmed": true
+    },
+    {
+      "type": "conflict-of-interest",
+      "label": "Democratic Lieutenant Governors Association (DLGA) PAC — ICE Contractor Funding",
+      "detail": "Fairshake PAC ads accused Stratton of benefiting from the Democratic Lieutenant Governors Association PAC, which has received money from an ICE contractor. Krishnamoorthi's campaign cited this to counter Stratton's attacks on him for accepting Palantir CTO donations. Capitol News Illinois confirmed the DLGA PAC connection. The allegation is that one of Stratton's PAC supporters is funded by the same type of ICE contractor she attacks Krishnamoorthi for. Confirmed as a claim in the race — exact details of DLGA donor composition require independent verification.",
+      "source": "https://capitolnewsillinois.com/news/outside-groups-spending-big-on-illinois-senate-race/",
+      "confirmed": false
     }
   ],
   "key_votes": [
     {
       "bill": "HB 40 (Illinois) — Reproductive Health Act, 2017",
       "vote": "yes",
-      "summary": "As IL state representative, Stratton led the fight for HB 40, ensuring Illinois women retain access to abortion regardless of insurance coverage if Roe v. Wade were overturned. Signed into law 2017.",
+      "summary": "As IL State Representative, Stratton was a lead advocate for HB 40, ensuring Illinois women retain access to abortion funding regardless of insurance coverage if Roe v. Wade were overturned. Signed into law October 2017.",
       "source": "https://emilyslist.org/candidate/juliana-stratton/"
     },
     {
       "bill": "Cannabis Regulation and Tax Act (Illinois SB 1557), 2019",
       "vote": "yes",
-      "summary": "As Lt. Governor, Stratton championed Illinois's landmark cannabis legalization law including equity provisions for expungements and minority business licensing. Signed Jan 2020.",
+      "summary": "As Lt. Governor, Stratton championed Illinois's landmark cannabis legalization law, including equity provisions for expungements and minority business licensing. She led the Governor's Justice, Equity, Diversity and Inclusion (JEDI) Cannabis Commission. Signed January 1, 2020.",
       "source": "https://en.wikipedia.org/wiki/Juliana_Stratton"
     },
     {
-      "bill": "SAFE-T Act (Illinois SB 2328) — criminal justice reform, 2021",
+      "bill": "SAFE-T Act (Illinois SB 2328) — Criminal Justice Reform, 2021",
       "vote": "yes",
-      "summary": "Stratton publicly supported and advocated for Illinois's comprehensive criminal justice reform package (SAFE-T Act), which included ending cash bail and police accountability measures. Signed by Pritzker Feb 2021.",
+      "summary": "Stratton publicly supported and advocated for the SAFE-T Act, Illinois's comprehensive criminal justice reform package: ended cash bail, established police accountability measures, reformed use-of-force standards. Signed February 2021.",
       "source": "https://ltgov.illinois.gov/"
     },
     {
-      "bill": "Illinois Governor Budget Signing — FY2025 ($53.1B), 2024",
+      "bill": "Illinois SALT Act — Protecting Residents from Federal Immigration Enforcement",
       "vote": "yes",
-      "summary": "As Lt. Governor, Stratton co-signed the FY2025 state budget which included expanded mental health and social service funding. Standard executive role.",
+      "summary": "Stratton cited the SALT Act (signed under Pritzker administration in 2025) as protecting Illinoisans from 'illegal and unethical federal immigration enforcement conduct.' She listed it as a key accomplishment in her Sun-Times candidate questionnaire (March 2026).",
+      "source": "https://chicago.suntimes.com/elections/2026/candidate-questionnaires/juliana-stratton-illinois-primary-united-states-senate"
+    },
+    {
+      "bill": "Illinois FY2025 Budget ($53.1B), 2024",
+      "vote": "yes",
+      "summary": "As Lt. Governor, Stratton co-signed the FY2025 state budget, which included expanded mental health funding, SNAP support, affordable housing investment, and clean energy programs. Standard executive role.",
       "source": "https://www.julianastratton.com/"
     }
   ],
   "endorsements": [
     {
       "org": "Gov. J.B. Pritzker",
-      "significance": "$5M PAC support; governor's endorsement carries major downstate name recognition"
+      "significance": "$5M in independent expenditure PAC support (Illinois Future PAC); governor's endorsement issued day after Durbin announced retirement. Pritzker's financial and political muscle is the backbone of Stratton's campaign infrastructure."
     },
     {
-      "org": "Sen. Tammy Duckworth",
-      "significance": "Senior Illinois senator endorsement"
+      "org": "Sen. Tammy Duckworth (D-IL)",
+      "significance": "Senior Illinois senator endorsement; Duckworth also made a direct contribution per FEC records"
+    },
+    {
+      "org": "Illinois House Speaker Chris Welch",
+      "significance": "Speaker of the Illinois House — most powerful figure in Illinois legislature; represents institutional Democratic establishment support"
+    },
+    {
+      "org": "Sen. Elizabeth Warren (D-MA)",
+      "significance": "Progressive icon endorsement; Warren also endorsed Stratton on crypto regulation, contrasting Stratton's pledge with Krishnamoorthi's Fairshake backing"
+    },
+    {
+      "org": "EMILYs List",
+      "significance": "Nation's largest pro-choice women's PAC endorsement; issued a memo Feb. 26, 2026 declaring Stratton 'surging' with 'momentum decisively on her side'"
+    },
+    {
+      "org": "End Citizens United",
+      "significance": "Campaign finance reform organization endorsement — tied to Stratton's no-corporate-PAC pledge"
+    },
+    {
+      "org": "Sierra Club",
+      "significance": "Major environmental organization endorsement"
+    },
+    {
+      "org": "National Nurses United",
+      "significance": "Largest nurses union in the US; notable for Medicare for All advocacy"
+    },
+    {
+      "org": "SEIU Illinois State Council",
+      "significance": "Service Employees International Union — major Illinois labor endorsement"
+    },
+    {
+      "org": "Illinois Federation of Teachers (IFT)",
+      "significance": "Illinois teachers union endorsement confirmed by Daily Northwestern (Feb. 5, 2026)"
+    },
+    {
+      "org": "Teamsters (Illinois)",
+      "significance": "Teamsters endorsement per Ballotpedia race page"
+    },
+    {
+      "org": "American Federation of Government Employees (AFGE)",
+      "significance": "Federal workers union endorsement per Ballotpedia"
+    },
+    {
+      "org": "Sen. Tammy Baldwin (D-WI), Sen. Angela Alsobrooks (D-MD), Sen. Tina Smith (D-MN)",
+      "significance": "Senate Democratic women bloc endorsement — adds national profile"
+    },
+    {
+      "org": "Carol Moseley Braun (Former U.S. Senator, IL)",
+      "significance": "Illinois's first and only Black U.S. Senator endorsement carries symbolic weight"
+    },
+    {
+      "org": "Reps. Jesús 'Chuy' García (IL-4), Danny Davis (IL-7), Jan Schakowsky (IL-9)",
+      "significance": "Illinois congressional delegation endorsements — bipartisan geographic and ideological range (progressive García, South Side Davis, North Shore Schakowsky)"
+    },
+    {
+      "org": "Former Rep. Bobby Rush (IL-1)",
+      "significance": "South Side civil rights legend and former Illinois congressional dean"
+    },
+    {
+      "org": "Gloria Steinem",
+      "significance": "Feminist icon endorsement"
     }
   ],
   "career_history": [
@@ -88,47 +246,93 @@
       "role": "Lieutenant Governor of Illinois",
       "org": "State of Illinois",
       "years": "2019–present",
-      "highlight": "Running mate to Gov. JB Pritzker; broke barriers as first Black Lt. Governor"
+      "highlight": "First Black woman elected to statewide office in Illinois history; reelected 2022; chairs Governor's Rural Affairs Council; led JEDI Cannabis Commission for equitable cannabis licensing; sued Trump administration to defend federal funding for child care, SNAP, infrastructure, and disaster relief"
     },
     {
-      "role": "Illinois State Representative",
+      "role": "Illinois State Representative, 26th District (later 5th District)",
       "org": "Illinois General Assembly",
       "years": "2015–2019",
-      "highlight": "House Judiciary Committee; criminal justice reform focus"
+      "highlight": "House Judiciary-Criminal Law Committee; lead advocate for HB 40 (Reproductive Health Act, 2017) and criminal justice reform; championed SAFE-T Act groundwork"
     },
     {
-      "role": "Attorney / Law Professor",
-      "org": "University of Illinois Chicago School of Law",
+      "role": "Director, Center for Public Safety and Justice",
+      "org": "University of Illinois at Chicago",
       "years": "pre-2015",
-      "highlight": "Adjunct professor; focused on legal aid and social justice"
+      "highlight": "Academic and policy research role in criminal justice"
+    },
+    {
+      "role": "Adjunct Professor / Instructor",
+      "org": "Loyola University Chicago",
+      "years": "pre-2015",
+      "highlight": "Taught conflict management and negotiation skills"
+    },
+    {
+      "role": "Executive Director",
+      "org": "Cook County Justice for Children / Cook County Justice Advisory Council",
+      "years": "pre-2015",
+      "highlight": "Led county juvenile justice advisory work; positioned her as a criminal justice reform expert"
+    },
+    {
+      "role": "Founder and President",
+      "org": "JDS Mediation Services, Inc.",
+      "years": "1990s–2000s",
+      "highlight": "Founded private mediation firm after law school — background in conflict resolution and legal services"
+    },
+    {
+      "role": "J.D.",
+      "org": "DePaul University College of Law",
+      "years": "1992",
+      "highlight": "Law degree; focus on social justice and legal advocacy"
     }
   ],
   "policy_platform": [
     {
       "topic": "Criminal Justice Reform",
-      "position": "Championed sentencing reform, rehabilitation over punishment, and reducing mass incarceration in Illinois.",
-      "source": "https://julianaforsenate.com"
+      "position": "Championed sentencing reform, rehabilitation over punishment, and reducing mass incarceration. Led SAFE-T Act advocacy as Lt. Gov. Supports ending cash bail nationally. Campaigning on a 'People First' platform against mass incarceration.",
+      "source": "https://www.julianastratton.com"
     },
     {
-      "topic": "Equity & Education",
-      "position": "Supports equitable school funding, early childhood education investment.",
-      "source": "https://julianaforsenate.com"
+      "topic": "Abortion Rights / Reproductive Justice",
+      "position": "Led HB 40 (2017) to ensure IL abortion access regardless of insurance. Supports codifying Roe v. Wade at federal level. EMILYs List endorsement.",
+      "source": "https://emilyslist.org/candidate/juliana-stratton/"
     },
     {
-      "topic": "Cannabis Legalization",
-      "position": "Supported Illinois cannabis legalization (2019); advocate for equity in licensing and expungement of prior convictions.",
-      "source": "https://julianaforsenate.com"
+      "topic": "Healthcare",
+      "position": "Supports Medicare for All; specifically supports a federal Birth Equity Initiative to address maternal mortality (inspired by Illinois program). 'Tax revenue should be spent on quality, accessible health care.' (Sun-Times questionnaire, March 2026)",
+      "source": "https://chicago.suntimes.com/elections/2026/candidate-questionnaires/juliana-stratton-illinois-primary-united-states-senate"
+    },
+    {
+      "topic": "Immigration",
+      "position": "Supports abolishing ICE (per WTTW debate, March 9, 2026 — confirmed by Illinois Future PAC ad messaging). Supports SALT Act-style protections for immigrants at federal level.",
+      "source": "https://news.wttw.com/2026/03/09/kelly-stratton-vow-block-additional-funding-iran-war-during-wttw-news-senate-debate"
+    },
+    {
+      "topic": "Campaign Finance",
+      "position": "Pledged no corporate PAC money to Senate campaign committee; endorsed by End Citizens United. Campaigning explicitly against the corporate PAC money model as distinguishing her from Krishnamoorthi and Kelly.",
+      "source": "https://www.chicagotribune.com/2025/11/06/end-citizens-united-endorses-stratton-senate/"
+    },
+    {
+      "topic": "Cannabis Legalization and Equity",
+      "position": "Supported Illinois cannabis legalization (SB 1557, 2019). Chaired the JEDI Cannabis Commission for equitable licensing and expungement. Supports federal cannabis decriminalization with equity provisions.",
+      "source": "https://en.wikipedia.org/wiki/Juliana_Stratton"
+    },
+    {
+      "topic": "Economic Policy",
+      "position": "Supports expanding Earned Income Tax Credit; Medicare for All; SNAP expansion; affordable housing investment. Framing: 'When [vulnerable populations] thrive, our whole community thrives.' Backed by SEIU, teachers unions, Teamsters.",
+      "source": "https://ballotpedia.org/Juliana_Stratton"
     }
   ],
   "social_pulse": {
-    "summary": "Positive sentiment among progressives and African American communities. Moderate statewide name recognition. Benefits from incumbency in Lt. Governor role.",
-    "sentiment": "positive",
+    "summary": "Surging in final weeks — one poll shows her at 33%, ahead of Krishnamoorthi (29%). Strong earned media from Warren, EMILYs List, and progressive organizations. Negative ads from Fairshake ($5.5M+) attacking her record, AIPAC Intercept story, and Krishnamoorthi 'hypocrisy' attacks have created friction. Positive national coverage as progressive alternative. Base is Chicago South Side and south suburbs (overlapping with Kelly's base), suburban Democrats, and progressive women voters.",
+    "sentiment": "positive-surging",
     "hashtags": [
       "#JulianaStratton",
       "#JulianaForSenate",
-      "#CriminalJusticeReform"
+      "#CriminalJusticeReform",
+      "#AbolishICE",
+      "#NoCorpPACMoney"
     ],
-    "last_updated": "2026-03-13"
+    "last_updated": "2026-03-14"
   },
   "trust_indicators": [
     {
@@ -137,7 +341,12 @@
       "type": "positive"
     },
     {
-      "label": "No ethics violations on record",
+      "label": "First Black woman elected to statewide office in Illinois history",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "No personal ethics violations on record",
       "value": true,
       "type": "positive"
     },
@@ -147,18 +356,49 @@
       "type": "positive"
     },
     {
-      "label": "First Black Lt. Governor of Illinois",
+      "label": "No corporate PAC money in Senate campaign committee (pledge honored)",
       "value": true,
       "type": "positive"
+    },
+    {
+      "label": "Endorsed by EMILYs List, End Citizens United, Sierra Club, NNU, SEIU, IFT, Teamsters",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "$11.8M in outside PAC support via Illinois Future PAC (Pritzker-controlled billionaire money)",
+      "value": true,
+      "type": "negative"
+    },
+    {
+      "label": "AIPAC donor network: $70K+ direct donations + former AIPAC president on finance committee (Intercept, March 2026)",
+      "value": true,
+      "type": "negative"
+    },
+    {
+      "label": "Prior history of corporate PAC acceptance in state campaign funds (Sun-Times investigation)",
+      "value": true,
+      "type": "negative"
+    },
+    {
+      "label": "Accepted $21K from Marquis Energy family members despite returning their PAC check",
+      "value": true,
+      "type": "negative"
+    },
+    {
+      "label": "Chicago Tribune Editorial Board did NOT endorse Stratton for Senate primary",
+      "value": false,
+      "type": "neutral"
     }
   ],
   "transparency_score": {
-    "grade": "A",
+    "grade": "B+",
     "computed": true,
-    "financial_transparency": "A",
-    "platform_completeness": "B",
+    "financial_transparency": "B",
+    "platform_completeness": "A",
     "record_available": true,
-    "red_flags_count": 1,
+    "red_flags_count": 4,
+    "notes": "Campaign committee pledge to reject corporate PAC money is confirmed honored. BUT: benefits from $11.8M Pritzker-controlled PAC; AIPAC network donor presence confirmed by The Intercept; prior-cycle corporate PAC history documented by Sun-Times. Progressive policy record is deep and consistent. Grade reflects genuine transparency on campaign finance pledge vs. structural PAC support contradictions.",
     "computed_at": "2026-03-14"
   }
 }

@@ -9,11 +9,29 @@
   "prior_office": "Senior Administrator, Illinois Department of Children and Family Services",
   "website": null,
   "jacket": {
-    "total_raised": null,
-    "donors": [],
-    "source": "Illinois State Board of Elections (not retrieved)",
-    "note": "Campaign finance not retrieved",
-    "data_date": "2026-03-13"
+    "total_raised": 5500,
+    "cash_on_hand": 4287.28,
+    "data_date": "2026-03-14",
+    "source": "https://illinoissunshine.org/committees/40909/",
+    "note": "Committee: Friends of Sylvester Fulcher (ID 40909, founded Oct 9, 2025). Cash on hand: $4,287.28. Debts: $5,000. Only two donors: candidate self ($5,000) and Christina Fulcher ($500). Essentially self-funded with minimal fundraising.",
+    "fec_id": null,
+    "ilsbe_id": "40909",
+    "donors": [
+      {
+        "name": "Sylvester Fulcher",
+        "amount": 5000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40909/",
+        "confirmed": true
+      },
+      {
+        "name": "Christina Fulcher",
+        "amount": 500,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40909/",
+        "confirmed": true
+      }
+    ]
   },
   "red_flags": [],
   "key_votes": [],
@@ -26,9 +44,10 @@
       "highlight": ""
     }
   ],
-  "data_status": "stub",
+  "data_status": "partial",
   "sources": [
-    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election"
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
+    "https://illinoissunshine.org/committees/40909/"
   ],
   "photo_url": null,
   "endorsements": [],

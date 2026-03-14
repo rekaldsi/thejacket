@@ -65,6 +65,9 @@ export type Candidate = {
   prior_office: string;
   website: string;
   photo_url: string | null;
+  status?: 'active' | 'withdrawn';
+  withdrawal_date?: string;
+  withdrawal_note?: string;
   uncontested?: boolean;
   years_in_office?: number;
   data_status?: 'limited' | 'partial' | 'full';

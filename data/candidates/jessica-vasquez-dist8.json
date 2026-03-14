@@ -10,10 +10,119 @@
   "website": "https://www.vasquezforcookcounty.org",
   "jacket": {
     "total_raised": null,
-    "donors": [],
-    "source": "Illinois State Board of Elections (not retrieved)",
-    "note": "Campaign finance not retrieved",
-    "data_date": "2026-03-13"
+    "cash_on_hand": 104310.61,
+    "data_date": "2026-03-14",
+    "source": "https://illinoissunshine.org/committees/40662/",
+    "note": "Committee: Friends of Jessica Vasquez (ID 40662, founded May 16, 2025). Funds available $48,210.61 + contributions since Dec 31, 2025 of $56,100. Top donors: SEIU IL Council PAC Fund ($20,000), Chicago Latino Public Affairs Committee ($7,500), Latina Executive Golf Organization ($5,000), Local 134 IBEW ($5,000), Sieger Bayer ($4,500), Rooted & Ready PAC ($3,500). Progressive coalition: Mijente PAC, CTU PAC, Carlos Ramirez-Rosa, Friends of Omar Aquino, Committee to Elect Will Guzzardi.",
+    "fec_id": null,
+    "ilsbe_id": "40662",
+    "donors": [
+      {
+        "name": "SEIU IL Council PAC Fund",
+        "amount": 20000,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/40662/",
+        "confirmed": true
+      },
+      {
+        "name": "Chicago Latino Public Affairs Committee",
+        "amount": 7500,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/40662/",
+        "confirmed": true
+      },
+      {
+        "name": "Latina Executive Golf Organization",
+        "amount": 5000,
+        "category": "Corporate",
+        "source": "https://illinoissunshine.org/committees/40662/",
+        "confirmed": true
+      },
+      {
+        "name": "Local Union 134 International Brotherhood of Electrical Workers PAC",
+        "amount": 5000,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/40662/",
+        "confirmed": true
+      },
+      {
+        "name": "Sieger Bayer",
+        "amount": 4500,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40662/",
+        "confirmed": true
+      },
+      {
+        "name": "Rooted & Ready PAC",
+        "amount": 3500,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/40662/",
+        "confirmed": true
+      },
+      {
+        "name": "People for Anthony",
+        "amount": 3500,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/40662/",
+        "confirmed": true
+      },
+      {
+        "name": "Friends of Omar Aquino",
+        "amount": 3000,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/40662/",
+        "confirmed": true
+      },
+      {
+        "name": "Committee to Elect Will Guzzardi",
+        "amount": 3000,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/40662/",
+        "confirmed": true
+      },
+      {
+        "name": "Mijente PAC",
+        "amount": 3000,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/40662/",
+        "confirmed": true
+      },
+      {
+        "name": "Chicago Teachers Union PAC",
+        "amount": 2500,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/40662/",
+        "confirmed": true
+      },
+      {
+        "name": "Carlos Ramirez-Rosa",
+        "amount": 2500,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40662/",
+        "confirmed": true
+      },
+      {
+        "name": "United with Delia for Congress",
+        "amount": 2500,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/40662/",
+        "confirmed": true
+      },
+      {
+        "name": "AFSCME Illinois Council No. 31 PAC",
+        "amount": 2000,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/40662/",
+        "confirmed": true
+      },
+      {
+        "name": "Friends of Josina Morita",
+        "amount": 2000,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/40662/",
+        "confirmed": true
+      }
+    ]
   },
   "red_flags": [],
   "key_votes": [],
@@ -33,9 +142,10 @@
     "VoteVets",
     "A City That Works"
   ],
-  "data_status": "stub",
+  "data_status": "partial",
   "sources": [
-    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election"
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
+    "https://illinoissunshine.org/committees/40662/"
   ],
   "photo_url": null,
   "trust_indicators": [],

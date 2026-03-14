@@ -4,63 +4,79 @@
   "party": "Democratic",
   "office": "U.S. Senate (Illinois)",
   "race_id": "us-senate-il-d-2026",
-  "bio": "Raja Krishnamoorthi is a U.S. Representative from Illinois's 8th congressional district who filed for the 2026 Democratic U.S. Senate primary. He has served in Congress since 2017 and previously worked in state and federal policy roles. (Source: FEC S6IL00482; Shaw Local primary ballot guide, March 5, 2026)",
-  "prior_office": "U.S. Representative (IL-08, 2017–present)",
+  "bio": "Raja Krishnamoorthi was born in New Delhi, India and immigrated to the United States as a child, growing up in Normal and Peoria, Illinois. He earned an A.B. from Harvard University and a J.D. from Princeton University (Woodrow Wilson School and Princeton Law). He worked as an Associate at Sidley Austin LLP (2003–2005), served as Special Assistant Attorney General of Illinois (2005–2006), and was Deputy Treasurer of Illinois under then-Treasurer Alexi Giannoulias (2009–2010). An unsuccessful 2010 Democratic primary bid for Illinois Comptroller (losing by 1 percentage point) raised over $1M. He was elected to IL-08 in 2016 and has served since January 2017. He sits on the House Permanent Select Committee on Intelligence and co-chairs the House Select Committee on China. He was a lead sponsor of H.R. 7521, the TikTok ban (Protecting Americans from Foreign Adversary Controlled Applications Act). He entered the Senate race as the clear frontrunner in fundraising, raising $30.5M total as of Feb. 25, 2026 — including $19.3M transferred from his House fund — making him the nation's second-highest fundraising federal candidate in this cycle (behind only Georgia Sen. Jon Ossoff). He has faced sustained scrutiny over donors linked to MAGA figures, pro-Hindu nationalist groups, and the crypto industry. (Sources: Chicago Tribune, March 10, 2026; FEC S6IL00482; Wikipedia)",
+  "prior_office": "U.S. Representative (IL-08, 2017–present); Deputy Treasurer of Illinois (2009–2010); Special Assistant Attorney General of Illinois (2005–2006)",
   "website": "https://rajaforil.com",
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Raja_Krishnamoorthi_official_photo.jpg",
   "jacket": {
     "total_raised": 30481290,
     "data_date": "2026-03-13",
     "source": "https://www.fec.gov/data/candidate/S6IL00482/",
-    "note": "Approximately $30M raised as of March 2026 per The Intercept and Chicago Business reporting. Detailed donor breakdown pending FEC ETL.",
+    "note": "$30.5M raised between start of 2025 and Feb. 25, 2026 per Chicago Tribune (March 10, 2026). Includes $19.3M transferred from House campaign fund. Nation's 2nd-highest fundraising federal candidate this election cycle. Over $20M spent on TV and digital advertising per Sun-Times.",
     "donors": [
-      {
-        "name": "Attorneys / Law Firms",
-        "amount": 1000000,
-        "category": "individual",
-        "source": "https://www.opensecrets.org/members-of-congress/raja-krishnamoorthi/summary?cid=N00030676",
-        "confirmed": false,
-        "amount_note": "Estimated career-total sector figure from OpenSecrets — exact Senate cycle amount unconfirmed"
-      },
-      {
-        "name": "Fairshake (Crypto Industry PAC)",
-        "amount": null,
-        "category": "pac",
-        "source": "https://www.fec.gov/data/candidate/S6IL00482/",
-        "confirmed": true,
-        "amount_note": "⚠️ MISSING AMOUNT — donor presence confirmed but specific dollar amount not yet sourced; needs FEC lookup"
-      },
-      {
-        "name": "Pro-Israel / AIPAC-aligned donors",
-        "amount": 250000,
-        "category": "aipac",
-        "source": "https://www.opensecrets.org/members-of-congress/raja-krishnamoorthi/summary?cid=N00030676",
-        "confirmed": false,
-        "amount_note": "Estimated career-total sector figure from OpenSecrets — exact Senate cycle amount unconfirmed"
-      },
-      {
-        "name": "Shyam Sankar (Palantir CTO, ICE contractor)",
-        "amount": null,
-        "category": "individual",
-        "source": "https://chicago.suntimes.com/politics/2025/12/08/krishnamoorthi-maga-donors",
-        "confirmed": true,
-        "amount_note": "⚠️ MISSING AMOUNT — donor presence confirmed (Sun-Times reporting) but specific dollar amount not yet sourced; needs FEC lookup"
-      },
       {
         "name": "Friends of Raja for Congress (prior House committee — transfer)",
         "amount": 19285171,
-        "category": "individual",
+        "category": "transfer",
         "source": "https://api.open.fec.gov/v1/candidate/S6IL00482/totals/?cycle=2026",
         "confirmed": true,
-        "amount_note": "FEC confirmed transfer from his prior House committee into Senate committee — largest single funding source"
+        "amount_note": "FEC confirmed transfer from his prior House committee into Senate committee — single largest funding source"
       },
       {
-        "name": "Attorneys / Law Firms sector",
-        "amount": 1000000,
+        "name": "Shyam Sankar (CTO of Palantir — ICE contractor)",
+        "amount": null,
         "category": "individual",
-        "source": "https://www.chicagobusiness.com/politics/krishnamoorthi-has-19m-senate-bid-more-rivals-combined",
+        "source": "https://chicago.suntimes.com/the-watchdogs/2025/12/08/raja-krishnamoorthi-senate-campaign-donors-trump-allies-maga-money",
+        "confirmed": true,
+        "amount_note": "Donor presence confirmed by Chicago Sun-Times (Dec. 8, 2025). Sankar donated $260,000+ to Republican causes in 2025 per Sun-Times. Specific donation amount to Krishnamoorthi requires itemized FEC lookup."
+      },
+      {
+        "name": "Marc Andreessen (Andreessen Horowitz / a16z, Trump adviser)",
+        "amount": null,
+        "category": "individual",
+        "source": "https://americankahani.com/lead-stories/raja-krishnamoorthi-leads-tight-illinois-senate-primary-amid-fundraising-controversies-and-hindu-nationalist-ties/",
+        "confirmed": true,
+        "amount_note": "Donation presence confirmed per Chicago Sun-Times reporting. Andreessen gave $11M to MAGA Inc. (Trump PAC) per New York Times. Exact contribution to Krishnamoorthi requires itemized FEC lookup."
+      },
+      {
+        "name": "Michael Pillsbury (Heritage Foundation, Project 2025 contributor)",
+        "amount": null,
+        "category": "individual",
+        "source": "https://americankahani.com/lead-stories/raja-krishnamoorthi-leads-tight-illinois-senate-primary-amid-fundraising-controversies-and-hindu-nationalist-ties/",
+        "confirmed": true,
+        "amount_note": "Donor presence confirmed by Chicago Sun-Times reporting. Exact amount requires itemized FEC lookup."
+      },
+      {
+        "name": "Dr. Bharat Barai (Modi ally, Hindu nationalist event organizer)",
+        "amount": 35000,
+        "category": "individual",
+        "source": "https://www.chicagotribune.com/2026/03/10/raja-krishnamoorthi-fundraising-illinois-senate/",
+        "confirmed": true,
+        "amount_note": "Tribune confirmed ~$35,000 in contributions from Barai since 2016 election cycle. Barai organized 2nd World Hindu Congress (2018, Lombard IL) and arranged events with Indian PM Modi, including 2019 Houston rally where Krishnamoorthi appeared alongside Trump."
+      },
+      {
+        "name": "Fairshake (Crypto Industry Super PAC — outside independent expenditure)",
+        "amount": 5500000,
+        "category": "outside_pac",
+        "source": "https://capitolnewsillinois.com/news/outside-groups-spending-big-on-illinois-senate-race/",
+        "confirmed": true,
+        "amount_note": "Fairshake spent $5.5M+ in anti-Stratton ads (NOT direct campaign money — cannot legally coordinate). Funded primarily by Coinbase and a16z (Andreessen-Horowitz). AdImpact tracks Fairshake total at $8.2M. Krishnamoorthi is not Fairshake's direct recipient but benefits from anti-Stratton spending."
+      },
+      {
+        "name": "Pro-Israel / AIPAC-aligned donors (career total)",
+        "amount": 250000,
+        "category": "aipac",
+        "source": "https://www.opensecrets.org/members-of-congress/raja-krishnamoorthi/summary?cid=N00033240",
         "confirmed": false,
-        "amount_note": "Approximately $1M from attorneys as largest donor sector per Chicago Business/OpenSecrets analysis (2024 cycle); exact Senate-cycle amount unconfirmed"
+        "amount_note": "Career-total sector estimate from OpenSecrets; exact Senate-cycle AIPAC-network amount unconfirmed. AIPAC endorsed Krishnamoorthi in 2024 House race."
+      },
+      {
+        "name": "Corporate PACs — Big Tech and defense contractors (aggregate)",
+        "amount": 120000,
+        "category": "pac",
+        "source": "https://americankahani.com/lead-stories/raja-krishnamoorthi-leads-tight-illinois-senate-primary-amid-fundraising-controversies-and-hindu-nationalist-ties/",
+        "confirmed": true,
+        "amount_note": "$120,000+ in corporate PAC contributions from same companies funding Trump's White House ballroom construction — confirmed by Chicago Sun-Times reporting; includes Google, Amazon, Booz Allen Hamilton, Microsoft, T-Mobile, NextEra Energy, Union Pacific and Lockheed Martin."
       },
       {
         "name": "Lanny Darr (personal injury attorney, Alton IL)",
@@ -69,57 +85,49 @@
         "source": "https://www.thetelegraph.com/news/article/illinois-senate-race-fundraising-juliana-stratton-21335519.php",
         "confirmed": true,
         "amount_note": "Two donations of $3,500 each, confirmed via FEC data reported by The Telegraph"
-      },
-      {
-        "name": "Fairshake (Crypto Industry Super PAC)",
-        "amount": null,
-        "category": "pac",
-        "source": "https://www.fec.gov/data/candidate/S6IL00482/",
-        "confirmed": true,
-        "amount_note": "Fairshake PAC support confirmed; specific contribution amount requires itemized FEC lookup"
-      },
-      {
-        "name": "Pro-Israel / AIPAC-aligned donor network (career total)",
-        "amount": 250000,
-        "category": "aipac",
-        "source": "https://www.opensecrets.org/members-of-congress/raja-krishnamoorthi/summary?cid=N00033240",
-        "confirmed": false,
-        "amount_note": "Career-total sector estimate from OpenSecrets; exact Senate-cycle AIPAC-network amount unconfirmed"
       }
     ],
-    "donors_note": "Donors list is PARTIAL — only notable/flagged donors are itemized. total_raised ($30,000,000) reflects full FEC aggregate total (S6IL00482). Full donor breakdown pending ETL import. Two donors have null amounts (Fairshake, Shyam Sankar) — amounts must be sourced from FEC. Two donors (Attorneys/Law Firms, AIPAC-aligned) are unconfirmed sector estimates from OpenSecrets, not exact Senate-cycle figures.",
+    "donors_note": "Krishnamoorthi is the nation's 2nd-highest fundraising federal candidate in the 2026 cycle, having raised $30.5M. Donor composition is the central controversy of his campaign: $90,000+ from Trump/MAGA-aligned donors, $120,000+ from corporate PACs of Trump White House donors, $35,000 from a Modi-ally connected to Hindu nationalist groups, and sustained AIPAC-aligned donor support. He has also benefited from $5.5M+ in Fairshake (crypto PAC, a16z-funded) outside spending attacking Stratton. Krishnamoorthi contests the characterization, saying he has 90,000+ donors over a decade. (Sources: Chicago Tribune 3/10/2026, Chicago Sun-Times 12/8/2025, Capitol News Illinois 3/10/2026)",
     "fec_id": "S6IL00482"
   },
   "red_flags": [
     {
       "type": "aipac",
-      "label": "AIPAC Endorsement + Pro-Israel Donor Network",
-      "detail": "AIPAC endorsed Krishnamoorthi for his 2024 House reelection. He has received over $250K from pro-Israel lobby groups over his career. AIPAC-aligned donors are active in his Senate campaign.",
+      "label": "AIPAC Endorsement + Pro-Israel Donor Network ($250K+ career)",
+      "detail": "AIPAC endorsed Krishnamoorthi for his 2024 House reelection. He has received over $250K from pro-Israel lobby groups over his career per OpenSecrets. He voted yes on $26.4B in emergency military aid to Israel (H.R. 8034, April 2024) and yes on release of withheld weapons (H.R. 8369, May 2024). AIPAC is officially neutral in the IL Senate race but its donor network is active in his Senate campaign.",
       "source": "https://www.opensecrets.org/members-of-congress/raja-krishnamoorthi/summary?cid=N00030676",
       "confirmed": true
     },
     {
       "type": "dark-money",
-      "label": "Crypto Industry PAC Money (Fairshake)",
-      "detail": "Krishnamoorthi has accepted money from Fairshake, a crypto industry PAC that has spent heavily to influence congressional elections nationwide.",
-      "source": "https://www.fec.gov/data/candidate/S6IL00482/",
+      "label": "Crypto Industry PAC (Fairshake) — Funded by Trump Megadonors",
+      "detail": "Fairshake, a crypto industry PAC primarily funded by Coinbase and Andreessen Horowitz (a16z), has spent $5.5M+ attacking Stratton and $8.2M total per AdImpact. Ben Horowitz and Marc Andreessen, the firm's principals, gave $11M to MAGA Inc. (Trump PAC) per the New York Times. Fairshake also funds Protect Progress PAC, which spent $89,900 supporting Kelly. Krishnamoorthi has benefited substantially from this outside spending ecosystem without direct coordination.",
+      "source": "https://capitolnewsillinois.com/news/outside-groups-spending-big-on-illinois-senate-race/",
       "confirmed": true
     },
     {
       "type": "dark-money",
-      "label": "Donors with MAGA / Trump ties",
-      "detail": "The Chicago Sun-Times reported in December 2025 that Krishnamoorthi accepted donations from Trump-aligned donors and political figures, including Shyam Sankar, CTO of Palantir — a company with ICE contracts.",
-      "source": "https://chicago.suntimes.com/politics/2025/12/08/krishnamoorthi-maga-donors",
+      "label": "MAGA/Trump-Aligned Donor Network — $90K+ Confirmed",
+      "detail": "The Chicago Sun-Times reported December 8, 2025 that Krishnamoorthi accepted more than $90,000 from Trump/MAGA-aligned donors. Specifically named: Shyam Sankar, CTO of Palantir (ICE contractor, gave $260K+ to Republican causes in 2025); Marc Andreessen (Trump adviser who gave $11M to MAGA Inc.); Michael Pillsbury (Project 2025 contributor, Heritage Foundation). He also accepted $120K+ from corporate PACs of companies donating to Trump's White House ballroom construction.",
+      "source": "https://chicago.suntimes.com/the-watchdogs/2025/12/08/raja-krishnamoorthi-senate-campaign-donors-trump-allies-maga-money",
       "confirmed": true
+    },
+    {
+      "type": "foreign-influence",
+      "label": "Hindu Nationalist Donor Network — Tribune Investigation",
+      "detail": "The Chicago Tribune (March 10, 2026) identified contributors affiliated with Hindu nationalist organizations: the Hindu American Foundation, Vishwa Hindu Parishad of America, and Overseas Friends of BJP. A 2025 Rutgers Center for Security, Race, and Rights report describes such groups as belonging to 'a transnational far-right political ideology grounded in Hindu supremacy.' Key donor: Dr. Bharat Barai, who gave ~$35,000 since 2016, has organized Hindu nationalist events and helped arrange a 2019 Houston rally with PM Modi and Trump where Krishnamoorthi appeared. State Sen. Ram Villivalam refused to speak at a 2018 Hindu Congress event over nationalist ties. Krishnamoorthi has not returned these donations.",
+      "source": "https://www.chicagotribune.com/2026/03/10/raja-krishnamoorthi-fundraising-illinois-senate/",
+      "confirmed": true
+    },
+    {
+      "type": "workplace",
+      "label": "Former Staffers: Near-Singular Focus on Fundraising, Harsh Treatment of Employees",
+      "detail": "Chicago Tribune (March 10, 2026) interviewed nearly a dozen ex-campaign and congressional employees who spoke anonymously. They described: Krishnamoorthi's 'near-singular focus' on fundraising; alleged $10K daily fundraising goals; being 'harsh with employees.' One former staffer described a 2019 incident on the NJ Turnpike where Krishnamoorthi urged the driver to speed above 80 mph to make a third fundraiser, then invoked his Congressional status when stopped by state police. Krishnamoorthi told the Tribune he had no specific memory of the event but acknowledged 'speeding once or twice.' He denied harshly criticizing staffers.",
+      "source": "https://www.chicagotribune.com/2026/03/10/raja-krishnamoorthi-fundraising-illinois-senate/",
+      "confirmed": false
     }
   ],
   "key_votes": [
-    {
-      "bill": "Israel Security Assistance Support Act (2024)",
-      "vote": "yes",
-      "summary": "Voted to provide additional military aid to Israel.",
-      "source": "https://clerk.house.gov/Votes/2024"
-    },
     {
       "bill": "H.R. 8034 — Israel Security Supplemental Appropriations Act, 2024",
       "vote": "yes",
@@ -141,72 +149,108 @@
     {
       "bill": "H. Res. 1099 — Reaffirming Iran as largest state sponsor of terrorism, 2026",
       "vote": "no",
-      "summary": "Voted nay on this bipartisan resolution. One of only 53 members to vote no. Passed 372-53 on March 5, 2026.",
+      "summary": "Voted nay on this bipartisan resolution. One of only 53 members to vote no. Passed 372-53 on March 5, 2026. Seen as a more skeptical foreign policy posture ahead of Senate primary.",
       "source": "https://repcloakroom.house.gov/vote_sheet/vote-series-i-thursday-march-5th-2026/"
     },
     {
       "bill": "H.R. 2 — Laken Riley Act, 2026",
       "vote": "no",
-      "summary": "Voted nay on legislation requiring detention of undocumented immigrants arrested for certain crimes. Passed 341-79 on January 14, 2026. Kelly also voted no.",
+      "summary": "Voted nay on legislation requiring detention of undocumented immigrants arrested for certain crimes. Passed 341-79 on January 14, 2026.",
       "source": "https://clerk.house.gov/Votes/202614"
+    },
+    {
+      "bill": "H.R. 5376 — Inflation Reduction Act, 2022",
+      "vote": "yes",
+      "summary": "Voted yes on landmark climate/energy, healthcare and tax legislation. Passed 220-207.",
+      "source": "https://ballotpedia.org/Raja_Krishnamoorthi"
+    },
+    {
+      "bill": "H.R. 3684 — Infrastructure Investment and Jobs Act, 2021",
+      "vote": "yes",
+      "summary": "Voted yes on $1.2T bipartisan infrastructure bill. Passed 228-206. Signed Nov. 15, 2021.",
+      "source": "https://ballotpedia.org/Raja_Krishnamoorthi"
     }
   ],
-  "endorsements": [],
+  "endorsements": [
+    {
+      "org": "Indian American Impact Fund",
+      "significance": "Endorsed Krishnamoorthi May 7, 2025 — his home-base identity politics endorsement. The fund also spent $500K in outside PAC money supporting Kelly and $250K attacking Stratton — using the same donor pool as Krishnamoorthi's campaign. Critics call this a vote-splitting strategy. (Source: iaimpact.org, Chicago Sun-Times)"
+    },
+    {
+      "org": "Chicago Tribune Editorial Board",
+      "significance": "Tribune endorsed Krishnamoorthi in the Democratic primary (Feb. 22, 2026), citing his national security experience, China committee work, and fundraising strength. (Source: chicagotribune.com, Feb. 22, 2026)"
+    }
+  ],
   "career_history": [
     {
       "role": "U.S. Representative, IL-08",
       "org": "U.S. House of Representatives",
       "years": "2017–present",
-      "highlight": "House Permanent Select Committee on Intelligence; House Select Committee on China"
+      "highlight": "House Permanent Select Committee on Intelligence; co-chair, House Select Committee on China; lead sponsor of TikTok ban legislation (H.R. 7521)"
     },
     {
       "role": "Deputy Treasurer of Illinois",
-      "org": "Illinois State Treasurer's Office",
-      "years": "2009–2010"
+      "org": "Illinois State Treasurer's Office (Alexi Giannoulias)",
+      "years": "2009–2010",
+      "highlight": "State financial policy and operations"
     },
     {
       "role": "Special Assistant Attorney General",
       "org": "Illinois Attorney General's Office",
-      "years": "2005–2006"
+      "years": "2005–2006",
+      "highlight": "Legal work in state AG office"
     },
     {
       "role": "Associate",
       "org": "Sidley Austin LLP",
-      "years": "2003–2005"
+      "years": "2003–2005",
+      "highlight": "Chicago-based major law firm"
+    },
+    {
+      "role": "Candidate for Illinois Comptroller",
+      "org": "Illinois Democratic Primary",
+      "years": "2010",
+      "highlight": "Lost Democratic primary by 1 percentage point; raised over $1M — foreshadowing his fundraising dominance"
     }
   ],
   "policy_platform": [
     {
       "topic": "China Policy & National Security",
-      "position": "Led House Select Committee on the Chinese Communist Party; authored legislation on TikTok national security review; hawkish on economic competition with China.",
+      "position": "Led House Select Committee on the Chinese Communist Party; authored TikTok ban legislation (H.R. 7521, passed 2024). Hawkish on economic competition with China. Supports supply chain decoupling and semiconductor investment (CHIPS Act).",
       "source": "https://krishnamoorthi.house.gov"
     },
     {
-      "topic": "Technology Regulation",
-      "position": "Supports antitrust enforcement against Big Tech; focused on AI governance and data privacy legislation.",
+      "topic": "Technology Regulation / AI",
+      "position": "Supports antitrust enforcement against Big Tech; focused on AI governance and data privacy legislation. Has investigated TikTok, Meta, and other platforms through Intel/Oversight committee work.",
       "source": "https://krishnamoorthi.house.gov"
     },
     {
       "topic": "Gaza / Foreign Policy",
-      "position": "Voted for additional military aid to Israel (2024). Has called for humanitarian pauses but stopped short of arms embargo. Backed by AIPAC-aligned donors.",
+      "position": "Voted yes on $26.4B military aid to Israel (April 2024) and release of withheld weapons (May 2024). Has called for humanitarian pauses but stopped short of arms embargo. Voted no on Iran state sponsor resolution (March 2026), a notable shift.",
       "source": "https://clerk.house.gov/Votes/2024"
     },
     {
       "topic": "Economic Policy",
-      "position": "Centrist Democrat; supports manufacturing reshoring, semiconductor investment (CHIPS Act), and workforce development.",
-      "source": "https://krishnamoorthi.house.gov"
+      "position": "Centrist Democrat; supports manufacturing reshoring, free school lunches, increased SNAP/Medicare spending, and a tax credit for new homeowners. Framed as economic pain-point candidate for suburban and downstate voters.",
+      "source": "https://ballotpedia.org/Juliana_Stratton"
+    },
+    {
+      "topic": "Immigration",
+      "position": "Voted no on Laken Riley Act (2026). Criticized ICE enforcement overreach. Attacked by Stratton for accepting donations from Palantir's CTO (Shyam Sankar) — Palantir has ICE contracts.",
+      "source": "https://clerk.house.gov/Votes/202614"
     }
   ],
   "social_pulse": {
-    "summary": "Mixed-to-negative among progressive primary voters due to AIPAC ties and Gaza votes. Positive mainstream press for China committee work. High name recognition statewide.",
+    "summary": "Leads polls (Decision Desk HQ avg: 34%) but faces strong progressive skepticism over AIPAC ties, MAGA donor money, Hindu nationalist donor connections, and crypto PAC support. Chicago Tribune's March 10 investigation on fundraising culture landed significant earned media. High name recognition statewide, especially in suburban collar counties (his base). The race has been characterized as Krishnamoorthi being the moneyed establishment candidate unable to break above the mid-30s ceiling.",
     "sentiment": "mixed",
     "hashtags": [
       "#Raja2026",
       "#RajaForSenate",
       "#NoAIPACMoney",
-      "#Krishnamoorthi"
+      "#Krishnamoorthi",
+      "#ForSale"
     ],
-    "last_updated": "2026-03-13"
+    "last_updated": "2026-03-14"
   },
   "trust_indicators": [
     {
@@ -215,38 +259,59 @@
       "type": "positive"
     },
     {
-      "label": "Harvard AB / Princeton JD education",
+      "label": "Harvard AB / Princeton JD — top academic credentials",
       "value": true,
       "type": "neutral"
     },
     {
-      "label": "AIPAC endorsement + $250K+ from pro-Israel donors",
+      "label": "National security / China committee experience",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "No formal ethics violations on record",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "AIPAC endorsement + $250K+ from pro-Israel donor network (career)",
       "value": true,
       "type": "negative"
     },
     {
-      "label": "Accepted donations from Trump-aligned donors (Palantir CTO)",
+      "label": "$90K+ from Trump/MAGA-aligned donors (Palantir CTO, Project 2025 advisor, MAGA Inc. backer)",
       "value": true,
       "type": "negative"
     },
     {
-      "label": "Crypto PAC money (Fairshake)",
+      "label": "Crypto PAC (Fairshake, $5.5M+) funded by Trump megadonors Andreessen/Horowitz",
       "value": true,
       "type": "negative"
     },
     {
-      "label": "No personal ethics violations on record",
+      "label": "$35K+ from donors linked to Hindu nationalist organizations (Tribune investigation)",
+      "value": true,
+      "type": "negative"
+    },
+    {
+      "label": "Former staffers: fundraising-obsessed culture, harsh treatment — anonymous (unconfirmed)",
+      "value": false,
+      "type": "negative"
+    },
+    {
+      "label": "Chicago Tribune Editorial Board endorsed for Senate primary",
       "value": true,
       "type": "positive"
     }
   ],
   "transparency_score": {
-    "grade": "B",
+    "grade": "B-",
     "computed": true,
-    "financial_transparency": "B",
+    "financial_transparency": "C+",
     "platform_completeness": "A",
     "record_available": true,
-    "red_flags_count": 3,
+    "red_flags_count": 5,
+    "notes": "Highest fundraiser in race but donor composition is the core controversy. MAGA-aligned donors, AIPAC network, Hindu nationalist connections, and crypto PAC ecosystem all confirmed by Tribune and Sun-Times reporting. No formal ethics violations filed. Transparency score penalized for opacity around specific donation amounts and donor connections.",
     "computed_at": "2026-03-14"
   }
 }

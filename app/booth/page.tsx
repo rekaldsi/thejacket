@@ -98,10 +98,17 @@ export default function BoothPage() {
   const allJudges = getAllJudges();
   const races = getRaces();
 
-  // Build a map: race_id → scored candidates (sorted best first)
+  // Build a map: race_id → scored active candidates (sorted best first)
+  // Withdrawn candidates are excluded from scoring/ranking but tracked separately
   const byRace: Record<string, ReturnType<typeof scoreCandidate>[]> = {};
+  const withdrawnByRace: Record<string, string[]> = {};
   for (const c of allCandidates) {
     if (!c.race_id) continue;
+    if (c.status === "withdrawn") {
+      if (!withdrawnByRace[c.race_id]) withdrawnByRace[c.race_id] = [];
+      withdrawnByRace[c.race_id].push(c.name);
+      continue;
+    }
     if (!byRace[c.race_id]) byRace[c.race_id] = [];
     byRace[c.race_id].push(scoreCandidate(c));
   }
@@ -214,13 +221,17 @@ export default function BoothPage() {
                         <p className="mt-0.5 text-xs text-zinc-400">{why}</p>
 
                         {/* Runner-up note if contested */}
-                        {entries.length > 1 && (
+                        {(entries.length > 1 || (withdrawnByRace[id] ?? []).length > 0) && (
                           <p className="mt-1 font-mono text-[10px] text-zinc-600">
-                            vs.{" "}
-                            {entries
-                              .slice(1)
-                              .map((e) => e.candidate.name)
-                              .join(", ")}
+                            {entries.length > 1 && (
+                              <>vs. {entries.slice(1).map((e) => e.candidate.name).join(", ")}</>
+                            )}
+                            {(withdrawnByRace[id] ?? []).length > 0 && (
+                              <span className="ml-1 text-zinc-700">
+                                {entries.length > 1 ? " · " : ""}
+                                {(withdrawnByRace[id] ?? []).map((n) => `${n} [withdrawn]`).join(", ")}
+                              </span>
+                            )}
                           </p>
                         )}
                       </div>

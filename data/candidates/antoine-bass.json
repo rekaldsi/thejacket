@@ -9,11 +9,14 @@
   "prior_office": "No elected office confirmed",
   "website": null,
   "jacket": {
-    "total_raised": null,
-    "donors": [],
-    "source": "Illinois State Board of Elections (not retrieved)",
-    "note": "Campaign finance not retrieved",
-    "data_date": "2026-03-13"
+    "total_raised": 20,
+    "cash_on_hand": 20,
+    "data_date": "2026-03-14",
+    "source": "https://illinoissunshine.org/committees/40604/",
+    "note": "ILSBE committee #40604. Top-25 donors scraped via Firecrawl 2026-03-14.",
+    "fec_id": null,
+    "ilsbe_id": "40604",
+    "donors": []
   },
   "red_flags": [],
   "key_votes": [],
@@ -26,9 +29,10 @@
       "highlight": ""
     }
   ],
-  "data_status": "stub",
+  "data_status": "partial",
   "sources": [
-    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election"
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
+    "https://illinoissunshine.org/committees/40604/"
   ],
   "photo_url": null,
   "endorsements": [],

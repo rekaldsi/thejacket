@@ -1,21 +1,39 @@
 {
   "id": "alice-hu",
   "name": "Alice Hu",
-  "party": "Democratic",
+  "party": "Republican",
   "office": "Cook County Commissioner District 12",
   "race_id": "cook-county-commissioner-dist-12",
   "incumbent": false,
-  "bio": "Alice Hu is a small business owner who previously ran for District 12 in 2022. She is running again in the open-seat 2026 primary.",
+  "bio": "Xiaoli 'Alice' Hu is a small business owner who previously ran for District 12 in 2022. She is running again in the 2026 open-seat race, but is listed in the Republican column by Illinois Sunshine. Her previous 2022 campaign committee is now 'Final' (closed) status with zero funds.",
   "prior_office": "Small business owner. Candidate for Cook County Commissioner District 12 (2022).",
   "website": "https://www.votealicehu.com/",
   "jacket": {
-    "total_raised": null,
-    "donors": [],
-    "source": "Illinois State Board of Elections (not retrieved)",
-    "note": "Campaign finance not retrieved",
-    "data_date": "2026-03-13"
+    "total_raised": 0,
+    "cash_on_hand": 0,
+    "data_date": "2026-03-14",
+    "source": "https://illinoissunshine.org/committees/38764/",
+    "note": "ILSBE committee #38764. Top-25 donors scraped via Firecrawl 2026-03-14.",
+    "fec_id": null,
+    "ilsbe_id": "38764",
+    "donors": []
   },
-  "red_flags": [],
+  "red_flags": [
+    {
+      "type": "funding",
+      "label": "No campaign funds reported",
+      "detail": "Hu has raised $0 in 2026. Her 2022 campaign committee is closed with no balance. She appears in Republican column on Illinois Sunshine, not Democratic primary.",
+      "source": "https://illinoissunshine.org/county-races/2026/",
+      "confirmed": true
+    },
+    {
+      "type": "status",
+      "label": "Likely inactive candidate",
+      "detail": "2022 committee status is 'Final' (closed). No new 2026 committee filing found. Illinois Sunshine shows $0.00 raised.",
+      "source": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?id=38764",
+      "confirmed": true
+    }
+  ],
   "key_votes": [],
   "policy_platform": [],
   "career_history": [
@@ -32,12 +50,15 @@
       "highlight": ""
     }
   ],
-  "data_status": "stub",
+  "endorsements": [],
+  "data_status": "limited",
   "sources": [
-    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election"
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
+    "https://illinoissunshine.org/committees/38764/",
+    "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?id=38764",
+    "https://illinoissunshine.org/county-races/2026/"
   ],
   "photo_url": null,
-  "endorsements": [],
   "trust_indicators": [],
   "social_pulse": null,
   "transparency_score": {
@@ -46,7 +67,7 @@
     "financial_transparency": "F",
     "platform_completeness": "F",
     "record_available": false,
-    "red_flags_count": 0,
+    "red_flags_count": 2,
     "computed_at": "2026-03-14"
   }
 }

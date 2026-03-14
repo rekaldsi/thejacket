@@ -4,27 +4,58 @@
   "party": "Republican",
   "office": "U.S. House (IL-04)",
   "race_id": "il-04-us-house-open-2026",
-  "data_status": "partial",
-  "data_note": "Limited public information available. Check your county clerk's office or the Illinois State Board of Elections for filing info.",
-  "bio": "Lupe Castillo is a community activist from Little Village (40 years) and perennial Republican candidate in the heavily Democratic IL-04 district. She is the sole Republican candidate in the IL-04 primary. She has run twice against Chuy Garcia (2022: 28.1%, 2024: 27.3%). Born in San Antonio; Spanish is her first language; associate degree from Washburne Community Trade School. Trump-aligned platform. (Source: Ballotpedia 2024 survey; ILSOS filing confirmed)",
-  "prior_office": "Candidate for IL-04 (2022, 2024); Candidate for IL House District 23 (withdrew 2024)",
+  "data_status": "enriched",
+  "bio": "Lupe Castillo is a community activist and perennial Republican candidate in the heavily Democratic IL-04 congressional district. A 40-year resident of Little Village (South Lawndale), she was born in San Antonio, TX, where Spanish is her first language. She holds an associate degree from Washburne Community Trade School. She ran against Chuy Garcia in 2022 (28.1%) and 2024 (27.3%), and is again the sole Republican candidate in the 2026 IL-04 primary. She is active in the 10th CPD District Advisory Council, the Little Village Community Council, and the Southwest Side GOP. She aligns with the Trump MAGA platform and focuses on immigration enforcement, public safety, and economic issues. FEC committee C00883066 (LUPE CASTILLO FOR CONGRESS) was registered July 10, 2024 but has no 2025–2026 filings on record per FEC.",
+  "prior_office": "Candidate for IL-04 (2022, 2024); Candidate for IL House District 23 (withdrew 2024).",
   "website": "https://lupe4congress.com",
   "jacket": {
     "total_raised": null,
-    "data_date": "2026-03-13",
-    "source": "https://www.fec.gov/data/elections/house/IL/04/",
-    "note": "FEC candidate totals pending ETL import.",
-    "donors": []
+    "fec_committee_id": "C00883066",
+    "donors": [
+      {
+        "name": "No 2025-2026 FEC filings found",
+        "amount": null,
+        "category": "unknown",
+        "label": "FEC committee C00883066 registered 2024 but FEC reports no 2025-2026 filing data as of March 2026.",
+        "source": "https://www.fec.gov/data/committee/C00883066/",
+        "confirmed": false,
+        "counts_toward_total_raised": false
+      }
+    ],
+    "source": "https://www.fec.gov/data/committee/C00883066/",
+    "note": "FEC committee C00883066 (LUPE CASTILLO FOR CONGRESS) registered July 10, 2024. FEC shows no 2025-2026 totals as of March 14, 2026. Candidate appears to be running a minimal or unfunded campaign.",
+    "data_date": "2026-03-14"
   },
-  "red_flags": [],
+  "red_flags": [
+    {
+      "type": "financial",
+      "label": "No FEC filings for 2025-2026 cycle",
+      "detail": "FEC committee C00883066 was registered in July 2024 but FEC API shows zero results for 2025-2026 cycle totals. If candidate raised funds, required disclosure filings may be missing.",
+      "source": "https://www.fec.gov/data/committee/C00883066/",
+      "confirmed": true
+    },
+    {
+      "type": "electoral",
+      "label": "Running in D+17 district — longshot candidate",
+      "detail": "IL-04 is among the most Democratic districts in Illinois. Castillo received 28.1% in 2022 and 27.3% in 2024 against Chuy Garcia. Serves as the token Republican opposition in an unwinnable district.",
+      "source": "https://ballotpedia.org/Lupe_Castillo",
+      "confirmed": true
+    }
+  ],
   "key_votes": [],
   "endorsements": [],
   "career_history": [
     {
       "role": "Community Activist / CAPS Member",
       "org": "10th CPD District Advisory Committee; Little Village Community Council; Southwest Side GOP",
-      "years": "n/a",
-      "highlight": "40 years in Little Village; born in San Antonio TX; perennial candidate in D+17 district"
+      "years": "ongoing",
+      "highlight": "40 years in Little Village; born in San Antonio TX; Spanish is first language; community-based civic engagement."
+    },
+    {
+      "role": "Republican Candidate, IL-04",
+      "org": "Federal Election Commission",
+      "years": "2022, 2024, 2026",
+      "highlight": "Ran against Chuy Garcia in 2022 (28.1%) and 2024 (27.3%). Uncontested Republican primary 2026."
     }
   ],
   "policy_platform": [
@@ -50,24 +81,36 @@
     }
   ],
   "social_pulse": {
-    "summary": "Limited social media presence found in available sources as of March 2026.",
+    "summary": "Limited social media presence. Minimal coverage in major Chicago outlets. Low-profile campaign consistent with prior cycles.",
     "sentiment": "low-profile",
-    "last_updated": "2026-03-13"
+    "hashtags": [],
+    "last_updated": "2026-03-14"
   },
   "trust_indicators": [
     {
-      "label": "Disclosure filings status",
-      "value": "Not confirmed in public sources as of March 2026",
+      "label": "FEC committee registered",
+      "value": "C00883066 — registered July 10, 2024",
+      "type": "neutral"
+    },
+    {
+      "label": "No 2025-2026 FEC disclosures found",
+      "value": "Zero filings per FEC API as of March 14, 2026",
+      "type": "negative"
+    },
+    {
+      "label": "Perennial candidate — consistent presence in district",
+      "value": "Three consecutive cycles 2022, 2024, 2026",
       "type": "neutral"
     }
   ],
   "transparency_score": {
-    "grade": "C",
+    "grade": "D",
     "computed": true,
     "financial_transparency": "F",
-    "platform_completeness": "A",
+    "platform_completeness": "B",
     "record_available": false,
-    "red_flags_count": 0,
+    "red_flags_count": 2,
+    "note": "No FEC filings found for 2025-2026 cycle. Minimal public footprint. Platform sourced from Ballotpedia survey only.",
     "computed_at": "2026-03-14"
   },
   "uncontested": true

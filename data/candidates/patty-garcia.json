@@ -4,17 +4,31 @@
   "party": "Democratic",
   "office": "U.S. House (IL-04)",
   "race_id": "il-04-us-house-open-2026",
-  "data_status": "partial",
-  "data_note": "Limited public information available. Check your county clerk's office or the Illinois State Board of Elections for filing info.",
-  "bio": "Patty Garcia holds a PhD from the University of Illinois Urbana-Champaign and served as Chief of Staff to Congressman Jesus 'Chuy' Garcia (IL-04). She is the Democratic nominee in the IL-04 primary — running uncontested — and is considered the institutional heir to Chuy Garcia's progressive legacy in the heavily Latino southwest Chicago district. (Source: Ballotpedia; ILSOS filing confirmed; Citizens Action Illinois endorsement)",
+  "data_status": "full",
+  "data_note": "Full FEC data retrieved. Patty Garcia is the uncontested Democratic primary nominee in IL-04 (March 17 primary).",
+  "bio": "Patty Garcia holds a PhD from the University of Illinois Urbana-Champaign and served as Chief of Staff to Congressman Jesus 'Chuy' Garcia (IL-04). She is the Democratic nominee in the IL-04 primary — running uncontested — and is considered the institutional heir to Chuy Garcia's progressive legacy in the heavily Latino southwest Chicago district. Daughter of Mexican immigrants. Strong support from labor unions and progressive organizations.",
   "prior_office": "Chief of Staff to Rep. Jesus 'Chuy' Garcia (IL-04)",
   "website": "https://pattyforillinois.com",
   "jacket": {
-    "total_raised": null,
-    "data_date": "2026-03-13",
-    "source": "https://www.fec.gov/data/elections/house/IL/04/",
-    "note": "FEC candidate totals pending ETL import.",
-    "donors": []
+    "total_raised": 192292.82,
+    "cash_on_hand": 162086.28,
+    "data_date": "2026-02-25",
+    "source": "https://api.open.fec.gov/v1/committee/C00925495/totals/",
+    "note": "FEC data as of 2/25/2026 filing. Top donors are labor union PACs ($5K each): Transformative Change PAC ($5K x2), SMART-TD, LIUNA, Healthcare Service Corp PAC, Carpenters Legislative Committee, Brotherhood of Railroad Signalmen, ATU-COPE, Air Line Pilots PAC. Strong labor backing.",
+    "fec_id": "H6IL04153",
+    "ilsbe_id": null,
+    "donors": [
+      {"name": "Transformative Change PAC", "amount": 5000, "category": "pac", "source": "https://api.open.fec.gov/v1/schedules/schedule_a/", "confirmed": true},
+      {"name": "Transformative Change PAC", "amount": 5000, "category": "pac", "source": "https://api.open.fec.gov/v1/schedules/schedule_a/", "confirmed": true},
+      {"name": "SMART-TD (Sheet Metal, Air, Rail and Transportation Workers)", "amount": 5000, "category": "labor-pac", "source": "https://api.open.fec.gov/v1/schedules/schedule_a/", "confirmed": true},
+      {"name": "Machinists Non-Partisan Political League (IAM)", "amount": 5000, "category": "labor-pac", "source": "https://api.open.fec.gov/v1/schedules/schedule_a/", "confirmed": true},
+      {"name": "Laborers' International Union of North America (LIUNA) PAC", "amount": 5000, "category": "labor-pac", "source": "https://api.open.fec.gov/v1/schedules/schedule_a/", "confirmed": true},
+      {"name": "Health Care Service Corporation Employees' PAC", "amount": 5000, "category": "labor-pac", "source": "https://api.open.fec.gov/v1/schedules/schedule_a/", "confirmed": true},
+      {"name": "Carpenters Legislative Improvement Committee (United Brotherhood of Carpenters)", "amount": 5000, "category": "labor-pac", "source": "https://api.open.fec.gov/v1/schedules/schedule_a/", "confirmed": true},
+      {"name": "Brotherhood of Railroad Signalmen", "amount": 5000, "category": "labor-pac", "source": "https://api.open.fec.gov/v1/schedules/schedule_a/", "confirmed": true},
+      {"name": "Amalgamated Transit Union - COPE", "amount": 5000, "category": "labor-pac", "source": "https://api.open.fec.gov/v1/schedules/schedule_a/", "confirmed": true},
+      {"name": "Air Line Pilots Association PAC", "amount": 5000, "category": "labor-pac", "source": "https://api.open.fec.gov/v1/schedules/schedule_a/", "confirmed": true}
+    ]
   },
   "red_flags": [],
   "key_votes": [],
@@ -71,25 +85,37 @@
     }
   ],
   "social_pulse": {
-    "summary": "Limited social media presence found in available sources as of March 2026.",
-    "sentiment": "low-profile",
-    "last_updated": "2026-03-13"
+    "summary": "Progressive labor-backed candidate with strong institutional support.",
+    "sentiment": "progressive",
+    "last_updated": "2026-03-14"
   },
   "trust_indicators": [
     {
-      "label": "Disclosure filings status",
-      "value": "Not confirmed in public sources as of March 2026",
-      "type": "neutral"
+      "label": "FEC Filing Status",
+      "value": "Current — filed 2/25/2026",
+      "type": "positive"
+    },
+    {
+      "label": "Primary Candidacy",
+      "value": "Uncontested Democratic primary nominee",
+      "type": "positive"
     }
   ],
   "transparency_score": {
-    "grade": "C",
+    "grade": "A",
     "computed": true,
-    "financial_transparency": "F",
+    "financial_transparency": "A",
     "platform_completeness": "A",
-    "record_available": false,
+    "record_available": true,
     "red_flags_count": 0,
     "computed_at": "2026-03-14"
   },
+  "sources": [
+    "https://ballotpedia.org/Patty_Garcia",
+    "https://ballotpedia.org/Illinois%27_4th_Congressional_District_election,_2026",
+    "https://api.open.fec.gov/v1/candidate/H6IL04153/",
+    "https://api.open.fec.gov/v1/committee/C00925495/"
+  ],
+  "photo_url": null,
   "uncontested": true
 }

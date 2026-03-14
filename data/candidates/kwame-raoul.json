@@ -4,42 +4,352 @@
   "party": "Democratic",
   "office": "Illinois Attorney General",
   "race_id": "il-attorney-general-d-2026",
-  "bio": "Kwame Raoul is the incumbent Illinois Attorney General, first elected in 2018 and running for a third term. He is a former state senator who succeeded Barack Obama in his South Side Chicago district in 2004. As AG, Raoul has led multistate litigation against the Trump administration on immigration, environmental rollbacks, and consumer protections. He is unopposed in the Democratic primary and will face Republican Robert Fioretti in November.",
-  "prior_office": "Illinois State Senator (2004–2018); Illinois Attorney General (2019–present)",
-  "website": null,
+  "bio": "Kwame Raoul (born September 30, 1964 in Chicago) is the 42nd Attorney General of Illinois, serving since January 14, 2019. The son of Haitian immigrant parents, he grew up in the Hyde Park/Kenwood neighborhood on Chicago's South Side, earning a B.A. in political science from DePaul University (1987) and a J.D. from Chicago-Kent College of Law at Illinois Institute of Technology (1993). He served 14 years in the Illinois State Senate (2004\u20132019), representing the 13th district after being appointed to fill Barack Obama's vacated seat. As AG, Raoul has led multistate coalitions against the Trump administration, secured approximately $1.4 billion in Illinois opioid settlement funds, won a $120 million settlement from Monsanto over PCB contamination, and defended Illinois' assault weapons ban in federal court. He is running for a third term in 2026 against Republican challenger Robert Fioretti.",
+  "prior_office": "Illinois State Senator, 13th District (2004\u20132019)",
+  "website": "https://kwameraoul.com",
   "photo_url": null,
   "jacket": {
     "total_raised": null,
-    "pac_support_total": null,
+    "pac_support_total": 262774,
     "data_date": "2026-03-14",
-    "source": "https://patch.com/illinois/across-il/il-2026-primary-election-guide-whos-running-what-you-need-know",
-    "note": "Unopposed in Democratic primary. Succeeded Barack Obama's state senate seat. Active anti-Trump litigation record as AG.",
-    "donors": [],
-    "fec_id": null
+    "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
+    "note": "ILSBE Dec 31, 2025 quarterly report: $1,514,238.33 funds available + $201,084 contributions since Dec 31, 2025 = $1,715,322.33 cash on hand. $0 debts. Top donors are Illinois labor unions (Laborers, SEIU, Teachers) and Democratic Party organizations. JB for Governor ($3.96M lifetime) is top all-time donor. Chicago Land Operators PAC gave $444,800; Michael Sacks (Grosvenor Capital founder) $406,900 personal. DAGA Super PAC provides additional $262,774 in independent support.",
+    "donors": [
+      {
+        "name": "JB for Governor",
+        "amount": 3958508.93,
+        "category": "candidate-committee",
+        "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
+        "confirmed": true
+      },
+      {
+        "name": "Democratic Party of Illinois",
+        "amount": 1947813.04,
+        "category": "party",
+        "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
+        "confirmed": true
+      },
+      {
+        "name": "Friends of Michael J Madigan",
+        "amount": 1000000.0,
+        "category": "candidate-committee",
+        "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
+        "confirmed": true
+      },
+      {
+        "name": "Chicago Land Operators Joint Labor-Management PAC",
+        "amount": 444800.0,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
+        "confirmed": true
+      },
+      {
+        "name": "Michael Sacks",
+        "amount": 406900.0,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
+        "confirmed": true
+      },
+      {
+        "name": "LiUNA Chicago Laborers' District Council PAC",
+        "amount": 397700.0,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
+        "confirmed": true
+      },
+      {
+        "name": "Illinois Federation of Teachers COPE",
+        "amount": 395578.0,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
+        "confirmed": true
+      },
+      {
+        "name": "Illinois Political Action Committee for Education (IPACE)",
+        "amount": 387750.0,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
+        "confirmed": true
+      },
+      {
+        "name": "Laborers' Political League",
+        "amount": 340300.0,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
+        "confirmed": true
+      },
+      {
+        "name": "Illinois Laborers' Legislative Committee",
+        "amount": 295200.0,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
+        "confirmed": true
+      },
+      {
+        "name": "SEIU Illinois Council PAC Fund",
+        "amount": 285200.0,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
+        "confirmed": true
+      },
+      {
+        "name": "Illinois Pipe Trades PAC",
+        "amount": 257700.0,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
+        "confirmed": true
+      },
+      {
+        "name": "UFCW Local 881 PAC",
+        "amount": 238250.0,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
+        "confirmed": true
+      },
+      {
+        "name": "Construction and General Laborers (Chicago District Council)",
+        "amount": 203800.0,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
+        "confirmed": true
+      },
+      {
+        "name": "Illinois Trial Lawyers Association PAC",
+        "amount": 197000.0,
+        "category": "industry-pac",
+        "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
+        "confirmed": true
+      },
+      {
+        "name": "SEIU Healthcare IL/IN",
+        "amount": 194700.0,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
+        "confirmed": true
+      },
+      {
+        "name": "Laborers' Political League Great Lakes Region",
+        "amount": 188400.0,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
+        "confirmed": true
+      },
+      {
+        "name": "Carpentry Advancement PAC",
+        "amount": 169800.0,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
+        "confirmed": true
+      },
+      {
+        "name": "Personal PAC",
+        "amount": 166817.78,
+        "category": "advocacy-pac",
+        "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
+        "confirmed": true
+      },
+      {
+        "name": "Stephen Schuler",
+        "amount": 150000.0,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
+        "confirmed": true
+      },
+      {
+        "name": "Illinois Federation of Teachers",
+        "amount": 143350.4,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
+        "confirmed": true
+      },
+      {
+        "name": "Friends of Don Harmon",
+        "amount": 137500.0,
+        "category": "candidate-committee",
+        "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
+        "confirmed": true
+      },
+      {
+        "name": "AFSCME Council 31",
+        "amount": 132000.0,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
+        "confirmed": true
+      },
+      {
+        "name": "Pipe Fitters Association Local Union 597",
+        "amount": 115400.0,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
+        "confirmed": true
+      },
+      {
+        "name": "IUOE Local 399 Political Education Fund",
+        "amount": 114400.0,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
+        "confirmed": true
+      }
+    ],
+    "fec_id": null,
+    "ilsbe_id": "18261",
+    "cash_on_hand": 1715322.33
   },
-  "red_flags": [],
-  "key_votes": [
+  "red_flags": [
     {
-      "bill": "Multistate Immigration Enforcement Lawsuit (2025)",
-      "vote": "led",
-      "summary": "Led coalition of state AGs suing the Trump administration over immigration enforcement actions affecting Illinois residents.",
-      "source": "https://patch.com/illinois/across-il/il-2026-primary-election-guide-whos-running-what-you-need-know"
+      "type": "resource_strain",
+      "label": "Trump lawsuits stretching AG office budget",
+      "detail": "By February 2025, Raoul acknowledged joining at least four multistate Trump lawsuits within three weeks of the second inauguration, openly telling Capitol News Illinois the volume 'is stretching the resources of his office' and that he wanted to add attorneys but declined to request emergency legislative funding citing the state's $3B+ deficit. Critics note this signals a potential capacity gap in non-federal enforcement work.",
+      "source": "https://capitolnewsillinois.com/news/lawsuits-with-trump-administration-stretching-illinois-attorney-generals-resources/",
+      "confirmed": true
     },
     {
-      "bill": "Opioid Manufacturer Settlements",
-      "vote": "secured",
-      "summary": "Negotiated opioid settlement funds for Illinois from pharmaceutical manufacturers and distributors.",
-      "source": "https://ballotpedia.org/Kwame_Raoul"
+      "type": "political_entanglement",
+      "label": "Blagojevich Senate seat consideration",
+      "detail": "Raoul was among candidates Gov. Rod Blagojevich considered for Barack Obama's vacated U.S. Senate seat in 2008. Raoul withdrew his name, citing concern about entering a quid pro quo with the governor. Blagojevich was later convicted of attempting to sell the appointment. No wrongdoing by Raoul was alleged or found.",
+      "source": "https://en.wikipedia.org/wiki/Kwame_Raoul",
+      "confirmed": false
+    },
+    {
+      "type": "policy_controversy",
+      "label": "SAFE-T Act defense amid public safety criticism",
+      "detail": "Raoul publicly defended the SAFE-T Act (which eliminated cash bail in Illinois), which generated significant backlash from law enforcement groups and state's attorneys who argued it endangered public safety. Raoul's office filed legal defenses of the law while critics noted it complicated relationships with local prosecutors his office relies on for enforcement cooperation.",
+      "source": "https://grokipedia.com/page/Kwame_Raoul",
+      "confirmed": true
+    },
+    {
+      "type": "enforcement_gap",
+      "label": "Gun manufacturer license revocation \u2014 singular action vs. systemic pattern",
+      "detail": "Raoul's campaign highlights suing to revoke the license of a single 'rogue gun manufacturer' (unnamed in public releases) as his main enforcement action against gun makers. Critics and gun-control advocates note this is a narrow action relative to the scale of illegal gun trafficking in Chicago, and that no major manufacturer has faced state enforcement action.",
+      "source": "https://kwameraoul.com/ontheissues/",
+      "confirmed": false
+    },
+    {
+      "type": "transparency",
+      "label": "AG office slow to pursue FOIA compliance enforcement",
+      "detail": "FnAround.com, a FOIA transparency watchdog, documented in July 2025 that Raoul's AG office uses an online-only FOIA portal that obstructs access, with no original email correspondence available. The AG's office is the designated FOIA enforcement agency in Illinois, creating a conflict-of-interest dynamic when his own office is accused of FOIA obstruction.",
+      "source": "https://www.fnaround.com/activefoia/illinois-ag-kwame-raoul",
+      "confirmed": false
+    }
+  ],
+  "key_votes": [
+    {
+      "bill": "SB 2535 \u2014 Illinois Death Penalty Abolition Act (2011)",
+      "vote": "Chief Senate Sponsor",
+      "summary": "Raoul was the primary Senate sponsor of legislation abolishing the death penalty in Illinois. Gov. Pat Quinn signed it March 9, 2011. Illinois became the 16th state to abolish capital punishment. Raoul cited wrongful conviction rates: 'Only Florida has had more people sent to death row for crimes they did not commit.'",
+      "source": "https://www.injusticewatch.org/archive/2021/illinois-death-penalty-abolition/"
+    },
+    {
+      "bill": "Illinois Voting Rights Act (redistricting era, mid-2000s)",
+      "vote": "Chief Senate Sponsor",
+      "summary": "As Chairman of the Senate Redistricting Committee, Raoul introduced and passed legislation creating the Illinois Voting Rights Act to protect racial and language minorities in the legislative redistricting process.",
+      "source": "https://www.congress.gov/116/meeting/house/109282/witnesses/HHRG-116-AP07-Bio-RaoulK-20190409.pdf"
+    },
+    {
+      "bill": "Private firearm transfer background check legislation",
+      "vote": "Sponsor/Champion",
+      "summary": "As state senator, Raoul championed and passed legislation requiring background checks for private firearm transfers in Illinois \u2014 one of the first such state-level universal background check laws.",
+      "source": "https://www.congress.gov/116/meeting/house/109282/witnesses/HHRG-116-AP07-Bio-RaoulK-20190409.pdf"
+    },
+    {
+      "bill": "Torture Inquiry and Relief Commission Act",
+      "vote": "Champion/Sponsor",
+      "summary": "Raoul championed legislation creating the Illinois Torture Inquiry and Relief Commission to investigate allegations of torture-induced confessions by Chicago Police, particularly those linked to former Cmdr. Jon Burge's interrogations.",
+      "source": "https://en.wikipedia.org/wiki/Kwame_Raoul"
+    },
+    {
+      "bill": "Early Voting Expansion",
+      "vote": "Sponsor",
+      "summary": "In his first year in the legislature (2005), Raoul passed legislation expanding access to early voting in Illinois.",
+      "source": "https://en.wikipedia.org/wiki/Kwame_Raoul"
     }
   ],
   "endorsements": [
-    "Illinois Democratic Party"
+    "Chicago Teachers Union (CTU) \u2014 endorsed for 2018 AG race; not on CTU's 2026 primary slate (CTU endorsed no AG candidate in 2026)",
+    "Cook County Democratic Party \u2014 endorsed for prior cycles",
+    "DAGA (Democratic Attorneys General Association) \u2014 People's Lawyer Project Illinois Super PAC active in support ($262,774)"
   ],
   "policy_positions": [
-    "Consumer protection enforcement",
-    "Environmental law enforcement",
-    "Resist federal overreach and Trump administration actions harming Illinois residents",
-    "Criminal justice reform"
+    "Defending Illinois assault weapons ban (Protect Illinois Communities Act) in federal court against Second Amendment challenges",
+    "Leading multistate coalition as NAAG Co-Chair against Trump administration executive orders \u2014 includes birthright citizenship ban (preliminary injunction won), NIH research grant cuts, federal spending freeze, DOGE data access",
+    "Expanding Firearms Industry Responsibility Act (holding gun industry accountable under consumer protection law, signed 2024)",
+    "Protecting reproductive rights post-Dobbs \u2014 defending Illinois Patient and Provider Protection Act, refusing out-of-state subpoenas for patient records",
+    "Worker Protection Unit prosecuting wage theft, misclassification, and workplace discrimination statewide",
+    "Defending SAFE-T Act (cashless bail) constitutionality in court"
+  ],
+  "career_history": [
+    {
+      "role": "Attorney General",
+      "org": "State of Illinois",
+      "years": "2019\u2013present",
+      "highlight": "Led multistate opioid litigation securing ~$1.4B for Illinois; $120M Monsanto PCB settlement (Dec 2025); $391M Google location-tracking settlement; defended Illinois assault weapons ban; co-chairs NAAG coordination against Trump administration (2025\u20132026)"
+    },
+    {
+      "role": "State Senator, 13th District",
+      "org": "Illinois General Assembly",
+      "years": "2004\u20132019",
+      "highlight": "Appointed Nov. 6, 2004 to fill Barack Obama's vacated seat by Democratic party committeemen. Chaired Senate Judiciary Committee and Redistricting Committee. Sponsored death penalty abolition (2011), Illinois Voting Rights Act, universal background checks for firearm transfers, early voting expansion, Torture Inquiry Commission"
+    },
+    {
+      "role": "Partner",
+      "org": "Quarles & Brady LLP",
+      "years": "2000s",
+      "highlight": "Employment and labor litigation practice"
+    },
+    {
+      "role": "Counsel",
+      "org": "City Colleges of Chicago",
+      "years": "~2000",
+      "highlight": "Negotiated settlement of three-week faculty strike; taught labor law courses"
+    },
+    {
+      "role": "Assistant State's Attorney",
+      "org": "Cook County State's Attorney's Office, Criminal Appeals Division",
+      "years": "1993\u20131995",
+      "highlight": "Managed appellate criminal litigation under State's Attorney Jack O'Malley"
+    }
+  ],
+  "trust_indicators": [
+    {
+      "label": "Opioid settlement total for Illinois",
+      "value": "Approximately $1.4 billion secured from pharmaceutical manufacturers including Cardinal Health, McKesson, AmerisourceBergen, Johnson & Johnson, Purdue Pharma/Sacklers, and eight additional manufacturers ($720M national deal with Illinois share $23M+)",
+      "type": "positive"
+    },
+    {
+      "label": "Monsanto PCB settlement",
+      "value": "$120 million (December 2025) \u2014 sued in 2022, resolved after decades of PCB contamination at Sauget, IL plant affecting Chicago and suburbs",
+      "type": "positive"
+    },
+    {
+      "label": "Google location tracking settlement",
+      "value": "$391 million national settlement (2022) for deceptive location tracking practices",
+      "type": "positive"
+    },
+    {
+      "label": "Leader Automotive settlement",
+      "value": "$20 million proposed settlement with Leader Automotive Group (with FTC) for consumer fraud in vehicle sales (announced Dec 2024)",
+      "type": "positive"
+    },
+    {
+      "label": "Birthright citizenship \u2014 injunction won",
+      "value": "Led multistate lawsuit; federal court issued nationwide preliminary injunction blocking Trump executive order redefining birthright citizenship before it took effect (Jan 2025)",
+      "type": "positive"
+    },
+    {
+      "label": "AG office resource strain",
+      "value": "Admitted publicly that volume of Trump-era multistate lawsuits is stretching AG office resources; declined to request emergency legislative appropriation",
+      "type": "negative"
+    },
+    {
+      "label": "Unopposed in 2022 Democratic primary",
+      "value": "Won 2022 general with 55.5% vs. Republican Thomas DeVore",
+      "type": "positive"
+    },
+    {
+      "label": "Death penalty abolition sponsor",
+      "value": "Chief Senate sponsor of 2011 law abolishing Illinois death penalty \u2014 signed by Gov. Quinn",
+      "type": "positive"
+    }
   ],
   "transparency_grade": null
 }

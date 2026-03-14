@@ -5,121 +5,196 @@
   "office": "MWRD Commissioner",
   "race_id": "mwrd-6yr-2026",
   "incumbent": true,
-  "bio": "Precious Brady-Davis is a transgender activist and environmental advocate appointed to the MWRD board on July 5, 2023 by Gov. J.B. Pritzker to fill the vacancy left by Kimberly du Buclet. She won a special general election in November 2024, defeating Republican R. Cary Capparelli 69.3% to 30.7%. She is seeking her first full 6-year elected term in 2026.",
-  "prior_office": "MWRD Commissioner (appointed 2023, special election 2024–present). Former communications professional and LGBTQ+ rights advocate. Author of 'I Have Always Been Me' (2018 memoir).",
+  "bio": "Precious Brady-Davis is a transgender activist, author, and environmental advocate serving as MWRD Commissioner. She was appointed to the board on July 5, 2023 by Gov. J.B. Pritzker to fill the vacancy left by Kimberly du Buclet — making her the first openly transgender elected official in Illinois. She won an uncontested special Democratic primary on March 19, 2024 (425,160 votes), then defeated Republican R. Cary Capparelli 69.3% to 30.7% (1,284,203 to 567,911 votes) in the November 2024 general election. She is seeking her first full 6-year elected term in 2026. She is the author of 'I Have Always Been Me' (2018 memoir). Her environmental justice platform centers South and West Side communities, green infrastructure, climate resilience, and ending MWRD land leases to polluters.",
+  "prior_office": "MWRD Commissioner (appointed July 5, 2023 by Gov. Pritzker; special election Nov. 2024–present). Former communications professional and LGBTQ+ rights advocate. Author of 'I Have Always Been Me' (2018 memoir).",
   "website": "https://www.preciousformwrd.com",
   "jacket": {
-    "total_raised": 67757,
-    "donors": [],
+    "total_raised": 69756,
+    "cash_on_hand": 69756,
+    "funds_available": 42756,
+    "contributions_since_q4_2025": 27000,
+    "debts_and_obligations": 9600,
+    "ilsbe_committee_id": "37015",
+    "donors": [
+      {
+        "name": "Itemized donors — top 25 require JS-rendered page",
+        "amount": null,
+        "category": "individual/org",
+        "label": "ILSBE committee 37015 — top donor list requires browser rendering; total confirmed via quarterly report",
+        "source": "https://www.illinoissunshine.org/committees/37015/",
+        "confirmed": true,
+        "counts_toward_total_raised": true
+      }
+    ],
     "source": "https://www.illinoissunshine.org/committees/37015/",
-    "note": "Campaign finance data not pulled; check ISBE or OpenSecrets for current cycle filings",
-    "data_date": "2026-03-13"
+    "note": "Dec 31, 2025 quarterly report: $42,756.80 funds available; $27,000 contributions since Q4 2025; $9,600 debts. Cash on hand ~$69,756. Individual donor names require browser rendering of ILSBE JS interface.",
+    "data_date": "2026-03-14"
   },
-  "red_flags": [],
+  "red_flags": [
+    {
+      "type": "policy",
+      "label": "No donor itemization available",
+      "detail": "ILSBE top-25 donor list for committee 37015 is rendered dynamically and could not be scraped. Individual donor names unconfirmed.",
+      "source": "https://www.illinoissunshine.org/committees/37015/",
+      "confirmed": false
+    },
+    {
+      "type": "electoral",
+      "label": "Lost 2022 MWRD primary before being appointed",
+      "detail": "Brady-Davis placed 5th in the June 2022 Democratic primary with 10.9% (126,672 votes), losing to incumbents. She was subsequently appointed by Gov. Pritzker in 2023 after Kimberly du Buclet's vacancy — a path to office via gubernatorial appointment rather than direct voter mandate.",
+      "source": "https://ballotpedia.org/Precious_Brady-Davis",
+      "confirmed": true
+    }
+  ],
   "key_votes": [
     {
-      "bill": "Voted to advance the Ostara nutrient recovery program (phosphorus removal from wastewater)",
+      "bill": "MWRD Ostara Nutrient Recovery Program",
       "vote": "yes",
-      "summary": "Voted to advance the Ostara nutrient recovery program (phosphorus removal from wastewater)",
+      "summary": "Voted to advance the Ostara nutrient recovery program — phosphorus removal from wastewater to protect waterways.",
       "source": "https://www.preciousbd.com"
     },
     {
-      "bill": "Supported drug take-back partnership with Cook County Sheriff",
+      "bill": "MWRD Drug Take-Back Partnership",
       "vote": "yes",
-      "summary": "Supported drug take-back partnership with Cook County Sheriff",
+      "summary": "Supported drug take-back partnership with Cook County Sheriff to reduce pharmaceutical pollution in water systems.",
       "source": "https://www.preciousbd.com"
     },
     {
-      "bill": "Supported expanding green infrastructure playground investments",
+      "bill": "MWRD Green Infrastructure Playground Investments",
       "vote": "yes",
-      "summary": "Supported expanding green infrastructure playground investments",
+      "summary": "Supported expanding green infrastructure in playgrounds — permeable surfaces reducing stormwater overflow.",
       "source": "https://www.preciousbd.com"
+    },
+    {
+      "bill": "MWRD Land Lease Policy — Polluter Tenants",
+      "vote": "advocate",
+      "summary": "Publicly advocates for evicting MWRD land tenants that pollute waterways. 'Evict toxic tenants: We must stop leasing MWRD land to polluters who endanger our waterways, wildlife, and public health.'",
+      "source": "https://ballotpedia.org/Precious_Brady-Davis"
+    },
+    {
+      "bill": "McCook Reservoir Completion Advocacy",
+      "vote": "advocate",
+      "summary": "Advocates to complete Stage II of the Deep Tunnel (McCook Reservoir) by 2029 to dramatically increase flood retention capacity.",
+      "source": "https://ballotpedia.org/Precious_Brady-Davis"
     }
   ],
   "policy_platform": [
     {
-      "topic": "Platform",
-      "position": "Expand green infrastructure: rain gardens, permeable pavement, restored wetlands",
+      "topic": "Environmental Justice",
+      "position": "Direct MWRD resources to South and West Sides — neighborhoods hit hardest by flooding but receiving least financial help. Evict toxic tenants from MWRD-owned land.",
+      "source": "https://ballotpedia.org/Precious_Brady-Davis"
+    },
+    {
+      "topic": "Green Infrastructure",
+      "position": "Build permeable playgrounds and green spaces to prevent flooding; create job training and mentorships in the trades alongside green infrastructure work.",
+      "source": "https://ballotpedia.org/Precious_Brady-Davis"
+    },
+    {
+      "topic": "Climate Change",
+      "position": "Cut MWRD greenhouse gas emissions by 50%; install new primary treatment systems to convert methane to usable energy; advocate for wind energy to power aeration at MWRD facilities.",
+      "source": "https://ballotpedia.org/Precious_Brady-Davis"
+    },
+    {
+      "topic": "Stormwater / Flooding",
+      "position": "Transform rain barrels into public art; complete McCook Reservoir (Deep Tunnel Stage II) by 2029.",
+      "source": "https://ballotpedia.org/Precious_Brady-Davis"
+    },
+    {
+      "topic": "Water Quality",
+      "position": "Strengthen water quality monitoring; remove invasive species; end MWRD facilitation of methane production.",
       "source": "https://www.preciousbd.com"
     },
     {
-      "topic": "Platform",
-      "position": "Modernize aging sewer infrastructure",
-      "source": "https://www.preciousbd.com"
-    },
-    {
-      "topic": "Platform",
-      "position": "Strengthen water quality monitoring and removal of invasive species",
-      "source": "https://www.preciousbd.com"
-    },
-    {
-      "topic": "Platform",
-      "position": "Increase public transparency and communications outreach",
-      "source": "https://www.preciousbd.com"
-    },
-    {
-      "topic": "Platform",
-      "position": "Climate resilience as central priority",
-      "source": "https://www.preciousbd.com"
-    },
-    {
-      "topic": "Platform",
-      "position": "Environmental justice focus — centering underserved communities",
-      "source": "https://www.preciousbd.com"
+      "topic": "Public Access",
+      "position": "Expand wetland parks, preserves, and bike trails along Calumet River and other waterways for public nature access.",
+      "source": "https://ballotpedia.org/Precious_Brady-Davis"
     }
   ],
   "career_history": [
     {
-      "role": "MWRD Commissioner, appointed 2023 by Gov. Pritzker",
-      "org": "",
-      "years": "",
-      "highlight": ""
+      "role": "MWRD Commissioner",
+      "org": "Metropolitan Water Reclamation District of Greater Chicago",
+      "years": "2023–present",
+      "highlight": "Appointed July 5, 2023 by Gov. J.B. Pritzker; won 2024 special general election 69.3% to 30.7%; first openly transgender elected official in Illinois."
     },
     {
-      "role": "MWRD Commissioner, special election win Nov. 2024",
-      "org": "",
-      "years": "",
-      "highlight": ""
+      "role": "Communications Professional / LGBTQ+ Rights Advocate",
+      "org": "Various Chicago-area organizations",
+      "years": "pre-2023",
+      "highlight": "15+ years advancing public health and LGBTQ+ rights advocacy in Chicago."
     },
     {
-      "role": "Author, 'I Have Always Been Me' (memoir, 2018)",
-      "org": "",
-      "years": "",
-      "highlight": ""
-    },
-    {
-      "role": "Communications and advocacy work",
-      "org": "",
-      "years": "",
-      "highlight": ""
-    },
-    {
-      "role": "Prominent LGBTQ+ and transgender rights advocate",
-      "org": "",
-      "years": "",
-      "highlight": ""
+      "role": "Author",
+      "org": "Self",
+      "years": "2018",
+      "highlight": "Published 'I Have Always Been Me' — memoir about gender identity and transgender experience."
     }
   ],
   "endorsements": [
-    "Cook County Democratic Party",
-    "SEIU Illinois State Council",
-    "Citizens Action Illinois"
+    "Cook County Democratic Party (source: https://www.cookcountydems.com/2026-march-sample-ballot/)",
+    "Chicago Federation of Labor (source: https://chicagolabor.org/wp-content/uploads/Updated-P2026_PrimaryEndorsementList_updated-v6.pdf)",
+    "Service Employees International Union (SEIU) Illinois State Council",
+    "Citizens Action Illinois (source: https://citizenaction-il.org/endorsements)",
+    "Personal PAC (source: https://personalpac.org/elections/)",
+    "The Chicago Crusader (source: https://chicagocrusader.com/chicago-crusader-endorsements-for-march-illinois-primary/)",
+    "39th Ward Dems",
+    "A City That Works (source: https://citythatworks.substack.com/p/a-city-that-works-guide-to-the-2026)"
   ],
-  "data_status": "partial",
+  "data_status": "enriched",
   "sources": [
-    "https://news.wttw.com/elections/voters-guide/2026-primary/precious-brady-davis",
-    "https://ballotpedia.org/Precious_Brady-Davis"
+    "https://ballotpedia.org/Precious_Brady-Davis",
+    "https://www.illinoissunshine.org/committees/37015/",
+    "https://mwrd.org/board-commissioners/precious-brady-davis",
+    "https://news.wttw.com/elections/voters-guide/2026-primary/precious-brady-davis"
   ],
   "photo_url": null,
-  "trust_indicators": [],
-  "social_pulse": null,
+  "trust_indicators": [
+    {
+      "label": "ILSBE committee registered and reporting",
+      "value": "Committee 37015 — Dec 31, 2025 quarterly report on file",
+      "type": "positive"
+    },
+    {
+      "label": "Won county-wide special election 2024",
+      "value": "69.3% — 1,284,203 votes",
+      "type": "positive"
+    },
+    {
+      "label": "First openly transgender elected official in Illinois",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "No ethics violations on record",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "Appointed path to office (not directly elected initially)",
+      "value": "Appointed 2023 by Gov. Pritzker before winning special election",
+      "type": "neutral"
+    }
+  ],
+  "social_pulse": {
+    "summary": "High-profile national figure due to transgender identity milestone. Strong positive sentiment among progressive, LGBTQ+, and environmental justice communities. Broad media coverage since 2023 appointment.",
+    "sentiment": "positive",
+    "hashtags": [
+      "#PreciousBradyDavis",
+      "#MWRD",
+      "#TransRights",
+      "#EnvironmentalJustice",
+      "#CookCounty"
+    ],
+    "last_updated": "2026-03-14"
+  },
   "transparency_score": {
-    "grade": "B",
+    "grade": "B+",
     "computed": true,
-    "financial_transparency": "F",
+    "financial_transparency": "C",
     "platform_completeness": "A",
     "record_available": true,
-    "red_flags_count": 0,
+    "red_flags_count": 1,
+    "note": "Finance total confirmed via ILSBE; individual donors require browser rendering. One minor structural red flag (appointment path). Strong policy record.",
     "computed_at": "2026-03-14"
   }
 }

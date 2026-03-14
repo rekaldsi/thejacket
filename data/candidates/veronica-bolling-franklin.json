@@ -10,10 +10,13 @@
   "website": "https://www.veronicafranklinforcommissioner.org/",
   "jacket": {
     "total_raised": null,
-    "donors": [],
-    "source": "Illinois State Board of Elections (not retrieved)",
-    "note": "Campaign finance not retrieved",
-    "data_date": "2026-03-13"
+    "cash_on_hand": null,
+    "data_date": "2026-03-14",
+    "source": "https://illinoissunshine.org/search/?term=Veronica+Bolling",
+    "note": "No campaign committee found on Illinois Sunshine. Searched 'Veronica Bolling', 'Veronica Franklin Cook County' — no matching candidate committee. May not have filed campaign finance committee, or committee filed under a different name variation.",
+    "fec_id": null,
+    "ilsbe_id": null,
+    "donors": []
   },
   "red_flags": [],
   "key_votes": [],

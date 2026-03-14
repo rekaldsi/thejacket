@@ -4,38 +4,184 @@
   "party": "Republican",
   "office": "Governor of Illinois",
   "race_id": "il-governor-r-2026",
-  "bio": "James Mendrick is the former DuPage County Sheriff — a position he stepped down from to run for governor. He is a 30-year DuPage County resident, attended Downers Grove South High School, and earned a bachelor's degree from Lewis University. He and his wife Cyndi have two sons. Mendrick is the only candidate in the Republican field with direct law enforcement executive experience. He frames the race around who has actually managed a large public safety agency — not just talked about crime. He earned 50+ endorsements during his tenure as Sheriff.",
-  "prior_office": "DuPage County Sheriff",
+  "bio": "James Mendrick, a Woodridge resident who grew up in DuPage County and attended Downers Grove South High School, is a 30-year veteran of the DuPage County Sheriff's Office. He was first elected DuPage County Sheriff in 2018 (an open-seat race) and re-elected in 2022; he took office in December 2018. He serves as chief executive of an $80 million annual government budget and supervises more than 800 employees. Mendrick was the first major-party candidate to announce for the 2026 Illinois governor's race, doing so in February 2025. He is foregoing a third term as sheriff to run for governor. His running mate is Dr. Robert J. Renteria, an author, Army veteran, and community activist announced March 2025.",
+  "prior_office": "DuPage County Sheriff (December 2018 – present, two terms)",
   "website": "https://mendrick4governor2026.com",
   "photo_url": null,
   "jacket": {
     "total_raised": null,
     "pac_support_total": null,
     "data_date": "2026-03-14",
-    "source": "https://capitolnewsillinois.com/news/dupage-county-sheriff-james-mendrick-focuses-on-public-safety-in-gop-governors-race/",
-    "note": "Strongest law enforcement credibility in Republican field. Gave up the sheriff seat to run — all-in. DuPage County base could give him strength in collar counties.",
+    "source": "https://www.chicagotribune.com/2026/01/16/illinois-gop-gov-candidate-rick-heidner-spent-nearly-250000-to-get-his-name-on-the-primary-ballot/",
+    "note": "Per Chicago Tribune Q4 2025 campaign finance report: Mendrick had $61,000 at start of October 2025, raised ~$34,000, spent ~$62,000 in the quarter, ending with $33,169 cash on hand. Of Q4 spending, $25,000 was campaign salaries including $600 to running mate Robert Renteria. Mendrick For Governor committee registered with IL SBOE (Woodridge, IL). By far the lowest-funded of the four main GOP gubernatorial candidates. An Emerson College poll from January 2026 showed 5% support among Republican primary voters (46% undecided).",
     "donors": [],
     "fec_id": null
   },
   "red_flags": [
     {
-      "type": "profile",
-      "label": "Narrower Statewide Profile",
-      "detail": "Mendrick's profile is primarily built around public safety. He has less developed policy positions on taxes, pensions, and economic issues compared to Bailey and Dabrowski. His DuPage County base may not translate well downstate.",
-      "source": "https://capitolnewsillinois.com/news/dupage-county-sheriff-james-mendrick-focuses-on-public-safety-in-gop-governors-race/",
+      "type": "legal_liability",
+      "label": "$11 Million Jail Death Settlement — Reneyda Aguilar-Hurtado (2025)",
+      "detail": "DuPage County and Sheriff Mendrick reached an $11 million settlement in March 2025 (approved by a judge) with the estate of Reneyda Aguilar-Hurtado, a 50-year-old mother with schizophrenia who died June 12, 2023 after being held in the DuPage County Jail for 85 days awaiting transfer to a state mental health facility. A county pathologist determined her death was due in part to 'medical neglect.' The lawsuit, filed by her daughter Cristal Moreno Aguilar, named Mendrick and 11 jail medical staff or corrections officers. The complaint cited 'widespread practice and policy of deliberate indifference' to critically ill inmates. Mendrick declined to comment. The $11M payout was more than triple the combined cost of seven prior settled lawsuits against the sheriff's office over three years.",
+      "source": "https://www.chicagotribune.com/2025/03/10/dupage-jail-death-settlement/",
+      "confirmed": true
+    },
+    {
+      "type": "constitutional_sheriff",
+      "label": "Refused to Enforce Illinois Assault Weapons Ban (January 2023)",
+      "detail": "In January 2023 Mendrick signed a letter with more than 90 Illinois sheriffs stating he would not enforce the state's newly enacted high-powered semiautomatic weapons ban, citing Second Amendment concerns. U.S. Rep. Bill Foster (D-IL) called on Mendrick to 'rescind his statement immediately.' Mendrick acknowledged in 2026 campaign debates that he does not know 'what, ultimately, my legal authority is' but maintained the position. The stance aligns with the fringe 'constitutional sheriffs' movement — which Mendrick says he does not consider himself a member of.",
+      "source": "https://www.chicagotribune.com/2023/03/19/illinois-sheriffs-opposition-to-enforcing-weapons-ban-signals-rightward-movement-about-constitutional-authority/",
+      "confirmed": true
+    },
+    {
+      "type": "rhetoric",
+      "label": "Echoed 'Great Replacement' Conspiracy Rhetoric on Campaign Trail",
+      "detail": "Chicago Tribune reporting from March 2026 documented Mendrick repeatedly using replacement language on the campaign trail: 'We are being replaced' (post-debate comment); 'Think about this, folks, we're being washed out' (East Dundee gun shop, Jan. 19, 2026); and 'Our culture is being eliminated by senseless laws' (February 2025 announcement). When questioned, Mendrick said his comments had 'nothing to do with whites. This has a thing to do with citizens and non-citizens.' The Tribune characterized this as echoing the debunked white nationalist 'Great Replacement' conspiracy theory.",
+      "source": "https://www.chicagotribune.com/2026/03/08/illinois-2026-gop-primary-for-governor-features-four-candidates-and-one-familiar-face-but-big-donors-sit-out/",
       "confirmed": false
+    },
+    {
+      "type": "rhetoric",
+      "label": "Threatened to Use State Police to Jail Gov. Pritzker on Tax Allegations",
+      "detail": "At a February 2026 dinner for the Illinois Freedom Caucus, Mendrick said: 'I'll be in charge of the state police, and they're all going to jail,' alleging without evidence that Pritzker illegally diverted fuel tax and local government revenue. No independent investigation has substantiated the diversion allegations.",
+      "source": "https://www.chicagotribune.com/2026/03/08/illinois-2026-gop-primary-for-governor-features-four-candidates-and-one-familiar-face-but-big-donors-sit-out/",
+      "confirmed": false
+    },
+    {
+      "type": "pattern_of_deaths",
+      "label": "13 Detainee Deaths in DuPage County Jail (January 2014–September 2024)",
+      "detail": "A Chicago Tribune review of state-required reports and county coroner records identified 13 DuPage County Jail detainee deaths between January 2014 and September 2024. Five of those individuals appear to have been on medical watch at the time of their deaths. Multiple additional detainees filed lawsuits over inadequate medical care. The lawsuit in the Aguilar-Hurtado case cited roughly a dozen other examples of detainees harmed. Most incidents predated Mendrick's tenure (which began December 2018), but at least the 2020 death of Lance Thomas and the 2023 death of Aguilar-Hurtado occurred under his watch.",
+      "source": "https://www.chicagotribune.com/2025/03/10/dupage-jail-death-settlement/",
+      "confirmed": true
+    },
+    {
+      "type": "profile_limitation",
+      "label": "Severe Campaign Finance Disadvantage; 5% Primary Polling",
+      "detail": "Mendrick ended Q4 2025 with only $33,169 cash on hand — the lowest of the four main GOP gubernatorial candidates — compared to Heidner's $1.16M and Dabrowski's $1.25M. An Emerson College poll in January 2026 showed 5% support among Republican primary voters (46% undecided). His campaign explicitly relies on social media and grassroots outreach, stating he gets 1.8 million Facebook viewers per 28 days across 8 platforms.",
+      "source": "https://www.chicagotribune.com/2026/01/16/illinois-gop-gov-candidate-rick-heidner-spent-nearly-250000-to-get-his-name-on-the-primary-ballot/",
+      "confirmed": true
     }
   ],
-  "key_votes": [],
+  "key_votes": [
+    {
+      "bill": "Illinois Assault Weapons Ban — PICA (Protect Illinois Communities Act, signed Jan. 2023)",
+      "vote": "Refused to enforce — co-signed letter with 90+ Illinois sheriffs",
+      "summary": "In January 2023, Mendrick joined more than 90 Illinois sheriffs in publicly stating he would not enforce the Protect Illinois Communities Act's ban on semiautomatic assault-style weapons and high-capacity magazines, citing Second Amendment concerns. This drew sharp rebukes from Democratic elected officials, including U.S. Rep. Bill Foster, who demanded he rescind his statement.",
+      "source": "https://www.chicagotribune.com/2023/03/19/illinois-sheriffs-opposition-to-enforcing-weapons-ban-signals-rightward-movement-about-constitutional-authority/"
+    },
+    {
+      "bill": "DuPage County — Taser adoption for sheriff's deputies",
+      "vote": "Pushed county board to approve — succeeded",
+      "summary": "Mendrick pressed the DuPage County Board to authorize Tasers for his deputies despite initial resistance. He told the board: 'I just want everyone to know they're going on record today, saying that you want the cops just to be able to shoot people with bullets.' The board ultimately approved the Taser program.",
+      "source": "https://www.stlpr.org/podcast/politically-speaking/2026-02-17/public-safety-key-chicago-area-sheriff-mendricks-gop-governor"
+    },
+    {
+      "bill": "DuPage County Jail — Medicated Assisted Treatment (MAT) for opioid addiction",
+      "vote": "Implemented via partnership with DuPage County Health Department",
+      "summary": "Since taking office in December 2018, Mendrick partnered with the DuPage County Health Department to institute Medicated Assisted Treatment (MAT) for inmates fighting opioid addiction and promoted the Deterra drug deactivation pouch system. He states 80% of bookings involve individuals who are high on fentanyl, heroin, or alcohol; the jail requires full drug detoxification. A community college partnership allows inmates to earn GED credits.",
+      "source": "https://mendrick4governor2026.com/about-james-mendrick/"
+    },
+    {
+      "bill": "TRUST Act — Illinois Sanctuary Law; ICE cooperation ban",
+      "vote": "Opposes — campaign promise to repeal via executive order",
+      "summary": "Mendrick has pledged to issue an executive order on day one repealing the TRUST Act, stating: 'I could solve the problem in a day. One executive order. We are violating federal law.' He argues that giving ICE access to county jails would end street raids immediately. He has cited the $2 billion in claimed lost federal grants as a consequence of the sanctuary policy.",
+      "source": "https://capitolnewsillinois.com/news/dupage-county-sheriff-james-mendrick-focuses-on-public-safety-in-gop-governors-race/"
+    },
+    {
+      "bill": "SAFE-T Act — Pretrial Fairness/Cash Bail Elimination (2021 IL law)",
+      "vote": "Supports amendment, not full repeal; would expand detention thresholds",
+      "summary": "Unlike Bailey and Dabrowski who call for full repeal, Mendrick takes a pragmatic position: 'I would love to abolish it as well, though, but I'm a pragmatist.' He supports expanding detention eligibility to all individuals charged with felonies or recurring misdemeanors and supports the abolition of cash bail specifically ('I don't think a rich guy should be able to buy their way out of jail and a poor person has to stay').",
+      "source": "https://www.stlpr.org/podcast/politically-speaking/2026-02-17/public-safety-key-chicago-area-sheriff-mendricks-gop-governor"
+    },
+    {
+      "bill": "DuPage County Jail — $11M Settlement (Aguilar-Hurtado estate, 2025)",
+      "vote": "County and Mendrick reached settlement; defendants denied wrongdoing",
+      "summary": "DuPage County and Mendrick agreed to an $11 million payout to the family of Reneyda Aguilar-Hurtado, who died in the county jail in June 2023 after 85 days without transfer to a state mental health facility. A judge approved the settlement in early 2025. Mendrick declined to comment. The settlement is the largest in the sheriff's office's recent history.",
+      "source": "https://www.chicagotribune.com/2025/03/10/dupage-jail-death-settlement/"
+    }
+  ],
   "endorsements": [
-    "50+ endorsements as DuPage County Sheriff (per campaign)"
+    "Over 50 endorsements during DuPage County Sheriff races (specific endorsers not publicly listed on campaign site)",
+    "Dr. Robert J. Renteria — selected as running mate (Lt. Governor); author, Army veteran, community activist"
   ],
   "policy_positions": [
-    "Public safety as top priority — rollback SAFE-T Act provisions",
-    "Restore cash bail and judge authority to detain dangerous offenders",
-    "Stand with law enforcement",
-    "Lower property taxes and address cost-of-living driving population flight",
-    "Family values and community-first governance"
+    "Public safety and crime: Repeal TRUST Act via executive order on day one; expand SAFE-T Act detention thresholds to include all felony and repeat misdemeanor defendants; increase ICE jail access to end street immigration raids",
+    "SAFE-T Act: Pragmatic amendment position — would not seek full repeal but expand felony detention; uniquely among GOP field, supports keeping cashless bail for its fairness",
+    "Constitutional sheriffs / assault weapons ban: Refuses to enforce state's 2023 assault weapons ban, citing Second Amendment; says he doesn't know 'ultimately' what his legal authority is",
+    "Property taxes / fiscal: Criticizes Pritzker's reductions in local government income tax share and diversion of road fund revenue; would audit state budget; no specific tax cap proposal",
+    "Education: Opposes current public school curriculum on sexuality topics; supports school choice and voucher-like policies ('That's what makes college so competitive'); wants focus on 'reading, writing, arithmetic'",
+    "Bears stadium: Supports state assistance to keep Bears in Illinois — 'any way we can keep that team, we should. It goes back to job creation'",
+    "Energy: Opposes Climate and Equitable Jobs Act (CEJA, 2021); supports expanded coal production with carbon scrubber technology; says solar and wind 'haven't lived up to their promise'",
+    "Recidivism: Would bring DuPage County jail's drug detoxification, GED, and job training model statewide; cites steep drop in county recidivism rate",
+    "Accountability: Would 'audit wasteful government spending'; vague on specific cuts",
+    "TRUST Act: 'We are violating federal law. That's why we've lost $2 billion in federal grants.' (Capitol News IL, 2026) — would repeal the law and fully cooperate with ICE"
+  ],
+  "career_history": [
+    {
+      "role": "Patrol Officer → Detective → Auditor → Sheriff",
+      "org": "DuPage County Sheriff's Office",
+      "years": "~1988–present (~30 years)",
+      "highlight": "Worked up from patrol to detective (investigated financial crimes), then served as office auditor managing the budget for 12+ years before running for sheriff. Has managed office budget for 12 years as of 2026."
+    },
+    {
+      "role": "DuPage County Sheriff (Term 1)",
+      "org": "DuPage County Government",
+      "years": "December 2018 – November 2022",
+      "highlight": "Won open-seat election in 2018; implemented MAT opioid treatment in jail; instituted Taser program for deputies over county board resistance; oversaw $80M annual budget; 800+ employees."
+    },
+    {
+      "role": "DuPage County Sheriff (Term 2)",
+      "org": "DuPage County Government",
+      "years": "December 2022 – present",
+      "highlight": "Re-elected in 2022; refused to enforce 2023 state assault weapons ban (PICA); office reached $11M settlement in Aguilar-Hurtado jail death case (2025); announced governor campaign February 2025."
+    },
+    {
+      "role": "Candidate for Illinois Governor",
+      "org": "Republican Party",
+      "years": "February 2025–present",
+      "highlight": "First major-party candidate to enter the 2026 governor race; foregoing third term as sheriff; running mate Robert Renteria announced March 2025; grassroots/social media campaign; severely underfunded vs. Republican field."
+    }
+  ],
+  "trust_indicators": [
+    {
+      "label": "8 years executive government experience",
+      "value": "Managed $80M annual budget, 800+ staff, two-term elected sheriff of Illinois' fifth most populous county",
+      "type": "positive"
+    },
+    {
+      "label": "Elected as Republican in Democratic-leaning DuPage County",
+      "value": "DuPage has voted Democratic in every presidential race since 2008; Mendrick won sheriff races there in 2018 and 2022",
+      "type": "positive"
+    },
+    {
+      "label": "Jail reform track record",
+      "value": "Implemented MAT opioid treatment, GED/job training programs, Taser adoption; claims steep recidivism reduction",
+      "type": "positive"
+    },
+    {
+      "label": "$11M jail death settlement",
+      "value": "Office reached $11M settlement in 2025 after detainee died of medical neglect in DuPage County Jail under his watch",
+      "type": "negative"
+    },
+    {
+      "label": "Refused to enforce state law",
+      "value": "Publicly pledged not to enforce the 2023 Illinois assault weapons ban; admitted uncertainty about his legal authority",
+      "type": "negative"
+    },
+    {
+      "label": "Replacement-theory-adjacent rhetoric",
+      "value": "Multiple documented instances of 'we are being replaced' and 'washed out' language at 2025–2026 campaign events",
+      "type": "negative"
+    },
+    {
+      "label": "Severe fundraising disadvantage",
+      "value": "Ended Q4 2025 with $33,169 cash on hand; 5% in January 2026 Emerson poll; most grassroots-dependent candidate in the field",
+      "type": "negative"
+    },
+    {
+      "label": "No statewide policy depth on record",
+      "value": "Policy platform primarily centered on public safety, immigration, and law enforcement; limited specific positions on pensions, economic development, or health care",
+      "type": "negative"
+    }
   ],
   "transparency_grade": null
 }

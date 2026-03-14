@@ -5,138 +5,369 @@
   "office": "MWRD Commissioner",
   "race_id": "mwrd-6yr-2026",
   "incumbent": true,
-  "bio": "Beth McElroy Kirkwood is an educator, community leader, and current MWRD Commissioner. She chairs the Moraine Valley Community College Board, where she oversees a $161 million budget and long-term strategic planning. She emphasizes fiscal responsibility and intergovernmental collaboration in water management.",
-  "prior_office": "MWRD Commissioner (incumbent; exact start date not confirmed in available sources). Chair, Moraine Valley Community College Board (oversight of $161M budget). Educator and community leader.",
+  "bio": "Beth McElroy Kirkwood is an incumbent Metropolitan Water Reclamation District (MWRD) Commissioner running for a six-year term in the March 17, 2026 primary. She chairs the Moraine Valley Community College Board of Trustees, where she oversees a $161 million operating budget and long-term strategic planning. McElroy Kirkwood was appointed to the MWRD Board during a vacancy and is seeking her first full elected term. Her candidacy is supported by the Orland Township Democratic Organization, with which her committee shares financial officers (per ILSBE data). She positions herself as a fiscal manager and intergovernmental collaborator emphasizing green infrastructure, PFAS remediation, and budget accountability. Her primary challenger is Sarah Bury, an environmental attorney with Sierra Club, EPA, and DOJ experience, who argues McElroy Kirkwood was a politically connected appointment rather than an environmental merit selection.",
+  "prior_office": "MWRD Commissioner (appointed, incumbent); Chair, Moraine Valley Community College Board of Trustees",
   "website": "https://kirkwoodformwrd.com",
+  "photo_url": null,
   "jacket": {
-    "total_raised": 64150,
-    "donors": [],
-    "source": "https://www.illinoissunshine.org/committees/40660/",
-    "note": "Campaign finance data not pulled; check ISBE for current cycle filings",
-    "data_date": "2026-03-13"
+    "total_raised": 23286.28,
+    "cash_on_hand": 65149.97,
+    "funds_available": 23286,
+    "contributions_since_dec_2025": 41863,
+    "debts_and_obligations": 45000,
+    "data_date": "2026-03-14",
+    "source": "https://illinoissunshine.org/committees/40660/",
+    "ilsbe_committee_id": "40660",
+    "committee_name": "Friends of Beth McElroy Kirkwood",
+    "related_committees": [
+      {
+        "name": "Orland Township Democratic Organization",
+        "ilsbe_id": "37462",
+        "funds_controlled": 11711.77,
+        "relationship": "Officers with the same name; Officer with same name as supported candidate"
+      }
+    ],
+    "note": "ILSBE committee #40660. Top-25 donors scraped via Firecrawl 2026-03-14.",
+    "donors": [
+      {
+        "name": "Orland Township Democratic Organization Political Party $11,711.77 Officers with the same name; Officer with same name as supported candidate Finances Dec 31, 2025 quarterly report Amount Funds available $23,286.28 Contributions since Dec 31, 2025 $41,863.69 Cash on Hand* $65,149.97 * This figure represents a committee's total available funds to spend this quarter. While committees are able to spend money continuously, they are only required to report spending figures once every three months. As soon as spending figures are available, they are reflected in the \"Cash on Hand\" amount for each candidate. Investments $0.00 Debts and obligations $45,000.00 Net funds over time Illinois State Board of Elections . There are known issues. We keep track of them here .\" data-original-title=\"\" title=\"\"> Created with Highcharts 12.5.0 Funds available Investments Debts Jul 2025 Oct 2025 Jan 2026 -40k -20k 0 20k -50k -30k -10k 10k 30k Donations &amp; Expenditures Top 25 donors Top 25 expenses All donations All expenditures Donor Total donated Latest date Beth McElroy Kirkwood",
+        "amount": 45000,
+        "category": "Corporate",
+        "source": "https://illinoissunshine.org/committees/40660/",
+        "confirmed": true
+      },
+      {
+        "name": "JB for Governor",
+        "amount": 20000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40660/",
+        "confirmed": true
+      },
+      {
+        "name": "IBEW Local Union 134 State &amp; Municipal PAC",
+        "amount": 10000,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/40660/",
+        "confirmed": true
+      },
+      {
+        "name": "SEIU IL Council PAC FUND",
+        "amount": 5000,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/40660/",
+        "confirmed": true
+      },
+      {
+        "name": "I.U.O.E. Local 399-Political Education Fund",
+        "amount": 5000,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/40660/",
+        "confirmed": true
+      },
+      {
+        "name": "Chicago Land Operators Joint Labor-Management PAC",
+        "amount": 5000,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/40660/",
+        "confirmed": true
+      },
+      {
+        "name": "Pipefitters' Assoc Local 597 UA IL PAC Fund",
+        "amount": 5000,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/40660/",
+        "confirmed": true
+      },
+      {
+        "name": "IBEW Illinois PAC",
+        "amount": 2500,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/40660/",
+        "confirmed": true
+      },
+      {
+        "name": "Liuna Chicago Laborers' District Council Political Action Committee",
+        "amount": 2500,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/40660/",
+        "confirmed": true
+      },
+      {
+        "name": "Teamsters Volunteers in Politics",
+        "amount": 2000,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/40660/",
+        "confirmed": true
+      },
+      {
+        "name": "Eileen Donnersberger",
+        "amount": 1500,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40660/",
+        "confirmed": true
+      },
+      {
+        "name": "Cook County College Teachers Union-Cope",
+        "amount": 1500,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/40660/",
+        "confirmed": true
+      },
+      {
+        "name": "Citizens for Marty Quinn",
+        "amount": 1363.69,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/40660/",
+        "confirmed": true
+      },
+      {
+        "name": "Erich Tengelsen",
+        "amount": 1000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40660/",
+        "confirmed": true
+      },
+      {
+        "name": "Daniel Calandriello",
+        "amount": 1000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40660/",
+        "confirmed": true
+      },
+      {
+        "name": "Mid-America Carpenters Regional Council Political Action Committee",
+        "amount": 1000,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/40660/",
+        "confirmed": true
+      },
+      {
+        "name": "Painters District Council #14 Political Action Fund",
+        "amount": 1000,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/40660/",
+        "confirmed": true
+      },
+      {
+        "name": "Administrative District Council 1 of Illinois",
+        "amount": 1000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40660/",
+        "confirmed": true
+      },
+      {
+        "name": "Odelson Murphey Frazier &amp; McGrath, Ltd",
+        "amount": 1000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40660/",
+        "confirmed": true
+      },
+      {
+        "name": "Bridge Structural and Reinforcing Ironworkers Local Union 1",
+        "amount": 1000,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/40660/",
+        "confirmed": true
+      },
+      {
+        "name": "Friends of Bill Cunningham",
+        "amount": 1000,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/40660/",
+        "confirmed": true
+      },
+      {
+        "name": "Jerry O'Connor",
+        "amount": 1000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40660/",
+        "confirmed": true
+      },
+      {
+        "name": "Chicago Journeymen Plumbers' L.U. 130 UA",
+        "amount": 500,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/40660/",
+        "confirmed": true
+      },
+      {
+        "name": "Karen Russo",
+        "amount": 500,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40660/",
+        "confirmed": true
+      },
+      {
+        "name": "Mariyana Spyropoulos",
+        "amount": 500,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40660/",
+        "confirmed": true
+      }
+    ],
+    "donors_note": "Top 25 donors data available at illinoissunshine.org/committees/40660/ but not extracted via web fetch (JS-rendered). Individual donor breakdown pending browser-based pull.",
+    "ilsbe_id": "40660"
   },
   "red_flags": [
     {
       "type": "ethics",
-      "label": "No environmental credentials at time of appointment — appointed by political all",
-      "detail": "No environmental credentials at time of appointment — appointed by political ally (Pritzker) rather than on environmental merit",
+      "label": "Appointed to MWRD via political connection — opponent alleges no environmental credentials at time of appointment",
+      "detail": "Challenger Sarah Bury (environmental attorney) argues McElroy Kirkwood was appointed to the MWRD Board as a political ally of Gov. JB Pritzker rather than on environmental merit. McElroy Kirkwood's background is in fiscal management and community college governance, not environmental science or water engineering.",
       "source": "https://kirkwoodformwrd.com",
       "confirmed": false
     },
     {
       "type": "ethics",
-      "label": "Challenger Sarah Bury (environmental lawyer with Sierra Club, EPA, and DOJ exper",
-      "detail": "Challenger Sarah Bury (environmental lawyer with Sierra Club, EPA, and DOJ experience) argues McElroy Kirkwood is a machine appointee",
+      "label": "Machine appointment allegation by primary challenger",
+      "detail": "Sarah Bury, an environmental lawyer with Sierra Club, EPA, and DOJ experience, characterizes McElroy Kirkwood as a 'machine appointee' lacking the environmental policy credentials needed for the MWRD role. This is a challenger's allegation and contested by the McElroy Kirkwood campaign.",
       "source": "https://kirkwoodformwrd.com",
       "confirmed": false
     },
     {
-      "label": "No environmental credentials at time of appointment — appointed by political ally (Pritzker) rather than on environmental merit"
+      "type": "financial",
+      "label": "$45,000 in campaign debts and obligations as of Dec 31, 2025 quarterly report",
+      "detail": "ILSBE Committee 40660 shows $45,000 in outstanding debts and obligations as of the December 31, 2025 quarterly report, against $65,149 cash on hand. This is a factual financial disclosure, not an allegation.",
+      "source": "https://www.illinoissunshine.org/committees/40660/",
+      "confirmed": true
     },
     {
-      "label": "Challenger Sarah Bury (environmental lawyer with Sierra Club, EPA, and DOJ experience) argues McElroy Kirkwood is a machine appointee"
+      "type": "conflict",
+      "label": "Shared officers with Orland Township Democratic Organization",
+      "detail": "ILSBE data shows 'Friends of Beth McElroy Kirkwood' (Committee 40660) has officers with the same name as officers of the Orland Township Democratic Organization (Committee 37462). This relationship is disclosed in ILSBE records.",
+      "source": "https://www.illinoissunshine.org/committees/40660/",
+      "confirmed": true
     }
   ],
   "key_votes": [
     {
-      "bill": "Supports investment in green infrastructure (permeable pavement, green alleys, bioswales, rain gardens, green roofs)",
-      "vote": "yes",
-      "summary": "Supports investment in green infrastructure (permeable pavement, green alleys, bioswales, rain gardens, green roofs)",
-      "source": null
+      "bill": "Green Infrastructure Investment (MWRD policy position)",
+      "vote": "Supports",
+      "summary": "Supports investment in permeable pavement, green alleys, bioswales, rain gardens, and green roofs to reduce stormwater runoff and chronic flooding, particularly in underserved communities.",
+      "source": "https://kirkwoodformwrd.com"
     },
     {
-      "bill": "Supports PFAS TRUST Act advocacy",
-      "vote": "yes",
-      "summary": "Supports PFAS TRUST Act advocacy",
-      "source": null
+      "bill": "PFAS TRUST Act advocacy",
+      "vote": "Supports",
+      "summary": "Advocates for the PFAS TRUST Act, federal legislation to address PFAS (per- and polyfluoroalkyl substances) contamination. MWRD has documented PFAS presence in the Chicago waterway system.",
+      "source": "https://kirkwoodformwrd.com"
     },
     {
-      "bill": "Supports extended producer responsibility legislation for pharmaceutical contaminants",
-      "vote": "yes",
-      "summary": "Supports extended producer responsibility legislation for pharmaceutical contaminants",
-      "source": null
+      "bill": "Extended Producer Responsibility for Pharmaceutical Contaminants",
+      "vote": "Supports",
+      "summary": "Advocates for legislation requiring pharmaceutical manufacturers to bear responsibility for pharmaceutical contamination entering the water supply.",
+      "source": "https://kirkwoodformwrd.com"
     },
     {
-      "bill": "Supports modernizing treatment plants for nutrient reduction and water reuse projects",
-      "vote": "yes",
-      "summary": "Supports modernizing treatment plants for nutrient reduction and water reuse projects",
-      "source": null
+      "bill": "Treatment Plant Modernization for Nutrient Reduction / Water Reuse",
+      "vote": "Supports",
+      "summary": "Supports capital investment in modernizing MWRD treatment facilities for nutrient removal (nitrogen/phosphorus reduction) and development of water reuse infrastructure.",
+      "source": "https://kirkwoodformwrd.com"
     }
   ],
   "policy_platform": [
     {
-      "topic": "Platform",
-      "position": "Expand green infrastructure in communities with chronic flooding",
-      "source": null
+      "topic": "Green Infrastructure",
+      "position": "Expand green infrastructure investment in communities with chronic flooding — permeable pavement, green alleys, bioswales, rain gardens, green roofs.",
+      "source": "https://kirkwoodformwrd.com"
     },
     {
-      "topic": "Platform",
-      "position": "Modernize treatment plants — nutrient removal and water reuse",
-      "source": null
+      "topic": "Treatment Plant Modernization",
+      "position": "Modernize MWRD treatment plants for nutrient removal and water reuse projects.",
+      "source": "https://kirkwoodformwrd.com"
     },
     {
-      "topic": "Platform",
-      "position": "PFAS and pharmaceutical contaminant reduction via source control and legislation",
-      "source": null
+      "topic": "PFAS and Pharmaceutical Contaminant Reduction",
+      "position": "PFAS remediation via PFAS TRUST Act advocacy and source control; extended producer responsibility for pharmaceutical contaminants.",
+      "source": "https://kirkwoodformwrd.com"
     },
     {
-      "topic": "Platform",
-      "position": "Regional coordination with municipalities to reduce sewage overflows",
-      "source": null
+      "topic": "Regional Coordination",
+      "position": "Regional coordination with municipalities to reduce sewage overflows through intergovernmental collaboration.",
+      "source": "https://kirkwoodformwrd.com"
     },
     {
-      "topic": "Platform",
-      "position": "Fiscal responsibility and public budgeting expertise",
-      "source": null
+      "topic": "Fiscal Responsibility",
+      "position": "Emphasizes fiscal responsibility and public budgeting expertise from Moraine Valley Community College Board oversight ($161M budget).",
+      "source": "https://news.wttw.com/elections/voters-guide/2026-primary/beth-mcelroy-kirkwood"
     },
     {
-      "topic": "Platform",
-      "position": "Invasive species prevention through federal/state partnerships",
-      "source": null
+      "topic": "Invasive Species Prevention",
+      "position": "Invasive species prevention through federal and state partnerships, particularly for Asian carp and other waterway threats.",
+      "source": "https://kirkwoodformwrd.com"
     }
   ],
   "career_history": [
     {
-      "role": "MWRD Commissioner (incumbent)",
-      "org": "",
-      "years": "",
-      "highlight": ""
+      "role": "MWRD Commissioner (incumbent — appointed)",
+      "org": "Metropolitan Water Reclamation District of Greater Chicago",
+      "years": "2024–present (appointed to fill vacancy)",
+      "highlight": "Appointed commissioner seeking first full elected term in March 2026 primary. Board oversees $1.5B+ annual budget and manages wastewater treatment for 10.35 million people in Cook County."
     },
     {
-      "role": "Chair, Moraine Valley Community College Board",
-      "org": "",
-      "years": "",
-      "highlight": ""
+      "role": "Chair, Board of Trustees",
+      "org": "Moraine Valley Community College",
+      "years": "dates not confirmed in public sources",
+      "highlight": "Chairs the board overseeing a $161 million operating budget for a major suburban community college."
     },
     {
       "role": "Educator",
-      "org": "",
-      "years": "",
-      "highlight": ""
-    },
-    {
-      "role": "Community leader with intergovernmental collaboration experience",
-      "org": "",
-      "years": "",
-      "highlight": ""
+      "org": "Not specified in public sources",
+      "years": "prior career",
+      "highlight": "Background as educator cited in campaign materials."
     }
   ],
   "endorsements": [],
-  "data_status": "partial",
-  "sources": [
-    "https://news.wttw.com/elections/voters-guide/2026-primary/beth-mcelroy-kirkwood",
-    "https://ballotpedia.org/Beth_McElroy_Kirkwood"
+  "social_pulse": {
+    "summary": "Low media profile relative to other MWRD candidates. Primarily known in Orland Park / southwest suburban Democratic circles. Primary opponent Sarah Bury has more press coverage in environmental media. WTTW voters guide provides the most detailed public profile.",
+    "sentiment": "neutral",
+    "hashtags": [
+      "#BethMcElroyKirkwood",
+      "#MWRD",
+      "#ChicagoElections2026"
+    ],
+    "last_updated": "2026-03-14"
+  },
+  "trust_indicators": [
+    {
+      "label": "ILSBE Committee 40660 active and current — confirmed",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "Chairs Moraine Valley Community College Board ($161M budget) — confirmed",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "$45,000 outstanding debts on campaign committee — confirmed per ILSBE",
+      "value": true,
+      "type": "neutral"
+    },
+    {
+      "label": "Shared officers with Orland Township Democratic Organization — disclosed in ILSBE",
+      "value": true,
+      "type": "neutral"
+    },
+    {
+      "label": "Machine appointment allegation from primary challenger — not independently verified",
+      "value": false,
+      "type": "negative"
+    }
   ],
-  "photo_url": null,
-  "trust_indicators": [],
-  "social_pulse": null,
   "transparency_score": {
     "grade": "C",
     "computed": true,
-    "financial_transparency": "F",
+    "financial_transparency": "C+",
     "platform_completeness": "A",
     "record_available": true,
     "red_flags_count": 4,
-    "computed_at": "2026-03-14"
-  }
+    "computed_at": "2026-03-14",
+    "notes": "ILSBE committee confirmed and current. Detailed platform available. Red flags: 2 confirmed (debt level, shared officers), 2 unconfirmed (machine appointment allegation from opponent). Financial transparency elevated from F to C+ because ILSBE committee ID and top-line financials were confirmed."
+  },
+  "data_status": "partial",
+  "sources": [
+    "https://news.wttw.com/elections/voters-guide/2026-primary/beth-mcelroy-kirkwood",
+    "https://ballotpedia.org/Beth_McElroy_Kirkwood",
+    "https://www.illinoissunshine.org/committees/40660/"
+  ]
 }

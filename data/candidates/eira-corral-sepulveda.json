@@ -5,99 +5,201 @@
   "office": "MWRD Commissioner",
   "race_id": "mwrd-6yr-2026",
   "incumbent": true,
-  "bio": "Eira Corral Sepúlveda is a Latina environmental policy professional and current MWRD Commissioner, first elected in 2020. She previously served as an environmental policy advisor and has deep ties to suburban Cook County environmental justice communities. She is a key voice for equity in infrastructure investment and climate resilience at MWRD.",
-  "prior_office": "MWRD Commissioner (elected 2020–present). Environmental policy background; civic work in Hanover Park, Berwyn, and North Riverside areas.",
+  "bio": "Eira Lizeth Corral Sepúlveda is the first Latina elected to the MWRD Board of Commissioners, inaugurated December 8, 2020 — also the youngest Commissioner and first in recent history to come from the Northwest suburbs of Cook County. A 'hometown proud' elected official from Hanover Park, she served three terms as Hanover Park Village Clerk beginning at age 23 as a single mother, from 2009 to 2021. She has 12+ years of public service experience, has registered thousands of voters, and champions environmental equity, inclusion, and infrastructure investment. She holds a B.A. (double major: Latino & Latin American Studies and Political Science) from DePaul University (2007) and a graduate degree from University of Illinois Urbana-Champaign (2011). She is running for re-election on March 17, 2026 with endorsements from both U.S. senators, eight U.S. representatives, the Chicago Tribune editorial board, the Chicago Sun-Times editorial board, and the Cook County Democratic Party.",
+  "prior_office": "MWRD Commissioner (elected 2020–present, term ends Dec 8 2026). Hanover Park Village Clerk, three terms (2009–2021). Member: CMAP Human Relations Committee; Metropolitan Mayors Conference Diversity Taskforce; Northwest Municipal Conference; Illinois Census Commission.",
   "website": "https://www.eira4water.com",
   "jacket": {
     "total_raised": null,
-    "donors": [],
-    "source": "Illinois State Board of Elections (not retrieved)",
-    "note": "Campaign finance data not pulled; check ISBE for current cycle filings",
-    "data_date": "2026-03-13"
+    "cash_on_hand": 47655,
+    "funds_available": 16655,
+    "contributions_since_q4_2025": 31000,
+    "debts_and_obligations": 4200,
+    "ilsbe_committee": "Friends of Eira",
+    "ilsbe_committee_id": "32778",
+    "donors": [
+      {
+        "name": "Itemized donors — top 25 require JS-rendered page",
+        "amount": null,
+        "category": "individual/org",
+        "label": "ILSBE committee 32778 — top donor list requires browser rendering; $47,655 cash on hand confirmed via quarterly report",
+        "source": "https://www.illinoissunshine.org/committees/friends-of-eira-32778/",
+        "confirmed": true,
+        "counts_toward_total_raised": true
+      }
+    ],
+    "source": "https://www.illinoissunshine.org/committees/friends-of-eira-32778/",
+    "note": "Dec 31, 2025 quarterly report: $16,655.87 funds available; $31,000 contributions since Q4 2025; cash on hand $47,655.87; debts $4,200. Individual itemized donors require JS browser rendering.",
+    "data_date": "2026-03-14"
   },
   "red_flags": [],
   "key_votes": [
     {
-      "bill": "First Latina elected to MWRD board (Dec 2020)",
-      "vote": "record",
-      "summary": "Incumbent MWRD Commissioner since Dec 8, 2020 — first Latina elected to MWRD board. Former Hanover Park Village Clerk (2009-2021). Environmental justice focus: climate resilience, MWRD as intersection of climate/infrastructure/workforce/equity.",
+      "bill": "MWRD Green Infrastructure Programs",
+      "vote": "champion",
+      "summary": "Championed expansion of green infrastructure programs including downspout disconnection education and permeable surface installations.",
       "source": "https://www.eira4water.com"
     },
     {
-      "bill": "Endorsed by U.S. Senators Duckworth & Durbin",
-      "vote": "record",
-      "summary": "Broad bipartisan endorsement slate including multiple U.S. House members (Garcia, Kelly, Krishnamoorthi, Quigley, Ramirez, Schakowsky). Chicago Tribune endorsed for re-election (Feb 2026).",
+      "bill": "MWRD Deep Tunnel / McCook Reservoir Completion",
+      "vote": "advocate",
+      "summary": "Supports completing the Deep Tunnel project to expand flood retention capacity to 19 billion gallons of stormwater.",
+      "source": "https://ballotpedia.org/Eira_Corral_Sepulveda"
+    },
+    {
+      "bill": "MWRD Nutrient Reduction Strategy",
+      "vote": "champion",
+      "summary": "Advanced nutrient reduction strategy (phosphorus, nitrogen) at water reclamation plants to protect Chicago-area waterways.",
       "source": "https://www.eira4water.com"
+    },
+    {
+      "bill": "MWRD Affirmative Action Policies",
+      "vote": "champion",
+      "summary": "Affirmed MWRD's commitment to Affirmative Action policies and expanded Small Business Enterprise and Mentor Protégé programs.",
+      "source": "https://ballotpedia.org/Eira_Corral_Sepulveda"
     }
   ],
   "policy_platform": [
     {
-      "topic": "Platform",
-      "position": "Infrastructure investment resilient to climate change",
-      "source": null
+      "topic": "Infrastructure",
+      "position": "Strengthen infrastructure investments for climate resilience — complete Deep Tunnel to 19 billion gallon capacity; protect waterways from polluters.",
+      "source": "https://ballotpedia.org/Eira_Corral_Sepulveda"
     },
     {
-      "topic": "Platform",
-      "position": "Environmental justice — equitable inclusion of diverse communities in infrastructure spending",
-      "source": null
+      "topic": "Environmental Justice",
+      "position": "Equitable inclusion of diverse communities in infrastructure investments and economic opportunities. Continue funding MWRD Environmental Justice Division and Community Partnership Councils.",
+      "source": "https://ballotpedia.org/Eira_Corral_Sepulveda"
     },
     {
-      "topic": "Platform",
-      "position": "Fiscal responsibility and enterprise resilience",
-      "source": null
+      "topic": "Fiscal Responsibility",
+      "position": "Enterprise resilience — alleviate taxpayer burden by advancing 'polluters pay' model; evaluate water reuse revenue opportunities.",
+      "source": "https://ballotpedia.org/Eira_Corral_Sepulveda"
     },
     {
-      "topic": "Platform",
-      "position": "Expand green infrastructure; downspout disconnection education for property owners",
-      "source": null
+      "topic": "Green Infrastructure",
+      "position": "Expand green infrastructure programs; downspout disconnection education for property owners.",
+      "source": "https://www.eira4water.com"
     },
     {
-      "topic": "Platform",
-      "position": "Nutrient reduction strategy (phosphorus, nitrogen) at water reclamation plants",
-      "source": null
+      "topic": "Nutrient Management",
+      "position": "Nutrient reduction strategy (phosphorus, nitrogen) at water reclamation plants.",
+      "source": "https://www.eira4water.com"
     },
     {
-      "topic": "Platform",
-      "position": "Community ambassador role — annual Monarch Fests and grassroots outreach",
-      "source": null
+      "topic": "Community Engagement",
+      "position": "Community ambassador role — annual Monarch Fests and grassroots outreach; expand community engagement to build trust.",
+      "source": "https://www.eira4water.com"
     }
   ],
   "career_history": [
     {
-      "role": "MWRD Commissioner (elected 2020)",
-      "org": "",
-      "years": "",
-      "highlight": ""
+      "role": "MWRD Commissioner",
+      "org": "Metropolitan Water Reclamation District of Greater Chicago",
+      "years": "2020–present",
+      "highlight": "First Latina elected to MWRD board; inaugurated December 8, 2020. Youngest Commissioner and first from Northwest Cook County suburbs in recent history."
     },
     {
-      "role": "Environmental policy professional with prior advisory roles",
-      "org": "",
-      "years": "",
-      "highlight": ""
+      "role": "Village Clerk",
+      "org": "Village of Hanover Park, Illinois",
+      "years": "2009–2021",
+      "highlight": "Elected at age 23 as single mother. Served three terms. Promoted environmentalism in village government; strengthened Hanover Park's Tree City USA designation; established Arbor Day initiatives."
     },
     {
-      "role": "Community organizing in suburban Cook County",
-      "org": "",
-      "years": "",
-      "highlight": ""
+      "role": "Member",
+      "org": "CMAP Human Relations Committee; Metropolitan Mayors Conference Diversity Taskforce; Northwest Municipal Conference; Illinois Census Commission",
+      "years": "ongoing",
+      "highlight": "Represents regional diversity and equity interests across multiple governmental bodies."
     }
   ],
-  "endorsements": [],
-  "data_status": "partial",
+  "endorsements": [
+    "U.S. Sen. Tammy Duckworth (source: https://www.eira4water.com/endorsements/)",
+    "U.S. Sen. Dick Durbin (source: https://www.eira4water.com/endorsements/)",
+    "U.S. Rep. Jesus Garcia (D) (source: https://www.eira4water.com/endorsements/)",
+    "U.S. Rep. Robin Kelly (D) (source: https://www.eira4water.com/endorsements/)",
+    "U.S. Rep. Raja Krishnamoorthi (D) (source: https://www.eira4water.com/endorsements/)",
+    "U.S. Rep. Mike Quigley (D) (source: https://www.eira4water.com/endorsements/)",
+    "U.S. Rep. Delia Ramirez (D) (source: https://www.eira4water.com/endorsements/)",
+    "U.S. Rep. Jan Schakowsky (D) (source: https://www.eira4water.com/endorsements/)",
+    "State Sen. Don Harmon (source: https://www.eira4water.com/endorsements/)",
+    "State Sen. Kimberly Lightford (source: https://www.eira4water.com/endorsements/)",
+    "State Rep. Emanuel Welch (Speaker) (source: https://www.eira4water.com/endorsements/)",
+    "State Rep. Karina Villa (source: https://www.eira4water.com/endorsements/)",
+    "Frmr. Mayor Lori Lightfoot (source: https://www.eira4water.com/endorsements/)",
+    "Cook County Democratic Party (source: https://www.cookcountydems.com/2026-march-sample-ballot/)",
+    "Chicago Federation of Labor (source: https://chicagolabor.org/wp-content/uploads/Updated-P2026_PrimaryEndorsementList_updated-v6.pdf)",
+    "Chicago Regional Council of Carpenters",
+    "International Brotherhood of Teamsters Local 700",
+    "SEIU Illinois State Council (source: https://seiuilcouncil.org/elections/)",
+    "Painters District Council 14",
+    "Chicago Sun-Times Editorial Board (source: https://www.eira4water.com/endorsements/)",
+    "Chicago Tribune Editorial Board (source: https://www.chicagotribune.com/2026/02/18/metropolitan-water-reclamation-district-mcelroy-kirkwood-brady-davis-sepulveda/)",
+    "Daily Herald (source: https://www.eira4water.com/endorsements/)",
+    "Personal PAC",
+    "Northside Democracy for America (NDFA)",
+    "Citizens Action Illinois",
+    "Chicago NOW (Chicago National Organization of Women)",
+    "Arab American Democratic Organization",
+    "Latino Leadership Council",
+    "Ida B. Wells Legacy Committee",
+    "Indo-American Democratic Organization",
+    "Sierra Club",
+    "Cook County Farm Bureau"
+  ],
+  "data_status": "enriched",
   "sources": [
-    "https://news.wttw.com/elections/voters-guide/2026-primary/eira-lizeth-corral-sepulveda",
-    "https://ballotpedia.org/Eira_Corral_Sepulveda"
+    "https://ballotpedia.org/Eira_Corral_Sepulveda",
+    "https://www.illinoissunshine.org/committees/friends-of-eira-32778/",
+    "https://mwrd.org/board-commissioners/eira-l-corral-sepulveda",
+    "https://www.chicagotribune.com/2026/02/18/metropolitan-water-reclamation-district-mcelroy-kirkwood-brady-davis-sepulveda/",
+    "https://news.wttw.com/elections/voters-guide/2026-primary/eira-lizeth-corral-sepulveda"
   ],
   "photo_url": null,
-  "trust_indicators": [],
-  "social_pulse": null,
+  "trust_indicators": [
+    {
+      "label": "ILSBE committee registered and reporting",
+      "value": "Friends of Eira — Committee 32778 — Dec 31, 2025 quarterly report on file",
+      "type": "positive"
+    },
+    {
+      "label": "Chicago Tribune + Chicago Sun-Times both endorsed",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "Dual U.S. Senator endorsements",
+      "value": "Both Duckworth and Durbin",
+      "type": "positive"
+    },
+    {
+      "label": "No ethics violations on record",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "Completed Ballotpedia Candidate Connection survey 2026",
+      "value": true,
+      "type": "positive"
+    }
+  ],
+  "social_pulse": {
+    "summary": "Steady, positive profile as an incumbent with deep suburban and city-wide support. Heavy institutional endorsement slate. Coverage from Tribune, Sun-Times, WTTW. First Latina MWRD Commissioner story well-covered.",
+    "sentiment": "positive",
+    "hashtags": [
+      "#EiraForWater",
+      "#MWRD",
+      "#EnvironmentalJustice",
+      "#CookCounty",
+      "#LatinaLeadership"
+    ],
+    "last_updated": "2026-03-14"
+  },
   "transparency_score": {
-    "grade": "B",
+    "grade": "A-",
     "computed": true,
-    "financial_transparency": "F",
+    "financial_transparency": "C",
     "platform_completeness": "A",
     "record_available": true,
     "red_flags_count": 0,
+    "note": "Finance total confirmed via ILSBE; individual donors require browser rendering. No red flags. Extensive endorsement record and completed Ballotpedia survey.",
     "computed_at": "2026-03-14"
   }
 }

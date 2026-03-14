@@ -43,9 +43,25 @@ export default function CandidatePage({ params }: { params: { slug: string } }) 
 
   const initials = getInitials(candidate.name);
   const isUncontested = candidate.uncontested === true;
+  const isWithdrawn = candidate.status === "withdrawn";
 
   return (
     <div className="space-y-12">
+
+      {/* ── WITHDRAWN BANNER ── */}
+      {isWithdrawn && (
+        <div className="border border-zinc-600 bg-zinc-900 px-5 py-4">
+          <p className="font-mono text-sm font-bold uppercase tracking-widest text-zinc-300">
+            ⚠️ This candidate has withdrawn from the race
+          </p>
+          {candidate.withdrawal_note && (
+            <p className="mt-1 text-xs text-zinc-500">{candidate.withdrawal_note}</p>
+          )}
+          <p className="mt-2 text-xs text-zinc-600">
+            They will not appear on the March 17, 2026 ballot. Profile is preserved for historical reference.
+          </p>
+        </div>
+      )}
 
       {/* ── 1. CANDIDATE HEADER ── */}
       <section className="bg-jacket-gray px-6 py-5">

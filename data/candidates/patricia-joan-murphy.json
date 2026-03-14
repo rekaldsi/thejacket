@@ -10,10 +10,126 @@
   "website": "https://murphyforcook.com/",
   "jacket": {
     "total_raised": null,
-    "donors": [],
-    "source": "Illinois State Board of Elections (not retrieved)",
-    "note": "Campaign finance not retrieved; notable endorsements suggest strong fundraising",
-    "data_date": "2026-03-13"
+    "cash_on_hand": 125589.73,
+    "data_date": "2026-03-14",
+    "source": "https://illinoissunshine.org/committees/39778/",
+    "note": "Committee: Friends of Patricia Joan Murphy (ID 39778, founded Mar 14, 2024). Funds available $69,289.73 + contributions since Dec 31, 2025 of $56,300. Debts: $5,000. Top donors: Local 134 State & Municipal PAC ($20,000), Disparti Law Group ($10,000), Friends of Bill Cunningham ($10,000), Mid-America Carpenters PAC ($10,000), I.U.O.E. Local 399 ($8,300), Larry Disparti ($7,300), Teamsters Volunteers in Politics ($6,500). Strong labor and political establishment backing. Chicago Tribune endorsement.",
+    "fec_id": null,
+    "ilsbe_id": "39778",
+    "donors": [
+      {
+        "name": "Local 134 State & Municipal PAC",
+        "amount": 20000,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/39778/",
+        "confirmed": true
+      },
+      {
+        "name": "Disparti Law Group",
+        "amount": 10000,
+        "category": "Corporate",
+        "source": "https://illinoissunshine.org/committees/39778/",
+        "confirmed": true
+      },
+      {
+        "name": "Friends of Bill Cunningham",
+        "amount": 10000,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/39778/",
+        "confirmed": true
+      },
+      {
+        "name": "Mid-America Carpenters Regional Council Political Action Committee",
+        "amount": 10000,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/39778/",
+        "confirmed": true
+      },
+      {
+        "name": "I.U.O.E. Local 399 Political Education Fund",
+        "amount": 8300,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/39778/",
+        "confirmed": true
+      },
+      {
+        "name": "Larry Disparti",
+        "amount": 7300,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/39778/",
+        "confirmed": true
+      },
+      {
+        "name": "Teamsters Volunteers in Politics",
+        "amount": 6500,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/39778/",
+        "confirmed": true
+      },
+      {
+        "name": "Friends of Rick Ryan",
+        "amount": 5250,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/39778/",
+        "confirmed": true
+      },
+      {
+        "name": "United Blue Island",
+        "amount": 5000,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/39778/",
+        "confirmed": true
+      },
+      {
+        "name": "Pipefitters' Assoc Local 597 UA IL PAC Fund",
+        "amount": 5000,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/39778/",
+        "confirmed": true
+      },
+      {
+        "name": "Anthony Murphy",
+        "amount": 5000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/39778/",
+        "confirmed": true
+      },
+      {
+        "name": "Patricia Joan Murphy",
+        "amount": 5000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/39778/",
+        "confirmed": true
+      },
+      {
+        "name": "Chicago Land Operators Joint Labor-Management PAC",
+        "amount": 5000,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/39778/",
+        "confirmed": true
+      },
+      {
+        "name": "Friends of Kelly M. Burke",
+        "amount": 5000,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/39778/",
+        "confirmed": true
+      },
+      {
+        "name": "Chicago Federation of Labor",
+        "amount": 2000,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/39778/",
+        "confirmed": true
+      },
+      {
+        "name": "Cook County College Teachers Union-COPE",
+        "amount": 1500,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/39778/",
+        "confirmed": true
+      }
+    ]
   },
   "red_flags": [],
   "key_votes": [],
@@ -49,7 +165,8 @@
   ],
   "data_status": "partial",
   "sources": [
-    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election"
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
+    "https://illinoissunshine.org/committees/39778/"
   ],
   "photo_url": null,
   "trust_indicators": [],

@@ -11,49 +11,14 @@
   "website": "https://www.cookcountysheriff.org",
   "photo_url": null,
   "jacket": {
-    "total_raised": 388604,
-    "data_date": "2026-03-13",
-    "source": "https://www.illinoissunshine.org/committees/19319/",
-    "note": "County/state office — ILSBE filing, not FEC. 'Friends of Dart' committee ID #19319. Cash on hand as of Q4 2025.",
+    "total_raised": 386103.57,
+    "data_date": "2026-03-14",
+    "source": "https://illinoissunshine.org/committees/19319/",
+    "note": "ILSBE committee #19319. Top-25 donors scraped via Firecrawl 2026-03-14.",
     "donors_note": "Showing top 5 donors ($15,000 — 3.9% of total raised). Full contributor list: illinoissunshine.org/committees/19319/",
     "fec_id": null,
     "ilsbe_id": "19319",
     "donors": [
-      {
-        "name": "IUOE Local 399 Political Education Fund",
-        "amount": 10000,
-        "category": "Union PAC",
-        "source": "ILSBE",
-        "confirmed": true
-      },
-      {
-        "name": "Thomas M. Tully",
-        "amount": 2500,
-        "category": "individual",
-        "source": "ILSBE",
-        "confirmed": true
-      },
-      {
-        "name": "GRG Holdings LLC",
-        "amount": 1000,
-        "category": "Corporate",
-        "source": "ILSBE",
-        "confirmed": true
-      },
-      {
-        "name": "JMS Electric Inc",
-        "amount": 1000,
-        "category": "Corporate",
-        "source": "ILSBE",
-        "confirmed": true
-      },
-      {
-        "name": "All-Circo Inc",
-        "amount": 500,
-        "category": "Corporate",
-        "source": "ILSBE",
-        "confirmed": true
-      },
       {
         "name": "James V. Riley",
         "amount": 56000,
@@ -116,8 +81,44 @@
         "category": "individual",
         "source": "https://www.illinoissunshine.org/committees/19319/",
         "confirmed": true
+      },
+      {
+        "name": "IUOE Local 399 Political Education Fund",
+        "amount": 10000,
+        "category": "Union PAC",
+        "source": "ILSBE",
+        "confirmed": true
+      },
+      {
+        "name": "Thomas M. Tully",
+        "amount": 2500,
+        "category": "individual",
+        "source": "ILSBE",
+        "confirmed": true
+      },
+      {
+        "name": "GRG Holdings LLC",
+        "amount": 1000,
+        "category": "Corporate",
+        "source": "ILSBE",
+        "confirmed": true
+      },
+      {
+        "name": "JMS Electric Inc",
+        "amount": 1000,
+        "category": "Corporate",
+        "source": "ILSBE",
+        "confirmed": true
+      },
+      {
+        "name": "All-Circo Inc",
+        "amount": 500,
+        "category": "Corporate",
+        "source": "ILSBE",
+        "confirmed": true
       }
-    ]
+    ],
+    "cash_on_hand": 388603.57
   },
   "red_flags": [
     {
@@ -466,5 +467,6 @@
     "record_available": true,
     "red_flags_count": 18,
     "computed_at": "2026-03-14"
-  }
+  },
+  "data_status": "partial"
 }

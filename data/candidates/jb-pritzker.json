@@ -4,66 +4,287 @@
   "party": "Democratic",
   "office": "Governor of Illinois",
   "race_id": "il-governor-d-2026",
-  "bio": "J.B. Pritzker is the incumbent Governor of Illinois, first elected in 2018. A billionaire heir to the Hyatt hotel fortune, he has governed as a progressive Democrat — signing the SAFE-T Act eliminating cash bail, legalizing recreational marijuana, and championing clean energy legislation. He is running for a third term, which would make him the first Democratic governor in Illinois history to win three consecutive terms. Pritzker is the only Democrat on the primary ballot after challenger Patricia Tillman was disqualified. He is widely expected to win in November — all major forecasters rate the general as Solid/Safe Democratic.",
+  "bio": "Jay Robert Pritzker (born January 19, 1965) is the 43rd Governor of Illinois, serving since January 14, 2019 and seeking a historic third term in 2026. An heir to the Hyatt Hotels fortune with an estimated net worth of $3.9 billion (Forbes, August 2025), he self-funded $171.5 million in 2018 and $152 million in 2022 — a combined $323 million — making him the most self-financed governor in Illinois history. As governor he signed landmark legislation including cannabis legalization (2019), a $15/hour minimum wage phased in through 2025, the SAFE-T Act eliminating cash bail (2021, effective September 18, 2023), the Climate and Equitable Jobs Act (September 15, 2021), and an assault weapons ban (January 10, 2023). Illinois earned 10 credit rating upgrades across Moody's, S&P, and Fitch between June 2021 and October 2025 under his watch, reversing 24 prior downgrades. Running for a third term amid national speculation about a 2028 presidential bid, Pritzker headlined a New Hampshire Democratic Party fundraiser in May 2025 — the first major foray by a potential 2028 presidential contender into an early primary state.",
   "prior_office": "Governor of Illinois (2019–present)",
   "website": "https://jbpritzker.com",
   "photo_url": null,
   "jacket": {
-    "total_raised": null,
+    "total_raised": 25500000,
     "pac_support_total": null,
     "data_date": "2026-03-14",
-    "source": "https://ballotpedia.org/Illinois_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
-    "note": "Pritzker is running for an unprecedented third Democratic gubernatorial term. Unopposed in the primary. General election rated Solid Democratic by Cook, Sabato, and Inside Elections.",
-    "donors": [],
-    "fec_id": null
+    "source": "https://www.illinoissunshine.org/committees/32762/",
+    "note": "As of Dec 31, 2025 quarterly report, 'JB for Governor' (ILSBE committee #32762) had $23,302,245.84 cash on hand — funded almost entirely by Pritzker's own $25.5M self-contribution deposited Nov 7 and Nov 14, 2025. By comparison, he spent a combined $323M on his 2018 and 2022 campaigns.",
+    "donors": [
+      {
+        "name": "J.B. Pritzker (self)",
+        "amount": 25500000,
+        "category": "Self-funded",
+        "source": "https://www.chicagotribune.com/2025/11/17/pritzker-25-million-2026-campaign/",
+        "confirmed": true
+      }
+    ],
+    "fec_id": null,
+    "ilsbe_id": "32762"
   },
   "red_flags": [
     {
-      "type": "policy",
-      "label": "SAFE-T Act Rollout Controversy",
-      "detail": "The SAFE-T Act eliminating cash bail drew criticism from fellow Democrats and Cook County's own State's Attorney, who called electronic monitoring provisions 'a serious threat to public safety.' Pritzker has acknowledged the law needs targeted changes.",
-      "source": "https://www.nbcchicago.com/news/local/chicago-politics/a-complete-guide-to-voting-in-the-2026-illinois-primary-election-2/3905887/",
+      "type": "ethics",
+      "label": "Removed toilets from Gold Coast mansion to dodge $330K in property taxes",
+      "detail": "In October 2015, M.K. Pritzker had five toilets removed from the couple's second Gold Coast mansion at 1431 N. Astor St. (purchased in 2007 for $3.7 million) so it would be classified 'uninhabitable,' triggering a property tax assessment drop from $6.3 million to $1.1 million. Cook County Inspector General Patrick Blanchard concluded this was 'a scheme to defraud' the county. Total benefit: $132,747.18 in property tax refunds for 2012–2014 and $198,684.85 in savings for 2015–2016, totaling $331,432. Pritzker repaid the county $330,000 in October 2018, only after the IG report was leaked during the campaign. Federal prosecutors later requested records from the Cook County assessor's office about the scheme.",
+      "source": "https://www.npr.org/2018/10/03/654201077/illinois-gov-candidate-removed-mansions-toilets-to-dodge-taxes-report-finds",
       "confirmed": true
     },
     {
       "type": "governance",
-      "label": "Corporate Headquarters Departures",
-      "detail": "Boeing, Caterpillar, Citadel, Tyson Foods, and Morton Salt all relocated headquarters out of Illinois during Pritzker's tenure. Critics attribute this to high taxes, pension debt, and regulatory burden.",
-      "source": "https://ballotpedia.org/Ted_Dabrowski",
+      "label": "Illinois pension unfunded liability hit $143.7 billion under his tenure",
+      "detail": "Illinois' five state pension systems carried an unfunded liability of $143.7 billion as of June 2025, measured at market value of assets — up $1.5 billion year-over-year. Illinois has the highest net pension liability per capita in the nation at nearly $17,500 per resident and the second-highest total net pension liabilities after California. The state pays $32 million every day just to service the five state pension systems. Despite ten credit upgrades, the structural pension hole remains unaddressed by constitutional reform.",
+      "source": "https://www.illinoispolicy.org/1-million-a-day-x-600-years-to-fill-illinois-pension-hole/",
+      "confirmed": true
+    },
+    {
+      "type": "governance",
+      "label": "Illinois property taxes are the highest in the nation at 1.83% effective rate",
+      "detail": "Illinois homeowners paid an average effective property tax rate of 1.83% in 2024, ranking highest in the nation per the Illinois Policy Institute and Tax Foundation data — more than double the national average. On a median-priced Illinois home of $250,500, that equals $4,584 per year. Earlier rankings placed Illinois second to New Jersey; the Tax Foundation's 2025 data places Illinois #1 for effective property tax rate.",
+      "source": "https://www.illinoispolicy.org/no-2-no-more-illinois-property-taxes-rank-highest-in-u-s/",
+      "confirmed": true
+    },
+    {
+      "type": "governance",
+      "label": "364,443 Illinoisans fled to other states from April 2020 through June 2023",
+      "detail": "U.S. Census Bureau data released December 19, 2023 showed Illinois lost 263,780 net residents from April 1, 2020 through June 30, 2023. The entire decline was driven by domestic out-migration: 364,443 Illinoisans moved to other states during that period. Illinois marked its 10th consecutive year of population decline in 2023. Births outpaced deaths and international migration was positive, meaning tax/cost environment — not demographics — was the driver of net loss.",
+      "source": "https://www.illinoispolicy.org/46400-extra-illinoisans-found-but-364443-others-moved-away/",
+      "confirmed": true
+    },
+    {
+      "type": "governance",
+      "label": "Boeing, Caterpillar, and Citadel all left Illinois in summer 2022",
+      "detail": "All three major Illinois corporate anchors announced headquarters departures within weeks of each other in 2022: Boeing announced in May 2022 it would move from Chicago to the Arlington, Virginia area to be closer to federal regulators; Caterpillar announced in June 2022 it was moving its HQ from Deerfield, IL to Irving, Texas; Citadel announced June 23, 2022 it was moving from Chicago to Miami, with founder Ken Griffin citing a better corporate environment and after colleagues were 'mugged at gunpoint' and 'stabbed on the way to work.' The Tax Foundation found Illinois' business climate declined 10 spots in the prior five years — the only Midwestern state to drop — after Pritzker imposed $650 million in new taxes on businesses during pandemic recovery.",
+      "source": "https://www.forbes.com/sites/annakaplan/2022/06/23/billionaire-ken-griffins-citadel-becomes-latest-company-to-move-headquarters-out-of-illinois/",
+      "confirmed": true
+    },
+    {
+      "type": "conflict_of_interest",
+      "label": "Pritzker blind trust companies received $20 billion in state contracts since he took office",
+      "detail": "Pritzker's blind trust of investments includes 12 different companies that collectively obtained more than $20 billion in state contracts since he took office in January 2019. Critics argue the blind trust structure does not fully eliminate conflicts of interest when the governor oversees state procurement that benefits entities in which he maintains financial interests.",
+      "source": "https://www.illinoispolicy.org/pritzker-spends-323m-on-2-campaigns-for-governor/",
+      "confirmed": true
+    },
+    {
+      "type": "ethics",
+      "label": "2008 FBI wiretap captured Pritzker using racial language about Obama Senate seat candidates",
+      "detail": "In May 2017, the Chicago Tribune published an 11-minute FBI wiretap recording from 2008 in which Pritzker and then-Governor Rod Blagojevich discussed filling Barack Obama's U.S. Senate seat. Pritzker described appointing then-Secretary of State Jesse White as it would 'cover you on the African-American thing' and called White the 'least offensive' Black candidate. Pritzker later apologized; White accepted the apology and continued to endorse him. No criminal charges were filed against Pritzker.",
+      "source": "https://en.wikipedia.org/wiki/JB_Pritzker",
+      "confirmed": true
+    },
+    {
+      "type": "electability",
+      "label": "Self-funding a combined $350M on two campaigns raises democracy and corruption-reform concerns",
+      "detail": "Pritzker spent $171.5 million of his own money on the 2018 campaign and $152 million on the 2022 race — a combined $323 million (some sources cite up to $350 million when accounting for all PAC transfers). He additionally donated $24 million to the Democratic Governors Association in 2022, which spent millions on attack ads helping prop up weaker Republican opponent Darren Bailey over the stronger Richard Irvin. For 2026, Pritzker deposited $25.5 million of his own money by November 2025 and has already signaled he will spend what it takes.",
+      "source": "https://www.chicagotribune.com/2025/11/17/pritzker-25-million-2026-campaign/",
+      "confirmed": true
+    },
+    {
+      "type": "policy",
+      "label": "SAFE-T Act opponents cited murder defendants released on electronic monitoring pre-trial",
+      "detail": "After cash bail was eliminated September 18, 2023 under the SAFE-T Act (HB 3653), critics including Republican state's attorneys argued defendants charged with serious crimes including murder were being released on electronic monitoring rather than detained. The law allows detention only when a judge determines a defendant poses 'a specific, real and present threat to a person' or has a 'high likelihood of willful flight.' The Illinois Supreme Court upheld the law 5-2 on July 18, 2023 with Republican justices dissenting. Cook County State's Attorney Kim Foxx, who supported the law, called the Supreme Court ruling 'a monumental milestone toward achieving equal justice.'",
+      "source": "https://news.wttw.com/2023/07/18/illinois-supreme-court-upholds-safe-t-act-provision-eliminating-cash-bail",
+      "confirmed": true
+    },
+    {
+      "type": "electability",
+      "label": "Active 2028 presidential campaign-in-waiting while running for 2026 re-election",
+      "detail": "Pritzker headlined a New Hampshire Democratic Party fundraiser in April 2025 — the first major foray by a potential 2028 presidential contender into an early primary state — and has made cross-country speaking engagements throughout 2025 stoking presidential speculation. He announced his 2026 re-election bid on June 26, 2025, while simultaneously not ruling out a 2028 presidential run. He appeared on Meet the Press in August 2025 and declined to rule out a White House bid. His dark money group Think Big America, which he funds as sole donor, received $6.8 million in the 2024 tax year supporting pro-abortion rights causes nationally.",
+      "source": "https://www.nytimes.com/2025/04/27/us/politics/jb-pritzker-2028-new-hampshire-trump-democrats.html",
       "confirmed": true
     }
   ],
   "key_votes": [
     {
-      "bill": "SAFE-T Act (2021)",
+      "bill": "Lifting Up Illinois Working Families Act / SB 1 (2019)",
       "vote": "signed",
-      "summary": "Signed legislation eliminating cash bail in Illinois — the first state in the nation to do so. Took effect January 2023 after legal challenges.",
-      "source": "https://ballotpedia.org/J.B._Pritzker"
+      "summary": "Signed February 19-20, 2019. Raised Illinois minimum wage from $8.25/hour in 2019 in annual increments to $15/hour by January 1, 2025 — a 7-year phase-in. Illinois became the first Midwestern state to reach $15/hour. The final (7th) increase took effect January 1, 2025. Small business employers received a tax credit to offset some costs during the phase-in period.",
+      "source": "https://labor.illinois.gov/news/press-release.30747.html"
     },
     {
-      "bill": "Cannabis Regulation and Tax Act (2019)",
+      "bill": "Illinois Cannabis Regulation and Tax Act / SB 1557 (2019)",
       "vote": "signed",
-      "summary": "Legalized recreational marijuana use and sales in Illinois, effective January 2020.",
-      "source": "https://ballotpedia.org/J.B._Pritzker"
+      "summary": "Signed June 25, 2019; effective January 1, 2020. Made Illinois the 11th state to legalize adult-use cannabis. Cleared criminal records of those convicted for possessing under 30 grams — Pritzker pardoned ~11,000 people Dec. 31, 2019 and expunged 490,000 arrest records in 2020. Tax revenue directed to communities harmed by the war on drugs. Cannabis generated $10.4 million in tax revenue in the first month (January 2020), $445.3 million by end of 2022, and $2 billion total by end of 2024, generating roughly $490 million in sales tax revenue.",
+      "source": "https://en.wikipedia.org/wiki/JB_Pritzker"
     },
     {
-      "bill": "Climate and Equitable Jobs Act (2021)",
+      "bill": "Reproductive Health Act / SB 25 (2019)",
       "vote": "signed",
-      "summary": "Set Illinois on a path to 100% clean energy by 2050. Critics say it has driven up electricity bills.",
-      "source": "https://ballotpedia.org/J.B._Pritzker"
+      "summary": "Signed June 2019. Repealed the Illinois Abortion Law of 1975 and the Partial-Birth Abortion Ban Act. Enshrined the 'fundamental right' to make autonomous reproductive decisions and denied zygotes, embryos, and fetuses independent legal rights under Illinois law. After Dobbs v. Jackson overturned Roe v. Wade in 2022, Illinois became an abortion access state for the South and Midwest; 30% of Illinois abortions in 2023 were performed on out-of-state patients, and Illinois abortions increased by over 45% in the year after Dobbs.",
+      "source": "https://en.wikipedia.org/wiki/JB_Pritzker"
+    },
+    {
+      "bill": "SAFE-T Act / HB 3653 (2021)",
+      "vote": "signed",
+      "summary": "Signed February 22, 2021 at Chicago State University. The Safety, Accountability, Fairness and Equity-Today Act made sweeping criminal justice reforms: eliminated cash bail (replaced with judge-determined risk assessment hearings), required police body cameras by 2025, banned chokeholds, created new police decertification processes, narrowed the felony murder rule, and ended prison gerrymandering. The cash bail elimination provision (Pretrial Fairness Act) was set for Jan. 1, 2023 but was challenged in court and ultimately upheld by the Illinois Supreme Court 5-2 on July 18, 2023; it took effect September 18, 2023, making Illinois the first state in the nation to abolish cash bail.",
+      "source": "https://en.wikipedia.org/wiki/SAFE-T_Act"
+    },
+    {
+      "bill": "Climate and Equitable Jobs Act / SB 2408 (2021)",
+      "vote": "signed",
+      "summary": "Signed September 15, 2021. The nearly 1,000-page law (Public Act 102-0662) sets Illinois on a path to 100% clean energy by 2050, phasing out coal plants, providing subsidies to keep nuclear plants running (including Exelon facilities that had threatened closure), establishing clean energy workforce development programs focused on environmental justice communities, and requiring Ameren and ComEd to fund expanded energy efficiency programs. It created new clean energy jobs programs targeting communities historically reliant on fossil fuel industries.",
+      "source": "https://epa.illinois.gov/topics/ceja.html"
+    },
+    {
+      "bill": "Assault Weapons Ban / HB 5471 (2023)",
+      "vote": "signed",
+      "summary": "Signed January 10, 2023 — hours after final General Assembly passage — in the aftermath of the July 4, 2022 Highland Park parade mass shooting that killed 7. Bans the sale and manufacture of assault-style weapons and high-capacity magazines, bans 'switches' that convert legal handguns into automatic weapons, and extends firearm restraining orders. Made Illinois the 9th state to ban assault-style weapons. The law was immediately challenged in court with multiple lawsuits filed by gun rights groups; legal battles continued through 2025.",
+      "source": "https://chicago.suntimes.com/politics/2023/1/10/23548867/illinois-assault-weapons-ban-house-approves-pritzker-vows-sign-it"
+    },
+    {
+      "bill": "Rebuild Illinois Capital Plan (2019)",
+      "vote": "signed",
+      "summary": "Signed June 2019. A $45 billion, 6-year capital infrastructure plan — Illinois' first major capital investment in a decade. Allocated $3.2 billion for public colleges and universities, billions for roads and bridges, and $420 million for the Southwestern Illinois Development Authority. Funded by a doubling of the state gas tax (from 19 cents to 38 cents per gallon) and increased vehicle registration fees, which were criticized by Republicans and motorists.",
+      "source": "https://en.wikipedia.org/wiki/JB_Pritzker"
+    },
+    {
+      "bill": "FY2020 Balanced Budget (2019)",
+      "vote": "signed",
+      "summary": "Signed June 5, 2019. A bipartisan $40 billion balanced budget for fiscal year 2019-2020 — the first balanced budget after multiple years of budget impasses under predecessor Bruce Rauner, who went 736 days without a budget (2015–2017), leaving the state with a $6 billion backlog of unpaid bills. The budget increased K-12 education funding by $379 million, added $80 million for DCFS, and implemented a 'tax amnesty' program. Pritzker has since signed seven consecutive balanced budgets through FY2026.",
+      "source": "https://en.wikipedia.org/wiki/JB_Pritzker"
+    },
+    {
+      "bill": "Clean Slate Act / HB 1836 (2026)",
+      "vote": "signed",
+      "summary": "Signed January 16, 2026. Automatically seals the nonviolent criminal records of over 1.7 million Illinois adults, eliminating the need to petition a court for record sealing. Designed to improve employment and housing access for people with past nonviolent convictions. Critics argued automatic sealing without victim notification goes too far; supporters noted the existing petition process was too burdensome for low-income residents.",
+      "source": "https://www.fox32chicago.com/news/pritzker-signs-clean-slate-act-signed-legislation-taking-effect-2026"
+    },
+    {
+      "bill": "COVID-19 Disaster Proclamation and Executive Orders (2020)",
+      "vote": "signed",
+      "summary": "Beginning March 13, 2020, Pritzker issued a series of executive orders closing schools (March 17–31), bars and restaurants (March 15), crowd gatherings to 50 people (March 16), and ultimately a statewide stay-at-home order (March 20, 2020). The orders were among the strictest in the Midwest and faced multiple legal challenges including from an Illinois state legislator (April 23, 2020), churches, and restaurants — most of which courts ultimately rejected. Pritzker extended restrictions through multiple phases, drawing criticism from rural counties and business owners. Illinois eventually implemented vaccine priority systems and mandates for state employees.",
+      "source": "https://lawreview.law.uic.edu/news-stories/challenges-to-illinoiss-stay-at-home-orders-in-response-to-covid-19/"
+    },
+    {
+      "bill": "Clean and Reliable Grid Affordability Act / CRGA (January 2026)",
+      "vote": "signed",
+      "summary": "Signed January 2026. An energy reform package that lifts Illinois' longstanding moratorium on new nuclear power plant construction, creates incentives for battery storage systems, and introduces 'virtual power plants' to harness distributed wind and solar resources. Seen as a major policy shift given Illinois had banned new nuclear plant construction for decades. Framed as addressing grid reliability concerns as aging coal plants close under CEJA's timeline.",
+      "source": "https://en.wikipedia.org/wiki/JB_Pritzker"
     }
   ],
   "endorsements": [
-    "Illinois Democratic Party",
-    "SEIU Illinois State Council",
-    "Illinois Federation of Teachers"
+    "Illinois AFL-CIO (2026 Primary Endorsement — Governor's race)",
+    "Christian Mitchell, former Deputy Governor (2026 running mate)",
+    "Juliana Stratton, current Lt. Governor and 2026 U.S. Senate candidate (endorsed Pritzker's gubernatorial bid)",
+    "Illinois Education Association (over 135,000 educators; endorsed in prior cycles, consistent supporter)",
+    "SEIU Illinois State Council (consistent supporter; endorsed 2018 and 2022)"
   ],
   "policy_positions": [
-    "Defend abortion rights and reproductive healthcare access",
-    "Continue SAFE-T Act implementation with targeted reforms",
-    "Clean energy transition and climate legislation",
-    "Public education investment and universal pre-K",
-    "Push back against federal Trump administration cuts to Illinois programs"
+    "Seeking historic third term as governor; announced June 26, 2025",
+    "Protect Illinois from federal Trump administration policy rollbacks (framing of 2026 campaign launch)",
+    "100% clean energy by 2050 per CEJA; lifted nuclear moratorium January 2026 for grid reliability",
+    "Maintain and expand reproductive rights as Illinois serves as regional abortion access hub (30% of abortions from out-of-state patients post-Dobbs)",
+    "Defend SAFE-T Act and pretrial reform against Republican repeal efforts",
+    "Oppose federal tariffs; sent $8.68 billion refund demand to Trump after Supreme Court tariffs ruling",
+    "Continue balanced budgets and pension buyout programs to address $143.7 billion unfunded pension liability",
+    "Potential 2028 presidential candidate — headlined New Hampshire Democratic Party fundraiser April 2025; has not ruled out White House run",
+    "Founded Think Big America (dark money group, sole funder) supporting pro-abortion rights candidates nationwide; received $6.8 million in 2024 tax year"
+  ],
+  "career_history": [
+    {
+      "role": "Legislative Staffer",
+      "org": "U.S. House and Senate (staffs of Reps. Tom Lantos, Senators Terry Sanford and Alan Dixon)",
+      "years": "1980s",
+      "highlight": "Worked on trade and transportation policy in Washington, D.C."
+    },
+    {
+      "role": "Founder",
+      "org": "Democratic Leadership for the 21st Century",
+      "years": "Late 1980s–1990s",
+      "highlight": "National organization to attract voters under 40 to the Democratic Party"
+    },
+    {
+      "role": "Managing Partner",
+      "org": "Pritzker Group Private Capital",
+      "years": "1990s–2019",
+      "highlight": "Co-founded private equity and venture capital firm; also co-founded Chicago Ventures and funded Techstars Chicago and Built in Chicago"
+    },
+    {
+      "role": "Congressional Candidate",
+      "org": "Illinois 9th Congressional District (Democratic Primary)",
+      "years": "1998",
+      "highlight": "Spent nearly $1 million of his own money; finished third with 20.5% behind Jan Schakowsky (45.1%) and Howard Carroll (34.4%)"
+    },
+    {
+      "role": "Chair",
+      "org": "Illinois Human Rights Commission",
+      "years": "2003–2006",
+      "highlight": "Appointed by Governor Rod Blagojevich; oversaw state civil rights enforcement"
+    },
+    {
+      "role": "Founder",
+      "org": "1871 (nonprofit digital startup incubator, Chicago)",
+      "years": "2012",
+      "highlight": "One of Chicago's leading tech entrepreneurship hubs"
+    },
+    {
+      "role": "National Co-Chair",
+      "org": "Hillary Clinton 2008 Presidential Campaign",
+      "years": "2007–2008",
+      "highlight": "Delegate to 2008 and 2016 Democratic National Conventions"
+    },
+    {
+      "role": "Governor of Illinois (43rd)",
+      "org": "State of Illinois",
+      "years": "January 14, 2019–present",
+      "highlight": "First term: cannabis legalization, minimum wage increase to $15, Reproductive Health Act, SAFE-T Act, CEJA. Second term: assault weapons ban, Clean Slate Act, 10 credit rating upgrades, 7 consecutive balanced budgets. Seeking third term 2026."
+    }
+  ],
+  "trust_indicators": [
+    {
+      "label": "Ten credit rating upgrades since 2021",
+      "value": "Illinois received 10 credit upgrades from Moody's, S&P, and Fitch between June 2021 and October 2025 — reversing 24 downgrades over the prior 15 years. Moody's upgraded to A2 in October 2025. Illinois had not received a single upgrade since June 2000 before Pritzker's tenure.",
+      "type": "positive"
+    },
+    {
+      "label": "Seven consecutive balanced budgets",
+      "value": "Pritzker has signed seven consecutive balanced budgets through FY2026, ending the structural deficit and budget impasse era under predecessor Rauner (who went 736 days without a budget in 2015-2017 and left a $6 billion bill backlog). Illinois rainy-day fund grew to nearly $2.4 billion by 2025.",
+      "type": "positive"
+    },
+    {
+      "label": "Cannabis revenue exceeded $2 billion by end of 2024",
+      "value": "Since legalization January 1, 2020, Illinois cannabis sales totaled over $2 billion by end of 2024, generating approximately $490 million in tax revenue directed to communities affected by the war on drugs and drug rehabilitation programs.",
+      "type": "positive"
+    },
+    {
+      "label": "$143.7 billion pension unfunded liability — highest per-capita in nation",
+      "value": "Despite credit upgrades and balanced budgets, Illinois' five state pension systems carry $143.7 billion in unfunded liabilities as of June 2025 — highest net pension liability per capita in the nation at $17,500 per resident. No structural constitutional reform has been enacted.",
+      "type": "negative"
+    },
+    {
+      "label": "Highest or second-highest property tax rate in the nation",
+      "value": "Illinois homeowners pay the highest effective property tax rate in the nation at 1.83% (2024 data) — more than double the national average. On a $250,500 median-priced home, that is $4,584/year. Property taxes have not meaningfully declined under Pritzker's tenure.",
+      "type": "negative"
+    },
+    {
+      "label": "364,443 residents fled Illinois to other states, 2020–2023",
+      "value": "U.S. Census Bureau data shows Illinois lost 263,780 net residents from April 2020 through June 2023, entirely driven by 364,443 Illinoisans moving to other states — 10 consecutive years of population decline through 2023. Any 2024 growth was driven by international migration, not reversal of domestic out-migration.",
+      "type": "negative"
+    },
+    {
+      "label": "Toilet scandal: Cook County IG found 'scheme to defraud' taxpayers",
+      "value": "Cook County Inspector General Patrick Blanchard concluded in 2018 that removing toilets from a $3.7 million mansion was 'a scheme to defraud' the county of $331,000 in property taxes. Pritzker repaid $330,000 only after the report leaked during the campaign. Federal prosecutors subsequently requested records from the Cook County assessor's office.",
+      "type": "negative"
+    },
+    {
+      "label": "Spent combined $323M–$350M on two gubernatorial races; pledged to spend freely in 2026",
+      "value": "Pritzker is the most self-financed governor in Illinois history, spending $171.5M in 2018 and $152M in 2022. He deposited $25.5M of his own money into his 2026 campaign account by November 2025 and has signaled unlimited spending. He also donated $24M to the Democratic Governors Association in 2022 to shape the Republican primary by propping up weaker opponent Darren Bailey.",
+      "type": "negative"
+    },
+    {
+      "label": "Illinois first state to eliminate cash bail — September 18, 2023",
+      "value": "Under Pritzker's SAFE-T Act, Illinois became the first state in the nation to fully eliminate cash bail on September 18, 2023. Supporters cite equal justice; critics cite cases where defendants charged with serious crimes were released pre-trial. The Illinois Supreme Court upheld the law 5-2.",
+      "type": "positive"
+    },
+    {
+      "label": "Illinois abortion access hub post-Dobbs — 45% increase in abortions, 30% out-of-state patients",
+      "value": "After signing the 2019 Reproductive Health Act and with no post-Dobbs restrictions, Illinois became a regional abortion access hub. Abortions increased 45% in the year following the Dobbs ruling; 30% of Illinois abortions were performed on patients from out-of-state — primarily from neighboring states with bans.",
+      "type": "positive"
+    }
   ],
   "transparency_grade": null
 }

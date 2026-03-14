@@ -4,28 +4,319 @@
   "party": "Democratic",
   "office": "Illinois Comptroller",
   "race_id": "il-comptroller-d-2026",
-  "bio": "Holly Kim is the Lake County Treasurer, running for Illinois Comptroller in the 4-way Democratic primary on March 17, 2026. She carries the explicit endorsement of outgoing Comptroller Susana Mendoza, who credits Kim as the candidate who will continue the fiscal turnaround she engineered after the Bruce Rauner era. Kim argues her hands-on government treasury experience makes her uniquely qualified — she can do the job from day one. Kim is the candidate of institutional continuity, backed by the sitting Comptroller's credibility.",
-  "prior_office": "Lake County Treasurer",
-  "website": null,
+  "bio": "Holly Kim is the Lake County Treasurer, currently serving her second term, and is running for Illinois Comptroller in the four-way Democratic primary on March 17, 2026. She earned a high school diploma from Glenbrook North High School and a bachelor's degree from Northeastern Illinois University. If elected, she would make history as the first Asian American elected to a statewide constitutional office in Illinois. Kim was first elected Lake County Treasurer in 2018 and reelected. As Lake County Treasurer, she oversees an office that processes and cuts $73.5 million in checks and $2.8 billion in ACH distributions annually \u2014 a function she argues is directly analogous to the Comptroller's core work. Under her leadership, the Lake County Treasurer's office secured record investment earnings of over $3.2 million in a single year, representing a 200%+ increase from when she took office. She serves as a Commissioner for the Bank On Illinois initiative under the Illinois Comptroller's Office, giving her direct familiarity with the statewide operation. She is affiliated with Mano a Mano, the Hanul Family Alliance, the Illinois Asian American Caucus, the Democratic Party of Lake County, and the Fremont Township Democrats. The four-candidate Democratic primary also includes Rep. Margaret Croke (top fundraiser), Rep. Karina Villa, and Rep. Stephanie Kifowit. Kim carries the explicit endorsement of outgoing Comptroller Susana Mendoza. Kim has described her background in technology and process improvement as core to her platform, including pushing back against misuse of license plate reader data as a Village Trustee in Mundelein in 2013.",
+  "prior_office": "Lake County Treasurer (2018\u2013present, serving second term); Village Trustee, Mundelein (prior); Township Director, Fremont Township",
+  "website": "https://www.voteforhollykim.com",
   "photo_url": null,
   "jacket": {
     "total_raised": null,
-    "pac_support_total": null,
+    "total_disbursed": null,
+    "cash_on_hand": 327936.5,
     "data_date": "2026-03-14",
-    "source": "https://abc7chicago.com/post/primary-election-2026-illinois-comptroller-candidates-margaret-croke-karina-villa-holly-kim-stephanie-kifowit-appeal-voters/18686085/",
-    "note": "Fundraising totals not publicly confirmed. Fourth in fundraising but carries Mendoza endorsement — the most credible institutional backing in the race for this specific office.",
-    "donors": [],
-    "fec_id": null
+    "source": "https://illinoissunshine.org/committees/friends-of-holly-kim-32198/",
+    "note": "ILSBE committee ID 32198 ('Friends of Holly Kim') confirmed. Dec 31, 2025 quarterly report: $240,991.30 funds available + $86,945.20 contributions since Dec 31 = $327,936.50 cash on hand. $34.59 in investments, $2,000 in debts. Top donor: Teamsters Local 705 PAC Account $78,000 (March 11, 2026 \u2014 very recent). Holly Kim herself contributed $23,362.60. Lake County Democratic Central Committee gave $21,322.77. Ethereum donation of $8,158.84 (cryptocurrency contribution \u2014 notable). Old National Bank, Clarity Partners LLC, Leonard Law Group, and multiple Teamster locals all in top donors, indicating strong labor and local business support base. Fourth in fundraising in IL Comptroller race.",
+    "donors": [
+      {
+        "name": "Teamsters Local 705 PAC Account",
+        "amount": 78000.0,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/friends-of-holly-kim-32198/",
+        "confirmed": true
+      },
+      {
+        "name": "Holly Kim (candidate self-contributions)",
+        "amount": 23362.6,
+        "category": "self",
+        "source": "https://illinoissunshine.org/committees/friends-of-holly-kim-32198/",
+        "confirmed": true
+      },
+      {
+        "name": "Lake County Democratic Central Committee",
+        "amount": 21322.77,
+        "category": "party",
+        "source": "https://illinoissunshine.org/committees/friends-of-holly-kim-32198/",
+        "confirmed": true
+      },
+      {
+        "name": "Friends of Sam Yingling",
+        "amount": 16065.0,
+        "category": "candidate-committee",
+        "source": "https://illinoissunshine.org/committees/friends-of-holly-kim-32198/",
+        "confirmed": true
+      },
+      {
+        "name": "Democratic Party of Illinois",
+        "amount": 11668.24,
+        "category": "party",
+        "source": "https://illinoissunshine.org/committees/friends-of-holly-kim-32198/",
+        "confirmed": true
+      },
+      {
+        "name": "James Vasselli",
+        "amount": 10250.0,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/friends-of-holly-kim-32198/",
+        "confirmed": true
+      },
+      {
+        "name": "Kim's Beauty Supply",
+        "amount": 10000.0,
+        "category": "business",
+        "source": "https://illinoissunshine.org/committees/friends-of-holly-kim-32198/",
+        "confirmed": true
+      },
+      {
+        "name": "Friends of Sharon Chung",
+        "amount": 10000.0,
+        "category": "candidate-committee",
+        "source": "https://illinoissunshine.org/committees/friends-of-holly-kim-32198/",
+        "confirmed": true
+      },
+      {
+        "name": "Schneider for Congress",
+        "amount": 9250.0,
+        "category": "candidate-committee",
+        "source": "https://illinoissunshine.org/committees/friends-of-holly-kim-32198/",
+        "confirmed": true
+      },
+      {
+        "name": "Dillard & King, LLC",
+        "amount": 8999.0,
+        "category": "business",
+        "source": "https://illinoissunshine.org/committees/friends-of-holly-kim-32198/",
+        "confirmed": true
+      },
+      {
+        "name": "Vasselli Law",
+        "amount": 8478.48,
+        "category": "business",
+        "source": "https://illinoissunshine.org/committees/friends-of-holly-kim-32198/",
+        "confirmed": true
+      },
+      {
+        "name": "Yumi Ross",
+        "amount": 8300.0,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/friends-of-holly-kim-32198/",
+        "confirmed": true
+      },
+      {
+        "name": "Tracy Katz Muhl for State Central Committeeperson",
+        "amount": 8267.79,
+        "category": "candidate-committee",
+        "source": "https://illinoissunshine.org/committees/friends-of-holly-kim-32198/",
+        "confirmed": true
+      },
+      {
+        "name": "ETHEREUM (cryptocurrency donation)",
+        "amount": 8158.84,
+        "category": "cryptocurrency",
+        "source": "https://illinoissunshine.org/committees/friends-of-holly-kim-32198/",
+        "confirmed": true
+      },
+      {
+        "name": "Esiah Campos for Lake County",
+        "amount": 8000.0,
+        "category": "candidate-committee",
+        "source": "https://illinoissunshine.org/committees/friends-of-holly-kim-32198/",
+        "confirmed": true
+      },
+      {
+        "name": "Asian American Leaders Caucus PAC",
+        "amount": 8000.0,
+        "category": "advocacy-pac",
+        "source": "https://illinoissunshine.org/committees/friends-of-holly-kim-32198/",
+        "confirmed": true
+      },
+      {
+        "name": "Joel Kennedy",
+        "amount": 7500.0,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/friends-of-holly-kim-32198/",
+        "confirmed": true
+      },
+      {
+        "name": "Old National Bank",
+        "amount": 7500.0,
+        "category": "business",
+        "source": "https://illinoissunshine.org/committees/friends-of-holly-kim-32198/",
+        "confirmed": true
+      },
+      {
+        "name": "Clarity Partners LLC",
+        "amount": 7500.0,
+        "category": "business",
+        "source": "https://illinoissunshine.org/committees/friends-of-holly-kim-32198/",
+        "confirmed": true
+      },
+      {
+        "name": "Leonard Law Group",
+        "amount": 7300.0,
+        "category": "business",
+        "source": "https://illinoissunshine.org/committees/friends-of-holly-kim-32198/",
+        "confirmed": true
+      },
+      {
+        "name": "Teamsters Local Union No. 731 PAC Fund",
+        "amount": 7300.0,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/friends-of-holly-kim-32198/",
+        "confirmed": true
+      },
+      {
+        "name": "Teamsters Local Union No. 727 Political Action Committee",
+        "amount": 7300.0,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/friends-of-holly-kim-32198/",
+        "confirmed": true
+      },
+      {
+        "name": "Ashland Dental",
+        "amount": 7300.0,
+        "category": "business",
+        "source": "https://illinoissunshine.org/committees/friends-of-holly-kim-32198/",
+        "confirmed": true
+      },
+      {
+        "name": "Lake County Democrats",
+        "amount": 7257.26,
+        "category": "party",
+        "source": "https://illinoissunshine.org/committees/friends-of-holly-kim-32198/",
+        "confirmed": true
+      },
+      {
+        "name": "Ann Jhin",
+        "amount": 7200.0,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/friends-of-holly-kim-32198/",
+        "confirmed": true
+      }
+    ],
+    "donors_note": "Itemized donor data not available from public ISBE or OpenSecrets as of data date. Marked limited.",
+    "ilsbe_id": "32198"
   },
   "red_flags": [],
-  "key_votes": [],
+  "key_votes": [
+    {
+      "bill": "License Plate Reader (LPR) Data Privacy Restrictions \u2014 Mundelein Village Board, 2013",
+      "vote": "Yes \u2014 championed",
+      "summary": "As Village Trustee in Mundelein, Kim pushed back against proposed uses of license plate reader data, insisting on strong guardrails to prevent surveillance overreach. The policy was adopted with her restrictions in place. Kim cites this as foundational to her ongoing data privacy advocacy.",
+      "source": "https://www.voteforhollykim.com"
+    }
+  ],
   "endorsements": [
-    "Susana Mendoza (outgoing Illinois Comptroller)"
+    "Susana Mendoza (outgoing Illinois Comptroller)",
+    "Abundant CU (Sway viewpoint group)",
+    "Chelsea Laliberte Barnes' Voter Guide",
+    "Chicago's Progressive Northside Dems Organization",
+    "Liberal Moms of the NW Suburbs",
+    "North Shore Liberal Moms",
+    "Western Suburbs Women for Progress"
   ],
-  "policy_positions": [
-    "Continue Mendoza-era fiscal turnaround",
-    "Day-one competency — government treasury management experience",
-    "Protect Illinois from federal funding cuts"
+  "career_history": [
+    {
+      "role": "Lake County Treasurer",
+      "org": "Lake County, Illinois",
+      "years": "2018\u2013present",
+      "highlight": "Serving second term. Oversees $2.8B in ACH distributions annually. Achieved record investment earnings of over $3.2M in a single year (200%+ increase). Manages unionized AFSCME workforce. Added credit unions as property tax collection sites to improve access for working families."
+    },
+    {
+      "role": "Village Trustee",
+      "org": "Village of Mundelein, Illinois",
+      "years": "circa 2013\u20132018",
+      "highlight": "Pushed back against misuse of LPR data. Only board member to oppose Governor Rauner's Turnaround Agenda; her pushback helped prevent it from advancing."
+    },
+    {
+      "role": "Township Director",
+      "org": "Fremont Township, Lake County",
+      "years": "prior to Treasurer",
+      "highlight": "Local government executive experience before county-level role."
+    },
+    {
+      "role": "Commissioner, Bank On Illinois Initiative",
+      "org": "Illinois Comptroller's Office",
+      "years": "current",
+      "highlight": "Current service under the office she seeks, giving her direct operational familiarity."
+    },
+    {
+      "role": "Tech Transition Team Member",
+      "org": "Office of IL Secretary of State-elect Alexi Giannoulias",
+      "years": "2022",
+      "highlight": "Provided technology modernization recommendations; proposed leveraging public libraries as extended customer service options for government technology."
+    }
   ],
-  "transparency_grade": null
+  "policy_platform": [
+    {
+      "topic": "Data Privacy / MAGA Overreach",
+      "position": "Will use Comptroller's office as a firewall against improper data sharing, block outside access to state financial and tax records, and protect Illinoisans' personal information from political weaponization.",
+      "source": "https://www.voteforhollykim.com"
+    },
+    {
+      "topic": "Prevailing Wage Enforcement",
+      "position": "Strengthen and expand enforcement of prevailing wage laws; invest in the Comptroller's Prevailing Wage Department to ensure workers on public projects are paid legally required wages. Pro-union \u2014 manages AFSCME-represented workforce as Treasurer.",
+      "source": "https://www.voteforhollykim.com"
+    },
+    {
+      "topic": "Modernization / Technology",
+      "position": "Phase out paper checks to prevent check-washing fraud, implement secure digital tools like DocuSign, upgrade cybersecurity, standardize payment documentation for clearer tracking of public dollars.",
+      "source": "https://www.voteforhollykim.com"
+    },
+    {
+      "topic": "Fiscal Transparency",
+      "position": "Expand public dashboards on state spending, enforce municipal financial reporting requirements, ensure timely payments to social service providers and local governments.",
+      "source": "https://www.voteforhollykim.com"
+    },
+    {
+      "topic": "Progressive Income Tax / Credit Rating",
+      "position": "Supports a progressive state income tax as part of improving Illinois' credit rating. Plans to leverage Comptroller's platform to advocate for long-term fiscal stability.",
+      "source": "https://capitolnewsillinois.com/news/election-26-4-democrats-seeking-to-replace-mendoza-as-illinois-comptroller/"
+    }
+  ],
+  "social_pulse": {
+    "summary": "Strong engagement in suburban progressive and Asian American communities. Well-organized endorsement network. Lower media profile than Croke or Kifowit at the state level, but strong grassroots base in Lake County and northern Chicago suburbs. Her Mendoza endorsement is the most significant institutional backing in the comptroller race.",
+    "sentiment": "positive",
+    "hashtags": [
+      "#HollyKim",
+      "#ILComptroller",
+      "#VoteHollyKim"
+    ],
+    "last_updated": "2026-03-14"
+  },
+  "trust_indicators": [
+    {
+      "label": "Endorsed by incumbent Comptroller Susana Mendoza \u2014 confirmed",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "Two terms as elected Lake County Treasurer \u2014 confirmed",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "Manages $2.8B in ACH distributions annually \u2014 confirmed via Ballotpedia survey",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "No ethics violations or criminal matters in public record",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "Campaign finance totals not publicly available as of March 14, 2026",
+      "value": true,
+      "type": "neutral"
+    }
+  ],
+  "transparency_score": {
+    "grade": "B-",
+    "computed": true,
+    "financial_transparency": "D",
+    "platform_completeness": "A",
+    "record_available": true,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-14",
+    "notes": "Strong platform completeness and clean public record. Financial transparency grade limited by unavailability of ISBE/OpenSecrets fundraising data. Two-term elected executive record confirmed."
+  }
 }
