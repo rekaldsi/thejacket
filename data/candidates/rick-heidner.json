@@ -191,5 +191,31 @@
     }
   ],
   "transparency_grade": null,
-  "policy_platform": []
+  "policy_platform": [],
+  "news_hits": [
+    {
+      "headline": "Illinois 2026 GOP primary for governor features four candidates and one familiar face but big donors sit out",
+      "summary": "Chicago Tribune reports on the underfunded GOP governor primary, noting Heidner is 'facing criticism for donating to several Democratic candidates before his run for the Republican nomination' — including $25,000 to Brandon Johnson, $5,000 to Toni Preckwinkle, and $2,500 to Kim Foxx — which opponents call 'pay-to-play.'",
+      "url": "https://www.chicagotribune.com/2026/03/08/illinois-2026-gop-primary-for-governor-features-four-candidates-and-one-familiar-face-but-big-donors-sit-out/",
+      "date": "2026-03-08",
+      "severity": "high",
+      "source_name": "Chicago Tribune"
+    },
+    {
+      "headline": "Illinois primary election: Key races for governor, U.S. Senate",
+      "summary": "USA Today's primary preview highlights Heidner's business acumen pitch while noting the dual controversy of his gaming industry conflict of interest (the governor appoints the Illinois Gaming Board that regulates his own company) and his history of donating to Democratic candidates.",
+      "url": "https://eu.usatoday.com/story/news/politics/elections/2026/03/14/illinois-primary-election-2026-key-races-for-governor-us-senate-comptroller/89084056007/",
+      "date": "2026-03-14",
+      "severity": "medium",
+      "source_name": "USA Today"
+    },
+    {
+      "headline": "Familiar foes line up in Republican primary for chance against Gov. JB Pritzker",
+      "summary": "Chicago Sun-Times profiles the four-way GOP governor primary, describing Heidner as a candidate who 'lost a big chunk of his fortune in regulatory fights with Pritzker's administration' — specifically the 2019 blocking of his Tinley Park racino proposal after the Tribune's investigation into his business ties.",
+      "url": "https://chicago.suntimes.com/elections/2026/02/23/illinois-republican-primary-governor-candidates-preview-bailey-dabrowski-heidner-mendrick",
+      "date": "2026-02-23",
+      "severity": "medium",
+      "source_name": "Chicago Sun-Times"
+    }
+  ]
 }

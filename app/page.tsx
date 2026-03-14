@@ -3,7 +3,8 @@ import Image from "next/image";
 import { getAllCandidates, getAllJudges, getRaces } from "@/lib/data";
 import { buildScorecard } from "@/lib/scoring";
 import { scoreJudge } from "@/lib/judgeScoring";
-import HotBoard, { extractSignals } from "@/components/HotBoard";
+import HotBoardCarousel from "@/components/HotBoardCarousel";
+import { extractSignals } from "@/components/HotBoard";
 import type { ScorecardEntry } from "@/lib/scoring";
 import type { Judge } from "@/lib/types";
 
@@ -165,21 +166,23 @@ export default function HomePage() {
 
       {/* ── HOT BOARD ── */}
       {allSignals.length > 0 && (
-        <section>
-          <div className="mb-4 flex items-center justify-between">
-            <div>
-              <h2 className="pb-1 pt-4 text-2xl font-black uppercase tracking-tight">
-                🔥 Hot Board
-              </h2>
-              <p className="text-sm text-zinc-500 max-w-lg">
-                Notable signals bubbling up across all {activeCandidates.length} candidates — late donations, confirmed flags, breaking coverage. Updated as data lands.
-              </p>
-            </div>
-            <Link href="/scorecard" className="shrink-0 text-xs uppercase tracking-widest text-jacket-amber">
-              Full scorecard →
-            </Link>
+        <section className="-mx-4 sm:-mx-6 lg:-mx-8">
+          {/* Header — full width inset */}
+          <div className="mb-4 flex items-center gap-3 px-4 sm:px-6 lg:px-8">
+            <span className="relative flex h-2.5 w-2.5 shrink-0">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-400 opacity-75" />
+              <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-red-500" />
+            </span>
+            <h2 className="font-mono text-xs font-black uppercase tracking-[0.22em] text-jacket-amber">
+              Live Intel Feed
+            </h2>
+            <span className="font-mono text-[10px] uppercase tracking-widest text-zinc-600">
+              {allSignals.length} signals · hover to pause
+            </span>
           </div>
-          <HotBoard signals={allSignals} limit={8} />
+
+          {/* Full-bleed carousel */}
+          <HotBoardCarousel signals={allSignals} />
         </section>
       )}
 

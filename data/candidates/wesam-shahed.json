@@ -224,5 +224,15 @@
     "record_available": false,
     "red_flags_count": 0,
     "computed_at": "2026-03-14"
-  }
+  },
+  "news_hits": [
+    {
+      "headline": "Cook County board seats in play, with new faces guaranteed among 17 commissioners",
+      "summary": "Chicago Tribune's pre-primary analysis confirms Shahed and Worth Township Supervisor Patricia Joan Murphy are the only two District 6 candidates who have raised enough money to mount a serious campaign — with Shahed by far the dominant fundraiser at $591K cash on hand vs. a five-candidate field.",
+      "url": "https://www.chicagotribune.com/2026/03/14/cook-county-board-seats-in-play-new-faces-guaranteed-among-17-commissioners/",
+      "date": "2026-03-14",
+      "severity": "medium",
+      "source_name": "Chicago Tribune"
+    }
+  ]
 }

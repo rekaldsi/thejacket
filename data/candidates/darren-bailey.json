@@ -212,5 +212,23 @@
     }
   ],
   "transparency_grade": null,
-  "policy_platform": []
+  "policy_platform": [],
+  "news_hits": [
+    {
+      "headline": "Familiar foes line up in Republican primary for chance against Gov. JB Pritzker",
+      "summary": "Chicago Sun-Times profiles Bailey as the field's frontrunner on name recognition from his 2022 loss, but notes the campaign has only $152K cash on hand vs. $316K in debts, and that he remained in the race after the October 2025 helicopter crash that killed his son, daughter-in-law, and two grandchildren — describing him as a 'changed candidate' running with a moderating tone.",
+      "url": "https://chicago.suntimes.com/elections/2026/02/23/illinois-republican-primary-governor-candidates-preview-bailey-dabrowski-heidner-mendrick",
+      "date": "2026-02-23",
+      "severity": "medium",
+      "source_name": "Chicago Sun-Times"
+    },
+    {
+      "headline": "Illinois primary election: Key races for governor, U.S. Senate",
+      "summary": "USA Today pre-primary analysis notes a Victory Research poll showing Pritzker with a 20% lead over Bailey in a hypothetical general election rematch, with Pritzker's approval at 52% — underscoring Bailey's continued electability challenge despite his frontrunner status in the GOP primary.",
+      "url": "https://eu.usatoday.com/story/news/politics/elections/2026/03/14/illinois-primary-election-2026-key-races-for-governor-us-senate-comptroller/89084056007/",
+      "date": "2026-03-14",
+      "severity": "medium",
+      "source_name": "USA Today"
+    }
+  ]
 }

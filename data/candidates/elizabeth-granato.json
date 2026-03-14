@@ -126,5 +126,15 @@
     "record_available": true,
     "red_flags_count": 2,
     "computed_at": "2026-03-14"
-  }
+  },
+  "news_hits": [
+    {
+      "headline": "Cook County board seats in play, with new faces guaranteed among 17 commissioners",
+      "summary": "Chicago Tribune's primary preview notes District 12 is an open seat (incumbent Bridget Degnen retiring) with Granato positioned as the frontrunner based on endorsements from multiple U.S. representatives, the Chicago Tribune editorial board, labor unions, and a dominant fundraising total of $517K cash on hand.",
+      "url": "https://www.chicagotribune.com/2026/03/14/cook-county-board-seats-in-play-new-faces-guaranteed-among-17-commissioners/",
+      "date": "2026-03-14",
+      "severity": "medium",
+      "source_name": "Chicago Tribune"
+    }
+  ]
 }

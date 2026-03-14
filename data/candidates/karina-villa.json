@@ -275,5 +275,15 @@
     "red_flags_count": 3,
     "note": "Finance confirmed via Tribune citing ISBE; individual donor names not pulled. Three structural red flags (experience gap vs. competitors, endorsement losses). Strong legislative record. No ethics violations.",
     "computed_at": "2026-03-14"
-  }
+  },
+  "news_hits": [
+    {
+      "headline": "Bernie Sanders endorses state Sen. Karina Villa for Illinois comptroller",
+      "summary": "U.S. Senator Bernie Sanders announced his endorsement of Villa for Illinois Comptroller on March 9, 2026, calling her 'one of the most progressive voices in the Illinois State Senate' and highlighting her work on tax fairness, union rights, and healthcare access.",
+      "url": "https://www.chicagotribune.com/2026/03/09/bernie-sanders-karina-villa-illinois-comptroller/",
+      "date": "2026-03-09",
+      "severity": "medium",
+      "source_name": "Chicago Tribune"
+    }
+  ]
 }

@@ -284,5 +284,23 @@
     "record_available": true,
     "red_flags_count": 12,
     "computed_at": "2026-03-14"
-  }
+  },
+  "news_hits": [
+    {
+      "headline": "Cook County Board president race hinges on whether voters want steady hand or new course",
+      "summary": "The Chicago Tribune's pre-primary analysis examines the race between incumbent Preckwinkle and challenger Ald. Brendan Reilly (42nd Ward), framing it as an establishment vs. modernization contest. Reilly has raised competitively and made the Tyler Technologies contract cost overruns a central attack.",
+      "url": "https://www.chicagotribune.com/2026/03/11/cook-county-board-president/",
+      "date": "2026-03-11",
+      "severity": "medium",
+      "source_name": "Chicago Tribune"
+    },
+    {
+      "headline": "Preckwinkle seeks fifth term as Cook County Board President, talks political future",
+      "summary": "WGN-TV reports Preckwinkle is seeking an unprecedented fifth term and faces a serious primary challenge from Chicago Ald. Brendan Reilly, who has made the county's property tax system modernization failures and Preckwinkle's age (she is 79) key issues in the race.",
+      "url": "https://wgntv.com/news/politics/wgn-the-point-politics-chicago-illinois/preckwinkle-seeks-fifth-term-as-cook-county-board-president-talks-political-future/",
+      "date": "2026-03-10",
+      "severity": "medium",
+      "source_name": "WGN-TV"
+    }
+  ]
 }

@@ -346,5 +346,39 @@
     "red_flags_count": 4,
     "computed_at": "2026-03-14",
     "notes": "Exceptional policy record depth. Two red flags are documented (SB 1, academic papers) but acknowledged. Two others (AIPAC, Northwestern protests) are contested/unconfirmed. Highest record availability of the four profiles in this batch."
-  }
+  },
+  "news_hits": [
+    {
+      "headline": "Two Progressives Fight AIPAC (and Each Other) in IL-09",
+      "summary": "The American Prospect reports that AIPAC-linked Elect Chicago Women (ECW) super PAC has spent millions supporting state Sen. Laura Fine and attacking Evanston Mayor Daniel Biss in the IL-09 race. Biss warned: 'It's absolutely essential that we not allow AIPAC to buy the seat.' Abughazaleh is also rising in polls, forcing AIPAC to pivot spending against her.",
+      "url": "https://prospect.org/2026/03/13/progressives-fight-aipac-congress-illinois-biss-fine-abughazaleh/",
+      "date": "2026-03-13",
+      "severity": "high",
+      "source_name": "The American Prospect"
+    },
+    {
+      "headline": "AIPAC's Attack on the Liberal Zionists",
+      "summary": "Jewish Currents examines how AIPAC is spending against Biss despite his relatively moderate Israel positions, and notes a poll showing Abughazaleh narrowing to within 4 points of Biss — creating a three-way dynamic where AIPAC's anti-Biss spending may be backfiring by pushing voters toward Abughazaleh.",
+      "url": "https://jewishcurrents.org/aipacs-attack-on-the-liberal-zionists",
+      "date": "2026-03-11",
+      "severity": "high",
+      "source_name": "Jewish Currents"
+    },
+    {
+      "headline": "Inside AIPAC's peculiar strategy to sink progressives: Attack them from the left",
+      "summary": "Axios reports that Elect Chicago Women (ECW), a new super PAC rumored to be backed by AIPAC donors, has spent millions in IL-09 supporting Laura Fine and attacking Biss — while AIPAC's United Democracy Project spent $266K against Abughazaleh, creating a multi-front spending war in the final week.",
+      "url": "https://www.axios.com/2026/03/13/aipac-illinois-abughazaleh-ahmed-bean-biss-israel",
+      "date": "2026-03-13",
+      "severity": "high",
+      "source_name": "Axios"
+    },
+    {
+      "headline": "A voter's guide to the confusing world of super PACs influencing 2026 Illinois primary races",
+      "summary": "WBEZ confirms 3.14 Action Fund (pro-science PAC) has spent $409,000 in support of Biss, while AIPAC-linked spending against him escalates in the final week before the primary.",
+      "url": "https://www.wbez.org/government-politics/elections/2026/03/13/super-pacs-influence-2026-illinois-primary-races-glossary",
+      "date": "2026-03-13",
+      "severity": "medium",
+      "source_name": "WBEZ Chicago"
+    }
+  ]
 }
