@@ -34,7 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <header className="sticky top-0 z-50 bg-jacket-black/95 backdrop-blur-sm border-b border-jacket-border">
             <nav className="flex items-center justify-between py-4">
               <Link href="/" className="text-xl font-extrabold uppercase tracking-tight text-jacket-white">
-                THEJACKET
+                THE<span className="text-jacket-amber">JACKET</span>
               </Link>
 
               <div className="hidden items-center gap-3 text-xs uppercase tracking-widest text-zinc-300 sm:flex">
@@ -71,7 +71,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
           <footer className="border-t border-jacket-border py-6 text-xs uppercase tracking-wide text-zinc-400">
             <div className="flex flex-col justify-between gap-2 md:flex-row">
-              <span>THEJACKET / COOK COUNTY PRIMARY / MARCH 17, 2026</span>
+              <span>THE<span className="text-jacket-amber">JACKET</span> / COOK COUNTY PRIMARY / MARCH 17, 2026</span>
               <Link href="/about" className="text-jacket-amber">
                 ABOUT + METHODOLOGY
               </Link>
