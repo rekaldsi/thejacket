@@ -117,8 +117,44 @@ export default function HomePage() {
   const bottom3 = scorecard.slice(-3);
 
   // HotBoard — collect notable signals from all active candidates
+  // Interleaved so no candidate dominates: round-robin across candidates by signal score
   const activeCandidates = candidates.filter((c) => c.status !== "withdrawn");
-  const allSignals = activeCandidates.flatMap(extractSignals);
+
+  // Group signals by candidate, each group sorted best-first
+  const signalsByCand: Record<string, ReturnType<typeof extractSignals>> = {};
+  for (const c of activeCandidates) {
+    const sigs = extractSignals(c);
+    if (sigs.length > 0) signalsByCand[c.id] = sigs;
+  }
+
+  // Sort candidate groups by their top signal score (most newsworthy candidate leads)
+  function rankSignalScore(s: { severity: string; confirmed: boolean; type: string; label?: string; detail?: string; date?: string }): number {
+    let score = 0;
+    if (s.severity === "critical") score += 300;
+    else if (s.severity === "high") score += 200;
+    else score += 100;
+    if (s.confirmed) score += 50;
+    if (s.type === "red_flag") score += 30;
+    if (s.type === "news") score += 20;
+    const label = s.label ?? "";
+    const detail = s.detail ?? "";
+    if (label.includes("2026") || detail.includes("2026")) score += 25;
+    if (label.includes("March") || detail.includes("March 2026")) score += 40;
+    return score;
+  }
+
+  const sortedGroups = Object.values(signalsByCand)
+    .map((sigs) => [...sigs].sort((a, b) => rankSignalScore(b) - rankSignalScore(a)))
+    .sort((a, b) => rankSignalScore(b[0]) - rankSignalScore(a[0]));
+
+  // Round-robin interleave: take one from each candidate group in order, cycle
+  const allSignals: ReturnType<typeof extractSignals> = [];
+  const maxLen = Math.max(...sortedGroups.map((g) => g.length), 0);
+  for (let i = 0; i < maxLen; i++) {
+    for (const group of sortedGroups) {
+      if (i < group.length) allSignals.push(group[i]);
+    }
+  }
 
   return (
     <div className="space-y-24">
