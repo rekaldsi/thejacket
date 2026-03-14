@@ -365,24 +365,11 @@
   },
   {
     "id": "il-comptroller-d-2026",
-    "name": "Illinois Comptroller \u2014 Democratic Primary",
-    "office": "Illinois Comptroller",
-    "jurisdiction": "State of Illinois (statewide)",
-    "type": "state_executive",
+    "jurisdiction": "State of Illinois",
     "party": "Democratic",
-    "seats": 1,
-    "contested": true,
-    "incumbent": "Susana Mendoza (not seeking re-election)",
-    "candidateIds": [
-      "margaret-croke",
-      "karina-villa",
-      "stephanie-kifowit",
-      "holly-kim"
-    ],
-    "notes": "Battleground race per Ballotpedia. Croke is frontrunner with Pritzker + Cook County Dem endorsements. Villa close second in fundraising. Primary March 17, 2026.",
-    "sources": [
-      "https://ballotpedia.org/Illinois_Comptroller_election,_2026",
-      "https://abc7chicago.com/post/primary-election-2026-illinois-comptroller-candidates-margaret-croke-karina-villa-holly-kim-stephanie-kifowit-appeal-voters/18686085/"
-    ]
+    "slug": "il-comptroller-democratic-primary",
+    "title": "Illinois Comptroller \u2014 Democratic Primary",
+    "description": "Four Democratic women compete to replace retiring Comptroller Susana Mendoza. The Comptroller pays Illinois's bills and is the last line of financial oversight \u2014 especially critical as Trump-era federal cuts threaten state budgets. Frontrunner Margaret Croke (Pritzker-endorsed) faces progressive challenger Karina Villa, veteran legislator Stephanie Kifowit, and Mendoza-endorsed Lake County Treasurer Holly Kim.",
+    "candidateCount": 4
   }
 ]
