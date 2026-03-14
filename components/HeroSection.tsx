@@ -39,71 +39,103 @@ function CountdownUnit({ value, label }: { value: number; label: string }) {
 }
 
 function Divider() {
-  return <span className="font-mono text-jacket-amber/50 text-base pb-3">:</span>;
+  return <span className="font-mono text-jacket-amber/40 text-base self-start mt-1">:</span>;
 }
 
 export default function HeroSection() {
   const { days, hours, minutes, seconds, total } = useCountdown();
-  const sectionRef = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
+  const sectionRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // Trigger entrance on mount with a tiny delay so CSS transition fires
     const id = setTimeout(() => setVisible(true), 50);
     return () => clearTimeout(id);
   }, []);
 
   const elapsed = total === 0;
 
+  const fadeIn = (delay: string) => ({
+    opacity: visible ? 1 : 0,
+    transform: visible ? "translateY(0)" : "translateY(10px)",
+    transition: `opacity 0.55s ${delay} ease-out, transform 0.55s ${delay} ease-out`,
+  });
+
   return (
     <section
       ref={sectionRef}
-      className="relative flex flex-col items-center gap-6 py-4 md:flex-row md:items-center md:justify-between md:gap-12 md:py-6 overflow-hidden"
+      className="relative flex flex-col items-center gap-8 py-6 md:flex-row md:items-center md:justify-between md:gap-12"
     >
-      {/* Background ambient glow — radiates from behind jacket */}
-      <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
-        {/* Ambient radial glow — right side (behind jacket) */}
-        <div className="absolute right-[-60px] top-[-60px] h-[500px] w-[500px] rounded-full bg-amber-500/5 blur-[80px] animate-glow-breathe" />
-        {/* Subtle warm fill — center-left */}
-        <div className="absolute left-[20%] bottom-[-40px] h-[280px] w-[280px] rounded-full bg-amber-500/3 blur-[100px]" />
+      {/*
+        Glow — absolutely positioned, overflow allowed to bleed.
+        No overflow-hidden on the section so it fades naturally.
+        Very low opacity + massive blur = atmospheric, not a shape.
+      */}
+      <div
+        className="pointer-events-none absolute -z-10"
+        style={{ inset: "-120px" }}
+      >
+        <div
+          className="absolute right-0 top-0 rounded-full bg-amber-500/[0.04] animate-glow-breathe"
+          style={{ width: 700, height: 700, filter: "blur(120px)" }}
+        />
       </div>
 
-      {/* ── Left: Text stack ── */}
+      {/* ── MOBILE: Jacket on top, centered ── */}
+      {/* ── DESKTOP: Jacket on right (order-last) ── */}
       <div
-        className={`flex-1 space-y-3 md:space-y-4 transition-all duration-700 ease-out ${
-          visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
-        }`}
+        className="w-64 shrink-0 sm:w-72 md:order-last md:w-72 lg:w-80 animate-jacket-float"
+        style={{ opacity: visible ? 1 : 0, transition: "opacity 0.8s 0.1s ease-out" }}
       >
+        <div className="relative">
+          {/* Soft glow halo directly behind jacket image */}
+          <div
+            className="absolute inset-0 -z-10 rounded-full animate-glow-breathe"
+            style={{ background: "radial-gradient(circle, rgba(245,158,11,0.12) 0%, transparent 70%)", filter: "blur(30px)" }}
+          />
+          <Image
+            src="/logo.png"
+            alt="The Jacket — sponsor patches on a politician's blazer"
+            width={512}
+            height={512}
+            className="relative h-auto w-full opacity-90 drop-shadow-[0_0_40px_rgba(245,158,11,0.18)]"
+            priority
+          />
+        </div>
+      </div>
+
+      {/* ── Text stack — centered on mobile, left-aligned on desktop ── */}
+      <div className="flex-1 flex flex-col items-center text-center md:items-start md:text-left space-y-4">
+
         {/* Dateline */}
         <p
-          className="font-mono text-xs uppercase tracking-[0.22em] text-jacket-amber transition-all duration-500 delay-[50ms]"
-          style={{ opacity: visible ? 1 : 0, transform: visible ? "translateY(0)" : "translateY(8px)", transition: "opacity 0.5s 0.05s, transform 0.5s 0.05s" }}
+          className="font-mono text-xs uppercase tracking-[0.22em] text-jacket-amber"
+          style={fadeIn("0.05s")}
         >
           Illinois Primary — March 17, 2026 — Cook County
         </p>
 
         {/* Wordmark */}
         <h1
-          className="text-4xl font-black uppercase leading-none tracking-tight sm:text-6xl md:text-7xl"
-          style={{ opacity: visible ? 1 : 0, transform: visible ? "translateY(0)" : "translateY(10px)", transition: "opacity 0.55s 0.15s, transform 0.55s 0.15s" }}
+          className="text-5xl font-black uppercase leading-none tracking-tight sm:text-6xl md:text-7xl"
+          style={fadeIn("0.15s")}
         >
           THE<span className="text-jacket-amber">JACKET</span>
         </h1>
 
-        {/* Amber rule */}
+        {/* Amber rule — centered on mobile, left on desktop */}
         <div
-          className="h-1 bg-jacket-amber"
+          className="h-1 bg-jacket-amber mx-auto md:mx-0"
           style={{
             width: visible ? "5rem" : "0",
             opacity: visible ? 1 : 0,
-            transition: "width 0.5s 0.3s ease-out, opacity 0.5s 0.3s",
+            transition: "width 0.5s 0.3s ease-out, opacity 0.4s 0.3s",
           }}
         />
 
         {/* Tagline */}
         <p
-          className="max-w-xl text-lg sm:text-xl text-zinc-300"
-          style={{ opacity: visible ? 1 : 0, transform: visible ? "translateY(0)" : "translateY(8px)", transition: "opacity 0.5s 0.35s, transform 0.5s 0.35s" }}
+          className="max-w-xl text-xl text-zinc-300"
+          style={fadeIn("0.35s")}
         >
           See who they really work for.
         </p>
@@ -111,23 +143,20 @@ export default function HeroSection() {
         {/* Pull quote */}
         <blockquote
           className="max-w-lg"
-          style={{ opacity: visible ? 1 : 0, transform: visible ? "translateY(0)" : "translateY(8px)", transition: "opacity 0.5s 0.45s, transform 0.5s 0.45s" }}
+          style={fadeIn("0.45s")}
         >
-          <div className="border-l-2 border-jacket-amber/40 pl-4 py-1">
+          <div className="border-l-2 border-jacket-amber/40 pl-4 py-1 text-left">
             <p className="text-sm italic text-zinc-300 leading-relaxed">
               &ldquo;Politicians should wear sponsor jackets like NASCAR drivers, then we know who owns them.&rdquo;
             </p>
-            <p className="mt-1 font-mono text-[10px] uppercase tracking-widest text-zinc-600">— Robin Williams</p>
+            <p className="mt-1 font-mono text-[10px] uppercase tracking-widest text-zinc-500">— Robin Williams</p>
           </div>
         </blockquote>
 
-        {/* Countdown — sits above button, full row on mobile */}
-        <div
-          className="pt-2"
-          style={{ opacity: visible ? 1 : 0, transform: visible ? "translateY(0)" : "translateY(8px)", transition: "opacity 0.5s 0.5s, transform 0.5s 0.5s" }}
-        >
+        {/* Countdown */}
+        <div style={fadeIn("0.5s")}>
           {!elapsed ? (
-            <div className="flex items-end gap-2">
+            <div className="flex items-start gap-2">
               <CountdownUnit value={days} label="days" />
               <Divider />
               <CountdownUnit value={hours} label="hrs" />
@@ -143,36 +172,26 @@ export default function HeroSection() {
           )}
         </div>
 
-        {/* CTA Button */}
-        <div
-          style={{ opacity: visible ? 1 : 0, transform: visible ? "translateY(0)" : "translateY(8px)", transition: "opacity 0.5s 0.62s, transform 0.5s 0.62s" }}
-        >
+        {/* CTA — full width on mobile, auto on desktop */}
+        <div style={fadeIn("0.62s")} className="w-full md:w-auto">
           <Link
             href="/races"
-            className="inline-block w-full sm:w-auto text-center whitespace-nowrap rounded-sm bg-jacket-amber px-5 py-3 font-mono text-sm font-black uppercase tracking-widest text-jacket-black transition-all hover:bg-amber-400 hover:shadow-[0_0_20px_rgba(245,158,11,0.4)] animate-cta-pulse"
+            className="
+              inline-block w-full md:w-auto text-center whitespace-nowrap rounded-sm
+              border border-jacket-amber
+              bg-jacket-amber px-6 py-3
+              font-mono text-sm font-black uppercase tracking-widest
+              text-jacket-black
+              transition-all duration-200
+              hover:bg-jacket-black hover:text-jacket-amber
+              focus:outline-none focus:ring-2 focus:ring-jacket-amber focus:ring-offset-2 focus:ring-offset-jacket-black
+              animate-cta-pulse
+            "
           >
             Find your ballot →
           </Link>
         </div>
-      </div>
 
-      {/* ── Jacket visual — compact on mobile, full-size on desktop ── */}
-      <div
-        className="w-44 shrink-0 sm:w-52 md:w-72 lg:w-80 animate-jacket-float"
-        style={{ opacity: visible ? 1 : 0, transition: "opacity 0.8s 0.2s" }}
-      >
-        {/* Glow ring behind jacket */}
-        <div className="relative">
-          <div className="absolute inset-0 rounded-full bg-amber-500/10 blur-[50px] scale-75 animate-glow-breathe" />
-          <Image
-            src="/logo.png"
-            alt="The Jacket — sponsor patches on a politician's blazer"
-            width={512}
-            height={512}
-            className="relative h-auto w-full opacity-90 drop-shadow-[0_0_50px_rgba(245,158,11,0.2)]"
-            priority
-          />
-        </div>
       </div>
     </section>
   );
