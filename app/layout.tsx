@@ -50,6 +50,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   Scorecard
                 </Link>
                 <span className="text-zinc-600">|</span>
+                <Link href="/booth" className="font-bold text-jacket-amber transition-colors hover:text-white">
+                  🗳 Booth Mode
+                </Link>
+                <span className="text-zinc-600">|</span>
                 <Link href="/about" className="transition-colors hover:text-jacket-amber">
                   About
                 </Link>
