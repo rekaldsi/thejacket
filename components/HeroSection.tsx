@@ -58,7 +58,7 @@ export default function HeroSection() {
   return (
     <section
       ref={sectionRef}
-      className="relative flex flex-col-reverse items-center gap-8 py-6 md:flex-row md:items-center md:justify-between md:gap-12 overflow-hidden"
+      className="relative flex flex-col items-center gap-6 py-4 md:flex-row md:items-center md:justify-between md:gap-12 md:py-6 overflow-hidden"
     >
       {/* Background ambient glow — radiates from behind jacket */}
       <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
@@ -70,7 +70,7 @@ export default function HeroSection() {
 
       {/* ── Left: Text stack ── */}
       <div
-        className={`flex-1 space-y-4 transition-all duration-700 ease-out ${
+        className={`flex-1 space-y-3 md:space-y-4 transition-all duration-700 ease-out ${
           visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
         }`}
       >
@@ -84,7 +84,7 @@ export default function HeroSection() {
 
         {/* Wordmark */}
         <h1
-          className="text-5xl font-black uppercase leading-none tracking-tight sm:text-7xl"
+          className="text-4xl font-black uppercase leading-none tracking-tight sm:text-6xl md:text-7xl"
           style={{ opacity: visible ? 1 : 0, transform: visible ? "translateY(0)" : "translateY(10px)", transition: "opacity 0.55s 0.15s, transform 0.55s 0.15s" }}
         >
           THE<span className="text-jacket-amber">JACKET</span>
@@ -102,7 +102,7 @@ export default function HeroSection() {
 
         {/* Tagline */}
         <p
-          className="max-w-xl text-xl text-zinc-300"
+          className="max-w-xl text-lg sm:text-xl text-zinc-300"
           style={{ opacity: visible ? 1 : 0, transform: visible ? "translateY(0)" : "translateY(8px)", transition: "opacity 0.5s 0.35s, transform 0.5s 0.35s" }}
         >
           See who they really work for.
@@ -114,28 +114,20 @@ export default function HeroSection() {
           style={{ opacity: visible ? 1 : 0, transform: visible ? "translateY(0)" : "translateY(8px)", transition: "opacity 0.5s 0.45s, transform 0.5s 0.45s" }}
         >
           <div className="border-l-2 border-jacket-amber/40 pl-4 py-1">
-            <p className="text-sm italic text-zinc-400 leading-relaxed">
+            <p className="text-sm italic text-zinc-300 leading-relaxed">
               &ldquo;Politicians should wear sponsor jackets like NASCAR drivers, then we know who owns them.&rdquo;
             </p>
             <p className="mt-1 font-mono text-[10px] uppercase tracking-widest text-zinc-600">— Robin Williams</p>
           </div>
         </blockquote>
 
-        {/* CTA + Countdown */}
+        {/* Countdown — sits above button, full row on mobile */}
         <div
-          className="flex flex-col sm:flex-row sm:items-center gap-4 pt-2"
-          style={{ opacity: visible ? 1 : 0, transform: visible ? "translateY(0)" : "translateY(8px)", transition: "opacity 0.5s 0.55s, transform 0.5s 0.55s" }}
+          className="pt-2"
+          style={{ opacity: visible ? 1 : 0, transform: visible ? "translateY(0)" : "translateY(8px)", transition: "opacity 0.5s 0.5s, transform 0.5s 0.5s" }}
         >
-          <Link
-            href="/races"
-            className="inline-block whitespace-nowrap rounded-sm bg-jacket-amber px-5 py-2.5 font-mono text-sm font-black uppercase tracking-widest text-jacket-black transition-all hover:bg-amber-400 hover:shadow-[0_0_20px_rgba(245,158,11,0.4)] animate-cta-pulse"
-          >
-            Find your ballot →
-          </Link>
-
-          {/* Live countdown */}
           {!elapsed ? (
-            <div className="flex items-end gap-1.5">
+            <div className="flex items-end gap-2">
               <CountdownUnit value={days} label="days" />
               <Divider />
               <CountdownUnit value={hours} label="hrs" />
@@ -145,16 +137,28 @@ export default function HeroSection() {
               <CountdownUnit value={seconds} label="sec" />
             </div>
           ) : (
-            <span className="font-mono text-xs uppercase tracking-[0.22em] text-jacket-amber animate-pulse">
+            <span className="font-mono text-sm uppercase tracking-[0.22em] text-jacket-amber animate-pulse">
               Primary Day — Go Vote
             </span>
           )}
         </div>
+
+        {/* CTA Button */}
+        <div
+          style={{ opacity: visible ? 1 : 0, transform: visible ? "translateY(0)" : "translateY(8px)", transition: "opacity 0.5s 0.62s, transform 0.5s 0.62s" }}
+        >
+          <Link
+            href="/races"
+            className="inline-block w-full sm:w-auto text-center whitespace-nowrap rounded-sm bg-jacket-amber px-5 py-3 font-mono text-sm font-black uppercase tracking-widest text-jacket-black transition-all hover:bg-amber-400 hover:shadow-[0_0_20px_rgba(245,158,11,0.4)] animate-cta-pulse"
+          >
+            Find your ballot →
+          </Link>
+        </div>
       </div>
 
-      {/* ── Right: Jacket visual ── */}
+      {/* ── Jacket visual — compact on mobile, full-size on desktop ── */}
       <div
-        className="w-72 shrink-0 sm:w-64 md:w-72 lg:w-80 animate-jacket-float"
+        className="w-44 shrink-0 sm:w-52 md:w-72 lg:w-80 animate-jacket-float"
         style={{ opacity: visible ? 1 : 0, transition: "opacity 0.8s 0.2s" }}
       >
         {/* Glow ring behind jacket */}
