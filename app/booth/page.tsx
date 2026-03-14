@@ -41,9 +41,12 @@ const BALLOT_SECTIONS = [
       "cook-county-commissioner-dist-5",
       "cook-county-commissioner-dist-6",
       "cook-county-commissioner-dist-8",
+      "cook-county-commissioner-dist-9",
       "cook-county-commissioner-dist-10",
       "cook-county-commissioner-dist-12",
       "cook-county-commissioner-dist-15",
+      "cook-county-commissioner-dist-16",
+      "cook-county-commissioner-dist-17",
     ],
   },
   {

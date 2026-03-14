@@ -361,7 +361,7 @@
     ],
     "slug": "cook-county-commissioner-district-15",
     "jurisdiction": "Cook County \u2014 District 15",
-    "candidateCount": 1
+    "candidateCount": 3
   },
   {
     "id": "il-governor-d-2026",
@@ -378,7 +378,7 @@
     "slug": "il-governor-republican-primary",
     "title": "Illinois Governor \u2014 Republican Primary",
     "jurisdiction": "State of Illinois",
-    "description": "Four Republicans compete to challenge incumbent Governor J.B. Pritzker in November. Darren Bailey — the 2022 Republican nominee who lost by 11 points — leads in name recognition. He faces businessman Rick Heidner (Illinois Gaming Investors founder), fiscal policy wonk Ted Dabrowski (Wirepoints president), and DuPage County Sheriff James Mendrick. The race centers on property taxes, the SAFE-T Act, spending, and who can make the strongest case against Pritzker. All major forecasters still rate the general as Solid Democratic.",
+    "description": "Four Republicans compete to challenge incumbent Governor J.B. Pritzker in November. Darren Bailey \u2014 the 2022 Republican nominee who lost by 11 points \u2014 leads in name recognition. He faces businessman Rick Heidner (Illinois Gaming Investors founder), fiscal policy wonk Ted Dabrowski (Wirepoints president), and DuPage County Sheriff James Mendrick. The race centers on property taxes, the SAFE-T Act, spending, and who can make the strongest case against Pritzker. All major forecasters still rate the general as Solid Democratic.",
     "party": "Republican",
     "candidateCount": 4
   },
@@ -410,5 +410,32 @@
     "title": "Illinois Comptroller \u2014 Democratic Primary",
     "description": "Four Democratic women compete to replace retiring Comptroller Susana Mendoza. The Comptroller pays Illinois's bills and is the last line of financial oversight \u2014 especially critical as Trump-era federal cuts threaten state budgets. Frontrunner Margaret Croke (Pritzker-endorsed) faces progressive challenger Karina Villa, veteran legislator Stephanie Kifowit, and Mendoza-endorsed Lake County Treasurer Holly Kim.",
     "candidateCount": 4
+  },
+  {
+    "id": "cook-county-commissioner-dist-9",
+    "slug": "cook-county-commissioner-district-9",
+    "title": "Cook County Commissioner \u2014 District 9",
+    "jurisdiction": "Cook County",
+    "description": "Democratic primary for Cook County Board of Commissioners District 9. Incumbent Maggie Trevor faces challenger Ammie Kessem.",
+    "party": "Democratic",
+    "candidateCount": 2
+  },
+  {
+    "id": "cook-county-commissioner-dist-16",
+    "slug": "cook-county-commissioner-district-16",
+    "title": "Cook County Commissioner \u2014 District 16",
+    "jurisdiction": "Cook County",
+    "description": "Democratic primary for Cook County Board of Commissioners District 16. Incumbent Frank Aguilar faces challengers Leticia 'Letty' Garcia and Miranda Hernandez.",
+    "party": "Democratic",
+    "candidateCount": 3
+  },
+  {
+    "id": "cook-county-commissioner-dist-17",
+    "slug": "cook-county-commissioner-district-17",
+    "title": "Cook County Commissioner \u2014 District 17",
+    "jurisdiction": "Cook County",
+    "description": "Democratic primary for Cook County Board of Commissioners District 17. Elizabeth Gorman faces Elyse Hoffenberg in an open seat race.",
+    "party": "Democratic",
+    "candidateCount": 2
   }
 ]
