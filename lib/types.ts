@@ -92,6 +92,14 @@ export type Candidate = {
   social_pulse?: { summary: string; sentiment: 'positive' | 'negative' | 'mixed' | 'low-profile'; hashtags?: string[]; last_updated: string };
   trust_indicators?: Array<{ label: string; value: boolean | string; type: 'positive' | 'negative' | 'neutral' }>;
   transparency_score?: TransparencyScore;
+  news_hits?: Array<{
+    headline: string;
+    summary: string;
+    url: string;
+    date: string;
+    severity?: 'critical' | 'high' | 'medium';
+    source_name?: string;
+  }>;
 };
 
 export type Race = {

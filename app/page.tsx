@@ -3,6 +3,7 @@ import Image from "next/image";
 import { getAllCandidates, getAllJudges, getRaces } from "@/lib/data";
 import { buildScorecard } from "@/lib/scoring";
 import { scoreJudge } from "@/lib/judgeScoring";
+import HotBoard, { extractSignals } from "@/components/HotBoard";
 import type { ScorecardEntry } from "@/lib/scoring";
 import type { Judge } from "@/lib/types";
 
@@ -114,6 +115,10 @@ export default function HomePage() {
   const top3 = [...shuffledTop, ...restTop].slice(0, 3);
   const bottom3 = scorecard.slice(-3);
 
+  // HotBoard — collect notable signals from all active candidates
+  const activeCandidates = candidates.filter((c) => c.status !== "withdrawn");
+  const allSignals = activeCandidates.flatMap(extractSignals);
+
   return (
     <div className="space-y-24">
 
@@ -157,6 +162,26 @@ export default function HomePage() {
         </div>
 
       </section>
+
+      {/* ── HOT BOARD ── */}
+      {allSignals.length > 0 && (
+        <section>
+          <div className="mb-4 flex items-center justify-between">
+            <div>
+              <h2 className="pb-1 pt-4 text-2xl font-black uppercase tracking-tight">
+                🔥 Hot Board
+              </h2>
+              <p className="text-sm text-zinc-500 max-w-lg">
+                Notable signals bubbling up across all {activeCandidates.length} candidates — late donations, confirmed flags, breaking coverage. Updated as data lands.
+              </p>
+            </div>
+            <Link href="/scorecard" className="shrink-0 text-xs uppercase tracking-widest text-jacket-amber">
+              Full scorecard →
+            </Link>
+          </div>
+          <HotBoard signals={allSignals} limit={8} />
+        </section>
+      )}
 
       {/* ── FEATURED RACES ── */}
       <section>
