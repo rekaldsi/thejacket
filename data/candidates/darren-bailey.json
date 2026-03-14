@@ -211,5 +211,6 @@
       "type": "positive"
     }
   ],
-  "transparency_grade": null
+  "transparency_grade": null,
+  "policy_platform": []
 }

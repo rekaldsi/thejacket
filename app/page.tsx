@@ -39,7 +39,7 @@ function SnapshotRow({ entry }: { entry: ScorecardEntry }) {
           {entry.candidate.name}
         </span>
         <span className="text-xs text-zinc-500">
-          {entry.candidate.office.replace("U.S. House — ", "").replace("U.S. Senate (Illinois)", "IL Senate")}
+          {(entry.candidate.office ?? "").replace("U.S. House — ", "").replace("U.S. Senate (Illinois)", "IL Senate")}
         </span>
       </div>
       <span className="shrink-0 font-mono text-zinc-600 transition-colors group-hover:text-jacket-amber">→</span>

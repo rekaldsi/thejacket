@@ -27,8 +27,8 @@ export type HotSignal = {
 };
 
 // Severity mapping by red flag type keywords
-function flagSeverity(label: string, detail: string): "critical" | "high" | "medium" {
-  const text = (label + " " + detail).toLowerCase();
+function flagSeverity(label: string | undefined, detail: string | undefined): "critical" | "high" | "medium" {
+  const text = ((label ?? "") + " " + (detail ?? "")).toLowerCase();
   if (text.includes("criminal") || text.includes("indicted") || text.includes("convicted") || text.includes("fraud") || text.includes("bribery")) return "critical";
   if (text.includes("ethics") || text.includes("fec violation") || text.includes("campaign finance violation") || text.includes("perjury") || text.includes("insider")) return "high";
   return "medium";
@@ -67,17 +67,19 @@ export function extractSignals(candidate: Candidate): HotSignal[] {
 
   // Red flags — all confirmed ones, unconfirmed only if label mentions recent date
   for (const flag of candidate.red_flags ?? []) {
-    if (!flag.confirmed && !flag.label.includes("2026") && !flag.detail.includes("2026")) continue;
+    const flagLabel = flag.label ?? "";
+    const flagDetail = flag.detail ?? "";
+    if (!flag.confirmed && !flagLabel.includes("2026") && !flagDetail.includes("2026")) continue;
     signals.push({
       candidateId: candidate.id,
       candidateName: candidate.name,
       office: candidate.office,
       type: "red_flag",
-      label: flag.label,
-      detail: flag.detail,
+      label: flagLabel,
+      detail: flagDetail,
       source: flag.source,
       confirmed: flag.confirmed,
-      severity: flagSeverity(flag.label, flag.detail),
+      severity: flagSeverity(flagLabel, flagDetail),
     });
   }
 
@@ -98,7 +100,7 @@ export function extractSignals(candidate: Candidate): HotSignal[] {
       office: candidate.office,
       type: "donor",
       label: `${donor.name}${amtStr ? ` — ${amtStr}` : ""}`,
-      detail: `${donor.category.replace(/-/g, " ")} donation${donor.amount ? ` of ${amtStr}` : ""} to ${candidate.name}`,
+      detail: `${(donor.category ?? "").replace(/-/g, " ")} donation${donor.amount ? ` of ${amtStr}` : ""} to ${candidate.name}`,
       source: candidate.jacket?.source ?? undefined,
       confirmed: donor.confirmed,
       severity: donorSeverity(donor.amount),
@@ -138,10 +140,12 @@ function rankSignal(s: HotSignal): number {
   if (s.type === "red_flag") score += 30;
   if (s.type === "news") score += 20;
   if (s.type === "donor") score += 10;
+  const label = s.label ?? "";
+  const detail = s.detail ?? "";
   // Recency boost for 2026 signals
-  if (s.label.includes("2026") || s.detail.includes("2026") || s.date?.includes("2026")) score += 25;
+  if (label.includes("2026") || detail.includes("2026") || s.date?.includes("2026")) score += 25;
   // Extra boost for very recent (March 2026)
-  if (s.label.includes("March") || s.detail.includes("March 2026") || s.date?.includes("2026-03")) score += 40;
+  if (label.includes("March") || detail.includes("March 2026") || s.date?.includes("2026-03")) score += 40;
   return score;
 }
 
@@ -177,7 +181,7 @@ export default function HotBoard({ signals, limit = 8 }: HotBoardProps) {
                   {signal.candidateName}
                 </span>
                 <span className="rounded bg-zinc-800 px-1.5 py-0.5 font-mono text-[9px] uppercase tracking-wide text-zinc-500">
-                  {signal.office.replace("Cook County ", "").replace("Illinois ", "IL ").replace("U.S. ", "")}
+                  {(signal.office ?? "").replace("Cook County ", "").replace("Illinois ", "IL ").replace("U.S. ", "")}
                 </span>
                 <span className={`rounded px-1.5 py-0.5 font-mono text-[9px] uppercase tracking-wide ${cfg.badgeBg} ${cfg.badge}`}>
                   {typeLabel(signal.type)}
@@ -191,7 +195,7 @@ export default function HotBoard({ signals, limit = 8 }: HotBoardProps) {
 
               {/* Label */}
               <p className="text-sm font-bold leading-snug text-jacket-white group-hover:text-jacket-amber">
-                {signal.label.length > 90 ? signal.label.slice(0, 90) + "…" : signal.label}
+                {(signal.label ?? "").length > 90 ? (signal.label ?? "").slice(0, 90) + "…" : (signal.label ?? "")}
               </p>
 
               {/* Detail */}

@@ -400,5 +400,47 @@
     "red_flags_count": 4,
     "notes": "Campaign committee pledge to reject corporate PAC money is confirmed honored. BUT: benefits from $11.8M Pritzker-controlled PAC; AIPAC network donor presence confirmed by The Intercept; prior-cycle corporate PAC history documented by Sun-Times. Progressive policy record is deep and consistent. Grade reflects genuine transparency on campaign finance pledge vs. structural PAC support contradictions.",
     "computed_at": "2026-03-14"
-  }
+  },
+  "news_hits": [
+    {
+      "headline": "AIPAC Is Staying Out of Illinois Senate Race — But Its Donors Back Juliana Stratton",
+      "summary": "The Intercept reported that at least 27 AIPAC donors gave $70K+ directly to Stratton's campaign committee, and that former AIPAC president Lee Rosenberg sits on her campaign finance committee — despite AIPAC officially remaining neutral in the race.",
+      "url": "https://theintercept.com/2026/03/12/aipac-illinois-senate-stratton-kelly-krishnamoorthi/",
+      "date": "2026-03-12",
+      "severity": "high",
+      "source_name": "The Intercept"
+    },
+    {
+      "headline": "The crypto lobby has poured $8.6M into Illinois primaries — $5.2M in single ad buy targeting Stratton",
+      "summary": "Fairshake, the crypto industry super PAC funded primarily by Coinbase and Trump megadonors Andreessen Horowitz, dropped $5.2 million in a single ad buy attacking Stratton — making her one of the most crypto-targeted Senate candidates in the country this cycle.",
+      "url": "https://dailynorthwestern.com/2026/03/09/city/the-crypto-lobby-has-poured-8-6m-into-illinois-primaries-analysts-say-some-candidates-are-quietly-vying-for-its-support/",
+      "date": "2026-03-09",
+      "severity": "high",
+      "source_name": "Daily Northwestern"
+    },
+    {
+      "headline": "Crypto PACs flood Illinois Senate primary — ads accuse Stratton of ties to Madigan and ICE contractor",
+      "summary": "Fairshake ads accuse Stratton of being aligned with convicted former IL House Speaker Michael Madigan, and allege one of her supporting PACs accepted money from an ICE contractor — charges Stratton and allies deny.",
+      "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4488833/crypto-pacs-illinois-senate-primary-dick-durbin-replacement/",
+      "date": "2026-03-12",
+      "severity": "high",
+      "source_name": "Washington Examiner"
+    },
+    {
+      "headline": "A historic Senate opening meets a divided Illinois Democratic Party",
+      "summary": "Politico's pre-primary analysis notes that crypto PACs are running attack ads against Stratton while simultaneously boosting Kelly to siphon votes away from her — a coordinated strategy to benefit Krishnamoorthi.",
+      "url": "https://www.politico.com/news/2026/03/12/a-historic-senate-opening-meets-a-divided-illinois-democratic-party-00827236",
+      "date": "2026-03-12",
+      "severity": "medium",
+      "source_name": "Politico"
+    },
+    {
+      "headline": "Will Illinois' Democratic Primary for Senate Divide Black Voters?",
+      "summary": "The New York Times examines how the three-way race — with Stratton and Kelly splitting the Black female electorate — could hand Krishnamoorthi a plurality win despite neither progressive candidate being able to consolidate support.",
+      "url": "https://www.nytimes.com/2026/03/12/us/politics/illinois-senate-primary-stratton-kelly-krishnamoorthi.html",
+      "date": "2026-03-12",
+      "severity": "medium",
+      "source_name": "New York Times"
+    }
+  ]
 }

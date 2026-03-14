@@ -318,5 +318,31 @@
     "red_flags_count": 3,
     "notes": "Red flags are structural/political (no personal ethics violations). Outside PAC support from crypto-Trump-aligned Fairshake network raises questions. Strong legislative record and consistent issue focus.",
     "computed_at": "2026-03-14"
-  }
+  },
+  "news_hits": [
+    {
+      "headline": "As Senate race tightens, Kelly benefits from super PAC war between Krishnamoorthi, Stratton",
+      "summary": "Chicago Sun-Times documents that Protect Progress PAC — aligned with Fairshake and funded by Trump megadonors Andreessen/Horowitz — spent $89,900 in outside support for Kelly, widely seen by political insiders as a Krishnamoorthi strategy to split the Black vote with Stratton. Kelly's own final TV ad shows opponents' attack ads and declares 'Oh hell no.'",
+      "url": "https://chicago.suntimes.com/elections/2026/03/10/us-senate-democratic-primary-kelly-krishnamoorthi-stratton-super-pac-war",
+      "date": "2026-03-10",
+      "severity": "high",
+      "source_name": "Chicago Sun-Times"
+    },
+    {
+      "headline": "Will Illinois' Democratic Primary for Senate Divide Black Voters?",
+      "summary": "The New York Times examines how both Stratton and Kelly are competing for the same Black voting base in a race where their combined support could hand a plurality to Krishnamoorthi. The Congressional Black Caucus's public call-out of Gov. Pritzker for 'heavy-handing' the race is highlighted.",
+      "url": "https://www.nytimes.com/2026/03/12/us/politics/illinois-senate-primary-stratton-kelly-krishnamoorthi.html",
+      "date": "2026-03-12",
+      "severity": "medium",
+      "source_name": "New York Times"
+    },
+    {
+      "headline": "AIPAC Is Staying Out of Illinois Senate Race — But Its Donors Back Juliana Stratton",
+      "summary": "The Intercept's reporting on AIPAC donor networks notes Kelly has received backing from CAIR Midwest and the Illinois Muslim Civic Coalition despite her yes votes on $26.4B Israel military aid — suggesting she is threading a difficult needle with progressive Muslim voters in the primary.",
+      "url": "https://theintercept.com/2026/03/12/aipac-illinois-senate-stratton-kelly-krishnamoorthi/",
+      "date": "2026-03-12",
+      "severity": "medium",
+      "source_name": "The Intercept"
+    }
+  ]
 }

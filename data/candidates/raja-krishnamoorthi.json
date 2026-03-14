@@ -313,5 +313,39 @@
     "red_flags_count": 5,
     "notes": "Highest fundraiser in race but donor composition is the core controversy. MAGA-aligned donors, AIPAC network, Hindu nationalist connections, and crypto PAC ecosystem all confirmed by Tribune and Sun-Times reporting. No formal ethics violations filed. Transparency score penalized for opacity around specific donation amounts and donor connections.",
     "computed_at": "2026-03-14"
-  }
+  },
+  "news_hits": [
+    {
+      "headline": "US Rep. Raja Krishnamoorthi raises millions for Illinois Senate bid as fundraising draws scrutiny",
+      "summary": "The Chicago Tribune's March 10 investigation confirmed $90K+ from Trump/MAGA-aligned donors including Palantir CTO Shyam Sankar, $35K from a Modi-linked Hindu nationalist event organizer, and former staffers describing a culture of fundraising obsession and harsh treatment of employees — including a 2019 speeding incident on the NJ Turnpike.",
+      "url": "https://www.chicagotribune.com/2026/03/10/raja-krishnamoorthi-fundraising-illinois-senate/",
+      "date": "2026-03-10",
+      "severity": "high",
+      "source_name": "Chicago Tribune"
+    },
+    {
+      "headline": "As Senate race tightens, Kelly benefits from super PAC war between Krishnamoorthi, Stratton",
+      "summary": "The Chicago Sun-Times documented the PAC ecosystem in detail: Fairshake ($8.2M total, primarily anti-Stratton) and Protect Progress ($89.9K supporting Kelly) are both funded by Trump megadonors Andreessen/Horowitz. Krishnamoorthi has pushed back on the connections but has not returned the Palantir CTO donations (he previously donated the equivalent amount to charity).",
+      "url": "https://chicago.suntimes.com/elections/2026/03/10/us-senate-democratic-primary-kelly-krishnamoorthi-stratton-super-pac-war",
+      "date": "2026-03-10",
+      "severity": "high",
+      "source_name": "Chicago Sun-Times"
+    },
+    {
+      "headline": "A historic Senate opening meets a divided Illinois Democratic Party",
+      "summary": "Politico notes the crypto PAC strategy benefits Krishnamoorthi: one PAC attacks Stratton while another promotes Kelly to split votes — a coordinated outside effort Krishnamoorthi benefits from but cannot legally coordinate with.",
+      "url": "https://www.politico.com/news/2026/03/12/a-historic-senate-opening-meets-a-divided-illinois-democratic-party-00827236",
+      "date": "2026-03-12",
+      "severity": "medium",
+      "source_name": "Politico"
+    },
+    {
+      "headline": "Raja Krishnamoorthi Leads Tight Illinois Senate Primary Amid Fundraising Controversies and Hindu Nationalist Ties",
+      "summary": "American Kahani details the Tribune investigation findings on Hindu nationalist donor connections, including Dr. Bharat Barai's $35K in contributions and his role organizing the 2018 World Hindu Congress in Lombard, IL, where Krishnamoorthi has appeared at events.",
+      "url": "https://americankahani.com/lead-stories/raja-krishnamoorthi-leads-tight-illinois-senate-primary-amid-fundraising-controversies-and-hindu-nationalist-ties/",
+      "date": "2026-03-10",
+      "severity": "high",
+      "source_name": "American Kahani"
+    }
+  ]
 }

@@ -4,7 +4,7 @@
   "party": "Republican",
   "office": "Governor of Illinois",
   "race_id": "il-governor-r-2026",
-  "bio": "Rick Heidner, 65, is a Barrington Hills real estate developer and the founder of Gold Rush Gaming, the third-largest video gaming terminal operator in Illinois with machines in nearly 800 bars, restaurants, and gas stations statewide. He also owns Heidner Properties (280+ commercial properties nationally, headquartered in Hoffman Estates), the Ricky Rockets Fuel Centers gas station chain, and wholesale fuel supplier Prairie State Energy. Heidner and his wife Alisa founded Gold Rush Gaming in 2012; the company's machines have processed roughly $3 billion in bets in a recent 12-month period. He has zero prior elected or appointed public office experience. He entered the 2026 GOP governor primary on October 22, 2025 — less than two weeks before the petition deadline — with his running mate Homer Glen Mayor Christina Neitzke-Troike.",
+  "bio": "Rick Heidner, 65, is a Barrington Hills real estate developer and the founder of Gold Rush Gaming, the third-largest video gaming terminal operator in Illinois with machines in nearly 800 bars, restaurants, and gas stations statewide. He also owns Heidner Properties (280+ commercial properties nationally, headquartered in Hoffman Estates), the Ricky Rockets Fuel Centers gas station chain, and wholesale fuel supplier Prairie State Energy. Heidner and his wife Alisa founded Gold Rush Gaming in 2012; the company's machines have processed roughly $3 billion in bets in a recent 12-month period. He has zero prior elected or appointed public office experience. He entered the 2026 GOP governor primary on October 22, 2025 \u2014 less than two weeks before the petition deadline \u2014 with his running mate Homer Glen Mayor Christina Neitzke-Troike.",
   "prior_office": "None",
   "website": "https://rickforillinois.com",
   "photo_url": null,
@@ -34,7 +34,7 @@
     {
       "type": "conflict_of_interest",
       "label": "Video Gaming Regulator Conflict: Governor Appoints Illinois Gaming Board Members",
-      "detail": "The Illinois Gaming Board — whose members are appointed by the governor — regulates Gold Rush Gaming, Heidner's own video gaming terminal company. A governor-appointed board oversees licensing, can revoke licenses, and sets VGT operating rules. In 2019, the IGB moved to revoke Gold Rush's license; in 2021, a settlement was reached for $75,000. Heidner would be in a position to influence the composition of the board that regulates his own multimillion-dollar business.",
+      "detail": "The Illinois Gaming Board \u2014 whose members are appointed by the governor \u2014 regulates Gold Rush Gaming, Heidner's own video gaming terminal company. A governor-appointed board oversees licensing, can revoke licenses, and sets VGT operating rules. In 2019, the IGB moved to revoke Gold Rush's license; in 2021, a settlement was reached for $75,000. Heidner would be in a position to influence the composition of the board that regulates his own multimillion-dollar business.",
       "source": "https://www.chicagotribune.com/2021/04/21/video-gambling-operator-pays-75000-in-settlement-as-illinois-gaming-board-drops-attempt-to-revoke-license/",
       "confirmed": true
     },
@@ -48,7 +48,7 @@
     {
       "type": "business_association",
       "label": "Real Estate Partnership with Convicted Bookmaker Dominic Buttitta",
-      "detail": "Heidner and Dominic Buttitta formed Heidner-Buttitta Properties LLC in 2005 and jointly owned a building in Elgin leased to a bar using Gold Rush machines. Buttitta pleaded guilty in February 2012 to federal charges of running an illegal sportsbook and skimming from a strip club. Heidner removed Buttitta's name from the corporation one week before Buttitta's guilty plea — and two weeks before his gaming license was approved by the IGB.",
+      "detail": "Heidner and Dominic Buttitta formed Heidner-Buttitta Properties LLC in 2005 and jointly owned a building in Elgin leased to a bar using Gold Rush machines. Buttitta pleaded guilty in February 2012 to federal charges of running an illegal sportsbook and skimming from a strip club. Heidner removed Buttitta's name from the corporation one week before Buttitta's guilty plea \u2014 and two weeks before his gaming license was approved by the IGB.",
       "source": "https://www.chicagotribune.com/2019/10/11/video-gambling-owner-pitching-racetrack-casino-is-in-business-with-family-whose-financial-ties-to-mob-figures-sunk-rosemont-casino/",
       "confirmed": true
     },
@@ -76,50 +76,50 @@
   ],
   "key_votes": [
     {
-      "bill": "N/A — No prior elected office",
+      "bill": "N/A \u2014 No prior elected office",
       "vote": "N/A",
       "summary": "Heidner has never held elected or appointed public office and has no legislative voting record. Key positions are derived from campaign statements and candidate questionnaires.",
       "source": "https://chicago.suntimes.com/elections/2026/candidate-questionnaires/rick-heidner-christina-neitzke-troike-illinois-governor-primary"
     },
     {
-      "bill": "Illinois Gaming Board — Gold Rush License Settlement (April 2021)",
-      "vote": "Settlement agreement — Gold Rush pays $75,000, IGB drops revocation",
+      "bill": "Illinois Gaming Board \u2014 Gold Rush License Settlement (April 2021)",
+      "vote": "Settlement agreement \u2014 Gold Rush pays $75,000, IGB drops revocation",
       "summary": "Gold Rush Gaming, under Heidner's direction, agreed to a $75,000 settlement with the Illinois Gaming Board to resolve the December 2019 license revocation proceeding and related lawsuits, including suits accusing IGB staff of leaking sensitive information. The board voted unanimously to approve.",
       "source": "https://www.chicagotribune.com/2021/04/21/video-gambling-operator-pays-75000-in-settlement-as-illinois-gaming-board-drops-attempt-to-revoke-license/"
     },
     {
-      "bill": "Tinley Park Racino Proposal (2019) — Blocked by Pritzker Administration",
+      "bill": "Tinley Park Racino Proposal (2019) \u2014 Blocked by Pritzker Administration",
       "vote": "Proposed development blocked post-Tribune investigation",
       "summary": "Heidner partnered with Hawthorne Racecourse president Tim Carey to develop a horse racing track and casino on state-owned land in Tinley Park. Following the October 2019 Tribune investigation revealing Heidner's business ties to figures with alleged mob connections, Gov. Pritzker halted the sale of the state-owned site in October 2019. Heidner has said the blocking was unfair and denies it was justified.",
       "source": "https://www.chicagotribune.com/2026/03/08/illinois-2026-gop-primary-for-governor-features-four-candidates-and-one-familiar-face-but-big-donors-sit-out/"
     },
     {
       "bill": "Governor Proposed: Two-Term Limit for Governor (2026 campaign)",
-      "vote": "Supports — stated position",
+      "vote": "Supports \u2014 stated position",
       "summary": "Heidner has stated he would pursue a two-term limit specifically for the Illinois governor's office on day one of his administration, citing Pritzker's third-term bid as the impetus. He has not publicly proposed broader term limits for the legislature.",
       "source": "https://www.stlpr.org/podcast/politically-speaking/2026-02-23/illinois-republican-heidner-business-acumen-governors-office"
     },
     {
-      "bill": "SAFE-T Act — Pretrial Fairness/Cash Bail Elimination (2021 IL law)",
-      "vote": "Opposes — wants repeal or full restart",
+      "bill": "SAFE-T Act \u2014 Pretrial Fairness/Cash Bail Elimination (2021 IL law)",
+      "vote": "Opposes \u2014 wants repeal or full restart",
       "summary": "Heidner has called for scrapping the SAFE-T Act entirely, saying 'let's just probably start all over because it's got to stop.' He cites the November 2025 case in which a man with a lengthy criminal history set a Chicago woman on fire on the CTA as evidence the law fails public safety.",
       "source": "https://www.stlpr.org/podcast/politically-speaking/2026-02-23/illinois-republican-heidner-business-acumen-governors-office"
     },
     {
-      "bill": "TRUST Act — Illinois Sanctuary Law (signed by Republican Gov. Rauner, 2017)",
-      "vote": "Opposes — would repeal",
+      "bill": "TRUST Act \u2014 Illinois Sanctuary Law (signed by Republican Gov. Rauner, 2017)",
+      "vote": "Opposes \u2014 would repeal",
       "summary": "Heidner supports abolishing the TRUST Act and allowing local law enforcement to cooperate with ICE, arguing that six to eight weeks of law enforcement cooperation would have resolved the Operation Midway Blitz situation.",
       "source": "https://www.chicagotribune.com/2026/03/08/illinois-2026-gop-primary-for-governor-features-four-candidates-and-one-familiar-face-but-big-donors-sit-out/"
     }
   ],
   "endorsements": [
-    "Brett Corrigan, campaign chairman — former Bailey 2022 campaign operative; chairs Save Illinois PAC"
+    "Brett Corrigan, campaign chairman \u2014 former Bailey 2022 campaign operative; chairs Save Illinois PAC"
   ],
   "policy_positions": [
     "Two-term limit for governor: 'We should have two terms for a limit for a governor. None of this would be this way if JB Pritzker wasn't able to run for a third term.' (STLPR, Feb. 23, 2026)",
-    "SAFE-T Act: Wants full repeal or restart — 'let's just probably start all over because it's got to stop.' Specific concern: re-releasing detainees who are actively in drug withdrawal after only ~2 hours of processing",
+    "SAFE-T Act: Wants full repeal or restart \u2014 'let's just probably start all over because it's got to stop.' Specific concern: re-releasing detainees who are actively in drug withdrawal after only ~2 hours of processing",
     "Property taxes: Opposes new taxes; supports freezing all state taxes and auditing every state department for waste; opposes the CEJA (Climate and Equitable Jobs Act); wants business-friendly incentives to expand tax base",
-    "Immigration: Repeal TRUST Act; full cooperation with ICE; supports a path to citizenship for undocumented immigrants who have long-term, law-abiding residence, jobs, and children in school — distinguishing him from Bailey",
+    "Immigration: Repeal TRUST Act; full cooperation with ICE; supports a path to citizenship for undocumented immigrants who have long-term, law-abiding residence, jobs, and children in school \u2014 distinguishing him from Bailey",
     "Pensions: No new taxes; would adjust retirement age and contribution percentages for new hires while honoring existing retirees' benefits",
     "First-time homebuyers: Would exempt down payment amounts from state income tax in the year of purchase; would seek similar federal legislation",
     "Bears stadium: Supports state infrastructure assistance to keep Bears in Illinois; says it would generate 'hundreds and hundreds of millions of dollars of tax dollars'",
@@ -131,25 +131,25 @@
     {
       "role": "Founder and Owner",
       "org": "Gold Rush Gaming (video gaming terminal operator)",
-      "years": "2012–present",
+      "years": "2012\u2013present",
       "highlight": "Third-largest VGT operator in Illinois; machines in nearly 800 Illinois locations; processed ~$3 billion in bets in a 12-month period per 2023 IRS lien records. Licensed by Illinois Gaming Board in February 2012."
     },
     {
       "role": "Founder and Owner",
       "org": "Heidner Properties",
-      "years": "Prior to 2012–present",
+      "years": "Prior to 2012\u2013present",
       "highlight": "Owns and manages 280+ commercial properties across the U.S.; headquartered at 5277 Trillium Blvd, Hoffman Estates, IL 60192. Real estate base that predated and financially supported gaming expansion."
     },
     {
       "role": "Owner",
       "org": "Ricky Rockets Fuel Centers and Prairie State Energy",
-      "years": "Not publicly specified–present",
+      "years": "Not publicly specified\u2013present",
       "highlight": "Operates a gas station chain (Ricky Rockets) and wholesale fuel supplier (Prairie State Energy) in the Chicago area."
     },
     {
       "role": "Candidate for Illinois Governor",
       "org": "Republican Party",
-      "years": "October 2025–present",
+      "years": "October 2025\u2013present",
       "highlight": "Entered race October 22, 2025, less than two weeks before petition deadline. Self-funded $1 million initial loan. Running mate: Homer Glen Mayor Christina Neitzke-Troike. Labels himself 'Trump Republican for Governor.'"
     }
   ],
@@ -166,7 +166,7 @@
     },
     {
       "label": "Direct financial conflict with IGB",
-      "value": "Governor appoints IGB members who regulate Gold Rush Gaming — Heidner's core business",
+      "value": "Governor appoints IGB members who regulate Gold Rush Gaming \u2014 Heidner's core business",
       "type": "negative"
     },
     {
@@ -176,7 +176,7 @@
     },
     {
       "label": "Bipartisan donor history",
-      "value": "Donated to Democrats (Brandon Johnson $25,000, Kim Foxx $2,500, Toni Preckwinkle $5,000) and Republicans — critics call it 'pay-to-play'",
+      "value": "Donated to Democrats (Brandon Johnson $25,000, Kim Foxx $2,500, Toni Preckwinkle $5,000) and Republicans \u2014 critics call it 'pay-to-play'",
       "type": "negative"
     },
     {
@@ -190,5 +190,6 @@
       "type": "positive"
     }
   ],
-  "transparency_grade": null
+  "transparency_grade": null,
+  "policy_platform": []
 }

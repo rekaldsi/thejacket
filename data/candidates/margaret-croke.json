@@ -4,8 +4,8 @@
   "party": "Democratic",
   "office": "Illinois Comptroller",
   "race_id": "il-comptroller-d-2026",
-  "bio": "Margaret Croke is an Illinois State Representative (12th District, Chicago — Lakeview East, Lincoln Park, Old Town, Gold Coast) since 2021. She's running for Illinois Comptroller to succeed retiring incumbent Susana Mendoza. Croke was Deputy Chief of Staff at the Illinois Department of Commerce and Economic Opportunity before her election. She chairs the Financial Institutions Committee and serves on the House Revenue & Finance Committee — the body overseeing banking, depositories, and payment processing statewide. Born in Oak Park, raised in Chicago. University of Michigan grad (Political Science + Communications). Pritzker's pick and the top fundraiser in the race with $425K raised + $510K cash on hand.",
-  "prior_office": "Illinois State Representative, 12th District (2021–present); Deputy Chief of Staff, IL Dept. of Commerce and Economic Opportunity",
+  "bio": "Margaret Croke is an Illinois State Representative (12th District, Chicago \u2014 Lakeview East, Lincoln Park, Old Town, Gold Coast) since 2021. She's running for Illinois Comptroller to succeed retiring incumbent Susana Mendoza. Croke was Deputy Chief of Staff at the Illinois Department of Commerce and Economic Opportunity before her election. She chairs the Financial Institutions Committee and serves on the House Revenue & Finance Committee \u2014 the body overseeing banking, depositories, and payment processing statewide. Born in Oak Park, raised in Chicago. University of Michigan grad (Political Science + Communications). Pritzker's pick and the top fundraiser in the race with $425K raised + $510K cash on hand.",
+  "prior_office": "Illinois State Representative, 12th District (2021\u2013present); Deputy Chief of Staff, IL Dept. of Commerce and Economic Opportunity",
   "website": "https://crokeforillinois.com",
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Margaret_Croke_official_photo.jpg/440px-Margaret_Croke_official_photo.jpg",
   "jacket": {
@@ -31,22 +31,22 @@
     {
       "type": "dark_money",
       "label": "Super PAC / Republican Donor Contributions (Alleged)",
-      "detail": "Opponent Karina Villa publicly criticized Croke's donations as including super PAC money and contributions from Republican donors. Villa said: 'I get money from unions and everyday people.' Croke has not disputed the characterization but has not addressed it directly. Unverified — needs ILSBE filing review to confirm.",
+      "detail": "Opponent Karina Villa publicly criticized Croke's donations as including super PAC money and contributions from Republican donors. Villa said: 'I get money from unions and everyday people.' Croke has not disputed the characterization but has not addressed it directly. Unverified \u2014 needs ILSBE filing review to confirm.",
       "source": "https://abc7chicago.com/post/primary-election-2026-illinois-comptroller-candidates-margaret-croke-karina-villa-holly-kim-stephanie-kifowit-appeal-voters/18686085/",
       "confirmed": false
     }
   ],
   "key_votes": [
     {
-      "bill": "Illinois Financial Institutions Committee (Chair, 2021–present)",
+      "bill": "Illinois Financial Institutions Committee (Chair, 2021\u2013present)",
       "vote": "chair",
-      "summary": "Chairs the House Financial Institutions Committee — the state body overseeing banking, depositories, payment processing, and financial technology. Croke argues this expertise directly qualifies her to run the Comptroller's office, which pays the state's bills and conducts local government audits.",
+      "summary": "Chairs the House Financial Institutions Committee \u2014 the state body overseeing banking, depositories, payment processing, and financial technology. Croke argues this expertise directly qualifies her to run the Comptroller's office, which pays the state's bills and conducts local government audits.",
       "source": "https://news.wttw.com/elections/voters-guide/2026-primary/margaret-croke"
     },
     {
       "bill": "Illinois House Revenue & Finance Committee (Member)",
       "vote": "member",
-      "summary": "Serves on the House Revenue & Finance Committee, giving her direct exposure to the state's fiscal architecture — tax policy, revenue projections, and budget mechanics.",
+      "summary": "Serves on the House Revenue & Finance Committee, giving her direct exposure to the state's fiscal architecture \u2014 tax policy, revenue projections, and budget mechanics.",
       "source": "https://news.wttw.com/elections/voters-guide/2026-primary/margaret-croke"
     }
   ],
@@ -56,19 +56,19 @@
     "Illinois House Speaker Emanuel 'Chris' Welch"
   ],
   "policy_platform": [
-    "Protect Illinois from Trump-era federal funding cuts — Comptroller as fiscal watchdog",
+    "Protect Illinois from Trump-era federal funding cuts \u2014 Comptroller as fiscal watchdog",
     "Leverage Financial Institutions Committee expertise to modernize state payment systems",
-    "Expand fiscal transparency — local government audits, public reporting",
-    "The Comptroller 'pays the checks and raises the red flag' — position as last line of financial oversight",
+    "Expand fiscal transparency \u2014 local government audits, public reporting",
+    "The Comptroller 'pays the checks and raises the red flag' \u2014 position as last line of financial oversight",
     "Continue Mendoza-era fiscal turnaround, build on state credit improvements"
   ],
   "qualifications": [
-    "Illinois State Representative, 12th District (2021–present) — 5 years in Springfield",
-    "Chair, House Financial Institutions Committee — banking, payment processing, fintech oversight",
-    "Member, House Revenue & Finance Committee — state budget and tax policy",
+    "Illinois State Representative, 12th District (2021\u2013present) \u2014 5 years in Springfield",
+    "Chair, House Financial Institutions Committee \u2014 banking, payment processing, fintech oversight",
+    "Member, House Revenue & Finance Committee \u2014 state budget and tax policy",
     "Former Deputy Chief of Staff, Illinois Dept. of Commerce and Economic Opportunity",
     "University of Michigan, B.A. Political Science + Communications",
-    "Based in Old Town, Chicago — born Oak Park"
+    "Based in Old Town, Chicago \u2014 born Oak Park"
   ],
   "transparency_score": {
     "grade": "D",
@@ -80,5 +80,6 @@
     "computed_at": "2026-03-14",
     "note": "Grade reflects absence of itemized ILSBE state campaign finance data. FEC not applicable (state race). Grade will update when ILSBE data is pulled."
   },
-  "transparency_grade": "D"
+  "transparency_grade": "D",
+  "career_history": []
 }
