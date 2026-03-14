@@ -4,8 +4,8 @@
   "party": "Democratic",
   "office": "Illinois Comptroller",
   "race_id": "il-comptroller-d-2026",
-  "bio": "Stephanie Kifowit is an Illinois State Representative from Oswego (IL House District 84, Aurora area) and a U.S. Marine Corps veteran. She's running for Illinois Comptroller in the 4-way Democratic primary on March 17, 2026. Known as a progressive voice in the Illinois House, Kifowit has championed veterans' issues, healthcare, and government accountability.",
-  "prior_office": "Illinois State Representative, 84th District (Oswego/Aurora area)",
+  "bio": "Stephanie Kifowit is an Illinois State Representative from Oswego (IL House District 84, Aurora/Fox Valley area), a U.S. Marine Corps veteran, and a former registered financial advisor. She's running for Illinois Comptroller arguing she has the deepest relevant experience in the race — 20 years in Springfield dealing with government finance, plus professional financial advisory credentials. She knows the Comptroller's office staff and the $53M modernization act already in place. A military veteran and fiscal pragmatist, she positions herself as the most technically qualified candidate.",
+  "prior_office": "Illinois State Representative, 84th District (Oswego/Aurora area); former registered financial advisor; U.S. Marine Corps veteran",
   "website": "https://www.kifowit.com",
   "photo_url": null,
   "jacket": {
@@ -13,12 +13,19 @@
     "pac_support_total": null,
     "data_date": "2026-03-14",
     "source": "https://abc7chicago.com/post/primary-election-2026-illinois-comptroller-candidates-margaret-croke-karina-villa-holly-kim-stephanie-kifowit-appeal-voters/18686085/",
-    "note": "Fundraising totals not confirmed. Second-tier fundraiser behind Croke and Villa.",
+    "note": "Fundraising totals not publicly confirmed. Positioned as third in the money race behind Croke and Villa.",
     "donors": [],
     "fec_id": null
   },
   "red_flags": [],
-  "key_votes": [],
+  "key_votes": [
+    {
+      "bill": "IL Comptroller Modernization Act ($53M)",
+      "vote": "aware",
+      "summary": "Kifowit highlights her familiarity with the $53M modernization act for the Comptroller's office and her relationships with the office's staff — arguing she can lead the office from day one without a learning curve.",
+      "source": "https://abc7chicago.com/post/primary-election-2026-illinois-comptroller-candidates-margaret-croke-karina-villa-holly-kim-stephanie-kifowit-appeal-voters/18686085/"
+    }
+  ],
   "endorsements": [],
   "transparency_grade": null
 }

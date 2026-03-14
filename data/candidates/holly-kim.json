@@ -4,7 +4,7 @@
   "party": "Democratic",
   "office": "Illinois Comptroller",
   "race_id": "il-comptroller-d-2026",
-  "bio": "Holly Kim is the Lake County Treasurer, running for Illinois Comptroller in the 4-way Democratic primary on March 17, 2026. As a local government treasurer, Kim argues her direct fiscal management experience makes her suited for the statewide Comptroller role.",
+  "bio": "Holly Kim is the Lake County Treasurer, running for Illinois Comptroller in the 4-way Democratic primary on March 17, 2026. She carries the explicit endorsement of outgoing Comptroller Susana Mendoza, who credits Kim as the candidate who will continue the fiscal turnaround she engineered after the Bruce Rauner era. Kim argues her hands-on government treasury experience makes her uniquely qualified — she can do the job from day one. Kim is the candidate of institutional continuity, backed by the sitting Comptroller's credibility.",
   "prior_office": "Lake County Treasurer",
   "website": null,
   "photo_url": null,
@@ -13,12 +13,19 @@
     "pac_support_total": null,
     "data_date": "2026-03-14",
     "source": "https://abc7chicago.com/post/primary-election-2026-illinois-comptroller-candidates-margaret-croke-karina-villa-holly-kim-stephanie-kifowit-appeal-voters/18686085/",
-    "note": "Fundraising totals not confirmed. Fourth-tier fundraiser in the race.",
+    "note": "Fundraising totals not publicly confirmed. Fourth in fundraising but carries Mendoza endorsement — the most credible institutional backing in the race for this specific office.",
     "donors": [],
     "fec_id": null
   },
   "red_flags": [],
   "key_votes": [],
-  "endorsements": [],
+  "endorsements": [
+    "Susana Mendoza (outgoing Illinois Comptroller)"
+  ],
+  "policy_positions": [
+    "Continue Mendoza-era fiscal turnaround",
+    "Day-one competency — government treasury management experience",
+    "Protect Illinois from federal funding cuts"
+  ],
   "transparency_grade": null
 }

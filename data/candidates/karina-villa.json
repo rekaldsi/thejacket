@@ -4,21 +4,44 @@
   "party": "Democratic",
   "office": "Illinois Comptroller",
   "race_id": "il-comptroller-d-2026",
-  "bio": "Karina Villa is an Illinois State Senator (25th District, West Chicago/DuPage County area). She's running for Illinois Comptroller in the 4-way Democratic primary on March 17, 2026. Villa is the close second in fundraising behind Croke and has been vocal about campaign finance — criticizing Croke for accepting super PAC money and Republican donor contributions.",
-  "prior_office": "Illinois State Senator, 25th District",
+  "bio": "Karina Villa is an Illinois State Senator (25th District, West Chicago/DuPage County area) and Chair of the Senate Progressive Caucus. She's running for Illinois Comptroller in the 4-way Democratic primary on March 17, 2026. Villa is the close second in fundraising behind Croke and is running as the progressive alternative — backed by unions and everyday donors. She has been vocal about taxing billionaires and corporations to fund essential services, and criticizes Croke for accepting super PAC and Republican donor money. Endorsed by outgoing Comptroller Susana Mendoza is NOT backing Villa — Mendoza backs Holly Kim.",
+  "prior_office": "Illinois State Senator, 25th District; Chair, Senate Progressive Caucus",
   "website": null,
   "photo_url": null,
   "jacket": {
     "total_raised": null,
-    "pac_support_total": null,
+    "pac_support_total": 0,
     "data_date": "2026-03-14",
     "source": "https://abc7chicago.com/post/primary-election-2026-illinois-comptroller-candidates-margaret-croke-karina-villa-holly-kim-stephanie-kifowit-appeal-voters/18686085/",
-    "note": "Close second in fundraising behind Croke. Has publicly criticized Croke for PAC and Republican donor money.",
-    "donors": [],
+    "note": "Close second in fundraising behind Croke. No PAC or Republican donor money — funded by unions and grassroots donors. Explicitly running against dark money in this race.",
+    "donors": [
+      {
+        "name": "Union donations (various)",
+        "amount": null,
+        "category": "union",
+        "label": "Union and grassroots donors — no PAC or Republican money per campaign",
+        "source": "https://abc7chicago.com/post/primary-election-2026-illinois-comptroller-candidates-margaret-croke-karina-villa-holly-kim-stephanie-kifowit-appeal-voters/18686085/",
+        "confirmed": true,
+        "counts_toward_total_raised": true
+      }
+    ],
     "fec_id": null
   },
   "red_flags": [],
-  "key_votes": [],
+  "key_votes": [
+    {
+      "bill": "Senate Progressive Caucus (Chair)",
+      "vote": "chair",
+      "summary": "Chairs the Illinois Senate Progressive Caucus. Has led efforts on tax fairness — arguing Illinois has the 8th most regressive state/local tax system nationally, where working people pay a higher share of income than the wealthy.",
+      "source": "https://ballotpedia.org/Karina_Villa"
+    }
+  ],
   "endorsements": [],
+  "policy_positions": [
+    "Protect Illinois tax dollars from federal Trump-era cuts",
+    "Prioritize bill payments for healthcare, housing, mental health, public education",
+    "Use Comptroller bully pulpit for public fiscal transparency",
+    "Fix Illinois regressive tax system — billionaires and corporations to pay fair share"
+  ],
   "transparency_grade": null
 }
