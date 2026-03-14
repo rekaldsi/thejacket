@@ -1,0 +1,41 @@
+{
+  "id": "ted-dabrowski",
+  "name": "Ted Dabrowski",
+  "party": "Republican",
+  "office": "Governor of Illinois",
+  "race_id": "il-governor-r-2026",
+  "bio": "Ted Dabrowski is the president of Wirepoints, a Chicago-based fiscal policy think tank known for research on Illinois pension debt, property taxes, and population loss. He is a first-time candidate for elected office. Born in Poland, he emigrated to the U.S. and built a career in finance and public policy. His candidacy argues Illinois's problems require structural fiscal reform — not just a party change — and that previous Republican nominees lacked a credible economic vision. He is the most policy-detailed candidate in the Republican field.",
+  "prior_office": "None — first-time candidate",
+  "website": "https://dabrowski2026.com",
+  "photo_url": null,
+  "jacket": {
+    "total_raised": null,
+    "pac_support_total": null,
+    "data_date": "2026-03-14",
+    "source": "https://ballotpedia.org/Ted_Dabrowski",
+    "note": "Policy-forward first-time candidate. Wirepoints reputation gives credibility with fiscal conservatives and media. Long-shot in primary but most detailed platform in the field.",
+    "donors": [],
+    "fec_id": null
+  },
+  "red_flags": [
+    {
+      "type": "experience",
+      "label": "No Prior Elected Office",
+      "detail": "Dabrowski has never held elected office. While his policy expertise is respected, he has no track record as a political candidate or executive decision-maker.",
+      "source": "https://ballotpedia.org/Ted_Dabrowski",
+      "confirmed": true
+    }
+  ],
+  "key_votes": [],
+  "endorsements": [],
+  "policy_positions": [
+    "Property tax cap phased in at 1% of assessed value",
+    "Veto all tax increases; use line-item vetoes to cut spending",
+    "Repeal zero-emissions energy mandate; return to fossil fuel and nuclear balance",
+    "401K-style retirement plans for all new government workers to stop pension debt growth",
+    "Cut Illinois corporate income tax and commercial property taxes",
+    "Reduce 280,000+ state regulations; 3-old-rules-cut for every new rule",
+    "School vouchers; end politically driven curriculum"
+  ],
+  "transparency_grade": null
+}

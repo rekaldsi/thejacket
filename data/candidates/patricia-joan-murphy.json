@@ -54,5 +54,13 @@
   "photo_url": null,
   "trust_indicators": [],
   "social_pulse": null,
-  "transparency_score": null
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "F",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-14"
+  }
 }

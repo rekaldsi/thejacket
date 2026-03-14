@@ -1,0 +1,41 @@
+{
+  "id": "james-mendrick",
+  "name": "James Mendrick",
+  "party": "Republican",
+  "office": "Governor of Illinois",
+  "race_id": "il-governor-r-2026",
+  "bio": "James Mendrick is the former DuPage County Sheriff — a position he stepped down from to run for governor. He is a 30-year DuPage County resident, attended Downers Grove South High School, and earned a bachelor's degree from Lewis University. He and his wife Cyndi have two sons. Mendrick is the only candidate in the Republican field with direct law enforcement executive experience. He frames the race around who has actually managed a large public safety agency — not just talked about crime. He earned 50+ endorsements during his tenure as Sheriff.",
+  "prior_office": "DuPage County Sheriff",
+  "website": "https://mendrick4governor2026.com",
+  "photo_url": null,
+  "jacket": {
+    "total_raised": null,
+    "pac_support_total": null,
+    "data_date": "2026-03-14",
+    "source": "https://capitolnewsillinois.com/news/dupage-county-sheriff-james-mendrick-focuses-on-public-safety-in-gop-governors-race/",
+    "note": "Strongest law enforcement credibility in Republican field. Gave up the sheriff seat to run — all-in. DuPage County base could give him strength in collar counties.",
+    "donors": [],
+    "fec_id": null
+  },
+  "red_flags": [
+    {
+      "type": "profile",
+      "label": "Narrower Statewide Profile",
+      "detail": "Mendrick's profile is primarily built around public safety. He has less developed policy positions on taxes, pensions, and economic issues compared to Bailey and Dabrowski. His DuPage County base may not translate well downstate.",
+      "source": "https://capitolnewsillinois.com/news/dupage-county-sheriff-james-mendrick-focuses-on-public-safety-in-gop-governors-race/",
+      "confirmed": false
+    }
+  ],
+  "key_votes": [],
+  "endorsements": [
+    "50+ endorsements as DuPage County Sheriff (per campaign)"
+  ],
+  "policy_positions": [
+    "Public safety as top priority — rollback SAFE-T Act provisions",
+    "Restore cash bail and judge authority to detain dangerous offenders",
+    "Stand with law enforcement",
+    "Lower property taxes and address cost-of-living driving population flight",
+    "Family values and community-first governance"
+  ],
+  "transparency_grade": null
+}

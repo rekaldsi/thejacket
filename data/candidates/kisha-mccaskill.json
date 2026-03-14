@@ -6,7 +6,7 @@
   "race_id": "cook-county-commissioner-dist-5",
   "incumbent": true,
   "bio": "Kisha McCaskill is the incumbent 5th District Commissioner, first appointed in 2025. She is seeking re-election to her first full term in a contested Democratic primary. She holds endorsements from major county officials, labor unions, and legislators including Toni Preckwinkle, AFSCME Council 31, Chicago Federation of Labor, SEIU, and multiple state legislators. She is challenged by Kiana Belcher and at least one additional challenger.",
-  "prior_office": "Cook County Commissioner District 5 (appointed 2025\u2013present). Background not fully detailed in available sources.",
+  "prior_office": "Cook County Commissioner District 5 (appointed 2025–present). Background not fully detailed in available sources.",
   "website": "https://votemccaskill.com/",
   "jacket": {
     "total_raised": null,
@@ -50,5 +50,13 @@
   "photo_url": null,
   "trust_indicators": [],
   "social_pulse": null,
-  "transparency_score": null
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "F",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-14"
+  }
 }

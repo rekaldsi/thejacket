@@ -13,7 +13,7 @@
     "source": "https://www.fec.gov/data/elections/house/IL/07/",
     "note": "~$495K raised as of Feb 25, 2026 (FEC). FEC ID: H6IL07354",
     "donors": [],
-    "donors_note": "No itemized donor breakdown available yet. total_raised reflects FEC aggregate total (H6IL07354) \u2014 detailed donor records pending ETL import.",
+    "donors_note": "No itemized donor breakdown available yet. total_raised reflects FEC aggregate total (H6IL07354) — detailed donor records pending ETL import.",
     "fec_id": "H6IL07354"
   },
   "red_flags": [],
@@ -27,7 +27,7 @@
     {
       "bill": "Prison Gerrymandering Reform",
       "vote": "Yes (champion)",
-      "summary": "Led push to end prison gerrymandering \u2014 ensuring incarcerated people are counted in their home communities for redistricting purposes.",
+      "summary": "Led push to end prison gerrymandering — ensuring incarcerated people are counted in their home communities for redistricting purposes.",
       "source": "https://fordforcongress.com/about/"
     },
     {
@@ -45,7 +45,7 @@
     {
       "role": "Illinois State Representative, District 8",
       "org": "Illinois General Assembly",
-      "years": "2007\u2013present",
+      "years": "2007–present",
       "highlight": "17 years in the Illinois House; chairs Appropriations subcommittees"
     },
     {
@@ -103,8 +103,8 @@
     "computed": true,
     "financial_transparency": "F",
     "platform_completeness": "B",
-    "record_available": false,
+    "record_available": true,
     "red_flags_count": 0,
-    "computed_at": "2026-03-13"
+    "computed_at": "2026-03-14"
   }
 }

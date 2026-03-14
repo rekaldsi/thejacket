@@ -1,0 +1,39 @@
+{
+  "id": "michael-frerichs",
+  "name": "Michael Frerichs",
+  "party": "Democratic",
+  "office": "Illinois Treasurer",
+  "race_id": "il-treasurer-d-2026",
+  "bio": "Michael Frerichs is the incumbent Illinois State Treasurer, first elected in 2014 and running for a fourth term. He is a former state senator from Champaign County. As Treasurer, Frerichs oversees the state's investment portfolio and runs the I-Cash unclaimed property program, through which he has returned over $2 billion to Illinois residents and businesses. He is running unopposed in the Democratic primary. No Republican filed for the treasurer's race — making him effectively guaranteed re-election.",
+  "prior_office": "Illinois State Treasurer (2015–present); Illinois State Senator",
+  "website": null,
+  "photo_url": null,
+  "jacket": {
+    "total_raised": null,
+    "pac_support_total": null,
+    "data_date": "2026-03-14",
+    "source": "https://patch.com/illinois/across-il/il-2026-primary-election-guide-whos-running-what-you-need-know",
+    "note": "Unopposed in primary. No Republican filed — effectively guaranteed a fourth term. Best known for I-Cash unclaimed property program ($2B+ returned).",
+    "donors": [],
+    "fec_id": null
+  },
+  "red_flags": [],
+  "key_votes": [
+    {
+      "bill": "I-Cash Unclaimed Property Program",
+      "vote": "administered",
+      "summary": "Administered Illinois's unclaimed property program, returning over $2 billion to residents and businesses over his tenure as Treasurer.",
+      "source": "https://ballotpedia.org/Michael_Frerichs"
+    }
+  ],
+  "endorsements": [
+    "Illinois Democratic Party"
+  ],
+  "policy_positions": [
+    "Responsible state investment management",
+    "I-Cash unclaimed property returns to residents",
+    "Socially responsible investment guidelines",
+    "Bright Start college savings program expansion"
+  ],
+  "transparency_grade": null
+}

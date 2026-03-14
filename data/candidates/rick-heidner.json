@@ -1,0 +1,47 @@
+{
+  "id": "rick-heidner",
+  "name": "Rick Heidner",
+  "party": "Republican",
+  "office": "Governor of Illinois",
+  "race_id": "il-governor-r-2026",
+  "bio": "Rick Heidner is a self-made businessman who built Illinois Gaming Investors, a video gaming terminal company, from a $10,000 loan into a multi-state operation. He has no prior political office experience. Heidner is running as an outsider candidate who argues 40 years of private-sector budgeting qualifies him to fix Illinois's fiscal problems. His self-funded campaign emphasizes an 'Illinoisans First' message targeting population flight, property taxes, and the SAFE-T Act.",
+  "prior_office": "None — first-time candidate",
+  "website": "https://heidnerforillinois.com",
+  "photo_url": null,
+  "jacket": {
+    "total_raised": null,
+    "pac_support_total": null,
+    "data_date": "2026-03-14",
+    "source": "https://ballotpedia.org/Rick_Heidner",
+    "note": "Self-funded businessman. Video gaming industry background raises potential conflict-of-interest questions. Running hard on SAFE-T Act rollback and property tax relief.",
+    "donors": [],
+    "fec_id": null
+  },
+  "red_flags": [
+    {
+      "type": "conflict_of_interest",
+      "label": "Video Gaming Industry Background",
+      "detail": "Heidner built his fortune in the video gaming terminal industry. As governor, he would oversee the state agency regulating that same industry — a potential conflict of interest that opponents and watchdog groups may scrutinize.",
+      "source": "https://ballotpedia.org/Rick_Heidner",
+      "confirmed": false
+    },
+    {
+      "type": "experience",
+      "label": "No Prior Elected or Public-Sector Experience",
+      "detail": "Heidner has never held public office or managed a government agency. His entire career is in private business.",
+      "source": "https://ballotpedia.org/Rick_Heidner",
+      "confirmed": true
+    }
+  ],
+  "key_votes": [],
+  "endorsements": [],
+  "policy_positions": [
+    "Property tax relief — middle-class families pay $4,472/year above national average",
+    "Term limits for governor — two terms, then go home",
+    "Rollback SAFE-T Act — restore judge authority to detain dangerous defendants",
+    "Lower corporate taxes and reduce red tape for small businesses",
+    "School vouchers — parental choice if school is failing",
+    "Electronic monitoring reform for pretrial defendants"
+  ],
+  "transparency_grade": null
+}

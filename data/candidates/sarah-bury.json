@@ -18,9 +18,9 @@
   "red_flags": [],
   "key_votes": [
     {
-      "bill": "First-time candidate \u2014 environmental lawyer, no prior elected office",
+      "bill": "First-time candidate — environmental lawyer, no prior elected office",
       "vote": "record",
-      "summary": "First-time candidate \u2014 environmental lawyer, no prior elected office",
+      "summary": "First-time candidate — environmental lawyer, no prior elected office",
       "source": "https://www.sarah4waterrec.org"
     },
     {
@@ -87,19 +87,19 @@
   ],
   "career_history": [
     {
-      "role": "Senior Project Manager / Attorney (current) \u2014 works in discovery on corporate litigation matters",
+      "role": "Senior Project Manager / Attorney (current) — works in discovery on corporate litigation matters",
       "org": "",
       "years": "",
       "highlight": ""
     },
     {
-      "role": "Dale Bryson Water Quality Fellow, Alliance for the Great Lakes \u2014 drafted letters on water pollution, compared phosphorus laws across Midwest states",
+      "role": "Dale Bryson Water Quality Fellow, Alliance for the Great Lakes — drafted letters on water pollution, compared phosphorus laws across Midwest states",
       "org": "",
       "years": "",
       "highlight": ""
     },
     {
-      "role": "Water Issue Specialist, League of Women Voters of Illinois \u2014 tracked water-related legislation",
+      "role": "Water Issue Specialist, League of Women Voters of Illinois — tracked water-related legislation",
       "org": "",
       "years": "",
       "highlight": ""
@@ -111,7 +111,7 @@
       "highlight": ""
     },
     {
-      "role": "Volunteer, Sierra Club Chicago Water Team \u2014 monitored stormwater permit compliance, tested Chicago River for phosphorus and dissolved oxygen",
+      "role": "Volunteer, Sierra Club Chicago Water Team — monitored stormwater permit compliance, tested Chicago River for phosphorus and dissolved oxygen",
       "org": "",
       "years": "",
       "highlight": ""
@@ -123,7 +123,7 @@
       "highlight": ""
     },
     {
-      "role": "Field Organizer, Ald. Maria Hadden campaign (49th Ward); Bring Chicago Home ballot campaign (2023\u20132024)",
+      "role": "Field Organizer, Ald. Maria Hadden campaign (49th Ward); Bring Chicago Home ballot campaign (2023–2024)",
       "org": "",
       "years": "",
       "highlight": ""
@@ -169,5 +169,13 @@
   "photo_url": null,
   "trust_indicators": [],
   "social_pulse": null,
-  "transparency_score": null
+  "transparency_score": {
+    "grade": "B",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "A",
+    "record_available": true,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-14"
+  }
 }

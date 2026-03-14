@@ -1,0 +1,69 @@
+{
+  "id": "jb-pritzker",
+  "name": "J.B. Pritzker",
+  "party": "Democratic",
+  "office": "Governor of Illinois",
+  "race_id": "il-governor-d-2026",
+  "bio": "J.B. Pritzker is the incumbent Governor of Illinois, first elected in 2018. A billionaire heir to the Hyatt hotel fortune, he has governed as a progressive Democrat — signing the SAFE-T Act eliminating cash bail, legalizing recreational marijuana, and championing clean energy legislation. He is running for a third term, which would make him the first Democratic governor in Illinois history to win three consecutive terms. Pritzker is the only Democrat on the primary ballot after challenger Patricia Tillman was disqualified. He is widely expected to win in November — all major forecasters rate the general as Solid/Safe Democratic.",
+  "prior_office": "Governor of Illinois (2019–present)",
+  "website": "https://jbpritzker.com",
+  "photo_url": null,
+  "jacket": {
+    "total_raised": null,
+    "pac_support_total": null,
+    "data_date": "2026-03-14",
+    "source": "https://ballotpedia.org/Illinois_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+    "note": "Pritzker is running for an unprecedented third Democratic gubernatorial term. Unopposed in the primary. General election rated Solid Democratic by Cook, Sabato, and Inside Elections.",
+    "donors": [],
+    "fec_id": null
+  },
+  "red_flags": [
+    {
+      "type": "policy",
+      "label": "SAFE-T Act Rollout Controversy",
+      "detail": "The SAFE-T Act eliminating cash bail drew criticism from fellow Democrats and Cook County's own State's Attorney, who called electronic monitoring provisions 'a serious threat to public safety.' Pritzker has acknowledged the law needs targeted changes.",
+      "source": "https://www.nbcchicago.com/news/local/chicago-politics/a-complete-guide-to-voting-in-the-2026-illinois-primary-election-2/3905887/",
+      "confirmed": true
+    },
+    {
+      "type": "governance",
+      "label": "Corporate Headquarters Departures",
+      "detail": "Boeing, Caterpillar, Citadel, Tyson Foods, and Morton Salt all relocated headquarters out of Illinois during Pritzker's tenure. Critics attribute this to high taxes, pension debt, and regulatory burden.",
+      "source": "https://ballotpedia.org/Ted_Dabrowski",
+      "confirmed": true
+    }
+  ],
+  "key_votes": [
+    {
+      "bill": "SAFE-T Act (2021)",
+      "vote": "signed",
+      "summary": "Signed legislation eliminating cash bail in Illinois — the first state in the nation to do so. Took effect January 2023 after legal challenges.",
+      "source": "https://ballotpedia.org/J.B._Pritzker"
+    },
+    {
+      "bill": "Cannabis Regulation and Tax Act (2019)",
+      "vote": "signed",
+      "summary": "Legalized recreational marijuana use and sales in Illinois, effective January 2020.",
+      "source": "https://ballotpedia.org/J.B._Pritzker"
+    },
+    {
+      "bill": "Climate and Equitable Jobs Act (2021)",
+      "vote": "signed",
+      "summary": "Set Illinois on a path to 100% clean energy by 2050. Critics say it has driven up electricity bills.",
+      "source": "https://ballotpedia.org/J.B._Pritzker"
+    }
+  ],
+  "endorsements": [
+    "Illinois Democratic Party",
+    "SEIU Illinois State Council",
+    "Illinois Federation of Teachers"
+  ],
+  "policy_positions": [
+    "Defend abortion rights and reproductive healthcare access",
+    "Continue SAFE-T Act implementation with targeted reforms",
+    "Clean energy transition and climate legislation",
+    "Public education investment and universal pre-K",
+    "Push back against federal Trump administration cuts to Illinois programs"
+  ],
+  "transparency_grade": null
+}

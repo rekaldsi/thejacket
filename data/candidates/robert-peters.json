@@ -13,7 +13,7 @@
     "source": "https://www.fec.gov/data/elections/house/IL/02/",
     "note": "~$1.13M raised as of Feb 25, 2026 (FEC). FEC ID: H6IL02298",
     "donors": [],
-    "donors_note": "No itemized donor breakdown available yet. total_raised reflects FEC aggregate total (H6IL02298) \u2014 detailed donor records pending ETL import.",
+    "donors_note": "No itemized donor breakdown available yet. total_raised reflects FEC aggregate total (H6IL02298) — detailed donor records pending ETL import.",
     "fec_id": "H6IL02298"
   },
   "red_flags": [],
@@ -21,7 +21,7 @@
     {
       "bill": "SAFE-T Act (SB 2835)",
       "vote": "Yes (lead sponsor)",
-      "summary": "Illinois Safety, Accountability, Fairness and Equity-Today Act \u2014 eliminated cash bail, expanded pretrial rights, strengthened accountability for law enforcement. Peters was the lead Senate sponsor.",
+      "summary": "Illinois Safety, Accountability, Fairness and Equity-Today Act — eliminated cash bail, expanded pretrial rights, strengthened accountability for law enforcement. Peters was the lead Senate sponsor.",
       "source": "https://www.ilga.gov"
     },
     {
@@ -40,19 +40,19 @@
     {
       "role": "Illinois State Senator, District 13",
       "org": "Illinois Senate",
-      "years": "2019\u2013present",
+      "years": "2019–present",
       "highlight": "Progressive leader on criminal justice and housing"
     },
     {
       "role": "Community Organizer",
       "org": "Various Chicago advocacy organizations",
-      "years": "2010\u20132019",
+      "years": "2010–2019",
       "highlight": "Tenant rights, housing justice, and anti-violence work"
     },
     {
       "role": "Legal Aid Attorney",
       "org": "Legal Aid Chicago / Prairie State Legal Services",
-      "years": "2008\u20132014"
+      "years": "2008–2014"
     }
   ],
   "policy_platform": [
@@ -95,12 +95,12 @@
       "type": "positive"
     },
     {
-      "label": "SAFE-T Act author \u2014 led bail reform in Illinois",
+      "label": "SAFE-T Act author — led bail reform in Illinois",
       "value": true,
       "type": "positive"
     },
     {
-      "label": "Former legal aid attorney \u2014 public interest background",
+      "label": "Former legal aid attorney — public interest background",
       "value": true,
       "type": "positive"
     }
@@ -110,8 +110,8 @@
     "computed": true,
     "financial_transparency": "F",
     "platform_completeness": "B",
-    "record_available": false,
+    "record_available": true,
     "red_flags_count": 0,
-    "computed_at": "2026-03-13"
+    "computed_at": "2026-03-14"
   }
 }

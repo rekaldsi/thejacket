@@ -80,12 +80,12 @@
     }
   ],
   "transparency_score": {
-    "grade": "F",
+    "grade": "A",
     "computed": true,
-    "financial_transparency": "F",
-    "platform_completeness": "F",
+    "financial_transparency": "A",
+    "platform_completeness": "A",
     "record_available": false,
     "red_flags_count": 0,
-    "computed_at": "2026-03-13"
+    "computed_at": "2026-03-14"
   }
 }

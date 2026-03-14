@@ -6,7 +6,7 @@
   "race_id": "il-04-us-house-open-2026",
   "data_status": "partial",
   "data_note": "Limited public information available. Check your county clerk's office or the Illinois State Board of Elections for filing info.",
-  "bio": "Patty Garcia holds a PhD from the University of Illinois Urbana-Champaign and served as Chief of Staff to Congressman Jesus 'Chuy' Garcia (IL-04). She is the Democratic nominee in the IL-04 primary \u2014 running uncontested \u2014 and is considered the institutional heir to Chuy Garcia's progressive legacy in the heavily Latino southwest Chicago district. (Source: Ballotpedia; ILSOS filing confirmed; Citizens Action Illinois endorsement)",
+  "bio": "Patty Garcia holds a PhD from the University of Illinois Urbana-Champaign and served as Chief of Staff to Congressman Jesus 'Chuy' Garcia (IL-04). She is the Democratic nominee in the IL-04 primary — running uncontested — and is considered the institutional heir to Chuy Garcia's progressive legacy in the heavily Latino southwest Chicago district. (Source: Ballotpedia; ILSOS filing confirmed; Citizens Action Illinois endorsement)",
   "prior_office": "Chief of Staff to Rep. Jesus 'Chuy' Garcia (IL-04)",
   "website": "https://pattyforillinois.com",
   "jacket": {
@@ -83,13 +83,13 @@
     }
   ],
   "transparency_score": {
-    "grade": "F",
+    "grade": "C",
     "computed": true,
     "financial_transparency": "F",
-    "platform_completeness": "F",
+    "platform_completeness": "A",
     "record_available": false,
     "red_flags_count": 0,
-    "computed_at": "2026-03-13"
+    "computed_at": "2026-03-14"
   },
   "uncontested": true
 }

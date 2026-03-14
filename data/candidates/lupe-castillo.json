@@ -62,13 +62,13 @@
     }
   ],
   "transparency_score": {
-    "grade": "F",
+    "grade": "C",
     "computed": true,
     "financial_transparency": "F",
-    "platform_completeness": "F",
+    "platform_completeness": "A",
     "record_available": false,
     "red_flags_count": 0,
-    "computed_at": "2026-03-13"
+    "computed_at": "2026-03-14"
   },
   "uncontested": true
 }

@@ -364,6 +364,45 @@
     "candidateCount": 1
   },
   {
+    "id": "il-governor-d-2026",
+    "slug": "il-governor-democratic-primary",
+    "title": "Illinois Governor \u2014 Democratic Primary",
+    "jurisdiction": "State of Illinois",
+    "description": "Incumbent J.B. Pritzker runs unopposed in the Democratic primary, seeking a historic third consecutive term. If he wins in November, he will be the first Democratic governor in Illinois history to do so. His opponent in the general will be decided by the Republican primary. All major forecasters rate the general Solid/Safe Democratic.",
+    "party": "Democratic",
+    "candidateCount": 1,
+    "uncontested": true
+  },
+  {
+    "id": "il-governor-r-2026",
+    "slug": "il-governor-republican-primary",
+    "title": "Illinois Governor \u2014 Republican Primary",
+    "jurisdiction": "State of Illinois",
+    "description": "Four Republicans compete to challenge incumbent Governor J.B. Pritzker in November. Darren Bailey — the 2022 Republican nominee who lost by 11 points — leads in name recognition. He faces businessman Rick Heidner (Illinois Gaming Investors founder), fiscal policy wonk Ted Dabrowski (Wirepoints president), and DuPage County Sheriff James Mendrick. The race centers on property taxes, the SAFE-T Act, spending, and who can make the strongest case against Pritzker. All major forecasters still rate the general as Solid Democratic.",
+    "party": "Republican",
+    "candidateCount": 4
+  },
+  {
+    "id": "il-attorney-general-d-2026",
+    "slug": "il-attorney-general-democratic-primary",
+    "title": "Illinois Attorney General \u2014 Democratic Primary",
+    "jurisdiction": "State of Illinois",
+    "description": "Incumbent Kwame Raoul runs unopposed in the Democratic primary for a third term. Raoul has led multistate litigation against the Trump administration on immigration, environment, and consumer protections. He will face Republican Robert Fioretti (also unopposed) in the November general.",
+    "party": "Democratic",
+    "candidateCount": 1,
+    "uncontested": true
+  },
+  {
+    "id": "il-treasurer-d-2026",
+    "slug": "il-treasurer-democratic-primary",
+    "title": "Illinois Treasurer \u2014 Democratic Primary",
+    "jurisdiction": "State of Illinois",
+    "description": "Incumbent Michael Frerichs runs unopposed in the Democratic primary for a fourth term. No Republican filed for the general election, making Frerichs effectively guaranteed re-election. Best known for the I-Cash unclaimed property program, which has returned over $2 billion to Illinois residents.",
+    "party": "Democratic",
+    "candidateCount": 1,
+    "uncontested": true
+  },
+  {
     "id": "il-comptroller-d-2026",
     "jurisdiction": "State of Illinois",
     "party": "Democratic",

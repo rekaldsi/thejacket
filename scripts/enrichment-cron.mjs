@@ -98,7 +98,7 @@ function getModifiedCandidates(beforeState) {
 
       if (diffs.length > 0) {
         changed.push({ id, name: after.name, diffs });
-      } else if (beforeContent !== currentContent) {
+      } else if (beforeState[id] !== currentContent) {
         changed.push({ id, name: after.name, diffs: ["data updated"] });
       }
     } else if (!beforeState[id]) {

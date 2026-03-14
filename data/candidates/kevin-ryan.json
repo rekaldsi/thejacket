@@ -6,7 +6,7 @@
   "race_id": "us-senate-il-d-2026",
   "data_status": "partial",
   "data_note": "Limited public information available. Check your county clerk's office or the Illinois State Board of Elections for filing info.",
-  "bio": "Kevin Ryan is a Chicago Public Schools teacher (18 years at Lindblom High School, West Englewood) and U.S. Marine Corps Reserve officer. He served as a policy adviser at the U.S. Treasury under the Biden Administration and holds degrees from U of I, Oxford (diplomacy), and Georgetown. His central campaign platform is a constitutional amendment to establish campaign spending limits \u2014 making him one of the most relevant candidates to TheJacket's mission. (Source: Ballotpedia; ILSOS filing confirmed)",
+  "bio": "Kevin Ryan is a Chicago Public Schools teacher (18 years at Lindblom High School, West Englewood) and U.S. Marine Corps Reserve officer. He served as a policy adviser at the U.S. Treasury under the Biden Administration and holds degrees from U of I, Oxford (diplomacy), and Georgetown. His central campaign platform is a constitutional amendment to establish campaign spending limits — making him one of the most relevant candidates to TheJacket's mission. (Source: Ballotpedia; ILSOS filing confirmed)",
   "prior_office": "Policy Adviser, U.S. Treasury (Biden Administration)",
   "website": "https://www.ballotpedia.org/Kevin_Ryan_(Illinois)",
   "jacket": {
@@ -32,19 +32,19 @@
     {
       "role": "U.S. Marine Corps Reserve Officer",
       "org": "United States Marine Corps",
-      "years": "2014\u2013present",
+      "years": "2014–present",
       "highlight": "Active reservist; military service alongside teaching career"
     },
     {
       "role": "Chicago Public Schools Teacher",
       "org": "Lindblom Math & Science Academy, West Englewood",
-      "years": "2006\u2013present",
+      "years": "2006–present",
       "highlight": "18 years in the classroom; brother died of overdose, which inspired teaching career"
     },
     {
       "role": "Policy Adviser",
       "org": "U.S. Treasury (Biden Administration)",
-      "years": "2021\u20132022",
+      "years": "2021–2022",
       "highlight": "Federal policy work on economic issues"
     }
   ],
@@ -83,12 +83,12 @@
     }
   ],
   "transparency_score": {
-    "grade": "F",
+    "grade": "C",
     "computed": true,
     "financial_transparency": "F",
-    "platform_completeness": "F",
+    "platform_completeness": "A",
     "record_available": false,
     "red_flags_count": 0,
-    "computed_at": "2026-03-13"
+    "computed_at": "2026-03-14"
   }
 }

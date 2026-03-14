@@ -1,0 +1,53 @@
+{
+  "id": "darren-bailey",
+  "name": "Darren Bailey",
+  "party": "Republican",
+  "office": "Governor of Illinois",
+  "race_id": "il-governor-r-2026",
+  "bio": "Darren Bailey is a downstate farmer and former Illinois state legislator (State Rep 2019–2021, State Senator 2021–2023) from Louisville, Illinois. He was the Republican nominee for governor in 2022, losing to Pritzker by 11 points. Now running again, Bailey is the name-recognition frontrunner in the 2026 Republican primary. He owns Bailey Family Farm and has positioned himself as an anti-establishment, rural conservative voice. His signature 2026 proposal is an 'Illinois DOGE' — a state-level government efficiency initiative. Running mate: Cook County GOP Chair Aaron Del Mar.",
+  "prior_office": "Illinois State Senate District 55 (2021–2023); Illinois House District 109 (2019–2021)",
+  "website": "https://baileyforillinois.com",
+  "photo_url": null,
+  "jacket": {
+    "total_raised": null,
+    "pac_support_total": null,
+    "data_date": "2026-03-14",
+    "source": "https://abc7chicago.com/post/2026-elections-darren-bailey-proposes-illinois-doge-policy-agenda-republican-governors-race-focuses-spending/18374342/",
+    "note": "Name-recognition frontrunner from 2022 loss. Proposing 'Illinois DOGE.' Pairing with Cook County GOP Chair to improve Chicago-area performance vs. 2022.",
+    "donors": [],
+    "fec_id": null
+  },
+  "red_flags": [
+    {
+      "type": "electability",
+      "label": "Lost 2022 Governor Race by 11 Points",
+      "detail": "Bailey was the 2022 Republican nominee and lost to Pritzker by the largest Republican margin in decades. His far-right positioning on immigration and abortion alienated suburban voters.",
+      "source": "https://en.wikipedia.org/wiki/Darren_Bailey",
+      "confirmed": true
+    }
+  ],
+  "key_votes": [
+    {
+      "bill": "COVID-19 Emergency Measures (2020)",
+      "vote": "opposed",
+      "summary": "Voted against and vocally opposed COVID-19 emergency measures, mask mandates, and vaccine requirements as a state legislator.",
+      "source": "https://ballotpedia.org/Darren_Bailey"
+    },
+    {
+      "bill": "Abortion Legislation (General Assembly, multiple)",
+      "vote": "opposed",
+      "summary": "Consistent anti-abortion voting record throughout tenure in Illinois General Assembly.",
+      "source": "https://ballotpedia.org/Darren_Bailey"
+    }
+  ],
+  "endorsements": [],
+  "policy_positions": [
+    "Create 'Illinois DOGE' — state government efficiency audit",
+    "Property tax cap at 1% of assessed value (Indiana-style)",
+    "Repeal Illinois zero-emissions energy mandate",
+    "Repeal sanctuary laws and migrant welcoming programs",
+    "Rollback SAFE-T Act; restore judge discretion in detention",
+    "School voucher expansion"
+  ],
+  "transparency_grade": null
+}

@@ -41,7 +41,7 @@
     }
   ],
   "endorsements": [
-    "Chuy Garc\u00eda (U.S. Rep, IL-04)",
+    "Chuy García (U.S. Rep, IL-04)",
     "Raja Krishnamoorthi (U.S. Rep, IL-08)",
     "Mike Quigley (U.S. Rep, IL-05)",
     "Delia Ramirez (U.S. Rep, IL-03)",
@@ -87,5 +87,13 @@
   "photo_url": null,
   "trust_indicators": [],
   "social_pulse": null,
-  "transparency_score": null
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "F",
+    "record_available": false,
+    "red_flags_count": 1,
+    "computed_at": "2026-03-14"
+  }
 }

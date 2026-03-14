@@ -2,10 +2,10 @@
   "id": "laura-fine",
   "name": "Laura Fine",
   "party": "Democratic",
-  "office": "U.S. House \u2014 IL-09",
+  "office": "U.S. House — IL-09",
   "race_id": "il-09-us-house-d-2026",
-  "bio": "Laura Fine is an Illinois state senator representing the 9th district \u2014 the same seat once held by Daniel Biss. A former journalist, she is running for the open IL-09 congressional seat. She has raised approximately $2M. (Source: FEC H6IL09194; Wikipedia)",
-  "prior_office": "Illinois State Senator (9th District, 2019\u2013present)",
+  "bio": "Laura Fine is an Illinois state senator representing the 9th district — the same seat once held by Daniel Biss. A former journalist, she is running for the open IL-09 congressional seat. She has raised approximately $2M. (Source: FEC H6IL09194; Wikipedia)",
+  "prior_office": "Illinois State Senator (9th District, 2019–present)",
   "website": "https://laurafineforillinois.com",
   "photo_url": null,
   "jacket": {
@@ -30,7 +30,7 @@
         "amount_note": "Confirmed AIPAC-network donation per Evanston Roundtable investigative reporting"
       },
       {
-        "name": "Michael Tuchin (AIPAC board president \u2014 hosted fundraiser)",
+        "name": "Michael Tuchin (AIPAC board president — hosted fundraiser)",
         "amount": null,
         "category": "aipac",
         "source": "https://en.wikipedia.org/wiki/Laura_Fine",
@@ -43,10 +43,10 @@
         "category": "pac",
         "source": "https://en.wikipedia.org/wiki/Laura_Fine",
         "confirmed": true,
-        "amount_note": "AIPAC-affiliated Super PAC spent $1M+ on ads supporting Fine. This is OUTSIDE spending \u2014 NOT in campaign committee total of $2,556,808."
+        "amount_note": "AIPAC-affiliated Super PAC spent $1M+ on ads supporting Fine. This is OUTSIDE spending — NOT in campaign committee total of $2,556,808."
       },
       {
-        "name": "Out-of-state donors \u2014 Florida",
+        "name": "Out-of-state donors — Florida",
         "amount": 36500,
         "category": "individual",
         "source": "https://dailynorthwestern.com/2026/02/02/city/abughazaleh-biss-fine-lead-fundraising-as-11-million-floods-congressional-race/",
@@ -54,7 +54,7 @@
         "amount_note": "Largest out-of-state contribution bloc per Daily Northwestern FEC analysis"
       },
       {
-        "name": "Out-of-state donors \u2014 New York",
+        "name": "Out-of-state donors — New York",
         "amount": 32000,
         "category": "individual",
         "source": "https://dailynorthwestern.com/2026/02/02/city/abughazaleh-biss-fine-lead-fundraising-as-11-million-floods-congressional-race/",
@@ -62,7 +62,7 @@
         "amount_note": "Second largest out-of-state bloc per Daily Northwestern FEC analysis"
       }
     ],
-    "donors_note": "Donors list is PARTIAL \u2014 only notable/flagged donors are itemized. total_raised ($2,000,000) reflects the full FEC aggregate total (H6IL09194). Full donor breakdown pending ETL import. The Gessner family entry represents $14,000 of documented AIPAC-network contributions; remaining $1,986,000 is unitemized in this record.",
+    "donors_note": "Donors list is PARTIAL — only notable/flagged donors are itemized. total_raised ($2,000,000) reflects the full FEC aggregate total (H6IL09194). Full donor breakdown pending ETL import. The Gessner family entry represents $14,000 of documented AIPAC-network contributions; remaining $1,986,000 is unitemized in this record.",
     "fec_id": "H6IL09194"
   },
   "red_flags": [
@@ -84,7 +84,7 @@
     {
       "bill": "Mental Health Outpatient Parity legislation, 2022-2023",
       "vote": "yes",
-      "summary": "Fine passed law extending prior authorization bans to cover medically necessary outpatient mental health services \u2014 major insurance reform expanding mental health access in Illinois.",
+      "summary": "Fine passed law extending prior authorization bans to cover medically necessary outpatient mental health services — major insurance reform expanding mental health access in Illinois.",
       "source": "https://www.illinoissenatedemocrats.com/caucus-news/28-senator-laura-fine-news"
     },
     {
@@ -105,13 +105,13 @@
     {
       "role": "Illinois State Senator",
       "org": "Illinois Senate",
-      "years": "2019\u2013present",
+      "years": "2019–present",
       "highlight": "Senate Mental Health Committee; behavioral health policy leader"
     },
     {
       "role": "Illinois State Representative",
       "org": "Illinois General Assembly",
-      "years": "2013\u20132019",
+      "years": "2013–2019",
       "highlight": "Represented Glenview/Northbrook area suburbs"
     }
   ],
@@ -160,12 +160,12 @@
     }
   ],
   "transparency_score": {
-    "grade": "C",
+    "grade": "B",
     "computed": true,
-    "financial_transparency": "F",
+    "financial_transparency": "C",
     "platform_completeness": "B",
-    "record_available": false,
+    "record_available": true,
     "red_flags_count": 1,
-    "computed_at": "2026-03-13"
+    "computed_at": "2026-03-14"
   }
 }
