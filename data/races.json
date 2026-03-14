@@ -440,5 +440,50 @@
     "party": "Democratic",
     "candidateCount": 2,
     "note": "uncontested-dem"
+  },
+  {
+    "id": "us-senate-il-r-2026",
+    "slug": "us-senate-il-republican-primary",
+    "title": "U.S. Senate \u2014 Illinois Republican Primary",
+    "jurisdiction": "State of Illinois",
+    "description": "Six Republicans compete for the nomination to challenge the Democratic nominee for Illinois's open U.S. Senate seat. Don Tracy, former Illinois Republican Party chair, is the frontrunner.",
+    "party": "Republican",
+    "candidateCount": 6
+  },
+  {
+    "id": "il-comptroller-r-2026",
+    "slug": "il-comptroller-republican-primary",
+    "title": "Illinois Comptroller \u2014 Republican Primary",
+    "jurisdiction": "State of Illinois",
+    "description": "Bob Fioretti, former Chicago 2nd Ward alderman turned Republican, runs uncontested in the Republican Comptroller primary.",
+    "party": "Republican",
+    "candidateCount": 1
+  },
+  {
+    "id": "il-attorney-general-r-2026",
+    "slug": "il-attorney-general-republican-primary",
+    "title": "Illinois Attorney General \u2014 Republican Primary",
+    "jurisdiction": "State of Illinois",
+    "description": "Andy Williams Jr. runs uncontested in the Republican primary for Illinois Attorney General.",
+    "party": "Republican",
+    "candidateCount": 1
+  },
+  {
+    "id": "il-treasurer-r-2026",
+    "slug": "il-treasurer-republican-primary",
+    "title": "Illinois Treasurer \u2014 Republican Primary",
+    "jurisdiction": "State of Illinois",
+    "description": "Max Rice and Max Solomon compete in the Republican primary for Illinois Treasurer.",
+    "party": "Republican",
+    "candidateCount": 2
+  },
+  {
+    "id": "cook-county-assessor-libertarian-2026",
+    "slug": "cook-county-assessor-libertarian-primary",
+    "title": "Cook County Assessor \u2014 Libertarian Primary",
+    "jurisdiction": "Cook County",
+    "description": "Nico Tsatsoulis runs as the sole Libertarian candidate for Cook County Assessor.",
+    "party": "Libertarian",
+    "candidateCount": 1
   }
 ]

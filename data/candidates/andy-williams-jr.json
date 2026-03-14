@@ -1,0 +1,43 @@
+{
+  "id": "andy-williams-jr",
+  "name": "Andy Williams Jr.",
+  "party": "Republican",
+  "office": "Illinois Attorney General",
+  "race_id": "il-attorney-general-r-2026",
+  "incumbent": false,
+  "bio": "Andy Williams Jr. is one of two Republicans in the 2026 Illinois Attorney General primary, competing against Bob Fioretti for the right to face Democratic incumbent Kwame Raoul in November. Very limited public profile information is available from research conducted for this filing. Campaign finance data and full biographical details were not found in publicly available sources as of March 14, 2026.",
+  "prior_office": "Unknown — not confirmed in available sources",
+  "website": null,
+  "photo_url": null,
+  "jacket": {
+    "total_raised": null,
+    "cash_on_hand": null,
+    "data_date": "2026-03-14",
+    "source": "https://ballotpedia.org/Illinois_Attorney_General_election,_2026",
+    "note": "ILSBE data not found in available sources. Ballotpedia confirms Williams is on the Republican primary ballot.",
+    "fec_id": null,
+    "ilsbe_id": null,
+    "donors": []
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "policy_platform": [],
+  "career_history": [],
+  "endorsements": [],
+  "data_status": "limited",
+  "sources": [
+    "https://ballotpedia.org/Illinois_Attorney_General_election,_2026",
+    "https://ballotpedia.org/Andy_Williams_Jr."
+  ],
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "F",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-14"
+  }
+}

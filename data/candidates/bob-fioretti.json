@@ -1,0 +1,96 @@
+{
+  "id": "bob-fioretti",
+  "name": "Bob Fioretti",
+  "party": "Republican",
+  "office": "Illinois Attorney General",
+  "race_id": "il-attorney-general-r-2026",
+  "incumbent": false,
+  "bio": "Bob Fioretti is a Chicago attorney and former 2nd Ward Chicago alderman (2007–2015) who previously ran for mayor of Chicago in 2015 and 2019. He is one of two Republicans in the 2026 primary for Illinois Attorney General, seeking the nomination to challenge incumbent Democratic AG Kwame Raoul in November. Fioretti built his reputation as an independent voice on the Chicago City Council, frequently opposing Mayor Rahm Emanuel on fiscal and policy issues. He is known as a civil rights attorney who also received endorsements from law enforcement organizations during his mayoral bids — a combination he has cited as proof of his ability to bridge communities. He has extensive policy positions on record from his mayoral campaigns covering crime, property taxes, TIF reform, education, and immigration. As a Republican candidate for AG, he is expected to campaign on law enforcement and opposing the SAFE-T Act.",
+  "prior_office": "Chicago 2nd Ward Alderman (2007–2015); Candidate for Chicago Mayor (2015, 2019)",
+  "website": null,
+  "photo_url": null,
+  "jacket": {
+    "total_raised": null,
+    "cash_on_hand": null,
+    "data_date": "2026-03-14",
+    "source": "https://ballotpedia.org/Illinois_Attorney_General_election,_2026",
+    "note": "ILSBE filing data not found in available sources as of research date. Ballotpedia confirms Fioretti is on the Republican primary ballot.",
+    "fec_id": null,
+    "ilsbe_id": null,
+    "donors": []
+  },
+  "red_flags": [
+    {
+      "type": "party-switch",
+      "label": "Former Democratic alderman now running as Republican",
+      "detail": "Fioretti served as a 2nd Ward alderman under the Democratic Party and ran for mayor as a Democrat in 2015 and 2019. His shift to the Republican Party for the AG race may raise questions among primary voters about ideological consistency.",
+      "source": "https://ballotpedia.org/Bob_Fioretti",
+      "confirmed": true
+    }
+  ],
+  "key_votes": [
+    {
+      "bill": "Emanuel property tax increase — Chicago City Council",
+      "vote": "voted no",
+      "summary": "Fioretti was one of a handful of aldermen who voted against Rahm Emanuel's record $544 million property tax increase, citing his commitment to not using homeowners as 'ATM machines.'",
+      "source": "https://ballotpedia.org/Bob_Fioretti"
+    }
+  ],
+  "policy_platform": [
+    "Oppose cash bail reform (SAFE-T Act) — restore accountability for violent offenders",
+    "Protect homeowners from property tax increases",
+    "Support law enforcement with proper resources",
+    "Oppose sanctuary policies",
+    "Civil rights protections alongside robust law enforcement",
+    "TIF reform — audit tax increment financing abuse",
+    "Support small businesses against excessive regulation"
+  ],
+  "career_history": [
+    {
+      "role": "Alderman, 2nd Ward",
+      "org": "Chicago City Council",
+      "years": "2007–2015",
+      "highlight": "Served four terms as 2nd Ward alderman (near North Side/River North). Known as an independent voice, frequently opposing Mayor Emanuel on budget votes. Voted against Emanuel's record $544M property tax increase."
+    },
+    {
+      "role": "Civil Rights Attorney",
+      "org": "Private practice",
+      "years": "~1990s–present",
+      "highlight": "Career civil rights attorney who received endorsements from both Black Lives Matter and law enforcement groups during his 2019 mayoral campaign."
+    },
+    {
+      "role": "Candidate for Mayor of Chicago",
+      "org": "Independent / Democratic Party",
+      "years": "2015, 2019",
+      "highlight": "Lost in the 2015 runoff primary and ran again in 2019. Was known as the most fiscally conservative of the major Democratic mayoral candidates."
+    }
+  ],
+  "endorsements": [],
+  "data_status": "partial",
+  "sources": [
+    "https://ballotpedia.org/Illinois_Attorney_General_election,_2026",
+    "https://ballotpedia.org/Bob_Fioretti"
+  ],
+  "trust_indicators": [
+    {
+      "label": "Legislative record",
+      "value": "8 years as Chicago alderman with documented voting record",
+      "type": "positive"
+    },
+    {
+      "label": "Party switch",
+      "value": "Former Democrat now running as Republican — questions about ideological consistency",
+      "type": "negative"
+    }
+  ],
+  "social_pulse": null,
+  "transparency_score": {
+    "grade": "D",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "C",
+    "record_available": true,
+    "red_flags_count": 1,
+    "computed_at": "2026-03-14"
+  }
+}

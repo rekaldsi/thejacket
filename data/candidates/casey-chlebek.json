@@ -1,0 +1,65 @@
+{
+  "id": "casey-chlebek",
+  "name": "Casey Chlebek",
+  "party": "Republican",
+  "office": "U.S. Senate (Illinois)",
+  "race_id": "us-senate-il-r-2026",
+  "incumbent": false,
+  "bio": "Casey Chlebek is a businessman and national director for the Polish American Congress PAC who is making his third run for U.S. Senate in Illinois. He previously ran for the Senate seat in 2020 and 2022 as a Republican candidate. For the 2026 cycle, he raised $105,000 through December 2025 — entirely from outside donors, as the finance disclosures show no personal self-funding — though he had nearly exhausted these funds, leaving only $4,704 cash on hand. He participated in the ABC7 Chicago Republican primary debate in February 2026. As a perennial candidate with limited resources, he is a long-shot challenger to Don Tracy.",
+  "prior_office": "None (candidate for U.S. Senate in 2020 and 2022)",
+  "website": null,
+  "photo_url": null,
+  "jacket": {
+    "total_raised": 105000,
+    "cash_on_hand": 4704,
+    "data_date": "2026-03-14",
+    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
+    "note": "FEC data as of Dec 31, 2025. Raised $105,000, spent $100,295, leaving $4,704 cash on hand — nearly depleted at primary eve.",
+    "fec_id": null,
+    "ilsbe_id": null,
+    "donors": []
+  },
+  "red_flags": [
+    {
+      "type": "electability",
+      "label": "Near-zero cash on hand entering primary",
+      "detail": "Only $4,704 cash on hand as of December 31, 2025 — making significant advertising or voter outreach impossible in the final weeks.",
+      "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
+      "confirmed": true
+    },
+    {
+      "type": "electability",
+      "label": "Lost previous Senate bids in 2020 and 2022",
+      "detail": "Chlebek is a three-time Republican Senate primary candidate in Illinois with no previous wins. Perennial candidate status limits credibility.",
+      "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
+      "confirmed": true
+    }
+  ],
+  "key_votes": [],
+  "policy_platform": [],
+  "career_history": [
+    {
+      "role": "National Director",
+      "org": "Polish American Congress PAC",
+      "years": "Unknown–present",
+      "highlight": "Leads the political action committee affiliated with the Polish American Congress, a major Polish-American advocacy organization."
+    }
+  ],
+  "endorsements": [],
+  "data_status": "limited",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
+    "https://ballotpedia.org/Casey_Chlebek"
+  ],
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "F",
+    "record_available": false,
+    "red_flags_count": 2,
+    "computed_at": "2026-03-14"
+  }
+}

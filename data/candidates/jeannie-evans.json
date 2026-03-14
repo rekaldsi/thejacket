@@ -1,0 +1,83 @@
+{
+  "id": "jeannie-evans",
+  "name": "Jeannie Evans",
+  "party": "Republican",
+  "office": "U.S. Senate (Illinois)",
+  "race_id": "us-senate-il-r-2026",
+  "incumbent": false,
+  "bio": "Jeannie Evans is a Chicago-based attorney and antitrust enforcement lawyer running for the Republican U.S. Senate nomination in Illinois. She has built a career as a lead attorney in antitrust and consumer protection cases, recovering billions of dollars for consumers and working on high-profile cases involving Chinese tech companies including TikTok, CapCut, and Temu for alleged illegal collection of Americans' personal and biometric data. Evans grew up with personal experience of gun violence — she lost her brother as an innocent victim of drug-related gun violence at age 21 — and raised her family on Chicago's South Side. As the second-best-funded Republican Senate candidate (behind frontrunner Don Tracy), she raised $510,861 through December 2025, including $300,000 in self-funding, leaving $298,594 cash on hand. She participated in the ABC7 Chicago Republican primary debate in February 2026 alongside Tracy and Casey Chlebek.",
+  "prior_office": "None confirmed",
+  "website": "https://jeannievans.com",
+  "photo_url": null,
+  "jacket": {
+    "total_raised": 510861,
+    "cash_on_hand": 298594,
+    "data_date": "2026-03-14",
+    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
+    "note": "FEC data as of Dec 31, 2025. Includes $300,000 self-funded by Evans. Total raised $510,861; spent $212,267; cash on hand $298,594.",
+    "fec_id": null,
+    "ilsbe_id": null,
+    "donors": []
+  },
+  "red_flags": [
+    {
+      "type": "self-funding",
+      "label": "59% of fundraising is Evans' own money",
+      "detail": "Of $510,861 raised, $300,000 (59%) was self-funded. Limited outside donor base, though she raised more outside money proportionally than Tracy.",
+      "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
+      "confirmed": true
+    }
+  ],
+  "key_votes": [],
+  "policy_platform": [
+    "Promote small businesses and job growth; reduce red tape and streamline business formation",
+    "Bring down cost of living through antitrust enforcement and promoting fair market competition",
+    "Cut taxes and remove unreasonable regulations",
+    "Oppose Chicago Mayor Brandon Johnson's proposed head tax on employees",
+    "Fight crime; support law enforcement; invest in community safety on South and West Sides",
+    "Preserve freedom of speech and individual liberties",
+    "Reform education to prepare students for trades and innovation-economy careers",
+    "Balance the federal budget",
+    "Support Illinois farmers and expand agricultural exports",
+    "Lead on AI policy: keep America competitive, protect data rights, increase AI transparency",
+    "Hold China accountable; protect Americans from surveillance by Chinese tech firms",
+    "Support innovation and university-industry partnerships"
+  ],
+  "career_history": [
+    {
+      "role": "Attorney, Antitrust and Consumer Protection",
+      "org": "Private practice / law firm (specific firm not publicly confirmed)",
+      "years": "~2000s–present",
+      "highlight": "Lead attorney in antitrust enforcement cases recovering billions for consumers; took on Chinese tech companies TikTok, CapCut, and Temu for alleged illegal data collection."
+    }
+  ],
+  "endorsements": [],
+  "data_status": "partial",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
+    "https://ballotpedia.org/Jeannie_Evans",
+    "https://www.nprillinois.org/2026-03-13/who-will-win-the-u-s-senate-primaries-in-illinois-lets-look-at-the-data"
+  ],
+  "trust_indicators": [
+    {
+      "label": "Professional background",
+      "value": "Career antitrust litigator with demonstrated consumer protection record — unique credential among Illinois Senate candidates",
+      "type": "positive"
+    },
+    {
+      "label": "Self-funding",
+      "value": "Majority of campaign financed by candidate's personal funds",
+      "type": "negative"
+    }
+  ],
+  "social_pulse": null,
+  "transparency_score": {
+    "grade": "D",
+    "computed": true,
+    "financial_transparency": "C",
+    "platform_completeness": "C",
+    "record_available": false,
+    "red_flags_count": 1,
+    "computed_at": "2026-03-14"
+  }
+}

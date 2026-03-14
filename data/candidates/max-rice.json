@@ -1,0 +1,43 @@
+{
+  "id": "max-rice",
+  "name": "Max Rice",
+  "party": "Republican",
+  "office": "Illinois Treasurer",
+  "race_id": "il-treasurer-r-2026",
+  "incumbent": false,
+  "bio": "Max Rice is one of two Republicans running in the 2026 Illinois Treasurer primary. He faces Max Solomon in the Republican primary, with the winner set to challenge incumbent Democratic Treasurer Mike Frerichs in November. Very limited public profile information is available. Campaign finance data and full biographical details were not found in publicly available sources as of March 14, 2026. Note: A 'Max Rice' is also listed as a write-in candidate in the Republican U.S. Senate primary — it is unclear if this is the same individual.",
+  "prior_office": "Unknown — not confirmed in available sources",
+  "website": null,
+  "photo_url": null,
+  "jacket": {
+    "total_raised": null,
+    "cash_on_hand": null,
+    "data_date": "2026-03-14",
+    "source": "https://ballotpedia.org/Illinois_Treasurer_election,_2026",
+    "note": "ILSBE data not found in available sources. Ballotpedia confirms Rice is on the Republican primary ballot.",
+    "fec_id": null,
+    "ilsbe_id": null,
+    "donors": []
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "policy_platform": [],
+  "career_history": [],
+  "endorsements": [],
+  "data_status": "limited",
+  "sources": [
+    "https://ballotpedia.org/Illinois_Treasurer_election,_2026",
+    "https://ballotpedia.org/Max_Rice"
+  ],
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "F",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-14"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "pamela-long",
+  "name": "Pamela Denise Long",
+  "party": "Republican",
+  "office": "U.S. Senate (Illinois)",
+  "race_id": "us-senate-il-r-2026",
+  "incumbent": false,
+  "bio": "Pamela Denise Long is an occupational therapist from Illinois running as a Republican candidate for the U.S. Senate seat being vacated by Sen. Dick Durbin. She is one of the lower-profile candidates in the field, raising $18,404 through December 2025 (including $2,638 in personal funds) with $1,952 cash on hand heading into the primary. Long participated in a WBEZ undercard forum with lower-polling candidates from both parties in the cycle. Very limited public profile or campaign presence documented.",
+  "prior_office": "None confirmed",
+  "website": null,
+  "photo_url": null,
+  "jacket": {
+    "total_raised": 18404,
+    "cash_on_hand": 1952,
+    "data_date": "2026-03-14",
+    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
+    "note": "FEC data as of Dec 31, 2025. Includes $2,638 self-funded by Long. Near-zero campaign resources.",
+    "fec_id": null,
+    "ilsbe_id": null,
+    "donors": []
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "policy_platform": [],
+  "career_history": [
+    {
+      "role": "Occupational Therapist",
+      "org": "Unknown",
+      "years": "Unknown",
+      "highlight": "Healthcare background as an occupational therapist; no prior elected office."
+    }
+  ],
+  "endorsements": [],
+  "data_status": "limited",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
+    "https://ballotpedia.org/Pamela_Denise_Long"
+  ],
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "F",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-14"
+  }
+}

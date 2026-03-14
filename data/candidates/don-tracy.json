@@ -1,0 +1,125 @@
+{
+  "id": "don-tracy",
+  "name": "Don Tracy",
+  "party": "Republican",
+  "office": "U.S. Senate (Illinois)",
+  "race_id": "us-senate-il-r-2026",
+  "incumbent": false,
+  "bio": "Don Tracy is a Springfield-based attorney and former chair of the Illinois Republican Party (2021–2024). Born in Urbana, Illinois, he was raised in Mt. Sterling in western Illinois and built his career in Springfield. He earned a bachelor's degree from Arizona State University and a law degree from the University of Memphis. Tracy has worked as a senior counsel at Brown, Hay & Stephens, one of Illinois' oldest law firms — with historical ties to Abraham Lincoln — where he represents small businesses and families. He previously served as a member of the Illinois Gaming Board (2015–2019) and ran unsuccessfully for lieutenant governor in 2010 on the Republican ticket. As GOP state chair, Tracy is credited with helping unify the Illinois Republican Party during a difficult period. His campaign self-funded $2 million of his roughly $2.15 million raised through December 2025, making him the overwhelming frontrunner in the Republican primary with $2.03 million cash on hand — more than all other Republican candidates combined. He is campaigning on lowering the cost of living, border security, and opposing what he calls 'extreme agendas,' and emphasizes representing all 102 Illinois counties — not just Chicago — noting that if Democrats win all statewide offices, every official would reside in Cook County.",
+  "prior_office": "Chair, Illinois Republican Party (2021–2024); Member, Illinois Gaming Board (2015–2019); Republican candidate for Lieutenant Governor of Illinois (2010)",
+  "website": "https://dontracyforil.com",
+  "photo_url": null,
+  "jacket": {
+    "total_raised": 2145931,
+    "cash_on_hand": 2027808,
+    "data_date": "2026-03-14",
+    "source": "https://www.fec.gov/data/candidates/?state=IL&election_year=2026&office=S",
+    "note": "FEC data as of Dec 31, 2025 report. Of $2,145,931 raised, $2,000,000 was self-funded by Tracy. Spent only $118,122 through that date, leaving $2,027,808 cash on hand — the largest war chest in the Republican primary by a wide margin. FEC committee ID to be confirmed.",
+    "fec_id": null,
+    "ilsbe_id": null,
+    "donors": []
+  },
+  "red_flags": [
+    {
+      "type": "self-funding",
+      "label": "93% of fundraising is Tracy's own money",
+      "detail": "Of $2,145,931 raised through December 31, 2025, $2,000,000 came from Tracy himself — meaning less than $146K came from outside donors. While technically legal, this limits a candidate's demonstrated grassroots support and means the campaign's viability depends heavily on the candidate's personal financial commitment.",
+      "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
+      "confirmed": true
+    },
+    {
+      "type": "electability",
+      "label": "January 2026 poll: 84% undecided, only 6% name recognition",
+      "detail": "An Emerson College/WGN-TV poll (Jan 3–5, 2026, n=432 LV) showed Tracy at just 6% with 84% undecided — by far the highest undecided rate of any major primary in the cycle. Tracy's name recognition among Republican primary voters remains very low heading into the primary, despite his high fundraising total.",
+      "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
+      "confirmed": true
+    }
+  ],
+  "key_votes": [],
+  "policy_platform": [
+    "Lower cost of living: reduce energy, gas, grocery, housing, and healthcare costs",
+    "Energy independence: responsible energy policy including clean energy transition; oppose climate mandates that raise utility costs",
+    "Healthcare transparency: institute price transparency, increase competition, eliminate taxpayer-funded healthcare for non-citizens",
+    "Fiscal responsibility: reduce government spending, cut waste and fraud, encourage able-bodied adults back into workforce",
+    "Border security: oppose sanctuary policies, oppose taxpayer-funded benefits for undocumented immigrants",
+    "Public safety: oppose bail reform, oppose defunding police, hold criminals accountable",
+    "Oppose boys competing in girls sports",
+    "Represent all 102 Illinois counties, not just Chicago/Cook County",
+    "Reduce regulations on small businesses",
+    "Back farmers and Illinois agricultural exports"
+  ],
+  "career_history": [
+    {
+      "role": "Senior Counsel",
+      "org": "Brown, Hay & Stephens LLP, Springfield, IL",
+      "years": "~2000s–present",
+      "highlight": "One of Illinois' oldest law firms, with historical ties to Abraham Lincoln. Tracy represents families and small businesses in a range of civil matters."
+    },
+    {
+      "role": "Member",
+      "org": "Illinois Gaming Board",
+      "years": "2015–2019",
+      "highlight": "Appointed to the state gaming regulatory board, overseeing Illinois casino operations and protecting communities from gaming-related harms."
+    },
+    {
+      "role": "Chair",
+      "org": "Illinois Republican Party",
+      "years": "2021–2024",
+      "highlight": "Led the state GOP through the 2022 cycle. Credited with stabilizing and unifying the party following difficult electoral losses. Did not seek another term."
+    },
+    {
+      "role": "Republican Candidate for Lieutenant Governor",
+      "org": "Illinois Republican Party",
+      "years": "2010",
+      "highlight": "Ran for lieutenant governor as part of the GOP ticket in 2010."
+    }
+  ],
+  "endorsements": [
+    "U.S. Rep. Mike Bost (IL-12)",
+    "U.S. Rep. Darin LaHood (IL-16)",
+    "U.S. Rep. Mary Miller (IL-15)",
+    "Former U.S. Sen. Mark Kirk",
+    "Former Illinois Comptroller Leslie Munger",
+    "Illinois Senate Minority Leader John Curran",
+    "Multiple Illinois state senators and representatives (20+)",
+    "Former Mayor of Springfield Karen Hasara",
+    "Former Mayor of Bolingbrook Roger Claar",
+    "Former Illinois RNC National Committeeman Richard Porter",
+    "Daily Herald newspaper endorsement",
+    "Illinois Federation of Young Republicans"
+  ],
+  "data_status": "partial",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
+    "https://ballotpedia.org/Don_Tracy",
+    "https://dontracyforil.com/about",
+    "https://www.nprillinois.org/2026-03-13/who-will-win-the-u-s-senate-primaries-in-illinois-lets-look-at-the-data"
+  ],
+  "trust_indicators": [
+    {
+      "label": "Self-funded campaign",
+      "value": "$2M of $2.15M raised is Tracy's own money — limited external donor base demonstrated",
+      "type": "negative"
+    },
+    {
+      "label": "Institutional endorsements",
+      "value": "Endorsed by all 3 Illinois Republican U.S. House members and 20+ state legislators",
+      "type": "positive"
+    },
+    {
+      "label": "Solid D state",
+      "value": "Illinois is rated 'Solid Democratic' for Senate by Cook, Sabato, and Inside Elections — Republican path to victory is extremely narrow",
+      "type": "negative"
+    }
+  ],
+  "social_pulse": null,
+  "transparency_score": {
+    "grade": "D",
+    "computed": true,
+    "financial_transparency": "C",
+    "platform_completeness": "C",
+    "record_available": true,
+    "red_flags_count": 2,
+    "computed_at": "2026-03-14"
+  }
+}

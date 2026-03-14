@@ -1,0 +1,58 @@
+{
+  "id": "r-cary-capparelli",
+  "name": "R. Cary Capparelli",
+  "party": "Republican",
+  "office": "U.S. Senate (Illinois)",
+  "race_id": "us-senate-il-r-2026",
+  "incumbent": false,
+  "bio": "R. Cary Capparelli is a perennial candidate from Illinois running in the 2026 Republican U.S. Senate primary. He previously served as a member of the Illinois International Port District board (2000–2009) and has run for office multiple times. He raised $10,495 through December 2025 with $5,919 cash on hand — the smallest war chest in the Republican Senate field. He is a long-shot candidate with minimal public campaign presence in the 2026 cycle.",
+  "prior_office": "Member, Illinois International Port District Board (2000–2009)",
+  "website": null,
+  "photo_url": null,
+  "jacket": {
+    "total_raised": 10495,
+    "cash_on_hand": 5919,
+    "data_date": "2026-03-14",
+    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
+    "note": "FEC data as of Dec 31, 2025. Smallest fundraising total in the Republican Senate field.",
+    "fec_id": null,
+    "ilsbe_id": null,
+    "donors": []
+  },
+  "red_flags": [
+    {
+      "type": "electability",
+      "label": "Perennial candidate with minimal fundraising",
+      "detail": "Only $10,495 raised through December 2025 — far below what is needed for any viable Senate campaign in Illinois.",
+      "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
+      "confirmed": true
+    }
+  ],
+  "key_votes": [],
+  "policy_platform": [],
+  "career_history": [
+    {
+      "role": "Board Member",
+      "org": "Illinois International Port District",
+      "years": "2000–2009",
+      "highlight": "Served on the board of the state agency overseeing the Port of Chicago."
+    }
+  ],
+  "endorsements": [],
+  "data_status": "limited",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
+    "https://ballotpedia.org/R._Cary_Capparelli"
+  ],
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "F",
+    "record_available": false,
+    "red_flags_count": 1,
+    "computed_at": "2026-03-14"
+  }
+}

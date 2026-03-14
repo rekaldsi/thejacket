@@ -13,7 +13,7 @@ export const metadata = {
 // ── Ballot sections in the order they appear on a Cook County Democratic ballot ──
 const BALLOT_SECTIONS = [
   {
-    label: "Federal",
+    label: "Federal — Democratic",
     raceIds: [
       "us-senate-il-d-2026",
       "il-02-us-house-d-2026",
@@ -23,12 +23,28 @@ const BALLOT_SECTIONS = [
     ],
   },
   {
-    label: "Illinois Statewide",
+    label: "Federal — Republican",
+    raceIds: [
+      "us-senate-il-r-2026",
+    ],
+  },
+  {
+    label: "Illinois Statewide — Democratic",
     raceIds: [
       "il-governor-d-2026",
       "il-attorney-general-d-2026",
       "il-treasurer-d-2026",
       "il-comptroller-d-2026",
+    ],
+  },
+  {
+    label: "Illinois Statewide — Republican",
+    raceIds: [
+      "il-governor-r-2026",
+      "us-senate-il-r-2026",
+      "il-comptroller-r-2026",
+      "il-attorney-general-r-2026",
+      "il-treasurer-r-2026",
     ],
   },
   {
