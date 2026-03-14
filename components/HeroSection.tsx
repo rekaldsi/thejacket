@@ -66,19 +66,14 @@ export default function HeroSection() {
       className="relative flex flex-col items-center gap-8 py-6 md:flex-row md:items-center md:justify-between md:gap-12"
     >
       {/*
-        Glow — absolutely positioned, overflow allowed to bleed.
-        No overflow-hidden on the section so it fades naturally.
+        Glow — fixed to viewport so it never causes horizontal scroll.
+        Positioned behind the right side of the page near the jacket.
         Very low opacity + massive blur = atmospheric, not a shape.
       */}
       <div
-        className="pointer-events-none absolute -z-10"
-        style={{ inset: "-120px" }}
-      >
-        <div
-          className="absolute right-0 top-0 rounded-full bg-amber-500/[0.04] animate-glow-breathe"
-          style={{ width: 700, height: 700, filter: "blur(120px)" }}
-        />
-      </div>
+        className="pointer-events-none fixed -z-10 right-0 top-0"
+        style={{ width: 600, height: 600, background: "radial-gradient(circle, rgba(245,158,11,0.05) 0%, transparent 70%)", filter: "blur(80px)" }}
+      />
 
       {/* ── MOBILE: Jacket on top, centered ── */}
       {/* ── DESKTOP: Jacket on right (order-last) ── */}
@@ -142,10 +137,11 @@ export default function HeroSection() {
 
         {/* Pull quote */}
         <blockquote
-          className="max-w-lg"
+          className="max-w-lg w-full"
           style={fadeIn("0.45s")}
         >
-          <div className="border-l-2 border-jacket-amber/40 pl-4 py-1 text-left">
+          {/* Border shifts to top on mobile (centered), left on desktop */}
+          <div className="border-t-2 border-jacket-amber/40 pt-3 md:border-t-0 md:border-l-2 md:pt-0 md:pl-4 md:py-1">
             <p className="text-sm italic text-zinc-300 leading-relaxed">
               &ldquo;Politicians should wear sponsor jackets like NASCAR drivers, then we know who owns them.&rdquo;
             </p>
