@@ -41,6 +41,9 @@ export default function MobileNav() {
             <Link href="/scorecard" className="hover:text-jacket-amber" onClick={() => setOpen(false)}>
               Scorecard
             </Link>
+            <Link href="/booth" className="font-bold text-jacket-amber hover:text-white" onClick={() => setOpen(false)}>
+              🗳 Booth Mode
+            </Link>
             <Link href="/about" className="hover:text-jacket-amber" onClick={() => setOpen(false)}>
               About
             </Link>
