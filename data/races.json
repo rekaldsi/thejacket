@@ -355,13 +355,14 @@
     "office": "Cook County Board of Commissioners",
     "level": "county",
     "party": "Democratic",
-    "description": "Open seat Democratic primary for District 15.",
+    "description": "Ted Mason (D) runs uncontested in the Democratic primary. The contested race is the Republican primary: Gabriella Hoxie vs. Daniel Lee.",
     "candidates": [
       "ted-mason-dist15"
     ],
     "slug": "cook-county-commissioner-district-15",
     "jurisdiction": "Cook County \u2014 District 15",
-    "candidateCount": 3
+    "candidateCount": 3,
+    "note": "uncontested-dem"
   },
   {
     "id": "il-governor-d-2026",
@@ -416,9 +417,10 @@
     "slug": "cook-county-commissioner-district-9",
     "title": "Cook County Commissioner \u2014 District 9",
     "jurisdiction": "Cook County",
-    "description": "Democratic primary for Cook County Board of Commissioners District 9. Incumbent Maggie Trevor faces challenger Ammie Kessem.",
+    "description": "District 9 has no contested Democratic primary \u2014 Maggie Trevor (D) runs uncontested. Republican Ammie Kessem also runs uncontested. Trevor vs. Kessem meet in the November general.",
     "party": "Democratic",
-    "candidateCount": 2
+    "candidateCount": 2,
+    "note": "uncontested-dem"
   },
   {
     "id": "cook-county-commissioner-dist-16",
@@ -434,8 +436,9 @@
     "slug": "cook-county-commissioner-district-17",
     "title": "Cook County Commissioner \u2014 District 17",
     "jurisdiction": "Cook County",
-    "description": "Democratic primary for Cook County Board of Commissioners District 17. Elizabeth Gorman faces Elyse Hoffenberg in an open seat race.",
+    "description": "District 17 open seat. Both primaries are uncontested: Elyse Hoffenberg (D) and Elizabeth Gorman (R). They face each other in November.",
     "party": "Democratic",
-    "candidateCount": 2
+    "candidateCount": 2,
+    "note": "uncontested-dem"
   }
 ]

@@ -17,20 +17,104 @@
     "fec_id": null,
     "ilsbe_id": "25562",
     "donors": [
-      {"name": "Tara Orris", "amount": 5000, "category": "individual", "source": "https://illinoissunshine.org/committees/25562/", "confirmed": true},
-      {"name": "SEIU Illinois Council PAC", "amount": 5000, "category": "labor-pac", "source": "https://illinoissunshine.org/committees/25562/", "confirmed": true},
-      {"name": "Friends of Toi W Hutchinson", "amount": 3500, "category": "political-committee", "source": "https://illinoissunshine.org/committees/25562/", "confirmed": true},
-      {"name": "IUOE Local 399 Political Education Fund", "amount": 3000, "category": "labor-pac", "source": "https://illinoissunshine.org/committees/25562/", "confirmed": true},
-      {"name": "Assyrian American Political Advocacy Committee", "amount": 3000, "category": "pac", "source": "https://illinoissunshine.org/committees/25562/", "confirmed": true},
-      {"name": "Citizens for Laura Murphy", "amount": 2750, "category": "political-committee", "source": "https://illinoissunshine.org/committees/25562/", "confirmed": true},
-      {"name": "Ion Nita", "amount": 2501, "category": "individual", "source": "https://illinoissunshine.org/committees/25562/", "confirmed": true},
-      {"name": "Sam Bae for Judge", "amount": 2500, "category": "political-committee", "source": "https://illinoissunshine.org/committees/25562/", "confirmed": true},
-      {"name": "IBEW Local Union 134 State & Municipal PAC", "amount": 2500, "category": "labor-pac", "source": "https://illinoissunshine.org/committees/25562/", "confirmed": true},
-      {"name": "Petar Minchev", "amount": 2000, "category": "individual", "source": "https://illinoissunshine.org/committees/25562/", "confirmed": true},
-      {"name": "Janet Bauer", "amount": 1800, "category": "individual", "source": "https://illinoissunshine.org/committees/25562/", "confirmed": true},
-      {"name": "Michael Alvarez", "amount": 1500, "category": "individual", "source": "https://illinoissunshine.org/committees/25562/", "confirmed": true},
-      {"name": "Carolyn Mason", "amount": 1300, "category": "individual", "source": "https://illinoissunshine.org/committees/25562/", "confirmed": true},
-      {"name": "Friends of Kevin Morrison", "amount": 1250, "category": "political-committee", "source": "https://illinoissunshine.org/committees/25562/", "confirmed": true}
+      {
+        "name": "Tara Orris",
+        "amount": 5000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/25562/",
+        "confirmed": true
+      },
+      {
+        "name": "SEIU Illinois Council PAC",
+        "amount": 5000,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/25562/",
+        "confirmed": true
+      },
+      {
+        "name": "Friends of Toi W Hutchinson",
+        "amount": 3500,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/25562/",
+        "confirmed": true
+      },
+      {
+        "name": "IUOE Local 399 Political Education Fund",
+        "amount": 3000,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/25562/",
+        "confirmed": true
+      },
+      {
+        "name": "Assyrian American Political Advocacy Committee",
+        "amount": 3000,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/25562/",
+        "confirmed": true
+      },
+      {
+        "name": "Citizens for Laura Murphy",
+        "amount": 2750,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/25562/",
+        "confirmed": true
+      },
+      {
+        "name": "Ion Nita",
+        "amount": 2501,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/25562/",
+        "confirmed": true
+      },
+      {
+        "name": "Sam Bae for Judge",
+        "amount": 2500,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/25562/",
+        "confirmed": true
+      },
+      {
+        "name": "IBEW Local Union 134 State & Municipal PAC",
+        "amount": 2500,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/25562/",
+        "confirmed": true
+      },
+      {
+        "name": "Petar Minchev",
+        "amount": 2000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/25562/",
+        "confirmed": true
+      },
+      {
+        "name": "Janet Bauer",
+        "amount": 1800,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/25562/",
+        "confirmed": true
+      },
+      {
+        "name": "Michael Alvarez",
+        "amount": 1500,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/25562/",
+        "confirmed": true
+      },
+      {
+        "name": "Carolyn Mason",
+        "amount": 1300,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/25562/",
+        "confirmed": true
+      },
+      {
+        "name": "Friends of Kevin Morrison",
+        "amount": 1250,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/25562/",
+        "confirmed": true
+      }
     ]
   },
   "red_flags": [
@@ -72,5 +156,7 @@
     "record_available": true,
     "red_flags_count": 1,
     "computed_at": "2026-03-14"
-  }
+  },
+  "uncontested": true,
+  "data_note": "Uncontested in the Democratic primary for District 15."
 }

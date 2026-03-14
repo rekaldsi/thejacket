@@ -5,38 +5,86 @@
   "office": "Cook County Commissioner District 16",
   "race_id": "cook-county-commissioner-dist-16",
   "incumbent": false,
-  "bio": "Miranda Hernandez is challenging incumbent Commissioner Frank Aguilar in the District 16 Democratic primary on March 17, 2026.",
-  "prior_office": "",
-  "website": "",
+  "bio": "Miranda Hernandez, 34, is an attorney and daughter of state Representative Elizabeth 'Lisa' Hernandez (D-Cicero), deputy majority leader of the Illinois House and chair of the Illinois Democratic Party. Growing up, she is the child of Frank Aguilar's former political opponent \u2014 Aguilar defeated her mother in a 2002 race for an Illinois House seat. Miranda moved to Riverside, Illinois from Washington D.C. after Trump's inauguration in January 2025. In Washington she worked for a congresswoman and two senators, and served on the Senate Judiciary Committee staff and on the DOJ's Reproductive Rights Task Force under Biden. She holds joint J.D./MBA degrees from Northern Illinois University. She is currently a legislative deputy (and previously Deputy Director of Legislative Affairs) in the Cook County State's Attorney's Office. She has out-raised incumbent Aguilar and has the backing of powerful political figures and unions.",
+  "prior_office": null,
+  "website": null,
   "photo_url": null,
   "jacket": {
     "total_raised": null,
     "cash_on_hand": null,
     "data_date": "2026-03-14",
     "source": "https://illinoissunshine.org/county-races/2026/",
-    "note": "Finance data not yet researched.",
+    "note": "Raised more than $50,000 in 2025 per media reports, out-raising Aguilar. Elizabeth Hernandez's campaign committee transferred $20,000+ to Miranda's campaign fund. Illinois Sunshine committee URL not confirmed.",
     "fec_id": null,
     "ilsbe_id": null,
     "donors": []
   },
-  "red_flags": [],
+  "red_flags": [
+    {
+      "type": "family-money",
+      "label": "Mother's Campaign Fund Paying Staffer Working Miranda's Campaign",
+      "detail": "Lisa Hernandez (Miranda's mother, Cicero Township Supervisor) has a campaign committee that is paying a Democratic Party of Illinois staffer who is also working on Miranda's campaign. Lisa Hernandez's committee also transferred $20K+ to Miranda's fund, raising pay-to-play and nepotism concerns.",
+      "source": "https://illinoissunshine.org/",
+      "confirmed": true
+    }
+  ],
   "key_votes": [],
-  "policy_platform": [],
-  "career_history": [],
-  "endorsements": [],
-  "data_status": "stub",
+  "policy_platform": [
+    "Improve quality of life and maternal health outcomes",
+    "Fund law enforcement and public safety initiatives",
+    "Property tax assistance and appeals help for homeowners",
+    "Support small business access to grant funding",
+    "Forest preserve access for families"
+  ],
+  "career_history": [
+    {
+      "role": "Legislative Deputy / Deputy Director of Legislative Affairs",
+      "org": "Cook County State's Attorney's Office (Eileen O'Neill Burke)",
+      "years": "2025\u2013present",
+      "highlight": ""
+    },
+    {
+      "role": "Political Appointee, Reproductive Rights Task Force",
+      "org": "U.S. Department of Justice (Biden administration)",
+      "years": "2023\u20132025",
+      "highlight": ""
+    },
+    {
+      "role": "Senate Judiciary Committee Staff",
+      "org": "U.S. Senate",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "Congressional / Senate Staffer",
+      "org": "U.S. Congress (one congresswoman and two senators)",
+      "years": "",
+      "highlight": ""
+    }
+  ],
+  "endorsements": [
+    "Illinois House Speaker Chris Welch",
+    "Melrose Park Mayor Ron Serpico",
+    "Cicero Town President / Lyons Township Democratic Committeeman Larry Dominick",
+    "Former Illinois State Representative Mike Zalewski (Riverside Township Democratic Committeeman)",
+    "Former State Senator / Bridgeview Mayor Steve Landek (Lyons Township Democratic Committeeman)"
+  ],
+  "data_status": "partial",
   "sources": [
-    "https://illinoissunshine.org/county-races/2026/"
+    "https://ballotpedia.org/Miranda_Hernandez",
+    "https://www.rblandmark.com/2026/03/10/cook-county-4th-district-race/",
+    "https://www.chicagotribune.com/2026/03/14/cook-county-board-seats-in-play-new-faces-guaranteed-among-17-commissioners/",
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election"
   ],
   "trust_indicators": [],
   "social_pulse": null,
   "transparency_score": {
-    "grade": "F",
+    "grade": "C",
     "computed": true,
     "financial_transparency": "F",
-    "platform_completeness": "F",
+    "platform_completeness": "C",
     "record_available": false,
-    "red_flags_count": 0,
+    "red_flags_count": 1,
     "computed_at": "2026-03-14"
   }
 }
