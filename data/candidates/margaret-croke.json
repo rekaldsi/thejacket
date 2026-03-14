@@ -1,0 +1,53 @@
+{
+  "id": "margaret-croke",
+  "name": "Margaret Croke",
+  "party": "Democratic",
+  "office": "Illinois Comptroller",
+  "race_id": "il-comptroller-d-2026",
+  "bio": "Margaret Croke is an Illinois State Representative (12th District, Chicago — Lakeview East, Lincoln Park, Old Town, Gold Coast) since 2021. She's running for Illinois Comptroller to succeed retiring incumbent Susana Mendoza. Croke was Deputy Chief of Staff at the Illinois Department of Commerce and Economic Opportunity before her election. She chairs the Financial Institutions Committee and serves on the House Revenue & Finance Committee. Born in Oak Park, raised in Chicago. University of Michigan grad (Political Science + Communications). Endorsed by Gov. JB Pritzker and Cook County Democratic Party — the frontrunner in the 4-way primary.",
+  "prior_office": "Illinois State Representative, 12th District (2021–present)",
+  "website": "https://crokeforillinois.com",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Margaret_Croke_official_photo.jpg/440px-Margaret_Croke_official_photo.jpg",
+  "jacket": {
+    "total_raised": 425000,
+    "pac_support_total": 0,
+    "data_date": "2026-03-14",
+    "source": "https://abc7chicago.com/post/primary-election-2026-illinois-comptroller-candidates-margaret-croke-karina-villa-holly-kim-stephanie-kifowit-appeal-voters/18686085/",
+    "note": "$425K raised (Oct 2025 figure), $510K cash on hand. Top fundraiser in the race. Critics note some donations come from super PACs and Republican donors.",
+    "donors": [
+      {
+        "name": "Cook County Democratic Party",
+        "amount": null,
+        "category": "party",
+        "label": "Cook County Dem Party endorsement + support",
+        "source": "https://abc7chicago.com/post/illinois-gov-jb-pritzker-backs-longtime-political-ally-margaret-croke-comptroller-2026-election/18574429/",
+        "confirmed": true,
+        "counts_toward_total_raised": false
+      }
+    ],
+    "fec_id": null
+  },
+  "red_flags": [
+    {
+      "type": "dark_money",
+      "label": "Super PAC / Republican Donor Contributions",
+      "detail": "Opponent Karina Villa criticized Croke's donations as including super PAC money and contributions from Republican donors. Croke leads all fundraising in the race with $425K raised.",
+      "source": "https://abc7chicago.com/post/primary-election-2026-illinois-comptroller-candidates-margaret-croke-karina-villa-holly-kim-stephanie-kifowit-appeal-voters/18686085/",
+      "confirmed": false
+    }
+  ],
+  "key_votes": [
+    {
+      "bill": "Illinois Financial Institutions Committee (Chair)",
+      "vote": "chair",
+      "summary": "Chairs the House Financial Institutions Committee — the body that oversees banking, depositories, and payment processing in Illinois. Croke argues this makes her uniquely qualified for the Comptroller role.",
+      "source": "https://news.wttw.com/elections/voters-guide/2026-primary/margaret-croke"
+    }
+  ],
+  "endorsements": [
+    "Gov. JB Pritzker",
+    "Cook County Democratic Party",
+    "Illinois House Speaker Emanuel 'Chris' Welch"
+  ],
+  "transparency_grade": null
+}

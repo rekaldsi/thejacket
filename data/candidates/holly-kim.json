@@ -1,0 +1,24 @@
+{
+  "id": "holly-kim",
+  "name": "Holly Kim",
+  "party": "Democratic",
+  "office": "Illinois Comptroller",
+  "race_id": "il-comptroller-d-2026",
+  "bio": "Holly Kim is the Lake County Treasurer, running for Illinois Comptroller in the 4-way Democratic primary on March 17, 2026. As a local government treasurer, Kim argues her direct fiscal management experience makes her suited for the statewide Comptroller role.",
+  "prior_office": "Lake County Treasurer",
+  "website": null,
+  "photo_url": null,
+  "jacket": {
+    "total_raised": null,
+    "pac_support_total": null,
+    "data_date": "2026-03-14",
+    "source": "https://abc7chicago.com/post/primary-election-2026-illinois-comptroller-candidates-margaret-croke-karina-villa-holly-kim-stephanie-kifowit-appeal-voters/18686085/",
+    "note": "Fundraising totals not confirmed. Fourth-tier fundraiser in the race.",
+    "donors": [],
+    "fec_id": null
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "endorsements": [],
+  "transparency_grade": null
+}

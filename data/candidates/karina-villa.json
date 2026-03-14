@@ -1,0 +1,24 @@
+{
+  "id": "karina-villa",
+  "name": "Karina Villa",
+  "party": "Democratic",
+  "office": "Illinois Comptroller",
+  "race_id": "il-comptroller-d-2026",
+  "bio": "Karina Villa is an Illinois State Senator (25th District, West Chicago/DuPage County area). She's running for Illinois Comptroller in the 4-way Democratic primary on March 17, 2026. Villa is the close second in fundraising behind Croke and has been vocal about campaign finance — criticizing Croke for accepting super PAC money and Republican donor contributions.",
+  "prior_office": "Illinois State Senator, 25th District",
+  "website": null,
+  "photo_url": null,
+  "jacket": {
+    "total_raised": null,
+    "pac_support_total": null,
+    "data_date": "2026-03-14",
+    "source": "https://abc7chicago.com/post/primary-election-2026-illinois-comptroller-candidates-margaret-croke-karina-villa-holly-kim-stephanie-kifowit-appeal-voters/18686085/",
+    "note": "Close second in fundraising behind Croke. Has publicly criticized Croke for PAC and Republican donor money.",
+    "donors": [],
+    "fec_id": null
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "endorsements": [],
+  "transparency_grade": null
+}
