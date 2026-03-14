@@ -1,33 +1,118 @@
 const sources = [
+  // ── Official Records ──
   {
-    source: "FEC API",
-    use: "Federal campaign finance for U.S. Senate and U.S. House races",
-    url: "https://api.open.fec.gov/v1/",
-    label: "open.fec.gov",
+    source: "Illinois Sunshine (ILSBE)",
+    use: "Primary source for all state and county campaign finance — committee filings, donor tables, cash on hand, expenditures for every candidate in Illinois",
+    url: "https://illinoissunshine.org/",
+    label: "illinoissunshine.org",
+    category: "Official Records",
+  },
+  {
+    source: "FEC — Federal Election Commission",
+    use: "Federal campaign finance for U.S. Senate and U.S. House races — receipts, disbursements, donor itemization",
+    url: "https://www.fec.gov/data/",
+    label: "fec.gov",
+    category: "Official Records",
   },
   {
     source: "Illinois State Board of Elections",
-    use: "State and county campaign disclosure data",
+    use: "Candidate filing records, official ballot certification, and supplemental disclosure data",
     url: "https://www.elections.il.gov/CampaignDisclosure",
     label: "elections.il.gov",
+    category: "Official Records",
   },
   {
     source: "Cook County Clerk",
-    use: "Official candidate filing and ballot references",
+    use: "Official candidate filing records and ballot verification for Cook County races",
     url: "https://www.cookcountyclerkil.gov/elections",
     label: "cookcountyclerkil.gov",
-  },
-  {
-    source: "WTTW Chicago",
-    use: "Candidate field verification and election context",
-    url: "https://news.wttw.com/elections/voters-guide/2026-primary",
-    label: "news.wttw.com",
+    category: "Official Records",
   },
   {
     source: "ProPublica Congress API",
-    use: "Voting records and bill sponsorship for federal incumbents",
+    use: "Voting records, bill sponsorship, and attendance records for federal incumbents",
     url: "https://projects.propublica.org/api-docs/congress-api/",
     label: "propublica.org",
+    category: "Official Records",
+  },
+  // ── Investigative Journalism ──
+  {
+    source: "Chicago Tribune",
+    use: "Race coverage, endorsements, candidate investigations, and editorial board ratings used throughout candidate profiles",
+    url: "https://www.chicagotribune.com/",
+    label: "chicagotribune.com",
+    category: "Journalism",
+  },
+  {
+    source: "Chicago Sun-Times",
+    use: "Candidate coverage, finance investigations, and endorsement records",
+    url: "https://chicago.suntimes.com/",
+    label: "chicago.suntimes.com",
+    category: "Journalism",
+  },
+  {
+    source: "Injustice Watch",
+    use: "Primary source for judicial candidate investigations — bar ratings, ethics complaints, disciplinary records",
+    url: "https://www.injusticewatch.org/",
+    label: "injusticewatch.org",
+    category: "Journalism",
+  },
+  {
+    source: "WTTW Chicago Tonight",
+    use: "Voter guide, candidate field verification, and election context for primary races",
+    url: "https://news.wttw.com/elections/voters-guide/2026-primary",
+    label: "news.wttw.com",
+    category: "Journalism",
+  },
+  {
+    source: "Block Club Chicago",
+    use: "Neighborhood-level candidate coverage and community impact reporting",
+    url: "https://blockclubchicago.org/",
+    label: "blockclubchicago.org",
+    category: "Journalism",
+  },
+  {
+    source: "The Intercept",
+    use: "National donor network investigations — AIPAC, Hindu nationalist networks, and outside spending",
+    url: "https://theintercept.com/",
+    label: "theintercept.com",
+    category: "Journalism",
+  },
+  {
+    source: "The Real Deal Chicago",
+    use: "Real estate and finance donor investigations for Cook County races",
+    url: "https://therealdeal.com/chicago/",
+    label: "therealdeal.com/chicago",
+    category: "Journalism",
+  },
+  {
+    source: "Capitol Fax",
+    use: "Illinois political intelligence, Springfield insider reporting, and campaign finance analysis",
+    url: "https://capitolfax.com/",
+    label: "capitolfax.com",
+    category: "Journalism",
+  },
+  // ── Reference & Bar Ratings ──
+  {
+    source: "Alliance of Bar Associations for Judicial Screening",
+    use: "Judicial candidate ratings (Qualified / Not Recommended / Highly Qualified) used in all judge scoring",
+    url: "https://www.chicagobar.org/judicial-evaluations/",
+    label: "chicagobar.org",
+    category: "Reference",
+  },
+  {
+    source: "Chicago Bar Association (CBA) Voters Guide",
+    use: "Supplemental bar ratings and judicial candidate evaluations",
+    url: "https://www.chicagobar.org/",
+    label: "chicagobar.org",
+    category: "Reference",
+  },
+  {
+    source: "Wikipedia / Ballotpedia",
+    use: "Candidate biography, prior office history, and race field verification — used for baseline facts only, always cross-referenced",
+    url: "https://ballotpedia.org/",
+    label: "ballotpedia.org",
+    category: "Reference",
   },
 ];
 
@@ -68,28 +153,42 @@ export default function AboutPage() {
       </section>
 
       {/* DATA SOURCES */}
-      <section className="space-y-4">
-        <h2 className={sectionHeader}>Data Sources</h2>
-        <div className="space-y-3">
-          {sources.map((row) => (
-            <div key={row.source} className="border border-jacket-border p-4 transition-colors hover:bg-jacket-gray/30">
-              <div className="flex flex-wrap items-start justify-between gap-2">
-                <span className="font-mono text-sm font-black uppercase tracking-wide text-jacket-amber">
-                  {row.source}
-                </span>
-                <a
-                  href={row.url}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="font-mono text-xs text-zinc-500 underline-offset-2 hover:text-jacket-amber hover:underline"
-                >
-                  ↗ {row.label}
-                </a>
-              </div>
-              <p className="mt-1 text-sm text-zinc-400">{row.use}</p>
-            </div>
-          ))}
+      <section className="space-y-6">
+        <div>
+          <h2 className={sectionHeader}>Data Sources</h2>
+          <p className="mt-2 text-sm text-zinc-500">
+            {sources.length} sources across official records, investigative journalism, and reference databases.
+            Every fact in a candidate profile traces back to at least one of these.
+          </p>
         </div>
+        {(["Official Records", "Journalism", "Reference"] as const).map((cat) => {
+          const catSources = sources.filter((s) => s.category === cat);
+          return (
+            <div key={cat} className="space-y-2">
+              <p className="font-mono text-[10px] uppercase tracking-widest text-zinc-600">{cat}</p>
+              <div className="space-y-2">
+                {catSources.map((row) => (
+                  <div key={row.source} className="border border-jacket-border p-4 transition-colors hover:bg-jacket-gray/30">
+                    <div className="flex flex-wrap items-start justify-between gap-2">
+                      <span className="font-mono text-sm font-black uppercase tracking-wide text-jacket-amber">
+                        {row.source}
+                      </span>
+                      <a
+                        href={row.url}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="font-mono text-xs text-zinc-500 underline-offset-2 hover:text-jacket-amber hover:underline"
+                      >
+                        ↗ {row.label}
+                      </a>
+                    </div>
+                    <p className="mt-1 text-sm text-zinc-400">{row.use}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          );
+        })}
       </section>
 
       {/* METHODOLOGY */}
