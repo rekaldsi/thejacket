@@ -1,15 +1,13 @@
 import Link from "next/link";
-import Image from "next/image";
 import { getAllCandidates, getAllJudges, getRaces } from "@/lib/data";
 import { buildScorecard } from "@/lib/scoring";
 import { scoreJudge } from "@/lib/judgeScoring";
 import HotBoardCarousel from "@/components/HotBoardCarousel";
 import { extractSignals } from "@/components/HotBoard";
+import HeroSection from "@/components/HeroSection";
+import ScrollReveal from "@/components/ScrollReveal";
 import type { ScorecardEntry } from "@/lib/scoring";
 import type { Judge } from "@/lib/types";
-
-const PRIMARY_DATE_UTC = Date.UTC(2026, 2, 17);
-const MS_PER_DAY = 1000 * 60 * 60 * 24;
 
 const FEATURED_RACE_SLUGS = [
   "il-governor-republican-primary",
@@ -17,13 +15,6 @@ const FEATURED_RACE_SLUGS = [
   "il-comptroller-democratic-primary",
   "cook-county-board-president-democratic-primary",
 ];
-
-function getDaysToPrimary() {
-  const now = new Date();
-  const todayUtc = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
-  const diff = Math.ceil((PRIMARY_DATE_UTC - todayUtc) / MS_PER_DAY);
-  return Math.max(diff, 0);
-}
 
 function SnapshotRow({ entry }: { entry: ScorecardEntry }) {
   return (
@@ -92,7 +83,6 @@ export default function HomePage() {
   const candidates = getAllCandidates();
   const judges = getAllJudges();
   const scorecard = buildScorecard(candidates);
-  const daysToPrimary = getDaysToPrimary();
 
   const alarmJudges = JUDICIAL_WATCH_IDS
     .map((id) => judges.find((j) => j.id === id))
@@ -160,45 +150,7 @@ export default function HomePage() {
     <div className="space-y-24">
 
       {/* ── HERO ── */}
-      <section className="flex flex-col-reverse items-center gap-8 py-6 md:flex-row md:items-center md:justify-between md:gap-12">
-
-        {/* Text */}
-        <div className="flex-1 space-y-4">
-          <p className="font-mono text-xs uppercase tracking-[0.22em] text-jacket-amber">
-            ILLINOIS PRIMARY — MARCH 17, 2026 — COOK COUNTY
-          </p>
-          <h1 className="text-5xl font-black uppercase leading-none tracking-tight sm:text-7xl">THE<span className="text-jacket-amber">JACKET</span></h1>
-          <div className="h-1 w-20 bg-jacket-amber" />
-          <p className="max-w-xl text-xl text-zinc-300">See who they really work for.</p>
-          <p className="max-w-lg border-l-2 border-zinc-700 pl-3 text-sm italic text-zinc-500">
-            &ldquo;Politicians should wear sponsor jackets like NASCAR drivers, then we know who owns them.&rdquo; — Robin Williams
-          </p>
-          <div className="flex items-center gap-4 pt-2">
-            <Link
-              href="/races"
-              className="inline-block whitespace-nowrap rounded-sm bg-jacket-amber px-5 py-2.5 font-mono text-sm font-black uppercase tracking-widest text-jacket-black transition-colors hover:bg-amber-400"
-            >
-              Find your ballot →
-            </Link>
-            <span className="font-mono text-xs uppercase tracking-[0.22em] text-zinc-500">
-              PRIMARY IN {daysToPrimary} DAY{daysToPrimary !== 1 ? "S" : ""}
-            </span>
-          </div>
-        </div>
-
-        {/* Jacket visual */}
-        <div className="w-72 shrink-0 sm:w-64 md:w-72 lg:w-80">
-          <Image
-            src="/logo.png"
-            alt="The Jacket — sponsor patches on a politician's blazer"
-            width={512}
-            height={512}
-            className="h-auto w-full opacity-90 drop-shadow-[0_0_40px_rgba(245,158,11,0.15)]"
-            priority
-          />
-        </div>
-
-      </section>
+      <HeroSection />
 
       {/* ── HOT BOARD ── */}
       {allSignals.length > 0 && (
@@ -223,79 +175,85 @@ export default function HomePage() {
       )}
 
       {/* ── FEATURED RACES ── */}
-      <section>
-        <div className="mb-6 flex items-center justify-between">
-          <h2 className="pb-2 pt-4 text-2xl font-black uppercase tracking-tight">Featured Races</h2>
-          <Link href="/races" className="text-xs uppercase tracking-widest text-jacket-amber">
-            See all {races.length} races →
-          </Link>
-        </div>
-        <div className="grid gap-3 md:grid-cols-3">
-          {featuredRaces.map((race) => (
-            <Link
-              key={race.id}
-              href={`/race/${race.slug}`}
-              className="border-l-2 border-jacket-amber px-4 py-3 transition-colors hover:bg-jacket-gray/40"
-            >
-              <div className="mb-2 flex items-center gap-2">
-                <span className="whitespace-nowrap rounded-full bg-jacket-amber/20 px-2 py-0.5 font-mono text-xs text-jacket-amber">
-                  {race.candidateCount} CAND.
-                </span>
-                <span className="truncate font-mono text-xs uppercase tracking-widest text-zinc-500">
-                  {race.jurisdiction}
-                </span>
-              </div>
-              <h3 className="text-base font-black uppercase leading-snug">{race.title}</h3>
-              <p className="mt-2 line-clamp-2 text-sm text-zinc-400">{race.description}</p>
+      <ScrollReveal>
+        <section>
+          <div className="mb-6 flex items-center justify-between">
+            <h2 className="pb-2 pt-4 text-2xl font-black uppercase tracking-tight">Featured Races</h2>
+            <Link href="/races" className="text-xs uppercase tracking-widest text-jacket-amber">
+              See all {races.length} races →
             </Link>
-          ))}
-        </div>
-      </section>
+          </div>
+          <div className="grid gap-3 md:grid-cols-3">
+            {featuredRaces.map((race) => (
+              <Link
+                key={race.id}
+                href={`/race/${race.slug}`}
+                className="border-l-2 border-jacket-amber px-4 py-3 transition-colors hover:bg-jacket-gray/40"
+              >
+                <div className="mb-2 flex items-center gap-2">
+                  <span className="whitespace-nowrap rounded-full bg-jacket-amber/20 px-2 py-0.5 font-mono text-xs text-jacket-amber">
+                    {race.candidateCount} CAND.
+                  </span>
+                  <span className="truncate font-mono text-xs uppercase tracking-widest text-zinc-500">
+                    {race.jurisdiction}
+                  </span>
+                </div>
+                <h3 className="text-base font-black uppercase leading-snug">{race.title}</h3>
+                <p className="mt-2 line-clamp-2 text-sm text-zinc-400">{race.description}</p>
+              </Link>
+            ))}
+          </div>
+        </section>
+      </ScrollReveal>
 
       {/* ── JUDICIAL WATCH ── */}
-      <section>
-        <div className="mb-2 flex items-center justify-between">
-          <h2 className="pb-1 pt-4 text-2xl font-black uppercase tracking-tight">Judicial Watch</h2>
-          <Link href="/judges" className="shrink-0 text-xs uppercase tracking-widest text-jacket-amber">
-            All judges →
-          </Link>
-        </div>
-        <p className="mb-4 text-sm text-zinc-400 max-w-lg">
-          Nobody covers judicial races. We do. Here are the 4 most alarming Cook County judge candidates on your March 17 ballot.
-        </p>
-        <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-4">
-          {alarmJudges.map((judge) => (
-            <JudicialAlarmCard key={judge.id} judge={judge} />
-          ))}
-        </div>
-        <p className="mt-3 text-[11px] text-zinc-600">
-          Scores based on Alliance of Bar Associations ratings · CBA Voters Guide · Injustice Watch investigative reporting
-        </p>
-      </section>
+      <ScrollReveal delay={80}>
+        <section>
+          <div className="mb-2 flex items-center justify-between">
+            <h2 className="pb-1 pt-4 text-2xl font-black uppercase tracking-tight">Judicial Watch</h2>
+            <Link href="/judges" className="shrink-0 text-xs uppercase tracking-widest text-jacket-amber">
+              All judges →
+            </Link>
+          </div>
+          <p className="mb-4 text-sm text-zinc-400 max-w-lg">
+            Nobody covers judicial races. We do. Here are the 4 most alarming Cook County judge candidates on your March 17 ballot.
+          </p>
+          <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-4">
+            {alarmJudges.map((judge) => (
+              <JudicialAlarmCard key={judge.id} judge={judge} />
+            ))}
+          </div>
+          <p className="mt-3 text-[11px] text-zinc-600">
+            Scores based on Alliance of Bar Associations ratings · CBA Voters Guide · Injustice Watch investigative reporting
+          </p>
+        </section>
+      </ScrollReveal>
 
       {/* ── TRANSPARENCY SNAPSHOT ── */}
-      <section>
-        <div className="mb-6 flex items-baseline justify-between">
-          <h2 className="pb-2 pt-4 text-2xl font-black uppercase tracking-tight">Transparency Snapshot</h2>
-          <Link href="/scorecard" className="text-xs uppercase tracking-widest text-jacket-amber">
-            Full scorecard →
-          </Link>
-        </div>
-        <div className="grid gap-8 md:grid-cols-2">
-          <div>
-            <p className="mb-3 font-mono text-xs uppercase tracking-widest text-green-400">Cleanest Record</p>
-            <div className="divide-y divide-jacket-border">
-              {top3.map((entry) => <SnapshotRow key={entry.candidate.id} entry={entry} />)}
+      <ScrollReveal delay={80}>
+        <section>
+          <div className="mb-6 flex items-baseline justify-between">
+            <h2 className="pb-2 pt-4 text-2xl font-black uppercase tracking-tight">Transparency Snapshot</h2>
+            <Link href="/scorecard" className="text-xs uppercase tracking-widest text-jacket-amber">
+              Full scorecard →
+            </Link>
+          </div>
+          <div className="grid gap-8 md:grid-cols-2">
+            <div>
+              <p className="mb-3 font-mono text-xs uppercase tracking-widest text-green-400">Cleanest Record</p>
+              <div className="divide-y divide-jacket-border">
+                {top3.map((entry) => <SnapshotRow key={entry.candidate.id} entry={entry} />)}
+              </div>
+            </div>
+            <div>
+              <p className="mb-3 font-mono text-xs uppercase tracking-widest text-jacket-red">Most Red Flags</p>
+              <div className="divide-y divide-jacket-border">
+                {bottom3.map((entry) => <SnapshotRow key={entry.candidate.id} entry={entry} />)}
+              </div>
             </div>
           </div>
-          <div>
-            <p className="mb-3 font-mono text-xs uppercase tracking-widest text-jacket-red">Most Red Flags</p>
-            <div className="divide-y divide-jacket-border">
-              {bottom3.map((entry) => <SnapshotRow key={entry.candidate.id} entry={entry} />)}
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
+      </ScrollReveal>
 
       {/* ── FIND YOUR FULL BALLOT ── */}
       <section className="rounded-sm border border-jacket-amber/30 bg-jacket-amber/5 px-6 py-8 text-center">
