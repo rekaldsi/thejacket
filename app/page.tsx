@@ -10,9 +10,10 @@ const PRIMARY_DATE_UTC = Date.UTC(2026, 2, 17);
 const MS_PER_DAY = 1000 * 60 * 60 * 24;
 
 const FEATURED_RACE_SLUGS = [
+  "il-governor-republican-primary",
   "us-senate-il-democratic-primary",
+  "il-comptroller-democratic-primary",
   "cook-county-board-president-democratic-primary",
-  "cook-county-assessor-democratic-primary",
 ];
 
 function getDaysToPrimary() {

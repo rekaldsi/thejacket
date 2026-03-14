@@ -13,6 +13,10 @@ const OFFICE_EXPLAINERS: Record<string, string> = {
   "Metropolitan Water Reclamation District": "Controls sewage and stormwater for 5M people. $2B+ annual budget. Rarely covered — but it matters.",
   "Illinois State Senate": "One of 59 seats in the state senate. Sets Illinois law.",
   "Illinois State Representative": "One of 118 seats in the state house. Sets Illinois law.",
+  "Illinois Governor": "The most powerful office in state government. Controls a $52B+ budget, signs or vetoes every bill the legislature passes, and sets the direction for Illinois.",
+  "Illinois Attorney General": "Illinois's chief law enforcement officer. Investigates consumer fraud, enforces environmental law, and can sue the federal government on behalf of the state.",
+  "Illinois Treasurer": "Manages the state's investment portfolio and oversees the I-Cash unclaimed property program. Low-profile but controls billions in state assets.",
+  "Illinois Comptroller": "Pays the state's bills and audits local governments. First line of financial oversight — especially critical as federal funding to Illinois faces cuts.",
 };
 
 function getExplainer(title: string): string | null {
@@ -25,13 +29,23 @@ function getExplainer(title: string): string | null {
 export default function RacesPage() {
   const races = getRaces().filter((r) => !r.note?.includes("judicial"));
 
+  const isStatewide = (title: string) =>
+    title.includes("Illinois Governor") ||
+    title.includes("Illinois Attorney General") ||
+    title.includes("Illinois Treasurer") ||
+    title.includes("Illinois Comptroller") ||
+    title.includes("Illinois Secretary") ||
+    title.includes("Illinois Lieutenant");
+
   const grouped = {
     federal: races.filter((r) => r.title.includes("U.S.")),
+    statewide: races.filter((r) => isStatewide(r.title)),
+    state: races.filter((r) =>
+      !isStatewide(r.title) &&
+      (r.title.includes("Illinois State") || r.title.includes("IL Senate") || r.title.includes("IL House"))
+    ),
     county: races.filter((r) =>
       r.title.includes("Cook County") || r.title.includes("MWRD") || r.title.includes("Water Reclamation")
-    ),
-    state: races.filter((r) =>
-      r.title.includes("Illinois State") || r.title.includes("IL Senate") || r.title.includes("IL House")
     ),
   };
 
@@ -63,7 +77,7 @@ export default function RacesPage() {
     <div className="space-y-10">
       <div>
         <h1 className="font-mono text-4xl uppercase tracking-tight">All Races</h1>
-        <p className="mt-2 text-sm text-zinc-500">Every contested race on the March 17 Cook County primary ballot.</p>
+        <p className="mt-2 text-sm text-zinc-500">Every contested race on the March 17 Illinois primary ballot.</p>
       </div>
 
       <section>
@@ -73,9 +87,18 @@ export default function RacesPage() {
         </div>
       </section>
 
+      {grouped.statewide.length > 0 && (
+        <section>
+          <h2 className="mb-4 font-mono text-sm uppercase tracking-widest text-jacket-amber">Statewide — Illinois</h2>
+          <div className="grid gap-3 md:grid-cols-2">
+            {grouped.statewide.map((race) => <RaceCard key={race.id} race={race} />)}
+          </div>
+        </section>
+      )}
+
       {grouped.state.length > 0 && (
         <section>
-          <h2 className="mb-4 font-mono text-sm uppercase tracking-widest text-jacket-amber">State</h2>
+          <h2 className="mb-4 font-mono text-sm uppercase tracking-widest text-jacket-amber">State Legislature</h2>
           <div className="grid gap-3 md:grid-cols-2">
             {grouped.state.map((race) => <RaceCard key={race.id} race={race} />)}
           </div>
