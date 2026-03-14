@@ -176,7 +176,7 @@ export default function HomePage() {
           <div className="flex items-center gap-4 pt-2">
             <Link
               href="/races"
-              className="inline-block whitespace-nowrap rounded-sm bg-jacket-amber px-5 py-2.5 font-mono text-sm font-black uppercase tracking-widest text-jacket-black transition-opacity hover:opacity-90"
+              className="inline-block whitespace-nowrap rounded-sm bg-jacket-amber px-5 py-2.5 font-mono text-sm font-black uppercase tracking-widest text-jacket-black transition-colors hover:bg-amber-400"
             >
               Find your ballot →
             </Link>
@@ -309,7 +309,7 @@ export default function HomePage() {
             href="https://www.elections.il.gov/ElectionInformation/GetElectionSampleBallot.aspx"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block whitespace-nowrap rounded-sm bg-jacket-amber px-6 py-3 font-mono text-sm font-black uppercase tracking-widest text-jacket-black transition-opacity hover:opacity-90"
+            className="inline-block whitespace-nowrap rounded-sm bg-jacket-amber px-6 py-3 font-mono text-sm font-black uppercase tracking-widest text-jacket-black transition-colors hover:bg-amber-400"
           >
             My Full Ballot (ILSOS) →
           </a>
@@ -317,7 +317,7 @@ export default function HomePage() {
             href="https://chicagoelections.gov/voting/my-voter-information"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block whitespace-nowrap rounded-sm border border-jacket-amber px-6 py-3 font-mono text-sm font-black uppercase tracking-widest text-jacket-amber transition-opacity hover:opacity-90"
+            className="inline-block whitespace-nowrap rounded-sm border border-jacket-amber px-6 py-3 font-mono text-sm font-black uppercase tracking-widest text-jacket-amber transition-colors hover:bg-jacket-amber hover:text-jacket-black"
           >
             Chicago Voters →
           </a>
