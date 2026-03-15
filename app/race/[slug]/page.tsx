@@ -31,7 +31,8 @@ export default function RacePage({ params }: { params: { slug: string } }) {
         <p className="max-w-4xl border-l-2 border-jacket-amber pl-4 text-zinc-300">{race.description}</p>
       </section>
 
-      <section className="overflow-hidden border border-jacket-border">
+      <section className="border border-jacket-border">
+        <div className="overflow-x-auto">
         <table className="w-full border-collapse text-sm">
           <thead>
             <tr className="border-b border-jacket-border bg-jacket-gray/30 text-left font-mono uppercase">
@@ -81,6 +82,7 @@ export default function RacePage({ params }: { params: { slug: string } }) {
             )}
           </tbody>
         </table>
+        </div>
       </section>
     </div>
   );
