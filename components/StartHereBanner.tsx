@@ -54,7 +54,7 @@ export default function StartHereBanner() {
               <Link
                 href="/booth"
                 onClick={dismiss}
-                className="block rounded-sm bg-jacket-amber py-2 text-center font-mono text-xs font-black uppercase tracking-widest text-jacket-black"
+                className="block rounded-sm border border-jacket-amber bg-jacket-amber py-2 text-center font-mono text-xs font-black uppercase tracking-widest text-jacket-black transition-colors hover:bg-jacket-black hover:text-jacket-amber"
               >
                 🗳 Build My Ballot
               </Link>
@@ -97,7 +97,7 @@ export default function StartHereBanner() {
               <Link
                 href="/booth"
                 onClick={dismiss}
-                className="whitespace-nowrap rounded-sm bg-jacket-amber px-4 py-1.5 font-mono text-xs font-black uppercase tracking-widest text-jacket-black transition-colors hover:bg-amber-400"
+                className="whitespace-nowrap rounded-sm border border-jacket-amber bg-jacket-amber px-4 py-1.5 font-mono text-xs font-black uppercase tracking-widest text-jacket-black transition-colors hover:bg-jacket-black hover:text-jacket-amber"
               >
                 🗳 Build My Ballot
               </Link>

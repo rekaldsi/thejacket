@@ -271,7 +271,7 @@ export default function HomePage() {
             href="https://www.elections.il.gov/ElectionInformation/GetElectionSampleBallot.aspx"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block whitespace-nowrap rounded-sm bg-jacket-amber px-6 py-3 font-mono text-sm font-black uppercase tracking-widest text-jacket-black transition-colors hover:bg-amber-400"
+            className="inline-block whitespace-nowrap rounded-sm bg-jacket-amber px-6 py-3 font-mono text-sm font-black uppercase tracking-widest text-jacket-black transition-colors hover:bg-jacket-black hover:text-jacket-amber border border-jacket-amber"
           >
             My Full Ballot (ILSOS) →
           </a>
