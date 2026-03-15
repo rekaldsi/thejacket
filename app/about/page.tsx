@@ -124,7 +124,9 @@ export default function AboutPage() {
 
       {/* HERO */}
       <section className="space-y-4">
-        <h1 className="text-4xl font-black uppercase tracking-tight sm:text-5xl">About TheJacket</h1>
+        <h1 className="text-4xl font-black uppercase tracking-tight sm:text-5xl">
+          About The<span className="text-jacket-amber">Jacket</span>
+        </h1>
         <div className="h-1 w-16 bg-jacket-amber" />
         <blockquote className="border-l-2 border-zinc-700 pl-4 text-base italic text-zinc-400">
           &ldquo;Politicians should wear a jacket with all the companies and organizations that pay into them,
