@@ -148,11 +148,10 @@ export default function HomePage() {
   }
 
   return (
-    <>
-      {/* ── START HERE: desktop=in-flow banner, mobile=fixed bubble (outside space-y container) ── */}
-      <StartHereBanner />
-
     <div className="space-y-24">
+
+      {/* ── START HERE: desktop=slim in-flow banner (SSR stable), mobile=fixed bubble ── */}
+      <StartHereBanner />
 
       {/* ── HERO ── */}
       <HeroSection />
@@ -288,6 +287,5 @@ export default function HomePage() {
       </section>
 
     </div>
-    </>
   );
 }
