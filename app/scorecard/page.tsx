@@ -1,4 +1,4 @@
-import Scorecard from "@/components/Scorecard";
+import ScorecardSearch from "@/components/ScorecardSearch";
 import { getAllCandidates } from "@/lib/data";
 import { buildScorecard } from "@/lib/scoring";
 
@@ -10,10 +10,6 @@ export const metadata = {
 export default function ScorecardPage() {
   const candidates = getAllCandidates();
   const scorecard = buildScorecard(candidates);
-
-  const clean  = scorecard.filter((e) => e.score >= 80);
-  const mid    = scorecard.filter((e) => e.score >= 50 && e.score < 80);
-  const flagged = scorecard.filter((e) => e.score < 50);
 
   return (
     <div className="space-y-10">
@@ -56,35 +52,8 @@ export default function ScorecardPage() {
         ))}
       </div>
 
-      {/* Cleanest */}
-      {clean.length > 0 && (
-        <section>
-          <h2 className="mb-3 border-l-4 border-green-500 pl-3 text-lg font-black uppercase tracking-tight text-green-400">
-            Cleanest Record — A Grade
-          </h2>
-          <Scorecard entries={clean} />
-        </section>
-      )}
-
-      {/* Middle */}
-      {mid.length > 0 && (
-        <section>
-          <h2 className="mb-3 border-l-4 border-yellow-400 pl-3 text-lg font-black uppercase tracking-tight text-yellow-400">
-            Notable Concerns — B / C / D Grade
-          </h2>
-          <Scorecard entries={mid} />
-        </section>
-      )}
-
-      {/* Most flagged */}
-      {flagged.length > 0 && (
-        <section>
-          <h2 className="mb-3 border-l-4 border-jacket-red pl-3 text-lg font-black uppercase tracking-tight text-jacket-red">
-            Most Flagged — F Grade
-          </h2>
-          <Scorecard entries={flagged} />
-        </section>
-      )}
+      {/* Searchable + filterable scorecard */}
+      <ScorecardSearch entries={scorecard} />
 
       {/* Methodology */}
       <section className="border-t border-jacket-border pt-8 text-sm text-zinc-400 space-y-2">
