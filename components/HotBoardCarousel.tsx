@@ -60,18 +60,39 @@ type Props = {
   signals: HotSignal[];
 };
 
+/** Seeded pseudo-random — deterministic within a 5-minute window, different each visit */
+function seededShuffle<T>(arr: T[], seed: number): T[] {
+  const out = [...arr];
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.abs(Math.sin(seed + i) * 10000) % (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+}
+
 export default function HotBoardCarousel({ signals }: Props) {
   const trackRef = useRef<HTMLDivElement>(null);
   const [paused, setPaused] = useState(false);
   const animRef = useRef<number | null>(null);
   const posRef = useRef(0);
 
+  // Shuffle on client — seed changes every 5 minutes so each visit feels fresh.
+  // Split signals: top 1/3 by severity stay weighted front, rest shuffled freely.
+  const [shuffled, setShuffled] = useState<HotSignal[]>(signals);
+  useEffect(() => {
+    const seed = Math.floor(Date.now() / (1000 * 60 * 5)); // new seed every 5 min
+    const topCount = Math.max(1, Math.floor(signals.length / 3));
+    const top = signals.slice(0, topCount);       // keep critical/high at front
+    const rest = seededShuffle(signals.slice(topCount), seed);
+    setShuffled([...top, ...rest]);
+  }, [signals]);
+
   // Duplicate signals so the loop is seamless
-  const items = signals.length > 0 ? [...signals, ...signals] : [];
+  const items = shuffled.length > 0 ? [...shuffled, ...shuffled] : [];
 
   useEffect(() => {
     const track = trackRef.current;
-    if (!track || signals.length === 0) return;
+    if (!track || shuffled.length === 0) return;
 
     const SPEED = 0.5; // px per frame — slow, readable
 
@@ -93,9 +114,9 @@ export default function HotBoardCarousel({ signals }: Props) {
     return () => {
       if (animRef.current !== null) cancelAnimationFrame(animRef.current);
     };
-  }, [paused, signals.length]);
+  }, [paused, shuffled.length]);
 
-  if (signals.length === 0) return null;
+  if (shuffled.length === 0) return null;
 
   return (
     <div
@@ -116,7 +137,7 @@ export default function HotBoardCarousel({ signals }: Props) {
         style={{ width: "max-content" }}
       >
         {items.map((signal, i) => {
-          const cfg = SEVERITY_CONFIG[signal.severity];
+          const cfg = SEVERITY_CONFIG[signal.severity] ?? SEVERITY_CONFIG.medium;
           return (
             <Link
               key={`${signal.candidateId}-${signal.type}-${i}`}
