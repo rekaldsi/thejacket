@@ -267,14 +267,13 @@
     }
   ],
   "transparency_score": {
-    "grade": "B+",
+    "grade": "C",
     "computed": true,
-    "financial_transparency": "C",
+    "financial_transparency": "F",
     "platform_completeness": "A",
     "record_available": true,
     "red_flags_count": 3,
-    "note": "Finance confirmed via Tribune citing ISBE; individual donor names not pulled. Three structural red flags (experience gap vs. competitors, endorsement losses). Strong legislative record. No ethics violations.",
-    "computed_at": "2026-03-14"
+    "computed_at": "2026-03-15"
   },
   "news_hits": [
     {

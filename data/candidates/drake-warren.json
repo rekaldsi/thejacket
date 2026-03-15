@@ -85,7 +85,12 @@
   "social_pulse": {
     "summary": "Warren has gained notable press coverage for his LGBTQ+ identity angle (Windy City Times profile, Feb. 2026) and his full-time commitment argument against Gainer's dual employment. His self-funding of $100K+ signals personal commitment. Coverage has been favorable in progressive and LGBTQ+ media. Chicago Tribune notes he out-raised Gainer in recent quarters.",
     "sentiment": "positive (challenger narrative)",
-    "hashtags": ["#DrakeWarren", "#DrakeFor10", "#CookCountyDistrict10", "#LGBTQleadership"],
+    "hashtags": [
+      "#DrakeWarren",
+      "#DrakeFor10",
+      "#CookCountyDistrict10",
+      "#LGBTQleadership"
+    ],
     "last_updated": "2026-03-14"
   },
   "trust_indicators": [
@@ -119,13 +124,12 @@
     "https://ballotpedia.org/Drake_Warren"
   ],
   "transparency_score": {
-    "grade": "B",
+    "grade": "C",
     "computed": true,
-    "financial_transparency": "C",
-    "platform_completeness": "B",
+    "financial_transparency": "F",
+    "platform_completeness": "A",
     "record_available": false,
     "red_flags_count": 0,
-    "computed_at": "2026-03-14",
-    "notes": "No governmental record available (challenger). Platform documented from campaign site and press. Financial data limited to self-funding disclosure; full ILSBE filing not retrieved. No red flags found."
+    "computed_at": "2026-03-15"
   }
 }

@@ -297,7 +297,13 @@
   "social_pulse": {
     "summary": "Strong positive sentiment among progressive Democrats nationally and in IL-09. Endorsed by Schakowsky — the most coveted endorsement. National progressive credibility from 2018 governor's race. Evanston reparations policy generates ongoing national media attention. Fundraising competitive (~$2.54M) but trails Abughazaleh. Some friction with AFSCME and state employee unions over SB 1 history.",
     "sentiment": "positive",
-    "hashtags": ["#DanielBiss", "#Evanston", "#Reparations", "#BissForCongress", "#IL09"],
+    "hashtags": [
+      "#DanielBiss",
+      "#Evanston",
+      "#Reparations",
+      "#BissForCongress",
+      "#IL09"
+    ],
     "last_updated": "2026-03-14"
   },
   "trust_indicators": [
@@ -338,14 +344,13 @@
     }
   ],
   "transparency_score": {
-    "grade": "A",
+    "grade": "B",
     "computed": true,
     "financial_transparency": "B",
     "platform_completeness": "A",
     "record_available": true,
     "red_flags_count": 4,
-    "computed_at": "2026-03-14",
-    "notes": "Exceptional policy record depth. Two red flags are documented (SB 1, academic papers) but acknowledged. Two others (AIPAC, Northwestern protests) are contested/unconfirmed. Highest record availability of the four profiles in this batch."
+    "computed_at": "2026-03-15"
   },
   "news_hits": [
     {

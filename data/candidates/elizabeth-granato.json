@@ -9,7 +9,7 @@
   "prior_office": "Bureau Chief, Cook County Bureau of Asset Management",
   "website": "https://www.elizabethforcookcounty.com/",
   "jacket": {
-    "total_raised": 517660.00,
+    "total_raised": 517660,
     "cash_on_hand": 400593.12,
     "data_date": "2026-03-14",
     "source": "https://illinoissunshine.org/committees/40741/",
@@ -17,24 +17,132 @@
     "fec_id": null,
     "ilsbe_id": "40741",
     "donors": [
-      {"name": "Ram for 39th Ward Democratic Committeeman", "amount": 72800, "category": "political-committee", "source": "https://illinoissunshine.org/committees/40741/", "confirmed": true},
-      {"name": "Ram for IL-05 State Central Committeeman", "amount": 72800, "category": "political-committee", "source": "https://illinoissunshine.org/committees/40741/", "confirmed": true},
-      {"name": "Friends of Ram", "amount": 72800, "category": "political-committee", "source": "https://illinoissunshine.org/committees/40741/", "confirmed": true},
-      {"name": "Friends of Robert Martwick", "amount": 40000, "category": "political-committee", "source": "https://illinoissunshine.org/committees/40741/", "confirmed": true},
-      {"name": "Friends of Don Harmon for State Senate", "amount": 30000, "category": "political-committee", "source": "https://illinoissunshine.org/committees/40741/", "confirmed": true},
-      {"name": "Friends of Omar Aquino", "amount": 25000, "category": "political-committee", "source": "https://illinoissunshine.org/committees/40741/", "confirmed": true},
-      {"name": "Assyrian American Political Advocacy Committee", "amount": 15000, "category": "pac", "source": "https://illinoissunshine.org/committees/40741/", "confirmed": true},
-      {"name": "Service Employees Local 1 Illinois PEC", "amount": 10000, "category": "labor-pac", "source": "https://illinoissunshine.org/committees/40741/", "confirmed": true},
-      {"name": "SEIU Illinois Council PAC", "amount": 10000, "category": "labor-pac", "source": "https://illinoissunshine.org/committees/40741/", "confirmed": true},
-      {"name": "Chicagoland Operators Joint Labor-Management PAC", "amount": 10000, "category": "labor-pac", "source": "https://illinoissunshine.org/committees/40741/", "confirmed": true},
-      {"name": "Friends of Bill Cunningham", "amount": 10000, "category": "political-committee", "source": "https://illinoissunshine.org/committees/40741/", "confirmed": true},
-      {"name": "Mid-America Carpenters Regional Council PAC", "amount": 7500, "category": "labor-pac", "source": "https://illinoissunshine.org/committees/40741/", "confirmed": true},
-      {"name": "Citizens for Laura Murphy", "amount": 7500, "category": "political-committee", "source": "https://illinoissunshine.org/committees/40741/", "confirmed": true},
-      {"name": "Debra Granato", "amount": 7300, "category": "individual", "source": "https://illinoissunshine.org/committees/40741/", "confirmed": true},
-      {"name": "Chicago Federation of Labor", "amount": 5000, "category": "labor-pac", "source": "https://illinoissunshine.org/committees/40741/", "confirmed": true},
-      {"name": "Progressive Turnout Project", "amount": 5000, "category": "pac", "source": "https://illinoissunshine.org/committees/40741/", "confirmed": true},
-      {"name": "Friends of Josina Morita", "amount": 5000, "category": "political-committee", "source": "https://illinoissunshine.org/committees/40741/", "confirmed": true},
-      {"name": "LiUNA Chicago Laborers District Council", "amount": 5000, "category": "labor-pac", "source": "https://illinoissunshine.org/committees/40741/", "confirmed": true}
+      {
+        "name": "Ram for 39th Ward Democratic Committeeman",
+        "amount": 72800,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Ram for IL-05 State Central Committeeman",
+        "amount": 72800,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Friends of Ram",
+        "amount": 72800,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Friends of Robert Martwick",
+        "amount": 40000,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Friends of Don Harmon for State Senate",
+        "amount": 30000,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Friends of Omar Aquino",
+        "amount": 25000,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Assyrian American Political Advocacy Committee",
+        "amount": 15000,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Service Employees Local 1 Illinois PEC",
+        "amount": 10000,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "SEIU Illinois Council PAC",
+        "amount": 10000,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Chicagoland Operators Joint Labor-Management PAC",
+        "amount": 10000,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Friends of Bill Cunningham",
+        "amount": 10000,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Mid-America Carpenters Regional Council PAC",
+        "amount": 7500,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Citizens for Laura Murphy",
+        "amount": 7500,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Debra Granato",
+        "amount": 7300,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Chicago Federation of Labor",
+        "amount": 5000,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Progressive Turnout Project",
+        "amount": 5000,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Friends of Josina Morita",
+        "amount": 5000,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "LiUNA Chicago Laborers District Council",
+        "amount": 5000,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      }
     ]
   },
   "red_flags": [
@@ -123,9 +231,9 @@
     "computed": true,
     "financial_transparency": "A",
     "platform_completeness": "F",
-    "record_available": true,
+    "record_available": false,
     "red_flags_count": 2,
-    "computed_at": "2026-03-14"
+    "computed_at": "2026-03-15"
   },
   "news_hits": [
     {

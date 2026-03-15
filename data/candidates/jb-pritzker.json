@@ -336,5 +336,14 @@
       "source_name": "WBEZ",
       "sentiment": "neutral"
     }
-  ]
+  ],
+  "transparency_score": {
+    "grade": "D",
+    "computed": true,
+    "financial_transparency": "A",
+    "platform_completeness": "F",
+    "record_available": true,
+    "red_flags_count": 10,
+    "computed_at": "2026-03-15"
+  }
 }

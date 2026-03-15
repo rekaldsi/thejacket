@@ -152,7 +152,12 @@
   "social_pulse": {
     "summary": "Long-serving incumbent with high name recognition in District 10. Central social media controversy is her dual employment at Aon and 23% missed-meetings statistic, which challenger Drake Warren has amplified. Generally positive sentiment among establishment Democrats; progressive critics focused on time/commitment issues. District includes Lakeview, Uptown, Rogers Park, Norwood Park — lakefront progressive base.",
     "sentiment": "mixed",
-    "hashtags": ["#BridgetGainer", "#CookCounty", "#District10", "#CCBoard"],
+    "hashtags": [
+      "#BridgetGainer",
+      "#CookCounty",
+      "#District10",
+      "#CCBoard"
+    ],
     "last_updated": "2026-03-14"
   },
   "trust_indicators": [
@@ -202,11 +207,10 @@
   "transparency_score": {
     "grade": "B",
     "computed": true,
-    "financial_transparency": "C",
+    "financial_transparency": "F",
     "platform_completeness": "A",
     "record_available": true,
     "red_flags_count": 2,
-    "computed_at": "2026-03-14",
-    "notes": "Strong policy record and long documented tenure. Financial transparency limited by ILSBE data not directly retrievable in this session. Two confirmed red flags (attendance and dual employment) prevent a higher grade."
+    "computed_at": "2026-03-15"
   }
 }

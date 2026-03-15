@@ -355,14 +355,13 @@
     }
   ],
   "transparency_score": {
-    "grade": "C",
+    "grade": "B",
     "computed": true,
-    "financial_transparency": "C+",
+    "financial_transparency": "A",
     "platform_completeness": "A",
     "record_available": true,
     "red_flags_count": 4,
-    "computed_at": "2026-03-14",
-    "notes": "ILSBE committee confirmed and current. Detailed platform available. Red flags: 2 confirmed (debt level, shared officers), 2 unconfirmed (machine appointment allegation from opponent). Financial transparency elevated from F to C+ because ILSBE committee ID and top-line financials were confirmed."
+    "computed_at": "2026-03-15"
   },
   "data_status": "partial",
   "sources": [

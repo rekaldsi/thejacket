@@ -86,14 +86,13 @@
     "Based in Old Town, Chicago — born Oak Park"
   ],
   "transparency_score": {
-    "grade": "D",
+    "grade": "B",
     "computed": true,
     "financial_transparency": "F",
-    "platform_completeness": "F",
+    "platform_completeness": "A",
     "record_available": true,
     "red_flags_count": 1,
-    "computed_at": "2026-03-14",
-    "note": "Grade reflects absence of itemized ILSBE state campaign finance data. FEC not applicable (state race). Grade will update when ILSBE data is pulled."
+    "computed_at": "2026-03-15"
   },
   "transparency_grade": "D",
   "career_history": []

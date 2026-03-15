@@ -363,14 +363,13 @@
     }
   ],
   "transparency_score": {
-    "grade": "B-",
+    "grade": "C",
     "computed": true,
-    "financial_transparency": "C+",
+    "financial_transparency": "A",
     "platform_completeness": "A",
     "record_available": true,
     "red_flags_count": 5,
-    "notes": "Highest fundraiser in race but donor composition is the core controversy. MAGA-aligned donors, AIPAC network, Hindu nationalist connections, and crypto PAC ecosystem all confirmed by Tribune and Sun-Times reporting. No formal ethics violations filed. Transparency score penalized for opacity around specific donation amounts and donor connections.",
-    "computed_at": "2026-03-14"
+    "computed_at": "2026-03-15"
   },
   "news_hits": [
     {

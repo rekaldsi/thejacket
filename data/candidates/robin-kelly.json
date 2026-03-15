@@ -350,14 +350,13 @@
     }
   ],
   "transparency_score": {
-    "grade": "A-",
+    "grade": "B",
     "computed": true,
-    "financial_transparency": "B+",
+    "financial_transparency": "B",
     "platform_completeness": "A",
     "record_available": true,
     "red_flags_count": 3,
-    "notes": "Red flags are structural/political (no personal ethics violations). Outside PAC support from crypto-Trump-aligned Fairshake network raises questions. Strong legislative record and consistent issue focus.",
-    "computed_at": "2026-03-14"
+    "computed_at": "2026-03-15"
   },
   "news_hits": [
     {

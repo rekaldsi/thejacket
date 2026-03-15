@@ -17,15 +17,69 @@
     "fec_id": null,
     "ilsbe_id": "40744",
     "donors": [
-      {"name": "Noah Wright", "amount": 7300, "category": "individual", "source": "https://illinoissunshine.org/committees/40744/", "confirmed": true},
-      {"name": "Michael Smith", "amount": 7300, "category": "individual", "source": "https://illinoissunshine.org/committees/40744/", "confirmed": true},
-      {"name": "Phillip White", "amount": 7004, "category": "individual", "source": "https://illinoissunshine.org/committees/40744/", "confirmed": true},
-      {"name": "Jacobs Paul", "amount": 4000, "category": "individual", "source": "https://illinoissunshine.org/committees/40744/", "confirmed": true},
-      {"name": "Jay Shooster", "amount": 2000, "category": "individual", "source": "https://illinoissunshine.org/committees/40744/", "confirmed": true},
-      {"name": "Martha White", "amount": 2000, "category": "individual", "source": "https://illinoissunshine.org/committees/40744/", "confirmed": true},
-      {"name": "Connor Flexman", "amount": 2000, "category": "individual", "source": "https://illinoissunshine.org/committees/40744/", "confirmed": true},
-      {"name": "Austin Chen", "amount": 1200, "category": "individual", "source": "https://illinoissunshine.org/committees/40744/", "confirmed": true},
-      {"name": "New Liberals PAC", "amount": 750, "category": "pac", "source": "https://illinoissunshine.org/committees/40744/", "confirmed": true}
+      {
+        "name": "Noah Wright",
+        "amount": 7300,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40744/",
+        "confirmed": true
+      },
+      {
+        "name": "Michael Smith",
+        "amount": 7300,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40744/",
+        "confirmed": true
+      },
+      {
+        "name": "Phillip White",
+        "amount": 7004,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40744/",
+        "confirmed": true
+      },
+      {
+        "name": "Jacobs Paul",
+        "amount": 4000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40744/",
+        "confirmed": true
+      },
+      {
+        "name": "Jay Shooster",
+        "amount": 2000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40744/",
+        "confirmed": true
+      },
+      {
+        "name": "Martha White",
+        "amount": 2000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40744/",
+        "confirmed": true
+      },
+      {
+        "name": "Connor Flexman",
+        "amount": 2000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40744/",
+        "confirmed": true
+      },
+      {
+        "name": "Austin Chen",
+        "amount": 1200,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40744/",
+        "confirmed": true
+      },
+      {
+        "name": "New Liberals PAC",
+        "amount": 750,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/40744/",
+        "confirmed": true
+      }
     ]
   },
   "red_flags": [],
@@ -51,10 +105,10 @@
   "transparency_score": {
     "grade": "C",
     "computed": true,
-    "financial_transparency": "B",
+    "financial_transparency": "A",
     "platform_completeness": "F",
-    "record_available": true,
+    "record_available": false,
     "red_flags_count": 0,
-    "computed_at": "2026-03-14"
+    "computed_at": "2026-03-15"
   }
 }

@@ -18,16 +18,76 @@
     "fec_id": "H6IL04153",
     "ilsbe_id": null,
     "donors": [
-      {"name": "Transformative Change PAC", "amount": 5000, "category": "pac", "source": "https://api.open.fec.gov/v1/schedules/schedule_a/", "confirmed": true},
-      {"name": "Transformative Change PAC", "amount": 5000, "category": "pac", "source": "https://api.open.fec.gov/v1/schedules/schedule_a/", "confirmed": true},
-      {"name": "SMART-TD (Sheet Metal, Air, Rail and Transportation Workers)", "amount": 5000, "category": "labor-pac", "source": "https://api.open.fec.gov/v1/schedules/schedule_a/", "confirmed": true},
-      {"name": "Machinists Non-Partisan Political League (IAM)", "amount": 5000, "category": "labor-pac", "source": "https://api.open.fec.gov/v1/schedules/schedule_a/", "confirmed": true},
-      {"name": "Laborers' International Union of North America (LIUNA) PAC", "amount": 5000, "category": "labor-pac", "source": "https://api.open.fec.gov/v1/schedules/schedule_a/", "confirmed": true},
-      {"name": "Health Care Service Corporation Employees' PAC", "amount": 5000, "category": "labor-pac", "source": "https://api.open.fec.gov/v1/schedules/schedule_a/", "confirmed": true},
-      {"name": "Carpenters Legislative Improvement Committee (United Brotherhood of Carpenters)", "amount": 5000, "category": "labor-pac", "source": "https://api.open.fec.gov/v1/schedules/schedule_a/", "confirmed": true},
-      {"name": "Brotherhood of Railroad Signalmen", "amount": 5000, "category": "labor-pac", "source": "https://api.open.fec.gov/v1/schedules/schedule_a/", "confirmed": true},
-      {"name": "Amalgamated Transit Union - COPE", "amount": 5000, "category": "labor-pac", "source": "https://api.open.fec.gov/v1/schedules/schedule_a/", "confirmed": true},
-      {"name": "Air Line Pilots Association PAC", "amount": 5000, "category": "labor-pac", "source": "https://api.open.fec.gov/v1/schedules/schedule_a/", "confirmed": true}
+      {
+        "name": "Transformative Change PAC",
+        "amount": 5000,
+        "category": "pac",
+        "source": "https://api.open.fec.gov/v1/schedules/schedule_a/",
+        "confirmed": true
+      },
+      {
+        "name": "Transformative Change PAC",
+        "amount": 5000,
+        "category": "pac",
+        "source": "https://api.open.fec.gov/v1/schedules/schedule_a/",
+        "confirmed": true
+      },
+      {
+        "name": "SMART-TD (Sheet Metal, Air, Rail and Transportation Workers)",
+        "amount": 5000,
+        "category": "labor-pac",
+        "source": "https://api.open.fec.gov/v1/schedules/schedule_a/",
+        "confirmed": true
+      },
+      {
+        "name": "Machinists Non-Partisan Political League (IAM)",
+        "amount": 5000,
+        "category": "labor-pac",
+        "source": "https://api.open.fec.gov/v1/schedules/schedule_a/",
+        "confirmed": true
+      },
+      {
+        "name": "Laborers' International Union of North America (LIUNA) PAC",
+        "amount": 5000,
+        "category": "labor-pac",
+        "source": "https://api.open.fec.gov/v1/schedules/schedule_a/",
+        "confirmed": true
+      },
+      {
+        "name": "Health Care Service Corporation Employees' PAC",
+        "amount": 5000,
+        "category": "labor-pac",
+        "source": "https://api.open.fec.gov/v1/schedules/schedule_a/",
+        "confirmed": true
+      },
+      {
+        "name": "Carpenters Legislative Improvement Committee (United Brotherhood of Carpenters)",
+        "amount": 5000,
+        "category": "labor-pac",
+        "source": "https://api.open.fec.gov/v1/schedules/schedule_a/",
+        "confirmed": true
+      },
+      {
+        "name": "Brotherhood of Railroad Signalmen",
+        "amount": 5000,
+        "category": "labor-pac",
+        "source": "https://api.open.fec.gov/v1/schedules/schedule_a/",
+        "confirmed": true
+      },
+      {
+        "name": "Amalgamated Transit Union - COPE",
+        "amount": 5000,
+        "category": "labor-pac",
+        "source": "https://api.open.fec.gov/v1/schedules/schedule_a/",
+        "confirmed": true
+      },
+      {
+        "name": "Air Line Pilots Association PAC",
+        "amount": 5000,
+        "category": "labor-pac",
+        "source": "https://api.open.fec.gov/v1/schedules/schedule_a/",
+        "confirmed": true
+      }
     ]
   },
   "red_flags": [],
@@ -102,13 +162,13 @@
     }
   ],
   "transparency_score": {
-    "grade": "A",
+    "grade": "B",
     "computed": true,
-    "financial_transparency": "A",
+    "financial_transparency": "C",
     "platform_completeness": "A",
-    "record_available": true,
+    "record_available": false,
     "red_flags_count": 0,
-    "computed_at": "2026-03-14"
+    "computed_at": "2026-03-15"
   },
   "sources": [
     "https://ballotpedia.org/Patty_Garcia",

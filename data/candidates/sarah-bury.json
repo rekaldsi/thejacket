@@ -217,13 +217,12 @@
     "last_updated": "2026-03-14"
   },
   "transparency_score": {
-    "grade": "B",
+    "grade": "C",
     "computed": true,
-    "financial_transparency": "C",
+    "financial_transparency": "F",
     "platform_completeness": "A",
-    "record_available": true,
+    "record_available": false,
     "red_flags_count": 2,
-    "note": "Finance total confirmed via ILSBE/TransparencyUSA; individual donors require browser rendering. No ethics issues. Strong environmental credentials. Tribune editorial board preferred incumbents.",
-    "computed_at": "2026-03-14"
+    "computed_at": "2026-03-15"
   }
 }

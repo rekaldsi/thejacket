@@ -193,13 +193,12 @@
     "last_updated": "2026-03-14"
   },
   "transparency_score": {
-    "grade": "A-",
+    "grade": "B",
     "computed": true,
-    "financial_transparency": "C",
+    "financial_transparency": "F",
     "platform_completeness": "A",
     "record_available": true,
     "red_flags_count": 0,
-    "note": "Finance total confirmed via ILSBE; individual donors require browser rendering. No red flags. Extensive endorsement record and completed Ballotpedia survey.",
-    "computed_at": "2026-03-14"
+    "computed_at": "2026-03-15"
   }
 }

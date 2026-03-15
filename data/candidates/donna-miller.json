@@ -235,7 +235,12 @@
   "social_pulse": {
     "summary": "Miller has relatively low organic social media presence but her IL-02 campaign has generated significant negative coverage around AIPAC-linked donor network (Hyde Park Herald, American Prospect). The out-of-state donor controversy (87% Q4 2025 funding from outside Illinois) is the dominant narrative. County board work has been below radar — no major controversies or viral moments. Viewed by progressives as a moderate-to-conservative Democrat backed by national money in a deeply progressive district.",
     "sentiment": "mixed-to-negative (among primary progressive voters due to AIPAC funding)",
-    "hashtags": ["#DonnaMiller", "#IL02", "#CookCounty6th", "#AIPAC"],
+    "hashtags": [
+      "#DonnaMiller",
+      "#IL02",
+      "#CookCounty6th",
+      "#AIPAC"
+    ],
     "last_updated": "2026-03-14"
   },
   "trust_indicators": [
@@ -271,14 +276,13 @@
     }
   ],
   "transparency_score": {
-    "grade": "C",
+    "grade": "A",
     "computed": true,
     "financial_transparency": "C",
-    "platform_completeness": "C",
+    "platform_completeness": "A",
     "record_available": true,
     "red_flags_count": 2,
-    "computed_at": "2026-03-14",
-    "notes": "County record now documented but thin on specific votes. Congressional platform not fully developed in public sources. AIPAC donor flag confirmed and is a significant transparency concern given the D+18 progressive district. Grade limited by donor network flag and incomplete platform documentation."
+    "computed_at": "2026-03-15"
   },
   "sources": [
     "https://en.wikipedia.org/wiki/Donna_Miller",

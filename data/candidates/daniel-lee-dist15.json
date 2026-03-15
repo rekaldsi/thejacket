@@ -69,13 +69,13 @@
   "trust_indicators": [],
   "social_pulse": null,
   "transparency_score": {
-    "grade": "F",
+    "grade": "C",
     "computed": true,
     "financial_transparency": "F",
-    "platform_completeness": "D",
+    "platform_completeness": "A",
     "record_available": false,
     "red_flags_count": 0,
-    "computed_at": "2026-03-14"
+    "computed_at": "2026-03-15"
   },
   "data_note": "Republican primary candidate for District 15. Contested GOP primary vs. Gabriella Hoxie."
 }

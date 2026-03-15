@@ -9,7 +9,7 @@
   "prior_office": "Director of Civic Engagement, Equality Illinois",
   "website": "https://votecheche.com/",
   "jacket": {
-    "total_raised": 67642.20,
+    "total_raised": 67642.2,
     "cash_on_hand": 48965.86,
     "data_date": "2026-03-14",
     "source": "https://illinoissunshine.org/committees/40764/",
@@ -17,18 +17,90 @@
     "fec_id": null,
     "ilsbe_id": "40764",
     "donors": [
-      {"name": "Jose Turrubiartez Wilson", "amount": 15000, "category": "individual", "source": "https://illinoissunshine.org/committees/40764/", "confirmed": true},
-      {"name": "Victor Ravago", "amount": 7300, "category": "individual", "source": "https://illinoissunshine.org/committees/40764/", "confirmed": true},
-      {"name": "Haley Lowrance", "amount": 7000, "category": "individual", "source": "https://illinoissunshine.org/committees/40764/", "confirmed": true},
-      {"name": "Nancy Wolf", "amount": 3550, "category": "individual", "source": "https://illinoissunshine.org/committees/40764/", "confirmed": true},
-      {"name": "Clark Pellett", "amount": 3500, "category": "individual", "source": "https://illinoissunshine.org/committees/40764/", "confirmed": true},
-      {"name": "44th Ward Regular Democratic Org", "amount": 2500, "category": "political-committee", "source": "https://illinoissunshine.org/committees/40764/", "confirmed": true},
-      {"name": "Heather Steans", "amount": 2500, "category": "individual", "source": "https://illinoissunshine.org/committees/40764/", "confirmed": true},
-      {"name": "Friends of Lakesia", "amount": 1000, "category": "political-committee", "source": "https://illinoissunshine.org/committees/40764/", "confirmed": true},
-      {"name": "31st Ward Democrats", "amount": 1000, "category": "political-committee", "source": "https://illinoissunshine.org/committees/40764/", "confirmed": true},
-      {"name": "Carnicerias Guanajuato", "amount": 1000, "category": "business", "source": "https://illinoissunshine.org/committees/40764/", "confirmed": true},
-      {"name": "Community for Carlos Rivas", "amount": 1000, "category": "political-committee", "source": "https://illinoissunshine.org/committees/40764/", "confirmed": true},
-      {"name": "Elizabeth Stovall", "amount": 1000, "category": "individual", "source": "https://illinoissunshine.org/committees/40764/", "confirmed": true}
+      {
+        "name": "Jose Turrubiartez Wilson",
+        "amount": 15000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40764/",
+        "confirmed": true
+      },
+      {
+        "name": "Victor Ravago",
+        "amount": 7300,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40764/",
+        "confirmed": true
+      },
+      {
+        "name": "Haley Lowrance",
+        "amount": 7000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40764/",
+        "confirmed": true
+      },
+      {
+        "name": "Nancy Wolf",
+        "amount": 3550,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40764/",
+        "confirmed": true
+      },
+      {
+        "name": "Clark Pellett",
+        "amount": 3500,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40764/",
+        "confirmed": true
+      },
+      {
+        "name": "44th Ward Regular Democratic Org",
+        "amount": 2500,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/40764/",
+        "confirmed": true
+      },
+      {
+        "name": "Heather Steans",
+        "amount": 2500,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40764/",
+        "confirmed": true
+      },
+      {
+        "name": "Friends of Lakesia",
+        "amount": 1000,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/40764/",
+        "confirmed": true
+      },
+      {
+        "name": "31st Ward Democrats",
+        "amount": 1000,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/40764/",
+        "confirmed": true
+      },
+      {
+        "name": "Carnicerias Guanajuato",
+        "amount": 1000,
+        "category": "business",
+        "source": "https://illinoissunshine.org/committees/40764/",
+        "confirmed": true
+      },
+      {
+        "name": "Community for Carlos Rivas",
+        "amount": 1000,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/40764/",
+        "confirmed": true
+      },
+      {
+        "name": "Elizabeth Stovall",
+        "amount": 1000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40764/",
+        "confirmed": true
+      }
     ]
   },
   "red_flags": [],
@@ -59,8 +131,8 @@
     "computed": true,
     "financial_transparency": "B",
     "platform_completeness": "F",
-    "record_available": true,
+    "record_available": false,
     "red_flags_count": 0,
-    "computed_at": "2026-03-14"
+    "computed_at": "2026-03-15"
   }
 }

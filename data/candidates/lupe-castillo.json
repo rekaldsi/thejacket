@@ -104,14 +104,13 @@
     }
   ],
   "transparency_score": {
-    "grade": "D",
+    "grade": "C",
     "computed": true,
     "financial_transparency": "F",
-    "platform_completeness": "B",
+    "platform_completeness": "A",
     "record_available": false,
     "red_flags_count": 2,
-    "note": "No FEC filings found for 2025-2026 cycle. Minimal public footprint. Platform sourced from Ballotpedia survey only.",
-    "computed_at": "2026-03-14"
+    "computed_at": "2026-03-15"
   },
   "uncontested": true
 }

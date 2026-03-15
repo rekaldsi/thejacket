@@ -75,13 +75,13 @@
     }
   ],
   "transparency_score": {
-    "grade": "F",
+    "grade": "D",
     "computed": true,
     "financial_transparency": "F",
     "platform_completeness": "C",
     "record_available": false,
     "red_flags_count": 2,
-    "computed_at": "2026-03-14"
+    "computed_at": "2026-03-15"
   },
   "sources": [
     "https://ballotpedia.org/Ed_Hershey",

@@ -4,8 +4,8 @@
   "party": "Democratic",
   "office": "U.S. House (IL-02)",
   "race_id": "il-02-us-house-d-2026",
-  "bio": "Robert Peters is a Democratic candidate for Illinois' 2nd Congressional District in the March 17, 2026 primary. Peters was born and raised in Hyde Park, Chicago. He was born deaf to a mother who was addicted to drugs and was placed for adoption by a social worker mother and a civil rights attorney father \u2014 experiences that have profoundly shaped his legislative work. He earned his undergraduate degree from Kansas State University. He has worked for ICIRR (Illinois Coalition for Immigrant and Refugee Rights), Chicago Votes, and Reclaim Chicago, and served as Political Director for Daniel K. Biss's gubernatorial campaign. Peters is a dues-paying member of The People's Lobby and United Working Families. He was appointed to the Illinois State Senate District 13 (Hyde Park/South Shore/Kenwood) in 2019 to fill the vacancy left by Kwame Raoul (elevated to Illinois Attorney General), and won election outright in 2020 in a contested primary (53.3% vs. 46.7% for Ken Thomas). He won reelection unopposed in 2022 and 2024 (term through January 10, 2029). He is currently the Illinois Senate Majority Whip and chairs the Senate Labor Committee. Peters was the lead Senate sponsor of the landmark SAFE-T Act (SB 2835, signed January 22, 2021), Illinois' comprehensive criminal justice reform law that abolished cash bail and enacted wide-ranging law enforcement accountability measures. He raised $1.13M in FEC receipts as of February 25, 2026 \u2014 second in fundraising in the 11-candidate IL-02 primary, behind only Donna Miller ($1.97M). Peters entered the race after incumbent Robin Kelly stepped down to run for U.S. Senate.",
-  "prior_office": "Illinois State Senator, District 13 (2019\u2013present); Senate Majority Whip; Chair, Illinois Senate Labor Committee",
+  "bio": "Robert Peters is a Democratic candidate for Illinois' 2nd Congressional District in the March 17, 2026 primary. Peters was born and raised in Hyde Park, Chicago. He was born deaf to a mother who was addicted to drugs and was placed for adoption by a social worker mother and a civil rights attorney father — experiences that have profoundly shaped his legislative work. He earned his undergraduate degree from Kansas State University. He has worked for ICIRR (Illinois Coalition for Immigrant and Refugee Rights), Chicago Votes, and Reclaim Chicago, and served as Political Director for Daniel K. Biss's gubernatorial campaign. Peters is a dues-paying member of The People's Lobby and United Working Families. He was appointed to the Illinois State Senate District 13 (Hyde Park/South Shore/Kenwood) in 2019 to fill the vacancy left by Kwame Raoul (elevated to Illinois Attorney General), and won election outright in 2020 in a contested primary (53.3% vs. 46.7% for Ken Thomas). He won reelection unopposed in 2022 and 2024 (term through January 10, 2029). He is currently the Illinois Senate Majority Whip and chairs the Senate Labor Committee. Peters was the lead Senate sponsor of the landmark SAFE-T Act (SB 2835, signed January 22, 2021), Illinois' comprehensive criminal justice reform law that abolished cash bail and enacted wide-ranging law enforcement accountability measures. He raised $1.13M in FEC receipts as of February 25, 2026 — second in fundraising in the 11-candidate IL-02 primary, behind only Donna Miller ($1.97M). Peters entered the race after incumbent Robin Kelly stepped down to run for U.S. Senate.",
+  "prior_office": "Illinois State Senator, District 13 (2019–present); Senate Majority Whip; Chair, Illinois Senate Labor Committee",
   "website": "https://www.robertpetersforcongress.com",
   "jacket": {
     "total_raised": 1130677,
@@ -14,10 +14,10 @@
     "data_date": "2026-03-14",
     "source": "https://www.fec.gov/data/candidate/H6IL02298/",
     "fec_id": "H6IL02298",
-    "note": "FEC data from committee C00905075 (ROBERT PETERS FOR CONGRESS). 2,188 total receipts \u2014 by far the most of any IL-02 candidate except Donna Miller, reflecting broad grassroots fundraising. ActBlue conduit total $354,121 confirms large small-dollar base. Top $7,000 donors: Leo Smith (not employed, Chicago), Rebecca Janowitz (not employed, Chicago), Aaron Collard (real estate, Hyde Park). Progressive Turnout Project (Evanston-based) gave $10,000. Sanders-affiliated Progressive Voters of America gave $5,000. FEC confirmed: $1,130,677 raised, $188,510 cash on hand as of Feb 25, 2026. FEC ID H6IL02298 confirmed to be Robert Peters for IL-02 (not a state/county race).",
+    "note": "FEC data from committee C00905075 (ROBERT PETERS FOR CONGRESS). 2,188 total receipts — by far the most of any IL-02 candidate except Donna Miller, reflecting broad grassroots fundraising. ActBlue conduit total $354,121 confirms large small-dollar base. Top $7,000 donors: Leo Smith (not employed, Chicago), Rebecca Janowitz (not employed, Chicago), Aaron Collard (real estate, Hyde Park). Progressive Turnout Project (Evanston-based) gave $10,000. Sanders-affiliated Progressive Voters of America gave $5,000. FEC confirmed: $1,130,677 raised, $188,510 cash on hand as of Feb 25, 2026. FEC ID H6IL02298 confirmed to be Robert Peters for IL-02 (not a state/county race).",
     "donors": [
       {
-        "name": "ActBlue (conduit \u2014 grassroots small-dollar donors)",
+        "name": "ActBlue (conduit — grassroots small-dollar donors)",
         "amount": 354121,
         "category": "conduit",
         "source": "https://www.fec.gov/data/committee/C00905075/",
@@ -64,27 +64,27 @@
   "red_flags": [],
   "key_votes": [
     {
-      "bill": "SAFE-T Act (SB 2835) \u2014 Illinois Safety, Accountability, Fairness and Equity-Today Act",
-      "vote": "Yes \u2014 lead Senate sponsor",
+      "bill": "SAFE-T Act (SB 2835) — Illinois Safety, Accountability, Fairness and Equity-Today Act",
+      "vote": "Yes — lead Senate sponsor",
       "summary": "Peters was the lead Senate sponsor of Illinois' landmark criminal justice reform bill, signed by Gov. Pritzker on January 22, 2021. The law abolished cash bail (effective September 18, 2023), expanded pretrial rights, established new law enforcement accountability standards, required body cameras, and reformed use-of-force policies. It was the most significant criminal justice reform legislation in Illinois history.",
       "source": "https://www.ilga.gov"
     },
     {
-      "bill": "Illinois Housing Justice Act \u2014 Tenant Protections / Just-Cause Eviction",
-      "vote": "Yes \u2014 primary Senate sponsor",
+      "bill": "Illinois Housing Justice Act — Tenant Protections / Just-Cause Eviction",
+      "vote": "Yes — primary Senate sponsor",
       "summary": "Peters was a primary Senate sponsor of legislation expanding tenant protections, including just-cause eviction standards to protect renters from arbitrary displacement.",
       "source": "https://www.ilga.gov"
     },
     {
       "bill": "Senior Property Tax Freeze Expansion",
-      "vote": "Yes \u2014 sponsored",
+      "vote": "Yes — sponsored",
       "summary": "Peters worked to expand the senior property tax freeze so seniors and working-class people could stay in their homes as property values increased, particularly in the South Shore and Hyde Park areas he represents.",
       "source": "https://www.robertpetersforcongress.com"
     },
     {
       "bill": "Minimum Wage Increase",
       "vote": "Yes",
-      "summary": "Voted to raise Illinois' minimum wage \u2014 part of the graduated minimum wage increase to $15/hour passed by the Illinois General Assembly in 2019.",
+      "summary": "Voted to raise Illinois' minimum wage — part of the graduated minimum wage increase to $15/hour passed by the Illinois General Assembly in 2019.",
       "source": "https://www.robertpetersforcongress.com"
     },
     {
@@ -108,19 +108,19 @@
     {
       "role": "Illinois State Senator, District 13",
       "org": "Illinois State Senate",
-      "years": "2019\u2013present",
+      "years": "2019–present",
       "highlight": "Appointed 2019, elected 2020. Currently Senate Majority Whip and Chair of Senate Labor Committee. Lead Senate sponsor of the SAFE-T Act. District covers Hyde Park, South Shore, Kenwood."
     },
     {
       "role": "Political Director",
       "org": "Daniel K. Biss for Governor campaign",
-      "years": "2017\u20132018",
+      "years": "2017–2018",
       "highlight": "Directed political strategy for the progressive gubernatorial campaign of then-State Sen. Daniel Biss."
     },
     {
       "role": "Organizer / Staff",
       "org": "Chicago Votes",
-      "years": "2015\u20132018",
+      "years": "2015–2018",
       "highlight": "Community organizing and civic engagement focused on youth voter registration and mobilization."
     },
     {
@@ -132,7 +132,7 @@
     {
       "role": "Organizer",
       "org": "Reclaim Chicago",
-      "years": "circa 2016\u20132019",
+      "years": "circa 2016–2019",
       "highlight": "Progressive political organizing in Chicago, affiliated with The People's Lobby."
     }
   ],
@@ -187,17 +187,17 @@
   },
   "trust_indicators": [
     {
-      "label": "FEC filings current \u2014 H6IL02298 confirmed; $1.13M raised \u2014 confirmed",
+      "label": "FEC filings current — H6IL02298 confirmed; $1.13M raised — confirmed",
       "value": true,
       "type": "positive"
     },
     {
-      "label": "Lead Senate sponsor of SAFE-T Act \u2014 confirmed via ILGA",
+      "label": "Lead Senate sponsor of SAFE-T Act — confirmed via ILGA",
       "value": true,
       "type": "positive"
     },
     {
-      "label": "Illinois Senate Majority Whip \u2014 confirmed via Ballotpedia",
+      "label": "Illinois Senate Majority Whip — confirmed via Ballotpedia",
       "value": true,
       "type": "positive"
     },
@@ -207,24 +207,23 @@
       "type": "positive"
     },
     {
-      "label": "Community organizer background \u2014 ICIRR, Chicago Votes, Reclaim Chicago \u2014 confirmed",
+      "label": "Community organizer background — ICIRR, Chicago Votes, Reclaim Chicago — confirmed",
       "value": true,
       "type": "positive"
     },
     {
-      "label": "Former public defender \u2014 disputed: Ballotpedia bio does NOT cite law degree or public defender role; prior rep characterization not confirmed",
+      "label": "Former public defender — disputed: Ballotpedia bio does NOT cite law degree or public defender role; prior rep characterization not confirmed",
       "value": false,
       "type": "neutral"
     }
   ],
   "transparency_score": {
-    "grade": "B+",
+    "grade": "A",
     "computed": true,
     "financial_transparency": "C",
     "platform_completeness": "A",
     "record_available": true,
     "red_flags_count": 0,
-    "computed_at": "2026-03-14",
-    "notes": "FEC filing confirmed with current totals. Strong sourced platform. Lead Senate sponsorship of landmark SAFE-T Act verified. No red flags. One correction from prior profile: Peters is NOT a former 'legal aid attorney' per Ballotpedia \u2014 he is a community organizer background. Prior career_history noting Legal Aid Chicago was not confirmed and has been corrected. Financial transparency C because itemized donors not extracted, but FEC total confirmed."
+    "computed_at": "2026-03-15"
   }
 }

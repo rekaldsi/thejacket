@@ -188,13 +188,12 @@
     "last_updated": "2026-03-14"
   },
   "transparency_score": {
-    "grade": "B+",
+    "grade": "B",
     "computed": true,
-    "financial_transparency": "C",
+    "financial_transparency": "F",
     "platform_completeness": "A",
     "record_available": true,
-    "red_flags_count": 1,
-    "note": "Finance total confirmed via ILSBE; individual donors require browser rendering. One minor structural red flag (appointment path). Strong policy record.",
-    "computed_at": "2026-03-14"
+    "red_flags_count": 2,
+    "computed_at": "2026-03-15"
   }
 }

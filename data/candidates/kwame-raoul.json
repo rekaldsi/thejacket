@@ -31,112 +31,112 @@
       },
       {
         "name": "Friends of Michael J Madigan",
-        "amount": 1000000.0,
+        "amount": 1000000,
         "category": "candidate-committee",
         "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
         "confirmed": true
       },
       {
         "name": "Chicago Land Operators Joint Labor-Management PAC",
-        "amount": 444800.0,
+        "amount": 444800,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
         "confirmed": true
       },
       {
         "name": "Michael Sacks",
-        "amount": 406900.0,
+        "amount": 406900,
         "category": "individual",
         "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
         "confirmed": true
       },
       {
         "name": "LiUNA Chicago Laborers' District Council PAC",
-        "amount": 397700.0,
+        "amount": 397700,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
         "confirmed": true
       },
       {
         "name": "Illinois Federation of Teachers COPE",
-        "amount": 395578.0,
+        "amount": 395578,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
         "confirmed": true
       },
       {
         "name": "Illinois Political Action Committee for Education (IPACE)",
-        "amount": 387750.0,
+        "amount": 387750,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
         "confirmed": true
       },
       {
         "name": "Laborers' Political League",
-        "amount": 340300.0,
+        "amount": 340300,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
         "confirmed": true
       },
       {
         "name": "Illinois Laborers' Legislative Committee",
-        "amount": 295200.0,
+        "amount": 295200,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
         "confirmed": true
       },
       {
         "name": "SEIU Illinois Council PAC Fund",
-        "amount": 285200.0,
+        "amount": 285200,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
         "confirmed": true
       },
       {
         "name": "Illinois Pipe Trades PAC",
-        "amount": 257700.0,
+        "amount": 257700,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
         "confirmed": true
       },
       {
         "name": "UFCW Local 881 PAC",
-        "amount": 238250.0,
+        "amount": 238250,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
         "confirmed": true
       },
       {
         "name": "Construction and General Laborers (Chicago District Council)",
-        "amount": 203800.0,
+        "amount": 203800,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
         "confirmed": true
       },
       {
         "name": "Illinois Trial Lawyers Association PAC",
-        "amount": 197000.0,
+        "amount": 197000,
         "category": "industry-pac",
         "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
         "confirmed": true
       },
       {
         "name": "SEIU Healthcare IL/IN",
-        "amount": 194700.0,
+        "amount": 194700,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
         "confirmed": true
       },
       {
         "name": "Laborers' Political League Great Lakes Region",
-        "amount": 188400.0,
+        "amount": 188400,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
         "confirmed": true
       },
       {
         "name": "Carpentry Advancement PAC",
-        "amount": 169800.0,
+        "amount": 169800,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
         "confirmed": true
@@ -150,7 +150,7 @@
       },
       {
         "name": "Stephen Schuler",
-        "amount": 150000.0,
+        "amount": 150000,
         "category": "individual",
         "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
         "confirmed": true
@@ -164,28 +164,28 @@
       },
       {
         "name": "Friends of Don Harmon",
-        "amount": 137500.0,
+        "amount": 137500,
         "category": "candidate-committee",
         "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
         "confirmed": true
       },
       {
         "name": "AFSCME Council 31",
-        "amount": 132000.0,
+        "amount": 132000,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
         "confirmed": true
       },
       {
         "name": "Pipe Fitters Association Local Union 597",
-        "amount": 115400.0,
+        "amount": 115400,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
         "confirmed": true
       },
       {
         "name": "IUOE Local 399 Political Education Fund",
-        "amount": 114400.0,
+        "amount": 114400,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/",
         "confirmed": true
@@ -397,5 +397,14 @@
     }
   ],
   "transparency_grade": null,
-  "policy_platform": []
+  "policy_platform": [],
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "F",
+    "record_available": true,
+    "red_flags_count": 5,
+    "computed_at": "2026-03-15"
+  }
 }

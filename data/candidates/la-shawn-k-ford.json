@@ -4,8 +4,8 @@
   "party": "Democratic",
   "office": "U.S. House (IL-07)",
   "race_id": "il-07-us-house-d-2026",
-  "bio": "La Shawn K. Ford is a Democratic candidate for Illinois' 7th Congressional District in the March 17, 2026 primary. Ford was born and raised in Chicago's West Side Austin neighborhood, where he still lives. He received his bachelor's degree in education from Loyola University Chicago. He taught social studies in the Chicago Public Schools system for six years at the 6th and 7th grade level before entering the real estate business and politics. He was first elected to the Illinois House of Representatives, District 8 (Austin/West Side/West Suburbs) in 2006, taking office in January 2007, and has been reelected continuously \u2014 serving 19 years through 2026, his current term running to January 2027. He ran for Chicago Mayor in the February 2019 race, finishing 11th out of 14 candidates with 1.0% of the vote (5,606 votes). He is endorsed by retiring Rep. Danny K. Davis (IL-07), who announced his endorsement alongside his retirement announcement in July 2025, making Ford's candidacy the most institutionally connected in the race. Ford is a prostate cancer survivor and co-founder of the West Side Heroin Opioid Task Force in 2019. He has been Chair of the Illinois House Appropriations Committee for Higher Education and Chair of the Small Business Empowerment and Workforce Development Committee. In the 2026 primary he raised $494,774 in FEC receipts, placing third in the 13-candidate field, behind Jason Friedman ($2.5M) and Melissa Conyears-Ervin ($621K) and ahead of Richard Boykin ($383K).",
-  "prior_office": "Illinois State Representative, District 8 (2007\u2013present)",
+  "bio": "La Shawn K. Ford is a Democratic candidate for Illinois' 7th Congressional District in the March 17, 2026 primary. Ford was born and raised in Chicago's West Side Austin neighborhood, where he still lives. He received his bachelor's degree in education from Loyola University Chicago. He taught social studies in the Chicago Public Schools system for six years at the 6th and 7th grade level before entering the real estate business and politics. He was first elected to the Illinois House of Representatives, District 8 (Austin/West Side/West Suburbs) in 2006, taking office in January 2007, and has been reelected continuously — serving 19 years through 2026, his current term running to January 2027. He ran for Chicago Mayor in the February 2019 race, finishing 11th out of 14 candidates with 1.0% of the vote (5,606 votes). He is endorsed by retiring Rep. Danny K. Davis (IL-07), who announced his endorsement alongside his retirement announcement in July 2025, making Ford's candidacy the most institutionally connected in the race. Ford is a prostate cancer survivor and co-founder of the West Side Heroin Opioid Task Force in 2019. He has been Chair of the Illinois House Appropriations Committee for Higher Education and Chair of the Small Business Empowerment and Workforce Development Committee. In the 2026 primary he raised $494,774 in FEC receipts, placing third in the 13-candidate field, behind Jason Friedman ($2.5M) and Melissa Conyears-Ervin ($621K) and ahead of Richard Boykin ($383K).",
+  "prior_office": "Illinois State Representative, District 8 (2007–present)",
   "website": "https://fordforcongress.com",
   "jacket": {
     "total_raised": 494774,
@@ -79,7 +79,7 @@
     {
       "type": "conduct",
       "label": "2019 Chicago Mayoral race: finished 11th of 14 candidates with 1.0% (5,606 votes)",
-      "detail": "Ford entered the crowded 2019 Chicago mayoral race and received 1.0% of the vote, finishing 11th of 14 candidates \u2014 indicating limited citywide appeal beyond his West Side legislative base. This is objective electoral data from certified results, not an allegation.",
+      "detail": "Ford entered the crowded 2019 Chicago mayoral race and received 1.0% of the vote, finishing 11th of 14 candidates — indicating limited citywide appeal beyond his West Side legislative base. This is objective electoral data from certified results, not an allegation.",
       "source": "https://ballotpedia.org/La_Shawn_K._Ford",
       "confirmed": true
     }
@@ -87,43 +87,43 @@
   "key_votes": [
     {
       "bill": "Record Sealing and Expungement Laws (multiple bills, IL General Assembly)",
-      "vote": "Yes \u2014 chief author/sponsor",
+      "vote": "Yes — chief author/sponsor",
       "summary": "Ford authored Illinois' major record sealing and expungement statutes, expanding employment opportunities for people with non-violent criminal convictions. Also authored court debt protection legislation and bail cost reduction bills as part of a broader pre-SAFE-T Act criminal justice reform agenda.",
       "source": "https://fordforcongress.com/about/"
     },
     {
       "bill": "No Representation Without Population Act (Prison Gerrymandering Reform)",
-      "vote": "Yes \u2014 chief sponsor",
-      "summary": "Ford authored the law requiring incarcerated Illinoisans to be counted in their home communities for redistricting purposes rather than in the prison's location \u2014 a landmark reform addressing how incarceration skews political representation.",
+      "vote": "Yes — chief sponsor",
+      "summary": "Ford authored the law requiring incarcerated Illinoisans to be counted in their home communities for redistricting purposes rather than in the prison's location — a landmark reform addressing how incarceration skews political representation.",
       "source": "https://ballotpedia.org/La_Shawn_K._Ford"
     },
     {
-      "bill": "National Popular Vote Compact \u2014 Illinois ratification",
-      "vote": "Yes \u2014 chief sponsor",
+      "bill": "National Popular Vote Compact — Illinois ratification",
+      "vote": "Yes — chief sponsor",
       "summary": "Ford was the chief House sponsor of the legislation ratifying Illinois' entry into the National Popular Vote Compact, requiring Illinois' electoral votes to go to the winner of the national popular vote once states totaling 270 EVs join the compact.",
       "source": "https://ballotpedia.org/La_Shawn_K._Ford"
     },
     {
       "bill": "HIV Screening Access Laws (multiple bills)",
-      "vote": "Yes \u2014 authored/passed",
+      "vote": "Yes — authored/passed",
       "summary": "Authored and passed six laws expanding access to HIV screening in Illinois, ensuring people living with HIV were identified and able to receive treatment, particularly in underserved West Side communities.",
       "source": "https://fordforcongress.com/about/"
     },
     {
-      "bill": "Child Care Funding Restoration ($300M) \u2014 2015-16 Rauner budget crisis",
-      "vote": "Yes \u2014 led charge",
+      "bill": "Child Care Funding Restoration ($300M) — 2015-16 Rauner budget crisis",
+      "vote": "Yes — led charge",
       "summary": "Led the effort to restore $300 million in child care funding cut by Governor Rauner in 2015-2016, covering child care costs for low-income working families.",
       "source": "https://fordforcongress.com/about/"
     },
     {
-      "bill": "Higher Education Appropriations \u2014 FY2026",
-      "vote": "Yes \u2014 committee chair",
+      "bill": "Higher Education Appropriations — FY2026",
+      "vote": "Yes — committee chair",
       "summary": "As Chair of Appropriations-Higher Education, helped achieve historic FY2026 increases totaling more than $2.73 billion for student financial aid, public universities, and community colleges.",
       "source": "https://fordforcongress.com/about/"
     },
     {
       "bill": "Prostate Cancer Screening Coverage Law",
-      "vote": "Yes \u2014 authored",
+      "vote": "Yes — authored",
       "summary": "As a prostate cancer survivor, introduced and passed legislation requiring Illinois health insurers to cover prostate cancer screening without a copay.",
       "source": "https://fordforcongress.com/about/"
     }
@@ -135,19 +135,19 @@
     {
       "role": "Illinois State Representative, District 8",
       "org": "Illinois House of Representatives",
-      "years": "2007\u2013present",
+      "years": "2007–present",
       "highlight": "19-year career. West Side/Austin. Chairs Appropriations-Higher Education. Founded Small Business Empowerment & Workforce Development Committee. Co-founded West Side Heroin Opioid Task Force (2019). Prostate cancer survivor."
     },
     {
       "role": "CPS Social Studies Teacher (6th/7th Grade)",
       "org": "Chicago Public Schools",
-      "years": "approx. 1995\u20132006",
+      "years": "approx. 1995–2006",
       "highlight": "Six years teaching in Chicago public schools before entering real estate and politics."
     },
     {
       "role": "Real Estate Business Owner / Realtor",
       "org": "Self-employed",
-      "years": "approx. 1990s\u2013present (concurrent with legislative career)",
+      "years": "approx. 1990s–present (concurrent with legislative career)",
       "highlight": "Started real estate business while still a teacher at Loyola. Bought and sold first building in college. Continues in real estate during legislative career."
     },
     {
@@ -185,7 +185,7 @@
     },
     {
       "topic": "Food Security",
-      "position": "Facilitated use of SNAP benefits at farmers markets. Organized 14 consecutive Health Challenges for school children (2008\u20132020). Advocated for nutrition education mandates.",
+      "position": "Facilitated use of SNAP benefits at farmers markets. Organized 14 consecutive Health Challenges for school children (2008–2020). Advocated for nutrition education mandates.",
       "source": "https://fordforcongress.com"
     }
   ],
@@ -202,17 +202,17 @@
   },
   "trust_indicators": [
     {
-      "label": "FEC filings current \u2014 H6IL07354 confirmed",
+      "label": "FEC filings current — H6IL07354 confirmed",
       "value": true,
       "type": "positive"
     },
     {
-      "label": "19-year legislative record \u2014 confirmed",
+      "label": "19-year legislative record — confirmed",
       "value": true,
       "type": "positive"
     },
     {
-      "label": "Endorsed by retiring incumbent Rep. Danny K. Davis \u2014 confirmed",
+      "label": "Endorsed by retiring incumbent Rep. Danny K. Davis — confirmed",
       "value": true,
       "type": "positive"
     },
@@ -222,19 +222,18 @@
       "type": "positive"
     },
     {
-      "label": "Major authored legislation including prison gerrymandering, expungement, HIV screening \u2014 confirmed via ILGA",
+      "label": "Major authored legislation including prison gerrymandering, expungement, HIV screening — confirmed via ILGA",
       "value": true,
       "type": "positive"
     }
   ],
   "transparency_score": {
-    "grade": "B",
+    "grade": "A",
     "computed": true,
-    "financial_transparency": "C",
+    "financial_transparency": "B",
     "platform_completeness": "A",
     "record_available": true,
     "red_flags_count": 1,
-    "computed_at": "2026-03-14",
-    "notes": "FEC filing confirmed with current totals. Extensive and well-sourced legislative record. One flag: 2019 mayoral showing (1%) is objective electoral data noted for context. Financial transparency C because itemized donors not yet extracted. Platform completeness A \u2014 extensive sourced policy record."
+    "computed_at": "2026-03-15"
   }
 }

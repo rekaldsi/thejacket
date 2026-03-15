@@ -5,13 +5,13 @@
   "office": "Cook County Assessor",
   "race_id": "cook-county-assessor-d-2026",
   "bio": "Patrick (Pat) Hynes has served as Lyons Township Assessor since 2021 and brings 30 years of property tax experience to his challenge of incumbent Fritz Kaegi. He is also a firefighter and EMT. His campaign focuses on assessment accuracy errors he attributes to Kaegi's tenure. (Source: Ballotpedia Cook County Assessor 2026)",
-  "prior_office": "Lyons Township Assessor (2021\u2013present)",
+  "prior_office": "Lyons Township Assessor (2021–present)",
   "website": "https://www.assessorhynes.com",
   "jacket": {
     "total_raised": 1613074,
     "data_date": "2026-03-13",
     "source": "https://www.illinoissunshine.org/committees/hynes-for-assessor-36733/",
-    "note": "ILSBE committee totals pending ETL import. County race \u2014 no FEC filing.",
+    "note": "ILSBE committee totals pending ETL import. County race — no FEC filing.",
     "donors": [
       {
         "name": "Chicagoland Operators Joint Labor-Management PAC",
@@ -89,55 +89,55 @@
     {
       "type": "ethics",
       "label": "Heavy construction union donor network (Laborers/Operating Engineers/Carpenters)",
-      "detail": "Heavy construction union donor network (Laborers/Operating Engineers/Carpenters) raises pay-to-play concerns \u2014 property tax attorneys and construction industry could benefit from favorable assessments",
+      "detail": "Heavy construction union donor network (Laborers/Operating Engineers/Carpenters) raises pay-to-play concerns — property tax attorneys and construction industry could benefit from favorable assessments",
       "source": "https://www.assessorhynes.com",
       "confirmed": false
     },
     {
       "type": "ethics",
-      "label": "Michael Sacks ($125K) \u2014 Pritzker ally and Grosvenor Capital Management CEO; ties",
-      "detail": "Michael Sacks ($125K) \u2014 Pritzker ally and Grosvenor Capital Management CEO; ties to Democratic party establishment",
+      "label": "Michael Sacks ($125K) — Pritzker ally and Grosvenor Capital Management CEO; ties",
+      "detail": "Michael Sacks ($125K) — Pritzker ally and Grosvenor Capital Management CEO; ties to Democratic party establishment",
       "source": "https://www.assessorhynes.com",
       "confirmed": false
     },
     {
       "type": "ethics",
-      "label": "Kaegi campaign accuses Hynes of being 'beholden to property tax attorneys' \u2014 not",
-      "detail": "Kaegi campaign accuses Hynes of being 'beholden to property tax attorneys' \u2014 not independently confirmed but large PAC support from industry-adjacent donors is notable",
+      "label": "Kaegi campaign accuses Hynes of being 'beholden to property tax attorneys' — not",
+      "detail": "Kaegi campaign accuses Hynes of being 'beholden to property tax attorneys' — not independently confirmed but large PAC support from industry-adjacent donors is notable",
       "source": "https://www.assessorhynes.com",
       "confirmed": false
     },
     {
       "type": "ethics",
-      "label": "One Future Illinois PAC ($125K) \u2014 Democratic establishment super PAC backed by p",
-      "detail": "One Future Illinois PAC ($125K) \u2014 Democratic establishment super PAC backed by party leadership",
+      "label": "One Future Illinois PAC ($125K) — Democratic establishment super PAC backed by p",
+      "detail": "One Future Illinois PAC ($125K) — Democratic establishment super PAC backed by party leadership",
       "source": "https://www.assessorhynes.com",
       "confirmed": false
     },
     {
-      "label": "Heavy construction union donor network (Laborers/Operating Engineers/Carpenters) raises pay-to-play concerns \u2014 property tax attorneys and construction industry could benefit from favorable assessments"
+      "label": "Heavy construction union donor network (Laborers/Operating Engineers/Carpenters) raises pay-to-play concerns — property tax attorneys and construction industry could benefit from favorable assessments"
     },
     {
-      "label": "Michael Sacks ($125K) \u2014 Pritzker ally and Grosvenor Capital Management CEO; ties to Democratic party establishment"
+      "label": "Michael Sacks ($125K) — Pritzker ally and Grosvenor Capital Management CEO; ties to Democratic party establishment"
     },
     {
-      "label": "Kaegi campaign accuses Hynes of being 'beholden to property tax attorneys' \u2014 not independently confirmed but large PAC support from industry-adjacent donors is notable"
+      "label": "Kaegi campaign accuses Hynes of being 'beholden to property tax attorneys' — not independently confirmed but large PAC support from industry-adjacent donors is notable"
     },
     {
-      "label": "One Future Illinois PAC ($125K) \u2014 Democratic establishment super PAC backed by party leadership"
+      "label": "One Future Illinois PAC ($125K) — Democratic establishment super PAC backed by party leadership"
     }
   ],
   "key_votes": [
     {
-      "bill": "No voting record \u2014 challenger, first-time countywide candidate",
+      "bill": "No voting record — challenger, first-time countywide candidate",
       "vote": "record",
-      "summary": "No voting record \u2014 challenger, first-time countywide candidate",
+      "summary": "No voting record — challenger, first-time countywide candidate",
       "source": "https://www.assessorhynes.com"
     },
     {
-      "bill": "Lyons Township Assessor since 2022 \u2014 elected office, no public voting record ava",
+      "bill": "Lyons Township Assessor since 2022 — elected office, no public voting record ava",
       "vote": "record",
-      "summary": "Lyons Township Assessor since 2022 \u2014 elected office, no public voting record available",
+      "summary": "Lyons Township Assessor since 2022 — elected office, no public voting record available",
       "source": "https://www.assessorhynes.com"
     },
     {
@@ -163,7 +163,7 @@
     {
       "role": "Lyons Township Assessor",
       "org": "Lyons Township",
-      "years": "2021\u2013present",
+      "years": "2021–present",
       "highlight": "30 years of property tax experience; firefighter and EMT"
     },
     {
@@ -223,7 +223,7 @@
     "platform_completeness": "B",
     "record_available": true,
     "red_flags_count": 8,
-    "computed_at": "2026-03-14"
+    "computed_at": "2026-03-15"
   },
   "data_status": "partial",
   "news_hits": [

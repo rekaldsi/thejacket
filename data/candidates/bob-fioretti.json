@@ -106,12 +106,12 @@
   ],
   "social_pulse": null,
   "transparency_score": {
-    "grade": "D",
+    "grade": "B",
     "computed": true,
     "financial_transparency": "F",
-    "platform_completeness": "C",
+    "platform_completeness": "A",
     "record_available": true,
     "red_flags_count": 1,
-    "computed_at": "2026-03-14"
+    "computed_at": "2026-03-15"
   }
 }

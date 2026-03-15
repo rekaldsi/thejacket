@@ -145,7 +145,11 @@
   "social_pulse": {
     "summary": "Active in western suburbs and veteran communities. Strong labor union endorsement network. Positive sentiment among veterans' advocacy groups. Runs competitively as an outsider to the Democratic legislative establishment despite being a 13-year incumbent — pitches herself as the most technically qualified candidate in the field.",
     "sentiment": "positive",
-    "hashtags": ["#StephanieKifowit", "#ILComptroller", "#Kifowit4Comptroller"],
+    "hashtags": [
+      "#StephanieKifowit",
+      "#ILComptroller",
+      "#Kifowit4Comptroller"
+    ],
     "last_updated": "2026-03-14"
   },
   "trust_indicators": [
@@ -188,11 +192,10 @@
   "transparency_score": {
     "grade": "B",
     "computed": true,
-    "financial_transparency": "B",
+    "financial_transparency": "F",
     "platform_completeness": "A",
     "record_available": true,
     "red_flags_count": 0,
-    "computed_at": "2026-03-14",
-    "notes": "ILSBE committees confirmed with current financials. Detailed policy platform published. Strong public record. Financial transparency grade B because itemized donors not yet extracted, but top-line ILSBE data confirmed. No red flags."
+    "computed_at": "2026-03-15"
   }
 }

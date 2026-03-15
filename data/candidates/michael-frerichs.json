@@ -31,7 +31,7 @@
       },
       {
         "name": "Illinois Laborers' Legislative Committee",
-        "amount": 441000.0,
+        "amount": 441000,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/friends-of-frerichs-14111/",
         "confirmed": true
@@ -45,70 +45,70 @@
       },
       {
         "name": "Chicago Land Operators Joint Labor-Management PAC",
-        "amount": 291630.0,
+        "amount": 291630,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/friends-of-frerichs-14111/",
         "confirmed": true
       },
       {
         "name": "Laborers' Political League Education Fund",
-        "amount": 268700.0,
+        "amount": 268700,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/friends-of-frerichs-14111/",
         "confirmed": true
       },
       {
         "name": "IPACE (Illinois Political Action Committee for Education)",
-        "amount": 242900.0,
+        "amount": 242900,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/friends-of-frerichs-14111/",
         "confirmed": true
       },
       {
         "name": "SEIU Illinois Council PAC Fund",
-        "amount": 242700.0,
+        "amount": 242700,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/friends-of-frerichs-14111/",
         "confirmed": true
       },
       {
         "name": "Construction and General Laborers' Dist. Council of Chicago & Vic.",
-        "amount": 228100.0,
+        "amount": 228100,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/friends-of-frerichs-14111/",
         "confirmed": true
       },
       {
         "name": "Illinois Pipe Trades PAC Account",
-        "amount": 226900.0,
+        "amount": 226900,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/friends-of-frerichs-14111/",
         "confirmed": true
       },
       {
         "name": "Illinois Political Action Committee for Education (IPACE) — 2025",
-        "amount": 147700.0,
+        "amount": 147700,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/friends-of-frerichs-14111/",
         "confirmed": true
       },
       {
         "name": "AFT Local 604 COPE",
-        "amount": 142100.0,
+        "amount": 142100,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/friends-of-frerichs-14111/",
         "confirmed": true
       },
       {
         "name": "Chicago Regional Council of Carpenters PAC",
-        "amount": 141433.0,
+        "amount": 141433,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/friends-of-frerichs-14111/",
         "confirmed": true
       },
       {
         "name": "I.U.O.E. Local 399 Political Education Fund",
-        "amount": 136200.0,
+        "amount": 136200,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/friends-of-frerichs-14111/",
         "confirmed": true
@@ -122,7 +122,7 @@
       },
       {
         "name": "Pipefitters' Association Local 597 UA Illinois PAC",
-        "amount": 124300.0,
+        "amount": 124300,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/friends-of-frerichs-14111/",
         "confirmed": true
@@ -136,7 +136,7 @@
       },
       {
         "name": "AFSCME Illinois Council 31 PAC",
-        "amount": 115100.0,
+        "amount": 115100,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/friends-of-frerichs-14111/",
         "confirmed": true
@@ -150,28 +150,28 @@
       },
       {
         "name": "UFCW Local 881 PAC",
-        "amount": 106900.0,
+        "amount": 106900,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/friends-of-frerichs-14111/",
         "confirmed": true
       },
       {
         "name": "Illinois Trial Lawyers Association PAC",
-        "amount": 94000.0,
+        "amount": 94000,
         "category": "industry-pac",
         "source": "https://illinoissunshine.org/committees/friends-of-frerichs-14111/",
         "confirmed": true
       },
       {
         "name": "UAW Illinois Political Action Committee",
-        "amount": 87050.0,
+        "amount": 87050,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/friends-of-frerichs-14111/",
         "confirmed": true
       },
       {
         "name": "North Central Illinois Laborers' District Council PAC",
-        "amount": 79500.0,
+        "amount": 79500,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/friends-of-frerichs-14111/",
         "confirmed": true
@@ -404,5 +404,14 @@
     }
   ],
   "transparency_grade": null,
-  "policy_platform": []
+  "policy_platform": [],
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "F",
+    "record_available": true,
+    "red_flags_count": 5,
+    "computed_at": "2026-03-15"
+  }
 }

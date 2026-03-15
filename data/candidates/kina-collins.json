@@ -10,7 +10,7 @@
   "jacket": {
     "total_raised": 45770,
     "individual_contributions": 45770.85,
-    "individual_itemized": 26255.00,
+    "individual_itemized": 26255,
     "individual_unitemized": 19515.85,
     "cash_on_hand": 2412.78,
     "disbursements": 52440.89,
@@ -31,7 +31,7 @@
       },
       {
         "name": "Individual itemized donors (identities require FEC schedule-A query)",
-        "amount": 26255.00,
+        "amount": 26255,
         "category": "individual_itemized",
         "label": "Itemized contributions over $200 — donor names available in FEC Schedule A filings for H6IL07511",
         "source": "https://api.open.fec.gov/v1/candidate/H6IL07511/totals/",
@@ -221,11 +221,10 @@
   "transparency_score": {
     "grade": "B",
     "computed": true,
-    "financial_transparency": "B",
+    "financial_transparency": "A",
     "platform_completeness": "A",
     "record_available": true,
     "red_flags_count": 3,
-    "note": "FEC data confirmed — total, itemized/unitemized split, and zero PAC money all verified. Near-empty cash on hand and three-time-loser electoral history are notable. No ethics violations. Strong policy platform.",
-    "computed_at": "2026-03-14"
+    "computed_at": "2026-03-15"
   }
 }

@@ -6,7 +6,7 @@
   "race_id": "cook-county-commissioner-dist-17",
   "incumbent": false,
   "bio": "Elizabeth 'Liz' Doody Gorman is a Republican candidate for Cook County Commissioner District 17, the only Republican running in an uncontested primary. She previously served as Cook County Commissioner for District 17 from 2002 to 2015. After leaving the board, she led the Illinois State Toll Highway Authority under Governor Bruce Rauner and stepped down shortly after Governor J.B. Pritzker took office. She ran again for the District 17 seat in 2022, losing in the Republican primary to incumbent Sean Morrison 57.1%-42.9%. With Morrison now retiring, Gorman secured the Republican nomination uncontested and will face Democrat Elyse Hoffenberg in the November 2026 general election. District 17 runs along Cook County's western boundary from Elk Grove Village south through Schiller Park, Oak Brook, Lemont, Palos Park, and Orland Park.",
-  "prior_office": "Cook County Commissioner, District 17 (2002\u20132015); Chair/Executive Director, Illinois State Toll Highway Authority (under Gov. Rauner, approximate 2015\u20132019)",
+  "prior_office": "Cook County Commissioner, District 17 (2002–2015); Chair/Executive Director, Illinois State Toll Highway Authority (under Gov. Rauner, approximate 2015–2019)",
   "website": "https://www.lizgorman.com/",
   "photo_url": null,
   "jacket": {
@@ -14,7 +14,7 @@
     "cash_on_hand": 79099.09,
     "data_date": "2026-03-14",
     "source": "https://illinoissunshine.org/committees/22716/",
-    "note": "ILSBE committee ID 22716. Cash on hand $79,099.09. $194K in debts. Republican primary \u2014 uncontested.",
+    "note": "ILSBE committee ID 22716. Cash on hand $79,099.09. $194K in debts. Republican primary — uncontested.",
     "fec_id": null,
     "ilsbe_id": "22716",
     "donors": []
@@ -26,13 +26,13 @@
     {
       "role": "Executive Director, Illinois State Toll Highway Authority",
       "org": "Illinois State Toll Highway Authority",
-      "years": "~2015\u20132019",
+      "years": "~2015–2019",
       "highlight": "Appointed by Gov. Bruce Rauner; stepped down after Gov. Pritzker took office"
     },
     {
       "role": "Cook County Commissioner, District 17",
       "org": "Cook County Board of Commissioners",
-      "years": "2002\u20132015",
+      "years": "2002–2015",
       "highlight": "Represented western suburban Cook County including Orland Park, Palos area"
     }
   ],
@@ -48,14 +48,14 @@
   "trust_indicators": [],
   "social_pulse": null,
   "transparency_score": {
-    "grade": "C",
+    "grade": "F",
     "computed": true,
-    "financial_transparency": "C",
-    "platform_completeness": "D",
-    "record_available": true,
+    "financial_transparency": "F",
+    "platform_completeness": "F",
+    "record_available": false,
     "red_flags_count": 0,
-    "computed_at": "2026-03-14"
+    "computed_at": "2026-03-15"
   },
   "uncontested": true,
-  "data_note": "Republican primary candidate \u2014 uncontested on GOP side. Will face Elyse Hoffenberg (D) in November general."
+  "data_note": "Republican primary candidate — uncontested on GOP side. Will face Elyse Hoffenberg (D) in November general."
 }

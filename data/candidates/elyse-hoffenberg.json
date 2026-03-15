@@ -58,13 +58,13 @@
   "trust_indicators": [],
   "social_pulse": null,
   "transparency_score": {
-    "grade": "D",
+    "grade": "F",
     "computed": true,
     "financial_transparency": "F",
-    "platform_completeness": "D",
-    "record_available": true,
+    "platform_completeness": "F",
+    "record_available": false,
     "red_flags_count": 0,
-    "computed_at": "2026-03-14"
+    "computed_at": "2026-03-15"
   },
   "uncontested": true,
   "data_note": "Uncontested in the Democratic primary for District 17. Will face Republican Elizabeth Gorman in November."

@@ -498,14 +498,13 @@
     }
   ],
   "transparency_score": {
-    "grade": "B+",
+    "grade": "B",
     "computed": true,
-    "financial_transparency": "B",
+    "financial_transparency": "A",
     "platform_completeness": "A",
     "record_available": true,
     "red_flags_count": 4,
-    "notes": "Campaign committee pledge to reject corporate PAC money is confirmed honored. BUT: benefits from $11.8M Pritzker-controlled PAC; AIPAC network donor presence confirmed by The Intercept; prior-cycle corporate PAC history documented by Sun-Times. Progressive policy record is deep and consistent. Grade reflects genuine transparency on campaign finance pledge vs. structural PAC support contradictions.",
-    "computed_at": "2026-03-14"
+    "computed_at": "2026-03-15"
   },
   "news_hits": [
     {
