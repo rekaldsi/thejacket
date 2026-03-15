@@ -136,15 +136,14 @@ export default function BoothPage() {
           🗳 Cook County Primary — March 17, 2026
         </p>
         <h1 className="text-5xl font-black uppercase leading-none tracking-tight md:text-6xl">
-          Booth<br />Mode
+          Booth Mode
         </h1>
-        <p className="max-w-2xl text-zinc-300">
+        <p className="text-zinc-300">
           Build your personal ballot. See every candidate&apos;s transparency grade and red flags side-by-side.
           Tap who you want — your picks are yours alone, saved only on this device.
         </p>
         <p className="font-mono text-xs text-zinc-500">
-          ⚠️ Grades reflect documented public record — not an endorsement. Tap any candidate to read the full
-          sourced profile before deciding. Verify at FEC.gov and ILSBE before voting.
+          ⚠️ Grades reflect documented public record — not an endorsement. Tap any candidate to read the full sourced profile before deciding. Verify at FEC.gov and ILSBE before voting.
         </p>
       </section>
 
