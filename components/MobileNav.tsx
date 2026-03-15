@@ -71,8 +71,8 @@ export default function MobileNav() {
               </button>
             </div>
 
-            {/* Nav links */}
-            <nav className="flex flex-col px-4 py-2">
+            {/* Nav links — centered, generous tap targets */}
+            <nav className="flex flex-col items-center px-6 py-4 gap-1">
               {[
                 { href: "/races", label: "Races" },
                 { href: "/judges", label: "Judges" },
@@ -83,18 +83,18 @@ export default function MobileNav() {
                   key={href}
                   href={href}
                   onClick={close}
-                  className="border-b border-jacket-border/40 py-4 font-mono text-sm uppercase tracking-widest text-zinc-300 transition-colors hover:text-jacket-amber"
+                  className="w-full rounded-sm py-5 text-center font-mono text-base uppercase tracking-widest text-zinc-200 transition-colors active:bg-jacket-amber/10 hover:text-jacket-amber border-b border-jacket-border/30"
                 >
                   {label}
                 </Link>
               ))}
 
-              {/* Booth Mode CTA */}
-              <div className="pb-4 pt-5">
+              {/* Booth Mode CTA — prominent, full width */}
+              <div className="w-full pt-6 pb-4">
                 <Link
                   href="/booth"
                   onClick={close}
-                  className="block rounded-sm border border-jacket-amber bg-jacket-amber py-3 text-center font-mono text-sm font-black uppercase tracking-widest text-jacket-black transition-colors hover:bg-jacket-black hover:text-jacket-amber"
+                  className="block w-full rounded-sm border border-jacket-amber bg-jacket-amber py-4 text-center font-mono text-sm font-black uppercase tracking-widest text-jacket-black transition-colors hover:bg-jacket-black hover:text-jacket-amber"
                 >
                   🗳 Booth Mode — Build Your Ballot
                 </Link>
