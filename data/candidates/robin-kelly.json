@@ -405,5 +405,86 @@
       "source_name": "WBEZ",
       "sentiment": "neutral"
     }
+  ],
+  "fec_candidate_id": "S6IL00474",
+  "fec_committee_id": "C00904300",
+  "finance": {
+    "total_raised": 3307723,
+    "total_spent": 2586869,
+    "cash_on_hand": 720854,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "COLLINS, ARTHUR",
+      "amount": 3500,
+      "employer": "THEGROUP",
+      "occupation": "BUSINESS STRATEGIST",
+      "date": "2025-09-24"
+    },
+    {
+      "name": "TELMAN, NIGEL",
+      "amount": 3500,
+      "employer": "PROSKAUER ROSE LLP",
+      "occupation": "ATTORNEY",
+      "date": "2025-09-18"
+    },
+    {
+      "name": "ROGERS, SUSAN",
+      "amount": 3500,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-07-16"
+    },
+    {
+      "name": "ROGERS JR., LARRY R.",
+      "amount": 3500,
+      "employer": "POWER ROGERS LLP",
+      "occupation": "ATTORNEY",
+      "date": "2025-09-24"
+    },
+    {
+      "name": "ROGERS, RALONDA MARIE",
+      "amount": 3500,
+      "employer": "UCM",
+      "occupation": "REGISTERED NURSE",
+      "date": "2025-09-26"
+    },
+    {
+      "name": "THOMPSON, DONALD",
+      "amount": 3500,
+      "employer": "MCDONALDS CEO",
+      "occupation": null,
+      "date": "2025-08-01"
+    },
+    {
+      "name": "TELMAN, NIGEL",
+      "amount": 3500,
+      "employer": "PROSKAUER ROSE LLP",
+      "occupation": "ATTORNEY",
+      "date": "2025-09-18"
+    },
+    {
+      "name": "POWER, JOSEPH A JR",
+      "amount": 3500,
+      "employer": "POWERROGERS",
+      "occupation": "ATTORNEY",
+      "date": "2025-09-24"
+    },
+    {
+      "name": "TUNNEY, THOMAS M",
+      "amount": 3500,
+      "employer": null,
+      "occupation": null,
+      "date": "2025-09-15"
+    },
+    {
+      "name": "BONGARD, RICHARD",
+      "amount": 3500,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-08-15"
+    }
   ]
 }

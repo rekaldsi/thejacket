@@ -93,5 +93,14 @@
     "record_available": false,
     "red_flags_count": 0,
     "computed_at": "2026-03-15"
+  },
+  "fec_candidate_id": "S6IL00623",
+  "fec_committee_id": "C00915280",
+  "finance": {
+    "total_raised": 107149,
+    "total_spent": 85563,
+    "cash_on_hand": 21586,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
   }
 }

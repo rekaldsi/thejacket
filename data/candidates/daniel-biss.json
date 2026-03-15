@@ -385,5 +385,86 @@
       "severity": "medium",
       "source_name": "WBEZ Chicago"
     }
+  ],
+  "fec_candidate_id": "H6IL09228",
+  "fec_committee_id": "C00905307",
+  "finance": {
+    "total_raised": 2539961,
+    "total_spent": 1894042,
+    "cash_on_hand": 645919,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "LUMPKIN, BENJAMIN",
+      "amount": 9000,
+      "employer": "SELF-EMPLOYED",
+      "occupation": "WRITER",
+      "date": "2026-02-03"
+    },
+    {
+      "name": "SACKS, STEVEN",
+      "amount": 7000,
+      "employer": "N/A",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-12-30"
+    },
+    {
+      "name": "PRITZKER, JENNIFER N",
+      "amount": 7000,
+      "employer": "TAWANI ENTERPRISE",
+      "occupation": "CEO",
+      "date": "2026-02-10"
+    },
+    {
+      "name": "MCNALLY, R STEPHEN",
+      "amount": 7000,
+      "employer": "SELF-EMPLOYED",
+      "occupation": "ATTORNEY",
+      "date": "2025-12-31"
+    },
+    {
+      "name": "SACKS, STEVEN",
+      "amount": 7000,
+      "employer": "N/A",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-12-30"
+    },
+    {
+      "name": "MCNALLY, R STEPHEN",
+      "amount": 7000,
+      "employer": "SELF-EMPLOYED",
+      "occupation": "ATTORNEY",
+      "date": "2025-12-31"
+    },
+    {
+      "name": "HENRY, SCOTT",
+      "amount": 7000,
+      "employer": "CELADON",
+      "occupation": "DEVELOPER",
+      "date": "2025-09-29"
+    },
+    {
+      "name": "WILLIAMS, ZACHARY",
+      "amount": 6000,
+      "employer": "SELF-EMPLOYED",
+      "occupation": "ANTIQUE DEALER",
+      "date": "2025-12-30"
+    },
+    {
+      "name": "WILLIAMS, ZACHARY",
+      "amount": 6000,
+      "employer": "SELF-EMPLOYED",
+      "occupation": "ANTIQUE DEALER",
+      "date": "2025-12-30"
+    },
+    {
+      "name": "O'KEEFE, DANIEL",
+      "amount": 5000,
+      "employer": "NORTHWESTERN UNIVERITY",
+      "occupation": "EMERITUS PROFESSOR",
+      "date": "2026-01-21"
+    }
   ]
 }

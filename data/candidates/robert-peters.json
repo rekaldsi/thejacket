@@ -225,5 +225,86 @@
     "record_available": true,
     "red_flags_count": 0,
     "computed_at": "2026-03-15"
-  }
+  },
+  "fec_candidate_id": "H6IL02298",
+  "fec_committee_id": "C00905075",
+  "finance": {
+    "total_raised": 1130677,
+    "total_spent": 942168,
+    "cash_on_hand": 188510,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "SMITH, LEO",
+      "amount": 7000,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-05-08"
+    },
+    {
+      "name": "JANOWITZ, REBECCA",
+      "amount": 7000,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-06-14"
+    },
+    {
+      "name": "COLLARD, AARON",
+      "amount": 7000,
+      "employer": "SELF EMPLOYED",
+      "occupation": "REAL ESTATE",
+      "date": "2025-05-10"
+    },
+    {
+      "name": "SMITH, LEO",
+      "amount": 7000,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-05-08"
+    },
+    {
+      "name": "JANOWITZ, REBECCA",
+      "amount": 7000,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-06-14"
+    },
+    {
+      "name": "COLLARD, AARON",
+      "amount": 7000,
+      "employer": "SELF EMPLOYED",
+      "occupation": "REAL ESTATE",
+      "date": "2025-05-10"
+    },
+    {
+      "name": "WISHCAMPER, HENRY",
+      "amount": 3500,
+      "employer": "BUSTLING SPACES",
+      "occupation": "CONSULTANT",
+      "date": "2025-06-18"
+    },
+    {
+      "name": "STEANS, JENNIFER",
+      "amount": 3500,
+      "employer": "FINANCIAL INVESTMENTS CORP.",
+      "occupation": "INVESTMENTS",
+      "date": "2025-06-30"
+    },
+    {
+      "name": "STEANS, HEATHER",
+      "amount": 3500,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-05-08"
+    },
+    {
+      "name": "PAI, LISA",
+      "amount": 3500,
+      "employer": "RETIRED",
+      "occupation": "RETIRED",
+      "date": "2025-06-18"
+    }
+  ]
 }

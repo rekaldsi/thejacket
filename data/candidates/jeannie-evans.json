@@ -115,5 +115,86 @@
     "record_available": false,
     "red_flags_count": 1,
     "computed_at": "2026-03-15"
-  }
+  },
+  "fec_candidate_id": "S6IL00672",
+  "fec_committee_id": "C00921759",
+  "finance": {
+    "total_raised": 629827,
+    "total_spent": 539908,
+    "cash_on_hand": 89919,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "WATTS, GREG",
+      "amount": 7000,
+      "employer": "WILSON SONSINI",
+      "occupation": "ATTORNEY",
+      "date": "2025-12-11"
+    },
+    {
+      "name": "JESSEN, LENA",
+      "amount": 7000,
+      "employer": "RETIRED",
+      "occupation": "RETIRED",
+      "date": "2025-12-31"
+    },
+    {
+      "name": "YOUNG, JACK",
+      "amount": 7000,
+      "employer": "RETIRED",
+      "occupation": "RETIRED",
+      "date": "2025-12-30"
+    },
+    {
+      "name": "WILCOX, BRIGHAM",
+      "amount": 7000,
+      "employer": "EDGE BUILDERS",
+      "occupation": "OWNER",
+      "date": "2025-12-27"
+    },
+    {
+      "name": "AGUERAARCAS, BLAISE",
+      "amount": 7000,
+      "employer": "GOOGLE",
+      "occupation": "ENGINEER",
+      "date": "2025-12-22"
+    },
+    {
+      "name": "CHRISTENSEN, CHRISTOPHER",
+      "amount": 6000,
+      "employer": "RETIRED",
+      "occupation": "RETIRED",
+      "date": "2025-12-31"
+    },
+    {
+      "name": "HOUGHTON, STEVE",
+      "amount": 3500,
+      "employer": "SELF",
+      "occupation": "REAL ESTATE",
+      "date": "2025-12-03"
+    },
+    {
+      "name": "HOUGHTON, JENNIFER",
+      "amount": 3500,
+      "employer": "SELF",
+      "occupation": "INFLUENCER",
+      "date": "2025-12-03"
+    },
+    {
+      "name": "EVANS, DANIEL",
+      "amount": 3500,
+      "employer": "ACCESS CLINICAL PARTNERS",
+      "occupation": "ATTORNEY",
+      "date": "2025-11-24"
+    },
+    {
+      "name": "MICKELSEN, KATHERYN",
+      "amount": 3500,
+      "employer": "SELF",
+      "occupation": "STAY AT HOME",
+      "date": "2025-12-31"
+    }
+  ]
 }

@@ -580,5 +580,86 @@
       "source_name": "WBEZ",
       "sentiment": "neutral"
     }
+  ],
+  "fec_candidate_id": "S6IL00458",
+  "fec_committee_id": "C00903252",
+  "finance": {
+    "total_raised": 4058200,
+    "total_spent": 2799456,
+    "cash_on_hand": 1258744,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "SIMON, DEBORAH",
+      "amount": 7000,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-05-02"
+    },
+    {
+      "name": "RIBEIRO, ALUIZIO",
+      "amount": 3500,
+      "employer": "INCOBRASA INDUSTRIES LTD.",
+      "occupation": "CEO",
+      "date": "2025-08-05"
+    },
+    {
+      "name": "PUCKER, MICHAEL",
+      "amount": 3500,
+      "employer": "DNS CAPITAL",
+      "occupation": "INVESTOR",
+      "date": "2025-09-30"
+    },
+    {
+      "name": "JOHNSON, CHARDAI",
+      "amount": 3500,
+      "employer": "BMO BANK",
+      "occupation": "BANKER",
+      "date": "2025-09-12"
+    },
+    {
+      "name": "SHALIT, REBEKAH",
+      "amount": 3500,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-09-03"
+    },
+    {
+      "name": "BARRETO, SANDRA",
+      "amount": 3500,
+      "employer": "HORWITZ & CO.",
+      "occupation": "CFO",
+      "date": "2025-09-30"
+    },
+    {
+      "name": "SIMON, MATT",
+      "amount": 3500,
+      "employer": "CITADEL, LLC",
+      "occupation": "INVESTOR",
+      "date": "2025-09-24"
+    },
+    {
+      "name": "PUCKER, MICHAEL",
+      "amount": 3500,
+      "employer": "DNS CAPITAL",
+      "occupation": "INVESTOR",
+      "date": "2025-09-30"
+    },
+    {
+      "name": "BUTLER, JACK",
+      "amount": 3500,
+      "employer": "BIRCH LAKE HOLDINGS LP",
+      "occupation": "INVESTOR",
+      "date": "2025-09-12"
+    },
+    {
+      "name": "ELDEN, GAIL",
+      "amount": 3500,
+      "employer": "SELF EMPLOYED",
+      "occupation": "PSYCHOTHERAPIST",
+      "date": "2025-09-02"
+    }
   ]
 }

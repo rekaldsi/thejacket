@@ -214,5 +214,86 @@
     "record_available": true,
     "red_flags_count": 3,
     "computed_at": "2026-03-15"
-  }
+  },
+  "fec_candidate_id": "H6IL02124",
+  "fec_committee_id": "C00911743",
+  "finance": {
+    "total_raised": 288251,
+    "total_spent": 239393,
+    "cash_on_hand": 48858,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "PORTER, DENNIS",
+      "amount": 3500,
+      "employer": "SATOSHI ACTION FUND",
+      "occupation": "CEO",
+      "date": "2025-12-31"
+    },
+    {
+      "name": "COLLINS, ARTHUR",
+      "amount": 3500,
+      "employer": "THEGROUP",
+      "occupation": "BUSINESS STRATEGIST",
+      "date": "2025-12-30"
+    },
+    {
+      "name": "BURKLE, RONALD",
+      "amount": 3500,
+      "employer": "YUCAIPA COMPANIES",
+      "occupation": "MANAGING PARTNER",
+      "date": "2025-12-29"
+    },
+    {
+      "name": "BORGES, FRANCISCO",
+      "amount": 3500,
+      "employer": "N/A",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-12-30"
+    },
+    {
+      "name": "SEAWRIGHT, KWANZA",
+      "amount": 3500,
+      "employer": "MEDICAL PLACE",
+      "occupation": "DIRECTOR",
+      "date": "2025-09-26"
+    },
+    {
+      "name": "SEAWRIGHT, KEELA",
+      "amount": 3500,
+      "employer": "MEDICAL PLACE",
+      "occupation": "DIRECTOR",
+      "date": "2025-09-26"
+    },
+    {
+      "name": "ROGERS, JOHN",
+      "amount": 3500,
+      "employer": "ARIEL INVESTMENTS",
+      "occupation": "CO-CEO",
+      "date": "2025-08-08"
+    },
+    {
+      "name": "ROCK, CHRIS",
+      "amount": 3500,
+      "employer": "N/A",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-08-13"
+    },
+    {
+      "name": "MCMORRIS, LAMELL",
+      "amount": 3500,
+      "employer": "PHASE 2 CONSULTING",
+      "occupation": "CONSULTANT",
+      "date": "2025-08-07"
+    },
+    {
+      "name": "MACKECHNIE, IAN",
+      "amount": 3500,
+      "employer": "AMSCOT FINANCIAL INC.",
+      "occupation": "EXCECUTIVE",
+      "date": "2025-09-30"
+    }
+  ]
 }

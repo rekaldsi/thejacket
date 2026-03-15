@@ -102,5 +102,44 @@
     "record_available": false,
     "red_flags_count": 1,
     "computed_at": "2026-03-15"
-  }
+  },
+  "fec_candidate_id": "S6IL00656",
+  "fec_committee_id": "C00920348",
+  "finance": {
+    "total_raised": 368570,
+    "total_spent": 341353,
+    "cash_on_hand": 27217,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "MURPHY, DANIEL",
+      "amount": 1000,
+      "employer": "IDEALEASE INC",
+      "occupation": "EXECUTIVE",
+      "date": "2025-12-11"
+    },
+    {
+      "name": "MCAUELY, THOMAS",
+      "amount": 1000,
+      "employer": "ASHLAND FOREST CAPITAL PARTNER",
+      "occupation": "EXECUTIVE",
+      "date": "2025-12-23"
+    },
+    {
+      "name": "MAYER, RICHARD",
+      "amount": 1000,
+      "employer": "TROLLER MAYER ASSOCIATES",
+      "occupation": "LANDSCAPE ARCHITECT",
+      "date": "2025-10-30"
+    },
+    {
+      "name": "NAUERT, JON",
+      "amount": 250,
+      "employer": "COLTALA",
+      "occupation": "INVESTOR",
+      "date": "2025-11-06"
+    }
+  ]
 }

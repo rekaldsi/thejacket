@@ -167,5 +167,86 @@
     "record_available": true,
     "red_flags_count": 1,
     "computed_at": "2026-03-15"
-  }
+  },
+  "fec_candidate_id": "H6IL09194",
+  "fec_committee_id": "C00904326",
+  "finance": {
+    "total_raised": 2556808,
+    "total_spent": 2095129,
+    "cash_on_hand": 461679,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "ZARANSKY, MICHAEL",
+      "amount": 3500,
+      "employer": "MZ CAPITAL PARTNERS",
+      "occupation": "MANAGING PRINCIPAL",
+      "date": "2025-06-30"
+    },
+    {
+      "name": "WEISSMAN, KENNETH",
+      "amount": 3500,
+      "employer": "MODERN OPTICAL INTERNATIONAL",
+      "occupation": "PRESIDENT",
+      "date": "2025-05-06"
+    },
+    {
+      "name": "STOWELL, MARY",
+      "amount": 3500,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-04-29"
+    },
+    {
+      "name": "SIMON, RACHEL",
+      "amount": 3500,
+      "employer": "SELF EMPLOYED",
+      "occupation": "PRESIDENT/INVESTOR",
+      "date": "2025-05-19"
+    },
+    {
+      "name": "SCHOLLY, STUART",
+      "amount": 3500,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-05-16"
+    },
+    {
+      "name": "NOTTAGE, COURTNEY",
+      "amount": 3500,
+      "employer": "KASPER & NOTTAGE",
+      "occupation": "ATTORNEY",
+      "date": "2025-06-20"
+    },
+    {
+      "name": "MUHL, CHARLES",
+      "amount": 3500,
+      "employer": "NATIONAL LABOR RELATIONS BOARD",
+      "occupation": "JUDGE",
+      "date": "2025-06-30"
+    },
+    {
+      "name": "MORRILL, STEVE",
+      "amount": 3500,
+      "employer": "MORRILL & FIEDLER LLC",
+      "occupation": "ATTORNEY",
+      "date": "2025-04-29"
+    },
+    {
+      "name": "KELLER, JAY",
+      "amount": 3500,
+      "employer": "J. ALEXANDER HUNT INC.",
+      "occupation": "LOBBYIST",
+      "date": "2025-06-30"
+    },
+    {
+      "name": "KATZ, KATHERINE",
+      "amount": 3500,
+      "employer": "N/A",
+      "occupation": "RETIRED",
+      "date": "2025-05-12"
+    }
+  ]
 }

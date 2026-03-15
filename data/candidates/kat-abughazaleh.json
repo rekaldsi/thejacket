@@ -148,5 +148,86 @@
     "record_available": false,
     "red_flags_count": 2,
     "computed_at": "2026-03-15"
-  }
+  },
+  "fec_candidate_id": "H6IL09178",
+  "fec_committee_id": "C00900449",
+  "finance": {
+    "total_raised": 3359876,
+    "total_spent": 2977254,
+    "cash_on_hand": 382621,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "REYNOLDS, SEAN M.",
+      "amount": 3500,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-06-25"
+    },
+    {
+      "name": "REYNOLDS, SEAN M.",
+      "amount": 3500,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-06-25"
+    },
+    {
+      "name": "INJESKI, DAVID",
+      "amount": 3500,
+      "employer": "PACE SYSTEMS, INC.",
+      "occupation": "DESIGN ENGINEER",
+      "date": "2025-06-29"
+    },
+    {
+      "name": "INJESKI, DAVID",
+      "amount": 3500,
+      "employer": "PACE SYSTEMS, INC.",
+      "occupation": "DESIGN ENGINEER",
+      "date": "2025-06-29"
+    },
+    {
+      "name": "GWOREK, ROBERT",
+      "amount": 3500,
+      "employer": "AFFINIPAY",
+      "occupation": "SOFTWARE ENGINEER",
+      "date": "2025-06-17"
+    },
+    {
+      "name": "GATTI, STANLEE R.",
+      "amount": 3500,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-04-19"
+    },
+    {
+      "name": "DAVOODI, MOHAMMED",
+      "amount": 3500,
+      "employer": "SOTERI",
+      "occupation": "CEO",
+      "date": "2025-03-24"
+    },
+    {
+      "name": "DAVOODI, MOHAMMED",
+      "amount": 3500,
+      "employer": "SOTERI",
+      "occupation": "CEO",
+      "date": "2025-03-24"
+    },
+    {
+      "name": "CONNELL, WILLIAM",
+      "amount": 3500,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-03-24"
+    },
+    {
+      "name": "CONNELL, WILLIAM",
+      "amount": 3500,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-03-24"
+    }
+  ]
 }

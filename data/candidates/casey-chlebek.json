@@ -61,5 +61,51 @@
     "record_available": false,
     "red_flags_count": 2,
     "computed_at": "2026-03-15"
-  }
+  },
+  "fec_candidate_id": "S0IL00550",
+  "fec_committee_id": "C00903823",
+  "finance": {
+    "total_raised": 105000,
+    "total_spent": 100295,
+    "cash_on_hand": 4705,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "CHLEBEK, CASIMER",
+      "amount": 50000,
+      "employer": "SELF EMPLOYED CANDIDATE",
+      "occupation": "SELF EMPLOYED CANDIDATE",
+      "date": "2025-08-13"
+    },
+    {
+      "name": "CHLEBEK, CASIMER",
+      "amount": 20000,
+      "employer": "SELF EMPLOYED CANDIDATE",
+      "occupation": "SELF EMPLOYED CANDIDATE",
+      "date": "2025-11-14"
+    },
+    {
+      "name": "CHLEBEK, CASIMER",
+      "amount": 5000,
+      "employer": "SELF EMPLOYED CANDIDATE",
+      "occupation": "SELF EMPLOYED CANDIDATE",
+      "date": "2025-12-05"
+    },
+    {
+      "name": "CHLEBEK, CASIMER",
+      "amount": 3000,
+      "employer": "SELF EMPLOYED CANDIDATE",
+      "occupation": "SELF EMPLOYED CANDIDATE",
+      "date": "2025-11-10"
+    },
+    {
+      "name": "CHLEBEK, CASIMER",
+      "amount": 2000,
+      "employer": "SELF EMPLOYED CANDIDATE",
+      "occupation": "SELF EMPLOYED CANDIDATE",
+      "date": "2025-11-07"
+    }
+  ]
 }

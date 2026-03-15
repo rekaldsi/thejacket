@@ -151,5 +151,86 @@
     "record_available": false,
     "red_flags_count": 2,
     "computed_at": "2026-03-15"
-  }
+  },
+  "fec_candidate_id": "S6IL00615",
+  "fec_committee_id": "C00917120",
+  "finance": {
+    "total_raised": 2256985,
+    "total_spent": 462099,
+    "cash_on_hand": 1794886,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "VANMETER, ANDY",
+      "amount": 3500,
+      "employer": "DESIGN IDEAS",
+      "occupation": "PRESIDENT",
+      "date": "2025-09-30"
+    },
+    {
+      "name": "TRACY, JIL",
+      "amount": 3500,
+      "employer": "STATE OF IL",
+      "occupation": "LAWYER",
+      "date": "2025-09-30"
+    },
+    {
+      "name": "TRACY, JIL",
+      "amount": 3500,
+      "employer": "STATE OF IL",
+      "occupation": "LAWYER",
+      "date": "2025-09-30"
+    },
+    {
+      "name": "PORTER, RICHARD",
+      "amount": 3500,
+      "employer": "RETIRED",
+      "occupation": "RETIRED",
+      "date": "2025-08-30"
+    },
+    {
+      "name": "CRUMLY, KEVIN",
+      "amount": 3500,
+      "employer": "TROXELL FINANCIAL",
+      "occupation": "WEALTH ADVISOR",
+      "date": "2025-09-30"
+    },
+    {
+      "name": "CAPESTRAIN, RAY",
+      "amount": 3500,
+      "employer": "RETIRED",
+      "occupation": "RETIRED",
+      "date": "2025-09-16"
+    },
+    {
+      "name": "CAPESTRAIN, RAY",
+      "amount": 3500,
+      "employer": "RETIRED",
+      "occupation": "RETIRED",
+      "date": "2025-09-16"
+    },
+    {
+      "name": "STARK, DAVID",
+      "amount": 3500,
+      "employer": "STARK EXCAVATING INC",
+      "occupation": "PRESIDENT",
+      "date": "2025-12-11"
+    },
+    {
+      "name": "RICKETTS, PETE",
+      "amount": 3500,
+      "employer": "US GOVERNMENT",
+      "occupation": "SENATOR",
+      "date": "2025-11-17"
+    },
+    {
+      "name": "RICKETTS, PETE",
+      "amount": 3500,
+      "employer": "US GOVERNMENT",
+      "occupation": "SENATOR",
+      "date": "2025-11-17"
+    }
+  ]
 }

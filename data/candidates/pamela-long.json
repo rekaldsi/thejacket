@@ -46,5 +46,86 @@
     "record_available": false,
     "red_flags_count": 0,
     "computed_at": "2026-03-15"
-  }
+  },
+  "fec_candidate_id": "S6IL00540",
+  "fec_committee_id": "C00904516",
+  "finance": {
+    "total_raised": 18517,
+    "total_spent": 16190,
+    "cash_on_hand": 2327,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "GARRETT, CHRISTI M",
+      "amount": 2455,
+      "employer": "BES STUDIO",
+      "occupation": "GRAPHIC DESIGNER",
+      "date": "2025-06-06"
+    },
+    {
+      "name": "ANDRESEN, TERESA M",
+      "amount": 1041.98,
+      "employer": "NOT PROVIDED",
+      "occupation": "NOT PROVIDED",
+      "date": "2025-05-24"
+    },
+    {
+      "name": "SMITH, VICTOR",
+      "amount": 1041.98,
+      "employer": "VICTOR SMITH ATTORNEY AT LAW",
+      "occupation": "ATTORNEY",
+      "date": "2025-08-03"
+    },
+    {
+      "name": "COBB, DIANA",
+      "amount": 1000,
+      "employer": null,
+      "occupation": null,
+      "date": "2025-08-20"
+    },
+    {
+      "name": "BOWDEN, MICHAEL",
+      "amount": 521.15,
+      "employer": "NOT PROVIDED",
+      "occupation": "NOT PROVIDED",
+      "date": "2025-05-30"
+    },
+    {
+      "name": "SMITH, VICTOR",
+      "amount": 521.15,
+      "employer": "VICTOR SMITH ATTORNEY AT LAW",
+      "occupation": "ATTORNEY",
+      "date": "2025-11-02"
+    },
+    {
+      "name": "BOWDEN, MICHAEL",
+      "amount": 521.15,
+      "employer": "NOT PROVIDED",
+      "occupation": "NOT PROVIDED",
+      "date": "2025-12-31"
+    },
+    {
+      "name": "ELMORE, KEN B",
+      "amount": 500,
+      "employer": "FIRST NATIONAL BANK OF LITCHFI",
+      "occupation": "PRESIDENT",
+      "date": "2025-06-10"
+    },
+    {
+      "name": "PHILLIPS, RICHARD",
+      "amount": 500,
+      "employer": "NOT PROVIDED",
+      "occupation": "NOT PROVIDED",
+      "date": "2025-08-11"
+    },
+    {
+      "name": "PATTERTON, TOM",
+      "amount": 500,
+      "employer": "NOT PROVIDED",
+      "occupation": "NOT PROVIDED",
+      "date": "2025-08-27"
+    }
+  ]
 }

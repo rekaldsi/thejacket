@@ -235,5 +235,86 @@
     "record_available": true,
     "red_flags_count": 1,
     "computed_at": "2026-03-15"
-  }
+  },
+  "fec_candidate_id": "H6IL07354",
+  "fec_committee_id": "C00905893",
+  "finance": {
+    "total_raised": 494774,
+    "total_spent": 355661,
+    "cash_on_hand": 139113,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "PATEL, RAJESH",
+      "amount": 7000,
+      "employer": "MEDSTAR LABORATORY",
+      "occupation": "COO",
+      "date": "2025-09-17"
+    },
+    {
+      "name": "HUGHES, BRIAN",
+      "amount": 3700,
+      "employer": "CHICAGO MEDICAL GROUP INC",
+      "occupation": "ADVANCED WOUND CARE",
+      "date": "2025-09-28"
+    },
+    {
+      "name": "SALTER, TOI",
+      "amount": 3500,
+      "employer": "SALTER FINANCIAL MANAGEMENT",
+      "occupation": "FINANCIAL MANAGER",
+      "date": "2025-10-26"
+    },
+    {
+      "name": "PRABHAKAR, CYNTHIA",
+      "amount": 3500,
+      "employer": "MEDTECH HOME HEALTH",
+      "occupation": "ADMINISTRATOR",
+      "date": "2025-12-23"
+    },
+    {
+      "name": "NI, PIN",
+      "amount": 3500,
+      "employer": "WANXIANG AMERICAN",
+      "occupation": "PRESIDENT",
+      "date": "2025-12-29"
+    },
+    {
+      "name": "MA, SUM CHU",
+      "amount": 3500,
+      "employer": "BBQ KING HOUSE",
+      "occupation": "CHEF/OWNER",
+      "date": "2025-11-05"
+    },
+    {
+      "name": "MA, SUM CHU",
+      "amount": 3500,
+      "employer": "BBQ KING HOUSE",
+      "occupation": "CHEF/OWNER",
+      "date": "2025-11-05"
+    },
+    {
+      "name": "LEE, JIMMY",
+      "amount": 3500,
+      "employer": "CHINATOWN CHAMBER OF COMMERCE",
+      "occupation": "PRESIDENT",
+      "date": "2025-11-05"
+    },
+    {
+      "name": "LEE, JENNIFER",
+      "amount": 3500,
+      "employer": "CHICAGO PUBLIC SCHOOLS",
+      "occupation": "TEACHER",
+      "date": "2025-11-05"
+    },
+    {
+      "name": "HARRIS, TIENEH",
+      "amount": 3500,
+      "employer": null,
+      "occupation": null,
+      "date": "2025-12-29"
+    }
+  ]
 }

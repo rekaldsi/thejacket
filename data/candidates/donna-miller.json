@@ -292,5 +292,86 @@
     "https://prospect.org/2026/02/06/aipac-coordinates-donors-in-illinois-house-primaries/",
     "https://www.fec.gov/data/elections/house/IL/02/",
     "https://www.chicagotribune.com/2026/03/14/cook-county-board-seats-in-play-new-faces-guaranteed-among-17-commissioners/"
+  ],
+  "fec_candidate_id": "H6IL02355",
+  "fec_committee_id": "C00911164",
+  "finance": {
+    "total_raised": 1971085,
+    "total_spent": 1505780,
+    "cash_on_hand": 465305,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "ZOLLAR, NIKKI",
+      "amount": 3500,
+      "employer": "ALL TECH TRACKING",
+      "occupation": "OWNER",
+      "date": "2025-08-22"
+    },
+    {
+      "name": "STOWELL, MARY M",
+      "amount": 3500,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-07-08"
+    },
+    {
+      "name": "SALTER, TOI L",
+      "amount": 3500,
+      "employer": "SALTER FINANCIAL MANAGEMENT",
+      "occupation": "FINANCIAL MANAGER",
+      "date": "2025-07-12"
+    },
+    {
+      "name": "PRABHAKAR, VIJAY",
+      "amount": 3500,
+      "employer": "SELF EMPLOYED",
+      "occupation": "SELF EMPLOYED",
+      "date": "2025-09-29"
+    },
+    {
+      "name": "PRABHAKAR, VIJAY",
+      "amount": 3500,
+      "employer": "SELF EMPLOYED",
+      "occupation": "SELF EMPLOYED",
+      "date": "2025-08-08"
+    },
+    {
+      "name": "POWELL, VICTOR",
+      "amount": 3500,
+      "employer": "POWELL PHOTOGRAPHYINC",
+      "occupation": "PHOTOGRAPHER",
+      "date": "2025-07-08"
+    },
+    {
+      "name": "MCWILLIAMS, DARRYL",
+      "amount": 3500,
+      "employer": "DARRYL MCWILLIAMS",
+      "occupation": "CONSULTANT",
+      "date": "2025-07-07"
+    },
+    {
+      "name": "M ABDALLAH, MOHAMMED",
+      "amount": 3500,
+      "employer": "HILLS PROPERTY",
+      "occupation": "CEO",
+      "date": "2025-07-15"
+    },
+    {
+      "name": "LIGHTFOOT, LORI",
+      "amount": 3500,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-07-16"
+    },
+    {
+      "name": "BANDELE, CHARLOTTE",
+      "amount": 3500,
+      "employer": "STRATALYS",
+      "occupation": "MARKET RESEARCH",
+      "date": "2025-07-05"
+    }
   ]
 }

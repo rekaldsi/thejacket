@@ -54,5 +54,65 @@
     "record_available": false,
     "red_flags_count": 1,
     "computed_at": "2026-03-15"
-  }
+  },
+  "fec_candidate_id": "S6IL00490",
+  "fec_committee_id": "C00911628",
+  "finance": {
+    "total_raised": 13472,
+    "total_spent": 5995,
+    "cash_on_hand": 7477,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "FRAZIER, JEAN",
+      "amount": 2500,
+      "employer": "RETIREF",
+      "occupation": null,
+      "date": "2025-09-30"
+    },
+    {
+      "name": "ZULKEY, RICHARD",
+      "amount": 500,
+      "employer": "RETIRED",
+      "occupation": "RETIRED",
+      "date": "2025-12-29"
+    },
+    {
+      "name": "HESSBERGER, ROBERT",
+      "amount": 500,
+      "employer": "RETIRED",
+      "occupation": "DOCTOR",
+      "date": "2025-11-20"
+    },
+    {
+      "name": "LISS, GILBERT",
+      "amount": 480.3,
+      "employer": "RETIRED",
+      "occupation": "RETIRED",
+      "date": "2025-12-29"
+    },
+    {
+      "name": "CAPPARELLI, CORDELIA",
+      "amount": 250,
+      "employer": "RETIRED",
+      "occupation": "RETIRED",
+      "date": "2025-12-30"
+    },
+    {
+      "name": "PLUNKETT, HILLARY",
+      "amount": 200,
+      "employer": "POLIFORM CHICAGO",
+      "occupation": "SALES ITALIAN FURNITURE",
+      "date": "2025-12-26"
+    },
+    {
+      "name": "PEDEMONTE, DANIEL",
+      "amount": 96.06,
+      "employer": "GDP GROUP",
+      "occupation": "REAL ESTATE BROKER",
+      "date": "2025-12-30"
+    }
+  ]
 }

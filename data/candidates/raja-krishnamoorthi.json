@@ -426,5 +426,86 @@
       "source_name": "WBEZ",
       "sentiment": "neutral"
     }
+  ],
+  "fec_candidate_id": "S6IL00482",
+  "fec_committee_id": "C00904466",
+  "finance": {
+    "total_raised": 30481291,
+    "total_spent": 23905475,
+    "cash_on_hand": 6575816,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "LOOK-JAMESON, MARION",
+      "amount": 7500,
+      "employer": "NOT EMPLOYED",
+      "occupation": "RETIRED",
+      "date": "2025-12-06"
+    },
+    {
+      "name": "DAVID, DANIEL",
+      "amount": 7000,
+      "employer": "PWC",
+      "occupation": "PARTNER",
+      "date": "2025-10-27"
+    },
+    {
+      "name": "DAVID, SUDHA",
+      "amount": 7000,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-10-27"
+    },
+    {
+      "name": "PANDIT, LAVANNYA",
+      "amount": 5000,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-09-21"
+    },
+    {
+      "name": "SCHMIDT, SHEILA",
+      "amount": 3525,
+      "employer": "DENK AND ROCHE BUILDERS",
+      "occupation": "CONTRACT ADMINISTRATOR",
+      "date": "2025-05-10"
+    },
+    {
+      "name": "BAROT, NAVIN",
+      "amount": 3510,
+      "employer": "SELF",
+      "occupation": "PHYSICIAN",
+      "date": "2025-10-10"
+    },
+    {
+      "name": "KULKARNI, SACHIN",
+      "amount": 3500,
+      "employer": "OSCILAR",
+      "occupation": "SOFTWARE ENGINEER",
+      "date": "2025-12-07"
+    },
+    {
+      "name": "KULKARNI, SACHIN",
+      "amount": 3500,
+      "employer": "OSCILAR",
+      "occupation": "SOFTWARE ENGINEER",
+      "date": "2025-12-07"
+    },
+    {
+      "name": "GUNDAVARAPU, SRIKANTH",
+      "amount": 3500,
+      "employer": "GC INGREDIENTS",
+      "occupation": "PRESIDENT",
+      "date": "2025-12-07"
+    },
+    {
+      "name": "PANDIT, VIVEK",
+      "amount": 3500,
+      "employer": "PEDUL",
+      "occupation": "MANGER",
+      "date": "2025-12-07"
+    }
   ]
 }

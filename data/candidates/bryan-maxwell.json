@@ -87,5 +87,79 @@
     "record_available": false,
     "red_flags_count": 0,
     "computed_at": "2026-03-15"
-  }
+  },
+  "fec_candidate_id": "S6IL00649",
+  "fec_committee_id": "C00918466",
+  "finance": {
+    "total_raised": 21976,
+    "total_spent": 15146,
+    "cash_on_hand": 6830,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "MAXWELL, BRYAN",
+      "amount": 5000,
+      "employer": "UNIVERSITY OF ILLINOIS",
+      "occupation": "RESEARCH SCIENTIST",
+      "date": "2025-09-15"
+    },
+    {
+      "name": "MAXWELL, PAUL",
+      "amount": 5000,
+      "employer": "UNEMPLOYED",
+      "occupation": "UNEMPLOYED",
+      "date": "2025-12-02"
+    },
+    {
+      "name": "MAXWELL, RUTH",
+      "amount": 3500,
+      "employer": "UNEMPLOYED",
+      "occupation": "UNEMPLOYED",
+      "date": "2025-12-28"
+    },
+    {
+      "name": "HELMS, BRIAN",
+      "amount": 3500,
+      "employer": "SELF",
+      "occupation": "SELF",
+      "date": "2025-12-30"
+    },
+    {
+      "name": "LEVY, STUART",
+      "amount": 832,
+      "employer": "UIUC",
+      "occupation": "COMPUTER PROGRAMMER",
+      "date": "2025-11-23"
+    },
+    {
+      "name": "MAXWELL, CRAIG",
+      "amount": 500,
+      "employer": "WELLS FARGO",
+      "occupation": "MANAGER",
+      "date": "2025-12-29"
+    },
+    {
+      "name": "DORAI-RAJ, SUNDAR",
+      "amount": 500,
+      "employer": "GOOGLE",
+      "occupation": "DATA SCIENTIST",
+      "date": "2025-12-28"
+    },
+    {
+      "name": "KAGAN, ALFRED",
+      "amount": 250,
+      "employer": "UNEMPLOYED",
+      "occupation": "UNEMPLOYED",
+      "date": "2025-12-13"
+    },
+    {
+      "name": "DORAI-RAJ, SUNDAR",
+      "amount": 250,
+      "employer": "GOOGLE",
+      "occupation": "DATA SCIENTIST",
+      "date": "2025-10-01"
+    }
+  ]
 }

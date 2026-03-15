@@ -90,5 +90,7 @@
     "https://workingclassfight.com/",
     "https://api.open.fec.gov/v1/candidates/?q=hershey&state=IL"
   ],
-  "photo_url": null
+  "photo_url": null,
+  "fec_candidate_id": "H2IL04178",
+  "fec_committee_id": "C00814954"
 }

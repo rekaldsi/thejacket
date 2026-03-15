@@ -90,5 +90,86 @@
     "record_available": false,
     "red_flags_count": 0,
     "computed_at": "2026-03-15"
-  }
+  },
+  "fec_candidate_id": "S6IL00581",
+  "fec_committee_id": "C00907774",
+  "finance": {
+    "total_raised": 124249,
+    "total_spent": 118890,
+    "cash_on_hand": 5358,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "WYNNE, ANTHONY",
+      "amount": 3500,
+      "employer": "DEPARTMENT OF DEFENSE",
+      "occupation": "POLICY ADVISOR",
+      "date": "2025-07-07"
+    },
+    {
+      "name": "DREUIL-WYNNE, FRANCOISE",
+      "amount": 3500,
+      "employer": "RETIRED",
+      "occupation": "RETIRED",
+      "date": "2025-07-16"
+    },
+    {
+      "name": "CHI, MICHAEL",
+      "amount": 3500,
+      "employer": "HIMS",
+      "occupation": "CHEIF COMMERICAL OFFICER",
+      "date": "2025-09-29"
+    },
+    {
+      "name": "ATKINSON, TREMAINE",
+      "amount": 3500,
+      "employer": "773 LLC",
+      "occupation": "CEO",
+      "date": "2025-12-17"
+    },
+    {
+      "name": "GOLDENBERG, RUSS",
+      "amount": 2500,
+      "employer": "RETIRED",
+      "occupation": "RETIRED",
+      "date": "2025-12-17"
+    },
+    {
+      "name": "MARINARO, MATTHEW",
+      "amount": 1500,
+      "employer": "RED IRON GROUP",
+      "occupation": "PRIVATE EQUITY INVESTOR",
+      "date": "2025-07-16"
+    },
+    {
+      "name": "HABERKORN, ED",
+      "amount": 1500,
+      "employer": "DYNAMIC ELECTRIC",
+      "occupation": "ELECTRICAL ENGINEER",
+      "date": "2025-07-01"
+    },
+    {
+      "name": "SMYERS-HALE, IRIS",
+      "amount": 1000,
+      "employer": "RETIRED",
+      "occupation": "RETIRED",
+      "date": "2025-08-13"
+    },
+    {
+      "name": "RYAN, THOMAS",
+      "amount": 1000,
+      "employer": "RETIRED",
+      "occupation": "RETIRED",
+      "date": "2025-09-03"
+    },
+    {
+      "name": "MCLAUGHLIN, EDWARD",
+      "amount": 1000,
+      "employer": "RETIRED",
+      "occupation": "RETIRED",
+      "date": "2025-07-29"
+    }
+  ]
 }

@@ -177,5 +177,86 @@
     "https://api.open.fec.gov/v1/committee/C00925495/"
   ],
   "photo_url": null,
-  "uncontested": true
+  "uncontested": true,
+  "fec_candidate_id": "H8IL04134",
+  "fec_committee_id": "C00661777",
+  "finance": {
+    "total_raised": 373523,
+    "total_spent": 358132,
+    "cash_on_hand": 51227,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "EYCHANER, FRED",
+      "amount": 3500,
+      "employer": "NEWSWEB CORP.",
+      "occupation": "CHAIRMAN",
+      "date": "2025-09-30"
+    },
+    {
+      "name": "EYCHANER, FRED",
+      "amount": 3500,
+      "employer": "NEWSWEB CORP.",
+      "occupation": "CHAIRMAN",
+      "date": "2025-09-30"
+    },
+    {
+      "name": "CLIFFORD, ROBERT A",
+      "amount": 3500,
+      "employer": "CLIFFORD LAW OFFICES",
+      "occupation": "ATTORNEY",
+      "date": "2025-07-02"
+    },
+    {
+      "name": "CLIFFORD, ROBERT A",
+      "amount": 3500,
+      "employer": "CLIFFORD LAW OFFICES",
+      "occupation": "ATTORNEY",
+      "date": "2025-07-02"
+    },
+    {
+      "name": "VEGA, JOSE JR",
+      "amount": 3500,
+      "employer": "GALERA FRESH",
+      "occupation": "BUSINESS OWNER",
+      "date": "2025-05-28"
+    },
+    {
+      "name": "SMITH, LEO A.",
+      "amount": 3500,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-06-17"
+    },
+    {
+      "name": "SMITH, LEO A.",
+      "amount": 3500,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-05-27"
+    },
+    {
+      "name": "ROGERS, JOHN JR",
+      "amount": 3500,
+      "employer": "ARIEL INVESTMENTS",
+      "occupation": "CO-CEO",
+      "date": "2025-04-03"
+    },
+    {
+      "name": "ROGERS, JOHN JR",
+      "amount": 3500,
+      "employer": "ARIEL INVESTMENTS",
+      "occupation": "CO-CEO",
+      "date": "2025-04-03"
+    },
+    {
+      "name": "MANDERA, PERRY",
+      "amount": 3500,
+      "employer": "THE CUSTOM COMPANIES INC.",
+      "occupation": "LOGISTICS/TRANSPORTATION",
+      "date": "2025-05-14"
+    }
+  ]
 }

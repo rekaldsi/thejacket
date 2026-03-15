@@ -229,5 +229,86 @@
     "record_available": true,
     "red_flags_count": 1,
     "computed_at": "2026-03-15"
-  }
+  },
+  "fec_candidate_id": "H6IL07370",
+  "fec_committee_id": "C00911388",
+  "finance": {
+    "total_raised": 383262,
+    "total_spent": 319121,
+    "cash_on_hand": 60641,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "BOYKIN, RICHARD",
+      "amount": 25000,
+      "employer": null,
+      "occupation": null,
+      "date": "2025-07-29"
+    },
+    {
+      "name": "BOYKIN, RICHARD",
+      "amount": 10000,
+      "employer": null,
+      "occupation": null,
+      "date": "2025-09-13"
+    },
+    {
+      "name": "BOYKIN, RICHARD",
+      "amount": 5500,
+      "employer": null,
+      "occupation": null,
+      "date": "2025-09-30"
+    },
+    {
+      "name": "WILSON, WILLIE",
+      "amount": 3500,
+      "employer": null,
+      "occupation": null,
+      "date": "2025-08-04"
+    },
+    {
+      "name": "PREMAN, NISHA",
+      "amount": 3500,
+      "employer": "NONE",
+      "occupation": null,
+      "date": "2025-09-30"
+    },
+    {
+      "name": "HARSOOR, RAVINDRA",
+      "amount": 3500,
+      "employer": "SELF",
+      "occupation": null,
+      "date": "2025-07-29"
+    },
+    {
+      "name": "EVANS, MICHELLE",
+      "amount": 3500,
+      "employer": "PRIMERICA INS",
+      "occupation": null,
+      "date": "2025-08-01"
+    },
+    {
+      "name": "COXWORTH, JAMES",
+      "amount": 3500,
+      "employer": null,
+      "occupation": null,
+      "date": "2025-08-04"
+    },
+    {
+      "name": "COXWORTH, ANGELA",
+      "amount": 3500,
+      "employer": null,
+      "occupation": null,
+      "date": "2025-08-04"
+    },
+    {
+      "name": "BACHARACH, ED",
+      "amount": 3500,
+      "employer": "RETIRED",
+      "occupation": "RETIRED",
+      "date": "2025-08-25"
+    }
+  ]
 }
