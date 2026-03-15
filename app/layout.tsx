@@ -37,7 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 THE<span className="text-jacket-amber">JACKET</span>
               </Link>
 
-              <div className="hidden items-center gap-3 text-xs uppercase tracking-widest text-zinc-300 sm:flex">
+              <div className="hidden items-center gap-3 text-xs uppercase tracking-widest text-zinc-300 md:flex">
                 <Link href="/races" className="transition-colors hover:text-jacket-amber">
                   Races
                 </Link>
@@ -60,7 +60,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </div>
 
               <div className="flex items-center gap-3">
-                <span className="hidden font-mono text-xs uppercase tracking-widest text-jacket-amber sm:inline">COOK COUNTY &mdash; MAR 17</span>
+                <span className="hidden font-mono text-xs uppercase tracking-widest text-jacket-amber md:inline">COOK COUNTY &mdash; MAR 17</span>
                 <MobileNav />
               </div>
             </nav>

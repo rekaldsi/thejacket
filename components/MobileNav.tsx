@@ -9,7 +9,7 @@ export default function MobileNav() {
   return (
     <>
       <button
-        className="flex items-center justify-center p-1 text-zinc-300 sm:hidden"
+        className="flex items-center justify-center p-1 text-zinc-300 md:hidden"
         onClick={() => setOpen((v) => !v)}
         aria-label="Toggle menu"
       >
@@ -30,7 +30,7 @@ export default function MobileNav() {
       </button>
 
       {open ? (
-        <div className="absolute left-0 top-full z-50 w-full border-b border-jacket-border bg-jacket-black px-4 py-4 sm:hidden">
+        <div className="absolute left-0 top-full z-50 w-full border-b border-jacket-border bg-jacket-black px-4 py-4 md:hidden">
           <nav className="flex flex-col gap-4 text-xs uppercase tracking-widest text-zinc-300">
             <Link href="/races" className="hover:text-jacket-amber" onClick={() => setOpen(false)}>
               Races
