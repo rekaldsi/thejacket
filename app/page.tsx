@@ -153,7 +153,7 @@ export default function HomePage() {
       {/* ── START HERE: position:fixed on mobile, in-flow on desktop — MUST be outside space-y-24 ── */}
       <StartHereBanner />
 
-    <div className="space-y-24">
+    <div className="space-y-12 md:space-y-24">
 
       {/* ── HERO ── */}
       <HeroSection />

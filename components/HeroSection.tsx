@@ -67,7 +67,7 @@ export default function HeroSection() {
   return (
     <section
       ref={sectionRef}
-      className="relative flex flex-col items-center gap-8 py-6 md:flex-row md:items-center md:justify-between md:gap-12"
+      className="relative flex flex-col items-center gap-4 py-2 md:flex-row md:items-center md:justify-between md:gap-12 md:py-6"
     >
       <div
         className="pointer-events-none fixed -z-10 right-0 top-0"
@@ -77,7 +77,7 @@ export default function HeroSection() {
       {/* ── MOBILE: Jacket on top, centered ── */}
       {/* ── DESKTOP: Jacket on right (order-last) ── */}
       <div
-        className="w-64 shrink-0 sm:w-72 md:order-last md:w-72 lg:w-80 animate-jacket-float"
+        className="w-44 shrink-0 sm:w-56 md:order-last md:w-72 lg:w-80 animate-jacket-float"
         style={{ opacity: visible ? 1 : 0, transition: "opacity 0.8s 0.1s ease-out" }}
       >
         <div className="relative">
