@@ -1,6 +1,7 @@
 import ScorecardSearch from "@/components/ScorecardSearch";
 import { getAllCandidates } from "@/lib/data";
 import { buildScorecard } from "@/lib/scoring";
+import { T } from "@/components/T";
 
 export const metadata = {
   title: "Transparency Scorecard | TheJacket",
@@ -20,7 +21,7 @@ export default function ScorecardPage() {
           Cook County Primary — March 17, 2026
         </p>
         <h1 className="text-5xl font-black uppercase leading-none tracking-tight md:text-6xl">
-          Transparency<br />Scorecard
+          <T k="scorecard_title_line1" /><br /><T k="scorecard_title_line2" />
         </h1>
         <p className="max-w-3xl text-zinc-300">
           Every candidate ranked by public record. Scores are calculated from confirmed and alleged flags sourced
@@ -56,7 +57,7 @@ export default function ScorecardPage() {
       <details className="group border border-jacket-border rounded-sm">
         <summary className="cursor-pointer select-none px-4 py-3 font-mono text-xs uppercase tracking-widest text-zinc-400 hover:text-jacket-amber flex items-center gap-2">
           <span className="transition-transform group-open:rotate-90">▶</span>
-          What do these terms mean?
+          <T k="jargon_glossary_toggle" />
         </summary>
         <div className="border-t border-jacket-border px-4 py-4 grid gap-3 sm:grid-cols-2 text-xs text-zinc-400">
           {[
@@ -84,7 +85,7 @@ export default function ScorecardPage() {
 
       {/* Methodology */}
       <section className="border-t border-jacket-border pt-8 text-sm text-zinc-400 space-y-2">
-        <h3 className="font-mono uppercase tracking-widest text-zinc-300">Scoring Methodology</h3>
+        <h3 className="font-mono uppercase tracking-widest text-zinc-300"><T k="scoring_methodology" /></h3>
         <p>All candidates start at 100. Points are deducted for confirmed and alleged public-record flags:</p>
         <ul className="list-disc pl-5 space-y-1 font-mono text-xs">
           <li>AIPAC endorsement (confirmed) — −20</li>

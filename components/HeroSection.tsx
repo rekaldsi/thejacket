@@ -3,6 +3,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useState, useRef } from "react";
+import { useLanguage } from "@/lib/i18n";
+import { translations } from "@/lib/translations";
 
 const PRIMARY_DATE = new Date("2026-03-17T06:00:00Z"); // 12:00 AM CST = 06:00 UTC
 
@@ -46,6 +48,8 @@ export default function HeroSection() {
   const { days, hours, minutes, seconds, total } = useCountdown();
   const [visible, setVisible] = useState(false);
   const sectionRef = useRef<HTMLDivElement>(null);
+  const { lang } = useLanguage();
+  const d = translations[lang];
 
   useEffect(() => {
     const id = setTimeout(() => setVisible(true), 50);
@@ -65,11 +69,6 @@ export default function HeroSection() {
       ref={sectionRef}
       className="relative flex flex-col items-center gap-8 py-6 md:flex-row md:items-center md:justify-between md:gap-12"
     >
-      {/*
-        Glow — fixed to viewport so it never causes horizontal scroll.
-        Positioned behind the right side of the page near the jacket.
-        Very low opacity + massive blur = atmospheric, not a shape.
-      */}
       <div
         className="pointer-events-none fixed -z-10 right-0 top-0"
         style={{ width: 600, height: 600, background: "radial-gradient(circle, rgba(245,158,11,0.05) 0%, transparent 70%)", filter: "blur(80px)" }}
@@ -82,7 +81,6 @@ export default function HeroSection() {
         style={{ opacity: visible ? 1 : 0, transition: "opacity 0.8s 0.1s ease-out" }}
       >
         <div className="relative">
-          {/* Soft glow halo directly behind jacket image */}
           <div
             className="absolute inset-0 -z-10 rounded-full animate-glow-breathe"
             style={{ background: "radial-gradient(circle, rgba(245,158,11,0.12) 0%, transparent 70%)", filter: "blur(30px)" }}
@@ -106,7 +104,7 @@ export default function HeroSection() {
           className="font-mono text-xs uppercase tracking-[0.22em] text-jacket-amber"
           style={fadeIn("0.05s")}
         >
-          Illinois Primary — March 17, 2026 — Cook County
+          {d.dateline}
         </p>
 
         {/* Wordmark */}
@@ -117,7 +115,7 @@ export default function HeroSection() {
           THE<span className="text-jacket-amber">JACKET</span>
         </h1>
 
-        {/* Amber rule — centered on mobile, left on desktop */}
+        {/* Amber rule */}
         <div
           className="h-1 bg-jacket-amber mx-auto md:mx-0"
           style={{
@@ -132,15 +130,14 @@ export default function HeroSection() {
           className="max-w-xl text-xl text-zinc-300"
           style={fadeIn("0.35s")}
         >
-          See who they really work for.
+          {d.tagline}
         </p>
 
-        {/* Pull quote */}
+        {/* Pull quote — always English (Robin Williams quote) */}
         <blockquote
           className="max-w-lg w-full"
           style={fadeIn("0.45s")}
         >
-          {/* Border shifts to top on mobile (centered), left on desktop */}
           <div className="border-t-2 border-jacket-amber/40 pt-3 md:border-t-0 md:border-l-2 md:pt-0 md:pl-4 md:py-1">
             <p className="text-sm italic text-zinc-300 leading-relaxed">
               &ldquo;Politicians should wear sponsor jackets like NASCAR drivers, then we know who owns them.&rdquo;
@@ -153,22 +150,22 @@ export default function HeroSection() {
         <div style={fadeIn("0.5s")}>
           {!elapsed ? (
             <div className="flex items-start gap-2">
-              <CountdownUnit value={days} label="days" />
+              <CountdownUnit value={days} label={d.days_label} />
               <Divider />
-              <CountdownUnit value={hours} label="hrs" />
+              <CountdownUnit value={hours} label={d.hours_label} />
               <Divider />
-              <CountdownUnit value={minutes} label="min" />
+              <CountdownUnit value={minutes} label={d.minutes_label} />
               <Divider />
-              <CountdownUnit value={seconds} label="sec" />
+              <CountdownUnit value={seconds} label={d.seconds_label} />
             </div>
           ) : (
             <span className="font-mono text-sm uppercase tracking-[0.22em] text-jacket-amber animate-pulse">
-              Primary Day — Go Vote
+              {d.primary_day_go_vote}
             </span>
           )}
         </div>
 
-        {/* CTA — full width on mobile, auto on desktop */}
+        {/* CTA */}
         <div style={fadeIn("0.62s")} className="w-full md:w-auto">
           <Link
             href="/races"
@@ -184,7 +181,7 @@ export default function HeroSection() {
               animate-cta-pulse
             "
           >
-            Find your ballot →
+            {d.find_ballot}
           </Link>
         </div>
 

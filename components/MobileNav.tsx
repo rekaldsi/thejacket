@@ -2,9 +2,14 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { useLanguage } from "@/lib/i18n";
+import { LangToggle } from "@/components/LangToggle";
+import { translations } from "@/lib/translations";
 
 export default function MobileNav() {
   const [open, setOpen] = useState(false);
+  const { lang } = useLanguage();
+  const d = translations[lang];
 
   // Lock body scroll when menu is open
   useEffect(() => {
@@ -54,30 +59,33 @@ export default function MobileNav() {
 
           {/* Menu panel — slides down from top, solid background */}
           <div className="fixed left-0 right-0 top-0 z-50 border-b border-jacket-border bg-jacket-black md:hidden">
-            {/* Header row with logo + close */}
+            {/* Header row with logo + lang toggle + close */}
             <div className="flex items-center justify-between border-b border-jacket-border px-4 py-4">
               <Link href="/" onClick={close} className="text-xl font-extrabold uppercase tracking-tight text-jacket-white">
                 THE<span className="text-jacket-amber">JACKET</span>
               </Link>
-              <button
-                onClick={close}
-                className="flex items-center justify-center p-1 text-zinc-300"
-                aria-label="Close menu"
-              >
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5">
-                  <line x1="4" y1="4" x2="16" y2="16" />
-                  <line x1="16" y1="4" x2="4" y2="16" />
-                </svg>
-              </button>
+              <div className="flex items-center gap-3">
+                <LangToggle />
+                <button
+                  onClick={close}
+                  className="flex items-center justify-center p-1 text-zinc-300"
+                  aria-label="Close menu"
+                >
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <line x1="4" y1="4" x2="16" y2="16" />
+                    <line x1="16" y1="4" x2="4" y2="16" />
+                  </svg>
+                </button>
+              </div>
             </div>
 
             {/* Nav links — centered, generous tap targets */}
             <nav className="flex flex-col items-center px-6 py-4 gap-1">
               {[
-                { href: "/races", label: "Races" },
-                { href: "/judges", label: "Judges" },
-                { href: "/scorecard", label: "Scorecard" },
-                { href: "/about", label: "About" },
+                { href: "/races", label: d.nav_races },
+                { href: "/judges", label: d.nav_judges },
+                { href: "/scorecard", label: d.nav_scorecard },
+                { href: "/about", label: d.nav_about },
               ].map(({ href, label }) => (
                 <Link
                   key={href}
@@ -96,7 +104,7 @@ export default function MobileNav() {
                   onClick={close}
                   className="block w-full rounded-sm border border-jacket-amber bg-jacket-amber py-4 text-center font-mono text-sm font-black uppercase tracking-widest text-jacket-black transition-colors hover:bg-jacket-black hover:text-jacket-amber"
                 >
-                  🗳 Booth Mode — Build Your Ballot
+                  {d.nav_booth_mode} — {d.nav_build_your_ballot}
                 </Link>
               </div>
             </nav>

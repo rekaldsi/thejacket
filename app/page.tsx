@@ -7,6 +7,8 @@ import { extractSignals } from "@/components/HotBoard";
 import HeroSection from "@/components/HeroSection";
 import ScrollReveal from "@/components/ScrollReveal";
 import StartHereBanner from "@/components/StartHereBanner";
+import { T } from "@/components/T";
+import ShareButton from "@/components/ShareButton";
 import type { ScorecardEntry } from "@/lib/scoring";
 import type { Judge } from "@/lib/types";
 
@@ -166,10 +168,10 @@ export default function HomePage() {
               <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-red-500" />
             </span>
             <h2 className="font-mono text-xs font-black uppercase tracking-[0.22em] text-jacket-amber">
-              Live Intel Feed
+              <T k="live_intel_feed" />
             </h2>
             <span className="font-mono text-[10px] uppercase tracking-widest text-zinc-600">
-              {allSignals.length} signals · hover to pause
+              {allSignals.length} <T k="signals" />
             </span>
           </div>
 
@@ -182,9 +184,9 @@ export default function HomePage() {
       <ScrollReveal>
         <section>
           <div className="mb-6 flex items-center justify-between">
-            <h2 className="pb-2 pt-4 text-2xl font-black uppercase tracking-tight">Featured Races</h2>
+            <h2 className="pb-2 pt-4 text-2xl font-black uppercase tracking-tight"><T k="featured_races" /></h2>
             <Link href="/races" className="text-xs uppercase tracking-widest text-jacket-amber">
-              See all {races.length} races →
+              <T k="see_all_races_prefix" /> {races.length} <T k="see_all_races_suffix" />
             </Link>
           </div>
           <div className="grid gap-3 md:grid-cols-3">
@@ -214,13 +216,13 @@ export default function HomePage() {
       <ScrollReveal delay={80}>
         <section>
           <div className="mb-2 flex items-center justify-between">
-            <h2 className="pb-1 pt-4 text-2xl font-black uppercase tracking-tight">Judicial Watch</h2>
+            <h2 className="pb-1 pt-4 text-2xl font-black uppercase tracking-tight"><T k="judicial_watch" /></h2>
             <Link href="/judges" className="shrink-0 text-xs uppercase tracking-widest text-jacket-amber">
-              All judges →
+              <T k="all_judges_link" />
             </Link>
           </div>
           <p className="mb-4 text-sm text-zinc-400 max-w-lg">
-            Nobody covers judicial races. We do. Here are the 4 most alarming Cook County judge candidates on your March 17 ballot.
+            <T k="judicial_watch_desc" />
           </p>
           <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-4">
             {alarmJudges.map((judge) => (
@@ -228,7 +230,7 @@ export default function HomePage() {
             ))}
           </div>
           <p className="mt-3 text-[11px] text-zinc-600">
-            Scores based on Alliance of Bar Associations ratings · CBA Voters Guide · Injustice Watch investigative reporting
+            <T k="scores_based_on" />
           </p>
         </section>
       </ScrollReveal>
@@ -237,20 +239,20 @@ export default function HomePage() {
       <ScrollReveal delay={80}>
         <section>
           <div className="mb-6 flex items-baseline justify-between">
-            <h2 className="pb-2 pt-4 text-2xl font-black uppercase tracking-tight">Transparency Snapshot</h2>
+            <h2 className="pb-2 pt-4 text-2xl font-black uppercase tracking-tight"><T k="transparency_snapshot" /></h2>
             <Link href="/scorecard" className="text-xs uppercase tracking-widest text-jacket-amber">
-              Full scorecard →
+              <T k="full_scorecard" />
             </Link>
           </div>
           <div className="grid gap-8 md:grid-cols-2">
             <div>
-              <p className="mb-3 font-mono text-xs uppercase tracking-widest text-green-400">Cleanest Record</p>
+              <p className="mb-3 font-mono text-xs uppercase tracking-widest text-green-400"><T k="cleanest_record" /></p>
               <div className="divide-y divide-jacket-border">
                 {top3.map((entry) => <SnapshotRow key={entry.candidate.id} entry={entry} />)}
               </div>
             </div>
             <div>
-              <p className="mb-3 font-mono text-xs uppercase tracking-widest text-jacket-red">Most Red Flags</p>
+              <p className="mb-3 font-mono text-xs uppercase tracking-widest text-jacket-red"><T k="most_red_flags" /></p>
               <div className="divide-y divide-jacket-border">
                 {bottom3.map((entry) => <SnapshotRow key={entry.candidate.id} entry={entry} />)}
               </div>
@@ -261,10 +263,10 @@ export default function HomePage() {
 
       {/* ── FIND YOUR FULL BALLOT ── */}
       <section className="rounded-sm border border-jacket-amber/30 bg-jacket-amber/5 px-6 py-8 text-center">
-        <p className="mb-1 font-mono text-xs uppercase tracking-[0.22em] text-jacket-amber">Illinois Primary — March 17, 2026</p>
-        <h2 className="mb-2 text-2xl font-black uppercase tracking-tight">See Your Full Ballot</h2>
+        <p className="mb-1 font-mono text-xs uppercase tracking-[0.22em] text-jacket-amber"><T k="illinois_primary_date" /></p>
+        <h2 className="mb-2 text-2xl font-black uppercase tracking-tight"><T k="see_your_full_ballot" /></h2>
         <p className="mx-auto mb-6 max-w-lg text-sm text-zinc-400">
-          TheJacket covers the contested races. Your actual ballot also includes Cook County commissioners, water reclamation district seats, state legislative races, and more — all by your address.
+          <T k="ballot_body_text" />
         </p>
         <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
           <a
@@ -273,7 +275,7 @@ export default function HomePage() {
             rel="noopener noreferrer"
             className="inline-block whitespace-nowrap rounded-sm bg-jacket-amber px-6 py-3 font-mono text-sm font-black uppercase tracking-widest text-jacket-black transition-colors hover:bg-jacket-black hover:text-jacket-amber border border-jacket-amber"
           >
-            My Full Ballot (ILSOS) →
+            <T k="my_full_ballot_ilsos" />
           </a>
           <a
             href="https://chicagoelections.gov/voting/my-voter-information"
@@ -281,10 +283,15 @@ export default function HomePage() {
             rel="noopener noreferrer"
             className="inline-block whitespace-nowrap rounded-sm border border-jacket-amber px-6 py-3 font-mono text-sm font-black uppercase tracking-widest text-jacket-amber transition-colors hover:bg-jacket-amber hover:text-jacket-black"
           >
-            Chicago Voters →
+            <T k="chicago_voters" />
           </a>
         </div>
       </section>
+
+      {/* ── SHARE BUTTON — fixed bottom-left on mobile only ── */}
+      <div className="fixed bottom-5 left-4 z-40 md:hidden">
+        <ShareButton />
+      </div>
 
     </div>
   );

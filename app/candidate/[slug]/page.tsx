@@ -7,6 +7,7 @@ import MoneyAmount from "@/components/MoneyAmount";
 import UncontestedBadge from "@/components/UncontestedBadge";
 import JailDeathTimeline from "@/components/JailDeathTimeline";
 import CandidateSecondary from "@/components/CandidateSecondary";
+import ShareButton from "@/components/ShareButton";
 import { getAllCandidates, getCandidateBySlug } from "@/lib/data";
 
 export function generateStaticParams() {
@@ -84,6 +85,9 @@ export default function CandidatePage({ params }: { params: { slug: string } }) 
                 {candidate.data_status === "limited" && (
                   <span className="rounded-full bg-zinc-700 px-2 py-0.5 text-xs text-zinc-400">Limited Data</span>
                 )}
+              </div>
+              <div className="mt-3">
+                <ShareButton candidateName={candidate.name} />
               </div>
 
               {isUncontested && candidate.years_in_office ? (
