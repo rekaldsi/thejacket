@@ -3,6 +3,7 @@ import { getAllJudges, getJudicialRaces } from "@/lib/data";
 import { scoreJudgesByRace } from "@/lib/judgeScoring";
 import type { JudgeScorecardEntry } from "@/lib/judgeScoring";
 import type { Race } from "@/lib/types";
+import { T } from "@/components/T";
 
 // Bar rating badge colors
 function barRatingColor(rating: string): string {
@@ -49,19 +50,19 @@ function JudgeRow({ entry }: { entry: JudgeScorecardEntry }) {
             <span className="font-bold text-jacket-white">{judge.name}</span>
             {judge.uncontested && (
               <span className="rounded-full bg-zinc-800 px-2 py-0.5 font-mono text-[10px] text-zinc-400">
-                UNCONTESTED
+                <T k="judges_uncontested" />
               </span>
             )}
           </div>
 
           {/* Bar ratings */}
           <div className="mt-1.5 flex flex-wrap items-center gap-2">
-            <span className="font-mono text-[10px] uppercase tracking-widest text-zinc-500">Alliance</span>
+            <span className="font-mono text-[10px] uppercase tracking-widest text-zinc-500"><T k="judges_alliance_label" /></span>
             <BarRatingBadge
               rating={judge.bar_ratings.alliance_rating}
               label={judge.bar_ratings.alliance_detail ?? judge.bar_ratings.alliance_rating}
             />
-            <span className="font-mono text-[10px] uppercase tracking-widest text-zinc-500">CBA</span>
+            <span className="font-mono text-[10px] uppercase tracking-widest text-zinc-500"><T k="judges_cba_label" /></span>
             <BarRatingBadge
               rating={judge.bar_ratings.cba_rating}
               label={judge.bar_ratings.cba_rating}
@@ -218,7 +219,7 @@ export default function JudgesPage() {
         <p className="font-mono text-xs uppercase tracking-[0.22em] text-jacket-amber">
           COOK COUNTY — MARCH 17, 2026
         </p>
-        <h1 className="mt-2 text-4xl font-black uppercase tracking-tight">Judicial Watch</h1>
+        <h1 className="mt-2 text-4xl font-black uppercase tracking-tight"><T k="judicial_watch_title" /></h1>
         <div className="mt-2 h-1 w-16 bg-jacket-amber" />
         <p className="mt-4 max-w-2xl text-zinc-300">
           Cook County voters elect dozens of circuit and appellate court judges — but almost nobody covers these races.

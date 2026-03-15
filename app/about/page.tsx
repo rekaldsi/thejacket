@@ -116,6 +116,8 @@ const sources = [
   },
 ];
 
+import { T } from "@/components/T";
+
 const sectionHeader = "border-l-2 border-jacket-amber pl-3 font-mono text-lg font-black uppercase tracking-widest text-zinc-200";
 
 export default function AboutPage() {
@@ -125,7 +127,7 @@ export default function AboutPage() {
       {/* HERO */}
       <section className="space-y-4">
         <h1 className="text-4xl font-black uppercase tracking-tight sm:text-5xl">
-          About The<span className="text-jacket-amber">Jacket</span>
+          <T k="about_title_prefix" /><span className="text-jacket-amber"><T k="about_title_suffix" /></span>
         </h1>
         <div className="h-1 w-16 bg-jacket-amber" />
         <blockquote className="border-l-2 border-zinc-700 pl-4 text-base italic text-zinc-400">
@@ -141,7 +143,7 @@ export default function AboutPage() {
 
       {/* MISSION */}
       <section className="space-y-3">
-        <h2 className={sectionHeader}>Mission</h2>
+        <h2 className={sectionHeader}><T k="mission_header" /></h2>
         <p className="leading-relaxed text-zinc-300">
           Campaign finance data exists — it&apos;s just scattered, dense, and designed for lawyers, not voters.
           TheJacket pulls that data into one place and makes it legible: who funds each candidate,
@@ -157,7 +159,7 @@ export default function AboutPage() {
       {/* DATA SOURCES */}
       <section className="space-y-6">
         <div>
-          <h2 className={sectionHeader}>Data Sources</h2>
+          <h2 className={sectionHeader}><T k="data_sources_header" /></h2>
           <p className="mt-2 text-sm text-zinc-500">
             {sources.length} sources across official records, investigative journalism, and reference databases.
             Every fact in a candidate profile traces back to at least one of these.
@@ -195,7 +197,7 @@ export default function AboutPage() {
 
       {/* METHODOLOGY */}
       <section className="space-y-3">
-        <h2 className={sectionHeader}>Methodology</h2>
+        <h2 className={sectionHeader}><T k="methodology_header" /></h2>
         <ul className="space-y-3 text-zinc-300">
           {[
             "Only public-record sources are used. No anonymous tips, no unverified claims.",
@@ -214,7 +216,7 @@ export default function AboutPage() {
 
       {/* BUILT BY */}
       <section className="space-y-3">
-        <h2 className={sectionHeader}>Built By</h2>
+        <h2 className={sectionHeader}><T k="built_by_header" /></h2>
         <p className="text-sm leading-relaxed text-zinc-400">
           TheJacket is an independent civic project built by a Chicago-based developer and researcher.
           Not affiliated with any campaign, party, PAC, or outside organization. No outside funding.

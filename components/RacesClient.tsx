@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { useLanguage } from "@/lib/i18n";
+import { translations } from "@/lib/translations";
 
 const OFFICE_EXPLAINERS: Record<string, string> = {
   "U.S. Senate": "Represents all of Illinois in Washington. One of the most powerful offices on the ballot.",
@@ -197,6 +199,8 @@ function DistrictFinder() {
 
 export default function RacesClient({ races }: { races: RaceData[] }) {
   const [partyFilter, setPartyFilter] = useState("All");
+  const { lang } = useLanguage();
+  const d = translations[lang];
 
   const availableParties = ["All", ...Array.from(new Set(races.map((r) => r.party))).sort(
     (a, b) => (partyOrder[a] ?? 9) - (partyOrder[b] ?? 9)
@@ -215,9 +219,9 @@ export default function RacesClient({ races }: { races: RaceData[] }) {
   return (
     <div className="space-y-10">
       <div>
-        <h1 className="font-mono text-4xl uppercase tracking-tight">All Races</h1>
+        <h1 className="font-mono text-4xl uppercase tracking-tight">{d.all_races_title}</h1>
         <p className="mt-2 text-sm text-zinc-500">
-          Every primary on the March 17 Illinois ballot — all parties.
+          {d.all_races_desc}
         </p>
       </div>
 
@@ -226,7 +230,7 @@ export default function RacesClient({ races }: { races: RaceData[] }) {
 
       {/* Party filter pills */}
       <div className="flex flex-wrap items-center gap-2">
-        <span className="mr-1 font-mono text-[10px] uppercase tracking-widest text-zinc-600">Show:</span>
+        <span className="mr-1 font-mono text-[10px] uppercase tracking-widest text-zinc-600">{d.show_label}</span>
         {availableParties.map((p) => (
           <button key={p} onClick={() => setPartyFilter(p)} className={partyFilterClass(p, partyFilter === p)}>
             {p}
@@ -236,7 +240,7 @@ export default function RacesClient({ races }: { races: RaceData[] }) {
 
       {groups.federal.length > 0 && (
         <section>
-          <h2 className="mb-4 font-mono text-sm uppercase tracking-widest text-jacket-amber">Federal</h2>
+          <h2 className="mb-4 font-mono text-sm uppercase tracking-widest text-jacket-amber">{d.federal_label}</h2>
           <div className="grid gap-3 md:grid-cols-2">
             {groups.federal.map((g) => <SeatGroupBlock key={g.seat} group={g} />)}
           </div>
@@ -245,7 +249,7 @@ export default function RacesClient({ races }: { races: RaceData[] }) {
 
       {groups.statewide.length > 0 && (
         <section>
-          <h2 className="mb-4 font-mono text-sm uppercase tracking-widest text-jacket-amber">Statewide — Illinois</h2>
+          <h2 className="mb-4 font-mono text-sm uppercase tracking-widest text-jacket-amber">{d.statewide_illinois_label}</h2>
           <div className="grid gap-3 md:grid-cols-2">
             {groups.statewide.map((g) => <SeatGroupBlock key={g.seat} group={g} />)}
           </div>
@@ -254,7 +258,7 @@ export default function RacesClient({ races }: { races: RaceData[] }) {
 
       {groups.county.length > 0 && (
         <section>
-          <h2 className="mb-4 font-mono text-sm uppercase tracking-widest text-jacket-amber">Cook County</h2>
+          <h2 className="mb-4 font-mono text-sm uppercase tracking-widest text-jacket-amber">{d.cook_county_label}</h2>
           <div className="grid gap-3 md:grid-cols-2">
             {groups.county.map((g) => <SeatGroupBlock key={g.seat} group={g} />)}
           </div>
@@ -262,7 +266,7 @@ export default function RacesClient({ races }: { races: RaceData[] }) {
       )}
 
       {filtered.length === 0 && (
-        <p className="font-mono text-sm text-zinc-600">No races match this filter.</p>
+        <p className="font-mono text-sm text-zinc-600">{d.no_races_match}</p>
       )}
     </div>
   );

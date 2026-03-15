@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import MoneyAmount from "@/components/MoneyAmount";
+import ShareButton from "@/components/ShareButton";
 import { getCandidatesByRaceId, getRaceBySlug, getRaces } from "@/lib/data";
 
 export function generateStaticParams() {
@@ -25,9 +26,12 @@ export default function RacePage({ params }: { params: { slug: string } }) {
     <div className="space-y-6">
       <section className="space-y-4">
         <h1 className="font-mono text-4xl uppercase tracking-tight md:text-6xl">{race.title}</h1>
-        <span className="inline-block rounded-full bg-jacket-amber/20 px-3 py-1 font-mono text-xs uppercase tracking-widest text-jacket-amber">
-          {race.jurisdiction}
-        </span>
+        <div className="flex flex-wrap items-center gap-3">
+          <span className="inline-block rounded-full bg-jacket-amber/20 px-3 py-1 font-mono text-xs uppercase tracking-widest text-jacket-amber">
+            {race.jurisdiction}
+          </span>
+          <ShareButton />
+        </div>
         <p className="max-w-4xl border-l-2 border-jacket-amber pl-4 text-zinc-300">{race.description}</p>
       </section>
 
