@@ -4,8 +4,8 @@
   "party": "Democratic",
   "office": "Illinois Attorney General",
   "race_id": "il-attorney-general-d-2026",
-  "bio": "Kwame Raoul (born September 30, 1964 in Chicago) is the 42nd Attorney General of Illinois, serving since January 14, 2019. The son of Haitian immigrant parents, he grew up in the Hyde Park/Kenwood neighborhood on Chicago's South Side, earning a B.A. in political science from DePaul University (1987) and a J.D. from Chicago-Kent College of Law at Illinois Institute of Technology (1993). He served 14 years in the Illinois State Senate (2004\u20132019), representing the 13th district after being appointed to fill Barack Obama's vacated seat. As AG, Raoul has led multistate coalitions against the Trump administration, secured approximately $1.4 billion in Illinois opioid settlement funds, won a $120 million settlement from Monsanto over PCB contamination, and defended Illinois' assault weapons ban in federal court. He is running for a third term in 2026 against Republican challenger Robert Fioretti.",
-  "prior_office": "Illinois State Senator, 13th District (2004\u20132019)",
+  "bio": "Kwame Raoul (born September 30, 1964 in Chicago) is the 42nd Attorney General of Illinois, serving since January 14, 2019. The son of Haitian immigrant parents, he grew up in the Hyde Park/Kenwood neighborhood on Chicago's South Side, earning a B.A. in political science from DePaul University (1987) and a J.D. from Chicago-Kent College of Law at Illinois Institute of Technology (1993). He served 14 years in the Illinois State Senate (2004–2019), representing the 13th district after being appointed to fill Barack Obama's vacated seat. As AG, Raoul has led multistate coalitions against the Trump administration, secured approximately $1.4 billion in Illinois opioid settlement funds, won a $120 million settlement from Monsanto over PCB contamination, and defended Illinois' assault weapons ban in federal court. He is running for a third term in 2026 against Republican challenger Robert Fioretti.",
+  "prior_office": "Illinois State Senator, 13th District (2004–2019)",
   "website": "https://kwameraoul.com",
   "photo_url": null,
   "jacket": {
@@ -219,7 +219,7 @@
     },
     {
       "type": "enforcement_gap",
-      "label": "Gun manufacturer license revocation \u2014 singular action vs. systemic pattern",
+      "label": "Gun manufacturer license revocation — singular action vs. systemic pattern",
       "detail": "Raoul's campaign highlights suing to revoke the license of a single 'rogue gun manufacturer' (unnamed in public releases) as his main enforcement action against gun makers. Critics and gun-control advocates note this is a narrow action relative to the scale of illegal gun trafficking in Chicago, and that no major manufacturer has faced state enforcement action.",
       "source": "https://kwameraoul.com/ontheissues/",
       "confirmed": false
@@ -234,7 +234,7 @@
   ],
   "key_votes": [
     {
-      "bill": "SB 2535 \u2014 Illinois Death Penalty Abolition Act (2011)",
+      "bill": "SB 2535 — Illinois Death Penalty Abolition Act (2011)",
       "vote": "Chief Senate Sponsor",
       "summary": "Raoul was the primary Senate sponsor of legislation abolishing the death penalty in Illinois. Gov. Pat Quinn signed it March 9, 2011. Illinois became the 16th state to abolish capital punishment. Raoul cited wrongful conviction rates: 'Only Florida has had more people sent to death row for crimes they did not commit.'",
       "source": "https://www.injusticewatch.org/archive/2021/illinois-death-penalty-abolition/"
@@ -248,7 +248,7 @@
     {
       "bill": "Private firearm transfer background check legislation",
       "vote": "Sponsor/Champion",
-      "summary": "As state senator, Raoul championed and passed legislation requiring background checks for private firearm transfers in Illinois \u2014 one of the first such state-level universal background check laws.",
+      "summary": "As state senator, Raoul championed and passed legislation requiring background checks for private firearm transfers in Illinois — one of the first such state-level universal background check laws.",
       "source": "https://www.congress.gov/116/meeting/house/109282/witnesses/HHRG-116-AP07-Bio-RaoulK-20190409.pdf"
     },
     {
@@ -265,15 +265,60 @@
     }
   ],
   "endorsements": [
-    "Chicago Teachers Union (CTU) \u2014 endorsed for 2018 AG race; not on CTU's 2026 primary slate (CTU endorsed no AG candidate in 2026)",
-    "Cook County Democratic Party \u2014 endorsed for prior cycles",
-    "DAGA (Democratic Attorneys General Association) \u2014 People's Lawyer Project Illinois Super PAC active in support ($262,774)"
+    {
+      "name": "Illinois AFL-CIO",
+      "type": "union",
+      "confirmed": true,
+      "source": "https://www.ilaflcio.org/wp-content/uploads/2025/12/IL-AFL-CIO-endorsements-120925.pdf"
+    },
+    {
+      "name": "Democratic Party of Illinois",
+      "type": "political",
+      "confirmed": true,
+      "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/"
+    },
+    {
+      "name": "DAGA (Democratic Attorneys General Association) — People's Lawyer Project Illinois Super PAC",
+      "type": "political",
+      "confirmed": true,
+      "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/"
+    },
+    {
+      "name": "Illinois Federation of Teachers COPE (major donor and consistent backer)",
+      "type": "union",
+      "confirmed": true,
+      "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/"
+    },
+    {
+      "name": "SEIU Illinois Council PAC Fund (major donor and consistent backer)",
+      "type": "union",
+      "confirmed": true,
+      "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/"
+    },
+    {
+      "name": "LiUNA Chicago Laborers' District Council (major donor)",
+      "type": "union",
+      "confirmed": true,
+      "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/"
+    },
+    {
+      "name": "Illinois Laborers' Legislative Committee (major donor)",
+      "type": "union",
+      "confirmed": true,
+      "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/"
+    },
+    {
+      "name": "Friends of Don Harmon (IL Senate President)",
+      "type": "political",
+      "confirmed": true,
+      "source": "https://illinoissunshine.org/committees/raoul-for-illinois-18261/"
+    }
   ],
   "policy_positions": [
     "Defending Illinois assault weapons ban (Protect Illinois Communities Act) in federal court against Second Amendment challenges",
-    "Leading multistate coalition as NAAG Co-Chair against Trump administration executive orders \u2014 includes birthright citizenship ban (preliminary injunction won), NIH research grant cuts, federal spending freeze, DOGE data access",
+    "Leading multistate coalition as NAAG Co-Chair against Trump administration executive orders — includes birthright citizenship ban (preliminary injunction won), NIH research grant cuts, federal spending freeze, DOGE data access",
     "Expanding Firearms Industry Responsibility Act (holding gun industry accountable under consumer protection law, signed 2024)",
-    "Protecting reproductive rights post-Dobbs \u2014 defending Illinois Patient and Provider Protection Act, refusing out-of-state subpoenas for patient records",
+    "Protecting reproductive rights post-Dobbs — defending Illinois Patient and Provider Protection Act, refusing out-of-state subpoenas for patient records",
     "Worker Protection Unit prosecuting wage theft, misclassification, and workplace discrimination statewide",
     "Defending SAFE-T Act (cashless bail) constitutionality in court"
   ],
@@ -281,13 +326,13 @@
     {
       "role": "Attorney General",
       "org": "State of Illinois",
-      "years": "2019\u2013present",
-      "highlight": "Led multistate opioid litigation securing ~$1.4B for Illinois; $120M Monsanto PCB settlement (Dec 2025); $391M Google location-tracking settlement; defended Illinois assault weapons ban; co-chairs NAAG coordination against Trump administration (2025\u20132026)"
+      "years": "2019–present",
+      "highlight": "Led multistate opioid litigation securing ~$1.4B for Illinois; $120M Monsanto PCB settlement (Dec 2025); $391M Google location-tracking settlement; defended Illinois assault weapons ban; co-chairs NAAG coordination against Trump administration (2025–2026)"
     },
     {
       "role": "State Senator, 13th District",
       "org": "Illinois General Assembly",
-      "years": "2004\u20132019",
+      "years": "2004–2019",
       "highlight": "Appointed Nov. 6, 2004 to fill Barack Obama's vacated seat by Democratic party committeemen. Chaired Senate Judiciary Committee and Redistricting Committee. Sponsored death penalty abolition (2011), Illinois Voting Rights Act, universal background checks for firearm transfers, early voting expansion, Torture Inquiry Commission"
     },
     {
@@ -305,7 +350,7 @@
     {
       "role": "Assistant State's Attorney",
       "org": "Cook County State's Attorney's Office, Criminal Appeals Division",
-      "years": "1993\u20131995",
+      "years": "1993–1995",
       "highlight": "Managed appellate criminal litigation under State's Attorney Jack O'Malley"
     }
   ],
@@ -317,7 +362,7 @@
     },
     {
       "label": "Monsanto PCB settlement",
-      "value": "$120 million (December 2025) \u2014 sued in 2022, resolved after decades of PCB contamination at Sauget, IL plant affecting Chicago and suburbs",
+      "value": "$120 million (December 2025) — sued in 2022, resolved after decades of PCB contamination at Sauget, IL plant affecting Chicago and suburbs",
       "type": "positive"
     },
     {
@@ -331,7 +376,7 @@
       "type": "positive"
     },
     {
-      "label": "Birthright citizenship \u2014 injunction won",
+      "label": "Birthright citizenship — injunction won",
       "value": "Led multistate lawsuit; federal court issued nationwide preliminary injunction blocking Trump executive order redefining birthright citizenship before it took effect (Jan 2025)",
       "type": "positive"
     },
@@ -347,7 +392,7 @@
     },
     {
       "label": "Death penalty abolition sponsor",
-      "value": "Chief Senate sponsor of 2011 law abolishing Illinois death penalty \u2014 signed by Gov. Quinn",
+      "value": "Chief Senate sponsor of 2011 law abolishing Illinois death penalty — signed by Gov. Quinn",
       "type": "positive"
     }
   ],

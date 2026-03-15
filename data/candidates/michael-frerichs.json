@@ -4,8 +4,8 @@
   "party": "Democratic",
   "office": "Illinois Treasurer",
   "race_id": "il-treasurer-d-2026",
-  "bio": "Michael W. Frerichs (born July 28, 1973 in Gifford, Illinois, pop. ~1,000) is the 74th Illinois State Treasurer, serving since January 12, 2015 and currently in his third term. The son of a Teamster truck driver and an AFSCME-member university secretary, he graduated from Yale University (B.A., 1995), then spent two years in Taiwan teaching English and studying Mandarin at National Cheng Kung University. He returned to Champaign County, founded a technology business, served as a volunteer firefighter, and was elected Champaign County Auditor (2002\u20132007) before serving in the Illinois State Senate (2007\u20132015, 52nd District). As Treasurer, he manages approximately $60 billion in state investments, has returned more than $2.4 billion in unclaimed property through the I-Cash program, transformed the Bright Start 529 plan from lowest-rated to Morningstar Gold five years running, and launched Illinois Secure Choice for 1.2 million private-sector workers without retirement access. He is running for a fourth term in 2026 with no Republican challenger \u2014 the first time in over 90 years a major party failed to file a candidate for a statewide Illinois office.",
-  "prior_office": "Illinois State Senator, 52nd District (2007\u20132015); Champaign County Auditor (2002\u20132007)",
+  "bio": "Michael W. Frerichs (born July 28, 1973 in Gifford, Illinois, pop. ~1,000) is the 74th Illinois State Treasurer, serving since January 12, 2015 and currently in his third term. The son of a Teamster truck driver and an AFSCME-member university secretary, he graduated from Yale University (B.A., 1995), then spent two years in Taiwan teaching English and studying Mandarin at National Cheng Kung University. He returned to Champaign County, founded a technology business, served as a volunteer firefighter, and was elected Champaign County Auditor (2002–2007) before serving in the Illinois State Senate (2007–2015, 52nd District). As Treasurer, he manages approximately $60 billion in state investments, has returned more than $2.4 billion in unclaimed property through the I-Cash program, transformed the Bright Start 529 plan from lowest-rated to Morningstar Gold five years running, and launched Illinois Secure Choice for 1.2 million private-sector workers without retirement access. He is running for a fourth term in 2026 with no Republican challenger — the first time in over 90 years a major party failed to file a candidate for a statewide Illinois office.",
+  "prior_office": "Illinois State Senator, 52nd District (2007–2015); Champaign County Auditor (2002–2007)",
   "website": "https://mikeforillinois.com",
   "photo_url": null,
   "jacket": {
@@ -13,7 +13,7 @@
     "pac_support_total": null,
     "data_date": "2026-03-14",
     "source": "https://illinoissunshine.org/committees/friends-of-frerichs-14111/",
-    "note": "ILSBE Dec 31, 2025 quarterly report: $1,398,007.10 cash on hand. $0 in new contributions since Dec 31, 2025 \u2014 consistent with uncontested race. $0 debts. Top donors are Illinois labor unions and Democratic Party organizations. Running for 4th term uncontested (no Republican filed, 2026). Campaign finance is robust but has gone dormant as expected with no competition.",
+    "note": "ILSBE Dec 31, 2025 quarterly report: $1,398,007.10 cash on hand. $0 in new contributions since Dec 31, 2025 — consistent with uncontested race. $0 debts. Top donors are Illinois labor unions and Democratic Party organizations. Running for 4th term uncontested (no Republican filed, 2026). Campaign finance is robust but has gone dormant as expected with no competition.",
     "donors": [
       {
         "name": "Illinois Senate Democratic Fund",
@@ -86,7 +86,7 @@
         "confirmed": true
       },
       {
-        "name": "Illinois Political Action Committee for Education (IPACE) \u2014 2025",
+        "name": "Illinois Political Action Committee for Education (IPACE) — 2025",
         "amount": 147700.0,
         "category": "labor-pac",
         "source": "https://illinoissunshine.org/committees/friends-of-frerichs-14111/",
@@ -198,7 +198,7 @@
   "red_flags": [
     {
       "type": "accountability_gap",
-      "label": "Running effectively unopposed \u2014 no major-party challenger for fourth term",
+      "label": "Running effectively unopposed — no major-party challenger for fourth term",
       "detail": "No Republican candidate filed for the 2026 Illinois Treasurer race, making it the first time in over 90 years a major party failed to file for a statewide Illinois office. Frerichs also considered running for U.S. Senate (to replace Dick Durbin) before choosing the uncontested Treasurer race. Running without meaningful opposition reduces public accountability for a $60 billion portfolio.",
       "source": "https://en.wikipedia.org/wiki/2026_Illinois_State_Treasurer_election",
       "confirmed": true
@@ -212,14 +212,14 @@
     },
     {
       "type": "investment_controversy",
-      "label": "ISBI fossil fuel and weapons holdings \u2014 activist criticism ongoing",
+      "label": "ISBI fossil fuel and weapons holdings — activist criticism ongoing",
       "detail": "A Public I (Urbana-Champaign Independent Media Center) report from August 2025 documented that organizations representing Champaign-area groups traveled to Chicago's quarterly Illinois State Board of Investment meeting to demand divestment from fossil fuel and weapons-related holdings. Frerichs serves as ISBI vice-chair. Activists called state investments 'unpopular and immoral.' Frerichs has not committed to divestment, citing fiduciary duty.",
       "source": "https://publici.ucimc.org/2025/08/state-treasurer-frerichs-investments-are-unpopular-and-immoral/",
       "confirmed": false
     },
     {
       "type": "governance",
-      "label": "Sole fiduciary model criticism \u2014 political and financial roles not fully separated",
+      "label": "Sole fiduciary model criticism — political and financial roles not fully separated",
       "detail": "A March 2024 Top1000funds.com analysis noted Frerichs 'bats away criticism that the sole fiduciary model is outdated,' arguing it is 'possible to wear a fiduciary and political hat.' Critics argue that a single elected official controlling $60 billion in state investments with no independent investment board creates structural accountability risks, especially when that official faces no electoral competition.",
       "source": "https://www.top1000funds.com/2024/03/96219/",
       "confirmed": false
@@ -234,20 +234,20 @@
   ],
   "key_votes": [
     {
-      "bill": "Legislative Scholarship Program Elimination (Illinois Senate, ~2011\u20132013)",
+      "bill": "Legislative Scholarship Program Elimination (Illinois Senate, ~2011–2013)",
       "vote": "Champion/Lead sponsor",
-      "summary": "Frerichs led successful efforts to eliminate Illinois' legislative scholarship program, under which legislators gave free public university tuition to constituents \u2014 widely criticized as a patronage tool.",
+      "summary": "Frerichs led successful efforts to eliminate Illinois' legislative scholarship program, under which legislators gave free public university tuition to constituents — widely criticized as a patronage tool.",
       "source": "https://en.wikipedia.org/wiki/Mike_Frerichs"
     },
     {
-      "bill": "Hydraulic Fracturing Chemical Disclosure (Illinois Senate, ~2012\u20132013)",
+      "bill": "Hydraulic Fracturing Chemical Disclosure (Illinois Senate, ~2012–2013)",
       "vote": "Advocate",
       "summary": "Frerichs advocated for disclosure requirements for chemicals used in hydraulic fracturing ('fracking') in Illinois, seeking public transparency on environmental impacts.",
       "source": "https://en.wikipedia.org/wiki/Mike_Frerichs"
     },
     {
       "bill": "Blagojevich lifetime ban from Illinois office (Illinois Senate, 2009)",
-      "vote": "Motion author \u2014 passed unanimously",
+      "vote": "Motion author — passed unanimously",
       "summary": "After Gov. Rod Blagojevich was removed for corruption, Frerichs moved to have Blagojevich barred from ever holding office again in Illinois. The motion was carried unanimously by the Senate.",
       "source": "https://en.wikipedia.org/wiki/Mike_Frerichs"
     },
@@ -265,10 +265,60 @@
     }
   ],
   "endorsements": [
-    "Cook County Democratic Party \u2014 slated for 2026 primary (July 2025)",
-    "Citizens Action Illinois \u2014 endorsed for 2026",
-    "Illinois AFL-CIO \u2014 2026 primary endorsements (per Politico/Wikipedia footnote, December 2025)",
-    "Illinois FOP (Fraternal Order of Police) \u2014 listed in 2026 primary endorsements (per Politico/Wikipedia footnote, January 2026)"
+    {
+      "name": "Illinois AFL-CIO",
+      "type": "union",
+      "confirmed": true,
+      "source": "https://www.ilaflcio.org/wp-content/uploads/2025/12/IL-AFL-CIO-endorsements-120925.pdf"
+    },
+    {
+      "name": "Cook County Democratic Party (slated July 2025)",
+      "type": "political",
+      "confirmed": true,
+      "source": "https://en.wikipedia.org/wiki/2026_Illinois_State_Treasurer_election"
+    },
+    {
+      "name": "Citizens Action Illinois",
+      "type": "civic",
+      "confirmed": true,
+      "source": "https://en.wikipedia.org/wiki/2026_Illinois_State_Treasurer_election"
+    },
+    {
+      "name": "Illinois FOP (Fraternal Order of Police)",
+      "type": "civic",
+      "confirmed": false,
+      "source": "https://en.wikipedia.org/wiki/2026_Illinois_State_Treasurer_election"
+    },
+    {
+      "name": "Illinois Federation of Teachers COPE (major donor)",
+      "type": "union",
+      "confirmed": true,
+      "source": "https://illinoissunshine.org/committees/friends-of-frerichs-14111/"
+    },
+    {
+      "name": "SEIU Illinois Council PAC Fund (major donor)",
+      "type": "union",
+      "confirmed": true,
+      "source": "https://illinoissunshine.org/committees/friends-of-frerichs-14111/"
+    },
+    {
+      "name": "Illinois Laborers' Legislative Committee (major donor)",
+      "type": "union",
+      "confirmed": true,
+      "source": "https://illinoissunshine.org/committees/friends-of-frerichs-14111/"
+    },
+    {
+      "name": "Associated Fire Fighters of Illinois PAC Fund (major donor)",
+      "type": "union",
+      "confirmed": true,
+      "source": "https://illinoissunshine.org/committees/friends-of-frerichs-14111/"
+    },
+    {
+      "name": "Democratic Party of Illinois (major donor)",
+      "type": "political",
+      "confirmed": true,
+      "source": "https://illinoissunshine.org/committees/friends-of-frerichs-14111/"
+    }
   ],
   "policy_positions": [
     "I-Cash unclaimed property program: continuing to return unclaimed property; total returned exceeds $2.4 billion as of 2025",
@@ -282,37 +332,37 @@
     {
       "role": "Illinois State Treasurer (74th)",
       "org": "State of Illinois",
-      "years": "2015\u2013present",
+      "years": "2015–present",
       "highlight": "Manages ~$60B portfolio; returned $2.4B+ in unclaimed property via I-Cash; transformed Bright Start 529 to Morningstar Gold (5 consecutive years); launched Illinois Secure Choice (2018); elected president of NASACT (2022) and NAST (2023); serves as vice-chair of Illinois State Board of Investment (~$26B pension assets)"
     },
     {
       "role": "Illinois State Senator, 52nd District",
       "org": "Illinois General Assembly",
-      "years": "2007\u20132015",
+      "years": "2007–2015",
       "highlight": "First Democrat to represent east-central Illinois since 1936. Chaired Senate Higher Education Committee and Agriculture & Conservation Committee. Eliminated legislative scholarship program; pushed fracking disclosure; moved to bar Blagojevich from office (passed unanimously)"
     },
     {
       "role": "Champaign County Auditor",
       "org": "Champaign County, Illinois",
-      "years": "2002\u20132007",
-      "highlight": "Appointed by county board then elected. Became Certified Public Finance Officer \u2014 only county auditor in Illinois with that credential at the time"
+      "years": "2002–2007",
+      "highlight": "Appointed by county board then elected. Became Certified Public Finance Officer — only county auditor in Illinois with that credential at the time"
     },
     {
       "role": "Champaign County Board Member",
       "org": "Champaign County, Illinois",
-      "years": "2000\u20132002",
+      "years": "2000–2002",
       "highlight": "Elected to county board 2000, re-elected 2002"
     },
     {
       "role": "Technology entrepreneur",
       "org": "Smart Structures LLC (and own firm)",
-      "years": "1997\u20132002",
+      "years": "1997–2002",
       "highlight": "Founded technology business in Champaign County after returning from Taiwan; also ran safety engineering firm for civil structures in US and China"
     },
     {
       "role": "English teacher / Mandarin student",
       "org": "National Cheng Kung University, Tainan, Taiwan",
-      "years": "1995\u20131997",
+      "years": "1995–1997",
       "highlight": "Taught English to students, studied Mandarin Chinese. Speaks Mandarin."
     }
   ],
@@ -328,12 +378,12 @@
       "type": "positive"
     },
     {
-      "label": "Bright Start 529 \u2014 Morningstar Gold rating",
+      "label": "Bright Start 529 — Morningstar Gold rating",
       "value": "Five consecutive Morningstar Gold ratings (top category); Frerichs took program 'from worst to among the nation's best' by reducing fees and expanding investment options",
       "type": "positive"
     },
     {
-      "label": "No Republican challenger filed \u2014 2026",
+      "label": "No Republican challenger filed — 2026",
       "value": "First time in 90+ years a major party had no primary filer for a statewide Illinois office; Frerichs effectively guaranteed a fourth term with no competitive race",
       "type": "negative"
     },
@@ -348,7 +398,7 @@
       "type": "negative"
     },
     {
-      "label": "NASACT and NAST president \u2014 bipartisan",
+      "label": "NASACT and NAST president — bipartisan",
       "value": "Unanimously elected president of National Association of State Auditors, Comptrollers, and Treasurers (2022) and National Association of State Treasurers (2023) by bipartisan peer groups",
       "type": "positive"
     }
