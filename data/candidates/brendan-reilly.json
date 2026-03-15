@@ -5,8 +5,8 @@
   "office": "Cook County Board President",
   "race_id": "cook-county-board-president-d-2026",
   "incumbent": false,
-  "bio": "Brendan Reilly (born December 26, 1971) is the Chicago 42nd Ward Alderman, representing the Loop, River North, and Streeterville — home to 90,000 residents and nearly 60% of Chicago's economic activity. He has held the seat since 2007, when he defeated 36-year incumbent Burton Natarus. He served as Vice Mayor of Chicago from 2015–2019, elected to that position by the City Council. Reilly is challenging incumbent Toni Preckwinkle in the March 17, 2026 Democratic primary for Cook County Board President. His campaign themes are fiscal accountability, return-on-investment governance, transparency, and anti-corruption. He successfully led the charge to defeat Mayor Brandon Johnson's $300M property tax increase in 2024. The Chicago Tribune editorial board endorsed Reilly over Preckwinkle on January 31, 2026. He is widely viewed as the business and real estate community's candidate, with major real estate developers and Loop business owners forming his donor base. Preckwinkle has broad labor union support (Chicago Federation of Labor, Operating Engineers) and a $150K donation from Governor Pritzker.",
-  "prior_office": "Chicago 42nd Ward Alderman (2007–present); Vice Mayor of Chicago (2015–2019)",
+  "bio": "Brendan Reilly (born December 26, 1971) is the Chicago 42nd Ward Alderman, representing the Loop, River North, and Streeterville \u2014 home to 90,000 residents and nearly 60% of Chicago's economic activity. He has held the seat since 2007, when he defeated 36-year incumbent Burton Natarus. He served as Vice Mayor of Chicago from 2015\u20132019, elected to that position by the City Council. Reilly is challenging incumbent Toni Preckwinkle in the March 17, 2026 Democratic primary for Cook County Board President. His campaign themes are fiscal accountability, return-on-investment governance, transparency, and anti-corruption. He successfully led the charge to defeat Mayor Brandon Johnson's $300M property tax increase in 2024. The Chicago Tribune editorial board endorsed Reilly over Preckwinkle on January 31, 2026. He is widely viewed as the business and real estate community's candidate, with major real estate developers and Loop business owners forming his donor base. Preckwinkle has broad labor union support (Chicago Federation of Labor, Operating Engineers) and a $150K donation from Governor Pritzker.",
+  "prior_office": "Chicago 42nd Ward Alderman (2007\u2013present); Vice Mayor of Chicago (2015\u20132019)",
   "website": "https://www.reillyforcookcounty.com/",
   "photo_url": null,
   "jacket": {
@@ -14,7 +14,7 @@
     "cash_on_hand": 1200000,
     "data_date": "2026-03-14",
     "source": "https://therealdeal.com/chicago/2026/02/17/chicago-real-estate-kingpins-bankroll-reillys-challenge-to-preckwinkle-in-cook-county-board-president-primary/",
-    "note": "Per The Real Deal (Feb 17, 2026): $1.2M+ cash on hand entering 2026; raised at least $609K since Jan 1, 2026. ILSBE committee not yet confirmed — figures sourced from state campaign finance reports via Real Deal reporting. Dominant donors are Loop/River North real estate developers. See donors list for named contributors.",
+    "note": "Per The Real Deal (Feb 17, 2026): $1.2M+ cash on hand entering 2026; raised at least $609K since Jan 1, 2026. ILSBE committee not yet confirmed \u2014 figures sourced from state campaign finance reports via Real Deal reporting. Dominant donors are Loop/River North real estate developers. See donors list for named contributors.",
     "fec_id": null,
     "ilsbe_id": null,
     "donors": [
@@ -100,8 +100,8 @@
   "red_flags": [
     {
       "type": "donor-network",
-      "label": "Real Estate Developer Donor Network — Loop & River North Kingpins",
-      "detail": "Reilly's campaign is bankrolled predominantly by the Chicago real estate development community — the same industry that stands to benefit from Cook County property tax, zoning, and land-use policy. Donors include Neil Bluhm family ($51K combined), Alexander Pissios ($50K), Riverside Investment, Waterton, Equity Commonwealth, and DRW. As 42nd Ward alderman, Reilly oversees the Loop and River North — the heart of Chicago commercial real estate. The overlap between his donor class and regulated industry raises pay-to-play concerns.",
+      "label": "Real Estate Developer Donor Network \u2014 Loop & River North Kingpins",
+      "detail": "Reilly's campaign is bankrolled predominantly by the Chicago real estate development community \u2014 the same industry that stands to benefit from Cook County property tax, zoning, and land-use policy. Donors include Neil Bluhm family ($51K combined), Alexander Pissios ($50K), Riverside Investment, Waterton, Equity Commonwealth, and DRW. As 42nd Ward alderman, Reilly oversees the Loop and River North \u2014 the heart of Chicago commercial real estate. The overlap between his donor class and regulated industry raises pay-to-play concerns.",
       "source": "https://therealdeal.com/chicago/2026/02/17/chicago-real-estate-kingpins-bankroll-reillys-challenge-to-preckwinkle-in-cook-county-board-president-primary/",
       "confirmed": true
     }
@@ -109,7 +109,7 @@
   "key_votes": [
     {
       "bill": "Mayor Johnson $300M Property Tax Increase (2024)",
-      "vote": "NO — Led opposition",
+      "vote": "NO \u2014 Led opposition",
       "summary": "Reilly led the successful City Council charge to defeat Mayor Brandon Johnson's $300M property tax increase proposal in 2024, protecting residents and his real estate donor base from a major tax hike.",
       "source": "https://www.reillyforcookcounty.com/about"
     }
@@ -140,13 +140,13 @@
     {
       "role": "Chicago 42nd Ward Alderman",
       "org": "Chicago City Council",
-      "years": "2007–present",
-      "highlight": "Defeated 36-year incumbent Burton Natarus in 2007; represents Loop, River North, Streeterville — ~60% of Chicago's economic activity."
+      "years": "2007\u2013present",
+      "highlight": "Defeated 36-year incumbent Burton Natarus in 2007; represents Loop, River North, Streeterville \u2014 ~60% of Chicago's economic activity."
     },
     {
       "role": "Vice Mayor of Chicago",
       "org": "Chicago City Council",
-      "years": "2015–2019",
+      "years": "2015\u20132019",
       "highlight": "Elected Vice Mayor by Chicago City Council peers."
     }
   ],
@@ -161,7 +161,6 @@
     "https://en.wikipedia.org/wiki/Brendan_Reilly_(politician)",
     "https://abc7chicago.com/post/chicago-alderman-brendan-reilly-challenge-cook-county-board-president-toni-preckwinkle-primary/17786951/"
   ],
-  "photo_url": null,
   "trust_indicators": [
     {
       "label": "Chicago Tribune Endorsement",
@@ -170,7 +169,7 @@
     },
     {
       "label": "Real Estate Developer Donor Concentration",
-      "value": "High — Loop/River North developers dominate donor list",
+      "value": "High \u2014 Loop/River North developers dominate donor list",
       "type": "negative"
     }
   ],
@@ -186,7 +185,7 @@
     },
     {
       "headline": "Real estate kingpins bankroll Reilly's challenge to Preckwinkle",
-      "summary": "The Real Deal reports Chicago's top real estate developers — Neil Bluhm family ($51K), Alexander Pissios ($50K), DRW's Don Wilson, Waterton CEO David Schwartz — are the financial backbone of Reilly's campaign, raising pay-to-play concerns given his Loop/River North jurisdiction.",
+      "summary": "The Real Deal reports Chicago's top real estate developers \u2014 Neil Bluhm family ($51K), Alexander Pissios ($50K), DRW's Don Wilson, Waterton CEO David Schwartz \u2014 are the financial backbone of Reilly's campaign, raising pay-to-play concerns given his Loop/River North jurisdiction.",
       "url": "https://therealdeal.com/chicago/2026/02/17/chicago-real-estate-kingpins-bankroll-reillys-challenge-to-preckwinkle-in-cook-county-board-president-primary/",
       "date": "2026-02-17",
       "severity": "high",
@@ -199,6 +198,17 @@
       "date": "2026-03-11",
       "severity": "medium",
       "source_name": "Chicago Magazine"
+    },
+    {
+      "headline": "Here are 8 races to watch in the 2026 Illinois primary election",
+      "title": "Here are 8 races to watch in the 2026 Illinois primary election",
+      "summary": "NBC Chicago includes the Cook County Board President race in its final pre-primary watch list. Notes Reilly's challenge to Preckwinkle on fiscal accountability and property tax reform, as well as his Chicago Tribune endorsement.",
+      "url": "https://www.nbcchicago.com/news/local/chicago-politics/these-are-8-races-to-watch-in-the-2026-illinois-primary-election-2/3908065/",
+      "date": "2026-03-14",
+      "severity": "medium",
+      "source": "NBC Chicago",
+      "source_name": "NBC Chicago",
+      "sentiment": "neutral"
     }
   ],
   "transparency_score": {

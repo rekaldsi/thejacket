@@ -318,5 +318,18 @@
     "red_flags_count": 0,
     "computed_at": "2026-03-14",
     "notes": "Strong platform completeness and clean public record. Financial transparency grade limited by unavailability of ISBE/OpenSecrets fundraising data. Two-term elected executive record confirmed."
-  }
+  },
+  "news_hits": [
+    {
+      "headline": "Primary election 2026: Illinois comptroller candidates Margaret Croke, Karina Villa, Holly Kim, Stephanie Kifowit appeal to voters",
+      "title": "Primary election 2026: Illinois comptroller candidates Margaret Croke, Karina Villa, Holly Kim, Stephanie Kifowit appeal to voters",
+      "summary": "ABC7 Chicago (Mar 6) profiles all four Democratic candidates for Illinois Comptroller ahead of the March 17 primary. Holly Kim, Lake County Treasurer, highlights her fiscal management background and anti-predatory lending work as key qualifications.",
+      "url": "https://abc7chicago.com/post/primary-election-2026-illinois-comptroller-candidates-margaret-croke-karina-villa-holly-kim-stephanie-kifowit-appeal-voters/18686085/",
+      "date": "2026-03-06",
+      "severity": "medium",
+      "source": "ABC7 Chicago",
+      "source_name": "ABC7 Chicago",
+      "sentiment": "neutral"
+    }
+  ]
 }

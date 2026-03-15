@@ -287,5 +287,29 @@
     }
   ],
   "transparency_grade": null,
-  "policy_platform": []
+  "policy_platform": [],
+  "news_hits": [
+    {
+      "headline": "Who is running for Illinois governor in the 2026 primary election? Full list of candidates",
+      "title": "Who is running for Illinois governor in the 2026 primary election? Full list of candidates",
+      "summary": "NBC Chicago (March 13) pre-primary overview notes Pritzker is running for re-election while simultaneously eyeing a potential 2028 presidential run. He faces no significant Democratic primary challenger and is the heavy general election favorite.",
+      "url": "https://www.nbcchicago.com/illinois-election-2026/who-is-running-for-illinois-governor-in-the-2026-primary-election-full-list-of-candidates/3906623/",
+      "date": "2026-03-13",
+      "severity": "low",
+      "source": "NBC Chicago",
+      "source_name": "NBC Chicago",
+      "sentiment": "neutral"
+    },
+    {
+      "headline": "A voter's guide to the confusing world of super PACs influencing 2026 Illinois primary races",
+      "title": "A voter's guide to the confusing world of super PACs influencing 2026 Illinois primary races",
+      "summary": "WBEZ (March 13) reports Pritzker has contributed $5M+ from his personal fortune to the pro-Stratton Senate super PAC, which has spent $11.8M total. Highlights his financial influence on the competitive Senate primary.",
+      "url": "https://www.wbez.org/government-politics/elections/2026/03/13/super-pacs-influence-2026-illinois-primary-races-glossary",
+      "date": "2026-03-13",
+      "severity": "medium",
+      "source": "WBEZ",
+      "source_name": "WBEZ",
+      "sentiment": "neutral"
+    }
+  ]
 }

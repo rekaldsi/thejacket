@@ -11,7 +11,7 @@
     "total_raised": 2792789,
     "data_date": "2026-03-13",
     "source": "https://www.illinoissunshine.org/committees/33897/",
-    "note": "County race — ILSBE filing, not FEC.",
+    "note": "County race \u2014 ILSBE filing, not FEC.",
     "donors": [
       {
         "name": "Fritz Kaegi (self)",
@@ -90,39 +90,39 @@
     {
       "type": "ethics",
       "label": "Both candidates accuse each other of accepting questionable donations (Fox32 Feb",
-      "detail": "Both candidates accuse each other of accepting questionable donations (Fox32 Feb 2026 — mutual accusations, neither substantiated)",
+      "detail": "Both candidates accuse each other of accepting questionable donations (Fox32 Feb 2026 \u2014 mutual accusations, neither substantiated)",
       "source": "https://www.fritzforassessor.com",
       "confirmed": false
     },
     {
       "type": "ethics",
       "label": "Hynes campaign argues Kaegi's data errors caused chaotic assessment appeals and ",
-      "detail": "Hynes campaign argues Kaegi's data errors caused chaotic assessment appeals and missed deadlines — contested claim",
+      "detail": "Hynes campaign argues Kaegi's data errors caused chaotic assessment appeals and missed deadlines \u2014 contested claim",
       "source": "https://www.fritzforassessor.com",
       "confirmed": false
     },
     {
       "type": "ethics",
-      "label": "Kaegi has loaned his own campaign $5.4M (debt obligation on ILSBE) — heavy self-",
-      "detail": "Kaegi has loaned his own campaign $5.4M (debt obligation on ILSBE) — heavy self-funding by a wealthy candidate",
+      "label": "Kaegi has loaned his own campaign $5.4M (debt obligation on ILSBE) \u2014 heavy self-",
+      "detail": "Kaegi has loaned his own campaign $5.4M (debt obligation on ILSBE) \u2014 heavy self-funding by a wealthy candidate",
       "source": "https://www.fritzforassessor.com",
       "confirmed": false
     },
     {
-      "label": "Both candidates accuse each other of accepting questionable donations (Fox32 Feb 2026 — mutual accusations, neither substantiated)"
+      "label": "Both candidates accuse each other of accepting questionable donations (Fox32 Feb 2026 \u2014 mutual accusations, neither substantiated)"
     },
     {
-      "label": "Hynes campaign argues Kaegi's data errors caused chaotic assessment appeals and missed deadlines — contested claim"
+      "label": "Hynes campaign argues Kaegi's data errors caused chaotic assessment appeals and missed deadlines \u2014 contested claim"
     },
     {
-      "label": "Kaegi has loaned his own campaign $5.4M (debt obligation on ILSBE) — heavy self-funding by a wealthy candidate"
+      "label": "Kaegi has loaned his own campaign $5.4M (debt obligation on ILSBE) \u2014 heavy self-funding by a wealthy candidate"
     }
   ],
   "key_votes": [
     {
-      "bill": "2018: Defeated incumbent Joseph Berrios (implicated in pay-to-play) — ran on tra",
+      "bill": "2018: Defeated incumbent Joseph Berrios (implicated in pay-to-play) \u2014 ran on tra",
       "vote": "record",
-      "summary": "2018: Defeated incumbent Joseph Berrios (implicated in pay-to-play) — ran on transparency/anti-corruption platform",
+      "summary": "2018: Defeated incumbent Joseph Berrios (implicated in pay-to-play) \u2014 ran on transparency/anti-corruption platform",
       "source": "https://www.fritzforassessor.com"
     },
     {
@@ -134,7 +134,7 @@
     {
       "bill": "2022: Survived primary challenge from Kari Steele (MWRD President) 53.8% to 46.2",
       "vote": "record",
-      "summary": "2022: Survived primary challenge from Kari Steele (MWRD President) 53.8% to 46.2% — contested race reflecting industry pushback",
+      "summary": "2022: Survived primary challenge from Kari Steele (MWRD President) 53.8% to 46.2% \u2014 contested race reflecting industry pushback",
       "source": "https://www.fritzforassessor.com"
     },
     {
@@ -162,13 +162,13 @@
     {
       "role": "Cook County Assessor",
       "org": "Cook County Assessor's Office",
-      "years": "2018–present",
+      "years": "2018\u2013present",
       "highlight": "Won on reform platform; overhauled assessment equity practices"
     },
     {
       "role": "Portfolio Manager / Asset Manager",
       "org": "Columbia Wanger Asset Management",
-      "years": "2001–2018",
+      "years": "2001\u20132018",
       "highlight": "~17 years managing equity portfolios"
     }
   ],
@@ -201,7 +201,7 @@
   },
   "trust_indicators": [
     {
-      "label": "Reform-oriented assessor — reduced assessment regressivity",
+      "label": "Reform-oriented assessor \u2014 reduced assessment regressivity",
       "value": true,
       "type": "positive"
     },
@@ -216,7 +216,7 @@
       "type": "positive"
     },
     {
-      "label": "Contested race — faces challenger(s)",
+      "label": "Contested race \u2014 faces challenger(s)",
       "value": true,
       "type": "neutral"
     }
@@ -229,5 +229,29 @@
     "record_available": true,
     "red_flags_count": 6,
     "computed_at": "2026-03-14"
-  }
+  },
+  "news_hits": [
+    {
+      "headline": "Cook County assessor candidates grapple over the reasons for skyrocketing property taxes",
+      "title": "Cook County assessor candidates grapple over the reasons for skyrocketing property taxes",
+      "summary": "Chicago Tribune pre-primary deep-dive on the Kaegi vs. Hynes race. Both candidates spar over who bears responsibility for soaring Cook County property tax bills. Kaegi defends his equalization reforms; Hynes argues those reforms shifted burdens onto homeowners.",
+      "url": "https://www.chicagotribune.com/2026/03/13/cook-county-assessor-candidates-property-taxes/",
+      "date": "2026-03-13",
+      "severity": "high",
+      "source": "Chicago Tribune",
+      "source_name": "Chicago Tribune",
+      "sentiment": "neutral"
+    },
+    {
+      "headline": "Property tax collection rates drop in Chicago neighborhoods with big bill hikes",
+      "title": "Property tax collection rates drop in Chicago neighborhoods with big bill hikes",
+      "summary": "Chicago Tribune reports declining property tax collection rates in neighborhoods with the largest bill increases. Notes that several community leaders in hard-hit neighborhoods have endorsed challenger Pat Hynes over incumbent Kaegi, citing the burden of assessment increases.",
+      "url": "https://www.chicagotribune.com/2026/03/09/property-tax-collection-rates-drop-big-bill-hikes/",
+      "date": "2026-03-09",
+      "severity": "medium",
+      "source": "Chicago Tribune",
+      "source_name": "Chicago Tribune",
+      "sentiment": "negative"
+    }
+  ]
 }
