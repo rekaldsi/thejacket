@@ -67,151 +67,125 @@ export default function HeroSection() {
   return (
     <section
       ref={sectionRef}
-      className="relative py-2 md:py-6"
+      className="relative flex flex-col items-center gap-8 py-6 md:flex-row md:items-center md:justify-between md:gap-12"
     >
       <div
         className="pointer-events-none fixed -z-10 right-0 top-0"
         style={{ width: 600, height: 600, background: "radial-gradient(circle, rgba(245,158,11,0.05) 0%, transparent 70%)", filter: "blur(80px)" }}
       />
 
-      {/* ── MOBILE layout: text left, jacket floats right as decorative element ── */}
-      {/* ── DESKTOP layout: flex row, jacket on right, full size ── */}
-      <div className="flex items-center justify-between gap-4 md:gap-12">
-
-        {/* ── Text stack ── */}
-        <div className="flex-1 flex flex-col items-start text-left space-y-2.5 md:space-y-4">
-
-          {/* Dateline */}
-          <p
-            className="font-mono text-xs uppercase tracking-[0.22em] text-jacket-amber"
-            style={fadeIn("0.05s")}
-          >
-            {d.dateline}
-          </p>
-
-          {/* Wordmark */}
-          <h1
-            className="text-4xl font-black uppercase leading-none tracking-tight sm:text-6xl md:text-7xl"
-            style={fadeIn("0.15s")}
-          >
-            THE<span className="text-jacket-amber">JACKET</span>
-          </h1>
-
-          {/* Amber rule */}
-          <div
-            className="h-1 bg-jacket-amber"
-            style={{
-              width: visible ? "4rem" : "0",
-              opacity: visible ? 1 : 0,
-              transition: "width 0.5s 0.3s ease-out, opacity 0.4s 0.3s",
-            }}
-          />
-
-          {/* Tagline */}
-          <p
-            className="max-w-xs text-sm text-zinc-300 sm:text-base md:text-xl md:max-w-xl"
-            style={fadeIn("0.35s")}
-          >
-            {d.tagline}
-          </p>
-
-          {/* Pull quote — hidden on mobile, visible on desktop */}
-          <blockquote
-            className="hidden md:block max-w-lg w-full"
-            style={fadeIn("0.45s")}
-          >
-            <div className="border-l-2 border-jacket-amber/40 pl-4 py-1">
-              <p className="text-sm italic text-zinc-300 leading-relaxed">
-                &ldquo;Politicians should wear sponsor jackets like NASCAR drivers, then we know who owns them.&rdquo;
-              </p>
-              <p className="mt-1 font-mono text-[10px] uppercase tracking-widest text-zinc-500">— Robin Williams</p>
-            </div>
-          </blockquote>
-
-          {/* Countdown */}
-          <div style={fadeIn("0.5s")}>
-            {!elapsed ? (
-              <div className="flex items-start gap-2">
-                <CountdownUnit value={days} label={d.days_label} />
-                <Divider />
-                <CountdownUnit value={hours} label={d.hours_label} />
-                <Divider />
-                <CountdownUnit value={minutes} label={d.minutes_label} />
-                <Divider />
-                <CountdownUnit value={seconds} label={d.seconds_label} />
-              </div>
-            ) : (
-              <span className="font-mono text-sm uppercase tracking-[0.22em] text-jacket-amber animate-pulse">
-                {d.primary_day_go_vote}
-              </span>
-            )}
-          </div>
-
-          {/* CTA */}
-          <div style={fadeIn("0.62s")} className="w-full sm:w-auto">
-            <Link
-              href="/races"
-              className="
-                inline-block w-full sm:w-auto text-center whitespace-nowrap rounded-sm
-                border border-jacket-amber
-                bg-jacket-amber px-6 py-3
-                font-mono text-sm font-black uppercase tracking-widest
-                text-jacket-black
-                transition-all duration-200
-                hover:bg-jacket-black hover:text-jacket-amber
-                focus:outline-none focus:ring-2 focus:ring-jacket-amber focus:ring-offset-2 focus:ring-offset-jacket-black
-                animate-cta-pulse
-              "
-            >
-              {d.find_ballot}
-            </Link>
-          </div>
-
-        </div>
-
-        {/* ── Jacket image — compact on mobile, full on desktop ── */}
-        <div
-          className="shrink-0 w-28 sm:w-44 md:w-72 lg:w-80 animate-jacket-float"
-          style={{ opacity: visible ? 1 : 0, transition: "opacity 0.8s 0.1s ease-out" }}
-        >
-          <div className="relative">
-            <div
-              className="absolute inset-0 -z-10 rounded-full animate-glow-breathe"
-              style={{ background: "radial-gradient(circle, rgba(245,158,11,0.12) 0%, transparent 70%)", filter: "blur(30px)" }}
-            />
-            <Image
-              src="/logo.png"
-              alt="The Jacket — sponsor patches on a politician's blazer"
-              width={512}
-              height={512}
-              className="relative h-auto w-full opacity-90 drop-shadow-[0_0_40px_rgba(245,158,11,0.18)]"
-              priority
-            />
-          </div>
-        </div>
-
-      </div>
-
-      {/* ── Scroll anchor — mobile only, pulses to indicate there's more below ── */}
+      {/* ── MOBILE: Jacket on top, centered ── */}
+      {/* ── DESKTOP: Jacket on right (order-last) ── */}
       <div
-        className="mt-4 flex justify-center md:hidden"
-        style={{ opacity: visible ? 1 : 0, transition: "opacity 0.6s 1s ease-out" }}
-        aria-hidden="true"
+        className="w-72 shrink-0 sm:w-80 md:order-last md:w-80 lg:w-96 animate-jacket-float"
+        style={{ opacity: visible ? 1 : 0, transition: "opacity 0.8s 0.1s ease-out" }}
       >
-        <div className="flex flex-col items-center gap-1">
-          <span className="font-mono text-[9px] uppercase tracking-[0.2em] text-zinc-600">live intel</span>
-          <svg
-            className="h-4 w-4 text-jacket-amber/60 animate-bounce"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={2.5}
-          >
-            <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-          </svg>
+        <div className="relative">
+          <div
+            className="absolute inset-0 -z-10 rounded-full animate-glow-breathe"
+            style={{ background: "radial-gradient(circle, rgba(245,158,11,0.12) 0%, transparent 70%)", filter: "blur(30px)" }}
+          />
+          <Image
+            src="/logo.png"
+            alt="The Jacket — sponsor patches on a politician's blazer"
+            width={512}
+            height={512}
+            className="relative h-auto w-full opacity-90 drop-shadow-[0_0_40px_rgba(245,158,11,0.18)]"
+            priority
+          />
         </div>
       </div>
 
+      {/* ── Text stack — centered on mobile, left-aligned on desktop ── */}
+      <div className="flex-1 flex flex-col items-center text-center md:items-start md:text-left space-y-4">
+
+        {/* Dateline */}
+        <p
+          className="font-mono text-xs uppercase tracking-[0.22em] text-jacket-amber"
+          style={fadeIn("0.05s")}
+        >
+          {d.dateline}
+        </p>
+
+        {/* Wordmark */}
+        <h1
+          className="text-5xl font-black uppercase leading-none tracking-tight sm:text-6xl md:text-7xl"
+          style={fadeIn("0.15s")}
+        >
+          THE<span className="text-jacket-amber">JACKET</span>
+        </h1>
+
+        {/* Amber rule */}
+        <div
+          className="h-1 bg-jacket-amber mx-auto md:mx-0"
+          style={{
+            width: visible ? "5rem" : "0",
+            opacity: visible ? 1 : 0,
+            transition: "width 0.5s 0.3s ease-out, opacity 0.4s 0.3s",
+          }}
+        />
+
+        {/* Tagline */}
+        <p
+          className="max-w-xl text-xl text-zinc-300"
+          style={fadeIn("0.35s")}
+        >
+          {d.tagline}
+        </p>
+
+        {/* Pull quote — always English (Robin Williams quote) */}
+        <blockquote
+          className="max-w-lg w-full"
+          style={fadeIn("0.45s")}
+        >
+          <div className="border-t-2 border-jacket-amber/40 pt-3 md:border-t-0 md:border-l-2 md:pt-0 md:pl-4 md:py-1">
+            <p className="text-sm italic text-zinc-300 leading-relaxed">
+              &ldquo;Politicians should wear sponsor jackets like NASCAR drivers, then we know who owns them.&rdquo;
+            </p>
+            <p className="mt-1 font-mono text-[10px] uppercase tracking-widest text-zinc-500">— Robin Williams</p>
+          </div>
+        </blockquote>
+
+        {/* Countdown */}
+        <div style={fadeIn("0.5s")}>
+          {!elapsed ? (
+            <div className="flex items-start gap-2">
+              <CountdownUnit value={days} label={d.days_label} />
+              <Divider />
+              <CountdownUnit value={hours} label={d.hours_label} />
+              <Divider />
+              <CountdownUnit value={minutes} label={d.minutes_label} />
+              <Divider />
+              <CountdownUnit value={seconds} label={d.seconds_label} />
+            </div>
+          ) : (
+            <span className="font-mono text-sm uppercase tracking-[0.22em] text-jacket-amber animate-pulse">
+              {d.primary_day_go_vote}
+            </span>
+          )}
+        </div>
+
+        {/* CTA */}
+        <div style={fadeIn("0.62s")} className="w-full md:w-auto">
+          <Link
+            href="/races"
+            className="
+              inline-block w-full md:w-auto text-center whitespace-nowrap rounded-sm
+              border border-jacket-amber
+              bg-jacket-amber px-6 py-3
+              font-mono text-sm font-black uppercase tracking-widest
+              text-jacket-black
+              transition-all duration-200
+              hover:bg-jacket-black hover:text-jacket-amber
+              focus:outline-none focus:ring-2 focus:ring-jacket-amber focus:ring-offset-2 focus:ring-offset-jacket-black
+              animate-cta-pulse
+            "
+          >
+            {d.find_ballot}
+          </Link>
+        </div>
+
+      </div>
     </section>
   );
 }
