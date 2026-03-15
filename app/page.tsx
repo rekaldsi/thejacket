@@ -8,7 +8,6 @@ import HeroSection from "@/components/HeroSection";
 import ScrollReveal from "@/components/ScrollReveal";
 import StartHereBanner from "@/components/StartHereBanner";
 import { T } from "@/components/T";
-import ShareButton from "@/components/ShareButton";
 import type { ScorecardEntry } from "@/lib/scoring";
 import type { Judge } from "@/lib/types";
 
@@ -150,10 +149,11 @@ export default function HomePage() {
   }
 
   return (
-    <div className="space-y-24">
-
-      {/* ── START HERE: desktop=slim in-flow banner (SSR stable), mobile=fixed bubble ── */}
+    <>
+      {/* ── START HERE: position:fixed on mobile, in-flow on desktop — MUST be outside space-y-24 ── */}
       <StartHereBanner />
+
+    <div className="space-y-24">
 
       {/* ── HERO ── */}
       <HeroSection />
@@ -288,11 +288,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── SHARE BUTTON — fixed bottom-left on mobile only ── */}
-      <div className="fixed bottom-5 left-4 z-40 md:hidden">
-        <ShareButton />
-      </div>
-
     </div>
+    </>
   );
 }

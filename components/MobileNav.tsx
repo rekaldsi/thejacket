@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useLanguage } from "@/lib/i18n";
 import { LangToggle } from "@/components/LangToggle";
 import { translations } from "@/lib/translations";
+import ShareButton from "@/components/ShareButton";
 
 export default function MobileNav() {
   const [open, setOpen] = useState(false);
@@ -98,7 +99,7 @@ export default function MobileNav() {
               ))}
 
               {/* Booth Mode CTA — prominent, full width */}
-              <div className="w-full pt-6 pb-4">
+              <div className="w-full pt-6">
                 <Link
                   href="/booth"
                   onClick={close}
@@ -106,6 +107,11 @@ export default function MobileNav() {
                 >
                   {d.nav_booth_mode} — {d.nav_build_your_ballot}
                 </Link>
+              </div>
+
+              {/* Share button — bottom of menu, subtle */}
+              <div className="w-full pt-4 pb-2 flex justify-center">
+                <ShareButton className="w-full justify-center" />
               </div>
             </nav>
           </div>
