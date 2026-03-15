@@ -222,11 +222,7 @@ export default function AboutPage() {
         </p>
         <p className="text-sm leading-relaxed text-zinc-400">
           We hold politicians accountable for their funding sources — so we should be transparent about ours.
-          This project has no donors. If you find an error in a candidate profile, email{" "}
-          <a href="mailto:corrections@thejacket.cc" className="text-jacket-amber hover:underline">
-            corrections@thejacket.cc
-          </a>{" "}
-          with a source link and we&apos;ll review it.
+          This project has no donors. No ads. No outside money. Just a belief that voters deserve better tools.
         </p>
         <p className="text-sm leading-relaxed text-zinc-400">
           Built in Chicago. Launched March 2026.
