@@ -10,6 +10,8 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import type { HotSignal } from "./HotBoard";
+import { useBatchTranslate } from "@/lib/useTranslate";
+import { useLanguage } from "@/lib/i18n";
 
 const SEVERITY_CONFIG = {
   critical: {
@@ -41,7 +43,12 @@ function typeIcon(type: HotSignal["type"]) {
   return "📰";
 }
 
-function typeLabel(type: HotSignal["type"]) {
+function typeLabel(type: HotSignal["type"], lang: string) {
+  if (lang === "es") {
+    if (type === "red_flag") return "ALERTA";
+    if (type === "donor") return "DONANTE";
+    return "NOTICIA";
+  }
   if (type === "red_flag") return "FLAG";
   if (type === "donor") return "DONOR";
   return "NEWS";
@@ -75,6 +82,13 @@ export default function HotBoardCarousel({ signals }: Props) {
   const [paused, setPaused] = useState(false);
   const animRef = useRef<number | null>(null);
   const posRef = useRef(0);
+  const { lang } = useLanguage();
+
+  // Translate all labels + details in one batch call
+  const labelTexts = signals.map((s) => s.label ?? "");
+  const detailTexts = signals.map((s) => s.detail ?? "");
+  const translatedLabels = useBatchTranslate(labelTexts);
+  const translatedDetails = useBatchTranslate(detailTexts);
 
   // Shuffle on client — seed changes every 5 minutes so each visit feels fresh.
   // Split signals: top 1/3 by severity stay weighted front, rest shuffled freely.
@@ -137,8 +151,16 @@ export default function HotBoardCarousel({ signals }: Props) {
         style={{ width: "max-content" }}
       >
         {items.map((signal, i) => {
+          // Map shuffled index back to original signal index for translations
+          const origIdx = i % shuffled.length;
+          // Find original index in signals array
+          const sigIdx = signals.findIndex(
+            (s) => s.candidateId === signal.candidateId && s.label === signal.label && s.type === signal.type
+          );
+          const txLabel = sigIdx >= 0 ? translatedLabels[sigIdx] : (signal.label ?? "");
+          const txDetail = sigIdx >= 0 ? translatedDetails[sigIdx] : (signal.detail ?? "");
+
           const cfg = SEVERITY_CONFIG[signal.severity] ?? SEVERITY_CONFIG.medium;
-          // Smart link: news → direct source URL, donor → finance section, flag → red-flags section
           const href =
             signal.type === "news" && signal.source
               ? signal.source
@@ -146,6 +168,11 @@ export default function HotBoardCarousel({ signals }: Props) {
               ? `/candidate/${signal.candidateId}#finance`
               : `/candidate/${signal.candidateId}#red-flags`;
           const isExternal = signal.type === "news" && !!signal.source;
+
+          const viewFinanceLabel = lang === "es" ? "Ver finanzas →" : "View finance →";
+          const viewFlagsLabel = lang === "es" ? "Ver alertas →" : "View red flags →";
+          const opensArticleLabel = lang === "es" ? "(abre artículo)" : "(opens article)";
+
           return (
             <Link
               key={`${signal.candidateId}-${signal.type}-${i}`}
@@ -163,7 +190,7 @@ export default function HotBoardCarousel({ signals }: Props) {
                   {signal.candidateName}
                 </span>
                 <span className={`ml-auto shrink-0 rounded px-1.5 py-0.5 font-mono text-[9px] uppercase tracking-wide ${cfg.badge}`}>
-                  {typeIcon(signal.type)} {typeLabel(signal.type)}
+                  {typeIcon(signal.type)} {typeLabel(signal.type, lang)}
                 </span>
               </div>
 
@@ -174,22 +201,22 @@ export default function HotBoardCarousel({ signals }: Props) {
 
               {/* Label */}
               <p className="line-clamp-2 text-xs font-bold leading-snug text-zinc-100 group-hover:text-jacket-amber">
-                {(signal.label ?? "").length > 80
-                  ? (signal.label ?? "").slice(0, 80) + "…"
-                  : (signal.label ?? "")}
+                {(txLabel ?? "").length > 80
+                  ? (txLabel ?? "").slice(0, 80) + "…"
+                  : (txLabel ?? "")}
               </p>
 
               {/* Detail */}
               <p className="line-clamp-2 text-[11px] leading-relaxed text-zinc-500">
-                {signal.detail}
+                {txDetail}
               </p>
 
               <span className="mt-auto font-mono text-[10px] text-zinc-700 group-hover:text-jacket-amber">
                 {signal.type === "news" && signal.source
-                  ? `↗ ${(() => { try { return new URL(signal.source).hostname.replace("www.", ""); } catch { return "Source"; } })()} (opens article)`
+                  ? `↗ ${(() => { try { return new URL(signal.source).hostname.replace("www.", ""); } catch { return "Source"; } })()} ${opensArticleLabel}`
                   : signal.type === "donor"
-                  ? "View finance →"
-                  : "View red flags →"}
+                  ? viewFinanceLabel
+                  : viewFlagsLabel}
               </span>
             </Link>
           );
