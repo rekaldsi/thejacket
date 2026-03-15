@@ -142,6 +142,59 @@ const isStatewide = (title: string) =>
   title.includes("Illinois Treasurer") ||
   title.includes("Illinois Comptroller");
 
+// Cook County Commissioner district → key communities lookup
+const DISTRICT_LOOKUP: { dist: string; communities: string }[] = [
+  { dist: "2", communities: "Calumet City, Harvey, Dolton, Riverdale, South Holland, Thornton" },
+  { dist: "3", communities: "Oak Lawn, Burbank, Bridgeview, Justice, Chicago Ridge, Worth" },
+  { dist: "4", communities: "Maywood, Berwyn, Cicero, Stickney, Forest View, Lyons" },
+  { dist: "5", communities: "Evanston, Skokie, Morton Grove, Niles, Lincolnwood" },
+  { dist: "6", communities: "Chicago: North Side — Rogers Park, Edgewater, Uptown, Lincoln Square, Lakeview, Lincoln Park" },
+  { dist: "7", communities: "Chicago: Northwest Side — Jefferson Park, Norwood Park, Edison Park, O'Hare" },
+  { dist: "8", communities: "Chicago: Northwest Side — Portage Park, Irving Park, Dunning, Montclare" },
+  { dist: "9", communities: "Chicago: West Side — Humboldt Park, Logan Square, Avondale, Hermosa" },
+  { dist: "10", communities: "Chicago: South Side — Pilsen, Bridgeport, Brighton Park, Gage Park, McKinley Park" },
+  { dist: "11", communities: "Chicago: South Side — Beverly, Morgan Park, Mt. Greenwood, West Englewood" },
+  { dist: "12", communities: "Orland Park, Tinley Park, Mokena, New Lenox, Frankfort, Palos" },
+  { dist: "13", communities: "Schaumburg, Elk Grove Village, Rolling Meadows, Arlington Heights, Palatine" },
+  { dist: "14", communities: "Evanston (north), Wilmette, Kenilworth, Winnetka, Glencoe, Highland Park" },
+  { dist: "15", communities: "Park Forest, Chicago Heights, Olympia Fields, Homewood, Flossmoor, Matteson" },
+  { dist: "16", communities: "Chicago: West Side — Lawndale, Little Village, East Garfield Park, Austin (south)" },
+  { dist: "17", communities: "Chicago: South Side — South Shore, Avalon Park, Calumet Heights, South Chicago, Burnside" },
+];
+
+function DistrictFinder() {
+  return (
+    <details className="group border border-jacket-border rounded-sm">
+      <summary className="cursor-pointer select-none px-4 py-3 font-mono text-xs uppercase tracking-widest text-zinc-400 hover:text-jacket-amber flex items-center gap-2">
+        <span className="transition-transform group-open:rotate-90">▶</span>
+        Which Cook County Commissioner district am I in?
+      </summary>
+      <div className="border-t border-jacket-border px-4 py-4 space-y-2">
+        <p className="text-xs text-zinc-400 mb-3">
+          Find your community below to identify your district, then scroll to the Cook County section.
+          Not sure?{" "}
+          <a
+            href="https://www.cookcountyclerkil.gov/elections/voters/find-your-polling-place-and-sample-ballot"
+            target="_blank"
+            rel="noreferrer"
+            className="text-jacket-amber hover:underline"
+          >
+            Look up your exact address on the Cook County Clerk site ↗
+          </a>
+        </p>
+        <div className="grid gap-1.5 sm:grid-cols-2">
+          {DISTRICT_LOOKUP.map(({ dist, communities }) => (
+            <div key={dist} className="flex gap-2 text-xs">
+              <span className="shrink-0 font-mono font-black text-jacket-amber w-6">D{dist}</span>
+              <span className="text-zinc-400">{communities}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </details>
+  );
+}
+
 export default function RacesClient({ races }: { races: RaceData[] }) {
   const [partyFilter, setPartyFilter] = useState("All");
 
@@ -167,6 +220,9 @@ export default function RacesClient({ races }: { races: RaceData[] }) {
           Every primary on the March 17 Illinois ballot — all parties.
         </p>
       </div>
+
+      {/* District finder */}
+      <DistrictFinder />
 
       {/* Party filter pills */}
       <div className="flex flex-wrap items-center gap-2">

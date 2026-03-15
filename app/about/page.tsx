@@ -216,7 +216,19 @@ export default function AboutPage() {
       <section className="space-y-3">
         <h2 className={sectionHeader}>Built By</h2>
         <p className="text-sm leading-relaxed text-zinc-400">
-          TheJacket is an independent civic project. Not affiliated with any campaign, party, or PAC.
+          TheJacket is an independent civic project built by a Chicago-based developer and researcher.
+          Not affiliated with any campaign, party, PAC, or outside organization. No outside funding.
+          No ads. No monetization. Built on personal time as a public service ahead of the March 17 primary.
+        </p>
+        <p className="text-sm leading-relaxed text-zinc-400">
+          We hold politicians accountable for their funding sources — so we should be transparent about ours.
+          This project has no donors. If you find an error in a candidate profile, email{" "}
+          <a href="mailto:corrections@thejacket.cc" className="text-jacket-amber hover:underline">
+            corrections@thejacket.cc
+          </a>{" "}
+          with a source link and we&apos;ll review it.
+        </p>
+        <p className="text-sm leading-relaxed text-zinc-400">
           Built in Chicago. Launched March 2026.
         </p>
       </section>

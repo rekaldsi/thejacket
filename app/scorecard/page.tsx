@@ -52,6 +52,33 @@ export default function ScorecardPage() {
         ))}
       </div>
 
+      {/* Jargon Glossary */}
+      <details className="group border border-jacket-border rounded-sm">
+        <summary className="cursor-pointer select-none px-4 py-3 font-mono text-xs uppercase tracking-widest text-zinc-400 hover:text-jacket-amber flex items-center gap-2">
+          <span className="transition-transform group-open:rotate-90">▶</span>
+          What do these terms mean?
+        </summary>
+        <div className="border-t border-jacket-border px-4 py-4 grid gap-3 sm:grid-cols-2 text-xs text-zinc-400">
+          {[
+            { term: "AIPAC", def: "American Israel Public Affairs Committee — a powerful pro-Israel lobbying group that spends heavily in Democratic primaries to back candidates aligned with its foreign policy positions." },
+            { term: "Dark money", def: "Campaign spending by nonprofit groups (501c4) that don't have to disclose their donors. The money reaches candidates through PACs and independent expenditures." },
+            { term: "Outside PAC", def: "A Political Action Committee not controlled by the candidate that spends money independently — on ads, mailers, canvassing — to support or oppose them." },
+            { term: "Corporate PAC", def: "A PAC funded by a corporation or industry trade group. Candidates who take corporate PAC money are directly funded by business interests." },
+            { term: "Cash on hand (COH)", def: "The amount of money a campaign has in the bank right now. High COH = well-funded and ready for the home stretch." },
+            { term: "FEC", def: "Federal Election Commission — the U.S. agency that tracks and publishes campaign finance data for all federal races (Senate, House, President)." },
+            { term: "ILSBE", def: "Illinois State Board of Elections — publishes campaign finance data for all state and Cook County races. Also at illinoissunshine.org." },
+            { term: "Confirmed flag", def: "A red flag backed by public record — a court filing, FEC report, official investigation, or verified investigative journalism with named sources." },
+            { term: "Alleged / unconfirmed", def: "A flag based on a single source, an accusation without resolution, or a report that hasn't been independently verified. Weighted less in scoring." },
+            { term: "Transparency score", def: "A score from 0–100 based on public-record findings. Starts at 100. Points are deducted for each verified flag. Not an endorsement — a research starting point." },
+          ].map(({ term, def }) => (
+            <div key={term} className="space-y-0.5">
+              <p className="font-mono font-black text-jacket-amber text-[11px] uppercase tracking-wide">{term}</p>
+              <p className="leading-relaxed">{def}</p>
+            </div>
+          ))}
+        </div>
+      </details>
+
       {/* Searchable + filterable scorecard */}
       <ScorecardSearch entries={scorecard} />
 
