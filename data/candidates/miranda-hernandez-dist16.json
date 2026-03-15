@@ -5,7 +5,7 @@
   "office": "Cook County Commissioner District 16",
   "race_id": "cook-county-commissioner-dist-16",
   "incumbent": false,
-  "bio": "Miranda Hernandez, 34, is an attorney and daughter of state Representative Elizabeth 'Lisa' Hernandez (D-Cicero), deputy majority leader of the Illinois House and chair of the Illinois Democratic Party. Growing up, she is the child of Frank Aguilar's former political opponent \u2014 Aguilar defeated her mother in a 2002 race for an Illinois House seat. Miranda moved to Riverside, Illinois from Washington D.C. after Trump's inauguration in January 2025. In Washington she worked for a congresswoman and two senators, and served on the Senate Judiciary Committee staff and on the DOJ's Reproductive Rights Task Force under Biden. She holds joint J.D./MBA degrees from Northern Illinois University. She is currently a legislative deputy (and previously Deputy Director of Legislative Affairs) in the Cook County State's Attorney's Office. She has out-raised incumbent Aguilar and has the backing of powerful political figures and unions.",
+  "bio": "Miranda Hernandez, 34, is an attorney and daughter of state Representative Elizabeth 'Lisa' Hernandez (D-Cicero), deputy majority leader of the Illinois House and chair of the Illinois Democratic Party. Growing up, she is the child of Frank Aguilar's former political opponent — Aguilar defeated her mother in a 2002 race for an Illinois House seat. Miranda moved to Riverside, Illinois from Washington D.C. after Trump's inauguration in January 2025. In Washington she worked for a congresswoman and two senators, and served on the Senate Judiciary Committee staff and on the DOJ's Reproductive Rights Task Force under Biden. She holds joint J.D./MBA degrees from Northern Illinois University. She is currently a legislative deputy (and previously Deputy Director of Legislative Affairs) in the Cook County State's Attorney's Office. She has out-raised incumbent Aguilar and has the backing of powerful political figures and unions.",
   "prior_office": null,
   "website": null,
   "photo_url": null,
@@ -30,23 +30,38 @@
   ],
   "key_votes": [],
   "policy_platform": [
-    "Improve quality of life and maternal health outcomes",
-    "Fund law enforcement and public safety initiatives",
-    "Property tax assistance and appeals help for homeowners",
-    "Support small business access to grant funding",
-    "Forest preserve access for families"
+    {
+      "topic": "Position",
+      "position": "Improve quality of life and maternal health outcomes"
+    },
+    {
+      "topic": "Position",
+      "position": "Fund law enforcement and public safety initiatives"
+    },
+    {
+      "topic": "Position",
+      "position": "Property tax assistance and appeals help for homeowners"
+    },
+    {
+      "topic": "Position",
+      "position": "Support small business access to grant funding"
+    },
+    {
+      "topic": "Position",
+      "position": "Forest preserve access for families"
+    }
   ],
   "career_history": [
     {
       "role": "Legislative Deputy / Deputy Director of Legislative Affairs",
       "org": "Cook County State's Attorney's Office (Eileen O'Neill Burke)",
-      "years": "2025\u2013present",
+      "years": "2025–present",
       "highlight": ""
     },
     {
       "role": "Political Appointee, Reproductive Rights Task Force",
       "org": "U.S. Department of Justice (Biden administration)",
-      "years": "2023\u20132025",
+      "years": "2023–2025",
       "highlight": ""
     },
     {

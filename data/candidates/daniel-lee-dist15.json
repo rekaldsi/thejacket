@@ -22,10 +22,22 @@
   "red_flags": [],
   "key_votes": [],
   "policy_platform": [
-    "Back law enforcement and public safety",
-    "Conservative values and fiscal responsibility",
-    "Reduce Cook County taxes",
-    "Family values"
+    {
+      "topic": "Position",
+      "position": "Back law enforcement and public safety"
+    },
+    {
+      "topic": "Position",
+      "position": "Conservative values and fiscal responsibility"
+    },
+    {
+      "topic": "Position",
+      "position": "Reduce Cook County taxes"
+    },
+    {
+      "topic": "Position",
+      "position": "Family values"
+    }
   ],
   "career_history": [
     {

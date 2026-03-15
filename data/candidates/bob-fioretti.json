@@ -37,13 +37,34 @@
     }
   ],
   "policy_platform": [
-    "Oppose cash bail reform (SAFE-T Act) — restore accountability for violent offenders",
-    "Protect homeowners from property tax increases",
-    "Support law enforcement with proper resources",
-    "Oppose sanctuary policies",
-    "Civil rights protections alongside robust law enforcement",
-    "TIF reform — audit tax increment financing abuse",
-    "Support small businesses against excessive regulation"
+    {
+      "topic": "Position",
+      "position": "Oppose cash bail reform (SAFE-T Act) — restore accountability for violent offenders"
+    },
+    {
+      "topic": "Position",
+      "position": "Protect homeowners from property tax increases"
+    },
+    {
+      "topic": "Position",
+      "position": "Support law enforcement with proper resources"
+    },
+    {
+      "topic": "Position",
+      "position": "Oppose sanctuary policies"
+    },
+    {
+      "topic": "Position",
+      "position": "Civil rights protections alongside robust law enforcement"
+    },
+    {
+      "topic": "Position",
+      "position": "TIF reform — audit tax increment financing abuse"
+    },
+    {
+      "topic": "Position",
+      "position": "Support small businesses against excessive regulation"
+    }
   ],
   "career_history": [
     {

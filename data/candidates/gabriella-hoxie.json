@@ -22,10 +22,22 @@
   "red_flags": [],
   "key_votes": [],
   "policy_platform": [
-    "Property tax relief and increased oversight of Cook County Board of Review",
-    "Support for law enforcement and keeping violent criminals incarcerated",
-    "Lower taxes and reduce regulation to lower cost of living",
-    "Government accountability and transparency; end pay-to-play politics"
+    {
+      "topic": "Position",
+      "position": "Property tax relief and increased oversight of Cook County Board of Review"
+    },
+    {
+      "topic": "Position",
+      "position": "Support for law enforcement and keeping violent criminals incarcerated"
+    },
+    {
+      "topic": "Position",
+      "position": "Lower taxes and reduce regulation to lower cost of living"
+    },
+    {
+      "topic": "Position",
+      "position": "Government accountability and transparency; end pay-to-play politics"
+    }
   ],
   "career_history": [
     {

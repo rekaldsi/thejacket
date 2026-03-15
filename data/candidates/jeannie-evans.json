@@ -30,18 +30,54 @@
   ],
   "key_votes": [],
   "policy_platform": [
-    "Promote small businesses and job growth; reduce red tape and streamline business formation",
-    "Bring down cost of living through antitrust enforcement and promoting fair market competition",
-    "Cut taxes and remove unreasonable regulations",
-    "Oppose Chicago Mayor Brandon Johnson's proposed head tax on employees",
-    "Fight crime; support law enforcement; invest in community safety on South and West Sides",
-    "Preserve freedom of speech and individual liberties",
-    "Reform education to prepare students for trades and innovation-economy careers",
-    "Balance the federal budget",
-    "Support Illinois farmers and expand agricultural exports",
-    "Lead on AI policy: keep America competitive, protect data rights, increase AI transparency",
-    "Hold China accountable; protect Americans from surveillance by Chinese tech firms",
-    "Support innovation and university-industry partnerships"
+    {
+      "topic": "Position",
+      "position": "Promote small businesses and job growth; reduce red tape and streamline business formation"
+    },
+    {
+      "topic": "Position",
+      "position": "Bring down cost of living through antitrust enforcement and promoting fair market competition"
+    },
+    {
+      "topic": "Position",
+      "position": "Cut taxes and remove unreasonable regulations"
+    },
+    {
+      "topic": "Position",
+      "position": "Oppose Chicago Mayor Brandon Johnson's proposed head tax on employees"
+    },
+    {
+      "topic": "Position",
+      "position": "Fight crime; support law enforcement; invest in community safety on South and West Sides"
+    },
+    {
+      "topic": "Position",
+      "position": "Preserve freedom of speech and individual liberties"
+    },
+    {
+      "topic": "Position",
+      "position": "Reform education to prepare students for trades and innovation-economy careers"
+    },
+    {
+      "topic": "Position",
+      "position": "Balance the federal budget"
+    },
+    {
+      "topic": "Position",
+      "position": "Support Illinois farmers and expand agricultural exports"
+    },
+    {
+      "topic": "Position",
+      "position": "Lead on AI policy: keep America competitive, protect data rights, increase AI transparency"
+    },
+    {
+      "topic": "Position",
+      "position": "Hold China accountable; protect Americans from surveillance by Chinese tech firms"
+    },
+    {
+      "topic": "Position",
+      "position": "Support innovation and university-industry partnerships"
+    }
   ],
   "career_history": [
     {

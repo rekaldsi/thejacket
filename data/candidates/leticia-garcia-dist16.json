@@ -22,10 +22,22 @@
   "red_flags": [],
   "key_votes": [],
   "policy_platform": [
-    "Responsible budgeting and transparency in county spending",
-    "Increased access to health and mental health services for seniors, veterans, children, and families",
-    "Property tax relief and exemptions for homeowners and small businesses",
-    "Infrastructure maintenance and flood mitigation"
+    {
+      "topic": "Position",
+      "position": "Responsible budgeting and transparency in county spending"
+    },
+    {
+      "topic": "Position",
+      "position": "Increased access to health and mental health services for seniors, veterans, children, and families"
+    },
+    {
+      "topic": "Position",
+      "position": "Property tax relief and exemptions for homeowners and small businesses"
+    },
+    {
+      "topic": "Position",
+      "position": "Infrastructure maintenance and flood mitigation"
+    }
   ],
   "career_history": [
     {

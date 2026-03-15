@@ -37,16 +37,46 @@
   ],
   "key_votes": [],
   "policy_platform": [
-    "Lower cost of living: reduce energy, gas, grocery, housing, and healthcare costs",
-    "Energy independence: responsible energy policy including clean energy transition; oppose climate mandates that raise utility costs",
-    "Healthcare transparency: institute price transparency, increase competition, eliminate taxpayer-funded healthcare for non-citizens",
-    "Fiscal responsibility: reduce government spending, cut waste and fraud, encourage able-bodied adults back into workforce",
-    "Border security: oppose sanctuary policies, oppose taxpayer-funded benefits for undocumented immigrants",
-    "Public safety: oppose bail reform, oppose defunding police, hold criminals accountable",
-    "Oppose boys competing in girls sports",
-    "Represent all 102 Illinois counties, not just Chicago/Cook County",
-    "Reduce regulations on small businesses",
-    "Back farmers and Illinois agricultural exports"
+    {
+      "topic": "Position",
+      "position": "Lower cost of living: reduce energy, gas, grocery, housing, and healthcare costs"
+    },
+    {
+      "topic": "Position",
+      "position": "Energy independence: responsible energy policy including clean energy transition; oppose climate mandates that raise utility costs"
+    },
+    {
+      "topic": "Position",
+      "position": "Healthcare transparency: institute price transparency, increase competition, eliminate taxpayer-funded healthcare for non-citizens"
+    },
+    {
+      "topic": "Position",
+      "position": "Fiscal responsibility: reduce government spending, cut waste and fraud, encourage able-bodied adults back into workforce"
+    },
+    {
+      "topic": "Position",
+      "position": "Border security: oppose sanctuary policies, oppose taxpayer-funded benefits for undocumented immigrants"
+    },
+    {
+      "topic": "Position",
+      "position": "Public safety: oppose bail reform, oppose defunding police, hold criminals accountable"
+    },
+    {
+      "topic": "Position",
+      "position": "Oppose boys competing in girls sports"
+    },
+    {
+      "topic": "Position",
+      "position": "Represent all 102 Illinois counties, not just Chicago/Cook County"
+    },
+    {
+      "topic": "Position",
+      "position": "Reduce regulations on small businesses"
+    },
+    {
+      "topic": "Position",
+      "position": "Back farmers and Illinois agricultural exports"
+    }
   ],
   "career_history": [
     {

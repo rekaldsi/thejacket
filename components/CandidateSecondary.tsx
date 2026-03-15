@@ -65,15 +65,23 @@ export default function CandidateSecondary({ candidate }: { candidate: Candidate
           <section className="space-y-4">
             <h2 className={sectionHeader}>What They Stand For</h2>
             <div className="grid gap-3 sm:grid-cols-2">
-              {candidate.policy_platform!.map((item, i) => (
+              {candidate.policy_platform!.map((item, i) => {
+                // Handle both string and object formats gracefully
+                const topic = typeof item === "string" ? null : item.topic;
+                const position = typeof item === "string" ? item : item.position;
+                const source = typeof item === "string" ? null : item.source;
+                if (!position) return null;
+                return (
                 <div key={i} className="border border-jacket-border p-4 transition-colors hover:bg-jacket-gray/30">
-                  <p className="mb-1 font-mono text-xs font-black uppercase tracking-widest text-jacket-amber">
-                    {item.topic}
-                  </p>
-                  <p className="text-sm text-zinc-300">{item.position}</p>
-                  {item.source ? (
+                  {topic && (
+                    <p className="mb-1 font-mono text-xs font-black uppercase tracking-widest text-jacket-amber">
+                      {topic}
+                    </p>
+                  )}
+                  <p className="text-sm text-zinc-300">{position}</p>
+                  {source ? (
                     <a
-                      href={item.source}
+                      href={source}
                       target="_blank"
                       rel="noreferrer"
                       className="mt-1 block text-xs text-zinc-500 hover:text-jacket-amber hover:underline"
@@ -82,7 +90,8 @@ export default function CandidateSecondary({ candidate }: { candidate: Candidate
                     </a>
                   ) : null}
                 </div>
-              ))}
+                );
+              })}
             </div>
           </section>
         )}

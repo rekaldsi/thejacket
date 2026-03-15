@@ -5,8 +5,8 @@
   "office": "Cook County Commissioner District 9",
   "race_id": "cook-county-commissioner-dist-9",
   "incumbent": false,
-  "bio": "Ammie Kessem was born and lives in Chicago, Illinois. She earned a B.A. in American studies, sociology, and business administration from Dominican University in 1998. Her career includes working as a police tactical officer for the Chicago Police Department, where she led implementation of the Gang Intervention Probation Program (GIPP) \u2014 a collaboration with the Cook County State's Attorney and Probation Department to deter individuals placed in the program from additional criminal gang activity. She previously ran as the Republican nominee for Illinois House District 19 in 2018, losing to incumbent Robert Martwick 60.7%-39.3%. She is the sole Republican candidate for District 9 Commissioner and will face Democratic incumbent Maggie Trevor in the November 2026 general election.",
-  "prior_office": "Republican nominee for Illinois House District 19 (2018 \u2014 general election loss)",
+  "bio": "Ammie Kessem was born and lives in Chicago, Illinois. She earned a B.A. in American studies, sociology, and business administration from Dominican University in 1998. Her career includes working as a police tactical officer for the Chicago Police Department, where she led implementation of the Gang Intervention Probation Program (GIPP) — a collaboration with the Cook County State's Attorney and Probation Department to deter individuals placed in the program from additional criminal gang activity. She previously ran as the Republican nominee for Illinois House District 19 in 2018, losing to incumbent Robert Martwick 60.7%-39.3%. She is the sole Republican candidate for District 9 Commissioner and will face Democratic incumbent Maggie Trevor in the November 2026 general election.",
+  "prior_office": "Republican nominee for Illinois House District 19 (2018 — general election loss)",
   "website": null,
   "photo_url": null,
   "jacket": {
@@ -22,11 +22,26 @@
   "red_flags": [],
   "key_votes": [],
   "policy_platform": [
-    "1% cap on property taxes",
-    "Lower state income taxes",
-    "Cut wasteful spending and eliminate duplicative units of government",
-    "Attract more business to Illinois through reduced regulation",
-    "Support for law enforcement"
+    {
+      "topic": "Position",
+      "position": "1% cap on property taxes"
+    },
+    {
+      "topic": "Position",
+      "position": "Lower state income taxes"
+    },
+    {
+      "topic": "Position",
+      "position": "Cut wasteful spending and eliminate duplicative units of government"
+    },
+    {
+      "topic": "Position",
+      "position": "Attract more business to Illinois through reduced regulation"
+    },
+    {
+      "topic": "Position",
+      "position": "Support for law enforcement"
+    }
   ],
   "career_history": [
     {
@@ -55,5 +70,5 @@
     "computed_at": "2026-03-14"
   },
   "uncontested": true,
-  "data_note": "Republican primary candidate \u2014 uncontested on GOP side. Will face Maggie Trevor (D) in November general."
+  "data_note": "Republican primary candidate — uncontested on GOP side. Will face Maggie Trevor (D) in November general."
 }

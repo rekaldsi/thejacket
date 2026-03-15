@@ -6,7 +6,7 @@
   "race_id": "cook-county-commissioner-dist-16",
   "incumbent": true,
   "bio": "Frank Aguilar, 65, is the incumbent Cook County Commissioner for District 16, first appointed to the board in 2020 when predecessor Jeffrey Tobolski resigned. He was elected to his first full term in 2022, defeating Republican Kimberly Jagielski 67.7%-32.3%. In 2002, running as a Republican, Aguilar defeated Lisa Hernandez (now state rep and Illinois Democratic Party chair) for a seat in the Illinois House; he subsequently became a Democrat. He serves as Chair of the Finance Tax Delinquency and Zoning & Building committees, and Vice-Chair of Asset Management, Emergency Management, and Law Enforcement. He championed small business development, infrastructure investment, and flood control mitigation for the district. He faces a primary challenge from Leticia Garcia (a repeat challenger from 2022) and Miranda Hernandez, daughter of his old adversary Elizabeth 'Lisa' Hernandez.",
-  "prior_office": "Cook County Commissioner District 16 (appointed 2020, elected 2022\u2013present); Illinois House of Representatives (2002\u20132020 \u2014 exact dates require confirmation)",
+  "prior_office": "Cook County Commissioner District 16 (appointed 2020, elected 2022–present); Illinois House of Representatives (2002–2020 — exact dates require confirmation)",
   "website": null,
   "photo_url": null,
   "jacket": {
@@ -22,7 +22,7 @@
   "red_flags": [
     {
       "type": "party-switch",
-      "label": "Former Republican \u2014 Switched to Democratic Party",
+      "label": "Former Republican — Switched to Democratic Party",
       "detail": "Frank Aguilar previously served as a Republican before switching to the Democratic Party. His political history and the circumstances of his party switch may be relevant to voters evaluating his Democratic primary candidacy.",
       "source": "https://en.wikipedia.org/wiki/",
       "confirmed": true
@@ -30,28 +30,40 @@
   ],
   "key_votes": [],
   "policy_platform": [
-    "Small business development and economic growth",
-    "Infrastructure investment and flood control",
-    "Arts funding",
-    "Support for immigrant communities"
+    {
+      "topic": "Position",
+      "position": "Small business development and economic growth"
+    },
+    {
+      "topic": "Position",
+      "position": "Infrastructure investment and flood control"
+    },
+    {
+      "topic": "Position",
+      "position": "Arts funding"
+    },
+    {
+      "topic": "Position",
+      "position": "Support for immigrant communities"
+    }
   ],
   "career_history": [
     {
       "role": "Cook County Commissioner, District 16",
       "org": "Cook County Board of Commissioners",
-      "years": "2020\u2013present",
+      "years": "2020–present",
       "highlight": "Chair: Finance Tax Delinquency, Zoning & Building. Vice-Chair: Asset Management, Emergency Management, Law Enforcement. METRA and RTA appointments."
     },
     {
       "role": "Illinois State Representative",
       "org": "Illinois House of Representatives",
-      "years": "2002\u2013~2020",
+      "years": "2002–~2020",
       "highlight": "Advanced economic development and access for undocumented residents; switched from Republican to Democrat during tenure"
     }
   ],
   "endorsements": [
     "Toni Preckwinkle (Cook County Board President)",
-    "Luis Guti\u00e9rrez (former U.S. Representative)",
+    "Luis Gutiérrez (former U.S. Representative)",
     "Chicago Teachers Union (CTU)",
     "AFSCME",
     "Chicago Federation of Labor (CFL)",
