@@ -6,6 +6,7 @@ import HotBoardCarousel from "@/components/HotBoardCarousel";
 import { extractSignals } from "@/components/HotBoard";
 import HeroSection from "@/components/HeroSection";
 import ScrollReveal from "@/components/ScrollReveal";
+import StartHereBanner from "@/components/StartHereBanner";
 import type { ScorecardEntry } from "@/lib/scoring";
 import type { Judge } from "@/lib/types";
 
@@ -149,33 +150,8 @@ export default function HomePage() {
   return (
     <div className="space-y-24">
 
-      {/* ── START HERE BANNER ── */}
-      <section className="rounded-sm border border-jacket-amber/40 bg-jacket-amber/5 px-5 py-4">
-        <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-          <div>
-            <p className="font-mono text-[11px] uppercase tracking-widest text-jacket-amber">
-              Illinois Primary — Tuesday March 17, 2026
-            </p>
-            <p className="mt-0.5 text-sm font-bold text-jacket-white">
-              New here? Start with your ballot — then follow the money.
-            </p>
-          </div>
-          <div className="flex flex-wrap gap-2">
-            <Link
-              href="/booth"
-              className="whitespace-nowrap rounded-sm bg-jacket-amber px-4 py-2 font-mono text-xs font-black uppercase tracking-widest text-jacket-black transition-colors hover:bg-amber-400"
-            >
-              🗳 Build My Ballot
-            </Link>
-            <Link
-              href="/races"
-              className="whitespace-nowrap rounded-sm border border-jacket-amber px-4 py-2 font-mono text-xs font-black uppercase tracking-widest text-jacket-amber transition-colors hover:bg-jacket-amber hover:text-jacket-black"
-            >
-              Browse All Races →
-            </Link>
-          </div>
-        </div>
-      </section>
+      {/* ── START HERE (desktop: slim banner; mobile: floating bubble) ── */}
+      <StartHereBanner />
 
       {/* ── HERO ── */}
       <HeroSection />
