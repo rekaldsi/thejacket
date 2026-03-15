@@ -138,13 +138,23 @@ export default function HotBoardCarousel({ signals }: Props) {
       >
         {items.map((signal, i) => {
           const cfg = SEVERITY_CONFIG[signal.severity] ?? SEVERITY_CONFIG.medium;
+          // Smart link: news → direct source URL, donor → finance section, flag → red-flags section
+          const href =
+            signal.type === "news" && signal.source
+              ? signal.source
+              : signal.type === "donor"
+              ? `/candidate/${signal.candidateId}#finance`
+              : `/candidate/${signal.candidateId}#red-flags`;
+          const isExternal = signal.type === "news" && !!signal.source;
           return (
             <Link
               key={`${signal.candidateId}-${signal.type}-${i}`}
-              href={`/candidate/${signal.candidateId}`}
+              href={href}
+              target={isExternal ? "_blank" : undefined}
+              rel={isExternal ? "noopener noreferrer" : undefined}
               className={`group flex w-72 shrink-0 flex-col gap-2 rounded-sm border p-3 transition-colors hover:border-jacket-amber ${cfg.card}`}
-              tabIndex={i >= signals.length ? -1 : 0}
-              aria-hidden={i >= signals.length}
+              tabIndex={i >= shuffled.length ? -1 : 0}
+              aria-hidden={i >= shuffled.length}
             >
               {/* Header row */}
               <div className="flex items-center gap-2">
@@ -175,7 +185,11 @@ export default function HotBoardCarousel({ signals }: Props) {
               </p>
 
               <span className="mt-auto font-mono text-[10px] text-zinc-700 group-hover:text-jacket-amber">
-                View profile →
+                {signal.type === "news" && signal.source
+                  ? `↗ ${(() => { try { return new URL(signal.source).hostname.replace("www.", ""); } catch { return "Source"; } })()} (opens article)`
+                  : signal.type === "donor"
+                  ? "View finance →"
+                  : "View red flags →"}
               </span>
             </Link>
           );

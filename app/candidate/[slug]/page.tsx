@@ -161,7 +161,7 @@ export default function CandidatePage({ params }: { params: { slug: string } }) 
       ) : null}
 
       {/* ── 4. THE JACKET — hero feature, full width ── */}
-      <section>
+      <section id="finance">
         <TheJacket
           candidateName={candidate.name}
           totalRaised={candidate.jacket.total_raised}
@@ -173,7 +173,7 @@ export default function CandidatePage({ params }: { params: { slug: string } }) 
 
       {/* ── 5. RED FLAGS ── */}
       {candidate.red_flags.length > 0 ? (
-        <section className="space-y-3">
+        <section id="red-flags" className="space-y-3">
           <h2 className="text-2xl font-black uppercase text-jacket-red">Red Flags</h2>
           {candidate.red_flags.map((flag) => (
             <RedFlagBadge key={`${flag.type}-${flag.label}`} flag={flag} />
