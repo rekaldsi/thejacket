@@ -612,6 +612,22 @@
       "source": "AP News",
       "source_name": "AP News",
       "sentiment": "neutral"
+    },
+    {
+      "title": "On final weekend before Illinois primary, candidates try to keep it local despite flood of out-of-state money",
+      "url": "https://www.chicagotribune.com/2026/03/15/illinois-primary-final-weekend-2026/",
+      "source": "Chicago Tribune",
+      "date": "2026-03-15",
+      "summary": "Chicago Tribune's final-weekend dispatch covers candidates canvassing the South Side Irish Parade, Black churches, and local rallies on the eve of the March 17 primary. Preckwinkle, Reilly, Krishnamoorthi, Kelly, and Stratton all named; the piece emphasizes how tens of millions in out-of-state PAC money (pro-Israel AIPAC, crypto, AI interests) have nationalized what were traditionally local races.",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Illinois' Senate Democratic primary a lesson in campaign finance and a test of Gov. JB Pritzker's power",
+      "url": "https://www.chicagotribune.com/2026/03/15/illinois-senate-democratic-primary-election/",
+      "source": "Chicago Tribune",
+      "date": "2026-03-15",
+      "summary": "Tribune's definitive pre-primary Senate analysis: the contest has narrowed to Krishnamoorthi, Kelly, and Stratton. The race is framed as a test of Gov. Pritzker's political power through his backing of Stratton, his two-term running mate. Notes the cascade of outside PAC money since Durbin's retirement announcement and the role of Trump's second term (immigration raids, Iran war, federal funding threats) as the backdrop.",
+      "sentiment": "neutral"
     }
   ],
   "fec_candidate_id": "S6IL00458",
