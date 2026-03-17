@@ -28,5 +28,14 @@
   "endorsements": [],
   "key_votes": [],
   "news_hits": [],
-  "score": null
+  "score": null,
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "F",
+    "record_available": false,
+    "red_flags_count": 1,
+    "computed_at": "2026-03-17"
+  }
 }
