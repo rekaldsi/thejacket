@@ -668,6 +668,14 @@
       "date": "2026-03-16",
       "summary": "Election-eve preview from STLPR covering Illinois primary watchpoints. Senate race (Kelly/Krishnamoorthi/Stratton) is top race; candidates have diverged on minimum wage ($25/hr Stratton vs. $17/hr Kelly and Krishnamoorthi). Race has been contentious over MAGA-aligned and corporate donor accusations between Krishnamoorthi and Stratton.",
       "sentiment": "neutral"
+    },
+    {
+      "title": "Cold weather to greet Illinois voters Tuesday as primary features open US Senate, crowded House races",
+      "url": "https://www.chicagotribune.com/2026/03/16/cold-weather-to-greet-illinois-voters-tuesday-as-primary-features-open-us-senate-crowded-house-races/",
+      "source": "Chicago Tribune",
+      "date": "2026-03-16",
+      "summary": "Tribune election-eve dispatch from March 16 covers the final day before the primary. Pritzker and Stratton campaign signs are shown together outside early voting sites, underscoring the governor's active campaigning for his Lt. Governor's Senate bid. Cold weather forecast for the Chicago area may affect turnout.",
+      "sentiment": "neutral"
     }
   ],
   "fec_candidate_id": "S6IL00458",
