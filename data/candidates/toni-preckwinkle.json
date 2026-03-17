@@ -5,14 +5,14 @@
   "office": "Cook County Board President",
   "race_id": "cook-county-board-president-d-2026",
   "bio": "Toni Preckwinkle is the incumbent Cook County Board President, first elected in 2010, and chair of the Cook County Democratic Party. She previously served as a Chicago alderperson representing the 4th Ward for nearly two decades. (Source: Cook County official website; WTTW Voter Guide 2026)",
-  "prior_office": "Cook County Board President (2010\u2013present); Chicago Alderman (4th Ward, 1991\u20132010)",
+  "prior_office": "Cook County Board President (2010–present); Chicago Alderman (4th Ward, 1991–2010)",
   "website": "https://tonipreckwinkle.org",
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Toni_Preckwinkle_press_conference_210226-Z-AZ071-3051_%281%29.jpg",
   "jacket": {
     "total_raised": 2043023,
     "data_date": "2026-03-13",
     "source": "https://www.illinoissunshine.org/committees/21644/",
-    "note": "County race \u2014 ILSBE filing, not FEC.",
+    "note": "County race — ILSBE filing, not FEC.",
     "donors": [
       {
         "name": "SEIU Illinois Council PAC Fund",
@@ -91,85 +91,85 @@
     {
       "type": "ethics",
       "label": "Connected to Ald. Burke Federal Corruption Case",
-      "detail": "Preckwinkle returned over $100,000 in fundraising linked to indicted Chicago Alderman Edward Burke following his 2019 federal corruption charges \u2014 a documented fact per Chicago Tribune reporting. Reports have also alleged she hired Burke's son as a six-figure county employee, though this has not been independently confirmed. Preckwinkle was not charged in connection with the Burke case and has denied any quid pro quo arrangement.",
+      "detail": "Preckwinkle returned over $100,000 in fundraising linked to indicted Chicago Alderman Edward Burke following his 2019 federal corruption charges — a documented fact per Chicago Tribune reporting. Reports have also alleged she hired Burke's son as a six-figure county employee, though this has not been independently confirmed. Preckwinkle was not charged in connection with the Burke case and has denied any quid pro quo arrangement.",
       "source": "https://www.chicagotribune.com/politics/preckwinkle-burke",
       "confirmed": false
     },
     {
       "type": "ethics",
-      "label": "Soda Tax Backlash \u2014 Revenue Motive Admitted",
+      "label": "Soda Tax Backlash — Revenue Motive Admitted",
       "detail": "Preckwinkle championed a controversial penny-per-ounce soda tax in 2017, which reached 87% disapproval in polls and was repealed. She later admitted the primary motivation was revenue, not public health.",
       "source": "https://www.chicagotribune.com/business/ct-biz-cook-county-soda-tax-repeal-20171010-story.html",
       "confirmed": true
     },
     {
       "type": "ethics",
-      "label": "Tyler Technologies contract scandal \u2014 $265M+ in contracts and $122M in borrowing",
-      "detail": "Tyler Technologies contract scandal \u2014 $265M+ in contracts and $122M in borrowing by other taxing bodies; delayed 2024 tax bills; Preckwinkle acknowledged project was 'bumpy'",
+      "label": "Tyler Technologies contract scandal — $265M+ in contracts and $122M in borrowing",
+      "detail": "Tyler Technologies contract scandal — $265M+ in contracts and $122M in borrowing by other taxing bodies; delayed 2024 tax bills; Preckwinkle acknowledged project was 'bumpy'",
       "source": "https://tonipreckwinkle.org",
       "confirmed": false
     },
     {
       "type": "ethics",
-      "label": "Machine politician ties \u2014 chairs Cook County Democratic Party, uses endorsement ",
-      "detail": "Machine politician ties \u2014 chairs Cook County Democratic Party, uses endorsement power as de facto patronage (per critics)",
+      "label": "Machine politician ties — chairs Cook County Democratic Party, uses endorsement ",
+      "detail": "Machine politician ties — chairs Cook County Democratic Party, uses endorsement power as de facto patronage (per critics)",
       "source": "https://tonipreckwinkle.org",
       "confirmed": false
     },
     {
       "type": "ethics",
-      "label": "2026: Supported ICE data-sharing contract renewal \u2014 contradicts stated sanctuary",
-      "detail": "2026: Supported ICE data-sharing contract renewal \u2014 contradicts stated sanctuary city values; several board commissioners abstained in protest",
+      "label": "2026: Supported ICE data-sharing contract renewal — contradicts stated sanctuary",
+      "detail": "2026: Supported ICE data-sharing contract renewal — contradicts stated sanctuary city values; several board commissioners abstained in protest",
       "source": "https://tonipreckwinkle.org",
       "confirmed": false
     },
     {
       "type": "ethics",
-      "label": "Sales tax hike (2015) after campaigning against it in 2010 \u2014 documented broken c",
-      "detail": "Sales tax hike (2015) after campaigning against it in 2010 \u2014 documented broken campaign promise",
+      "label": "Sales tax hike (2015) after campaigning against it in 2010 — documented broken c",
+      "detail": "Sales tax hike (2015) after campaigning against it in 2010 — documented broken campaign promise",
       "source": "https://tonipreckwinkle.org",
       "confirmed": false
     },
     {
       "type": "ethics",
       "label": "Donor base dominated by public-sector unions (SEIU, AFSCME, Operating Engineers,",
-      "detail": "Donor base dominated by public-sector unions (SEIU, AFSCME, Operating Engineers, Carpenters) \u2014 raises potential conflicts with county labor negotiations",
+      "detail": "Donor base dominated by public-sector unions (SEIU, AFSCME, Operating Engineers, Carpenters) — raises potential conflicts with county labor negotiations",
       "source": "https://tonipreckwinkle.org",
       "confirmed": false
     },
     {
-      "label": "Tyler Technologies contract scandal \u2014 $265M+ in contracts and $122M in borrowing by other taxing bodies; delayed 2024 tax bills; Preckwinkle acknowledged project was 'bumpy'"
+      "label": "Tyler Technologies contract scandal — $265M+ in contracts and $122M in borrowing by other taxing bodies; delayed 2024 tax bills; Preckwinkle acknowledged project was 'bumpy'"
     },
     {
-      "label": "Machine politician ties \u2014 chairs Cook County Democratic Party, uses endorsement power as de facto patronage (per critics)"
+      "label": "Machine politician ties — chairs Cook County Democratic Party, uses endorsement power as de facto patronage (per critics)"
     },
     {
-      "label": "2026: Supported ICE data-sharing contract renewal \u2014 contradicts stated sanctuary city values; several board commissioners abstained in protest"
+      "label": "2026: Supported ICE data-sharing contract renewal — contradicts stated sanctuary city values; several board commissioners abstained in protest"
     },
     {
-      "label": "Sales tax hike (2015) after campaigning against it in 2010 \u2014 documented broken campaign promise"
+      "label": "Sales tax hike (2015) after campaigning against it in 2010 — documented broken campaign promise"
     },
     {
-      "label": "Donor base dominated by public-sector unions (SEIU, AFSCME, Operating Engineers, Carpenters) \u2014 raises potential conflicts with county labor negotiations"
+      "label": "Donor base dominated by public-sector unions (SEIU, AFSCME, Operating Engineers, Carpenters) — raises potential conflicts with county labor negotiations"
     }
   ],
   "key_votes": [
     {
-      "bill": "2015: Pushed through Cook County sales tax increase (1% \u2192 restore Stroger-era ta",
+      "bill": "2015: Pushed through Cook County sales tax increase (1% → restore Stroger-era ta",
       "vote": "record",
-      "summary": "2015: Pushed through Cook County sales tax increase (1% \u2192 restore Stroger-era tax) to fund pensions \u2014 later drew attack ads citing 2010 campaign promise not to raise it",
+      "summary": "2015: Pushed through Cook County sales tax increase (1% → restore Stroger-era tax) to fund pensions — later drew attack ads citing 2010 campaign promise not to raise it",
       "source": "https://tonipreckwinkle.org"
     },
     {
-      "bill": "2017: Led sweetened beverage tax (soda tax) \u2014 repealed after 4 months following ",
+      "bill": "2017: Led sweetened beverage tax (soda tax) — repealed after 4 months following ",
       "vote": "record",
-      "summary": "2017: Led sweetened beverage tax (soda tax) \u2014 repealed after 4 months following industry-funded backlash campaign",
+      "summary": "2017: Led sweetened beverage tax (soda tax) — repealed after 4 months following industry-funded backlash campaign",
       "source": "https://tonipreckwinkle.org"
     },
     {
-      "bill": "2020-2024: Oversaw Tyler Technologies contract for property tax system upgrade \u2014",
+      "bill": "2020-2024: Oversaw Tyler Technologies contract for property tax system upgrade —",
       "vote": "record",
-      "summary": "2020-2024: Oversaw Tyler Technologies contract for property tax system upgrade \u2014 cost overruns totaling $265M+ and delayed tax bills in 2024, acknowledged as troubled",
+      "summary": "2020-2024: Oversaw Tyler Technologies contract for property tax system upgrade — cost overruns totaling $265M+ and delayed tax bills in 2024, acknowledged as troubled",
       "source": "https://tonipreckwinkle.org"
     },
     {
@@ -181,7 +181,7 @@
     {
       "bill": "2025-2026: Supported renewal of data contract with company providing information",
       "vote": "record",
-      "summary": "2025-2026: Supported renewal of data contract with company providing information to ICE and federal agencies \u2014 drew criticism from immigrant advocates",
+      "summary": "2025-2026: Supported renewal of data contract with company providing information to ICE and federal agencies — drew criticism from immigrant advocates",
       "source": "https://tonipreckwinkle.org"
     },
     {
@@ -191,9 +191,9 @@
       "source": "https://tonipreckwinkle.org"
     },
     {
-      "bill": "Criminal justice reform champion \u2014 reduced pretrial detention, led Cook County H",
+      "bill": "Criminal justice reform champion — reduced pretrial detention, led Cook County H",
       "vote": "record",
-      "summary": "Criminal justice reform champion \u2014 reduced pretrial detention, led Cook County Health expansion, supported Kim Foxx as State's Attorney",
+      "summary": "Criminal justice reform champion — reduced pretrial detention, led Cook County Health expansion, supported Kim Foxx as State's Attorney",
       "source": "https://tonipreckwinkle.org"
     }
   ],
@@ -233,25 +233,25 @@
     {
       "role": "Cook County Board President",
       "org": "Cook County Board of Commissioners",
-      "years": "2010\u2013present",
+      "years": "2010–present",
       "highlight": "Longest-serving County Board President; oversaw $6B+ budget"
     },
     {
       "role": "Alderman, 4th Ward",
       "org": "Chicago City Council",
-      "years": "1991\u20132010",
+      "years": "1991–2010",
       "highlight": "19 years representing Hyde Park / Kenwood"
     },
     {
       "role": "High School Teacher",
       "org": "Chicago Public Schools",
-      "years": "1970s\u20131991"
+      "years": "1970s–1991"
     }
   ],
   "policy_platform": [
     {
       "topic": "Criminal Justice Reform",
-      "position": "Supported bail reform and reducing pre-trial detention. Has called for accountability at Cook County Jail \u2014 complicated by reliance on Sheriff Dart.",
+      "position": "Supported bail reform and reducing pre-trial detention. Has called for accountability at Cook County Jail — complicated by reliance on Sheriff Dart.",
       "source": "https://www.cookcountyil.gov"
     },
     {
@@ -282,12 +282,12 @@
       "type": "positive"
     },
     {
-      "label": "Longest-serving Board President \u2014 institutional experience",
+      "label": "Longest-serving Board President — institutional experience",
       "value": true,
       "type": "positive"
     },
     {
-      "label": "Soda tax controversy (2016) \u2014 passed then repealed",
+      "label": "Soda tax controversy (2016) — passed then repealed",
       "value": true,
       "type": "negative"
     },
@@ -376,7 +376,7 @@
       "url": "https://www.politico.com/news/2026/03/12/a-historic-senate-opening-meets-a-divided-illinois-democratic-party-00827236",
       "source": "Politico",
       "date": "2026-03-12",
-      "summary": "Politico's pre-primary deep-dive notes Preckwinkle lent advisers from her political operation to Krishnamoorthi's Senate campaign \u2014 a move read by insiders as a subtle vote of confidence for Krishnamoorthi over Stratton.",
+      "summary": "Politico's pre-primary deep-dive notes Preckwinkle lent advisers from her political operation to Krishnamoorthi's Senate campaign — a move read by insiders as a subtle vote of confidence for Krishnamoorthi over Stratton.",
       "sentiment": "neutral"
     },
     {
@@ -392,7 +392,7 @@
       "url": "https://chicago.suntimes.com/elections/2026/03/17/cook-county-president-democratic-illinois-primary-results",
       "source": "Chicago Sun-Times",
       "date": "2026-03-17",
-      "summary": "Election Day coverage of the Cook County Board President Democratic primary. Preckwinkle faces Ald. Brendan Reilly in a heated race over property tax system delays, budget management, and Cook County's fiscal future. Running for her fifth four-year term \u2014 which would equal George Dunne's tenure as the board's longest-serving leader.",
+      "summary": "Election Day coverage of the Cook County Board President Democratic primary. Preckwinkle faces Ald. Brendan Reilly in a heated race over property tax system delays, budget management, and Cook County's fiscal future. Running for her fifth four-year term — which would equal George Dunne's tenure as the board's longest-serving leader.",
       "sentiment": "neutral"
     }
   ]
