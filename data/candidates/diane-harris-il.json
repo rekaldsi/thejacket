@@ -1,0 +1,24 @@
+{
+  "id": "diane-harris-il",
+  "name": "Diane Harris",
+  "party": "Republican",
+  "office": "Illinois Secretary of State",
+  "race_id": "il-secretary-of-state-r-2026",
+  "bio": "Diane Harris is a Republican candidate for Illinois Secretary of State from the Joliet area, running in the March 17, 2026 primary. Additional biographical information is being verified.",
+  "prior_office": null,
+  "website": null,
+  "photo_url": null,
+  "data_status": "stub",
+  "jacket": {
+    "total_raised": null,
+    "data_date": "2026-03-16",
+    "source": "https://www.fec.gov/data/",
+    "note": "Finance data pending.",
+    "donors": []
+  },
+  "red_flags": [],
+  "endorsements": [],
+  "key_votes": [],
+  "news_hits": [],
+  "score": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "yasmeen-bankole",
+  "name": "Yasmeen Bankole",
+  "party": "Democratic",
+  "office": "U.S. House (IL-08)",
+  "race_id": "il-08-us-house-d-2026",
+  "bio": "Yasmeen Bankole is a candidate in the Democratic primary for Illinois' 8th Congressional District. Additional biographical information is being verified.",
+  "prior_office": null,
+  "website": null,
+  "photo_url": null,
+  "data_status": "stub",
+  "jacket": {
+    "total_raised": null,
+    "data_date": "2026-03-16",
+    "source": "https://www.fec.gov/data/",
+    "note": "FEC data pending lookup.",
+    "donors": []
+  },
+  "red_flags": [],
+  "endorsements": [],
+  "key_votes": [],
+  "news_hits": [],
+  "score": null
+}

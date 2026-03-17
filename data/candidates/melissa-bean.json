@@ -1,0 +1,24 @@
+{
+  "id": "melissa-bean",
+  "name": "Melissa Bean",
+  "party": "Democratic",
+  "office": "U.S. House (IL-08)",
+  "race_id": "il-08-us-house-d-2026",
+  "bio": "Melissa Bean is a former U.S. Representative for Illinois' 8th Congressional District, serving from 2005 to 2011, when she was defeated in the Tea Party wave election. During her tenure she was known as a moderate Democrat, serving on the House Financial Services Committee. She has worked in the financial services and technology industries since leaving Congress. She re-entered politics to seek the open seat created by Raja Krishnamoorthi's Senate run and has emerged as a frontrunner with significant fundraising support.",
+  "prior_office": "U.S. Representative (IL-08, 2005–2011)",
+  "website": "https://melissabean.com",
+  "photo_url": null,
+  "data_status": "partial",
+  "jacket": {
+    "total_raised": null,
+    "data_date": "2026-03-16",
+    "source": "https://www.fec.gov/data/",
+    "note": "FEC data pending lookup.",
+    "donors": []
+  },
+  "red_flags": [],
+  "endorsements": [],
+  "key_votes": [],
+  "news_hits": [],
+  "score": null
+}
