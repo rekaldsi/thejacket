@@ -5,7 +5,7 @@
   "office": "U.S. House (IL-08)",
   "race_id": "il-08-us-house-d-2026",
   "bio": "Melissa Conyears-Ervin has served as Chicago City Treasurer since 2019, managing the city's investment portfolio and overseeing financial operations. She previously served in the Illinois General Assembly. As City Treasurer she has focused on financial literacy programs and equitable banking access.",
-  "prior_office": "Chicago City Treasurer (2019–present); Illinois State Representative",
+  "prior_office": "Chicago City Treasurer (2019\u2013present); Illinois State Representative",
   "website": null,
   "photo_url": null,
   "data_status": "partial",
@@ -34,6 +34,14 @@
       "source": "Roll Call",
       "date": "2026-03-17",
       "summary": "Roll Call names Conyears-Ervin among the eight Democrats competing in IL-08 successor race to Krishnamoorthi. AIPAC-aligned super PAC running independent expenditures in support of her candidacy.",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Early front-runner Melissa Bean seeks to reclaim 8th Congressional District seat she lost in 2010",
+      "url": "https://chicago.suntimes.com/elections/2026/03/17/us-house-illinois-8th-congressional-district-primary-results",
+      "source": "Chicago Sun-Times",
+      "date": "2026-03-17",
+      "summary": "IL-08 Democratic primary features multiple candidates including Chicago City Treasurer Melissa Conyears-Ervin who is making her second primary run for the seat.",
       "sentiment": "neutral"
     }
   ],
