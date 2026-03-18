@@ -4,8 +4,8 @@
   "party": "Democratic",
   "office": "U.S. Senate (Illinois)",
   "race_id": "us-senate-il-d-2026",
-  "bio": "Raja Krishnamoorthi was born in New Delhi, India and immigrated to the United States as a child, growing up in Normal and Peoria, Illinois. He earned an A.B. from Harvard University and a J.D. from Princeton University (Woodrow Wilson School and Princeton Law). He worked as an Associate at Sidley Austin LLP (2003\u20132005), served as Special Assistant Attorney General of Illinois (2005\u20132006), and was Deputy Treasurer of Illinois under then-Treasurer Alexi Giannoulias (2009\u20132010). An unsuccessful 2010 Democratic primary bid for Illinois Comptroller (losing by 1 percentage point) raised over $1M. He was elected to IL-08 in 2016 and has served since January 2017. He sits on the House Permanent Select Committee on Intelligence and co-chairs the House Select Committee on China. He was a lead sponsor of H.R. 7521, the TikTok ban (Protecting Americans from Foreign Adversary Controlled Applications Act). He entered the Senate race as the clear frontrunner in fundraising, raising $30.5M total as of Feb. 25, 2026 \u2014 including $19.3M transferred from his House fund \u2014 making him the nation's second-highest fundraising federal candidate in this cycle (behind only Georgia Sen. Jon Ossoff). He has faced sustained scrutiny over donors linked to MAGA figures, pro-Hindu nationalist groups, and the crypto industry. (Sources: Chicago Tribune, March 10, 2026; FEC S6IL00482; Wikipedia)",
-  "prior_office": "U.S. Representative (IL-08, 2017\u2013present); Deputy Treasurer of Illinois (2009\u20132010); Special Assistant Attorney General of Illinois (2005\u20132006)",
+  "bio": "Raja Krishnamoorthi was born in New Delhi, India and immigrated to the United States as a child, growing up in Normal and Peoria, Illinois. He earned an A.B. from Harvard University and a J.D. from Princeton University (Woodrow Wilson School and Princeton Law). He worked as an Associate at Sidley Austin LLP (2003–2005), served as Special Assistant Attorney General of Illinois (2005–2006), and was Deputy Treasurer of Illinois under then-Treasurer Alexi Giannoulias (2009–2010). An unsuccessful 2010 Democratic primary bid for Illinois Comptroller (losing by 1 percentage point) raised over $1M. He was elected to IL-08 in 2016 and has served since January 2017. He sits on the House Permanent Select Committee on Intelligence and co-chairs the House Select Committee on China. He was a lead sponsor of H.R. 7521, the TikTok ban (Protecting Americans from Foreign Adversary Controlled Applications Act). He entered the Senate race as the clear frontrunner in fundraising, raising $30.5M total as of Feb. 25, 2026 — including $19.3M transferred from his House fund — making him the nation's second-highest fundraising federal candidate in this cycle (behind only Georgia Sen. Jon Ossoff). He has faced sustained scrutiny over donors linked to MAGA figures, pro-Hindu nationalist groups, and the crypto industry. (Sources: Chicago Tribune, March 10, 2026; FEC S6IL00482; Wikipedia)",
+  "prior_office": "U.S. Representative (IL-08, 2017–present); Deputy Treasurer of Illinois (2009–2010); Special Assistant Attorney General of Illinois (2005–2006)",
   "website": "https://rajaforil.com",
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Raja_Krishnamoorthi_official_photo.jpg",
   "jacket": {
@@ -15,15 +15,15 @@
     "note": "$30.5M raised between start of 2025 and Feb. 25, 2026 per Chicago Tribune (March 10, 2026). Includes $19.3M transferred from House campaign fund. Nation's 2nd-highest fundraising federal candidate this election cycle. Over $20M spent on TV and digital advertising per Sun-Times.",
     "donors": [
       {
-        "name": "Friends of Raja for Congress (prior House committee \u2014 transfer)",
+        "name": "Friends of Raja for Congress (prior House committee — transfer)",
         "amount": 19285171,
         "category": "transfer",
         "source": "https://api.open.fec.gov/v1/candidate/S6IL00482/totals/?cycle=2026",
         "confirmed": true,
-        "amount_note": "FEC confirmed transfer from his prior House committee into Senate committee \u2014 single largest funding source"
+        "amount_note": "FEC confirmed transfer from his prior House committee into Senate committee — single largest funding source"
       },
       {
-        "name": "Shyam Sankar (CTO of Palantir \u2014 ICE contractor)",
+        "name": "Shyam Sankar (CTO of Palantir — ICE contractor)",
         "amount": null,
         "category": "individual",
         "source": "https://chicago.suntimes.com/the-watchdogs/2025/12/08/raja-krishnamoorthi-senate-campaign-donors-trump-allies-maga-money",
@@ -55,12 +55,12 @@
         "amount_note": "Tribune confirmed ~$35,000 in contributions from Barai since 2016 election cycle. Barai organized 2nd World Hindu Congress (2018, Lombard IL) and arranged events with Indian PM Modi, including 2019 Houston rally where Krishnamoorthi appeared alongside Trump."
       },
       {
-        "name": "Fairshake (Crypto Industry Super PAC \u2014 outside independent expenditure)",
+        "name": "Fairshake (Crypto Industry Super PAC — outside independent expenditure)",
         "amount": 5500000,
         "category": "outside_pac",
         "source": "https://capitolnewsillinois.com/news/outside-groups-spending-big-on-illinois-senate-race/",
         "confirmed": true,
-        "amount_note": "Fairshake spent $5.5M+ in anti-Stratton ads (NOT direct campaign money \u2014 cannot legally coordinate). Funded primarily by Coinbase and a16z (Andreessen-Horowitz). AdImpact tracks Fairshake total at $8.2M. Krishnamoorthi is not Fairshake's direct recipient but benefits from anti-Stratton spending."
+        "amount_note": "Fairshake spent $5.5M+ in anti-Stratton ads (NOT direct campaign money — cannot legally coordinate). Funded primarily by Coinbase and a16z (Andreessen-Horowitz). AdImpact tracks Fairshake total at $8.2M. Krishnamoorthi is not Fairshake's direct recipient but benefits from anti-Stratton spending."
       },
       {
         "name": "Pro-Israel / AIPAC-aligned donors (career total)",
@@ -71,12 +71,12 @@
         "amount_note": "Career-total sector estimate from OpenSecrets; exact Senate-cycle AIPAC-network amount unconfirmed. AIPAC endorsed Krishnamoorthi in 2024 House race."
       },
       {
-        "name": "Corporate PACs \u2014 Big Tech and defense contractors (aggregate)",
+        "name": "Corporate PACs — Big Tech and defense contractors (aggregate)",
         "amount": 120000,
         "category": "pac",
         "source": "https://americankahani.com/lead-stories/raja-krishnamoorthi-leads-tight-illinois-senate-primary-amid-fundraising-controversies-and-hindu-nationalist-ties/",
         "confirmed": true,
-        "amount_note": "$120,000+ in corporate PAC contributions from same companies funding Trump's White House ballroom construction \u2014 confirmed by Chicago Sun-Times reporting; includes Google, Amazon, Booz Allen Hamilton, Microsoft, T-Mobile, NextEra Energy, Union Pacific and Lockheed Martin."
+        "amount_note": "$120,000+ in corporate PAC contributions from same companies funding Trump's White House ballroom construction — confirmed by Chicago Sun-Times reporting; includes Google, Amazon, Booz Allen Hamilton, Microsoft, T-Mobile, NextEra Energy, Union Pacific and Lockheed Martin."
       },
       {
         "name": "Lanny Darr (personal injury attorney, Alton IL)",
@@ -100,21 +100,21 @@
     },
     {
       "type": "dark-money",
-      "label": "Crypto Industry PAC (Fairshake) \u2014 Funded by Trump Megadonors",
+      "label": "Crypto Industry PAC (Fairshake) — Funded by Trump Megadonors",
       "detail": "Fairshake, a crypto industry PAC primarily funded by Coinbase and Andreessen Horowitz (a16z), has spent $5.5M+ attacking Stratton and $8.2M total per AdImpact. Ben Horowitz and Marc Andreessen, the firm's principals, gave $11M to MAGA Inc. (Trump PAC) per the New York Times. Fairshake also funds Protect Progress PAC, which spent $89,900 supporting Kelly. Krishnamoorthi has benefited substantially from this outside spending ecosystem without direct coordination.",
       "source": "https://capitolnewsillinois.com/news/outside-groups-spending-big-on-illinois-senate-race/",
       "confirmed": true
     },
     {
       "type": "dark-money",
-      "label": "MAGA/Trump-Aligned Donor Network \u2014 $90K+ Confirmed",
+      "label": "MAGA/Trump-Aligned Donor Network — $90K+ Confirmed",
       "detail": "The Chicago Sun-Times reported December 8, 2025 that Krishnamoorthi accepted more than $90,000 from Trump/MAGA-aligned donors. Specifically named: Shyam Sankar, CTO of Palantir (ICE contractor, gave $260K+ to Republican causes in 2025); Marc Andreessen (Trump adviser who gave $11M to MAGA Inc.); Michael Pillsbury (Project 2025 contributor, Heritage Foundation). He also accepted $120K+ from corporate PACs of companies donating to Trump's White House ballroom construction.",
       "source": "https://chicago.suntimes.com/the-watchdogs/2025/12/08/raja-krishnamoorthi-senate-campaign-donors-trump-allies-maga-money",
       "confirmed": true
     },
     {
       "type": "foreign-influence",
-      "label": "Hindu Nationalist Donor Network \u2014 Tribune Investigation",
+      "label": "Hindu Nationalist Donor Network — Tribune Investigation",
       "detail": "The Chicago Tribune (March 10, 2026) identified contributors affiliated with Hindu nationalist organizations: the Hindu American Foundation, Vishwa Hindu Parishad of America, and Overseas Friends of BJP. A 2025 Rutgers Center for Security, Race, and Rights report describes such groups as belonging to 'a transnational far-right political ideology grounded in Hindu supremacy.' Key donor: Dr. Bharat Barai, who gave ~$35,000 since 2016, has organized Hindu nationalist events and helped arrange a 2019 Houston rally with PM Modi and Trump where Krishnamoorthi appeared. State Sen. Ram Villivalam refused to speak at a 2018 Hindu Congress event over nationalist ties. Krishnamoorthi has not returned these donations.",
       "source": "https://www.chicagotribune.com/2026/03/10/raja-krishnamoorthi-fundraising-illinois-senate/",
       "confirmed": true
@@ -129,43 +129,43 @@
   ],
   "key_votes": [
     {
-      "bill": "H.R. 8034 \u2014 Israel Security Supplemental Appropriations Act, 2024",
+      "bill": "H.R. 8034 — Israel Security Supplemental Appropriations Act, 2024",
       "vote": "yes",
       "summary": "Voted yes on $26.4B in emergency military aid to Israel. Passed 366-58 on April 20, 2024.",
       "source": "https://clerk.house.gov/Votes/2024152"
     },
     {
-      "bill": "H.R. 8369 \u2014 Israel Security Assistance Support Act, 2024",
+      "bill": "H.R. 8369 — Israel Security Assistance Support Act, 2024",
       "vote": "yes",
       "summary": "Voted yes to direct Biden to release withheld weapons to Israel. Passed 334-79 on May 15, 2024.",
       "source": "https://www.govtrack.us/congress/votes/118-2024/h217"
     },
     {
-      "bill": "H.R. 7521 \u2014 Protecting Americans from Foreign Adversary Controlled Applications Act (TikTok ban), 2024",
+      "bill": "H.R. 7521 — Protecting Americans from Foreign Adversary Controlled Applications Act (TikTok ban), 2024",
       "vote": "yes",
       "summary": "Krishnamoorthi was a lead sponsor. Requires ByteDance to divest TikTok or face US ban. Passed 316-94 on April 19, 2024.",
       "source": "https://www.govtrack.us/congress/members/raja_krishnamoorthi/412701"
     },
     {
-      "bill": "H. Res. 1099 \u2014 Reaffirming Iran as largest state sponsor of terrorism, 2026",
+      "bill": "H. Res. 1099 — Reaffirming Iran as largest state sponsor of terrorism, 2026",
       "vote": "no",
       "summary": "Voted nay on this bipartisan resolution. One of only 53 members to vote no. Passed 372-53 on March 5, 2026. Seen as a more skeptical foreign policy posture ahead of Senate primary.",
       "source": "https://repcloakroom.house.gov/vote_sheet/vote-series-i-thursday-march-5th-2026/"
     },
     {
-      "bill": "H.R. 2 \u2014 Laken Riley Act, 2026",
+      "bill": "H.R. 2 — Laken Riley Act, 2026",
       "vote": "no",
       "summary": "Voted nay on legislation requiring detention of undocumented immigrants arrested for certain crimes. Passed 341-79 on January 14, 2026.",
       "source": "https://clerk.house.gov/Votes/202614"
     },
     {
-      "bill": "H.R. 5376 \u2014 Inflation Reduction Act, 2022",
+      "bill": "H.R. 5376 — Inflation Reduction Act, 2022",
       "vote": "yes",
       "summary": "Voted yes on landmark climate/energy, healthcare and tax legislation. Passed 220-207.",
       "source": "https://ballotpedia.org/Raja_Krishnamoorthi"
     },
     {
-      "bill": "H.R. 3684 \u2014 Infrastructure Investment and Jobs Act, 2021",
+      "bill": "H.R. 3684 — Infrastructure Investment and Jobs Act, 2021",
       "vote": "yes",
       "summary": "Voted yes on $1.2T bipartisan infrastructure bill. Passed 228-206. Signed Nov. 15, 2021.",
       "source": "https://ballotpedia.org/Raja_Krishnamoorthi"
@@ -243,32 +243,32 @@
     {
       "role": "U.S. Representative, IL-08",
       "org": "U.S. House of Representatives",
-      "years": "2017\u2013present",
+      "years": "2017–present",
       "highlight": "House Permanent Select Committee on Intelligence; co-chair, House Select Committee on China; lead sponsor of TikTok ban legislation (H.R. 7521)"
     },
     {
       "role": "Deputy Treasurer of Illinois",
       "org": "Illinois State Treasurer's Office (Alexi Giannoulias)",
-      "years": "2009\u20132010",
+      "years": "2009–2010",
       "highlight": "State financial policy and operations"
     },
     {
       "role": "Special Assistant Attorney General",
       "org": "Illinois Attorney General's Office",
-      "years": "2005\u20132006",
+      "years": "2005–2006",
       "highlight": "Legal work in state AG office"
     },
     {
       "role": "Associate",
       "org": "Sidley Austin LLP",
-      "years": "2003\u20132005",
+      "years": "2003–2005",
       "highlight": "Chicago-based major law firm"
     },
     {
       "role": "Candidate for Illinois Comptroller",
       "org": "Illinois Democratic Primary",
       "years": "2010",
-      "highlight": "Lost Democratic primary by 1 percentage point; raised over $1M \u2014 foreshadowing his fundraising dominance"
+      "highlight": "Lost Democratic primary by 1 percentage point; raised over $1M — foreshadowing his fundraising dominance"
     }
   ],
   "policy_platform": [
@@ -294,7 +294,7 @@
     },
     {
       "topic": "Immigration",
-      "position": "Voted no on Laken Riley Act (2026). Criticized ICE enforcement overreach. Attacked by Stratton for accepting donations from Palantir's CTO (Shyam Sankar) \u2014 Palantir has ICE contracts.",
+      "position": "Voted no on Laken Riley Act (2026). Criticized ICE enforcement overreach. Attacked by Stratton for accepting donations from Palantir's CTO (Shyam Sankar) — Palantir has ICE contracts.",
       "source": "https://clerk.house.gov/Votes/202614"
     }
   ],
@@ -317,7 +317,7 @@
       "type": "positive"
     },
     {
-      "label": "Harvard AB / Princeton JD \u2014 top academic credentials",
+      "label": "Harvard AB / Princeton JD — top academic credentials",
       "value": true,
       "type": "neutral"
     },
@@ -352,7 +352,7 @@
       "type": "negative"
     },
     {
-      "label": "Former staffers: fundraising-obsessed culture, harsh treatment \u2014 anonymous (unconfirmed)",
+      "label": "Former staffers: fundraising-obsessed culture, harsh treatment — anonymous (unconfirmed)",
       "value": false,
       "type": "negative"
     },
@@ -374,7 +374,7 @@
   "news_hits": [
     {
       "headline": "US Rep. Raja Krishnamoorthi raises millions for Illinois Senate bid as fundraising draws scrutiny",
-      "summary": "The Chicago Tribune's March 10 investigation confirmed $90K+ from Trump/MAGA-aligned donors including Palantir CTO Shyam Sankar, $35K from a Modi-linked Hindu nationalist event organizer, and former staffers describing a culture of fundraising obsession and harsh treatment of employees \u2014 including a 2019 speeding incident on the NJ Turnpike.",
+      "summary": "The Chicago Tribune's March 10 investigation confirmed $90K+ from Trump/MAGA-aligned donors including Palantir CTO Shyam Sankar, $35K from a Modi-linked Hindu nationalist event organizer, and former staffers describing a culture of fundraising obsession and harsh treatment of employees — including a 2019 speeding incident on the NJ Turnpike.",
       "url": "https://www.chicagotribune.com/2026/03/10/raja-krishnamoorthi-fundraising-illinois-senate/",
       "date": "2026-03-10",
       "severity": "high",
@@ -390,7 +390,7 @@
     },
     {
       "headline": "A historic Senate opening meets a divided Illinois Democratic Party",
-      "summary": "Politico notes the crypto PAC strategy benefits Krishnamoorthi: one PAC attacks Stratton while another promotes Kelly to split votes \u2014 a coordinated outside effort Krishnamoorthi benefits from but cannot legally coordinate with.",
+      "summary": "Politico notes the crypto PAC strategy benefits Krishnamoorthi: one PAC attacks Stratton while another promotes Kelly to split votes — a coordinated outside effort Krishnamoorthi benefits from but cannot legally coordinate with.",
       "url": "https://www.politico.com/news/2026/03/12/a-historic-senate-opening-meets-a-divided-illinois-democratic-party-00827236",
       "date": "2026-03-12",
       "severity": "medium",
@@ -440,7 +440,7 @@
     {
       "headline": "Raja Krishnamoorthi lays out his case in 2026 Illinois Senate primary",
       "title": "Raja Krishnamoorthi lays out his case in 2026 Illinois Senate primary",
-      "summary": "NBC Chicago profiles Krishnamoorthi's campaign argument, highlighting his roughly $25 million war chest \u2014 one of the largest of any Senate candidate in the country \u2014 and his case for why the best-funded candidate should win.",
+      "summary": "NBC Chicago profiles Krishnamoorthi's campaign argument, highlighting his roughly $25 million war chest — one of the largest of any Senate candidate in the country — and his case for why the best-funded candidate should win.",
       "url": "https://www.nbcchicago.com/illinois-election-2026/raja-krishnamoorthi-lays-out-his-case-in-2026-illinois-senate-primary/3904645/",
       "date": "2026-03-08",
       "severity": "medium",
@@ -502,7 +502,7 @@
       "url": "https://www.chicagotribune.com/2026/03/09/illinois-senate-democrats-final-debate-2026/",
       "source": "Chicago Tribune",
       "date": "2026-03-09",
-      "summary": "The three Democratic Senate candidates held their final pre-primary debate. Krishnamoorthi and Stratton continued tussling over financial backers \u2014 specifically whether corporate and pro-Israel PAC money would compromise their ability to stand up to Trump.",
+      "summary": "The three Democratic Senate candidates held their final pre-primary debate. Krishnamoorthi and Stratton continued tussling over financial backers — specifically whether corporate and pro-Israel PAC money would compromise their ability to stand up to Trump.",
       "sentiment": "neutral"
     },
     {
@@ -534,15 +534,15 @@
       "url": "https://www.chicagotribune.com/2026/03/16/cold-weather-to-greet-illinois-voters-tuesday-as-primary-features-open-us-senate-crowded-house-races/",
       "source": "Chicago Tribune",
       "date": "2026-03-16",
-      "summary": "Tribune election-eve dispatch (March 16) confirms the U.S. Senate primary \u2014 headlined by Krishnamoorthi, Kelly, and Stratton \u2014 as the marquee race of the March 17 primary. Lists all Democratic Senate candidates including minor candidates. Cold weather forecast may affect turnout.",
+      "summary": "Tribune election-eve dispatch (March 16) confirms the U.S. Senate primary — headlined by Krishnamoorthi, Kelly, and Stratton — as the marquee race of the March 17 primary. Lists all Democratic Senate candidates including minor candidates. Cold weather forecast may affect turnout.",
       "sentiment": "neutral"
     },
     {
-      "title": "What to Watch in Tuesday's Illinois Primaries \u2014 and Where the Money Went",
+      "title": "What to Watch in Tuesday's Illinois Primaries — and Where the Money Went",
       "url": "https://www.nytimes.com/2026/03/17/us/elections/il-primary-election-today-what-to-know.html",
       "source": "New York Times",
       "date": "2026-03-17",
-      "summary": "Election Day guide highlights Krishnamoorthi's Senate primary frontrunner status. Late polling shows him at 31.6%, narrowly ahead of Stratton (29.4%). Also running in 8th District successor race per Roll Call \u2014 Melissa Bean is among 8 Democrats vying to succeed him.",
+      "summary": "Election Day guide highlights Krishnamoorthi's Senate primary frontrunner status. Late polling shows him at 31.6%, narrowly ahead of Stratton (29.4%). Also running in 8th District successor race per Roll Call — Melissa Bean is among 8 Democrats vying to succeed him.",
       "sentiment": "positive"
     },
     {
@@ -582,7 +582,7 @@
       "url": "https://www.nytimes.com/interactive/2026/us/elections/results-illinois-us-senate-primary.html",
       "source": "New York Times / AP",
       "date": "2026-03-17",
-      "summary": "With 54% of Illinois Democratic primary ballots counted, Raja Krishnamoorthi trails Lt. Gov. Juliana Stratton in the U.S. Senate race, 32.6% to 39%. Despite dominating fundraising with $15M+ on hand entering the race and winning most suburban collar counties (Lake +16, Kane +21, Will +1.6), Krishnamoorthi's 10-point deficit in Cook County \u2014 which accounts for roughly 80% of the statewide Democratic vote \u2014 is proving decisive in early returns.",
+      "summary": "With 54% of Illinois Democratic primary ballots counted, Raja Krishnamoorthi trails Lt. Gov. Juliana Stratton in the U.S. Senate race, 32.6% to 39%. Despite dominating fundraising with $15M+ on hand entering the race and winning most suburban collar counties (Lake +16, Kane +21, Will +1.6), Krishnamoorthi's 10-point deficit in Cook County — which accounts for roughly 80% of the statewide Democratic vote — is proving decisive in early returns.",
       "sentiment": "negative"
     },
     {
@@ -590,7 +590,7 @@
       "url": "https://chicago.suntimes.com/elections/2026/03/17/us-senate-illinois-primary-results",
       "source": "Chicago Sun-Times",
       "date": "2026-03-17",
-      "summary": "Krishnamoorthi concedes the Illinois Senate Democratic primary at his election night watch party at the Westin Hotel in River North, walking off stage after spending $29 million in campaign ads \u2014 the most in the race. Stratton led 39.7% to Krishnamoorthi's 33.4% with 85% counted.",
+      "summary": "Krishnamoorthi concedes the Illinois Senate Democratic primary at his election night watch party at the Westin Hotel in River North, walking off stage after spending $29 million in campaign ads — the most in the race. Stratton led 39.7% to Krishnamoorthi's 33.4% with 85% counted.",
       "sentiment": "negative"
     },
     {
@@ -606,7 +606,7 @@
       "url": "https://www.politico.com/news/2026/03/17/juliana-stratton-wins-illinois-senate-democrat-primary-00833523",
       "source": "Politico",
       "date": "2026-03-17",
-      "summary": "Politico reports Stratton's win as historic, noting she will likely become Illinois' fourth Black senator. Krishnamoorthi's $29M campaign \u2014 backed by AI industry, crypto, and AIPAC interests \u2014 fell short of Stratton's grassroots-plus-Pritzker coalition.",
+      "summary": "Politico reports Stratton's win as historic, noting she will likely become Illinois' fourth Black senator. Krishnamoorthi's $29M campaign — backed by AI industry, crypto, and AIPAC interests — fell short of Stratton's grassroots-plus-Pritzker coalition.",
       "sentiment": "negative"
     },
     {
