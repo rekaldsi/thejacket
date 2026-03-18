@@ -13,7 +13,7 @@
     "cash_on_hand": null,
     "data_date": "2026-03-14",
     "source": "https://illinoissunshine.org/search/?term=Richard+Nolan",
-    "note": "No campaign committee found on Illinois Sunshine. Searched 'Richard Nolan' and 'Richard Nolan Cook County' — no matching candidate committee. May be self-funded with no filings, or committee filed under different name.",
+    "note": "No campaign committee found on Illinois Sunshine. Searched 'Richard Nolan' and 'Richard Nolan Cook County' \u2014 no matching candidate committee. May be self-funded with no filings, or committee filed under different name.",
     "fec_id": null,
     "ilsbe_id": null,
     "donors": []
@@ -47,9 +47,9 @@
     "computed_at": "2026-03-18"
   },
   "primary_result": {
-    "status": "won",
+    "status": "uncontested-won",
     "votes": 1525,
-    "pct": 100,
-    "updated": "2026-03-18T03:25:24.145Z"
+    "pct": 100.0,
+    "updated": "2026-03-18T11:18:24.000Z"
   }
 }
