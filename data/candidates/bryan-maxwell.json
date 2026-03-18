@@ -163,9 +163,9 @@
     }
   ],
   "primary_result": {
-    "status": "won",
+    "status": "lost",
     "votes": 1904,
-    "pct": 66.46,
-    "updated": "2026-03-18T03:25:24.145Z"
+    "pct": 0.64,
+    "updated": "2026-03-18T16:15:00.000Z"
   }
 }
