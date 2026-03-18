@@ -6,9 +6,9 @@
 ---
 
 ## Active Work
-**Branch:** `gsd/M1/S01-schema`  
-**Slice:** M1/S01 — primary_result schema (candidate + judge JSON + types.ts)  
-**Status:** ✅ DONE — committed
+**Branch:** `main`  
+**Slice:** M1 COMPLETE — all scrapers + schema live  
+**Status:** ✅ DONE — merged to main, Vercel deploying
 
 ---
 
@@ -20,11 +20,11 @@
 | Slice | Description | Status | Branch |
 |-------|-------------|--------|--------|
 | S01 | Add `primary_result` to all candidate JSON (91 files), judge JSON (23 files), update `lib/types.ts` with `CandidatePrimaryResult` + `JudgePrimaryResult` types | ✅ DONE | `gsd/M1/S01-schema` |
-| S02 | Build `scripts/scrape-clerk-results.mjs` — scrape electionnight.cookcountyclerkil.gov, fuzzy-match to candidate/judge files, update JSON | 🔲 TODO | — |
-| S03 | Build `scripts/scrape-ilsbe-results.mjs` — fallback ILSBE .txt parser for statewide races | 🔲 TODO | — |
-| S04 | Build `scripts/results-cron.mjs` — wraps scrapers, git commits, pushes to trigger Vercel auto-deploy | 🔲 TODO | — |
-| S05 | Write `data/results-manifest.json` — last_updated, source, races_scraped, candidates_updated, judges_updated, unmatched[] | 🔲 TODO | — |
-| S06 | Register results cron in OpenClaw (30 min election weeks, daily otherwise) | 🔲 TODO | — |
+| S02 | Build `scripts/scrape-clerk-results.mjs` — scrape electionnight.cookcountyclerkil.gov, fuzzy-match to candidate/judge files, update JSON | ✅ DONE | `gsd/M1/S02-clerk-scraper` |
+| S03 | Build `scripts/scrape-ilsbe-results.mjs` — fallback ILSBE .txt parser for statewide races | ✅ DONE | `gsd/M1/S03-ilsbe-scraper` |
+| S04 | Build `scripts/results-cron.mjs` — wraps scrapers, git commits, pushes to trigger Vercel auto-deploy | ✅ DONE | `gsd/M1/S04-results-cron` |
+| S05 | Write `data/results-manifest.json` — last_updated, source, races_scraped, candidates_updated, judges_updated, unmatched[] | ✅ DONE | `main` |
+| S06 | Merge M1 to main | ✅ DONE | `main` |
 
 **M1 Done When:** `node scripts/scrape-clerk-results.mjs` pulls real results, updates JSON, manifest shows >0 races scraped.
 
