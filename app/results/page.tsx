@@ -52,8 +52,8 @@ function WinnerBadge() {
 
 function PendingBadge() {
   return (
-    <span className="font-mono text-[9px] uppercase tracking-widest text-zinc-600">
-      Awaiting results
+    <span className="font-mono text-[9px] uppercase tracking-widest text-zinc-500" title="Results pending official canvass — minor party and local races are certified on a slower timeline">
+      Pending canvass
     </span>
   );
 }
@@ -127,11 +127,13 @@ function RaceCard({ race, candidates }: { race: Race; candidates: Candidate[] })
   const hasSomeResult = candidates.some(
     (c) => c.primary_result && c.primary_result.status !== "pending"
   );
-  const winner = candidates.find(
+  const winners = candidates.filter(
     (c) => c.primary_result?.status === "won" || c.primary_result?.status === "uncontested-won"
   );
+  const winner = winners[0];
+  const isMultiPartyRace = race.party === "Multi-party" || winners.length > 1;
 
-  // Sort: winner first, then by pct desc
+  // Sort: winners first (by pct desc within winners), then losers by pct desc
   const sorted = [...candidates].sort((a, b) => {
     const aWon = a.primary_result?.status === "won" || a.primary_result?.status === "uncontested-won";
     const bWon = b.primary_result?.status === "won" || b.primary_result?.status === "uncontested-won";
@@ -153,11 +155,21 @@ function RaceCard({ race, candidates }: { race: Race; candidates: Candidate[] })
           <p className="font-mono text-[10px] uppercase tracking-widest text-zinc-600 mt-0.5">
             {race.jurisdiction}
           </p>
+          {isMultiPartyRace && (
+            <p className="font-mono text-[9px] uppercase tracking-widest text-amber-500/70 mt-0.5">
+              Each party advances its own nominee to November
+            </p>
+          )}
         </div>
         {!hasSomeResult && <PendingBadge />}
-        {hasSomeResult && winner && (
+        {hasSomeResult && winner && !isMultiPartyRace && (
           <span className="shrink-0 font-mono text-[9px] uppercase tracking-widest text-green-400">
             Called
+          </span>
+        )}
+        {hasSomeResult && isMultiPartyRace && winners.length > 0 && (
+          <span className="shrink-0 font-mono text-[9px] uppercase tracking-widest text-green-400">
+            {winners.length} Nominees Set
           </span>
         )}
       </div>
