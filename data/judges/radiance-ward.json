@@ -1,0 +1,26 @@
+{
+  "id": "radiance-ward",
+  "name": "Radiance Ward",
+  "party": "Democratic",
+  "office": "circuit",
+  "subcircuit": "1st",
+  "vacancy_of": "Judge Balanoff",
+  "race_id": "judicial-1st-subcircuit-balanoff-vacancy",
+  "bio": "Democratic candidate for Cook County Circuit Court Judge, 1st Subcircuit (Vacancy of Judge Balanoff). Won the March 17, 2026 Democratic primary.",
+  "photo_url": null,
+  "data_status": "partial",
+  "uncontested": false,
+  "bar_ratings": {
+    "alliance_rating": "NR",
+    "cba_rating": "NR"
+  },
+  "red_flags": [],
+  "endorsements": [],
+  "primary_result": {
+    "status": "won",
+    "yes_pct": 65.66,
+    "no_pct": null,
+    "votes": 25506,
+    "updated": "2026-03-18T17:01:10.694123+00:00"
+  }
+}

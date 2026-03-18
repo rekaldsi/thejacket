@@ -6,7 +6,7 @@
   "subcircuit": "8th",
   "race_id": "judicial-8th-subcircuit-mivka-vacancy",
   "vacancy_of": "Judge Mivka",
-  "bio": "Dan Balanoff is the son and grandson of Cook County circuit court judges — a family with deep judicial connections in Cook County. Despite this pedigree, the bar associations were nearly unanimous in rating him as Not Recommended or Not Qualified: 9 out of 10 Alliance associations rated him NR or NQ, with one leaving the rating blank. The CBA also rated him Not Recommended. The bar community's assessment suggests his qualifications do not meet the standard his family name implies.",
+  "bio": "Dan Balanoff is the son and grandson of Cook County circuit court judges \u2014 a family with deep judicial connections in Cook County. Despite this pedigree, the bar associations were nearly unanimous in rating him as Not Recommended or Not Qualified: 9 out of 10 Alliance associations rated him NR or NQ, with one leaving the rating blank. The CBA also rated him Not Recommended. The bar community's assessment suggests his qualifications do not meet the standard his family name implies.",
   "background": "Son and grandson of Cook County judges. Family judicial connections are his primary credential.",
   "years_experience": 5,
   "bar_ratings": {
@@ -34,10 +34,10 @@
   "uncontested": false,
   "photo_url": null,
   "primary_result": {
-    "status": "pending",
+    "status": "lost",
     "yes_pct": null,
     "no_pct": null,
     "votes": null,
-    "updated": null
+    "updated": "2026-03-18T17:01:01.620428+00:00"
   }
 }

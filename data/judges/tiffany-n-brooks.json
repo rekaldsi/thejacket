@@ -6,12 +6,12 @@
   "subcircuit": "1st",
   "race_id": "judicial-1st-subcircuit-walker-vacancy",
   "vacancy_of": "Judge Walker",
-  "bio": "Tiffany N. Brooks has held multiple city and county government positions. She received Not Recommended ratings from every Alliance bar association and a Not Recommended from the CBA — a universally negative assessment from the legal community. She is running against two well-rated candidates in this three-way race.",
+  "bio": "Tiffany N. Brooks has held multiple city and county government positions. She received Not Recommended ratings from every Alliance bar association and a Not Recommended from the CBA \u2014 a universally negative assessment from the legal community. She is running against two well-rated candidates in this three-way race.",
   "background": "Multiple city and county government jobs.",
   "years_experience": 8,
   "bar_ratings": {
     "alliance_rating": "NR",
-    "alliance_detail": "Not Recommended — unanimous from all Alliance bar associations",
+    "alliance_detail": "Not Recommended \u2014 unanimous from all Alliance bar associations",
     "cba_rating": "NR",
     "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx"
   },
@@ -27,10 +27,10 @@
   "uncontested": false,
   "photo_url": null,
   "primary_result": {
-    "status": "pending",
-    "yes_pct": null,
+    "status": "won",
+    "yes_pct": 39.76,
     "no_pct": null,
-    "votes": null,
-    "updated": null
+    "votes": 15561,
+    "updated": "2026-03-18T16:59:53.123694+00:00"
   }
 }
