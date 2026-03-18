@@ -4,15 +4,15 @@
   "party": "Democratic",
   "office": "U.S. Senate (Illinois)",
   "race_id": "us-senate-il-d-2026",
-  "bio": "Robin Lynne Kelly was born April 30, 1956 in Harlem, New York, the daughter of a grocer. She moved to Illinois to attend Bradley University in Peoria, where she earned a B.A. in psychology (1977) and an M.A. in counseling (1982), and directed a crisis nursery while there. She later earned a Ph.D. in political science from Northern Illinois University in 2004. From 1992\u20132006 she served as Director of Community Affairs for Matteson, Illinois. She served in the Illinois House of Representatives (38th District) from 2003\u20132007, then became Chief of Staff to Illinois Treasurer Alexi Giannoulias \u2014 the first African American woman to serve as chief of staff to a statewide elected officeholder. She was appointed Cook County President Toni Preckwinkle's Chief Administrative Officer in 2011. Kelly won the 2013 special election to succeed Jesse Jackson Jr. in IL-02, and has been reelected continuously. She serves as Chair of the House Gun Violence Prevention Task Force. She announced her Senate candidacy on May 6, 2025, upon Dick Durbin's retirement. She chairs no major Senate committee but sits on the House Energy & Commerce Committee. Running a distant third in most polls of the Democratic primary, she has cited her cross-district legislative record and gun violence prevention work. (Sources: Wikipedia; robinkelly.house.gov; Capitol News Illinois; FEC S6IL00474)",
-  "prior_office": "U.S. Representative (IL-02, 2013\u2013present); Chair, Illinois Democratic Party (2021\u20132022); Cook County Chief Administrative Officer (2011\u20132013); Chief of Staff, IL State Treasurer (2007\u20132011); Illinois State Representative (38th District, 2003\u20132007)",
+  "bio": "Robin Lynne Kelly was born April 30, 1956 in Harlem, New York, the daughter of a grocer. She moved to Illinois to attend Bradley University in Peoria, where she earned a B.A. in psychology (1977) and an M.A. in counseling (1982), and directed a crisis nursery while there. She later earned a Ph.D. in political science from Northern Illinois University in 2004. From 1992–2006 she served as Director of Community Affairs for Matteson, Illinois. She served in the Illinois House of Representatives (38th District) from 2003–2007, then became Chief of Staff to Illinois Treasurer Alexi Giannoulias — the first African American woman to serve as chief of staff to a statewide elected officeholder. She was appointed Cook County President Toni Preckwinkle's Chief Administrative Officer in 2011. Kelly won the 2013 special election to succeed Jesse Jackson Jr. in IL-02, and has been reelected continuously. She serves as Chair of the House Gun Violence Prevention Task Force. She announced her Senate candidacy on May 6, 2025, upon Dick Durbin's retirement. She chairs no major Senate committee but sits on the House Energy & Commerce Committee. Running a distant third in most polls of the Democratic primary, she has cited her cross-district legislative record and gun violence prevention work. (Sources: Wikipedia; robinkelly.house.gov; Capitol News Illinois; FEC S6IL00474)",
+  "prior_office": "U.S. Representative (IL-02, 2013–present); Chair, Illinois Democratic Party (2021–2022); Cook County Chief Administrative Officer (2011–2013); Chief of Staff, IL State Treasurer (2007–2011); Illinois State Representative (38th District, 2003–2007)",
   "website": "https://robinforsenate.com",
   "photo_url": null,
   "jacket": {
     "total_raised": 3307722,
     "data_date": "2026-03-13",
     "source": "https://www.fec.gov/data/candidate/S6IL00474/",
-    "note": "FEC total raised for Senate committee S6IL00474 as of Q4 2025. Kelly raised $565,775 in Q2 2025 (April\u2013June) and held ~$2M in her accounts as of mid-2025 per Capitol News Illinois (July 28, 2025). Trailing Krishnamoorthi ($30.5M) and Stratton ($4M+) substantially.",
+    "note": "FEC total raised for Senate committee S6IL00474 as of Q4 2025. Kelly raised $565,775 in Q2 2025 (April–June) and held ~$2M in her accounts as of mid-2025 per Capitol News Illinois (July 28, 2025). Trailing Krishnamoorthi ($30.5M) and Stratton ($4M+) substantially.",
     "donors": [
       {
         "name": "Transfer from prior Robin Kelly House committee (H0IL02052)",
@@ -20,7 +20,7 @@
         "category": "transfer",
         "source": "https://api.open.fec.gov/v1/candidate/S6IL00474/totals/?cycle=2026",
         "confirmed": true,
-        "amount_note": "FEC confirmed $2,152,081 transferred from prior House committee \u2014 largest single funding source for Senate bid"
+        "amount_note": "FEC confirmed $2,152,081 transferred from prior House committee — largest single funding source for Senate bid"
       },
       {
         "name": "Other Political Committee contributions (PAC aggregate)",
@@ -28,7 +28,7 @@
         "category": "pac",
         "source": "https://api.open.fec.gov/v1/candidate/S6IL00474/totals/?cycle=2026",
         "confirmed": true,
-        "amount_note": "FEC aggregate 'other_political_committee_contributions' \u2014 combined PAC receipts; individual PAC breakdown requires itemized FEC lookup"
+        "amount_note": "FEC aggregate 'other_political_committee_contributions' — combined PAC receipts; individual PAC breakdown requires itemized FEC lookup"
       },
       {
         "name": "American Mobilization PAC (Washington DC)",
@@ -47,7 +47,7 @@
         "amount_note": "CBC PAC listed as official endorser on Kelly campaign website; exact dollar amount pending itemized FEC lookup"
       },
       {
-        "name": "Corporate PACs (aggregate \u2014 multiple)",
+        "name": "Corporate PACs (aggregate — multiple)",
         "amount": null,
         "category": "pac",
         "source": "https://capitolnewsillinois.com/news/who-is-contributing-to-illinois-u-s-senate-candidates/",
@@ -60,17 +60,17 @@
         "category": "outside_pac",
         "source": "https://chicago.suntimes.com/elections/2026/03/10/us-senate-democratic-primary-kelly-krishnamoorthi-stratton-super-pac-war",
         "confirmed": true,
-        "amount_note": "Outside independent expenditure PAC \u2014 $89,900 spent supporting Kelly per Chicago Sun-Times (March 10, 2026). NOT direct campaign funds \u2014 cannot coordinate with campaign. Fairshake is funded primarily by Marc Andreessen and Ben Horowitz (gave $11M to MAGA Inc)."
+        "amount_note": "Outside independent expenditure PAC — $89,900 spent supporting Kelly per Chicago Sun-Times (March 10, 2026). NOT direct campaign funds — cannot coordinate with campaign. Fairshake is funded primarily by Marc Andreessen and Ben Horowitz (gave $11M to MAGA Inc)."
       }
     ],
-    "donors_note": "Kelly is the lowest-funded of the three major candidates. Notable: Protect Progress (Fairshake-aligned, crypto PAC funded by Trump megadonors Andreessen/Horowitz) spent $89,900 in outside support for Kelly \u2014 political insiders say this is a Krishnamoorthi strategy to split the vote between Kelly and Stratton. Kelly herself said at a WTTW debate: 'super PAC money, dark money, to my knowledge, I haven't received any of that' \u2014 technically true of her campaign committee. (Source: Chicago Sun-Times, March 10, 2026)",
+    "donors_note": "Kelly is the lowest-funded of the three major candidates. Notable: Protect Progress (Fairshake-aligned, crypto PAC funded by Trump megadonors Andreessen/Horowitz) spent $89,900 in outside support for Kelly — political insiders say this is a Krishnamoorthi strategy to split the vote between Kelly and Stratton. Kelly herself said at a WTTW debate: 'super PAC money, dark money, to my knowledge, I haven't received any of that' — technically true of her campaign committee. (Source: Chicago Sun-Times, March 10, 2026)",
     "fec_id": "S6IL00474"
   },
   "red_flags": [
     {
       "type": "political-conflict",
-      "label": "Forced Out as Illinois Democratic Party Chair \u2014 Pritzker Conflict",
-      "detail": "Kelly was elected Illinois Democratic Party Chair in March 2021, defeating a Pritzker-backed candidate (Chicago Ald. Michelle Harris). In July 2022, Kelly ended her bid for reelection as chair after it became clear she lacked support to beat State Rep. Lisa Hernandez \u2014 who was also backed by Gov. Pritzker. Capitol News Illinois reported the ouster as a Pritzker-engineered defeat. This conflict colors the current Senate race, where Pritzker is backing Stratton over Kelly. The Congressional Black Caucus publicly accused Pritzker of 'heavy-handing' the race. This is a pattern of Pritzker-vs.-Kelly conflict, now in its third round.",
+      "label": "Forced Out as Illinois Democratic Party Chair — Pritzker Conflict",
+      "detail": "Kelly was elected Illinois Democratic Party Chair in March 2021, defeating a Pritzker-backed candidate (Chicago Ald. Michelle Harris). In July 2022, Kelly ended her bid for reelection as chair after it became clear she lacked support to beat State Rep. Lisa Hernandez — who was also backed by Gov. Pritzker. Capitol News Illinois reported the ouster as a Pritzker-engineered defeat. This conflict colors the current Senate race, where Pritzker is backing Stratton over Kelly. The Congressional Black Caucus publicly accused Pritzker of 'heavy-handing' the race. This is a pattern of Pritzker-vs.-Kelly conflict, now in its third round.",
       "source": "https://capitolnewsillinois.com/news/congressional-black-caucus-accuses-pritzker-of-heavy-handing-senate-race/",
       "confirmed": true
     },
@@ -84,56 +84,56 @@
     {
       "type": "foreign-policy",
       "label": "Voted Yes on $26.4B Military Aid to Israel (2024)",
-      "detail": "Kelly voted yes on H.R. 8034 (April 20, 2024) providing $26.4B in emergency military aid to Israel and yes on H.R. 8369 (May 15, 2024) to release withheld weapons to Israel. Both are on the record. She also voted yes on the Yemen War Powers Resolution (2023) \u2014 an anti-war vote showing some limit to her hawkishness. Her voting record on Gaza/Israel is a mixed signal for progressive primary voters.",
+      "detail": "Kelly voted yes on H.R. 8034 (April 20, 2024) providing $26.4B in emergency military aid to Israel and yes on H.R. 8369 (May 15, 2024) to release withheld weapons to Israel. Both are on the record. She also voted yes on the Yemen War Powers Resolution (2023) — an anti-war vote showing some limit to her hawkishness. Her voting record on Gaza/Israel is a mixed signal for progressive primary voters.",
       "source": "https://clerk.house.gov/Votes/2024152",
       "confirmed": true
     }
   ],
   "key_votes": [
     {
-      "bill": "H.R. 8034 \u2014 Israel Security Supplemental Appropriations Act, 2024",
+      "bill": "H.R. 8034 — Israel Security Supplemental Appropriations Act, 2024",
       "vote": "yes",
       "summary": "Voted yes on $26.4B emergency military aid to Israel. Passed 366-58 on April 20, 2024.",
       "source": "https://clerk.house.gov/Votes/2024152"
     },
     {
-      "bill": "H.R. 8369 \u2014 Israel Security Assistance Support Act, 2024",
+      "bill": "H.R. 8369 — Israel Security Assistance Support Act, 2024",
       "vote": "yes",
       "summary": "Voted yes to release withheld weapons to Israel. Passed 334-79 on May 15, 2024.",
       "source": "https://www.govtrack.us/congress/votes/118-2024/h217"
     },
     {
-      "bill": "H.Con.Res. 21 \u2014 Remove US Forces from Yemen (War Powers Resolution), 2023",
+      "bill": "H.Con.Res. 21 — Remove US Forces from Yemen (War Powers Resolution), 2023",
       "vote": "yes",
       "summary": "Voted yes to direct removal of US military from Yemen operations not authorized by Congress. Failed 102-321 on April 27, 2023.",
       "source": "https://www.govtrack.us/congress/members/robin_kelly/412595"
     },
     {
-      "bill": "H.R. 1808 \u2014 Assault Weapons Ban of 2022",
+      "bill": "H.R. 1808 — Assault Weapons Ban of 2022",
       "vote": "yes",
       "summary": "Voted yes on legislation to ban semiautomatic assault weapons and high-capacity magazines. Passed 217-213 in the House. Did not advance in the Senate.",
       "source": "https://ballotpedia.org/Robin_Kelly"
     },
     {
-      "bill": "H.R. 5376 \u2014 Inflation Reduction Act, 2022",
+      "bill": "H.R. 5376 — Inflation Reduction Act, 2022",
       "vote": "yes",
       "summary": "Voted yes on legislation investing $369B in climate/energy, extending ACA subsidies, and allowing Medicare drug price negotiation. Passed 220-207.",
       "source": "https://ballotpedia.org/Robin_Kelly"
     },
     {
-      "bill": "H.R. 1197 \u2014 PREEMIE Reauthorization Act of 2025",
+      "bill": "H.R. 1197 — PREEMIE Reauthorization Act of 2025",
       "vote": "yes",
       "summary": "Kelly was primary sponsor. Reauthorizes research programs to reduce premature births and infant mortality. Enacted 2025.",
       "source": "https://www.govtrack.us/congress/members/robin_kelly/412595"
     },
     {
-      "bill": "H.R. 4387 \u2014 Maternal Health Quality Improvement Act of 2021",
+      "bill": "H.R. 4387 — Maternal Health Quality Improvement Act of 2021",
       "vote": "yes",
       "summary": "Kelly sponsored legislation addressing maternal mortality crisis, particularly for Black women. Enacted 2022.",
       "source": "https://www.govtrack.us/congress/members/robin_kelly/412595"
     },
     {
-      "bill": "H.R. 2 \u2014 Laken Riley Act, 2026",
+      "bill": "H.R. 2 — Laken Riley Act, 2026",
       "vote": "no",
       "summary": "Voted nay on legislation requiring detention of undocumented immigrants arrested for certain crimes. Passed 341-79 on January 14, 2026.",
       "source": "https://clerk.house.gov/Votes/202614"
@@ -229,37 +229,37 @@
     {
       "role": "U.S. Representative, IL-02",
       "org": "U.S. House of Representatives",
-      "years": "2013\u2013present",
+      "years": "2013–present",
       "highlight": "Chair, House Gun Violence Prevention Task Force; House Energy & Commerce Committee; succeeded Jesse Jackson Jr. via 2013 special election"
     },
     {
       "role": "Chair, Illinois Democratic Party",
       "org": "Democratic Party of Illinois",
-      "years": "2021\u20132022",
+      "years": "2021–2022",
       "highlight": "Defeated Pritzker-backed candidate to win chair in 2021; did not seek reelection in 2022 after Pritzker again backed her opponent (Lisa Hernandez)"
     },
     {
       "role": "Chief Administrative Officer",
       "org": "Cook County Board (President Toni Preckwinkle)",
-      "years": "2011\u20132013",
+      "years": "2011–2013",
       "highlight": "Senior county administrator role"
     },
     {
       "role": "Chief of Staff",
       "org": "Illinois State Treasurer (Alexi Giannoulias)",
-      "years": "2007\u20132011",
+      "years": "2007–2011",
       "highlight": "First African American woman to serve as chief of staff to an elected IL statewide officeholder"
     },
     {
       "role": "Illinois State Representative, 38th District",
       "org": "Illinois General Assembly",
-      "years": "2003\u20132007",
+      "years": "2003–2007",
       "highlight": "Served on Appropriations-Human Services, Mass Transit (Vice Chair), Housing & Urban Development committees"
     },
     {
       "role": "Director of Community Affairs",
       "org": "Village of Matteson, Illinois",
-      "years": "1992\u20132006",
+      "years": "1992–2006",
       "highlight": "14-year local government service role"
     }
   ],
@@ -270,7 +270,7 @@
       "source": "https://robinkelly.house.gov"
     },
     {
-      "topic": "Healthcare \u2014 Medicare for All / Health Equity",
+      "topic": "Healthcare — Medicare for All / Health Equity",
       "position": "Campaign website lists Medicare for All as a goal. Led legislation on maternal mortality (Maternal Health Quality Improvement Act, 2022) and premature births (PREEMIE Reauthorization Act, 2025). Focuses on health equity for Black and underserved communities.",
       "source": "https://www.robinforsenate.com"
     },
@@ -286,7 +286,7 @@
     }
   ],
   "social_pulse": {
-    "summary": "Positive among gun control advocates and Black political establishment. Supportive coverage from CAIR/Muslim civic groups notable given Gaza votes. Low social media footprint relative to Krishnamoorthi and Stratton \u2014 media portrays her as distant third in race. CBC endorsement triggered news cycle about Pritzker's 'heavy-handing.' Fairshake PAC support for Kelly drew negative attention and allegations she's being used as a vote-splitter.",
+    "summary": "Positive among gun control advocates and Black political establishment. Supportive coverage from CAIR/Muslim civic groups notable given Gaza votes. Low social media footprint relative to Krishnamoorthi and Stratton — media portrays her as distant third in race. CBC endorsement triggered news cycle about Pritzker's 'heavy-handing.' Fairshake PAC support for Kelly drew negative attention and allegations she's being used as a vote-splitter.",
     "sentiment": "positive-with-caveats",
     "hashtags": [
       "#RobinKelly",
@@ -329,12 +329,12 @@
       "type": "positive"
     },
     {
-      "label": "Voted YES \u2014 $26.4B military aid to Israel (April 2024)",
+      "label": "Voted YES — $26.4B military aid to Israel (April 2024)",
       "value": true,
       "type": "negative"
     },
     {
-      "label": "Outside support from Fairshake-aligned crypto PAC (Protect Progress, $89.9K) \u2014 Trump megadonor funded",
+      "label": "Outside support from Fairshake-aligned crypto PAC (Protect Progress, $89.9K) — Trump megadonor funded",
       "value": true,
       "type": "negative"
     },
@@ -344,7 +344,7 @@
       "type": "neutral"
     },
     {
-      "label": "Substantially outspent \u2014 $3.3M vs Krishnamoorthi's $30.5M",
+      "label": "Substantially outspent — $3.3M vs Krishnamoorthi's $30.5M",
       "value": true,
       "type": "neutral"
     }
@@ -361,7 +361,7 @@
   "news_hits": [
     {
       "headline": "As Senate race tightens, Kelly benefits from super PAC war between Krishnamoorthi, Stratton",
-      "summary": "Chicago Sun-Times documents that Protect Progress PAC \u2014 aligned with Fairshake and funded by Trump megadonors Andreessen/Horowitz \u2014 spent $89,900 in outside support for Kelly, widely seen by political insiders as a Krishnamoorthi strategy to split the Black vote with Stratton. Kelly's own final TV ad shows opponents' attack ads and declares 'Oh hell no.'",
+      "summary": "Chicago Sun-Times documents that Protect Progress PAC — aligned with Fairshake and funded by Trump megadonors Andreessen/Horowitz — spent $89,900 in outside support for Kelly, widely seen by political insiders as a Krishnamoorthi strategy to split the Black vote with Stratton. Kelly's own final TV ad shows opponents' attack ads and declares 'Oh hell no.'",
       "url": "https://chicago.suntimes.com/elections/2026/03/10/us-senate-democratic-primary-kelly-krishnamoorthi-stratton-super-pac-war",
       "date": "2026-03-10",
       "severity": "high",
@@ -376,8 +376,8 @@
       "source_name": "New York Times"
     },
     {
-      "headline": "AIPAC Is Staying Out of Illinois Senate Race \u2014 But Its Donors Back Juliana Stratton",
-      "summary": "The Intercept's reporting on AIPAC donor networks notes Kelly has received backing from CAIR Midwest and the Illinois Muslim Civic Coalition despite her yes votes on $26.4B Israel military aid \u2014 suggesting she is threading a difficult needle with progressive Muslim voters in the primary.",
+      "headline": "AIPAC Is Staying Out of Illinois Senate Race — But Its Donors Back Juliana Stratton",
+      "summary": "The Intercept's reporting on AIPAC donor networks notes Kelly has received backing from CAIR Midwest and the Illinois Muslim Civic Coalition despite her yes votes on $26.4B Israel military aid — suggesting she is threading a difficult needle with progressive Muslim voters in the primary.",
       "url": "https://theintercept.com/2026/03/12/aipac-illinois-senate-stratton-kelly-krishnamoorthi/",
       "date": "2026-03-12",
       "severity": "medium",
@@ -472,11 +472,11 @@
       "url": "https://www.chicagotribune.com/2026/03/16/cold-weather-to-greet-illinois-voters-tuesday-as-primary-features-open-us-senate-crowded-house-races/",
       "source": "Chicago Tribune",
       "date": "2026-03-16",
-      "summary": "Tribune election-eve dispatch (March 16) confirms Kelly, Krishnamoorthi, and Stratton as the three leading Democratic candidates for the open U.S. Senate seat, with additional minor candidates also listed. Cold weather forecast for primary day. The article notes campaign signs for Pritzker and Stratton at Chicago-area early voting sites \u2014 a sign of the governor's active investment in the Senate race and his own third-term bid.",
+      "summary": "Tribune election-eve dispatch (March 16) confirms Kelly, Krishnamoorthi, and Stratton as the three leading Democratic candidates for the open U.S. Senate seat, with additional minor candidates also listed. Cold weather forecast for primary day. The article notes campaign signs for Pritzker and Stratton at Chicago-area early voting sites — a sign of the governor's active investment in the Senate race and his own third-term bid.",
       "sentiment": "neutral"
     },
     {
-      "title": "What to Watch in Tuesday's Illinois Primaries \u2014 and Where the Money Went",
+      "title": "What to Watch in Tuesday's Illinois Primaries — and Where the Money Went",
       "url": "https://www.nytimes.com/2026/03/17/us/elections/il-primary-election-today-what-to-know.html",
       "source": "New York Times",
       "date": "2026-03-17",
@@ -506,6 +506,14 @@
       "date": "2026-03-17",
       "summary": "Robin Kelly, a congresswoman from Chicagoland, has been endorsed by Cory Booker and former Chicago Mayor Lori Lightfoot; offers alternative in a race defined by Krishnamoorthi fundraising vs. Stratton establishment backing.",
       "sentiment": "neutral"
+    },
+    {
+      "title": "Election Night: Kelly trails in Senate primary with 20.3% at 54% counted",
+      "url": "https://www.nytimes.com/interactive/2026/us/elections/results-illinois-us-senate-primary.html",
+      "source": "New York Times / AP",
+      "date": "2026-03-17",
+      "summary": "Rep. Robin Kelly is running third in the Illinois Democratic Senate primary with 20.3% of the vote (138,922 votes) at 54% counted, behind Stratton's 39% and Krishnamoorthi's 32.6%. Kelly is leading in Kankakee County (+7), which falls within her congressional district, but she is trailing badly statewide with the large Cook County vote breaking heavily for Stratton.",
+      "sentiment": "negative"
     }
   ],
   "fec_candidate_id": "S6IL00474",

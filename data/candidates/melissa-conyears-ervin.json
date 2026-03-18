@@ -5,7 +5,7 @@
   "office": "U.S. House (IL-08)",
   "race_id": "il-08-us-house-d-2026",
   "bio": "Melissa Conyears-Ervin has served as Chicago City Treasurer since 2019, managing the city's investment portfolio and overseeing financial operations. She previously served in the Illinois General Assembly. As City Treasurer she has focused on financial literacy programs and equitable banking access.",
-  "prior_office": "Chicago City Treasurer (2019\u2013present); Illinois State Representative",
+  "prior_office": "Chicago City Treasurer (2019–present); Illinois State Representative",
   "website": null,
   "photo_url": null,
   "data_status": "partial",
@@ -42,6 +42,14 @@
       "source": "Chicago Sun-Times",
       "date": "2026-03-17",
       "summary": "IL-08 Democratic primary features multiple candidates including Chicago City Treasurer Melissa Conyears-Ervin who is making her second primary run for the seat.",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Election Night: Conyears-Ervin in crowded IL-07 Dem primary to replace Danny Davis",
+      "url": "https://apnews.com/article/election-primary-illinois-democrats-senate-house-f9432112c459e87fdbfea0bdbcd4e492",
+      "source": "AP News",
+      "date": "2026-03-17",
+      "summary": "City Treasurer Melissa Conyears-Ervin is competing in the crowded Democratic primary for Illinois' 7th Congressional District, being vacated by longtime Rep. Danny Davis (first elected 1996). The Democratic frontrunners in the 7th District primary include state Rep. La Shawn Ford, Conyears-Ervin, developer Jason Friedman, and community organizer Kina Collins. Results are being counted on Election Night.",
       "sentiment": "neutral"
     }
   ],
