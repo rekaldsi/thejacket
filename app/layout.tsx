@@ -14,6 +14,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.thejacket.cc"),
   title: "TheJacket — See who they really work for",
   description: "Cook County civic transparency. Every candidate, every donor, every red flag. Illinois Primary — March 17, 2026.",
   icons: {
