@@ -68,6 +68,24 @@ function normalize(str) {
     .trim();
 }
 
+// ── Race consistency scoring ─────────────────────────────────────────────────
+// Returns a score 0-3: higher = better match between scraped race and candidate office.
+// Used to prefer "Assessor, Cook County" over "Committeeperson" when both contain "Pat Hynes".
+function raceConsistencyScore(raceName, candidateData) {
+  const office = normalize(candidateData.office || '');
+  const race   = normalize(raceName);
+  if (!office || !race) return 0;
+  // Exact substring
+  if (race.includes(office) || office.includes(race)) return 3;
+  // Word overlap
+  const officeWords = new Set(office.split(' ').filter(w => w.length > 3));
+  const raceWords   = race.split(' ').filter(w => w.length > 3);
+  const shared = raceWords.filter(w => officeWords.has(w)).length;
+  if (shared >= 2) return 2;
+  if (shared === 1) return 1;
+  return 0;
+}
+
 // ── Fuzzy name matching ─────────────────────────────────────────────────────
 
 function fuzzyMatch(resultName, pool) {
@@ -178,14 +196,20 @@ function parseHTML(html, isJudicial) {
       const cells = extractCells(rows[i]);
       if (cells.length < 3) continue;
 
-      const iconCell = cells[0] || '';
-      const nameCell = stripTags(cells[1] || '');
-      const voteCell = stripTags(cells[2] || '').replace(/,/g, '');
-      const pctCell  = stripTags(cells[3] || '').replace('%', '');
+      // Robust parsing: match by class/content, not position (handles colspan=2 on name cell)
+      const iconCell = cells.find(c => /class=['"][^'"]*image-col/i.test(c)) || cells[0] || '';
+      const nameRaw  = cells.find(c => /class=['"][^'"]*(?:candidate|winning)/i.test(c));
+      const nameCell = nameRaw ? stripTags(nameRaw) : stripTags(cells[1] || '');
+      // Votes: first cell whose stripped text is purely numeric (after removing commas)
+      const voteRaw  = cells.find(c => /^[\s,\d]+$/.test(stripTags(c).trim()) && stripTags(c).trim() !== '');
+      const voteCell = voteRaw ? stripTags(voteRaw).replace(/,/g, '') : '';
+      // Pct: first cell containing '%'
+      const pctRaw   = cells.find(c => stripTags(c).includes('%'));
+      const pctCell  = pctRaw ? stripTags(pctRaw).replace('%', '') : '';
 
       if (!nameCell || /^(candidate name|no candidate)$/i.test(nameCell)) continue;
 
-      // Winner = fa-caret-left in first cell
+      // Winner = fa-caret-left in icon cell
       const winner = /fa-caret-left/i.test(iconCell);
 
       const votes = parseInt(voteCell, 10);
@@ -369,12 +393,18 @@ async function main() {
     if (cMatch) {
       const key = cMatch.filePath;
       const existing = updatedFiles.get(key);
-      // Prefer 'won' over 'lost'
-      if (!existing || (existing === 'lost' && row.winner)) {
+      const newScore = raceConsistencyScore(row.raceName, cMatch.data);
+      const prevScore = updatedFiles.get(key + ':score') ?? -1;
+      // Replace if: no existing, or new race is more consistent with candidate's office,
+      // or same consistency but upgrading from lost→won
+      const betterRace = newScore > prevScore;
+      const sameRaceWin = newScore === prevScore && existing === 'lost' && row.winner;
+      if (!existing || betterRace || sameRaceWin) {
         await writeCandidateResult(cMatch, row, timestamp);
         updatedFiles.set(key, row.winner ? 'won' : 'lost');
+        updatedFiles.set(key + ':score', newScore);
         if (!existing) candidatesUpdated++;
-        if (DRY_RUN) console.log(`  [dry] candidate ${cMatch.data.name} → ${row.winner ? 'won' : 'lost'}`);
+        if (DRY_RUN) console.log(`  [dry] candidate ${cMatch.data.name} → ${row.winner ? 'won' : 'lost'} (score=${newScore})`);
       }
       continue;
     }
