@@ -598,9 +598,9 @@
     }
   ],
   "primary_result": {
-    "status": "lost",
-    "votes": 1417,
-    "pct": 47.33,
-    "updated": "2026-03-18T03:22:24.240Z"
+    "status": "won",
+    "votes": 45657,
+    "pct": 59.38,
+    "updated": "2026-03-18T03:25:24.145Z"
   }
 }

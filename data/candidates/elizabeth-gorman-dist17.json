@@ -59,9 +59,9 @@
   "uncontested": true,
   "data_note": "Republican primary candidate — uncontested on GOP side. Will face Elyse Hoffenberg (D) in November general.",
   "primary_result": {
-    "status": "lost",
-    "votes": 1949,
-    "pct": 45.87,
-    "updated": "2026-03-18T03:22:24.240Z"
+    "status": "won",
+    "votes": 40894,
+    "pct": 59.16,
+    "updated": "2026-03-18T03:25:24.145Z"
   }
 }

@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-03-18T03:22:24.240Z",
+  "last_updated": "2026-03-18T03:25:24.145Z",
   "source": "Cook County Clerk Election Night",
   "source_url": "https://electionnight.cookcountyclerkil.gov/",
   "races_scraped": 235,
-  "candidates_updated": 100,
-  "judges_updated": 22,
+  "candidates_updated": 78,
+  "judges_updated": 18,
   "unmatched": [
     "Sean Brown (Democratic) (Senator, U.S. - DEM - Vote For 1)",
     "Awisi A. Bustos (Democratic) (Senator, U.S. - DEM - Vote For 1)",
