@@ -295,5 +295,11 @@
       "occupation": "EXCECUTIVE",
       "date": "2025-09-30"
     }
-  ]
+  ],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

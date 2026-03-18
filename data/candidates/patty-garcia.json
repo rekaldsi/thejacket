@@ -258,5 +258,11 @@
       "occupation": "LOGISTICS/TRANSPORTATION",
       "date": "2025-05-14"
     }
-  ]
+  ],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

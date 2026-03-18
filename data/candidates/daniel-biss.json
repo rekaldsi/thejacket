@@ -466,5 +466,11 @@
       "occupation": "EMERITUS PROFESSOR",
       "date": "2026-01-21"
     }
-  ]
+  ],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

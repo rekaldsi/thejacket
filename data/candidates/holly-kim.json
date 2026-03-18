@@ -405,5 +405,11 @@
       "summary": "Illinois primary day featuring competitive races including the IL Comptroller Democratic primary where Holly Kim faces challengers.",
       "sentiment": "neutral"
     }
-  ]
+  ],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

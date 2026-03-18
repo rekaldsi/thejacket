@@ -368,5 +368,11 @@
     "https://news.wttw.com/elections/voters-guide/2026-primary/beth-mcelroy-kirkwood",
     "https://ballotpedia.org/Beth_McElroy_Kirkwood",
     "https://www.illinoissunshine.org/committees/40660/"
-  ]
+  ],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

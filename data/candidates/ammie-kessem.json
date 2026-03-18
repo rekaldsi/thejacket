@@ -70,5 +70,11 @@
     "computed_at": "2026-03-18"
   },
   "uncontested": true,
-  "data_note": "Republican primary candidate — uncontested on GOP side. Will face Maggie Trevor (D) in November general."
+  "data_note": "Republican primary candidate — uncontested on GOP side. Will face Maggie Trevor (D) in November general.",
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

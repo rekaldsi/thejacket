@@ -232,5 +232,11 @@
       "occupation": "SENATOR",
       "date": "2025-11-17"
     }
-  ]
+  ],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

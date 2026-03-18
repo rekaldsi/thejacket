@@ -244,5 +244,11 @@
       "severity": "medium",
       "source_name": "Chicago Tribune"
     }
-  ]
+  ],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

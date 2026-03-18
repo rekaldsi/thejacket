@@ -468,5 +468,11 @@
     "red_flags_count": 18,
     "computed_at": "2026-03-18"
   },
-  "data_status": "partial"
+  "data_status": "partial",
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

@@ -102,5 +102,11 @@
     "cash_on_hand": 21586,
     "source": "FEC",
     "last_updated": "2026-03-15"
+  },
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
   }
 }

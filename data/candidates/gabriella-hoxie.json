@@ -75,5 +75,11 @@
     "red_flags_count": 0,
     "computed_at": "2026-03-18"
   },
-  "data_note": "Republican primary candidate for District 15. Contested GOP primary vs. Daniel Lee."
+  "data_note": "Republican primary candidate for District 15. Contested GOP primary vs. Daniel Lee.",
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

@@ -17,5 +17,12 @@
   },
   "red_flags": [],
   "uncontested": false,
-  "photo_url": null
+  "photo_url": null,
+  "primary_result": {
+    "status": "pending",
+    "yes_pct": null,
+    "no_pct": null,
+    "votes": null,
+    "updated": null
+  }
 }

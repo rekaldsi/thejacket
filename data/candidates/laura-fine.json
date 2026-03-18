@@ -248,5 +248,11 @@
       "occupation": "RETIRED",
       "date": "2025-05-12"
     }
-  ]
+  ],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

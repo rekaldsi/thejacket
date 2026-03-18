@@ -411,5 +411,11 @@
       "summary": "As of 9:11 PM ET with the majority of Cook County votes counted, Toni Preckwinkle is winning the Democratic primary for Cook County Board President with 67.8% (359,432 votes) to challenger Ald. Brendan Reilly's 32.2% (170,800 votes). Preckwinkle is on track to win her fifth four-year term, which would tie George Dunne as the board's longest-serving president.",
       "sentiment": "positive"
     }
-  ]
+  ],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

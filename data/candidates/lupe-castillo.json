@@ -114,5 +114,11 @@
   },
   "uncontested": true,
   "fec_candidate_id": "H4IL04117",
-  "fec_committee_id": "C00883066"
+  "fec_committee_id": "C00883066",
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

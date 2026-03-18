@@ -798,5 +798,11 @@
       "occupation": "PSYCHOTHERAPIST",
       "date": "2025-09-02"
     }
-  ]
+  ],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

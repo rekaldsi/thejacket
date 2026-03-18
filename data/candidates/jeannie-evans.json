@@ -196,5 +196,11 @@
       "occupation": "STAY AT HOME",
       "date": "2025-12-31"
     }
-  ]
+  ],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

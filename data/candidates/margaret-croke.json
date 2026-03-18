@@ -95,5 +95,11 @@
     "computed_at": "2026-03-18"
   },
   "transparency_grade": "D",
-  "career_history": []
+  "career_history": [],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

@@ -96,5 +96,11 @@
     "computed_at": "2026-03-18"
   },
   "uncontested": true,
-  "data_note": "Uncontested in the Democratic primary. Will face Republican Ammie Kessem in November."
+  "data_note": "Uncontested in the Democratic primary. Will face Republican Ammie Kessem in November.",
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

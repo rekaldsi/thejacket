@@ -373,5 +373,11 @@
       "occupation": "MARKET RESEARCH",
       "date": "2025-07-05"
     }
-  ]
+  ],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

@@ -596,5 +596,11 @@
       "occupation": "NOT EMPLOYED",
       "date": "2025-08-15"
     }
-  ]
+  ],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }
