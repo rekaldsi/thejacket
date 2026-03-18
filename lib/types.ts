@@ -68,6 +68,7 @@ export type JudgePrimaryResult = {
   status: 'retained' | 'not_retained' | 'won' | 'lost' | 'pending' | 'uncontested-won';
   yes_pct: number | null;
   no_pct: number | null;
+  pct: number | null;
   votes: number | null;
   updated: string | null;
 };

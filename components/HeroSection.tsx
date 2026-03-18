@@ -159,9 +159,23 @@ export default function HeroSection() {
               <CountdownUnit value={seconds} label={d.seconds_label} />
             </div>
           ) : (
-            <span className="font-mono text-sm uppercase tracking-[0.22em] text-jacket-amber animate-pulse">
-              {d.primary_day_go_vote}
-            </span>
+            <div className="flex flex-col gap-2">
+              <div className="flex items-center gap-2">
+                <span className="relative flex h-2.5 w-2.5 shrink-0">
+                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" />
+                  <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-green-500" />
+                </span>
+                <span className="font-mono text-sm font-black uppercase tracking-[0.18em] text-jacket-amber">
+                  March 17 Primary — Results Live
+                </span>
+              </div>
+              <Link
+                href="/results"
+                className="inline-block rounded-sm border border-jacket-amber bg-jacket-amber px-5 py-2.5 font-mono text-sm font-black uppercase tracking-widest text-jacket-black transition-all hover:bg-jacket-black hover:text-jacket-amber"
+              >
+                See Results →
+              </Link>
+            </div>
           )}
         </div>
 

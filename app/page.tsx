@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { existsSync, readFileSync } from "fs";
+import path from "path";
 import { getAllCandidates, getAllJudges, getRaces } from "@/lib/data";
 import { buildScorecard } from "@/lib/scoring";
 import { scoreJudge } from "@/lib/judgeScoring";
@@ -80,6 +82,50 @@ function JudicialAlarmCard({ judge }: { judge: Judge }) {
   );
 }
 
+function ResultsBanner() {
+  // Read manifest if available
+  let lastUpdated: string | null = null;
+  try {
+    const manifestPath = path.join(process.cwd(), "data", "results-manifest.json");
+    if (existsSync(manifestPath)) {
+      const manifest = JSON.parse(readFileSync(manifestPath, "utf-8"));
+      lastUpdated = manifest.last_updated ?? null;
+    }
+  } catch {}
+
+  const formatted = lastUpdated
+    ? new Date(lastUpdated).toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit", timeZone: "America/Chicago" }) + " CT"
+    : null;
+
+  return (
+    <section className="rounded-sm border border-jacket-amber bg-jacket-amber/5 px-5 py-4">
+      <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+        <div className="flex items-center gap-3">
+          <span className="relative flex h-3 w-3 shrink-0">
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" />
+            <span className="relative inline-flex h-3 w-3 rounded-full bg-green-500" />
+          </span>
+          <div>
+            <p className="font-black uppercase tracking-tight text-jacket-white">March 17 Primary — Results Live</p>
+            {formatted && (
+              <p className="font-mono text-[11px] text-zinc-500 mt-0.5">Updated {formatted} · Auto-refreshing</p>
+            )}
+            {!formatted && (
+              <p className="font-mono text-[11px] text-zinc-500 mt-0.5">Awaiting first results update</p>
+            )}
+          </div>
+        </div>
+        <Link
+          href="/results"
+          className="shrink-0 inline-block rounded-sm border border-jacket-amber bg-jacket-amber px-5 py-2 font-mono text-sm font-black uppercase tracking-widest text-jacket-black transition-all hover:bg-jacket-black hover:text-jacket-amber"
+        >
+          View All Results →
+        </Link>
+      </div>
+    </section>
+  );
+}
+
 export default function HomePage() {
   const races = getRaces();
   const candidates = getAllCandidates();
@@ -157,6 +203,9 @@ export default function HomePage() {
 
       {/* ── HERO ── */}
       <HeroSection />
+
+      {/* ── RESULTS BANNER ── */}
+      <ResultsBanner />
 
       {/* ── HOT BOARD ── */}
       {allSignals.length > 0 && (
