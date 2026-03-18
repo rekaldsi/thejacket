@@ -196,5 +196,11 @@
       "occupation": "STAY AT HOME",
       "date": "2025-12-31"
     }
-  ]
+  ],
+  "primary_result": {
+    "status": "lost",
+    "votes": 12768,
+    "pct": 20.8,
+    "updated": "2026-03-18T03:22:24.240Z"
+  }
 }

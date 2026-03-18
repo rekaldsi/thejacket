@@ -141,5 +141,11 @@
       "occupation": "INVESTOR",
       "date": "2025-11-06"
     }
-  ]
+  ],
+  "primary_result": {
+    "status": "lost",
+    "votes": 980,
+    "pct": 0.33,
+    "updated": "2026-03-18T03:22:24.240Z"
+  }
 }

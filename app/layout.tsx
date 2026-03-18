@@ -43,6 +43,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 </Link>
 
                 <div className="hidden items-center gap-3 text-xs uppercase tracking-widest text-zinc-300 md:flex">
+                  <Link href="/results" className="font-bold text-green-400 transition-colors hover:text-jacket-white">
+                    Results
+                  </Link>
+                  <span className="text-zinc-600">|</span>
                   <Link href="/races" className="transition-colors hover:text-jacket-amber">
                     <T k="nav_races" />
                   </Link>

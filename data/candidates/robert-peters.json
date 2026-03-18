@@ -306,5 +306,11 @@
       "occupation": "RETIRED",
       "date": "2025-06-18"
     }
-  ]
+  ],
+  "primary_result": {
+    "status": "lost",
+    "votes": 3993,
+    "pct": 7.76,
+    "updated": "2026-03-18T03:22:24.240Z"
+  }
 }

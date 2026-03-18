@@ -226,5 +226,11 @@
     "record_available": true,
     "red_flags_count": 6,
     "computed_at": "2026-03-18"
+  },
+  "primary_result": {
+    "status": "lost",
+    "votes": 7606,
+    "pct": 12.08,
+    "updated": "2026-03-18T03:22:24.240Z"
   }
 }

@@ -373,5 +373,11 @@
       "occupation": "MARKET RESEARCH",
       "date": "2025-07-05"
     }
-  ]
+  ],
+  "primary_result": {
+    "status": "won",
+    "votes": 21547,
+    "pct": 41.9,
+    "updated": "2026-03-18T03:22:24.240Z"
+  }
 }

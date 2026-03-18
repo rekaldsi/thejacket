@@ -161,5 +161,11 @@
       "occupation": "DATA SCIENTIST",
       "date": "2025-10-01"
     }
-  ]
+  ],
+  "primary_result": {
+    "status": "won",
+    "votes": 1904,
+    "pct": 66.46,
+    "updated": "2026-03-18T03:22:24.240Z"
+  }
 }

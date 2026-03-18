@@ -95,5 +95,11 @@
     "computed_at": "2026-03-18"
   },
   "transparency_grade": "D",
-  "career_history": []
+  "career_history": [],
+  "primary_result": {
+    "status": "won",
+    "votes": 15819,
+    "pct": 41.22,
+    "updated": "2026-03-18T03:22:24.240Z"
+  }
 }

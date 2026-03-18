@@ -29,5 +29,11 @@
     "record_available": false,
     "red_flags_count": 0,
     "computed_at": "2026-03-18"
+  },
+  "primary_result": {
+    "status": "won",
+    "votes": 33926,
+    "pct": 56.7,
+    "updated": "2026-03-18T03:22:24.240Z"
   }
 }

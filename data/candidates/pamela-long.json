@@ -127,5 +127,11 @@
       "occupation": "NOT PROVIDED",
       "date": "2025-08-27"
     }
-  ]
+  ],
+  "primary_result": {
+    "status": "lost",
+    "votes": 4165,
+    "pct": 6.79,
+    "updated": "2026-03-18T03:22:24.240Z"
+  }
 }

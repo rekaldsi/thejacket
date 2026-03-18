@@ -324,5 +324,11 @@
       "summary": "Results are being tallied in the hotly contested Cook County Assessor Democratic primary on Election Night. Two-term incumbent Fritz Kaegi faces challenger Pat Hynes (Lyons Township assessor). Since there are no Republican candidates running for assessor, the Democratic primary winner will automatically be the next assessor. Kaegi has blasted Hynes for accepting donations from property tax attorneys; Hynes blames Kaegi for skyrocketing property taxes on the South and West sides of Chicago.",
       "sentiment": "neutral"
     }
-  ]
+  ],
+  "primary_result": {
+    "status": "lost",
+    "votes": 120292,
+    "pct": 43.64,
+    "updated": "2026-03-18T03:22:24.240Z"
+  }
 }

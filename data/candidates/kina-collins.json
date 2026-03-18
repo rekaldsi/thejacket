@@ -228,5 +228,11 @@
     "computed_at": "2026-03-18"
   },
   "fec_candidate_id": "H0IL07167",
-  "fec_committee_id": "C00844878"
+  "fec_committee_id": "C00844878",
+  "primary_result": {
+    "status": "lost",
+    "votes": 4559,
+    "pct": 14.41,
+    "updated": "2026-03-18T03:22:24.240Z"
+  }
 }

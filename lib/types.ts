@@ -55,6 +55,26 @@ export type TransparencyScore = {
   computed_at: string;
 };
 
+// ─── Primary Results ─────────────────────────────────────────────────────────
+
+export type PrimaryResult = {
+  status: 'won' | 'lost' | 'runoff' | 'pending' | 'uncontested-won';
+  votes: number | null;
+  pct: number | null;
+  updated: string | null;
+};
+
+export type JudgePrimaryResult = {
+  status: 'retained' | 'not_retained' | 'won' | 'lost' | 'pending' | 'uncontested-won';
+  yes_pct: number | null;
+  no_pct: number | null;
+  pct: number | null;
+  votes: number | null;
+  updated: string | null;
+};
+
+// ─── Candidate ───────────────────────────────────────────────────────────────
+
 export type Candidate = {
   id: string;
   name: string;
@@ -100,7 +120,10 @@ export type Candidate = {
     severity?: 'critical' | 'high' | 'medium';
     source_name?: string;
   }>;
+  primary_result?: PrimaryResult;
 };
+
+// ─── Race ────────────────────────────────────────────────────────────────────
 
 export type Race = {
   id: string;
@@ -113,6 +136,8 @@ export type Race = {
   uncontested?: boolean;
   note?: string;
 };
+
+// ─── Judge ───────────────────────────────────────────────────────────────────
 
 export type BarRating = "Q" | "R" | "HR" | "NQ" | "NR" | "Mixed" | "Pending";
 
@@ -152,4 +177,18 @@ export type Judge = {
   uncontested: boolean;
   website?: string;
   photo_url?: string | null;
+  primary_result?: JudgePrimaryResult;
+};
+
+// ─── Results Manifest ────────────────────────────────────────────────────────
+
+export type ResultsManifest = {
+  last_updated: string | null;
+  source: string;
+  races_scraped: number;
+  candidates_updated: number;
+  judges_updated: number;
+  unmatched: string[];
+  status: 'ok' | 'error' | 'pending';
+  error?: string;
 };

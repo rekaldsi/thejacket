@@ -114,5 +114,11 @@
       "occupation": "REAL ESTATE BROKER",
       "date": "2025-12-30"
     }
-  ]
+  ],
+  "primary_result": {
+    "status": "lost",
+    "votes": 8733,
+    "pct": 14.23,
+    "updated": "2026-03-18T03:22:24.240Z"
+  }
 }

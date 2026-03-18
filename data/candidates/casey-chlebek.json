@@ -107,5 +107,11 @@
       "occupation": "SELF EMPLOYED CANDIDATE",
       "date": "2025-11-07"
     }
-  ]
+  ],
+  "primary_result": {
+    "status": "lost",
+    "votes": 10292,
+    "pct": 16.77,
+    "updated": "2026-03-18T03:22:24.240Z"
+  }
 }
