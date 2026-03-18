@@ -1,0 +1,39 @@
+{
+  "id": "jason-friedman-il08",
+  "name": "Jason Friedman",
+  "party": "Democratic",
+  "office": "U.S. House (IL-08)",
+  "race_id": "il-08-us-house-d-2026",
+  "bio": "Jason Friedman is a businessman running in the Democratic primary for Illinois' 8th Congressional District. Additional biographical information is being verified.",
+  "prior_office": null,
+  "website": null,
+  "photo_url": null,
+  "data_status": "stub",
+  "jacket": {
+    "total_raised": null,
+    "data_date": "2026-03-16",
+    "source": "https://www.fec.gov/data/",
+    "note": "FEC data pending lookup.",
+    "donors": []
+  },
+  "red_flags": [],
+  "endorsements": [],
+  "key_votes": [],
+  "news_hits": [],
+  "score": null,
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "F",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-18"
+  },
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

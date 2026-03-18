@@ -4,17 +4,178 @@
   "party": "Democratic",
   "office": "U.S. Senate (Illinois)",
   "race_id": "us-senate-il-d-2026",
-  "bio": "Kevin Ryan is listed as a Democratic candidate in Illinois' 2026 U.S. Senate primary field. His candidacy appears in statewide ballot reporting for the March 17 primary. (Source: Shaw Local primary ballot guide, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
-  "prior_office": "Not listed in source summary",
-  "website": "",
+  "data_status": "partial",
+  "data_note": "Limited public information available. Check your county clerk's office or the Illinois State Board of Elections for filing info.",
+  "bio": "Kevin Ryan is a Chicago Public Schools teacher (18 years at Lindblom High School, West Englewood) and U.S. Marine Corps Reserve officer. He served as a policy adviser at the U.S. Treasury under the Biden Administration and holds degrees from U of I, Oxford (diplomacy), and Georgetown. His central campaign platform is a constitutional amendment to establish campaign spending limits — making him one of the most relevant candidates to TheJacket's mission. (Source: Ballotpedia; ILSOS filing confirmed)",
+  "prior_office": "Policy Adviser, U.S. Treasury (Biden Administration)",
+  "website": "https://www.ballotpedia.org/Kevin_Ryan_(Illinois)",
   "jacket": {
-    "total_raised": null,
+    "total_raised": 83936,
     "data_date": "2026-03-13",
     "source": "https://www.fec.gov/data/candidates/senate/?cycle=2026",
     "note": "FEC totals pending direct ETL import.",
-    "donors": []
+    "donors": [
+      {
+        "name": "Individual small-dollar donors only (no corporate money)",
+        "amount": null,
+        "category": "individual",
+        "source": "https://www.centralillinoisproud.com/news/local-news/kevin-ryan-campaign-promises/",
+        "confirmed": true,
+        "amount_note": "Campaign explicitly rejects all corporate donations per Central Illinois Proud interview. Only individual contributions accepted."
+      }
+    ]
   },
   "red_flags": [],
   "key_votes": [],
-  "endorsements": []
+  "endorsements": [],
+  "career_history": [
+    {
+      "role": "U.S. Marine Corps Reserve Officer",
+      "org": "United States Marine Corps",
+      "years": "2014–present",
+      "highlight": "Active reservist; military service alongside teaching career"
+    },
+    {
+      "role": "Chicago Public Schools Teacher",
+      "org": "Lindblom Math & Science Academy, West Englewood",
+      "years": "2006–present",
+      "highlight": "18 years in the classroom; brother died of overdose, which inspired teaching career"
+    },
+    {
+      "role": "Policy Adviser",
+      "org": "U.S. Treasury (Biden Administration)",
+      "years": "2021–2022",
+      "highlight": "Federal policy work on economic issues"
+    }
+  ],
+  "policy_platform": [
+    {
+      "topic": "Campaign Finance Reform",
+      "position": "Constitutional amendment to establish campaign spending limits. Cites this as the root cause of all other political failures.",
+      "source": "https://ballotpedia.org/Kevin_Ryan_(Illinois)"
+    },
+    {
+      "topic": "Workers & Economy",
+      "position": "Living wage for all full-time workers. Medicare for All. Housing and education as basic rights.",
+      "source": "https://ballotpedia.org/Kevin_Ryan_(Illinois)"
+    },
+    {
+      "topic": "Criminal Justice",
+      "position": "Abolish the death penalty; prison reform; anti-poverty programs.",
+      "source": "https://ballotpedia.org/Kevin_Ryan_(Illinois)"
+    },
+    {
+      "topic": "Democracy Reform",
+      "position": "Term limits, age limits in Congress, filibuster reform, ranked choice voting.",
+      "source": "https://ballotpedia.org/Kevin_Ryan_(Illinois)"
+    }
+  ],
+  "social_pulse": {
+    "summary": "No significant social media presence or public discourse found in available sources as of March 2026.",
+    "sentiment": "low-profile",
+    "last_updated": "2026-03-13"
+  },
+  "trust_indicators": [
+    {
+      "label": "Disclosure filings status",
+      "value": "Not confirmed in public sources as of March 2026",
+      "type": "neutral"
+    }
+  ],
+  "transparency_score": {
+    "grade": "C",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "A",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-18"
+  },
+  "fec_candidate_id": "S6IL00581",
+  "fec_committee_id": "C00907774",
+  "finance": {
+    "total_raised": 124249,
+    "total_spent": 118890,
+    "cash_on_hand": 5358,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "WYNNE, ANTHONY",
+      "amount": 3500,
+      "employer": "DEPARTMENT OF DEFENSE",
+      "occupation": "POLICY ADVISOR",
+      "date": "2025-07-07"
+    },
+    {
+      "name": "DREUIL-WYNNE, FRANCOISE",
+      "amount": 3500,
+      "employer": "RETIRED",
+      "occupation": "RETIRED",
+      "date": "2025-07-16"
+    },
+    {
+      "name": "CHI, MICHAEL",
+      "amount": 3500,
+      "employer": "HIMS",
+      "occupation": "CHEIF COMMERICAL OFFICER",
+      "date": "2025-09-29"
+    },
+    {
+      "name": "ATKINSON, TREMAINE",
+      "amount": 3500,
+      "employer": "773 LLC",
+      "occupation": "CEO",
+      "date": "2025-12-17"
+    },
+    {
+      "name": "GOLDENBERG, RUSS",
+      "amount": 2500,
+      "employer": "RETIRED",
+      "occupation": "RETIRED",
+      "date": "2025-12-17"
+    },
+    {
+      "name": "MARINARO, MATTHEW",
+      "amount": 1500,
+      "employer": "RED IRON GROUP",
+      "occupation": "PRIVATE EQUITY INVESTOR",
+      "date": "2025-07-16"
+    },
+    {
+      "name": "HABERKORN, ED",
+      "amount": 1500,
+      "employer": "DYNAMIC ELECTRIC",
+      "occupation": "ELECTRICAL ENGINEER",
+      "date": "2025-07-01"
+    },
+    {
+      "name": "SMYERS-HALE, IRIS",
+      "amount": 1000,
+      "employer": "RETIRED",
+      "occupation": "RETIRED",
+      "date": "2025-08-13"
+    },
+    {
+      "name": "RYAN, THOMAS",
+      "amount": 1000,
+      "employer": "RETIRED",
+      "occupation": "RETIRED",
+      "date": "2025-09-03"
+    },
+    {
+      "name": "MCLAUGHLIN, EDWARD",
+      "amount": 1000,
+      "employer": "RETIRED",
+      "occupation": "RETIRED",
+      "date": "2025-07-29"
+    }
+  ],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

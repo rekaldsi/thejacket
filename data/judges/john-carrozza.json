@@ -1,0 +1,28 @@
+{
+  "id": "john-carrozza",
+  "name": "John Carrozza",
+  "party": "Democratic",
+  "office": "circuit",
+  "subcircuit": "11th",
+  "race_id": "judicial-11th-subcircuit",
+  "vacancy_of": "Open seat",
+  "bio": "John Carrozza received all positive ratings from the Alliance bar associations, tied on composite score with his opponent Jarrett Knox. He has no public interest law background — his career has been exclusively in private practice. He is a member of the Knights of Columbus. This is a values-based distinction rather than a disqualifying issue; both candidates are rated as qualified by bar associations.",
+  "background": "Private practice attorney. No public interest law background. Member, Knights of Columbus.",
+  "years_experience": 16,
+  "bar_ratings": {
+    "alliance_rating": "Q",
+    "alliance_detail": "All positive ratings from Alliance bar associations — tied composite with opponent",
+    "cba_rating": "R",
+    "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx"
+  },
+  "red_flags": [],
+  "uncontested": false,
+  "photo_url": null,
+  "primary_result": {
+    "status": "pending",
+    "yes_pct": null,
+    "no_pct": null,
+    "votes": null,
+    "updated": null
+  }
+}

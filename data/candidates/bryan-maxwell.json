@@ -4,17 +4,168 @@
   "party": "Democratic",
   "office": "U.S. Senate (Illinois)",
   "race_id": "us-senate-il-d-2026",
-  "bio": "Bryan Maxwell is listed among candidates in the Democratic primary for Illinois' open U.S. Senate seat in 2026. Public ballot reporting includes him in the March 17 primary field. (Source: Shaw Local primary ballot guide, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
-  "prior_office": "Not listed in source summary",
-  "website": "",
+  "data_status": "partial",
+  "data_note": "Limited public information available. Check your county clerk's office or the Illinois State Board of Elections for filing info.",
+  "bio": "Bryan Maxwell is an Assistant Research Scientist and Project Engineer at the Illinois Sustainable Technology Center at the University of Illinois Urbana-Champaign. He is running in the U.S. Senate Democratic primary on an anti-war, progressive platform. Completed a Ballotpedia Candidate Connection survey in 2025. (Source: Ballotpedia; ILSOS filing confirmed)",
+  "prior_office": "Research Scientist, University of Illinois",
+  "website": "https://ballotpedia.org/Bryan_Maxwell",
   "jacket": {
-    "total_raised": null,
+    "total_raised": 21976,
     "data_date": "2026-03-13",
     "source": "https://www.fec.gov/data/candidates/senate/?cycle=2026",
     "note": "FEC totals pending direct ETL import.",
-    "donors": []
+    "donors": [
+      {
+        "name": "Individual itemized contributions",
+        "amount": 20232,
+        "category": "individual",
+        "source": "https://api.open.fec.gov/v1/candidate/S6IL00649/totals/?cycle=2026",
+        "confirmed": true,
+        "amount_note": "FEC confirmed: $20,232 itemized individual contributions"
+      },
+      {
+        "name": "Individual unitemized contributions",
+        "amount": 1744,
+        "category": "individual",
+        "source": "https://api.open.fec.gov/v1/candidate/S6IL00649/totals/?cycle=2026",
+        "confirmed": true,
+        "amount_note": "FEC confirmed: $1,744 small-dollar unitemized contributions"
+      }
+    ],
+    "fec_id": "S6IL00649"
   },
   "red_flags": [],
   "key_votes": [],
-  "endorsements": []
+  "endorsements": [],
+  "career_history": [
+    {
+      "role": "Assistant Research Scientist & Project Engineer",
+      "org": "Illinois Sustainable Technology Center, UIUC",
+      "years": "n/a",
+      "highlight": "Science and engineering background; progressive policy platform"
+    }
+  ],
+  "policy_platform": [
+    {
+      "topic": "Healthcare",
+      "position": "Medicare for All.",
+      "source": "https://ballotpedia.org/Bryan_Maxwell"
+    },
+    {
+      "topic": "Economy",
+      "position": "Tax the rich; sustainable agriculture; affordable housing.",
+      "source": "https://ballotpedia.org/Bryan_Maxwell"
+    },
+    {
+      "topic": "Foreign Policy",
+      "position": "Anti-war position. End foreign military interventions.",
+      "source": "https://ballotpedia.org/Bryan_Maxwell"
+    },
+    {
+      "topic": "Environment",
+      "position": "Climate change action; sustainable technology policy.",
+      "source": "https://ballotpedia.org/Bryan_Maxwell"
+    }
+  ],
+  "social_pulse": {
+    "summary": "No significant social media presence or public discourse found in available sources as of March 2026.",
+    "sentiment": "low-profile",
+    "last_updated": "2026-03-13"
+  },
+  "trust_indicators": [
+    {
+      "label": "Disclosure filings status",
+      "value": "Not confirmed in public sources as of March 2026",
+      "type": "neutral"
+    }
+  ],
+  "transparency_score": {
+    "grade": "A",
+    "computed": true,
+    "financial_transparency": "A",
+    "platform_completeness": "A",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-18"
+  },
+  "fec_candidate_id": "S6IL00649",
+  "fec_committee_id": "C00918466",
+  "finance": {
+    "total_raised": 21976,
+    "total_spent": 15146,
+    "cash_on_hand": 6830,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "MAXWELL, BRYAN",
+      "amount": 5000,
+      "employer": "UNIVERSITY OF ILLINOIS",
+      "occupation": "RESEARCH SCIENTIST",
+      "date": "2025-09-15"
+    },
+    {
+      "name": "MAXWELL, PAUL",
+      "amount": 5000,
+      "employer": "UNEMPLOYED",
+      "occupation": "UNEMPLOYED",
+      "date": "2025-12-02"
+    },
+    {
+      "name": "MAXWELL, RUTH",
+      "amount": 3500,
+      "employer": "UNEMPLOYED",
+      "occupation": "UNEMPLOYED",
+      "date": "2025-12-28"
+    },
+    {
+      "name": "HELMS, BRIAN",
+      "amount": 3500,
+      "employer": "SELF",
+      "occupation": "SELF",
+      "date": "2025-12-30"
+    },
+    {
+      "name": "LEVY, STUART",
+      "amount": 832,
+      "employer": "UIUC",
+      "occupation": "COMPUTER PROGRAMMER",
+      "date": "2025-11-23"
+    },
+    {
+      "name": "MAXWELL, CRAIG",
+      "amount": 500,
+      "employer": "WELLS FARGO",
+      "occupation": "MANAGER",
+      "date": "2025-12-29"
+    },
+    {
+      "name": "DORAI-RAJ, SUNDAR",
+      "amount": 500,
+      "employer": "GOOGLE",
+      "occupation": "DATA SCIENTIST",
+      "date": "2025-12-28"
+    },
+    {
+      "name": "KAGAN, ALFRED",
+      "amount": 250,
+      "employer": "UNEMPLOYED",
+      "occupation": "UNEMPLOYED",
+      "date": "2025-12-13"
+    },
+    {
+      "name": "DORAI-RAJ, SUNDAR",
+      "amount": 250,
+      "employer": "GOOGLE",
+      "occupation": "DATA SCIENTIST",
+      "date": "2025-10-01"
+    }
+  ],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

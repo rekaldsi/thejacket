@@ -4,17 +4,265 @@
   "party": "Democratic",
   "office": "U.S. House (IL-04)",
   "race_id": "il-04-us-house-open-2026",
-  "bio": "Patty Garcia is listed as the Democratic candidate filed for IL-04 in 2026 after Rep. Chuy Garcia's retirement announcement. Public election reporting identifies her as part of the open-seat field. (Source: Shaw Local candidate list, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
-  "prior_office": "Not listed in source summary",
-  "website": "",
+  "data_status": "full",
+  "data_note": "Full FEC data retrieved. Patty Garcia is the uncontested Democratic primary nominee in IL-04 (March 17 primary).",
+  "bio": "Patty Garcia holds a PhD from the University of Illinois Urbana-Champaign and served as Chief of Staff to Congressman Jesus 'Chuy' Garcia (IL-04). She is the Democratic nominee in the IL-04 primary — running uncontested — and is considered the institutional heir to Chuy Garcia's progressive legacy in the heavily Latino southwest Chicago district. Daughter of Mexican immigrants. Strong support from labor unions and progressive organizations.",
+  "prior_office": "Chief of Staff to Rep. Jesus 'Chuy' Garcia (IL-04)",
+  "website": "https://pattyforillinois.com",
   "jacket": {
-    "total_raised": null,
-    "data_date": "2026-03-13",
-    "source": "https://www.fec.gov/data/elections/house/IL/04/",
-    "note": "FEC candidate totals pending ETL import.",
-    "donors": []
+    "total_raised": 192292.82,
+    "cash_on_hand": 162086.28,
+    "data_date": "2026-02-25",
+    "source": "https://api.open.fec.gov/v1/committee/C00925495/totals/",
+    "note": "FEC data as of 2/25/2026 filing. Top donors are labor union PACs ($5K each): Transformative Change PAC ($5K x2), SMART-TD, LIUNA, Healthcare Service Corp PAC, Carpenters Legislative Committee, Brotherhood of Railroad Signalmen, ATU-COPE, Air Line Pilots PAC. Strong labor backing.",
+    "fec_id": "H6IL04153",
+    "ilsbe_id": null,
+    "donors": [
+      {
+        "name": "Transformative Change PAC",
+        "amount": 5000,
+        "category": "pac",
+        "source": "https://api.open.fec.gov/v1/schedules/schedule_a/",
+        "confirmed": true
+      },
+      {
+        "name": "Transformative Change PAC",
+        "amount": 5000,
+        "category": "pac",
+        "source": "https://api.open.fec.gov/v1/schedules/schedule_a/",
+        "confirmed": true
+      },
+      {
+        "name": "SMART-TD (Sheet Metal, Air, Rail and Transportation Workers)",
+        "amount": 5000,
+        "category": "labor-pac",
+        "source": "https://api.open.fec.gov/v1/schedules/schedule_a/",
+        "confirmed": true
+      },
+      {
+        "name": "Machinists Non-Partisan Political League (IAM)",
+        "amount": 5000,
+        "category": "labor-pac",
+        "source": "https://api.open.fec.gov/v1/schedules/schedule_a/",
+        "confirmed": true
+      },
+      {
+        "name": "Laborers' International Union of North America (LIUNA) PAC",
+        "amount": 5000,
+        "category": "labor-pac",
+        "source": "https://api.open.fec.gov/v1/schedules/schedule_a/",
+        "confirmed": true
+      },
+      {
+        "name": "Health Care Service Corporation Employees' PAC",
+        "amount": 5000,
+        "category": "labor-pac",
+        "source": "https://api.open.fec.gov/v1/schedules/schedule_a/",
+        "confirmed": true
+      },
+      {
+        "name": "Carpenters Legislative Improvement Committee (United Brotherhood of Carpenters)",
+        "amount": 5000,
+        "category": "labor-pac",
+        "source": "https://api.open.fec.gov/v1/schedules/schedule_a/",
+        "confirmed": true
+      },
+      {
+        "name": "Brotherhood of Railroad Signalmen",
+        "amount": 5000,
+        "category": "labor-pac",
+        "source": "https://api.open.fec.gov/v1/schedules/schedule_a/",
+        "confirmed": true
+      },
+      {
+        "name": "Amalgamated Transit Union - COPE",
+        "amount": 5000,
+        "category": "labor-pac",
+        "source": "https://api.open.fec.gov/v1/schedules/schedule_a/",
+        "confirmed": true
+      },
+      {
+        "name": "Air Line Pilots Association PAC",
+        "amount": 5000,
+        "category": "labor-pac",
+        "source": "https://api.open.fec.gov/v1/schedules/schedule_a/",
+        "confirmed": true
+      }
+    ]
   },
   "red_flags": [],
   "key_votes": [],
-  "endorsements": []
+  "endorsements": [
+    {
+      "org": "Citizens Action Illinois",
+      "significance": "Progressive advocacy group endorsement"
+    },
+    {
+      "org": "Rep. Jesus 'Chuy' Garcia",
+      "significance": "Outgoing incumbent's chosen successor"
+    },
+    "National Nurses United"
+  ],
+  "career_history": [
+    {
+      "role": "Chief of Staff",
+      "org": "Office of Rep. Jesus 'Chuy' Garcia (IL-04)",
+      "years": "n/a",
+      "highlight": "Ran the congressional office of the outgoing incumbent; institutional continuity candidate"
+    },
+    {
+      "role": "PhD Researcher",
+      "org": "University of Illinois Urbana-Champaign",
+      "years": "n/a",
+      "highlight": "Academic background; daughter of Mexican immigrants"
+    }
+  ],
+  "policy_platform": [
+    {
+      "topic": "Immigration",
+      "position": "Defend immigrant families; abolish ICE; end abusive enforcement. Strong sanctuary policy advocate.",
+      "source": "https://ballotpedia.org/Patty_Garcia"
+    },
+    {
+      "topic": "Economy & Labor",
+      "position": "Lower costs, higher wages; tax corporations and the wealthy; union jobs; oppose corporate giveaways.",
+      "source": "https://ballotpedia.org/Patty_Garcia"
+    },
+    {
+      "topic": "Healthcare",
+      "position": "Medicare for All.",
+      "source": "https://ballotpedia.org/Patty_Garcia"
+    },
+    {
+      "topic": "Education",
+      "position": "Fully fund public schools; oppose privatization.",
+      "source": "https://ballotpedia.org/Patty_Garcia"
+    },
+    {
+      "topic": "Foreign Policy",
+      "position": "Peace, not endless war. Diplomacy over bombs. Human rights in foreign policy. Oppose military occupation.",
+      "source": "https://ballotpedia.org/Patty_Garcia"
+    }
+  ],
+  "social_pulse": {
+    "summary": "Progressive labor-backed candidate with strong institutional support.",
+    "sentiment": "progressive",
+    "last_updated": "2026-03-14"
+  },
+  "trust_indicators": [
+    {
+      "label": "FEC Filing Status",
+      "value": "Current — filed 2/25/2026",
+      "type": "positive"
+    },
+    {
+      "label": "Primary Candidacy",
+      "value": "Uncontested Democratic primary nominee",
+      "type": "positive"
+    }
+  ],
+  "transparency_score": {
+    "grade": "B",
+    "computed": true,
+    "financial_transparency": "C",
+    "platform_completeness": "A",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-18"
+  },
+  "sources": [
+    "https://ballotpedia.org/Patty_Garcia",
+    "https://ballotpedia.org/Illinois%27_4th_Congressional_District_election,_2026",
+    "https://api.open.fec.gov/v1/candidate/H6IL04153/",
+    "https://api.open.fec.gov/v1/committee/C00925495/"
+  ],
+  "photo_url": null,
+  "uncontested": true,
+  "fec_candidate_id": "H8IL04134",
+  "fec_committee_id": "C00661777",
+  "finance": {
+    "total_raised": 373523,
+    "total_spent": 358132,
+    "cash_on_hand": 51227,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "EYCHANER, FRED",
+      "amount": 3500,
+      "employer": "NEWSWEB CORP.",
+      "occupation": "CHAIRMAN",
+      "date": "2025-09-30"
+    },
+    {
+      "name": "EYCHANER, FRED",
+      "amount": 3500,
+      "employer": "NEWSWEB CORP.",
+      "occupation": "CHAIRMAN",
+      "date": "2025-09-30"
+    },
+    {
+      "name": "CLIFFORD, ROBERT A",
+      "amount": 3500,
+      "employer": "CLIFFORD LAW OFFICES",
+      "occupation": "ATTORNEY",
+      "date": "2025-07-02"
+    },
+    {
+      "name": "CLIFFORD, ROBERT A",
+      "amount": 3500,
+      "employer": "CLIFFORD LAW OFFICES",
+      "occupation": "ATTORNEY",
+      "date": "2025-07-02"
+    },
+    {
+      "name": "VEGA, JOSE JR",
+      "amount": 3500,
+      "employer": "GALERA FRESH",
+      "occupation": "BUSINESS OWNER",
+      "date": "2025-05-28"
+    },
+    {
+      "name": "SMITH, LEO A.",
+      "amount": 3500,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-06-17"
+    },
+    {
+      "name": "SMITH, LEO A.",
+      "amount": 3500,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-05-27"
+    },
+    {
+      "name": "ROGERS, JOHN JR",
+      "amount": 3500,
+      "employer": "ARIEL INVESTMENTS",
+      "occupation": "CO-CEO",
+      "date": "2025-04-03"
+    },
+    {
+      "name": "ROGERS, JOHN JR",
+      "amount": 3500,
+      "employer": "ARIEL INVESTMENTS",
+      "occupation": "CO-CEO",
+      "date": "2025-04-03"
+    },
+    {
+      "name": "MANDERA, PERRY",
+      "amount": 3500,
+      "employer": "THE CUSTOM COMPANIES INC.",
+      "occupation": "LOGISTICS/TRANSPORTATION",
+      "date": "2025-05-14"
+    }
+  ],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

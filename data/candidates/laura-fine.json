@@ -2,19 +2,257 @@
   "id": "laura-fine",
   "name": "Laura Fine",
   "party": "Democratic",
-  "office": "U.S. House (IL-09)",
+  "office": "U.S. House — IL-09",
   "race_id": "il-09-us-house-d-2026",
-  "bio": "Laura Fine is listed as a Democratic candidate in IL-09 for the 2026 primary. She currently serves in the Illinois Senate and is part of the open-seat contest. (Source: Shaw Local candidate list, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
-  "prior_office": "Illinois State Senator",
-  "website": "",
+  "bio": "Laura Fine is an Illinois state senator representing the 9th district — the same seat once held by Daniel Biss. A former journalist, she is running for the open IL-09 congressional seat. She has raised approximately $2M. (Source: FEC H6IL09194; Wikipedia)",
+  "prior_office": "Illinois State Senator (9th District, 2019–present)",
+  "website": "https://laurafineforillinois.com",
+  "photo_url": null,
   "jacket": {
-    "total_raised": null,
+    "total_raised": 2556808,
     "data_date": "2026-03-13",
-    "source": "https://www.fec.gov/data/elections/house/IL/09/",
-    "note": "FEC candidate totals pending ETL import.",
-    "donors": []
+    "source": "https://www.fec.gov/data/candidate/H6IL09194/",
+    "note": "~$2M raised through Dec 31, 2025 per FEC filings.",
+    "donors": [
+      {
+        "name": "Gessner family (AIPAC-network donors)",
+        "amount": 14000,
+        "category": "aipac",
+        "source": "https://evanstonroundtable.com/2025/10/23/aipac-donors-flood-fines-campaign/",
+        "confirmed": true
+      },
+      {
+        "name": "Gessner family (documented AIPAC-network donors)",
+        "amount": 14000,
+        "category": "aipac",
+        "source": "https://evanstonroundtable.com/2025/10/23/aipac-donors-flood-fines-campaign/",
+        "confirmed": true,
+        "amount_note": "Confirmed AIPAC-network donation per Evanston Roundtable investigative reporting"
+      },
+      {
+        "name": "Michael Tuchin (AIPAC board president — hosted fundraiser)",
+        "amount": null,
+        "category": "aipac",
+        "source": "https://en.wikipedia.org/wiki/Laura_Fine",
+        "confirmed": true,
+        "amount_note": "AIPAC board president hosted fundraiser for Fine; personal contribution amount requires FEC lookup"
+      },
+      {
+        "name": "Elect Chicago Women Super PAC (AIPAC-affiliated outside spending)",
+        "amount": 1000000,
+        "category": "pac",
+        "source": "https://en.wikipedia.org/wiki/Laura_Fine",
+        "confirmed": true,
+        "amount_note": "AIPAC-affiliated Super PAC spent $1M+ on ads supporting Fine. This is OUTSIDE spending — NOT in campaign committee total of $2,556,808."
+      },
+      {
+        "name": "Out-of-state donors — Florida",
+        "amount": 36500,
+        "category": "individual",
+        "source": "https://dailynorthwestern.com/2026/02/02/city/abughazaleh-biss-fine-lead-fundraising-as-11-million-floods-congressional-race/",
+        "confirmed": true,
+        "amount_note": "Largest out-of-state contribution bloc per Daily Northwestern FEC analysis"
+      },
+      {
+        "name": "Out-of-state donors — New York",
+        "amount": 32000,
+        "category": "individual",
+        "source": "https://dailynorthwestern.com/2026/02/02/city/abughazaleh-biss-fine-lead-fundraising-as-11-million-floods-congressional-race/",
+        "confirmed": true,
+        "amount_note": "Second largest out-of-state bloc per Daily Northwestern FEC analysis"
+      }
+    ],
+    "donors_note": "Donors list is PARTIAL — only notable/flagged donors are itemized. total_raised ($2,000,000) reflects the full FEC aggregate total (H6IL09194). Full donor breakdown pending ETL import. The Gessner family entry represents $14,000 of documented AIPAC-network contributions; remaining $1,986,000 is unitemized in this record.",
+    "fec_id": "H6IL09194"
   },
-  "red_flags": [],
-  "key_votes": [],
-  "endorsements": []
+  "red_flags": [
+    {
+      "type": "aipac",
+      "label": "AIPAC-Connected Donors Flooding Campaign",
+      "detail": "Evanston Now reported in October 2025 that AIPAC-linked donors are actively funding Fine's IL-09 campaign, including $14,000 from the Gessner family, documented AIPAC donors. WBEZ reported in February 2026 that pro-Israel groups and affiliates have poured $13.7M into Chicago-area primaries. Additionally, the AIPAC-affiliated \"Elect Chicago Women\" Super PAC spent $1M+ on ads supporting Fine, and AIPAC board president Michael Tuchin hosted a fundraiser for her campaign.",
+      "source": "https://evanstonroundtable.com/2025/10/23/aipac-donors-flood-fines-campaign/",
+      "confirmed": true
+    }
+  ],
+  "key_votes": [
+    {
+      "bill": "Illinois Mental Health Early Action on Campus Act (SB 2792), 2020",
+      "vote": "yes",
+      "summary": "Fine sponsored law requiring Illinois public colleges to adopt mental health early action policies. Signed 2020.",
+      "source": "https://www.illinoissenatedemocrats.com/caucus-news/28-senator-laura-fine-news"
+    },
+    {
+      "bill": "Mental Health Outpatient Parity legislation, 2022-2023",
+      "vote": "yes",
+      "summary": "Fine passed law extending prior authorization bans to cover medically necessary outpatient mental health services — major insurance reform expanding mental health access in Illinois.",
+      "source": "https://www.illinoissenatedemocrats.com/caucus-news/28-senator-laura-fine-news"
+    },
+    {
+      "bill": "Illinois PFAS (forever chemicals) firefighting foam phase-out, 2023",
+      "vote": "yes",
+      "summary": "Fine sponsored legislation to phase out PFAS chemicals from firefighting foam used in Illinois.",
+      "source": "https://en.wikipedia.org/wiki/Laura_Fine"
+    },
+    {
+      "bill": "Illinois styrofoam container ban (Senate bill), 2025",
+      "vote": "yes",
+      "summary": "Fine introduced bill to ban styrofoam food containers in Illinois starting 2030. Exempts egg cartons. As of March 2026, not yet enacted.",
+      "source": "https://en.wikipedia.org/wiki/Laura_Fine"
+    }
+  ],
+  "endorsements": [],
+  "career_history": [
+    {
+      "role": "Illinois State Senator",
+      "org": "Illinois Senate",
+      "years": "2019–present",
+      "highlight": "Senate Mental Health Committee; behavioral health policy leader"
+    },
+    {
+      "role": "Illinois State Representative",
+      "org": "Illinois General Assembly",
+      "years": "2013–2019",
+      "highlight": "Represented Glenview/Northbrook area suburbs"
+    }
+  ],
+  "policy_platform": [
+    {
+      "topic": "Mental Health",
+      "position": "Lead advocate for expanded mental health funding in Illinois; authored mental health parity legislation.",
+      "source": "https://www.ilga.gov"
+    },
+    {
+      "topic": "Education",
+      "position": "Supports increased K-12 and higher education funding; backed Evidence-Based Funding formula.",
+      "source": "https://www.ilga.gov"
+    },
+    {
+      "topic": "Environment",
+      "position": "Consistent votes for environmental protection legislation; supports clean energy transition.",
+      "source": "https://www.ilga.gov"
+    }
+  ],
+  "social_pulse": {
+    "summary": "Low public profile outside her district. Positive among mental health advocacy community. No major controversies.",
+    "sentiment": "low-profile",
+    "hashtags": [
+      "#LauraFine",
+      "#MentalHealthIL",
+      "#IL29"
+    ],
+    "last_updated": "2026-03-13"
+  },
+  "trust_indicators": [
+    {
+      "label": "ILSBE filings current",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "No ethics violations on record",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "Mental health policy champion in Illinois Senate",
+      "value": true,
+      "type": "positive"
+    }
+  ],
+  "transparency_score": {
+    "grade": "B",
+    "computed": true,
+    "financial_transparency": "C",
+    "platform_completeness": "B",
+    "record_available": true,
+    "red_flags_count": 1,
+    "computed_at": "2026-03-18"
+  },
+  "fec_candidate_id": "H6IL09194",
+  "fec_committee_id": "C00904326",
+  "finance": {
+    "total_raised": 2556808,
+    "total_spent": 2095129,
+    "cash_on_hand": 461679,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "ZARANSKY, MICHAEL",
+      "amount": 3500,
+      "employer": "MZ CAPITAL PARTNERS",
+      "occupation": "MANAGING PRINCIPAL",
+      "date": "2025-06-30"
+    },
+    {
+      "name": "WEISSMAN, KENNETH",
+      "amount": 3500,
+      "employer": "MODERN OPTICAL INTERNATIONAL",
+      "occupation": "PRESIDENT",
+      "date": "2025-05-06"
+    },
+    {
+      "name": "STOWELL, MARY",
+      "amount": 3500,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-04-29"
+    },
+    {
+      "name": "SIMON, RACHEL",
+      "amount": 3500,
+      "employer": "SELF EMPLOYED",
+      "occupation": "PRESIDENT/INVESTOR",
+      "date": "2025-05-19"
+    },
+    {
+      "name": "SCHOLLY, STUART",
+      "amount": 3500,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-05-16"
+    },
+    {
+      "name": "NOTTAGE, COURTNEY",
+      "amount": 3500,
+      "employer": "KASPER & NOTTAGE",
+      "occupation": "ATTORNEY",
+      "date": "2025-06-20"
+    },
+    {
+      "name": "MUHL, CHARLES",
+      "amount": 3500,
+      "employer": "NATIONAL LABOR RELATIONS BOARD",
+      "occupation": "JUDGE",
+      "date": "2025-06-30"
+    },
+    {
+      "name": "MORRILL, STEVE",
+      "amount": 3500,
+      "employer": "MORRILL & FIEDLER LLC",
+      "occupation": "ATTORNEY",
+      "date": "2025-04-29"
+    },
+    {
+      "name": "KELLER, JAY",
+      "amount": 3500,
+      "employer": "J. ALEXANDER HUNT INC.",
+      "occupation": "LOBBYIST",
+      "date": "2025-06-30"
+    },
+    {
+      "name": "KATZ, KATHERINE",
+      "amount": 3500,
+      "employer": "N/A",
+      "occupation": "RETIRED",
+      "date": "2025-05-12"
+    }
+  ],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

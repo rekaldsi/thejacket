@@ -1,0 +1,57 @@
+{
+  "id": "max-solomon",
+  "name": "Max Solomon",
+  "party": "Republican",
+  "office": "Illinois Treasurer",
+  "race_id": "il-treasurer-r-2026",
+  "incumbent": false,
+  "bio": "Max Solomon is one of two Republicans running in the 2026 Illinois Treasurer primary alongside Max Rice. He previously ran in the 2022 Republican primary for Governor of Illinois, where he finished last with 0.9% of the vote (7,371 votes) in a six-candidate field — placing below Darren Bailey, Jesse Sullivan, Richard Irvin, Gary Rabine, and Paul Schimpf. His history as a low-profile candidate in the 2022 governor's race, combined with running for a different statewide office in 2026, suggests he is a perennial candidate. Campaign finance data and full biographical details were not found in publicly available sources as of March 14, 2026.",
+  "prior_office": "None (candidate for Governor of Illinois in 2022)",
+  "website": null,
+  "photo_url": null,
+  "jacket": {
+    "total_raised": null,
+    "cash_on_hand": null,
+    "data_date": "2026-03-14",
+    "source": "https://ballotpedia.org/Illinois_Treasurer_election,_2026",
+    "note": "ILSBE data not found in available sources. Ballotpedia confirms Solomon is on the Republican primary ballot.",
+    "fec_id": null,
+    "ilsbe_id": null,
+    "donors": []
+  },
+  "red_flags": [
+    {
+      "type": "electability",
+      "label": "Finished last in 2022 Republican governor primary with 0.9%",
+      "detail": "In the June 2022 Republican gubernatorial primary, Solomon received 7,371 votes (0.9%) out of 797,029 cast — finishing dead last in a six-candidate field.",
+      "source": "https://ballotpedia.org/Illinois_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+      "confirmed": true
+    }
+  ],
+  "key_votes": [],
+  "policy_platform": [],
+  "career_history": [],
+  "endorsements": [],
+  "data_status": "limited",
+  "sources": [
+    "https://ballotpedia.org/Illinois_Treasurer_election,_2026",
+    "https://ballotpedia.org/Max_Solomon"
+  ],
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "F",
+    "record_available": false,
+    "red_flags_count": 1,
+    "computed_at": "2026-03-18"
+  },
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

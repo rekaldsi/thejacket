@@ -1,0 +1,224 @@
+{
+  "id": "ted-dabrowski",
+  "name": "Ted Dabrowski",
+  "party": "Republican",
+  "office": "Governor of Illinois",
+  "race_id": "il-governor-r-2026",
+  "bio": "Ted Dabrowski, age 62, lives in Wilmette and is the son of immigrants — his father emigrated from communist Poland and his mother from Ecuador, both arriving in Chicago in 1960. He spent approximately 16 years in international banking with Citibank, working in Mexico and Poland, before entering Illinois policy work. He joined the Illinois Policy Institute as Vice President of Policy in 2011 and became President of Wirepoints — a 501(c)(3) conservative policy research and commentary nonprofit — in 2017, stepping down in September 2025 to launch his gubernatorial campaign. Dabrowski leads the Republican primary in fundraising with nearly $1.8 million raised, backed by major donors including Uline CEO Richard Uihlein ($250,000) and Madison Dearborn co-founder James Perry ($250,000). He has never held elected office.",
+  "prior_office": "None — first-time candidate for elected office",
+  "website": "https://tedforillinois.com",
+  "photo_url": null,
+  "jacket": {
+    "total_raised": 1800000,
+    "pac_support_total": null,
+    "data_date": "2026-03-14",
+    "source": "https://capitolnewsillinois.com/news/conservative-policy-wonk-ted-dabrowski-gets-off-sidelines-with-run-for-governor/",
+    "note": "Nearly $1.8 million raised through February 2026. Includes $250,100 from Dabrowski himself, $250,000 from Richard Uihlein (Uline), $250,000 from James Perry (Madison Dearborn). Leads all GOP governor candidates in fundraising.",
+    "donors": [
+      {
+        "name": "Richard Uihlein",
+        "employer": "Uline Inc. (CEO/Founder)",
+        "amount": 250000,
+        "date": "2025-09"
+      },
+      {
+        "name": "James Perry",
+        "employer": "Madison Dearborn Partners (Co-Founder)",
+        "amount": 250000,
+        "date": "2025-09"
+      },
+      {
+        "name": "Ted Dabrowski (self)",
+        "employer": "Self",
+        "amount": 250100,
+        "date": "2025"
+      }
+    ],
+    "fec_id": null
+  },
+  "red_flags": [
+    {
+      "type": "experience",
+      "label": "Zero elected experience — first-time candidate at age 62",
+      "detail": "Dabrowski has held no elected office at any level. His entire political career consists of think-tank work: Vice President at the Illinois Policy Institute (2011–2017) and President of Wirepoints (2017–2025). The Chicago Tribune editorial board noted he 'did not suggest to us someone who would be able to work effectively with the Democratic majority in Springfield' and described the learning curve as steep.",
+      "source": "https://www.chicagotribune.com/2026/02/22/editorial-our-thoughts-on-the-republican-primary-race-for-governor-of-illinois/",
+      "confirmed": true
+    },
+    {
+      "type": "conflict_of_interest",
+      "label": "Wirepoints (his former 501c3) published attack piece targeting rival Bailey during primary",
+      "detail": "Wirepoints, a 501(c)(3) nonprofit Dabrowski led until September 2025, published an article by founder Mark Glennon attacking Bailey's electability while Dabrowski was an active candidate. IRS rules prohibit 501(c)(3) organizations from intervening in political campaigns. Dabrowski resigned as president specifically to avoid 501(c)(3) violations, but critics say the organizational ties remained. Illinois Review (a conservative outlet) accused Wirepoints of breaking IRS rules.",
+      "source": "https://www.illinoisreview.com/illinoisreview/2026/01/tax-exempt-wirepoints-breaks-irs-rules-to-smear-bailey-and-boost-dabrowskis-governor-run.html",
+      "confirmed": false
+    },
+    {
+      "type": "policy",
+      "label": "Pension 401k reform proposal likely unconstitutional under Article XIII, Section 5",
+      "detail": "Dabrowski proposes requiring all new state government workers be enrolled in 401(k)-style defined-contribution plans instead of pensions. While this applies only to new hires (not current workers), the Illinois Supreme Court ruled in In re Pension Reform Litigation (2015 IL 118585) that the state constitution's pension protection clause (Art. XIII, Sec. 5) bars any reduction in promised benefits — the same constitutional constraint that sank the General Assembly's 2013 pension reform law. New-hire 401k conversion would require a state constitutional amendment to apply to workers already promised pensions.",
+      "source": "https://www.illinoiscourts.gov/files/118585.pdf/opinion",
+      "confirmed": false
+    },
+    {
+      "type": "policy",
+      "label": "1% property tax cap with no specific funding mechanism to replace lost school revenue",
+      "detail": "Dabrowski proposes capping property tax rates at 1% of assessed home value (current effective rate is 1.83%, highest in U.S. per Tax Foundation). He argues Illinois could fund schools from cuts to the state's 900 school districts and reduced bureaucratic waste. However, he has not identified specific replacement funding amounts. Illinois property taxes are the primary K-12 funding source; Capitol News Illinois noted he 'did not say specifically what cuts would offset lost tax revenue, instead suggesting that it reflects the need for a cultural shift.'",
+      "source": "https://capitolnewsillinois.com/news/conservative-policy-wonk-ted-dabrowski-gets-off-sidelines-with-run-for-governor/",
+      "confirmed": true
+    },
+    {
+      "type": "governance",
+      "label": "Proposed using emergency executive orders to bypass legislature on SAFE-T Act and TRUST Act",
+      "detail": "Dabrowski said he would issue emergency executive orders declaring 'an emergency' to revoke both the TRUST Act (sanctuary law) and SAFE-T Act (cash bail abolition). Legal experts and the Chicago Tribune noted this is 'legally dubious,' as emergency declarations have previously been limited to acute public health crises. The moves would almost certainly face immediate court challenges.",
+      "source": "https://www.chicagotribune.com/2026/03/08/illinois-2026-gop-primary-for-governor-features-four-candidates-and-one-familiar-face-but-big-donors-sit-out/",
+      "confirmed": true
+    },
+    {
+      "type": "policy",
+      "label": "Claimed Illinois child care spending may involve 'massive fraud' with no supporting evidence",
+      "detail": "On February 4, 2026, Dabrowski held a press conference in Chicago alleging that Illinois child care spending could be harboring fraud similar to Minnesota's welfare scandal. He acknowledged he had 'no specific evidence' of wrongdoing in Illinois, stating he was suggesting audits 'to see why child care spending has grown.' The claim was a political attack without factual basis.",
+      "source": "https://capitolnewsillinois.com/news/bailey-proposes-illinois-doge-as-republican-governors-race-focuses-on-spending/",
+      "confirmed": true
+    }
+  ],
+  "key_votes": [
+    {
+      "bill": "Wirepoints Policy Record: Illinois Pension Debt Analysis (ongoing 2017–2025)",
+      "vote": "led",
+      "summary": "As Wirepoints president, Dabrowski published Illinois-specific analyses of the state's pension crisis, arguing the $200B+ unfunded pension liability is the state's core fiscal problem. His Wirepoints reports were widely cited by Illinois Republican legislators and helped shape the pension conversation, even as reform attempts repeatedly failed on constitutional grounds.",
+      "source": "https://wirepoints.org/part-4-a-solution-for-illinois-state-retirement-crisis/"
+    },
+    {
+      "bill": "Climate and Equitable Jobs Act (CEJA) – 2021 (position)",
+      "vote": "opposed",
+      "summary": "Dabrowski has publicly and consistently opposed CEJA, the 2021 law establishing Illinois's path to 100% clean energy by 2045. He argues it has driven up utility rates and damaged businesses. He promises to repeal it as governor and return to a mix of fossil fuels, nuclear, and renewables.",
+      "source": "https://tedforillinois.com/teds-platform/"
+    },
+    {
+      "bill": "Illinois Property Tax Structure (2026 campaign position)",
+      "vote": "led",
+      "summary": "Dabrowski is the only 2026 GOP governor candidate with a specific property tax cap proposal: phase in a 1% cap on assessed value (from current ~1.83% effective rate, highest in U.S.). He cites Indiana as a model. The plan would require consolidating some of Illinois's nearly 900 school districts and cutting administrative overhead.",
+      "source": "https://capitolnewsillinois.com/news/conservative-policy-wonk-ted-dabrowski-gets-off-sidelines-with-run-for-governor/"
+    },
+    {
+      "bill": "Illinois income tax reduction — campaign proposal 2026",
+      "vote": "led",
+      "summary": "Dabrowski proposes cutting the Illinois individual income tax rate from 4.95% to 3%, the rate in effect from 1990 to 2010. The reduction would cost approximately $4–5B in annual state revenue. He has not specified offsetting cuts beyond calling for a 'cultural shift' in government spending.",
+      "source": "https://capitolnewsillinois.com/news/conservative-policy-wonk-ted-dabrowski-gets-off-sidelines-with-run-for-governor/"
+    },
+    {
+      "bill": "TRUST Act / SAFE-T Act repeal — emergency executive order proposal",
+      "vote": "led",
+      "summary": "Dabrowski proposes using gubernatorial emergency declarations to unilaterally revoke the TRUST Act (blocking local police cooperation with ICE) and the SAFE-T Act (abolishing cash bail), bypassing the Democratic-controlled legislature. Legal analysts describe the approach as constitutionally questionable. He went further than any other GOP candidate on this position.",
+      "source": "https://www.chicagotribune.com/2026/03/08/illinois-2026-gop-primary-for-governor-features-four-candidates-and-one-familiar-face-but-big-donors-sit-out/"
+    },
+    {
+      "bill": "New Government Worker Pension Reform — 401(k) conversion proposal",
+      "vote": "led",
+      "summary": "Dabrowski calls for requiring all new Illinois state and local government workers to enroll in 401(k)-style defined-contribution plans rather than pensions. He argues this stops the accumulation of new pension debt but does not address the existing $200B+ unfunded liability. Constitutional scholars note this would require a constitutional amendment for workers already promised pension benefits.",
+      "source": "https://tedforillinois.com/teds-platform/"
+    },
+    {
+      "bill": "Universal School Choice — campaign proposal 2026",
+      "vote": "led",
+      "summary": "Dabrowski proposes universal school vouchers or education savings accounts for all Illinois children regardless of income, similar to Indiana and Iowa. He also proposes requiring 3rd grade reading proficiency before promotion to 4th grade, citing that only 15% of Black and 20% of Hispanic students statewide read at grade level.",
+      "source": "https://tedforillinois.com/teds-platform/"
+    }
+  ],
+  "endorsements": [
+    "Richard Uihlein — Uline Inc. CEO/founder, $250,000 donor (previously gave $18M+ to Bailey in 2022)",
+    "James Perry — Madison Dearborn Partners co-founder, $250,000 donor",
+    "Jeanne Ives — former IL state representative (42nd District, 2013–2019); nearly defeated Gov. Rauner in 2018 primary",
+    "Rep. Travis Weaver (R-Peoria) — Illinois House of Representatives",
+    "Illinois Family Action — conservative Christian organization (endorsed Dabrowski over Bailey)",
+    "Dozens of Republican state lawmakers (cited in Capitol News Illinois)"
+  ],
+  "policy_positions": [
+    "Phase in 1% property tax cap on assessed home value, modeled on Indiana — funded through school district consolidation (900+ districts) and bureaucratic cuts",
+    "Cut Illinois individual income tax from 4.95% to 3% — no specific spending offsets identified",
+    "Repeal 2021 Climate and Equitable Jobs Act (CEJA); return to fossil fuels + nuclear + renewables balance",
+    "Require 401(k)-style retirement plans for all new government workers to halt new pension debt creation",
+    "Use emergency executive orders to nullify TRUST Act and SAFE-T Act",
+    "Universal school choice vouchers/education savings accounts for all IL families",
+    "End social promotion: require 3rd-grade reading proficiency before 4th-grade entry",
+    "Audit all state spending for waste, fraud, and abuse; cut Illinois's 280,000 state regulations",
+    "Repeal sanctuary state laws and 'illegal migrant welcoming programs'",
+    "Reduce Illinois's 3rd-highest corporate income tax and 7th-highest commercial property taxes",
+    "Opposes Trump tariffs — differentiates himself from other GOP candidates on trade",
+    "Supports physician-assisted death restrictions; opposes post-viability abortions"
+  ],
+  "career_history": [
+    {
+      "role": "International Banker",
+      "org": "Citibank (Mexico and Poland offices)",
+      "years": "~1988–2006 (approx. 16–18 years)",
+      "highlight": "Spent approximately 16 years in Citibank's international operations in Mexico and Poland before returning to the Chicago area."
+    },
+    {
+      "role": "Vice President of Policy and Spokesman",
+      "org": "Illinois Policy Institute",
+      "years": "2011–2017",
+      "highlight": "Helped develop and communicate conservative fiscal policy for one of Illinois's largest conservative think tanks. Focused on pension reform, spending, and government efficiency."
+    },
+    {
+      "role": "President",
+      "org": "Wirepoints, Inc. (501c3 nonprofit)",
+      "years": "2017–September 2025",
+      "highlight": "Built Wirepoints into Illinois's leading conservative fiscal policy research platform. Published hundreds of reports on pension debt, property taxes, population loss, and school performance. Stepped down September 2025 to comply with 501(c)(3) campaign rules."
+    },
+    {
+      "role": "Republican Candidate for Governor",
+      "org": "Illinois Republican Party",
+      "years": "2025–2026",
+      "highlight": "Leads all four GOP governor candidates in fundraising at ~$1.8M. Backed by Uihlein, Perry, Jeanne Ives, and dozens of Republican lawmakers. Positions himself as the 'suburban-winning' fiscal conservative alternative to Bailey."
+    }
+  ],
+  "trust_indicators": [
+    {
+      "label": "Fundraising lead",
+      "value": "~$1.8M raised through February 2026 — more than any other GOP governor candidate",
+      "type": "positive"
+    },
+    {
+      "label": "Establishment endorsements",
+      "value": "Endorsed by Jeanne Ives, Richard Uihlein (switched from Bailey), Illinois Family Action, and dozens of GOP legislators",
+      "type": "positive"
+    },
+    {
+      "label": "Zero elected experience",
+      "value": "Has never held any elected or appointed government position; first ballot appearance was this race",
+      "type": "negative"
+    },
+    {
+      "label": "Wirepoints 501(c)(3) conflict",
+      "value": "His former organization published candidate attack pieces during the primary — potential IRS 501(c)(3) violation, though no formal action has been filed",
+      "type": "negative"
+    },
+    {
+      "label": "Ballot error",
+      "value": "Champaign County misspelled his name as 'Tad' on primary ballots; Dabrowski sued the Champaign County Clerk to compel reprinting",
+      "type": "negative"
+    },
+    {
+      "label": "Policy specificity",
+      "value": "More detailed and sourced policy proposals than any other GOP candidate — but key proposals (income tax cut, property tax cap) lack specific revenue replacement mechanisms",
+      "type": "positive"
+    }
+  ],
+  "transparency_grade": null,
+  "policy_platform": [],
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "C",
+    "platform_completeness": "F",
+    "record_available": true,
+    "red_flags_count": 6,
+    "computed_at": "2026-03-18"
+  },
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

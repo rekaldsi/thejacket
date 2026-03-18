@@ -2,19 +2,38 @@
   "id": "richard-boykin",
   "name": "Richard Boykin",
   "party": "Democratic",
-  "office": "U.S. House (IL-07)",
-  "race_id": "il-07-us-house-d-2026",
-  "bio": "Richard Boykin is listed as a Democratic candidate in the 2026 IL-07 open-seat primary. He previously served on the Cook County Board of Commissioners. (Source: Shaw Local candidate list, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
-  "prior_office": "Former Cook County Commissioner",
-  "website": "",
+  "office": "U.S. House (IL-08)",
+  "race_id": "il-08-us-house-d-2026",
+  "bio": "Richard Boykin served as Cook County Board Commissioner for District 1 from 2014 to 2018. He previously worked as an aide to Congressman Danny K. Davis. He ran unsuccessfully for Cook County Board President in 2018. He has advocated on issues of violence prevention and community investment on the west side of Chicago.",
+  "prior_office": "Cook County Board Commissioner, District 1 (2014–2018)",
+  "website": null,
+  "photo_url": null,
+  "data_status": "partial",
   "jacket": {
     "total_raised": null,
-    "data_date": "2026-03-13",
-    "source": "https://www.fec.gov/data/elections/house/IL/07/",
-    "note": "FEC candidate totals pending ETL import.",
+    "data_date": "2026-03-16",
+    "source": "https://www.fec.gov/data/",
+    "note": "FEC data pending lookup.",
     "donors": []
   },
   "red_flags": [],
+  "endorsements": [],
   "key_votes": [],
-  "endorsements": []
+  "news_hits": [],
+  "score": null,
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "F",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-18"
+  },
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

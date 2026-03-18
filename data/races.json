@@ -15,7 +15,8 @@
     "jurisdiction": "Cook County",
     "description": "The Cook County Board President leads the county's executive agenda and oversees a multibillion-dollar county budget. This race affects county health systems, criminal justice administration, and property-tax-adjacent policy decisions.",
     "party": "Democratic",
-    "candidateCount": 2
+    "candidateCount": 1,
+    "note": "Preckwinkle running for re-election. No confirmed challenger found in public filings as of March 13, 2026."
   },
   {
     "id": "cook-county-assessor-d-2026",
@@ -40,7 +41,7 @@
     "slug": "il-04-us-house-open-primary",
     "title": "U.S. House IL-04 — Open Primary Field",
     "jurisdiction": "Illinois Congressional District 04",
-    "description": "IL-04 is an open seat after Rep. Chuy Garc\u00eda announced retirement. Voters choose among candidates filing across parties, with each party's nominee moving to the general election.",
+    "description": "IL-04 is an open seat after Rep. Chuy García announced retirement. Voters choose among candidates filing across parties, with each party's nominee moving to the general election.",
     "party": "Multi-party",
     "candidateCount": 3
   },
@@ -61,5 +62,455 @@
     "description": "IL-09 is open following Rep. Jan Schakowsky's retirement announcement. The district's Democratic primary is a marquee North Side and North Shore contest.",
     "party": "Democratic",
     "candidateCount": 3
+  },
+  {
+    "id": "cook-county-sheriff-d-2026",
+    "slug": "cook-county-sheriff-democratic-primary",
+    "title": "Cook County Sheriff — Democratic Primary",
+    "jurisdiction": "Cook County",
+    "description": "Cook County Sheriff oversees the second-largest single-site jail in the United States, with ~6,700 employees and a $700M+ annual budget. The Sheriff manages pretrial detention for all Cook County criminal cases. In 2026, incumbent Thomas Dart faces no Democratic primary challenger.",
+    "party": "Democratic",
+    "candidateCount": 1,
+    "uncontested": true,
+    "note": "Thomas Dart is running unopposed. 20-year incumbent."
+  },
+  {
+    "id": "judicial-19th-subcircuit-kane-vacancy",
+    "slug": "judicial-19th-subcircuit-kane-vacancy",
+    "title": "Circuit Court — 19th Subcircuit (Kane Vacancy)",
+    "jurisdiction": "Cook County Circuit Court — 19th Subcircuit",
+    "description": "The most alarming judicial race in 2026: one candidate (John Harkins) has zero legal experience and is backed by his brother-in-law Alderman Matt O’Shea and employer Sheriff Tom Dart. All bar associations rate him Not Recommended. Qualified candidate Dave Condron (25 years, City of Chicago Law Dept) is the clear alternative.",
+    "party": "Democratic",
+    "candidateCount": 3,
+    "note": "judicial"
+  },
+  {
+    "id": "judicial-1st-subcircuit-balanoff-vacancy",
+    "slug": "judicial-1st-subcircuit-balanoff-vacancy",
+    "title": "Circuit Court — 1st Subcircuit (Balanoff Vacancy)",
+    "jurisdiction": "Cook County Circuit Court — 1st Subcircuit",
+    "description": "Natalie L. Howse is running uncontested despite unanimous Not Recommended ratings from every bar association. She will become a Cook County judge because the machine left no room for opposition.",
+    "party": "Democratic",
+    "candidateCount": 1,
+    "uncontested": true,
+    "note": "judicial"
+  },
+  {
+    "id": "judicial-13th-subcircuit",
+    "slug": "judicial-13th-subcircuit",
+    "title": "Circuit Court — 13th Subcircuit",
+    "jurisdiction": "Cook County Circuit Court — 13th Subcircuit",
+    "description": "Brittany Michelle Pedersen runs uncontested with 3 DUI charges on her record. She moved from Kane County — where she had previously failed judicial bids with negative bar ratings — specifically to run here.",
+    "party": "Democratic",
+    "candidateCount": 1,
+    "uncontested": true,
+    "note": "judicial"
+  },
+  {
+    "id": "judicial-countywide-coghlan-vacancy",
+    "slug": "judicial-countywide-coghlan-vacancy",
+    "title": "Circuit Court — Countywide (Coghlan Vacancy)",
+    "jurisdiction": "Cook County Circuit Court — Countywide",
+    "description": "Appointed incumbent Michael Cabonargi faces ethics questions and reported campaign finance violations per Injustice Watch and the Sun-Times. Ashonta C. Rice is a clean, unanimously-qualified alternative.",
+    "party": "Democratic",
+    "candidateCount": 2,
+    "note": "judicial"
+  },
+  {
+    "id": "judicial-8th-subcircuit-mivka-vacancy",
+    "slug": "judicial-8th-subcircuit-mivka-vacancy",
+    "title": "Circuit Court — 8th Subcircuit (Mivka Vacancy)",
+    "jurisdiction": "Cook County Circuit Court — 8th Subcircuit",
+    "description": "Dan Balanoff — son and grandson of Cook County judges — received 9 NR/NQ ratings from bar associations. Kathleen Carole Morrison, while not universally praised, is the clearly more qualified option.",
+    "party": "Democratic",
+    "candidateCount": 2,
+    "note": "judicial"
+  },
+  {
+    "id": "judicial-17th-subcircuit-brooks-vacancy",
+    "slug": "judicial-17th-subcircuit-brooks-vacancy",
+    "title": "Circuit Court — 17th Subcircuit (Brooks Vacancy)",
+    "jurisdiction": "Cook County Circuit Court — 17th Subcircuit",
+    "description": "Both candidates received near-universal or universal Not Recommended ratings from bar associations. Voters in the 17th Subcircuit have no bar-endorsed option — a troubling situation the machine created.",
+    "party": "Democratic",
+    "candidateCount": 2,
+    "note": "judicial"
+  },
+  {
+    "id": "judicial-16th-subcircuit-mendoza-vacancy",
+    "slug": "judicial-16th-subcircuit-mendoza-vacancy",
+    "title": "Circuit Court — 16th Subcircuit (Mendoza Vacancy)",
+    "jurisdiction": "Cook County Circuit Court — 16th Subcircuit",
+    "description": "Jessica Karina Velez runs uncontested despite 6 NR/NQ ratings from bar associations. Another example of an uncontested seat allowing an unqualified candidate to obtain a judgeship.",
+    "party": "Democratic",
+    "candidateCount": 1,
+    "uncontested": true,
+    "note": "judicial"
+  },
+  {
+    "id": "judicial-countywide-karkula-vacancy",
+    "slug": "judicial-countywide-karkula-vacancy",
+    "title": "Circuit Court — Countywide (Karkula Vacancy)",
+    "jurisdiction": "Cook County Circuit Court — Countywide",
+    "description": "D. Anthony Thedford is unanimously Qualified by bar associations but runs uncontested. Injustice Watch reported a history of failing to pay income taxes — a notable concern for someone who will hold others accountable under the law.",
+    "party": "Democratic",
+    "candidateCount": 1,
+    "uncontested": true,
+    "note": "judicial"
+  },
+  {
+    "id": "judicial-countywide-cobbs-vacancy",
+    "slug": "judicial-countywide-cobbs-vacancy",
+    "title": "Circuit Court — Countywide (Cobbs Vacancy)",
+    "jurisdiction": "Cook County Circuit Court — Countywide",
+    "description": "Luz Maria Toledo (ASA since 2007, unanimously Qualified) vs. appointed incumbent Linda Sackey (clerked for IL Supreme Court Chief Justice Theis, mixed Alliance ratings). Both are qualified candidates; this is a genuine merit-based choice.",
+    "party": "Democratic",
+    "candidateCount": 2,
+    "note": "judicial"
+  },
+  {
+    "id": "judicial-1st-subcircuit-walker-vacancy",
+    "slug": "judicial-1st-subcircuit-walker-vacancy",
+    "title": "Circuit Court — 1st Subcircuit (Walker Vacancy)",
+    "jurisdiction": "Cook County Circuit Court — 1st Subcircuit",
+    "description": "Three-way race. Tiffany N. Brooks received universal NR ratings from all bar associations. Incumbent Judge Ginger Odom and public defender Ashley Greer Shambley are both positively rated.",
+    "party": "Democratic",
+    "candidateCount": 3,
+    "note": "judicial"
+  },
+  {
+    "id": "judicial-11th-subcircuit",
+    "slug": "judicial-11th-subcircuit",
+    "title": "Circuit Court — 11th Subcircuit",
+    "jurisdiction": "Cook County Circuit Court — 11th Subcircuit",
+    "description": "Jarrett Knox (entire career in public interest law) vs. John Carrozza (private practice, tied composite Alliance score). Both positively rated — this race comes down to values and background.",
+    "party": "Democratic",
+    "candidateCount": 2,
+    "note": "judicial"
+  },
+  {
+    "id": "judicial-countywide-burke-vacancy",
+    "slug": "judicial-countywide-burke-vacancy",
+    "title": "Circuit Court — Countywide (Burke Vacancy)",
+    "jurisdiction": "Cook County Circuit Court — Countywide",
+    "description": "Steven Q. McKenzie (City of Chicago Law Dept since 2006) runs uncontested with mostly positive bar ratings and a CBA Recommended. Minor note: one NR from the PRBBA.",
+    "party": "Democratic",
+    "candidateCount": 1,
+    "uncontested": true,
+    "note": "judicial"
+  },
+  {
+    "id": "judicial-countywide-hooks-vacancy",
+    "slug": "judicial-countywide-hooks-vacancy",
+    "title": "Circuit Court — Countywide (Hooks Vacancy)",
+    "jurisdiction": "Cook County Circuit Court — Countywide",
+    "description": "Ava George Stewart runs uncontested with some of the strongest bar ratings in the 2026 cycle — unanimous Qualified plus two Highly Recommended from Alliance associations.",
+    "party": "Democratic",
+    "candidateCount": 1,
+    "uncontested": true,
+    "note": "judicial"
+  },
+  {
+    "id": "judicial-appellate-1st-district-hoffman-vacancy",
+    "slug": "judicial-appellate-1st-district-hoffman-vacancy",
+    "title": "Appellate Court — 1st District (Hoffman Vacancy)",
+    "jurisdiction": "Illinois Appellate Court — 1st District",
+    "description": "Judge Judith C. Rice runs uncontested for appellate court elevation. Incumbent circuit judge since 2014, presiding the Domestic Violence Division since 2021. Unanimously positive from all 13 Alliance bar associations — one of the strongest records in the cycle.",
+    "party": "Democratic",
+    "candidateCount": 1,
+    "uncontested": true,
+    "note": "judicial"
+  },
+  {
+    "id": "mwrd-6yr-2026",
+    "title": "MWRD Commissioner — 6-Year Term",
+    "office": "Metropolitan Water Reclamation District",
+    "level": "county",
+    "party": "Democratic",
+    "description": "Top 3 of 4 candidates advance. The MWRD controls sewage and stormwater infrastructure for 5 million people across greater Chicago with a $2B+ annual budget.",
+    "candidates": [
+      "precious-brady-davis",
+      "eira-corral-sepulveda",
+      "beth-mcelroy-kirkwood",
+      "sarah-bury"
+    ],
+    "slug": "mwrd-commissioner-6-year-term",
+    "jurisdiction": "Cook County",
+    "candidateCount": 4
+  },
+  {
+    "id": "mwrd-2yr-2026",
+    "title": "MWRD Commissioner — 2-Year Unexpired Term",
+    "office": "Metropolitan Water Reclamation District",
+    "level": "county",
+    "party": "Democratic",
+    "description": "Uncontested race for a 2-year unexpired term seat.",
+    "candidates": [
+      "cameron-cam-davis"
+    ],
+    "slug": "mwrd-commissioner-2-year-unexpired-term",
+    "jurisdiction": "Cook County",
+    "candidateCount": 1
+  },
+  {
+    "id": "cook-county-commissioner-dist-2",
+    "title": "Cook County Commissioner — District 2",
+    "office": "Cook County Board of Commissioners",
+    "level": "county",
+    "party": "Democratic",
+    "description": "Contested Democratic primary for District 2 seat.",
+    "candidates": [
+      "michael-scott-jr",
+      "andre-smith-dist2"
+    ],
+    "slug": "cook-county-commissioner-district-2",
+    "jurisdiction": "Cook County — District 2",
+    "candidateCount": 2
+  },
+  {
+    "id": "cook-county-commissioner-dist-5",
+    "title": "Cook County Commissioner — District 5",
+    "office": "Cook County Board of Commissioners",
+    "level": "county",
+    "party": "Democratic",
+    "description": "Contested Democratic primary for District 5 seat.",
+    "candidates": [
+      "kisha-mccaskill",
+      "kiana-belcher",
+      "richard-nolan-dist5"
+    ],
+    "slug": "cook-county-commissioner-district-5",
+    "jurisdiction": "Cook County — District 5",
+    "candidateCount": 3
+  },
+  {
+    "id": "cook-county-commissioner-dist-6",
+    "title": "Cook County Commissioner — District 6",
+    "office": "Cook County Board of Commissioners",
+    "level": "county",
+    "party": "Democratic",
+    "description": "Open seat — 5-way Democratic primary for District 6.",
+    "candidates": [
+      "antoine-bass",
+      "veronica-bolling-franklin",
+      "sylvester-fulcher",
+      "patricia-joan-murphy",
+      "wesam-shahed"
+    ],
+    "slug": "cook-county-commissioner-district-6",
+    "jurisdiction": "Cook County — District 6",
+    "candidateCount": 5
+  },
+  {
+    "id": "cook-county-commissioner-dist-8",
+    "title": "Cook County Commissioner — District 8",
+    "office": "Cook County Board of Commissioners",
+    "level": "county",
+    "party": "Democratic",
+    "description": "Contested Democratic primary for District 8 seat.",
+    "candidates": [
+      "jessica-vasquez-dist8",
+      "nicholas-cade"
+    ],
+    "slug": "cook-county-commissioner-district-8",
+    "jurisdiction": "Cook County — District 8",
+    "candidateCount": 2
+  },
+  {
+    "id": "cook-county-commissioner-dist-10",
+    "title": "Cook County Commissioner — District 10",
+    "office": "Cook County Board of Commissioners",
+    "level": "county",
+    "party": "Democratic",
+    "description": "Contested Democratic primary for District 10 seat.",
+    "candidates": [
+      "bridget-gainer",
+      "drake-warren"
+    ],
+    "slug": "cook-county-commissioner-district-10",
+    "jurisdiction": "Cook County — District 10",
+    "candidateCount": 2
+  },
+  {
+    "id": "cook-county-commissioner-dist-12",
+    "title": "Cook County Commissioner — District 12",
+    "office": "Cook County Board of Commissioners",
+    "level": "county",
+    "party": "Democratic",
+    "description": "Open seat — 5-way Democratic primary for District 12.",
+    "candidates": [
+      "elizabeth-granato",
+      "cat-sharp",
+      "isaiah-white-dist12",
+      "che-che-wilson",
+      "alice-hu"
+    ],
+    "slug": "cook-county-commissioner-district-12",
+    "jurisdiction": "Cook County — District 12",
+    "candidateCount": 5
+  },
+  {
+    "id": "cook-county-commissioner-dist-15",
+    "title": "Cook County Commissioner — District 15",
+    "office": "Cook County Board of Commissioners",
+    "level": "county",
+    "party": "Democratic",
+    "description": "Ted Mason (D) runs uncontested in the Democratic primary. The contested race is the Republican primary: Gabriella Hoxie vs. Daniel Lee.",
+    "candidates": [
+      "ted-mason-dist15"
+    ],
+    "slug": "cook-county-commissioner-district-15",
+    "jurisdiction": "Cook County — District 15",
+    "candidateCount": 3,
+    "note": "uncontested-dem"
+  },
+  {
+    "id": "il-governor-d-2026",
+    "slug": "il-governor-democratic-primary",
+    "title": "Illinois Governor — Democratic Primary",
+    "jurisdiction": "State of Illinois",
+    "description": "Incumbent J.B. Pritzker runs unopposed in the Democratic primary, seeking a historic third consecutive term. If he wins in November, he will be the first Democratic governor in Illinois history to do so. His opponent in the general will be decided by the Republican primary. All major forecasters rate the general Solid/Safe Democratic.",
+    "party": "Democratic",
+    "candidateCount": 1,
+    "uncontested": true
+  },
+  {
+    "id": "il-governor-r-2026",
+    "slug": "il-governor-republican-primary",
+    "title": "Illinois Governor — Republican Primary",
+    "jurisdiction": "State of Illinois",
+    "description": "Four Republicans compete to challenge incumbent Governor J.B. Pritzker in November. Darren Bailey — the 2022 Republican nominee who lost by 11 points — leads in name recognition. He faces businessman Rick Heidner (Illinois Gaming Investors founder), fiscal policy wonk Ted Dabrowski (Wirepoints president), and DuPage County Sheriff James Mendrick. The race centers on property taxes, the SAFE-T Act, spending, and who can make the strongest case against Pritzker. All major forecasters still rate the general as Solid Democratic.",
+    "party": "Republican",
+    "candidateCount": 4
+  },
+  {
+    "id": "il-attorney-general-d-2026",
+    "slug": "il-attorney-general-democratic-primary",
+    "title": "Illinois Attorney General — Democratic Primary",
+    "jurisdiction": "State of Illinois",
+    "description": "Incumbent Kwame Raoul runs unopposed in the Democratic primary for a third term. Raoul has led multistate litigation against the Trump administration on immigration, environment, and consumer protections. He will face Republican Robert Fioretti (also unopposed) in the November general.",
+    "party": "Democratic",
+    "candidateCount": 1,
+    "uncontested": true
+  },
+  {
+    "id": "il-treasurer-d-2026",
+    "slug": "il-treasurer-democratic-primary",
+    "title": "Illinois Treasurer — Democratic Primary",
+    "jurisdiction": "State of Illinois",
+    "description": "Incumbent Michael Frerichs runs unopposed in the Democratic primary for a fourth term. No Republican filed for the general election, making Frerichs effectively guaranteed re-election. Best known for the I-Cash unclaimed property program, which has returned over $2 billion to Illinois residents.",
+    "party": "Democratic",
+    "candidateCount": 1,
+    "uncontested": true
+  },
+  {
+    "id": "il-comptroller-d-2026",
+    "jurisdiction": "State of Illinois",
+    "party": "Democratic",
+    "slug": "il-comptroller-democratic-primary",
+    "title": "Illinois Comptroller — Democratic Primary",
+    "description": "Four Democratic women compete to replace retiring Comptroller Susana Mendoza. The Comptroller pays Illinois's bills and is the last line of financial oversight — especially critical as Trump-era federal cuts threaten state budgets. Frontrunner Margaret Croke (Pritzker-endorsed) faces progressive challenger Karina Villa, veteran legislator Stephanie Kifowit, and Mendoza-endorsed Lake County Treasurer Holly Kim.",
+    "candidateCount": 4
+  },
+  {
+    "id": "cook-county-commissioner-dist-9",
+    "slug": "cook-county-commissioner-district-9",
+    "title": "Cook County Commissioner — District 9",
+    "jurisdiction": "Cook County",
+    "description": "District 9 has no contested Democratic primary — Maggie Trevor (D) runs uncontested. Republican Ammie Kessem also runs uncontested. Trevor vs. Kessem meet in the November general.",
+    "party": "Democratic",
+    "candidateCount": 2,
+    "note": "uncontested-dem"
+  },
+  {
+    "id": "cook-county-commissioner-dist-16",
+    "slug": "cook-county-commissioner-district-16",
+    "title": "Cook County Commissioner — District 16",
+    "jurisdiction": "Cook County",
+    "description": "Democratic primary for Cook County Board of Commissioners District 16. Incumbent Frank Aguilar faces challengers Leticia 'Letty' Garcia and Miranda Hernandez.",
+    "party": "Democratic",
+    "candidateCount": 3
+  },
+  {
+    "id": "cook-county-commissioner-dist-17",
+    "slug": "cook-county-commissioner-district-17",
+    "title": "Cook County Commissioner — District 17",
+    "jurisdiction": "Cook County",
+    "description": "District 17 open seat. Both primaries are uncontested: Elyse Hoffenberg (D) and Elizabeth Gorman (R). They face each other in November.",
+    "party": "Democratic",
+    "candidateCount": 2,
+    "note": "uncontested-dem"
+  },
+  {
+    "id": "us-senate-il-r-2026",
+    "slug": "us-senate-il-republican-primary",
+    "title": "U.S. Senate — Illinois Republican Primary",
+    "jurisdiction": "State of Illinois",
+    "description": "Six Republicans compete for the nomination to challenge the Democratic nominee for Illinois's open U.S. Senate seat. Don Tracy, former Illinois Republican Party chair, is the frontrunner.",
+    "party": "Republican",
+    "candidateCount": 6
+  },
+  {
+    "id": "il-comptroller-r-2026",
+    "slug": "il-comptroller-republican-primary",
+    "title": "Illinois Comptroller — Republican Primary",
+    "jurisdiction": "State of Illinois",
+    "description": "Bob Fioretti, former Chicago 2nd Ward alderman turned Republican, runs uncontested in the Republican Comptroller primary.",
+    "party": "Republican",
+    "candidateCount": 1
+  },
+  {
+    "id": "il-attorney-general-r-2026",
+    "slug": "il-attorney-general-republican-primary",
+    "title": "Illinois Attorney General — Republican Primary",
+    "jurisdiction": "State of Illinois",
+    "description": "Andy Williams Jr. runs uncontested in the Republican primary for Illinois Attorney General.",
+    "party": "Republican",
+    "candidateCount": 1
+  },
+  {
+    "id": "il-treasurer-r-2026",
+    "slug": "il-treasurer-republican-primary",
+    "title": "Illinois Treasurer — Republican Primary",
+    "jurisdiction": "State of Illinois",
+    "description": "Max Rice and Max Solomon compete in the Republican primary for Illinois Treasurer.",
+    "party": "Republican",
+    "candidateCount": 2
+  },
+  {
+    "id": "cook-county-assessor-libertarian-2026",
+    "slug": "cook-county-assessor-libertarian-primary",
+    "title": "Cook County Assessor — Libertarian Primary",
+    "jurisdiction": "Cook County",
+    "description": "Nico Tsatsoulis runs as the sole Libertarian candidate for Cook County Assessor.",
+    "party": "Libertarian",
+    "candidateCount": 1
+  },
+  {
+    "id": "il-08-us-house-d-2026",
+    "slug": "il-08-us-house-democratic-primary",
+    "title": "U.S. House IL-08 — Democratic Primary",
+    "jurisdiction": "Illinois Congressional District 8",
+    "description": "An open-seat race in Illinois' 8th Congressional District after incumbent Raja Krishnamoorthi vacated the seat to run for U.S. Senate. The district covers the western suburbs including Schaumburg, Elgin, and Des Plaines. Eight Democrats are competing in one of the most contested House primaries in the state.",
+    "party": "Democratic",
+    "candidateCount": 8
+  },
+  {
+    "id": "il-secretary-of-state-d-2026",
+    "slug": "il-secretary-of-state-democratic-primary",
+    "title": "Illinois Secretary of State — Democratic Primary",
+    "jurisdiction": "State of Illinois",
+    "description": "Incumbent Secretary of State Alexi Giannoulias is running unopposed in the Democratic primary, advancing to the November general election.",
+    "party": "Democratic",
+    "candidateCount": 1
+  },
+  {
+    "id": "il-secretary-of-state-r-2026",
+    "slug": "il-secretary-of-state-republican-primary",
+    "title": "Illinois Secretary of State — Republican Primary",
+    "jurisdiction": "State of Illinois",
+    "description": "Two Republicans competing to face incumbent Democrat Alexi Giannoulias in the November general election.",
+    "party": "Republican",
+    "candidateCount": 2
   }
 ]

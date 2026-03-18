@@ -1,0 +1,80 @@
+{
+  "id": "alexi-giannoulias",
+  "name": "Alexi Giannoulias",
+  "party": "Democratic",
+  "office": "Illinois Secretary of State",
+  "race_id": "il-secretary-of-state-d-2026",
+  "bio": "Alexi Giannoulias has served as Illinois Secretary of State since January 2023, elected in November 2022. He previously served as Illinois State Treasurer from 2007 to 2011. In 2010, he ran for the U.S. Senate seat vacated by Barack Obama, losing to Republican Mark Kirk by 2 percentage points. His family owned Broadway Bank in Chicago, which failed in April 2010 during the financial crisis — an issue that dogged his 2010 Senate campaign. As Secretary of State, he has focused on driver's license access, voting rights, and digitizing state services.",
+  "prior_office": "Illinois Secretary of State (2023–present); Illinois State Treasurer (2007–2011)",
+  "website": "https://www.ilsos.gov",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Alexi_Giannoulias_official_photo.jpg/440px-Alexi_Giannoulias_official_photo.jpg",
+  "data_status": "partial",
+  "jacket": {
+    "total_raised": null,
+    "data_date": "2026-03-16",
+    "source": "https://www.fec.gov/data/",
+    "note": "Running uncontested in Democratic primary. Finance data for Secretary of State race pending ILSBE lookup.",
+    "donors": []
+  },
+  "red_flags": [
+    {
+      "title": "Broadway Bank failure — family bank collapsed during 2010 financial crisis",
+      "description": "Broadway Bank, owned by the Giannoulias family, was seized by federal regulators and failed in April 2010. The bank had made loans to convicted criminals including Tony Rezko and Michael 'Jaws' Giorango, and had expanded its risky loan portfolio significantly under Alexi's tenure as senior loan officer (2002-2006) before he became State Treasurer. The failure became a major issue in his 2010 U.S. Senate race.",
+      "source": "https://www.chicagotribune.com/2010/04/23/fdic-seizes-broadway-bank/",
+      "confirmed": true,
+      "severity": "moderate"
+    }
+  ],
+  "endorsements": [],
+  "key_votes": [],
+  "news_hits": [
+    {
+      "title": "2026 Illinois Primary Live Results",
+      "url": "https://www.270towin.com/2026-election-results-live/state/illinois/primary/",
+      "source": "270toWin",
+      "date": "2026-03-17",
+      "summary": "270toWin election day results tracker confirms Alexi Giannoulias is unopposed in the Democratic primary for his second term as Illinois Secretary of State.",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Illinois Secretary Of State Race: Primary Election 2026",
+      "url": "https://patch.com/illinois/joliet/illinois-secretary-state-race-primary-election-2026",
+      "source": "Patch",
+      "date": "2026-03-16",
+      "summary": "Two Republican candidates competing in the March 17 primary for the chance to face Democrat incumbent Alexi Giannoulias in the November general election.",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Your guide to the March 2026 primary in DuPage County",
+      "url": "https://www.shawlocal.com/my-suburban-life/2026/02/03/your-guide-to-the-march-2026-primary-in-dupage-county/",
+      "source": "Shaw Local",
+      "date": "2026-03-16",
+      "summary": "Alexi Giannoulias, incumbent Democrat, has filed to run for reelection as Illinois Secretary of State. Walter Adamczyk and Diane M. Harris filed as Republican challengers.",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Giannoulias runs unopposed in Democratic Secretary of State primary",
+      "url": "https://www.chicagotribune.com/2026/03/17/2026-primary-day-election-results-secretary-of-state/",
+      "source": "Chicago Tribune",
+      "date": "2026-03-17",
+      "summary": "Incumbent Democratic Secretary of State Alexi Giannoulias is running unopposed in his primary for reelection, automatically advancing to the November general election. For the GOP nomination for secretary of state, Joliet resident Diane M. Harris is competing against Chicagoan Walter Adamczyk. The winner will face Giannoulias in November; Giannoulias is a heavy favorite in the blue state.",
+      "sentiment": "positive"
+    }
+  ],
+  "score": null,
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "F",
+    "record_available": false,
+    "red_flags_count": 1,
+    "computed_at": "2026-03-18"
+  },
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

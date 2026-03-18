@@ -1,0 +1,36 @@
+{
+  "id": "jessica-karina-velez",
+  "name": "Jessica Karina Velez",
+  "party": "Democratic",
+  "office": "circuit",
+  "subcircuit": "16th",
+  "race_id": "judicial-16th-subcircuit-mendoza-vacancy",
+  "vacancy_of": "Judge Mendoza",
+  "bio": "Jessica Karina Velez is running uncontested for a 16th Subcircuit seat. Six Alliance bar associations rated her as Not Recommended or Not Qualified. The CBA also rated her Not Recommended. Like Natalie Howse in the 1st Subcircuit, Velez will become a judge despite widespread rejection by the legal community — because no opponent filed to run against her.",
+  "background": "Attorney — specific practice area not publicly detailed.",
+  "years_experience": 9,
+  "bar_ratings": {
+    "alliance_rating": "NR",
+    "alliance_detail": "6 NR/NQ from Alliance bar associations. Near-unanimous rejection.",
+    "cba_rating": "NR",
+    "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx"
+  },
+  "red_flags": [
+    {
+      "type": "ethics",
+      "label": "6 Not Recommended/Not Qualified ratings from bar associations — wins uncontested",
+      "detail": "Six Alliance bar associations rated Jessica Karina Velez as Not Recommended or Not Qualified. The Chicago Bar Association also rated her Not Recommended. She will become a Cook County circuit court judge regardless because no one filed to oppose her. This is another example of the judicial patronage machine producing uncontested seats for unqualified candidates.",
+      "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx",
+      "confirmed": true
+    }
+  ],
+  "uncontested": true,
+  "photo_url": null,
+  "primary_result": {
+    "status": "pending",
+    "yes_pct": null,
+    "no_pct": null,
+    "votes": null,
+    "updated": null
+  }
+}

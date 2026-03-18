@@ -1,0 +1,39 @@
+{
+  "id": "walter-adamczyk",
+  "name": "Walter Adamczyk",
+  "party": "Republican",
+  "office": "Illinois Secretary of State",
+  "race_id": "il-secretary-of-state-r-2026",
+  "bio": "Walter Adamczyk is a Republican candidate for Illinois Secretary of State, running in the March 17, 2026 primary. He is from the Joliet area. Additional biographical information is being verified.",
+  "prior_office": null,
+  "website": null,
+  "photo_url": null,
+  "data_status": "stub",
+  "jacket": {
+    "total_raised": null,
+    "data_date": "2026-03-16",
+    "source": "https://www.fec.gov/data/",
+    "note": "Finance data pending.",
+    "donors": []
+  },
+  "red_flags": [],
+  "endorsements": [],
+  "key_votes": [],
+  "news_hits": [],
+  "score": null,
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "F",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-18"
+  },
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "drake-warren",
+  "name": "Drake Warren",
+  "party": "Democratic",
+  "office": "Cook County Commissioner District 10",
+  "race_id": "cook-county-commissioner-dist-10",
+  "incumbent": false,
+  "data_status": "enriched",
+  "bio": "Drake Warren is an industrial engineer challenging incumbent Commissioner Bridget Gainer in the Cook County Board 10th District Democratic primary on March 17, 2026. Warren is openly pansexual and, if elected, would be the first openly LGBTQ+ Commissioner to represent District 10. He is a renter and transit user in Chicago. He moved to Chicago after college and quickly decided it would be his permanent home. Raised by two gay mothers who left rural Virginia seeking a place to build a family safely, Warren cites his upbringing as foundational to his belief that public policy should expand who feels secure in their community. He worked for a decade as an industrial engineer at West Monroe Partners, a management consulting firm, before leaving to focus on his campaign. His decade of community organizing spans healthcare access, environmental restoration, and housing advocacy. He is running on a platform of ethics reform (barring officials from votes tied to their employers), full-time commitment to the commissioner role, strengthening Cook County Health, housing production, and immigrant protections. Warren has self-funded over $100,000 of his campaign and reportedly out-raised Gainer in recent quarters, though Gainer entered the cycle with a larger existing war chest. He points to Gainer's dual employment at Aon and her 23% meeting-absence rate as disqualifying for full-time public service.",
+  "prior_office": "No prior elected office. Community organizer and industrial engineer.",
+  "website": "https://drakefor10.com/",
+  "jacket": {
+    "committee_name": "Not confirmed (campaign website is drakefor10.com)",
+    "total_raised": null,
+    "self_funded": 100000,
+    "self_funded_note": "Warren donated more than $100,000 to his own campaign fund per Chicago Tribune reporting (March 14, 2026). Exact ILSBE total not retrieved.",
+    "donors": [
+      {
+        "name": "Drake Warren (self)",
+        "amount": 100000,
+        "category": "self_funded",
+        "note": "Self-funded more than $100,000 to his own campaign; this is a confirmed minimum per Chicago Tribune reporting",
+        "source": "https://www.chicagotribune.com/2026/03/14/cook-county-board-seats-in-play-new-faces-guaranteed-among-17-commissioners/",
+        "confirmed": true
+      }
+    ],
+    "source": "https://www.chicagotribune.com/2026/03/14/cook-county-board-seats-in-play-new-faces-guaranteed-among-17-commissioners/; https://drakefor10.com/",
+    "note": "Full ILSBE committee data not retrieved. Campaign website at drakefor10.com. The Daily Line reported Warren out-fundraised Gainer in recent quarters (paywalled).",
+    "data_date": "2026-03-14"
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "policy_platform": [
+    {
+      "topic": "Ethics Reform / Outside Employment Ban",
+      "position": "Supports barring county officials from participating in votes tied to their employers. Argues the commissioner position should be treated as a full-time job. Would not hold outside employment if elected.",
+      "source": "https://windycitytimes.com/2026/02/24/pansexual-organizer-drake-warren-challenges-gainer-for-cook-countys-10th-district-seat/"
+    },
+    {
+      "topic": "Healthcare Access / Cook County Health",
+      "position": "Wants to strengthen the Cook County health system in response to safety-net hospital closures (including Weiss Memorial Hospital in the district) and loss of Medicaid coverage. Supports expanding publicly-run health care plans and improving reimbursement timelines to providers. Would treat gender-affirming care and abortion as core health care services.",
+      "source": "https://windycitytimes.com/2026/02/24/pansexual-organizer-drake-warren-challenges-gainer-for-cook-countys-10th-district-seat/; https://drakefor10.com/"
+    },
+    {
+      "topic": "Housing / Urbanist Policies",
+      "position": "Supports expanding housing supply through urbanist policies aimed at lowering costs. Advocates for renters and transit users as underrepresented constituencies.",
+      "source": "https://drakefor10.com/; https://windycitytimes.com/2026/02/24/pansexual-organizer-drake-warren-challenges-gainer-for-cook-countys-10th-district-seat/"
+    },
+    {
+      "topic": "Immigrant Protections",
+      "position": "Supports ending county contracts that could share data with federal immigration authorities; supports expanding remote services so residents can access care or comply with court requirements without risking detention.",
+      "source": "https://windycitytimes.com/2026/02/24/pansexual-organizer-drake-warren-challenges-gainer-for-cook-countys-10th-district-seat/"
+    },
+    {
+      "topic": "Inspector General / Oversight",
+      "position": "Supports a budget floor for the county's inspector general to strengthen oversight capacity.",
+      "source": "https://www.chicagotribune.com/2026/03/14/cook-county-board-seats-in-play-new-faces-guaranteed-among-17-commissioners/"
+    },
+    {
+      "topic": "Unit of Government Consolidation",
+      "position": "Supports reform efforts to cut down and consolidate units of local government in Cook County to reduce redundancy and cost.",
+      "source": "https://www.chicagotribune.com/2026/03/14/cook-county-board-seats-in-play-new-faces-guaranteed-among-17-commissioners/"
+    },
+    {
+      "topic": "LGBTQ+ Representation and Health",
+      "position": "If elected, would be first openly LGBTQ+ commissioner representing District 10. Notes 10th District includes some of Chicago's most visibly queer neighborhoods. Specifically highlights HIV care coordination and gender-affirming care as areas needing county attention as federal funding uncertainty grows.",
+      "source": "https://windycitytimes.com/2026/02/24/pansexual-organizer-drake-warren-challenges-gainer-for-cook-countys-10th-district-seat/"
+    }
+  ],
+  "career_history": [
+    {
+      "role": "Industrial Engineer / Consultant",
+      "org": "West Monroe Partners (management consulting firm)",
+      "years": "approximately 2016–2025",
+      "highlight": "Worked as industrial engineer consultant at West Monroe. Left position to run full-time for commissioner. Cited as central qualification: 'I depend on the systems that a lot of underrepresented renters and transit users are relying on.'"
+    },
+    {
+      "role": "Community Organizer",
+      "org": "Various (healthcare access, environmental restoration, housing advocacy)",
+      "years": "approx. 2015–2025 (concurrent with engineering career)",
+      "highlight": "Approximately 10 years of organizing experience. Attended Equality Illinois Gala; engaged with LGBTQ+ civic organizations. No specific organizations named in verifiable sources."
+    }
+  ],
+  "endorsements": [],
+  "social_pulse": {
+    "summary": "Warren has gained notable press coverage for his LGBTQ+ identity angle (Windy City Times profile, Feb. 2026) and his full-time commitment argument against Gainer's dual employment. His self-funding of $100K+ signals personal commitment. Coverage has been favorable in progressive and LGBTQ+ media. Chicago Tribune notes he out-raised Gainer in recent quarters.",
+    "sentiment": "positive (challenger narrative)",
+    "hashtags": [
+      "#DrakeWarren",
+      "#DrakeFor10",
+      "#CookCountyDistrict10",
+      "#LGBTQleadership"
+    ],
+    "last_updated": "2026-03-14"
+  },
+  "trust_indicators": [
+    {
+      "label": "Self-funded $100,000+ — skin in the game",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "No prior elected office — no voting record available",
+      "value": "Challenger — no governmental record to assess",
+      "type": "neutral"
+    },
+    {
+      "label": "Campaign website with published platform",
+      "value": "drakefor10.com — platform positions verified",
+      "type": "positive"
+    },
+    {
+      "label": "No red flags found in public record",
+      "value": true,
+      "type": "positive"
+    }
+  ],
+  "photo_url": null,
+  "sources": [
+    "https://drakefor10.com/",
+    "https://windycitytimes.com/2026/02/24/pansexual-organizer-drake-warren-challenges-gainer-for-cook-countys-10th-district-seat/",
+    "https://www.chicagotribune.com/2026/03/14/cook-county-board-seats-in-play-new-faces-guaranteed-among-17-commissioners/",
+    "https://www.thedailyline.com/cook-county-board-commissioners-fundraising-campaign-2026-election-district-10-bridget-gainer-drake-warren",
+    "https://ballotpedia.org/Drake_Warren"
+  ],
+  "transparency_score": {
+    "grade": "C",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "A",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-18"
+  },
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

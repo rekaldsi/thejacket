@@ -1,0 +1,294 @@
+{
+  "id": "karina-villa",
+  "name": "Karina Villa",
+  "party": "Democratic",
+  "office": "Illinois Comptroller",
+  "race_id": "il-comptroller-d-2026",
+  "bio": "Karina Villa (born September 20, 1978) is a state senator and progressive Democratic candidate for Illinois Comptroller in the March 17, 2026 primary. Born and raised in West Chicago in an immigrant family, she attended Aurora University (B.A. and MSW). She began her career as a school social worker for West Chicago School District 33, then was elected to the District 33 Board of Education. She was first elected to the Illinois House of Representatives (District 49) in 2018, defeating DuPage County Board member Tonia Khouri. In the November 2020 special election, she won the IL Senate 25th District seat, defeating incumbent Republican Jim Oberweis — becoming the first Latina to represent the district. She was re-elected to the Senate in 2022 and 2024. She serves as Chair of the Senate Progressive Caucus and has passed dozens of bills on health, education, labor, and equity. She entered the 2026 Comptroller race in August 2025, launching at Little Village with support from U.S. Reps. Delia Ramirez and Chuy García. She has been endorsed by Bernie Sanders (March 9, 2026), Chicago Teachers Union, SEIU, Senate President Don Harmon, and U.S. Rep. Chuy García. Entering 2026, she had ~$300,000 in her campaign fund per ISBE.",
+  "prior_office": "Illinois State Senator, 25th District (2021–present); Chair, Illinois Senate Progressive Caucus. Illinois State Representative, 49th District (2019–2021). West Chicago Elementary School District 33 Board of Education (prior). School social worker, West Chicago School District 33.",
+  "website": "https://karinavilla.com",
+  "photo_url": null,
+  "jacket": {
+    "total_raised": null,
+    "cash_on_hand_start_2026": 300000,
+    "pac_support_total": 0,
+    "data_date": "2026-03-14",
+    "source": "https://www.chicagotribune.com/2026/03/09/bernie-sanders-karina-villa-illinois-comptroller/",
+    "note": "Entering 2026, ~$300,000 in campaign fund per ISBE (Illinois State Board of Elections). Also received tens of thousands from union PACs including SEIU and Illinois Federation of Teachers. Over $50,000 from U.S. Rep. Delia Ramirez. Does not accept corporate PAC or Republican donor money. Running as #2 in fundraising behind Margaret Croke (~$830K). ILSBE committee identity not confirmed in web_fetch; may operate under Senate committee.",
+    "donors": [
+      {
+        "name": "SEIU Illinois State Council",
+        "amount": null,
+        "category": "union_pac",
+        "label": "Union PAC — Service Employees International Union Illinois State Council",
+        "source": "https://www.chicagotribune.com/2026/03/09/bernie-sanders-karina-villa-illinois-comptroller/",
+        "confirmed": true,
+        "counts_toward_total_raised": true
+      },
+      {
+        "name": "Illinois Federation of Teachers",
+        "amount": null,
+        "category": "union_pac",
+        "label": "Union PAC — Illinois Federation of Teachers",
+        "source": "https://www.chicagotribune.com/2026/03/09/bernie-sanders-karina-villa-illinois-comptroller/",
+        "confirmed": true,
+        "counts_toward_total_raised": true
+      },
+      {
+        "name": "U.S. Rep. Delia Ramirez",
+        "amount": 50000,
+        "category": "political_committee",
+        "label": "Over $50,000 from progressive U.S. Rep. Delia Ramirez of Chicago",
+        "source": "https://www.chicagotribune.com/2026/03/09/bernie-sanders-karina-villa-illinois-comptroller/",
+        "confirmed": true,
+        "counts_toward_total_raised": true
+      },
+      {
+        "name": "Senate President Don Harmon",
+        "amount": null,
+        "category": "political_committee",
+        "label": "Financial backing from Illinois Senate President Don Harmon of Oak Park",
+        "source": "https://www.chicagotribune.com/2026/03/09/bernie-sanders-karina-villa-illinois-comptroller/",
+        "confirmed": true,
+        "counts_toward_total_raised": true
+      }
+    ]
+  },
+  "red_flags": [
+    {
+      "type": "experience",
+      "label": "Least government finance experience among four primary candidates",
+      "detail": "Chicago Tribune reporting notes Villa 'likely has the least experience in government finance matters when compared with her three Democratic opponents' — Croke (Commerce Dept finance background), Kifowit (former financial advisor, 10+ years in IL House), and Kim (Lake County Treasurer).",
+      "source": "https://www.chicagotribune.com/2026/03/09/bernie-sanders-karina-villa-illinois-comptroller/",
+      "confirmed": true
+    },
+    {
+      "type": "endorsement",
+      "label": "Outgoing Comptroller Susana Mendoza backed opponent Holly Kim, not Villa",
+      "detail": "Susana Mendoza, the outgoing Comptroller she's seeking to replace, endorsed Holly Kim (Lake County Treasurer) — not Villa.",
+      "source": "https://www.chicagotribune.com/2026/03/02/susana-mendoza-endorses-holly-kim-to-replace-her-as-illinois-comptroller/",
+      "confirmed": true
+    },
+    {
+      "type": "electoral",
+      "label": "Cook County Democratic Party slating endorsement not awarded to Villa",
+      "detail": "Cook County Democrats backed Margaret Croke for comptroller — not Villa.",
+      "source": "https://capitolnewsillinois.com/news/cook-county-dems-back-croke-for-comptroller-no-endorsement-for-senate-race/",
+      "confirmed": true
+    }
+  ],
+  "key_votes": [
+    {
+      "bill": "SB 1250 — Student Self-Administration of Medication",
+      "vote": "yes/sponsor",
+      "summary": "Ensures schools allow students to self-administer any medication with written parental authorization.",
+      "source": "https://en.wikipedia.org/wiki/Karina_Villa"
+    },
+    {
+      "bill": "HB 155 — SNAP/WIC/TANF for Menstrual Hygiene Products",
+      "vote": "yes/sponsor",
+      "summary": "Allows recipients of SNAP, WIC, and TANF to use benefits to purchase menstrual hygiene products.",
+      "source": "https://en.wikipedia.org/wiki/Karina_Villa"
+    },
+    {
+      "bill": "HB 641 — Free Menstrual Products at Universities",
+      "vote": "yes/sponsor",
+      "summary": "Requires public universities and community colleges to provide free menstrual hygiene products in bathrooms.",
+      "source": "https://en.wikipedia.org/wiki/Karina_Villa"
+    },
+    {
+      "bill": "HB 156 — Free Menstrual Products in Schools",
+      "vote": "yes/sponsor",
+      "summary": "Requires school districts to make menstrual hygiene products available and free to students.",
+      "source": "https://en.wikipedia.org/wiki/Karina_Villa"
+    },
+    {
+      "bill": "HB 232 — Bar For-Profit Migrant Child Shelter Companies",
+      "vote": "yes/sponsor",
+      "summary": "Makes best efforts to identify for-profit companies sheltering migrant children and list them as restricted for state pension investments.",
+      "source": "https://en.wikipedia.org/wiki/Karina_Villa"
+    },
+    {
+      "bill": "SB 4002 — $15M Free and Charitable Clinics (70% minority populations)",
+      "vote": "yes/sponsor",
+      "summary": "Allocates $15,000,000 to Free and Charitable Clinics for emergency services, requiring at least 70% to serve minority populations.",
+      "source": "https://en.wikipedia.org/wiki/Karina_Villa"
+    },
+    {
+      "bill": "SAFE-T Act (2022 campaign support)",
+      "vote": "support",
+      "summary": "Maintained support for the SAFE-T Act (criminal justice reform, cashless bail) during 2022 re-election campaign despite Republican attacks.",
+      "source": "https://en.wikipedia.org/wiki/Karina_Villa"
+    },
+    {
+      "bill": "Anti-BDS Law Repeal Bill",
+      "vote": "support",
+      "summary": "Backed bill to repeal 2015 Illinois law prohibiting state pension fund investment in companies that boycott Israel, describing it as a free speech limitation.",
+      "source": "https://en.wikipedia.org/wiki/Karina_Villa"
+    },
+    {
+      "bill": "ICE Raid Community Warning — West Chicago (Sept 2025)",
+      "vote": "action",
+      "summary": "Issued community warnings during an ICE raid in West Chicago in September 2025 — ran through neighborhoods shouting warnings to residents not to open doors.",
+      "source": "https://www.cbsnews.com/chicago/news/west-chicago-illinois-ice-arrests-district-33-schools/"
+    }
+  ],
+  "policy_platform": [
+    {
+      "topic": "Tax Fairness",
+      "position": "Illinois has the 8th most regressive state/local tax system nationally. Passed four revenue legislation pieces in Senate. As Comptroller, will use bully pulpit to tax billionaires and corporations at fair share.",
+      "source": "https://ballotpedia.org/Karina_Villa"
+    },
+    {
+      "topic": "Federal Funding Defense",
+      "position": "Safeguard IL tax dollars from Trump federal cuts. Prioritize healthcare, childcare, housing, mental health, public education in bill payment order.",
+      "source": "https://karinavilla.com"
+    },
+    {
+      "topic": "ICE / Immigration",
+      "position": "Illinois vendors contracting with ICE will not receive state contracts. Build public ban list requiring disclosure of ICE/DHS/Border Patrol contractor relationships.",
+      "source": "https://karinavilla.com"
+    },
+    {
+      "topic": "Procurement / Jobs",
+      "position": "Use Comptroller procurement power to 'inshore' billions in state contracts to in-state vendors and create tens of thousands of Illinois jobs.",
+      "source": "https://karinavilla.com"
+    },
+    {
+      "topic": "Transparency",
+      "position": "Publish live, readable dashboard showing bill backlog by category. Publish payment priority rules in advance. Plain-language public transparency.",
+      "source": "https://karinavilla.com"
+    },
+    {
+      "topic": "Prevailing Wage",
+      "position": "Uphold Prevailing Wage Act — appoint Prevailing Wage Officer and Labor Law Compliance Liaison. Any vendor receiving state funds for public works must certify compliance.",
+      "source": "https://karinavilla.com"
+    }
+  ],
+  "endorsements": [
+    "U.S. Sen. Bernie Sanders (March 9, 2026 — source: https://www.chicagotribune.com/2026/03/09/bernie-sanders-karina-villa-illinois-comptroller/)",
+    "Chicago Teachers Union (source: https://chicago.suntimes.com/elections/2026/02/26/illinois-comptroller-democratic-primary-kifowit-kim-croke-villa-susana-mendoza-post)",
+    "SEIU Illinois State Council",
+    "Illinois Federation of Teachers",
+    "U.S. Rep. Jesus 'Chuy' Garcia (source: https://chicago.suntimes.com/elections/2026/02/26/illinois-comptroller-democratic-primary-kifowit-kim-croke-villa-susana-mendoza-post)",
+    "U.S. Rep. Delia Ramirez",
+    "Illinois Senate President Don Harmon",
+    "NASW-IL (National Association of Social Workers Illinois — source: https://www.naswil.org/post/nasw-il-early-2026-state-election-endorsements-karina-villa-for-state-comptroller)",
+    "Our Revolution (source: https://ourrevolution.com/karina-villa-for-illinois-comptroller/)"
+  ],
+  "career_history": [
+    {
+      "role": "Illinois State Senator, 25th District",
+      "org": "Illinois General Assembly",
+      "years": "2021–present",
+      "highlight": "First Latina to represent the 25th District. Chair of Senate Progressive Caucus. Re-elected 2022, 2024. Won special election defeating incumbent Republican Jim Oberweis in 2020."
+    },
+    {
+      "role": "Chair, Illinois Senate Progressive Caucus",
+      "org": "Illinois Senate Democratic Caucus",
+      "years": "2021–present",
+      "highlight": "Led four pieces of progressive revenue legislation. Serves on Illinois Legislative Latino Caucus, Senate Women's Caucus."
+    },
+    {
+      "role": "Illinois State Representative, 49th District",
+      "org": "Illinois General Assembly",
+      "years": "2019–2021",
+      "highlight": "Defeated DuPage County Board member Tonia Khouri to succeed retiring Republican Mike Fortner. Passed bills on mental health, environmental protections, labor rights, and healthcare access."
+    },
+    {
+      "role": "Board Member",
+      "org": "West Chicago Elementary School District 33 Board of Education",
+      "years": "prior to 2019",
+      "highlight": "Elected to school board before running for state legislature."
+    },
+    {
+      "role": "School Social Worker",
+      "org": "West Chicago School District 33",
+      "years": "prior to school board",
+      "highlight": "Career roots in direct social work with K-12 students."
+    }
+  ],
+  "data_status": "enriched",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Karina_Villa",
+    "https://ballotpedia.org/Karina_Villa",
+    "https://www.chicagotribune.com/2026/03/09/bernie-sanders-karina-villa-illinois-comptroller/",
+    "https://chicago.suntimes.com/elections/2026/02/26/illinois-comptroller-democratic-primary-kifowit-kim-croke-villa-susana-mendoza-post",
+    "https://karinavilla.com",
+    "https://senatorvilla.com"
+  ],
+  "social_pulse": {
+    "summary": "Progressive darling with growing national profile after Bernie Sanders endorsement March 9, 2026. Strong union and community org backing. Social media engagement high relative to other Comptroller candidates. ICE warning viral moment in September 2025 increased national visibility.",
+    "sentiment": "positive",
+    "hashtags": [
+      "#KarinaVilla",
+      "#ILComptroller",
+      "#ProgressiveIllinois",
+      "#BudgetsAreMoralDocuments",
+      "#TaxTheBillionaires"
+    ],
+    "last_updated": "2026-03-14"
+  },
+  "trust_indicators": [
+    {
+      "label": "ISBE campaign fund ~$300K entering 2026",
+      "value": "Per Chicago Tribune citing Illinois State Board of Elections",
+      "type": "positive"
+    },
+    {
+      "label": "Bernie Sanders endorsement",
+      "value": "Endorsed March 9, 2026",
+      "type": "positive"
+    },
+    {
+      "label": "No corporate PAC or Republican donor money",
+      "value": "Per campaign and confirmed by fundraising profile",
+      "type": "positive"
+    },
+    {
+      "label": "Outgunned financially by Croke ($830K+ cash on hand)",
+      "value": "Croke had $830K vs Villa's ~$300K entering 2026",
+      "type": "negative"
+    },
+    {
+      "label": "Outgoing Comptroller endorsed opponent, not Villa",
+      "value": "Susana Mendoza backed Holly Kim",
+      "type": "negative"
+    },
+    {
+      "label": "Cook County Democratic Party backed opponent",
+      "value": "Slated Croke, not Villa",
+      "type": "negative"
+    },
+    {
+      "label": "Legislative record: 30+ bills passed across 3 general assemblies",
+      "value": "Sourced via Wikipedia/ILGA.gov",
+      "type": "positive"
+    }
+  ],
+  "transparency_score": {
+    "grade": "C",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "A",
+    "record_available": true,
+    "red_flags_count": 3,
+    "computed_at": "2026-03-18"
+  },
+  "news_hits": [
+    {
+      "headline": "Bernie Sanders endorses state Sen. Karina Villa for Illinois comptroller",
+      "summary": "U.S. Senator Bernie Sanders announced his endorsement of Villa for Illinois Comptroller on March 9, 2026, calling her 'one of the most progressive voices in the Illinois State Senate' and highlighting her work on tax fairness, union rights, and healthcare access.",
+      "url": "https://www.chicagotribune.com/2026/03/09/bernie-sanders-karina-villa-illinois-comptroller/",
+      "date": "2026-03-09",
+      "severity": "medium",
+      "source_name": "Chicago Tribune"
+    }
+  ],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

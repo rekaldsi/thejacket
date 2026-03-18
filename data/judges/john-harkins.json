@@ -1,0 +1,43 @@
+{
+  "id": "john-harkins",
+  "name": "John Harkins",
+  "party": "Democratic",
+  "office": "circuit",
+  "subcircuit": "19th",
+  "race_id": "judicial-19th-subcircuit-kane-vacancy",
+  "vacancy_of": "Judge Kane",
+  "bio": "John Harkins has zero years of legal experience. He is backed by his brother-in-law, Alderman Matt O'Shea (19th Ward), and his employer, Cook County Sheriff Tom Dart — two of the most powerful political figures in the 19th Subcircuit. Despite this political backing, every bar association in the Alliance and the CBA rated him Not Recommended. This race has been flagged by reform advocates as the clearest example of patronage machine politics in the 2026 Cook County judicial elections.",
+  "background": "Employee of Cook County Sheriff Tom Dart's office. No prior legal experience.",
+  "years_experience": 0,
+  "bar_ratings": {
+    "alliance_rating": "NR",
+    "alliance_detail": "Not Recommended — unanimous from all Alliance bar associations",
+    "cba_rating": "NR",
+    "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx"
+  },
+  "red_flags": [
+    {
+      "type": "patronage",
+      "label": "Zero legal experience; backed by Ald. O'Shea and Sheriff Dart despite no qualifications",
+      "detail": "John Harkins has zero years of legal experience yet is running for circuit court judge with the backing of his brother-in-law Alderman Matt O'Shea (19th Ward) and his employer Sheriff Tom Dart. This is a textbook patronage candidacy — machine political support substituting for professional qualifications. The bar associations unanimously rejected his candidacy.",
+      "source": "https://www.injusticewatch.org/judges/judicial-elections/2026-primary/",
+      "confirmed": true
+    },
+    {
+      "type": "ethics",
+      "label": "Universal Not Recommended from all bar associations",
+      "detail": "Every bar association in the Alliance of Bar Associations for Judicial Screening, as well as the Chicago Bar Association, rated John Harkins as Not Recommended. The unanimous rejection from the legal community reflects his lack of any qualifying legal experience.",
+      "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx",
+      "confirmed": true
+    }
+  ],
+  "uncontested": false,
+  "photo_url": null,
+  "primary_result": {
+    "status": "pending",
+    "yes_pct": null,
+    "no_pct": null,
+    "votes": null,
+    "updated": null
+  }
+}

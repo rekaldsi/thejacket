@@ -1,0 +1,105 @@
+{
+  "id": "margaret-croke",
+  "name": "Margaret Croke",
+  "party": "Democratic",
+  "office": "Illinois Comptroller",
+  "race_id": "il-comptroller-d-2026",
+  "bio": "Margaret Croke is an Illinois State Representative (12th District, Chicago — Lakeview East, Lincoln Park, Old Town, Gold Coast) since 2021. She's running for Illinois Comptroller to succeed retiring incumbent Susana Mendoza. Croke was Deputy Chief of Staff at the Illinois Department of Commerce and Economic Opportunity before her election. She chairs the Financial Institutions Committee and serves on the House Revenue & Finance Committee — the body overseeing banking, depositories, and payment processing statewide. Born in Oak Park, raised in Chicago. University of Michigan grad (Political Science + Communications). Pritzker's pick and the top fundraiser in the race with $425K raised + $510K cash on hand.",
+  "prior_office": "Illinois State Representative, 12th District (2021–present); Deputy Chief of Staff, IL Dept. of Commerce and Economic Opportunity",
+  "website": "https://crokeforillinois.com",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Margaret_Croke_official_photo.jpg/440px-Margaret_Croke_official_photo.jpg",
+  "jacket": {
+    "total_raised": 425000,
+    "pac_support_total": 0,
+    "data_date": "2026-03-14",
+    "source": "https://abc7chicago.com/post/primary-election-2026-illinois-comptroller-candidates-margaret-croke-karina-villa-holly-kim-stephanie-kifowit-appeal-voters/18686085/",
+    "note": "$425K raised (Oct 2025 figure), $510K cash on hand. Top fundraiser in the race. Critics (Karina Villa) note some donations come from super PACs and Republican donors.",
+    "donors": [
+      {
+        "name": "Cook County Democratic Party",
+        "amount": null,
+        "category": "party",
+        "label": "Cook County Dem Party endorsement + support",
+        "source": "https://abc7chicago.com/post/illinois-gov-jb-pritzker-backs-longtime-political-ally-margaret-croke-comptroller-2026-election/18574429/",
+        "confirmed": true,
+        "counts_toward_total_raised": false
+      }
+    ],
+    "fec_id": null
+  },
+  "red_flags": [
+    {
+      "type": "dark_money",
+      "label": "Super PAC / Republican Donor Contributions (Alleged)",
+      "detail": "Opponent Karina Villa publicly criticized Croke's donations as including super PAC money and contributions from Republican donors. Villa said: 'I get money from unions and everyday people.' Croke has not disputed the characterization but has not addressed it directly. Unverified — needs ILSBE filing review to confirm.",
+      "source": "https://abc7chicago.com/post/primary-election-2026-illinois-comptroller-candidates-margaret-croke-karina-villa-holly-kim-stephanie-kifowit-appeal-voters/18686085/",
+      "confirmed": false
+    }
+  ],
+  "key_votes": [
+    {
+      "bill": "Illinois Financial Institutions Committee (Chair, 2021–present)",
+      "vote": "chair",
+      "summary": "Chairs the House Financial Institutions Committee — the state body overseeing banking, depositories, payment processing, and financial technology. Croke argues this expertise directly qualifies her to run the Comptroller's office, which pays the state's bills and conducts local government audits.",
+      "source": "https://news.wttw.com/elections/voters-guide/2026-primary/margaret-croke"
+    },
+    {
+      "bill": "Illinois House Revenue & Finance Committee (Member)",
+      "vote": "member",
+      "summary": "Serves on the House Revenue & Finance Committee, giving her direct exposure to the state's fiscal architecture — tax policy, revenue projections, and budget mechanics.",
+      "source": "https://news.wttw.com/elections/voters-guide/2026-primary/margaret-croke"
+    }
+  ],
+  "endorsements": [
+    "Gov. JB Pritzker",
+    "Cook County Democratic Party",
+    "Illinois House Speaker Emanuel 'Chris' Welch"
+  ],
+  "policy_platform": [
+    {
+      "topic": "Position",
+      "position": "Protect Illinois from Trump-era federal funding cuts — Comptroller as fiscal watchdog"
+    },
+    {
+      "topic": "Position",
+      "position": "Leverage Financial Institutions Committee expertise to modernize state payment systems"
+    },
+    {
+      "topic": "Position",
+      "position": "Expand fiscal transparency — local government audits, public reporting"
+    },
+    {
+      "topic": "Position",
+      "position": "The Comptroller 'pays the checks and raises the red flag' — position as last line of financial oversight"
+    },
+    {
+      "topic": "Position",
+      "position": "Continue Mendoza-era fiscal turnaround, build on state credit improvements"
+    }
+  ],
+  "qualifications": [
+    "Illinois State Representative, 12th District (2021–present) — 5 years in Springfield",
+    "Chair, House Financial Institutions Committee — banking, payment processing, fintech oversight",
+    "Member, House Revenue & Finance Committee — state budget and tax policy",
+    "Former Deputy Chief of Staff, Illinois Dept. of Commerce and Economic Opportunity",
+    "University of Michigan, B.A. Political Science + Communications",
+    "Based in Old Town, Chicago — born Oak Park"
+  ],
+  "transparency_score": {
+    "grade": "B",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "A",
+    "record_available": true,
+    "red_flags_count": 1,
+    "computed_at": "2026-03-18"
+  },
+  "transparency_grade": "D",
+  "career_history": [],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

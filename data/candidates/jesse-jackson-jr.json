@@ -4,25 +4,302 @@
   "party": "Democratic",
   "office": "U.S. House (IL-02)",
   "race_id": "il-02-us-house-d-2026",
-  "bio": "Jesse Jackson Jr. is listed as a Democratic candidate in the 2026 IL-02 race. Local election coverage notes his return to electoral politics in this open-seat contest. (Source: Chicago Sun-Times voter guide, March 2026: https://chicago.suntimes.com/politics/elections/2026/voter-guide/candidates)",
-  "prior_office": "Former U.S. Representative (IL-02)",
-  "website": "",
+  "bio": "Jesse Louis Jackson Jr. is a Democratic candidate for Illinois' 2nd Congressional District in the March 17, 2026 primary. He previously represented this same district in Congress from 1995 to 2012, when he resigned amid a federal criminal investigation. In 2013 he pleaded guilty to conspiracy to commit wire fraud and mail fraud, admitting he misappropriated over $750,000 in campaign funds for personal use including furs, memorabilia, electronics, and a Rolex watch. He served approximately 2.5 years in federal prison at Butner Federal Correctional Institution in North Carolina, completing his sentence in 2015. His wife, Sandi Jackson, also pleaded guilty to filing false tax returns and served her sentence separately. Jackson's return to the ballot is notable: he frames his candidacy around delivering federal resources to the district and argues he was 'one of the most effective members of Congress, delivering nearly a billion in grants and appropriations to the District.' Eleven candidates are running in this Democratic primary; Jesse Jackson Jr., Donna Miller, Robert Peters, and Willie Preston were identified as leading fundraisers and media attention-getters as of November 2025. Jackson's FEC receipts were $288,251 with $239,393 disbursed and $48,858 cash on hand as of February 25, 2026 — behind frontrunner Donna Miller ($1.97M) and Robert Peters ($1.13M).",
+  "prior_office": "U.S. Representative, IL-02 (1995–2012)",
+  "website": "https://www.jessejacksonjrforcongress.com",
+  "data_status": "confirmed",
   "jacket": {
-    "total_raised": null,
-    "data_date": "2026-03-13",
-    "source": "https://www.fec.gov/data/elections/house/IL/02/",
-    "note": "FEC candidate totals pending ETL import.",
-    "donors": []
+    "total_raised": 288251,
+    "total_disbursed": 239393,
+    "cash_on_hand": 48858,
+    "data_date": "2026-03-14",
+    "source": "https://www.fec.gov/data/candidate/H6IL02124/",
+    "fec_id": "H6IL02124",
+    "note": "FEC data. All itemized individual contributions are $3,500 max. 160 individual contributions on file through FEC committee C00911743 (JESSEJACKSONJRFORCONGRESS.COM, primary 2026). Notable donors: John Rogers (Ariel Investments co-CEO), Ronald Burkle (Yucaipa Companies), Chris Rock (comedian), Dennis Porter (Satoshi Action Fund CEO). FEC confirms $288,251 total raised, $239,393 disbursed, $48,858 cash on hand as of Feb 25, 2026.",
+    "donors": [
+      {
+        "name": "Dennis Porter",
+        "amount": 3500,
+        "category": "individual",
+        "source": "https://www.fec.gov/data/committee/C00911743/",
+        "confirmed": true
+      },
+      {
+        "name": "Ronald Burkle",
+        "amount": 3500,
+        "category": "individual",
+        "source": "https://www.fec.gov/data/committee/C00911743/",
+        "confirmed": true
+      },
+      {
+        "name": "Francisco Borges",
+        "amount": 3500,
+        "category": "individual",
+        "source": "https://www.fec.gov/data/committee/C00911743/",
+        "confirmed": true
+      },
+      {
+        "name": "Arthur Collins",
+        "amount": 3500,
+        "category": "individual",
+        "source": "https://www.fec.gov/data/committee/C00911743/",
+        "confirmed": true
+      },
+      {
+        "name": "Kwanza Seawright",
+        "amount": 3500,
+        "category": "individual",
+        "source": "https://www.fec.gov/data/committee/C00911743/",
+        "confirmed": true
+      },
+      {
+        "name": "Keela Seawright",
+        "amount": 3500,
+        "category": "individual",
+        "source": "https://www.fec.gov/data/committee/C00911743/",
+        "confirmed": true
+      },
+      {
+        "name": "John Rogers",
+        "amount": 3500,
+        "category": "individual",
+        "source": "https://www.fec.gov/data/committee/C00911743/",
+        "confirmed": true
+      },
+      {
+        "name": "Chris Rock",
+        "amount": 3500,
+        "category": "individual",
+        "source": "https://www.fec.gov/data/committee/C00911743/",
+        "confirmed": true
+      },
+      {
+        "name": "Lamell McMorris",
+        "amount": 3500,
+        "category": "individual",
+        "source": "https://www.fec.gov/data/committee/C00911743/",
+        "confirmed": true
+      },
+      {
+        "name": "Ian MacKechnie",
+        "amount": 3500,
+        "category": "individual",
+        "source": "https://www.fec.gov/data/committee/C00911743/",
+        "confirmed": true
+      },
+      {
+        "name": "Jackie Lynch",
+        "amount": 3500,
+        "category": "individual",
+        "source": "https://www.fec.gov/data/committee/C00911743/",
+        "confirmed": true
+      },
+      {
+        "name": "William Davis for State Representative",
+        "amount": 3500,
+        "category": "committee",
+        "source": "https://www.fec.gov/data/committee/C00911743/",
+        "confirmed": true
+      }
+    ],
+    "donors_note": "Itemized donors pending ETL. FEC aggregate confirmed."
   },
   "red_flags": [
     {
-      "type": "ethics",
-      "label": "Prior conviction",
-      "detail": "Candidate previously had a federal conviction; historical reporting is public record.",
+      "type": "criminal",
+      "label": "Federal conviction — conspiracy to commit wire and mail fraud (2013)",
+      "detail": "Jesse Jackson Jr. pleaded guilty February 20, 2013 in U.S. District Court for the District of Columbia to one count of conspiracy to commit wire fraud and mail fraud. He admitted misappropriating $750,000 in campaign funds for personal use including a $43,350 gold-plated Rolex watch, a $5,000 stuffed elk head, vacations, and other personal items. Sentenced to 30 months in federal prison and ordered to pay $750,000 in restitution. Served at Butner Federal Correctional Institution, NC. Released 2015.",
       "source": "https://www.justice.gov/usao-dc/pr/former-us-congressman-jesse-jackson-jr-pleads-guilty-federal-charges",
       "confirmed": true
+    },
+    {
+      "type": "conduct",
+      "label": "Resigned from Congress while under criminal investigation",
+      "detail": "Jackson resigned from the U.S. House of Representatives on November 21, 2012, while under federal investigation. He had been on medical leave since June 2012, citing treatment for bipolar disorder. His resignation preceded his guilty plea by approximately three months.",
+      "source": "https://www.cbsnews.com/chicago/news/former-u-s-rep-jesse-jackson-jr-congressional-run/",
+      "confirmed": true
+    },
+    {
+      "type": "conduct",
+      "label": "Linked to Rod Blagojevich Senate seat-for-sale scheme (allegation, not charged)",
+      "detail": "Federal wiretap evidence introduced during the Blagojevich trial referenced a fundraiser associated with Jackson offering $1.5 million to Blagojevich in exchange for appointment to Barack Obama's vacated Senate seat in 2008. Jackson was never charged in connection with this matter. He denied any wrongdoing. Blagojevich was convicted; the allegation was corroborated by wiretap transcripts but Jackson was neither indicted nor charged.",
+      "source": "https://en.wikipedia.org/wiki/Jesse_Jackson_Jr.",
+      "confirmed": false
     }
   ],
-  "key_votes": [],
-  "endorsements": []
+  "key_votes": [
+    {
+      "bill": "American Recovery and Reinvestment Act (ARRA) of 2009",
+      "vote": "Yes",
+      "summary": "Supported the $787 billion economic stimulus package during the Obama administration. Jackson, representing a heavily disinvested South Side/South Suburban district, championed the bill's infrastructure and community investment components.",
+      "source": "https://en.wikipedia.org/wiki/Jesse_Jackson_Jr."
+    },
+    {
+      "bill": "Affordable Care Act (ACA) / Patient Protection and Affordable Care Act (2010)",
+      "vote": "Yes",
+      "summary": "Supported the landmark healthcare reform legislation. Jackson had long advocated for healthcare access in the Southland.",
+      "source": "https://en.wikipedia.org/wiki/Jesse_Jackson_Jr."
+    }
+  ],
+  "endorsements": [],
+  "career_history": [
+    {
+      "role": "U.S. Representative, IL-02",
+      "org": "U.S. House of Representatives",
+      "years": "1995–2012",
+      "highlight": "Won special election 1995 to succeed Mel Reynolds. Re-elected eight times. Served on House Appropriations Committee. Resigned November 21, 2012 amid federal investigation."
+    },
+    {
+      "role": "Federal Inmate",
+      "org": "Federal Bureau of Prisons — Butner Federal Correctional Institution, NC",
+      "years": "2013–2015",
+      "highlight": "Served 30-month sentence for conspiracy to commit wire fraud and mail fraud. Released August 2015."
+    },
+    {
+      "role": "Nonprofit Executive / Activist",
+      "org": "Various",
+      "years": "2015–2025",
+      "highlight": "Described himself as a 'nonprofit executive' after release. Remained largely out of public political life until announcing 2026 congressional bid."
+    }
+  ],
+  "policy_platform": [
+    {
+      "topic": "Federal Resources to IL-02",
+      "position": "Campaigns on claim he was 'one of the most effective members of Congress, delivering nearly a billion in grants and appropriations to the District' and argues his Washington relationships can deliver federal resources.",
+      "source": "https://www.jessejacksonjrforcongress.com/about"
+    }
+  ],
+  "social_pulse": {
+    "summary": "Highly controversial candidacy. Mixed reception: some South Side/Southland voters remember his federal delivery record, others cite the criminal conviction. National media frames it as political comeback by convicted congressman. Chicago Tribune, Sun-Times, and CBS Chicago have all covered the return.",
+    "sentiment": "negative-dominant",
+    "hashtags": [
+      "#JesseJacksonJr",
+      "#IL02",
+      "#ChicagoElections2026"
+    ],
+    "last_updated": "2026-03-14"
+  },
+  "trust_indicators": [
+    {
+      "label": "Federal conviction — wire/mail fraud — confirmed court record",
+      "value": true,
+      "type": "negative"
+    },
+    {
+      "label": "Served federal prison sentence — confirmed",
+      "value": true,
+      "type": "negative"
+    },
+    {
+      "label": "Resigned Congress under criminal investigation — confirmed",
+      "value": true,
+      "type": "negative"
+    },
+    {
+      "label": "FEC filings current for 2026 cycle — confirmed",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "Cash on hand ($48,858) significantly trails frontrunners — confirmed",
+      "value": true,
+      "type": "neutral"
+    }
+  ],
+  "transparency_score": {
+    "grade": "D",
+    "computed": true,
+    "financial_transparency": "D",
+    "platform_completeness": "D",
+    "record_available": true,
+    "red_flags_count": 3,
+    "computed_at": "2026-03-18"
+  },
+  "fec_candidate_id": "H6IL02124",
+  "fec_committee_id": "C00911743",
+  "finance": {
+    "total_raised": 288251,
+    "total_spent": 239393,
+    "cash_on_hand": 48858,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "PORTER, DENNIS",
+      "amount": 3500,
+      "employer": "SATOSHI ACTION FUND",
+      "occupation": "CEO",
+      "date": "2025-12-31"
+    },
+    {
+      "name": "COLLINS, ARTHUR",
+      "amount": 3500,
+      "employer": "THEGROUP",
+      "occupation": "BUSINESS STRATEGIST",
+      "date": "2025-12-30"
+    },
+    {
+      "name": "BURKLE, RONALD",
+      "amount": 3500,
+      "employer": "YUCAIPA COMPANIES",
+      "occupation": "MANAGING PARTNER",
+      "date": "2025-12-29"
+    },
+    {
+      "name": "BORGES, FRANCISCO",
+      "amount": 3500,
+      "employer": "N/A",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-12-30"
+    },
+    {
+      "name": "SEAWRIGHT, KWANZA",
+      "amount": 3500,
+      "employer": "MEDICAL PLACE",
+      "occupation": "DIRECTOR",
+      "date": "2025-09-26"
+    },
+    {
+      "name": "SEAWRIGHT, KEELA",
+      "amount": 3500,
+      "employer": "MEDICAL PLACE",
+      "occupation": "DIRECTOR",
+      "date": "2025-09-26"
+    },
+    {
+      "name": "ROGERS, JOHN",
+      "amount": 3500,
+      "employer": "ARIEL INVESTMENTS",
+      "occupation": "CO-CEO",
+      "date": "2025-08-08"
+    },
+    {
+      "name": "ROCK, CHRIS",
+      "amount": 3500,
+      "employer": "N/A",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-08-13"
+    },
+    {
+      "name": "MCMORRIS, LAMELL",
+      "amount": 3500,
+      "employer": "PHASE 2 CONSULTING",
+      "occupation": "CONSULTANT",
+      "date": "2025-08-07"
+    },
+    {
+      "name": "MACKECHNIE, IAN",
+      "amount": 3500,
+      "employer": "AMSCOT FINANCIAL INC.",
+      "occupation": "EXCECUTIVE",
+      "date": "2025-09-30"
+    }
+  ],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

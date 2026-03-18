@@ -1,0 +1,80 @@
+{
+  "id": "ammie-kessem",
+  "name": "Ammie Kessem",
+  "party": "Republican",
+  "office": "Cook County Commissioner District 9",
+  "race_id": "cook-county-commissioner-dist-9",
+  "incumbent": false,
+  "bio": "Ammie Kessem was born and lives in Chicago, Illinois. She earned a B.A. in American studies, sociology, and business administration from Dominican University in 1998. Her career includes working as a police tactical officer for the Chicago Police Department, where she led implementation of the Gang Intervention Probation Program (GIPP) — a collaboration with the Cook County State's Attorney and Probation Department to deter individuals placed in the program from additional criminal gang activity. She previously ran as the Republican nominee for Illinois House District 19 in 2018, losing to incumbent Robert Martwick 60.7%-39.3%. She is the sole Republican candidate for District 9 Commissioner and will face Democratic incumbent Maggie Trevor in the November 2026 general election.",
+  "prior_office": "Republican nominee for Illinois House District 19 (2018 — general election loss)",
+  "website": null,
+  "photo_url": null,
+  "jacket": {
+    "total_raised": null,
+    "cash_on_hand": null,
+    "data_date": "2026-03-14",
+    "source": "https://illinoissunshine.org/county-races/2026/",
+    "note": "No Illinois Sunshine committee found for Kessem as of research date. Total District 9 race funds = $47,723.80 (both candidates combined).",
+    "fec_id": null,
+    "ilsbe_id": null,
+    "donors": []
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "policy_platform": [
+    {
+      "topic": "Position",
+      "position": "1% cap on property taxes"
+    },
+    {
+      "topic": "Position",
+      "position": "Lower state income taxes"
+    },
+    {
+      "topic": "Position",
+      "position": "Cut wasteful spending and eliminate duplicative units of government"
+    },
+    {
+      "topic": "Position",
+      "position": "Attract more business to Illinois through reduced regulation"
+    },
+    {
+      "topic": "Position",
+      "position": "Support for law enforcement"
+    }
+  ],
+  "career_history": [
+    {
+      "role": "Police Tactical Officer",
+      "org": "Chicago Police Department",
+      "years": "",
+      "highlight": "Led implementation of Gang Intervention Probation Program (GIPP) in collaboration with Cook County State's Attorney and Probation Department"
+    }
+  ],
+  "endorsements": [],
+  "data_status": "partial",
+  "sources": [
+    "https://ballotpedia.org/Ammie_Kessem",
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
+    "https://illinoissunshine.org/county-races/2026/"
+  ],
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": {
+    "grade": "C",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "A",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-18"
+  },
+  "uncontested": true,
+  "data_note": "Republican primary candidate — uncontested on GOP side. Will face Maggie Trevor (D) in November general.",
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

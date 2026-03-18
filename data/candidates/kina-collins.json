@@ -4,17 +4,235 @@
   "party": "Democratic",
   "office": "U.S. House (IL-07)",
   "race_id": "il-07-us-house-d-2026",
-  "bio": "Kina Collins is listed as a Democratic candidate in the 2026 IL-07 primary field. She has previously run in IL-07 and re-entered the race after the incumbent retirement. (Source: Shaw Local candidate list, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
-  "prior_office": "Community organizer; prior congressional candidate",
-  "website": "",
+  "bio": "Kina Isis Collins (born March 8, 1991) is a community organizer, activist, and three-time congressional candidate from the Austin neighborhood on Chicago's West Side. She earned a B.A. from Louisiana State University in international political economy and sociology, and attended Carthage College. She has run for IL-07 in 2020 (13.8%), 2022 (45.6%), and 2024 (3rd place behind Danny Davis and Melissa Conyears-Ervin). She declared her 2026 candidacy on October 14, 2025. NOTE: She is NOT an incumbent — the current incumbent (Danny Davis, retiring) held the seat through 2024. Collins has never held elected office. Her FEC ID for 2026 is H6IL07511; she raised $45,770.85 in individual contributions (Oct 2025–Feb 2026), with $2,412.78 cash on hand as of the pre-primary report (Feb 25, 2026). She provided an $8,806 personal loan to the campaign. Her campaign pledges no corporate PAC money.",
+  "prior_office": "Community organizer; three-time congressional candidate (IL-07 2020, 2022, 2024). No elected office held.",
+  "website": "https://www.kinacollinsil.com",
   "jacket": {
-    "total_raised": null,
-    "data_date": "2026-03-13",
-    "source": "https://www.fec.gov/data/elections/house/IL/07/",
-    "note": "FEC candidate totals pending ETL import.",
-    "donors": []
+    "total_raised": 45770,
+    "individual_contributions": 45770.85,
+    "individual_itemized": 26255,
+    "individual_unitemized": 19515.85,
+    "cash_on_hand": 2412.78,
+    "disbursements": 52440.89,
+    "candidate_loan": 8806.57,
+    "debts_owed_by_committee": 6871.57,
+    "coverage_period": "2025-10-01 to 2026-02-25",
+    "report_type": "PRE-PRIMARY",
+    "fec_id": "H6IL07511",
+    "donors": [
+      {
+        "name": "Individual small-dollar donors (unitemized)",
+        "amount": 19515.85,
+        "category": "individual_small_dollar",
+        "label": "Unitemized contributions under $200 threshold — consistent with grassroots/small-dollar fundraising",
+        "source": "https://www.fec.gov/data/candidate/H6IL07511/",
+        "confirmed": true,
+        "counts_toward_total_raised": true
+      },
+      {
+        "name": "Individual itemized donors (identities require FEC schedule-A query)",
+        "amount": 26255,
+        "category": "individual_itemized",
+        "label": "Itemized contributions over $200 — donor names available in FEC Schedule A filings for H6IL07511",
+        "source": "https://api.open.fec.gov/v1/candidate/H6IL07511/totals/",
+        "confirmed": true,
+        "counts_toward_total_raised": true
+      },
+      {
+        "name": "No PAC or party committee contributions",
+        "amount": 0,
+        "category": "pac",
+        "label": "Zero other political committee contributions per FEC filing — consistent with no-corporate-PAC pledge",
+        "source": "https://api.open.fec.gov/v1/candidate/H6IL07511/totals/",
+        "confirmed": true,
+        "counts_toward_total_raised": false
+      }
+    ],
+    "source": "https://api.open.fec.gov/v1/candidate/H6IL07511/totals/",
+    "note": "FEC pre-primary report (period: Oct 1 2025 – Feb 25, 2026): $45,770.85 individual contributions; $2,412.78 cash on hand; $8,806.57 candidate loan; zero PAC/party money. No corporate PAC pledge confirmed by FEC data.",
+    "data_date": "2026-03-14"
   },
-  "red_flags": [],
-  "key_votes": [],
-  "endorsements": []
+  "red_flags": [
+    {
+      "type": "financial",
+      "label": "Near-empty cash on hand pre-primary ($2,412)",
+      "detail": "As of Feb 25, 2026 FEC pre-primary report, Collins had only $2,412.78 cash on hand despite raising $45,770. She spent $52,440 with debts of $6,871. This suggests a significant burn rate and thin financial position heading into the March 17 primary.",
+      "source": "https://api.open.fec.gov/v1/candidate/H6IL07511/totals/",
+      "confirmed": true
+    },
+    {
+      "type": "electoral",
+      "label": "Three-time primary loser",
+      "detail": "Collins ran for IL-07 in 2020 (13.8%), 2022 (45.6%), and 2024 (3rd place). She has never won a primary despite three campaigns. The 2024 race she placed third behind Danny Davis and Melissa Conyears-Ervin.",
+      "source": "https://en.wikipedia.org/wiki/Kina_Collins",
+      "confirmed": true
+    },
+    {
+      "type": "career",
+      "label": "Resigned from Pritzker campaign over racist recording",
+      "detail": "Collins was a staff member on J.B. Pritzker's 2018 gubernatorial campaign but resigned after recordings of Pritzker making racially insensitive remarks were publicly released.",
+      "source": "https://en.wikipedia.org/wiki/Kina_Collins",
+      "confirmed": true
+    }
+  ],
+  "key_votes": [
+    {
+      "bill": "Illinois Council on Women and Girls Act (co-authored 2018)",
+      "vote": "co-author",
+      "summary": "Co-authored state legislation creating the Illinois Council on Women and Girls to advise governor and state lawmakers on issues concerning women and girls. Served as inaugural chairwoman.",
+      "source": "https://en.wikipedia.org/wiki/Kina_Collins"
+    }
+  ],
+  "endorsements": [
+    "Justice Democrats (2022 primary — source: https://en.wikipedia.org/wiki/Kina_Collins)",
+    "Center for Popular Democracy (2020 — source: Wikipedia)",
+    "Women's March Illinois (2020 — source: Wikipedia)",
+    "Northside Democracy for America (2020 — source: Wikipedia)",
+    "Chicago aldermanic progressives: Angela Clay, Leni Manaa-Hoppenworth, Daniel La Spata, Byron Sigcho-Lopez (2024 announcement)"
+  ],
+  "career_history": [
+    {
+      "role": "Executive Director",
+      "org": "Gun Violence Prevention Education Center / Illinois Council Against Handgun Violence",
+      "years": "2020–present",
+      "highlight": "Statewide organization focused on gun violence prevention. Co-founded Chicago Neighborhood Alliance 2017 to end gun violence through civic engagement."
+    },
+    {
+      "role": "National Organizer",
+      "org": "Physicians for a National Health Program (PNHP)",
+      "years": "2018–2019",
+      "highlight": "Organized for single-payer Medicare for All healthcare policy."
+    },
+    {
+      "role": "Regional Organizer",
+      "org": "Generation Progress (Center for American Progress)",
+      "years": "2015–2017",
+      "highlight": "Louisiana-based organizing on gun violence prevention and criminal justice reform. Selected for #Fight4AFuture National Leadership Council (2016-17)."
+    },
+    {
+      "role": "Political Director",
+      "org": "Sameena Mustafa for Congress (IL-05)",
+      "years": "2018",
+      "highlight": "Managed political operations for unsuccessful progressive primary campaign."
+    },
+    {
+      "role": "Congressional Candidate",
+      "org": "IL-07 Democratic Primary",
+      "years": "2020, 2022, 2024, 2026",
+      "highlight": "2020: 13.8%. 2022: 45.6% (came within 4 points of defeating 30-year incumbent Danny Davis). 2024: 3rd place. 2026: currently running."
+    },
+    {
+      "role": "Inaugural Chair, Illinois Council on Women and Girls",
+      "org": "State of Illinois (Gov. Pritzker)",
+      "years": "2019",
+      "highlight": "Appointed first chair of council she co-created via legislation."
+    },
+    {
+      "role": "Summer of Service Learning Ambassador",
+      "org": "Chicago Public Schools",
+      "years": "student",
+      "highlight": "Early civic service role as CPS student in Austin neighborhood."
+    }
+  ],
+  "policy_platform": [
+    {
+      "topic": "Housing & Tenant Rights",
+      "position": "Supports federal tenant protections, community land trusts, and limits on corporate landlords. Expand Housing Choice Vouchers, National Housing Trust Fund. Affordable housing as a human right.",
+      "source": "https://www.kinacollinsil.com"
+    },
+    {
+      "topic": "Medicare for All",
+      "position": "Supports single-payer healthcare (H.R. 3421). No corporate PAC money pledge. Healthcare as a human right for all, including undocumented residents.",
+      "source": "https://www.kinacollinsil.com"
+    },
+    {
+      "topic": "Gaza / Foreign Policy",
+      "position": "Opposes U.S. arms shipments to Israel. Strong advocate for Gaza ceasefire. End ICE enforcement funding for deportations.",
+      "source": "https://www.kinacollinsil.com"
+    },
+    {
+      "topic": "Gun Violence Prevention",
+      "position": "Ban assault weapons, bump stocks, high-capacity magazines. Raise purchase age to 21. Fund CDC to study gun violence as public health crisis.",
+      "source": "https://www.kinacollinsil.com"
+    },
+    {
+      "topic": "Criminal Justice",
+      "position": "End cash bail (No Money Bail Act). Legalize/deschedule marijuana. Ban private prisons. Sentencing reform to address racial disparities. Community policing over incarceration.",
+      "source": "https://www.kinacollinsil.com"
+    },
+    {
+      "topic": "Tax Justice",
+      "position": "Supports Ultra-Millionaire Tax (Warren). Raise federal minimum wage to $25/hr. Support PRO Act for workers' collective bargaining rights.",
+      "source": "https://www.kinacollinsil.com"
+    },
+    {
+      "topic": "Reparations",
+      "position": "Strongly supports H.R. 40 — Commission to Study and Develop Reparation Proposals for descendants of U.S. chattel slavery.",
+      "source": "https://www.kinacollinsil.com"
+    }
+  ],
+  "social_pulse": {
+    "summary": "Strong progressive following built over four campaign cycles. National profile from The Strokes benefit concerts (2022, 2024). Positive sentiment among progressive, Palestinian-American, and gun violence prevention communities. No-PAC money pledge generates grassroots credibility.",
+    "sentiment": "positive",
+    "hashtags": [
+      "#KinaCollins",
+      "#NoPACMoney",
+      "#IL07",
+      "#CeasefireNow",
+      "#MedicareForAll"
+    ],
+    "last_updated": "2026-03-14"
+  },
+  "trust_indicators": [
+    {
+      "label": "No corporate PAC money pledge — confirmed by FEC data",
+      "value": "Zero PAC/party contributions per FEC pre-primary filing",
+      "type": "positive"
+    },
+    {
+      "label": "FEC filings current",
+      "value": "Pre-primary report filed for period through Feb 25, 2026",
+      "type": "positive"
+    },
+    {
+      "label": "Cash on hand critically low heading into primary",
+      "value": "$2,412.78 as of Feb 25, 2026",
+      "type": "negative"
+    },
+    {
+      "label": "Grassroots funding base",
+      "value": "$19,515 in unitemized (small-dollar) donations vs $26,255 itemized",
+      "type": "positive"
+    },
+    {
+      "label": "No elected office held despite four campaigns",
+      "value": true,
+      "type": "neutral"
+    }
+  ],
+  "data_status": "enriched",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kina_Collins",
+    "https://ballotpedia.org/Kina_Collins",
+    "https://api.open.fec.gov/v1/candidate/H6IL07511/totals/",
+    "https://www.kinacollinsil.com"
+  ],
+  "photo_url": null,
+  "transparency_score": {
+    "grade": "B",
+    "computed": true,
+    "financial_transparency": "A",
+    "platform_completeness": "A",
+    "record_available": true,
+    "red_flags_count": 3,
+    "computed_at": "2026-03-18"
+  },
+  "fec_candidate_id": "H0IL07167",
+  "fec_committee_id": "C00844878",
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

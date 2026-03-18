@@ -1,0 +1,81 @@
+{
+  "id": "leticia-garcia-dist16",
+  "name": "Leticia \"Letty\" Garcia",
+  "party": "Democratic",
+  "office": "Cook County Commissioner District 16",
+  "race_id": "cook-county-commissioner-dist-16",
+  "incumbent": false,
+  "bio": "Leticia 'Letty' Garcia, 42, is a nurse by profession and the current Berwyn City Clerk. She ran against Frank Aguilar in the 2022 Democratic primary, losing by about 8 points (45.7% to 54.3%). In 2025, she ran as an independent and was elected City Clerk of Berwyn. She is presenting herself as the grassroots progressive in the three-way 2026 primary, contrasting with both the incumbent Aguilar and well-funded challenger Miranda Hernandez. According to media reports, she has raised less than $10,000 for her campaign. She is also simultaneously on the ballot running for Democratic State Central Committeewoman from the 4th Congressional District against incumbent Elizabeth 'Lisa' Hernandez — the mother of her rival Miranda Hernandez.",
+  "prior_office": "Berwyn City Clerk (elected 2025, serving as of 2026)",
+  "website": "https://votelettygarcia.com/",
+  "photo_url": null,
+  "jacket": {
+    "total_raised": null,
+    "cash_on_hand": null,
+    "data_date": "2026-03-14",
+    "source": "https://illinoissunshine.org/county-races/2026/",
+    "note": "Raised less than $10,000 per media reports (Riverside-Brookfield Landmark). Illinois Sunshine committee URL not confirmed. Total District 16 race funds = $214,402.83 (all three candidates).",
+    "fec_id": null,
+    "ilsbe_id": null,
+    "donors": []
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "policy_platform": [
+    {
+      "topic": "Position",
+      "position": "Responsible budgeting and transparency in county spending"
+    },
+    {
+      "topic": "Position",
+      "position": "Increased access to health and mental health services for seniors, veterans, children, and families"
+    },
+    {
+      "topic": "Position",
+      "position": "Property tax relief and exemptions for homeowners and small businesses"
+    },
+    {
+      "topic": "Position",
+      "position": "Infrastructure maintenance and flood mitigation"
+    }
+  ],
+  "career_history": [
+    {
+      "role": "Berwyn City Clerk",
+      "org": "City of Berwyn",
+      "years": "2025–present",
+      "highlight": "Elected independently in 2025"
+    },
+    {
+      "role": "Nurse",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    }
+  ],
+  "endorsements": [],
+  "data_status": "partial",
+  "sources": [
+    "https://ballotpedia.org/Leticia_Garcia_(Illinois)",
+    "https://www.rblandmark.com/2026/03/10/cook-county-4th-district-race/",
+    "https://www.chicagotribune.com/2026/03/14/cook-county-board-seats-in-play-new-faces-guaranteed-among-17-commissioners/",
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election"
+  ],
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": {
+    "grade": "C",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "A",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-18"
+  },
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

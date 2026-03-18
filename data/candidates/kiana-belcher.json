@@ -1,0 +1,127 @@
+{
+  "id": "kiana-belcher",
+  "name": "Kiana Belcher",
+  "party": "Democratic",
+  "office": "Cook County Commissioner District 5",
+  "race_id": "cook-county-commissioner-dist-5",
+  "incumbent": false,
+  "bio": "Kiana Belcher is a Dolton, Illinois trustee challenging incumbent Commissioner Kisha McCaskill in the 5th District Democratic primary.",
+  "prior_office": "Trustee, Dolton, Illinois (current)",
+  "website": "https://belcherfor5thdistrict.com/",
+  "jacket": {
+    "total_raised": null,
+    "cash_on_hand": 96675.48,
+    "data_date": "2026-03-14",
+    "source": "https://illinoissunshine.org/committees/24710/",
+    "note": "Committee: Friends of Kiana Belcher (ID 24710, originally filed for Dolton Trustee, now used for Commissioner race). Funds available $73,175.48 + contributions since Dec 31, 2025 of $23,500. Debts: $10,800. Top donors: SEIU Illinois Council ($30,000), candidate self ($24,650), Garrett Ghezzi ($21,260), SEIU Local 73 B-PAC ($20,000), 144 Wentworth Inc ($9,000). Heavy labor union support.",
+    "fec_id": null,
+    "ilsbe_id": "24710",
+    "donors": [
+      {
+        "name": "SEIU ILLINOIS COUNCIL",
+        "amount": 30000,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/24710/",
+        "confirmed": true
+      },
+      {
+        "name": "Kiana Belcher",
+        "amount": 24650,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/24710/",
+        "confirmed": true
+      },
+      {
+        "name": "Garrett Ghezzi",
+        "amount": 21260,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/24710/",
+        "confirmed": true
+      },
+      {
+        "name": "S.E.I.U LOCAL 73 B-PAC",
+        "amount": 20000,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/24710/",
+        "confirmed": true
+      },
+      {
+        "name": "144 WENTWORTH INC",
+        "amount": 9000,
+        "category": "Corporate",
+        "source": "https://illinoissunshine.org/committees/24710/",
+        "confirmed": true
+      },
+      {
+        "name": "Friends of Jason House",
+        "amount": 7500,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/24710/",
+        "confirmed": true
+      },
+      {
+        "name": "Charles Williams",
+        "amount": 5000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/24710/",
+        "confirmed": true
+      },
+      {
+        "name": "Omega Veteran",
+        "amount": 5000,
+        "category": "Corporate",
+        "source": "https://illinoissunshine.org/committees/24710/",
+        "confirmed": true
+      },
+      {
+        "name": "Sandli Corporation",
+        "amount": 2000,
+        "category": "Corporate",
+        "source": "https://illinoissunshine.org/committees/24710/",
+        "confirmed": true
+      },
+      {
+        "name": "Saber Sabbah",
+        "amount": 2000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/24710/",
+        "confirmed": true
+      }
+    ]
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "policy_platform": [],
+  "career_history": [
+    {
+      "role": "Trustee, Dolton, Illinois",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    }
+  ],
+  "data_status": "partial",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
+    "https://illinoissunshine.org/committees/24710/"
+  ],
+  "photo_url": null,
+  "endorsements": [],
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "F",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-18"
+  },
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

@@ -4,17 +4,148 @@
   "party": "Democratic",
   "office": "U.S. Senate (Illinois)",
   "race_id": "us-senate-il-d-2026",
-  "bio": "Steve Botsford Jr. is listed among Democratic candidates for the 2026 Illinois U.S. Senate primary. His name appears in statewide candidate summaries for the March 17 ballot. (Source: Shaw Local primary ballot guide, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
-  "prior_office": "Not listed in source summary",
-  "website": "",
+  "data_status": "partial",
+  "data_note": "Limited public information available. Check your county clerk's office or the Illinois State Board of Elections for filing info.",
+  "bio": "Steve Botsford Jr. is a Chicago real estate manager (family-owned business) and former legislative aide to Rep. Tony Cárdenas (D-CA). He ran for Chicago City Council Ward 43 in 2023 (finished 5th). He holds degrees from Notre Dame (BA 2011), Georgetown (MA applied economics 2018), and Northwestern Kellogg (MBA 2021). His platform focuses on broadening the Democratic coalition and supply-side progressive economics. (Source: Ballotpedia; ILSOS filing confirmed)",
+  "prior_office": "Legislative Aide to Rep. Tony Cárdenas (D-CA); 2023 Chicago City Council candidate (Ward 43)",
+  "website": "https://ballotpedia.org/Steve_Botsford_Jr.",
   "jacket": {
-    "total_raised": null,
+    "total_raised": 368565,
     "data_date": "2026-03-13",
     "source": "https://www.fec.gov/data/candidates/senate/?cycle=2026",
     "note": "FEC totals pending direct ETL import.",
-    "donors": []
+    "donors": [
+      {
+        "name": "Steve Botsford Jr. (candidate self-contribution)",
+        "amount": 359474,
+        "category": "individual",
+        "source": "https://api.open.fec.gov/v1/candidate/S6IL00656/totals/?cycle=2026",
+        "confirmed": true,
+        "amount_note": "FEC confirmed: $359,474 from candidate himself — 97.5% self-funded. Telegraph reporting confirmed $252,133 of self-funding in Q4 alone."
+      },
+      {
+        "name": "Other individual donors",
+        "amount": 9091,
+        "category": "individual",
+        "source": "https://api.open.fec.gov/v1/candidate/S6IL00656/totals/?cycle=2026",
+        "confirmed": true,
+        "amount_note": "FEC confirmed: only $9,091 from non-candidate individual donors"
+      }
+    ],
+    "fec_id": "S6IL00656"
   },
-  "red_flags": [],
+  "red_flags": [
+    {
+      "type": "dark-money",
+      "label": "97.5% self-funded campaign",
+      "detail": "Steve Botsford Jr. self-funded $359,474 of his $368,565 raised (97.5%). Only $9,091 came from outside donors. Campaign is almost entirely personal wealth.",
+      "source": "https://api.open.fec.gov/v1/candidate/S6IL00656/totals/?cycle=2026",
+      "confirmed": true
+    }
+  ],
   "key_votes": [],
-  "endorsements": []
+  "endorsements": [],
+  "career_history": [
+    {
+      "role": "Real Estate Manager",
+      "org": "Family-owned business",
+      "years": "2021–present",
+      "highlight": "Northwestern MBA 2021"
+    },
+    {
+      "role": "Legislative Aide",
+      "org": "Office of Rep. Tony Cárdenas (D-CA)",
+      "years": "pre-2021",
+      "highlight": "Congressional staff experience; Georgetown MA applied economics 2018"
+    },
+    {
+      "role": "Chicago City Council Candidate, Ward 43",
+      "org": "Chicago city election",
+      "years": "2023",
+      "highlight": "Finished 5th with 9% — first political campaign"
+    }
+  ],
+  "policy_platform": [
+    {
+      "topic": "Cost of Living",
+      "position": "Build more housing, expand clean energy, cut regulatory barriers driving up prices.",
+      "source": "https://ballotpedia.org/Steve_Botsford_Jr."
+    },
+    {
+      "topic": "Democratic Party Reform",
+      "position": "Broaden the Democratic Party coalition; appeal to moderates and independents. Term limits and filibuster reform supporter.",
+      "source": "https://ballotpedia.org/Steve_Botsford_Jr."
+    },
+    {
+      "topic": "Economy",
+      "position": "Restore the American Dream and upward mobility. Supply-side progressive approach.",
+      "source": "https://ballotpedia.org/Steve_Botsford_Jr."
+    }
+  ],
+  "social_pulse": {
+    "summary": "No significant social media presence or public discourse found in available sources as of March 2026.",
+    "sentiment": "low-profile",
+    "last_updated": "2026-03-13"
+  },
+  "trust_indicators": [
+    {
+      "label": "Disclosure filings status",
+      "value": "Not confirmed in public sources as of March 2026",
+      "type": "neutral"
+    }
+  ],
+  "transparency_score": {
+    "grade": "A",
+    "computed": true,
+    "financial_transparency": "A",
+    "platform_completeness": "B",
+    "record_available": false,
+    "red_flags_count": 1,
+    "computed_at": "2026-03-18"
+  },
+  "fec_candidate_id": "S6IL00656",
+  "fec_committee_id": "C00920348",
+  "finance": {
+    "total_raised": 368570,
+    "total_spent": 341353,
+    "cash_on_hand": 27217,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "MURPHY, DANIEL",
+      "amount": 1000,
+      "employer": "IDEALEASE INC",
+      "occupation": "EXECUTIVE",
+      "date": "2025-12-11"
+    },
+    {
+      "name": "MCAUELY, THOMAS",
+      "amount": 1000,
+      "employer": "ASHLAND FOREST CAPITAL PARTNER",
+      "occupation": "EXECUTIVE",
+      "date": "2025-12-23"
+    },
+    {
+      "name": "MAYER, RICHARD",
+      "amount": 1000,
+      "employer": "TROLLER MAYER ASSOCIATES",
+      "occupation": "LANDSCAPE ARCHITECT",
+      "date": "2025-10-30"
+    },
+    {
+      "name": "NAUERT, JON",
+      "amount": 250,
+      "employer": "COLTALA",
+      "occupation": "INVESTOR",
+      "date": "2025-11-06"
+    }
+  ],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

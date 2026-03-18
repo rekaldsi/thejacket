@@ -1,0 +1,77 @@
+{
+  "id": "elyse-hoffenberg",
+  "name": "Elyse Hoffenberg",
+  "party": "Democratic",
+  "office": "Cook County Commissioner District 17",
+  "race_id": "cook-county-commissioner-dist-17",
+  "incumbent": false,
+  "bio": "Elyse Hoffenberg is the Democratic candidate for Cook County Commissioner District 17, running unopposed in the March 17, 2026 Democratic primary. She currently serves as Lyons Township clerk and is a former assistant state's attorney. She also serves as President of the Lyons Township Mental Health Commission. She previously filed to run for Illinois House District 82 in 2018 but withdrew before the primary (Tom Chlystek ultimately ran and lost to incumbent Jim Durkin). She will face Republican Liz Doody Gorman in the November 2026 general election for the open seat being vacated by retiring Commissioner Sean Morrison. District 17 runs along Cook County's western boundary from Elk Grove Village south through Schiller Park, Oak Brook, Lemont, Palos Park, and Orland Park.",
+  "prior_office": "Lyons Township Clerk; former Assistant State's Attorney; Mental Health Commission President",
+  "website": null,
+  "photo_url": null,
+  "jacket": {
+    "total_raised": null,
+    "cash_on_hand": null,
+    "data_date": "2026-03-14",
+    "source": "https://illinoissunshine.org/county-races/2026/",
+    "note": "Total District 17 race funds = $145,904.32 (both candidates combined). Illinois Sunshine committee URL not confirmed for Hoffenberg.",
+    "fec_id": null,
+    "ilsbe_id": null,
+    "donors": []
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "policy_platform": [],
+  "career_history": [
+    {
+      "role": "Lyons Township Clerk",
+      "org": "Lyons Township",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "President, Lyons Township Mental Health Commission",
+      "org": "Lyons Township Mental Health Commission",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "Assistant State's Attorney",
+      "org": "Cook County State's Attorney's Office (former)",
+      "years": "",
+      "highlight": ""
+    }
+  ],
+  "endorsements": [
+    "Chicago Federation of Labor (CFL)",
+    "IBEW Local 134"
+  ],
+  "data_status": "partial",
+  "sources": [
+    "https://ballotpedia.org/Elyse_Hoffenberg",
+    "https://www.chicagotribune.com/2026/03/14/cook-county-board-seats-in-play-new-faces-guaranteed-among-17-commissioners/",
+    "https://www.chicagotribune.com/2025/11/04/open-seats-cook-county-primary-election/",
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
+    "https://ltmhc.org/comissioners-and-staff/",
+    "https://chicagolabor.org/wp-content/uploads/P2026_PrimaryEndorsementList_COOK-v4.pdf"
+  ],
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "F",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-18"
+  },
+  "uncontested": true,
+  "data_note": "Uncontested in the Democratic primary for District 17. Will face Republican Elizabeth Gorman in November.",
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

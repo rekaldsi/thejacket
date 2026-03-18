@@ -1,0 +1,106 @@
+{
+  "id": "maggie-trevor",
+  "name": "Maggie Trevor",
+  "party": "Democratic",
+  "office": "Cook County Commissioner District 9",
+  "race_id": "cook-county-commissioner-dist-9",
+  "incumbent": true,
+  "bio": "Maggie Trevor was born and raised in Rolling Meadows, Illinois. She earned a B.A. in chemistry and an M.A. and Ph.D. in political science from the University of Chicago. After a research fellowship at Harvard's Government Data Center she taught political science at the University of Iowa. She left academia in 1999 and worked in health care market research in California, including positions at Kaiser Foundation Health Plan and Blue Shield of California. In 2011 she joined YouGov America as an operations executive and VP of YouGov Healthcare. In 2014 she returned to Rolling Meadows and founded her own research firm. She became a volunteer on Rolling Meadows' Environmental Committee and served as bicycle and pedestrian liaison to the city's Traffic Committee. Elected to the Cook County Board in 2022 (defeating Republican Matt Podgorski 50.3%-49.7%), she is running for her first full re-election. She focuses on health care access, equitable taxes, environmental protection, and transportation improvements.",
+  "prior_office": "Cook County Commissioner, District 9 (December 5, 2022–present); Democratic candidate for Illinois House District 54 (2018, 2020 — both general election losses to Rep. Thomas Morrison)",
+  "website": "https://maggietrevor4cook.com/",
+  "photo_url": null,
+  "jacket": {
+    "total_raised": null,
+    "cash_on_hand": 29735.24,
+    "data_date": "2026-03-14",
+    "source": "https://illinoissunshine.org/committees/34078/",
+    "note": "ILSBE committee ID 34078. Cash on hand $29,735.24. Uncontested in Democratic primary.",
+    "fec_id": null,
+    "ilsbe_id": "34078",
+    "donors": []
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "policy_platform": [
+    {
+      "topic": "Position",
+      "position": "Health care access and opposition to federal Medicaid/ACA cuts"
+    },
+    {
+      "topic": "Position",
+      "position": "Environmental protection and forest preserve stewardship"
+    },
+    {
+      "topic": "Position",
+      "position": "Transportation infrastructure improvements"
+    },
+    {
+      "topic": "Position",
+      "position": "Equitable and efficient taxation"
+    }
+  ],
+  "career_history": [
+    {
+      "role": "Cook County Commissioner, District 9",
+      "org": "Cook County Board of Commissioners",
+      "years": "2022–present",
+      "highlight": "First elected 2022; serves on Audit, Criminal Justice, Emergency Management (Vice-Chair Workers' Comp), Environment and Sustainability, Finance committees"
+    },
+    {
+      "role": "VP of YouGov Healthcare / Operations Executive",
+      "org": "YouGov America",
+      "years": "2011–2014",
+      "highlight": ""
+    },
+    {
+      "role": "Market Researcher",
+      "org": "Blue Shield of California / Kaiser Foundation Health Plan",
+      "years": "1999–2011",
+      "highlight": ""
+    },
+    {
+      "role": "Political Science Professor",
+      "org": "University of Iowa",
+      "years": "~1994–1999",
+      "highlight": ""
+    },
+    {
+      "role": "Research Fellow",
+      "org": "Harvard University Government Data Center",
+      "years": "early 1990s",
+      "highlight": ""
+    }
+  ],
+  "endorsements": [
+    "Chicago Federation of Labor",
+    "Service Employees International Union (SEIU) Illinois State Council",
+    "Personal PAC",
+    "Citizens Action Illinois"
+  ],
+  "data_status": "partial",
+  "sources": [
+    "https://maggietrevor4cook.com/meet-maggie/",
+    "https://ballotpedia.org/Maggie_Trevor",
+    "https://illinoissunshine.org/committees/citizens-for-maggie-trevor-34078/",
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election"
+  ],
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": {
+    "grade": "C",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "A",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-18"
+  },
+  "uncontested": true,
+  "data_note": "Uncontested in the Democratic primary. Will face Republican Ammie Kessem in November.",
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

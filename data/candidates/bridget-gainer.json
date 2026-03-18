@@ -1,0 +1,222 @@
+{
+  "id": "bridget-gainer",
+  "name": "Bridget Gainer",
+  "party": "Democratic",
+  "office": "Cook County Commissioner District 10",
+  "race_id": "cook-county-commissioner-dist-10",
+  "incumbent": true,
+  "data_status": "enriched",
+  "bio": "Bridget Gainer (born 1968/1969) is a Democrat who has served as Cook County Commissioner for the 10th District since April 2009, seeking her fourth full term in March 2026. She was born and raised in the Beverly neighborhood on Chicago's south side. She graduated from the University of Illinois at Urbana-Champaign in 1990 with a BA in English and Political Science, and later earned an MBA from the University of Chicago. After college she worked as a community organizer with the Jesuit Volunteer Corps in New York City. She returned to Chicago in 1994, working as a budget analyst in Mayor Richard M. Daley's City Hall, then as Director of Lakefront Parks for the Chicago Park District. She subsequently joined Aon, the global risk management firm, where she currently serves as Global Head of Public Affairs & Policy. She was appointed to the County Board in April 2009 to replace Mike Quigley, who won the special election for the congressional seat vacated by Rahm Emanuel. Gainer's signature legislative achievements include founding and chairing the Cook County Land Bank Authority (CCLBA) — the largest geographic land bank in the country — and co-sponsoring the Cook County Earned Sick Time Ordinance in 2016. She chairs the Pension and Business and Economic Development committees and co-chairs Workforce, Housing and Community Development. She was the first woman to chair the Cook County Health and Hospitals board. She is the founder of 'Cause the Effect Chicago' (originally 'Off the Sidelines Chicago'), a women's civic impact organization she co-founded with U.S. Sen. Kirsten Gillibrand in 2015 and which grew to over 3,000 members. Her 2026 challenger Drake Warren has raised the issue of her dual employment at Aon and her attendance record: a March 2026 Chicago Sun-Times analysis found she missed approximately 23% of County Board meetings, the second-worst record among incumbents.",
+  "prior_office": "Cook County Commissioner District 10 (first appointed April 2009; won 2010, 2014, 2018, 2022 full terms)",
+  "website": "https://www.bridgetgainer.com/",
+  "jacket": {
+    "committee_name": "Citizens for Bridget Gainer",
+    "total_raised": null,
+    "donors": [],
+    "ilsbe_note": "Campaign committee is 'Citizens for Bridget Gainer' per campaign website disclaimer. ILSBE direct query did not return itemized data in this session. Source URL: www.elections.il.gov. Site footer confirms: 'A copy of our report filed with the State Board of Elections is (or will be) available on the Board's official website (www.elections.il.gov).'",
+    "source": "https://www.bridgetgainer.com (committee name confirmation); https://www.elections.il.gov (ILSBE filing source)",
+    "note": "Gainer entered the 2026 cycle with a cash advantage over challenger Drake Warren but was reportedly out-fundraised in recent quarters per The Daily Line (paywalled). Warren self-funded $100,000+. Full ILSBE itemized donor data requires direct database query.",
+    "data_date": "2026-03-14",
+    "confirmed": false
+  },
+  "red_flags": [
+    {
+      "type": "dual_employment",
+      "label": "Full-Time Corporate Job While Serving as Commissioner",
+      "detail": "Bridget Gainer simultaneously serves as Global Head of Public Affairs & Policy at Aon (a global insurance/risk management firm) and as an elected County Commissioner. Challenger Drake Warren has made this a central campaign issue, arguing the county role should be full-time. Gainer has argued her Aon expertise benefits her county work. A March 2026 Chicago Sun-Times analysis found she missed approximately 23% of County Board meetings — the second-worst attendance record among incumbent commissioners.",
+      "source": "https://chicago.suntimes.com/2026/03/06/cook-county-board-commissioners-meeting-attendance-absence-stanley-moore-bridget-gainer; https://www.chicagotribune.com/2026/03/14/cook-county-board-seats-in-play-new-faces-guaranteed-among-17-commissioners/",
+      "confirmed": true
+    },
+    {
+      "type": "attendance",
+      "label": "Missed ~23% of County Board Meetings (2026 analysis)",
+      "detail": "Chicago Sun-Times analysis published March 6, 2026 found Gainer missed approximately 23% of Cook County Board meetings among incumbent commissioners, placing her second-worst. A prior 2018 Sun-Times analysis found she missed 17% of full board meetings over five years. Gainer noted she is the only commissioner with a single-parent household. Warren used this statistic in campaign social media.",
+      "source": "https://chicago.suntimes.com/2026/03/06/cook-county-board-commissioners-meeting-attendance-absence-stanley-moore-bridget-gainer; https://chicago.suntimes.com/news/4-cook-county-board-members-missed-25-or-more-meetings-in-past-5-years-survey",
+      "confirmed": true
+    }
+  ],
+  "key_votes": [
+    {
+      "bill": "Cook County Earned Sick Time Ordinance, 2016",
+      "vote": "lead sponsor",
+      "summary": "Gainer and Commissioner Jesus Garcia (7th) were lead sponsors of the Cook County Earned Sick Time Ordinance, approved by the County Board on October 5, 2016. The ordinance provided up to 5 paid sick days/year (1 hour per 40 worked) for workers in suburban Cook County, covering an estimated 441,000 workers. It made Cook County the largest county in the U.S. with paid sick leave legislation, mirroring Chicago's ordinance. Effective July 1, 2017.",
+      "source": "https://www.arisechicago.org/workers_claim_victory_to_cook_county_paid_sick_days_legislation_1; https://www.chicagotribune.com/business/ct-cook-county-paid-sick-leave-1006-biz-20161005-story.html"
+    },
+    {
+      "bill": "Cook County Land Bank Authority Ordinance (founding ordinance)",
+      "vote": "lead author/founder",
+      "summary": "Gainer founded and authored the Cook County Land Bank Authority (CCLBA) ordinance, creating what became the largest geographic land bank in the country. The CCLBA addresses the county's approximately 55,000 vacant residential, industrial and commercial properties. As of the ordinance's implementation, over 400 homes had been purchased and rehabbed through the program. Gainer has chaired the CCLBA board since its founding.",
+      "source": "https://www.cookcountylandbank.org/about/board-of-directors-staff/; https://ballotpedia.org/Bridget_Gainer (campaign page excerpts)"
+    },
+    {
+      "bill": "Cook County Pension Reform (collaborative working group bill)",
+      "vote": "lead champion",
+      "summary": "Gainer created the Cook County Board's first Pension Committee and chaired it. She launched the OpenPensions.org website for public transparency and led a labor-government working group that drafted one of Illinois's first collaborative pension reform bills. The resulting bill became a model for county-level pension reform efforts.",
+      "source": "https://ballotpedia.org/Bridget_Gainer (sourcing campaign site content); https://www.aflcio-hit.com/employees/bridget-gainer/"
+    },
+    {
+      "bill": "Cook County Criminal Justice Reforms — shackling ban and new mothers' separation policy",
+      "vote": "lead champion",
+      "summary": "Gainer led the effort to ban shackling of pregnant detainees during delivery at Cook County Jail and eliminate the practice of separating new mothers awaiting trial from their newborns. She also created the first citizen advisory board for the Juvenile Temporary Detention Center.",
+      "source": "https://ballotpedia.org/Bridget_Gainer (campaign site content)"
+    }
+  ],
+  "policy_platform": [
+    {
+      "topic": "No Property Tax Increases",
+      "position": "Has pledged to support no future budget that includes property tax increases.",
+      "source": "https://www.chicagotribune.com/2026/02/18/editorial-bridget-gainer-cook-county-board-10th-district-democratic-primary/"
+    },
+    {
+      "topic": "Cook County Land Bank / Neighborhood Revitalization",
+      "position": "Founding chair of CCLBA; believes vacant property redevelopment is central to neighborhood health, tax base stability, and economic development. 55,000+ vacant properties in Cook County require structural intervention beyond market forces.",
+      "source": "https://ballotpedia.org/Bridget_Gainer; https://www.cookcountylandbank.org/about/board-of-directors-staff/"
+    },
+    {
+      "topic": "Workforce Development / Living Wage Jobs",
+      "position": "Supports reimagined apprenticeship programs with community colleges and businesses that create pathways to living-wage jobs without requiring four-year degrees. Chairs the Workforce, Housing and Community Development committee.",
+      "source": "https://ballotpedia.org/Bridget_Gainer (campaign site); https://www.cookcountyil.gov/all-people/bridget-gainer"
+    },
+    {
+      "topic": "Pension Stewardship",
+      "position": "Founded and chairs the County Board's Pension Committee. Supports funded pension obligations through collaborative reform, not cuts. Created OpenPensions.org for public transparency.",
+      "source": "https://ballotpedia.org/Bridget_Gainer; https://www.aflcio-hit.com/employees/bridget-gainer/"
+    },
+    {
+      "topic": "Worker Rights / Paid Leave",
+      "position": "Lead sponsor of Cook County Earned Sick Time Ordinance (2016). Advocates for employment protections including ban on employer discrimination based on credit history.",
+      "source": "https://www.arisechicago.org/workers_claim_victory_to_cook_county_paid_sick_days_legislation_1"
+    },
+    {
+      "topic": "Criminal Justice / Jail Reform",
+      "position": "Advocate for reducing non-violent offenders in county jail, banning shackling of pregnant detainees, and protecting new mothers awaiting trial. Created first citizen advisory board for Juvenile Temporary Detention Center.",
+      "source": "https://ballotpedia.org/Bridget_Gainer (campaign content)"
+    },
+    {
+      "topic": "Outside Employment / Dual Roles",
+      "position": "Argues her private sector expertise from Aon provides valuable insight for county governance and is an asset to constituents. Has not indicated plans to leave Aon if re-elected.",
+      "source": "https://www.chicagotribune.com/2026/03/14/cook-county-board-seats-in-play-new-faces-guaranteed-among-17-commissioners/"
+    }
+  ],
+  "career_history": [
+    {
+      "role": "Cook County Commissioner, 10th District",
+      "org": "Cook County Board of Commissioners",
+      "years": "2009–present",
+      "highlight": "Appointed April 2009 to replace Mike Quigley; won full terms in 2010, 2014, 2018, 2022. Chair: Business and Economic Development, Pension. Chairs: Workforce, Housing and Community Development. Member: Finance, Health and Hospitals, Criminal Justice, Transportation, Zoning and Building committees."
+    },
+    {
+      "role": "Global Head of Public Affairs & Policy",
+      "org": "Aon (global risk management firm)",
+      "years": "approximately 2009–present (concurrent with commissioner role)",
+      "highlight": "Previously VP of Global Public Affairs; leads Aon's government affairs and policy function. This dual role has been the central controversy in the 2026 primary challenge."
+    },
+    {
+      "role": "Chair, Cook County Land Bank Authority (CCLBA)",
+      "org": "CCLBA",
+      "years": "2013–present",
+      "highlight": "Founded the largest geographic land bank in the United States; 400+ homes purchased and rehabbed as of recent data."
+    },
+    {
+      "role": "Founder / Chair, Cause the Effect Chicago (fmr. Off the Sidelines Chicago)",
+      "org": "Cause the Effect Chicago",
+      "years": "2015–present",
+      "highlight": "Co-founded civic impact organization for women with U.S. Sen. Kirsten Gillibrand; grew to 3,000+ members."
+    },
+    {
+      "role": "Director of Lakefront Parks",
+      "org": "Chicago Park District",
+      "years": "mid-1990s",
+      "highlight": ""
+    },
+    {
+      "role": "Budget Analyst",
+      "org": "City of Chicago / Mayor Richard M. Daley's Office",
+      "years": "mid-1990s",
+      "highlight": ""
+    },
+    {
+      "role": "Community Organizer",
+      "org": "Jesuit Volunteer Corps, New York City",
+      "years": "1990–1994",
+      "highlight": "After-school programming advocacy; returned to Chicago in 1994."
+    }
+  ],
+  "endorsements": [
+    {
+      "org": "Chicago Tribune Editorial Board",
+      "significance": "Endorsed February 18, 2026: 'Gainer's smarts and experience make her an essential problem-solver on the county board.'",
+      "source": "https://www.chicagotribune.com/2026/02/18/editorial-bridget-gainer-cook-county-board-10th-district-democratic-primary/"
+    }
+  ],
+  "social_pulse": {
+    "summary": "Long-serving incumbent with high name recognition in District 10. Central social media controversy is her dual employment at Aon and 23% missed-meetings statistic, which challenger Drake Warren has amplified. Generally positive sentiment among establishment Democrats; progressive critics focused on time/commitment issues. District includes Lakeview, Uptown, Rogers Park, Norwood Park — lakefront progressive base.",
+    "sentiment": "mixed",
+    "hashtags": [
+      "#BridgetGainer",
+      "#CookCounty",
+      "#District10",
+      "#CCBoard"
+    ],
+    "last_updated": "2026-03-14"
+  },
+  "trust_indicators": [
+    {
+      "label": "ILSBE filing confirmed (committee name: Citizens for Bridget Gainer)",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "17-year incumbent with verifiable legislative record",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "Founded Cook County Land Bank Authority — documented public impact",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "Chicago Tribune endorsement (2026)",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "Missing ~23% of County Board meetings (2026 Sun-Times analysis)",
+      "value": "Second-worst attendance among incumbents per March 2026 Sun-Times analysis",
+      "type": "negative"
+    },
+    {
+      "label": "Dual employment: Aon Global Head of Public Affairs while serving as elected Commissioner",
+      "value": "Confirmed concurrent employment; potential conflict-of-interest flag raised by challenger",
+      "type": "flag"
+    }
+  ],
+  "photo_url": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/Bridget_Gainer",
+    "https://www.cookcountyil.gov/all-people/bridget-gainer",
+    "https://www.aflcio-hit.com/employees/bridget-gainer/",
+    "https://www.cookcountylandbank.org/about/board-of-directors-staff/",
+    "https://ballotpedia.org/Bridget_Gainer",
+    "https://www.arisechicago.org/workers_claim_victory_to_cook_county_paid_sick_days_legislation_1",
+    "https://www.chicagotribune.com/2026/02/18/editorial-bridget-gainer-cook-county-board-10th-district-democratic-primary/",
+    "https://chicago.suntimes.com/2026/03/06/cook-county-board-commissioners-meeting-attendance-absence-stanley-moore-bridget-gainer",
+    "https://www.chicagotribune.com/2026/03/14/cook-county-board-seats-in-play-new-faces-guaranteed-among-17-commissioners/"
+  ],
+  "transparency_score": {
+    "grade": "B",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "A",
+    "record_available": true,
+    "red_flags_count": 2,
+    "computed_at": "2026-03-18"
+  },
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

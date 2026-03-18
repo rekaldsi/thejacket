@@ -1,0 +1,244 @@
+{
+  "id": "wesam-shahed",
+  "name": "Wesam Shahed",
+  "party": "Democratic",
+  "office": "Cook County Commissioner District 6",
+  "race_id": "cook-county-commissioner-dist-6",
+  "incumbent": false,
+  "bio": "Wesam Shahed is a former prosecutor running in the open District 6 Democratic primary. He has notable endorsements including from the Chicago Tribune. His campaign has raised over $591,000 — by far the most of any candidate in District 6 — with heavy support from Arab-American community donors and the SEIU.",
+  "prior_office": "Former prosecutor (Cook County State's Attorney's Office or similar)",
+  "website": "https://votewesam.com",
+  "jacket": {
+    "total_raised": null,
+    "cash_on_hand": 591536.63,
+    "data_date": "2026-03-14",
+    "source": "https://illinoissunshine.org/committees/40770/",
+    "note": "Committee: Friends of Wesam Shahed (ID 40770, founded Jul 30, 2025). Funds available $497,536.63 + contributions since Dec 31, 2025 of $94,000. No debts. DOMINANT fundraiser in District 6 race. Top donors: SEIU IL Council PAC ($20,000), Baste Financial Services ($14,600), M&M Foot And Ankle Specialists ($14,600), The Nut House Company ($14,600), Sulaiman Law Group ($14,600), and more than 15 individual Arab-American donors at $7,300 each including Saber Sabbah, Marwan Nafal, Abdul Alnobani, Mansoor Ahmed, Mavra Ali, Rabia Syed, Joseph Rabi, Sharif Maadi, Bader Almoshelli, Bader Brothers Builders. Related to Rashid for Illinois committee (Congress).",
+    "fec_id": null,
+    "ilsbe_id": "40770",
+    "donors": [
+      {
+        "name": "SEIU IL Council PAC",
+        "amount": 20000,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/40770/",
+        "confirmed": true
+      },
+      {
+        "name": "Baste Financial Services Inc.",
+        "amount": 14600,
+        "category": "Corporate",
+        "source": "https://illinoissunshine.org/committees/40770/",
+        "confirmed": true
+      },
+      {
+        "name": "M & M Foot And Ankle Specialists LLC",
+        "amount": 14600,
+        "category": "Corporate",
+        "source": "https://illinoissunshine.org/committees/40770/",
+        "confirmed": true
+      },
+      {
+        "name": "The Nut House Company",
+        "amount": 14600,
+        "category": "Corporate",
+        "source": "https://illinoissunshine.org/committees/40770/",
+        "confirmed": true
+      },
+      {
+        "name": "Sulaiman Law Group LTD",
+        "amount": 14600,
+        "category": "Corporate",
+        "source": "https://illinoissunshine.org/committees/40770/",
+        "confirmed": true
+      },
+      {
+        "name": "Dearborn Wholesale",
+        "amount": 10000,
+        "category": "Corporate",
+        "source": "https://illinoissunshine.org/committees/40770/",
+        "confirmed": true
+      },
+      {
+        "name": "Commercial Properties 17 Inc.",
+        "amount": 7300,
+        "category": "Corporate",
+        "source": "https://illinoissunshine.org/committees/40770/",
+        "confirmed": true
+      },
+      {
+        "name": "Saber Sabbah",
+        "amount": 7300,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40770/",
+        "confirmed": true
+      },
+      {
+        "name": "Marwan Nafal",
+        "amount": 7300,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40770/",
+        "confirmed": true
+      },
+      {
+        "name": "QUANTUMCODE LLC",
+        "amount": 7300,
+        "category": "Corporate",
+        "source": "https://illinoissunshine.org/committees/40770/",
+        "confirmed": true
+      },
+      {
+        "name": "Elmosa & Associates Attorney At Law",
+        "amount": 7300,
+        "category": "Corporate",
+        "source": "https://illinoissunshine.org/committees/40770/",
+        "confirmed": true
+      },
+      {
+        "name": "Sheri Maali",
+        "amount": 7300,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40770/",
+        "confirmed": true
+      },
+      {
+        "name": "Bader Brothers Builders, Inc.",
+        "amount": 7300,
+        "category": "Corporate",
+        "source": "https://illinoissunshine.org/committees/40770/",
+        "confirmed": true
+      },
+      {
+        "name": "Mansoor Ahmed",
+        "amount": 7300,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40770/",
+        "confirmed": true
+      },
+      {
+        "name": "Rabia Syed",
+        "amount": 7300,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40770/",
+        "confirmed": true
+      },
+      {
+        "name": "Joseph Rabi",
+        "amount": 7300,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40770/",
+        "confirmed": true
+      },
+      {
+        "name": "Abdul Alnobani",
+        "amount": 7300,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40770/",
+        "confirmed": true
+      },
+      {
+        "name": "Sharif Maadi",
+        "amount": 7300,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40770/",
+        "confirmed": true
+      },
+      {
+        "name": "Bader Almoshelli",
+        "amount": 7300,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40770/",
+        "confirmed": true
+      },
+      {
+        "name": "Mavra Ali",
+        "amount": 7300,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40770/",
+        "confirmed": true
+      },
+      {
+        "name": "AZ Management Services INC.",
+        "amount": 7000,
+        "category": "Corporate",
+        "source": "https://illinoissunshine.org/committees/40770/",
+        "confirmed": true
+      },
+      {
+        "name": "Ahmad Properties LLC",
+        "amount": 7000,
+        "category": "Corporate",
+        "source": "https://illinoissunshine.org/committees/40770/",
+        "confirmed": true
+      },
+      {
+        "name": "Mohammed Abdallah",
+        "amount": 7000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40770/",
+        "confirmed": true
+      },
+      {
+        "name": "Rami Sarafa",
+        "amount": 5000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40770/",
+        "confirmed": true
+      },
+      {
+        "name": "Michael Rayan",
+        "amount": 5000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40770/",
+        "confirmed": true
+      }
+    ]
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "policy_platform": [],
+  "career_history": [
+    {
+      "role": "Former prosecutor",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    }
+  ],
+  "endorsements": [
+    "Chicago Tribune"
+  ],
+  "data_status": "partial",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
+    "https://illinoissunshine.org/committees/40770/"
+  ],
+  "photo_url": null,
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "F",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-18"
+  },
+  "news_hits": [
+    {
+      "headline": "Cook County board seats in play, with new faces guaranteed among 17 commissioners",
+      "summary": "Chicago Tribune's pre-primary analysis confirms Shahed and Worth Township Supervisor Patricia Joan Murphy are the only two District 6 candidates who have raised enough money to mount a serious campaign — with Shahed by far the dominant fundraiser at $591K cash on hand vs. a five-candidate field.",
+      "url": "https://www.chicagotribune.com/2026/03/14/cook-county-board-seats-in-play-new-faces-guaranteed-among-17-commissioners/",
+      "date": "2026-03-14",
+      "severity": "medium",
+      "source_name": "Chicago Tribune"
+    }
+  ],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "meridith-hammer",
+  "name": "Meridith Hammer",
+  "party": "Democratic",
+  "office": "circuit",
+  "subcircuit": "17th",
+  "race_id": "judicial-17th-subcircuit-brooks-vacancy",
+  "vacancy_of": "Judge Brooks",
+  "bio": "Meridith Hammer received negative ratings from nearly every bar association in the Alliance — 10 out of the Alliance bar associations rated her Not Recommended or Not Qualified. The CBA also rated her Not Recommended. In a race where both candidates received universally or near-universally negative bar ratings, voters face an unusually difficult choice.",
+  "background": "Attorney with civil and family law background.",
+  "years_experience": 9,
+  "bar_ratings": {
+    "alliance_rating": "NR",
+    "alliance_detail": "10 NR/NQ ratings from Alliance bar associations. Near-universal rejection.",
+    "cba_rating": "NR",
+    "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx"
+  },
+  "red_flags": [
+    {
+      "type": "ethics",
+      "label": "Near-universal Not Recommended from bar associations",
+      "detail": "10 Alliance bar associations rated Meridith Hammer as Not Recommended or Not Qualified. The Chicago Bar Association also rated her Not Recommended. This is a near-consensus negative assessment from the legal community across all evaluating organizations.",
+      "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx",
+      "confirmed": true
+    }
+  ],
+  "uncontested": false,
+  "photo_url": null,
+  "primary_result": {
+    "status": "pending",
+    "yes_pct": null,
+    "no_pct": null,
+    "votes": null,
+    "updated": null
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "id": "che-che-wilson",
+  "name": "Che-Che Wilson",
+  "party": "Democratic",
+  "office": "Cook County Commissioner District 12",
+  "race_id": "cook-county-commissioner-dist-12",
+  "incumbent": false,
+  "bio": "Jose 'Che-Che' Wilson is the Director of Civic Engagement for Equality Illinois, running in the open District 12 Democratic primary. Legal name is Jose Turrubiartez Wilson. Picked up endorsements from Run for Something and Scott Waguespack after Cat Sharp withdrew from the race.",
+  "prior_office": "Director of Civic Engagement, Equality Illinois",
+  "website": "https://votecheche.com/",
+  "jacket": {
+    "total_raised": 67642.2,
+    "cash_on_hand": 48965.86,
+    "data_date": "2026-03-14",
+    "source": "https://illinoissunshine.org/committees/40764/",
+    "note": "Second-largest fundraiser in District 12. Top individual donor is Jose Turrubiartez Wilson ($15,000 — self/family?). Heather Steans ($2,500), 44th Ward Regular Democratic Org ($2,500). Committee name: Friends of Jose 'Che-Che' Wilson.",
+    "fec_id": null,
+    "ilsbe_id": "40764",
+    "donors": [
+      {
+        "name": "Jose Turrubiartez Wilson",
+        "amount": 15000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40764/",
+        "confirmed": true
+      },
+      {
+        "name": "Victor Ravago",
+        "amount": 7300,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40764/",
+        "confirmed": true
+      },
+      {
+        "name": "Haley Lowrance",
+        "amount": 7000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40764/",
+        "confirmed": true
+      },
+      {
+        "name": "Nancy Wolf",
+        "amount": 3550,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40764/",
+        "confirmed": true
+      },
+      {
+        "name": "Clark Pellett",
+        "amount": 3500,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40764/",
+        "confirmed": true
+      },
+      {
+        "name": "44th Ward Regular Democratic Org",
+        "amount": 2500,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/40764/",
+        "confirmed": true
+      },
+      {
+        "name": "Heather Steans",
+        "amount": 2500,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40764/",
+        "confirmed": true
+      },
+      {
+        "name": "Friends of Lakesia",
+        "amount": 1000,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/40764/",
+        "confirmed": true
+      },
+      {
+        "name": "31st Ward Democrats",
+        "amount": 1000,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/40764/",
+        "confirmed": true
+      },
+      {
+        "name": "Carnicerias Guanajuato",
+        "amount": 1000,
+        "category": "business",
+        "source": "https://illinoissunshine.org/committees/40764/",
+        "confirmed": true
+      },
+      {
+        "name": "Community for Carlos Rivas",
+        "amount": 1000,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/40764/",
+        "confirmed": true
+      },
+      {
+        "name": "Elizabeth Stovall",
+        "amount": 1000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40764/",
+        "confirmed": true
+      }
+    ]
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "policy_platform": [],
+  "career_history": [
+    {
+      "role": "Director of Civic Engagement, Equality Illinois",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    }
+  ],
+  "endorsements": [
+    "Run for Something (switched from Cat Sharp after her withdrawal)",
+    "Scott Waguespack (Chicago Alder, 32nd Ward — switched from Cat Sharp after her withdrawal)"
+  ],
+  "data_status": "partial",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
+    "https://illinoissunshine.org/committees/40764/"
+  ],
+  "photo_url": null,
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": {
+    "grade": "C",
+    "computed": true,
+    "financial_transparency": "B",
+    "platform_completeness": "F",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-18"
+  },
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

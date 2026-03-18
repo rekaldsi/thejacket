@@ -1,0 +1,28 @@
+{
+  "id": "dave-condron",
+  "name": "Dave Condron",
+  "party": "Democratic",
+  "office": "circuit",
+  "subcircuit": "19th",
+  "race_id": "judicial-19th-subcircuit-kane-vacancy",
+  "vacancy_of": "Judge Kane",
+  "bio": "Dave Condron is an attorney with the City of Chicago Law Department, bringing approximately 25 years of legal experience to his judicial candidacy. He received all positive ratings from the Alliance bar associations and a Recommended from the CBA. In a race where one opponent has zero legal experience and universal NR ratings, Condron represents the clearly qualified candidate.",
+  "background": "City of Chicago Law Department attorney. Approximately 25 years of legal experience.",
+  "years_experience": 25,
+  "bar_ratings": {
+    "alliance_rating": "Q",
+    "alliance_detail": "All positive ratings from Alliance bar associations",
+    "cba_rating": "R",
+    "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx"
+  },
+  "red_flags": [],
+  "uncontested": false,
+  "photo_url": null,
+  "primary_result": {
+    "status": "pending",
+    "yes_pct": null,
+    "no_pct": null,
+    "votes": null,
+    "updated": null
+  }
+}

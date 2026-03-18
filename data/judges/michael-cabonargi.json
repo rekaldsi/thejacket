@@ -1,0 +1,37 @@
+{
+  "id": "michael-cabonargi",
+  "name": "Michael Cabonargi",
+  "party": "Democratic",
+  "office": "circuit",
+  "subcircuit": "countywide",
+  "race_id": "judicial-countywide-coghlan-vacancy",
+  "vacancy_of": "Judge Coghlan",
+  "bio": "Michael Cabonargi was appointed to the circuit court in June 2025. He served as Cook County Board of Review Commissioner from 2011 to 2022, overseeing property tax appeals. He received unanimous Qualified ratings from the Alliance of Bar Associations and a Highly Recommended from the Democratic Socialists of Law (DSL). However, both Injustice Watch and the Chicago Sun-Times have raised ethical questions about his campaign, including campaign finance violations.",
+  "background": "Appointed circuit judge June 2025. Cook County Board of Review Commissioner 2011–2022.",
+  "years_experience": 14,
+  "bar_ratings": {
+    "alliance_rating": "Q",
+    "alliance_detail": "Qualified — unanimous from Alliance; Highly Recommended from Democratic Socialists of Law (DSL)",
+    "cba_rating": "R",
+    "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx"
+  },
+  "red_flags": [
+    {
+      "type": "ethics",
+      "label": "Ethical questions and campaign finance violations",
+      "detail": "Both Injustice Watch and the Chicago Sun-Times reported ethical questions surrounding Cabonargi's campaign, including alleged campaign finance violations. The specific nature of the violations has been documented in investigative reporting but Cabonargi has not been formally charged.",
+      "source": "https://www.injusticewatch.org/judges/judicial-elections/2026-primary/",
+      "confirmed": true
+    }
+  ],
+  "uncontested": false,
+  "website": "https://judgecabonargi.com",
+  "photo_url": null,
+  "primary_result": {
+    "status": "pending",
+    "yes_pct": null,
+    "no_pct": null,
+    "votes": null,
+    "updated": null
+  }
+}

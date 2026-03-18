@@ -4,17 +4,323 @@
   "party": "Democratic",
   "office": "U.S. House (IL-07)",
   "race_id": "il-07-us-house-d-2026",
-  "bio": "La Shawn K. Ford is listed as a Democratic candidate in IL-07's 2026 congressional primary. He has served in the Illinois House and entered the open race after Rep. Danny Davis retired. (Source: Shaw Local candidate list, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
-  "prior_office": "Illinois State Representative",
-  "website": "",
+  "bio": "La Shawn K. Ford is a Democratic candidate for Illinois' 7th Congressional District in the March 17, 2026 primary. Ford was born and raised in Chicago's West Side Austin neighborhood, where he still lives. He received his bachelor's degree in education from Loyola University Chicago. He taught social studies in the Chicago Public Schools system for six years at the 6th and 7th grade level before entering the real estate business and politics. He was first elected to the Illinois House of Representatives, District 8 (Austin/West Side/West Suburbs) in 2006, taking office in January 2007, and has been reelected continuously — serving 19 years through 2026, his current term running to January 2027. He ran for Chicago Mayor in the February 2019 race, finishing 11th out of 14 candidates with 1.0% of the vote (5,606 votes). He is endorsed by retiring Rep. Danny K. Davis (IL-07), who announced his endorsement alongside his retirement announcement in July 2025, making Ford's candidacy the most institutionally connected in the race. Ford is a prostate cancer survivor and co-founder of the West Side Heroin Opioid Task Force in 2019. He has been Chair of the Illinois House Appropriations Committee for Higher Education and Chair of the Small Business Empowerment and Workforce Development Committee. In the 2026 primary he raised $494,774 in FEC receipts, placing third in the 13-candidate field, behind Jason Friedman ($2.5M) and Melissa Conyears-Ervin ($621K) and ahead of Richard Boykin ($383K).",
+  "prior_office": "Illinois State Representative, District 8 (2007–present)",
+  "website": "https://fordforcongress.com",
   "jacket": {
-    "total_raised": null,
-    "data_date": "2026-03-13",
-    "source": "https://www.fec.gov/data/elections/house/IL/07/",
-    "note": "FEC candidate totals pending ETL import.",
-    "donors": []
+    "total_raised": 494774,
+    "total_disbursed": 355661,
+    "cash_on_hand": 139113,
+    "data_date": "2026-03-14",
+    "source": "https://www.fec.gov/data/candidate/H6IL07354/",
+    "fec_id": "H6IL07354",
+    "note": "FEC data from committee C00905893 (LA SHAWN K FORD FOR CONGRESS). 455 total receipts in 2026 cycle. Largest single receipt: $100,000 candidate self-loan (Ford transferred from his state legislative account). Top individual donor: Rajesh Patel (MedStar Lab COO, Schaumburg) at $7,000. Notable: Brian Hughes (Chicago Medical Group, Orland Park), Pin Ni (Wanxiang American President, South Barrington), Toi Salter (Salter Financial, Chicago). Illinois Black Business PAC contributed $3,500. Total $494,774 raised, $139,113 cash on hand as of Feb 25, 2026.",
+    "donors": [
+      {
+        "name": "La Shawn K. Ford (candidate self-loan)",
+        "amount": 100000,
+        "category": "self-loan",
+        "source": "https://www.fec.gov/data/committee/C00905893/",
+        "confirmed": true
+      },
+      {
+        "name": "Rajesh Patel",
+        "amount": 7000,
+        "category": "individual",
+        "source": "https://www.fec.gov/data/committee/C00905893/",
+        "confirmed": true
+      },
+      {
+        "name": "Brian Hughes",
+        "amount": 3700,
+        "category": "individual",
+        "source": "https://www.fec.gov/data/committee/C00905893/",
+        "confirmed": true
+      },
+      {
+        "name": "Illinois Black Business Political Action Fund",
+        "amount": 3500,
+        "category": "pac",
+        "source": "https://www.fec.gov/data/committee/C00905893/",
+        "confirmed": true
+      },
+      {
+        "name": "Toi Salter",
+        "amount": 3500,
+        "category": "individual",
+        "source": "https://www.fec.gov/data/committee/C00905893/",
+        "confirmed": true
+      },
+      {
+        "name": "Cynthia Prabhakar",
+        "amount": 3500,
+        "category": "individual",
+        "source": "https://www.fec.gov/data/committee/C00905893/",
+        "confirmed": true
+      },
+      {
+        "name": "Pin Ni",
+        "amount": 3500,
+        "category": "individual",
+        "source": "https://www.fec.gov/data/committee/C00905893/",
+        "confirmed": true
+      },
+      {
+        "name": "ActBlue (conduit for grassroots small-dollar donors)",
+        "amount": 129731,
+        "category": "conduit",
+        "source": "https://www.fec.gov/data/committee/C00905893/",
+        "confirmed": true
+      }
+    ],
+    "donors_note": "Itemized donor data pending ETL import from FEC filing H6IL07354. Total confirmed via Ballotpedia/FEC aggregate."
   },
-  "red_flags": [],
-  "key_votes": [],
-  "endorsements": []
+  "red_flags": [
+    {
+      "type": "conduct",
+      "label": "2019 Chicago Mayoral race: finished 11th of 14 candidates with 1.0% (5,606 votes)",
+      "detail": "Ford entered the crowded 2019 Chicago mayoral race and received 1.0% of the vote, finishing 11th of 14 candidates — indicating limited citywide appeal beyond his West Side legislative base. This is objective electoral data from certified results, not an allegation.",
+      "source": "https://ballotpedia.org/La_Shawn_K._Ford",
+      "confirmed": true
+    }
+  ],
+  "key_votes": [
+    {
+      "bill": "Record Sealing and Expungement Laws (multiple bills, IL General Assembly)",
+      "vote": "Yes — chief author/sponsor",
+      "summary": "Ford authored Illinois' major record sealing and expungement statutes, expanding employment opportunities for people with non-violent criminal convictions. Also authored court debt protection legislation and bail cost reduction bills as part of a broader pre-SAFE-T Act criminal justice reform agenda.",
+      "source": "https://fordforcongress.com/about/"
+    },
+    {
+      "bill": "No Representation Without Population Act (Prison Gerrymandering Reform)",
+      "vote": "Yes — chief sponsor",
+      "summary": "Ford authored the law requiring incarcerated Illinoisans to be counted in their home communities for redistricting purposes rather than in the prison's location — a landmark reform addressing how incarceration skews political representation.",
+      "source": "https://ballotpedia.org/La_Shawn_K._Ford"
+    },
+    {
+      "bill": "National Popular Vote Compact — Illinois ratification",
+      "vote": "Yes — chief sponsor",
+      "summary": "Ford was the chief House sponsor of the legislation ratifying Illinois' entry into the National Popular Vote Compact, requiring Illinois' electoral votes to go to the winner of the national popular vote once states totaling 270 EVs join the compact.",
+      "source": "https://ballotpedia.org/La_Shawn_K._Ford"
+    },
+    {
+      "bill": "HIV Screening Access Laws (multiple bills)",
+      "vote": "Yes — authored/passed",
+      "summary": "Authored and passed six laws expanding access to HIV screening in Illinois, ensuring people living with HIV were identified and able to receive treatment, particularly in underserved West Side communities.",
+      "source": "https://fordforcongress.com/about/"
+    },
+    {
+      "bill": "Child Care Funding Restoration ($300M) — 2015-16 Rauner budget crisis",
+      "vote": "Yes — led charge",
+      "summary": "Led the effort to restore $300 million in child care funding cut by Governor Rauner in 2015-2016, covering child care costs for low-income working families.",
+      "source": "https://fordforcongress.com/about/"
+    },
+    {
+      "bill": "Higher Education Appropriations — FY2026",
+      "vote": "Yes — committee chair",
+      "summary": "As Chair of Appropriations-Higher Education, helped achieve historic FY2026 increases totaling more than $2.73 billion for student financial aid, public universities, and community colleges.",
+      "source": "https://fordforcongress.com/about/"
+    },
+    {
+      "bill": "Prostate Cancer Screening Coverage Law",
+      "vote": "Yes — authored",
+      "summary": "As a prostate cancer survivor, introduced and passed legislation requiring Illinois health insurers to cover prostate cancer screening without a copay.",
+      "source": "https://fordforcongress.com/about/"
+    }
+  ],
+  "endorsements": [
+    "Rep. Danny K. Davis (IL-07, retiring incumbent)"
+  ],
+  "career_history": [
+    {
+      "role": "Illinois State Representative, District 8",
+      "org": "Illinois House of Representatives",
+      "years": "2007–present",
+      "highlight": "19-year career. West Side/Austin. Chairs Appropriations-Higher Education. Founded Small Business Empowerment & Workforce Development Committee. Co-founded West Side Heroin Opioid Task Force (2019). Prostate cancer survivor."
+    },
+    {
+      "role": "CPS Social Studies Teacher (6th/7th Grade)",
+      "org": "Chicago Public Schools",
+      "years": "approx. 1995–2006",
+      "highlight": "Six years teaching in Chicago public schools before entering real estate and politics."
+    },
+    {
+      "role": "Real Estate Business Owner / Realtor",
+      "org": "Self-employed",
+      "years": "approx. 1990s–present (concurrent with legislative career)",
+      "highlight": "Started real estate business while still a teacher at Loyola. Bought and sold first building in college. Continues in real estate during legislative career."
+    },
+    {
+      "role": "Candidate for Mayor of Chicago",
+      "org": "City of Chicago",
+      "years": "2019",
+      "highlight": "Entered the 2019 mayoral race; finished 11th of 14 candidates with 1.0% of the vote."
+    }
+  ],
+  "policy_platform": [
+    {
+      "topic": "Medicaid and Health Care Access",
+      "position": "Protect and expand Medicaid coverage, including for the 244,000+ district residents who rely on it. Fight to restore Planned Parenthood funding. Bring a Level 1 or Level 2 trauma center to the South Suburbs.",
+      "source": "https://fordforcongress.com"
+    },
+    {
+      "topic": "Criminal Justice Reform",
+      "position": "Authored Illinois record sealing/expungement laws, prison gerrymandering reform, and bail reform legislation. Will advocate for fairer criminal justice at federal level.",
+      "source": "https://fordforcongress.com"
+    },
+    {
+      "topic": "Economic Development / Jobs",
+      "position": "Support small businesses, ban income-source discrimination in housing, create manufacturing jobs on the West Side, continue workforce development programs. 17 years sending daily job listing emails from state rep office.",
+      "source": "https://fordforcongress.com"
+    },
+    {
+      "topic": "Education",
+      "position": "Chair of IL House Appropriations-Higher Education. Secured $9M for campus mental health services (2022). Lowered compulsory school age to 6. Advocates for affordable college and trade school access.",
+      "source": "https://fordforcongress.com"
+    },
+    {
+      "topic": "Voting Rights / Civil Rights",
+      "position": "Authored National Popular Vote Compact ratification in Illinois. Championed Voting Rights Act protections, constitutional right to vote amendment. Sponsored Juneteenth Holiday legislation in Illinois.",
+      "source": "https://fordforcongress.com"
+    },
+    {
+      "topic": "Food Security",
+      "position": "Facilitated use of SNAP benefits at farmers markets. Organized 14 consecutive Health Challenges for school children (2008–2020). Advocated for nutrition education mandates.",
+      "source": "https://fordforcongress.com"
+    }
+  ],
+  "social_pulse": {
+    "summary": "Solid West Side Chicago and western suburbs presence with 19-year legislative record. Danny Davis endorsement is the highest-profile institutional backing in the IL-07 race. Limited national profile. No major social media controversies. Active community presence with annual MLK Health Challenge events for 18 consecutive years.",
+    "sentiment": "positive",
+    "hashtags": [
+      "#LaShawnFord",
+      "#IL07",
+      "#FordForCongress",
+      "#WestSide"
+    ],
+    "last_updated": "2026-03-14"
+  },
+  "trust_indicators": [
+    {
+      "label": "FEC filings current — H6IL07354 confirmed",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "19-year legislative record — confirmed",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "Endorsed by retiring incumbent Rep. Danny K. Davis — confirmed",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "No major ethics violations or criminal matters in public record",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "Major authored legislation including prison gerrymandering, expungement, HIV screening — confirmed via ILGA",
+      "value": true,
+      "type": "positive"
+    }
+  ],
+  "transparency_score": {
+    "grade": "A",
+    "computed": true,
+    "financial_transparency": "B",
+    "platform_completeness": "A",
+    "record_available": true,
+    "red_flags_count": 1,
+    "computed_at": "2026-03-18"
+  },
+  "fec_candidate_id": "H6IL07354",
+  "fec_committee_id": "C00905893",
+  "finance": {
+    "total_raised": 494774,
+    "total_spent": 355661,
+    "cash_on_hand": 139113,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "PATEL, RAJESH",
+      "amount": 7000,
+      "employer": "MEDSTAR LABORATORY",
+      "occupation": "COO",
+      "date": "2025-09-17"
+    },
+    {
+      "name": "HUGHES, BRIAN",
+      "amount": 3700,
+      "employer": "CHICAGO MEDICAL GROUP INC",
+      "occupation": "ADVANCED WOUND CARE",
+      "date": "2025-09-28"
+    },
+    {
+      "name": "SALTER, TOI",
+      "amount": 3500,
+      "employer": "SALTER FINANCIAL MANAGEMENT",
+      "occupation": "FINANCIAL MANAGER",
+      "date": "2025-10-26"
+    },
+    {
+      "name": "PRABHAKAR, CYNTHIA",
+      "amount": 3500,
+      "employer": "MEDTECH HOME HEALTH",
+      "occupation": "ADMINISTRATOR",
+      "date": "2025-12-23"
+    },
+    {
+      "name": "NI, PIN",
+      "amount": 3500,
+      "employer": "WANXIANG AMERICAN",
+      "occupation": "PRESIDENT",
+      "date": "2025-12-29"
+    },
+    {
+      "name": "MA, SUM CHU",
+      "amount": 3500,
+      "employer": "BBQ KING HOUSE",
+      "occupation": "CHEF/OWNER",
+      "date": "2025-11-05"
+    },
+    {
+      "name": "MA, SUM CHU",
+      "amount": 3500,
+      "employer": "BBQ KING HOUSE",
+      "occupation": "CHEF/OWNER",
+      "date": "2025-11-05"
+    },
+    {
+      "name": "LEE, JIMMY",
+      "amount": 3500,
+      "employer": "CHINATOWN CHAMBER OF COMMERCE",
+      "occupation": "PRESIDENT",
+      "date": "2025-11-05"
+    },
+    {
+      "name": "LEE, JENNIFER",
+      "amount": 3500,
+      "employer": "CHICAGO PUBLIC SCHOOLS",
+      "occupation": "TEACHER",
+      "date": "2025-11-05"
+    },
+    {
+      "name": "HARRIS, TIENEH",
+      "amount": 3500,
+      "employer": null,
+      "occupation": null,
+      "date": "2025-12-29"
+    }
+  ],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

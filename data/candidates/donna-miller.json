@@ -4,17 +4,380 @@
   "party": "Democratic",
   "office": "U.S. House (IL-02)",
   "race_id": "il-02-us-house-d-2026",
-  "bio": "Donna Miller is listed as a Democratic candidate in the 2026 IL-02 congressional primary. She is a Cook County Commissioner and entered the open-seat contest. (Source: Shaw Local candidate list, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
-  "prior_office": "Cook County Commissioner",
-  "website": "",
+  "data_status": "enriched",
+  "bio": "Donna Miller (née Black; born September 7, 1965) is an American politician serving as Cook County Commissioner for the 6th District since December 2018, now running for the open IL-02 Congressional seat vacated by retiring Rep. Robin Kelly. She was born Donna Lynne Black on Chicago's South Side, attended Ogden Elementary, and graduated from Lane Technical High School in 1983. She earned a BBA from Howard University in 1987 and took graduate business courses at Pepperdine University in 1992. She adopted the surname Miller in 2001 when she married Dr. David E. Miller, a former Illinois state representative who served a decade in the General Assembly. They live in Lynwood, Illinois, with their two sons Daniel and Donovan. Her professional background spans 25+ years as a healthcare consultant and account specialist in the biotech/pharmaceutical industry. She has served on the board of Planned Parenthood Illinois (2012–present, board chair 2017–2018), Planned Parenthood Illinois Action (board chair 2015–2017), Christian Community Health Center, and worked with Congresswoman Robin Kelly's 2nd Congressional District Healthcare Task Force. She was director of Multi Cultural Markets with the American Heart Association. She served as vice-president of Illinois Democratic Women and was a member of the DNC Rules Committee for the 2016 Democratic National Convention. She supported Hillary Clinton's 2016 presidential campaign as part of Illinois Clinton Leadership Team. She ran unsuccessfully for Illinois State Senate (15th District) in 2012, placing second behind Napoleon Harris. In 2018 she won the Democratic primary for Cook County Commissioner District 6, defeating Patricia Joan Murphy and Crestwood Mayor Lou Presta, then won the general election unopposed. Re-elected to a second term in 2022. The 6th District covers south suburban Cook County including Lynwood, South Holland, Hazel Crest, and approximately 300,000+ residents across 36 municipalities. She is stepping down from the county seat (not seeking re-election) to run for Congress. Her 2026 congressional race has been dominated by controversy over her massive AIPAC-linked out-of-state donor network, which funded 87% of her Q4 2025 fundraising.",
+  "prior_office": "Cook County Board Commissioner, District 6 (December 2018–present; stepping down to run for Congress)",
+  "website": "https://donnaforcongress.com",
+  "photo_url": null,
   "jacket": {
-    "total_raised": null,
+    "total_raised": 1295068,
     "data_date": "2026-03-13",
     "source": "https://www.fec.gov/data/elections/house/IL/02/",
-    "note": "FEC candidate totals pending ETL import.",
-    "donors": []
+    "fec_id": "H6IL02355",
+    "note": "FEC-reported total. 87% of Q4 2025 fundraising came from out-of-state donors per Hyde Park Herald analysis.",
+    "donors": [
+      {
+        "name": "Jeremy Pava",
+        "employer": "Real estate investment executive (CT)",
+        "amount": 7000,
+        "category": "individual",
+        "note": "Previously gave at least $283,000 to AIPAC/United Democracy Project (2023–2025). Max contribution to Miller. Also gave max to Fine and Bean.",
+        "source": "https://www.hpherald.com/evening_digest/out-of-state-donors-propel-donna-miller-to-fundraising-lead/article_e7a30f4f-7a33-43bc-bc00-5e25cf63d49f.html",
+        "confirmed": true
+      },
+      {
+        "name": "Ann Pava",
+        "employer": "Real estate investment executive spouse (CT)",
+        "amount": 7000,
+        "category": "individual",
+        "note": "Spouse of Jeremy Pava. Gave maximum donation mid-December 2025. AIPAC-linked donor.",
+        "source": "https://www.hpherald.com/evening_digest/out-of-state-donors-propel-donna-miller-to-fundraising-lead/article_e7a30f4f-7a33-43bc-bc00-5e25cf63d49f.html",
+        "confirmed": true
+      },
+      {
+        "name": "Jerry Bednyak",
+        "employer": "Co-founder, Vivid Seats (Glencoe, IL)",
+        "amount": 7000,
+        "category": "individual",
+        "note": "In-state donor. Has given at least $1.1M to AIPAC and United Democracy Project. Max contribution to Miller.",
+        "source": "https://www.hpherald.com/evening_digest/out-of-state-donors-propel-donna-miller-to-fundraising-lead/article_e7a30f4f-7a33-43bc-bc00-5e25cf63d49f.html",
+        "confirmed": true
+      },
+      {
+        "name": "AIPAC-linked donor network (258+ donors)",
+        "amount": 470000,
+        "category": "coordinated_individual_network",
+        "note": "At least 258 individual donors who previously gave to AIPAC/United Democracy Project contributed ~$470K+ to Miller in Q4 2025, representing 36%+ of total fundraising. Not a single entity — FEC-documented via donor overlap analysis.",
+        "source": "https://www.hpherald.com/evening_digest/out-of-state-donors-propel-donna-miller-to-fundraising-lead/article_e7a30f4f-7a33-43bc-bc00-5e25cf63d49f.html",
+        "confirmed": true
+      },
+      {
+        "name": "Affordable Chicago Now (Super PAC)",
+        "amount": null,
+        "category": "independent_expenditure_super_pac",
+        "note": "Pop-up super PAC organized January 2026 running TV ads supporting Miller. Donors currently undisclosed. Identified by The American Prospect as part of AIPAC stealth infrastructure.",
+        "source": "https://prospect.org/2026/02/06/aipac-coordinates-donors-in-illinois-house-primaries/",
+        "confirmed": true
+      }
+    ]
   },
-  "red_flags": [],
-  "key_votes": [],
-  "endorsements": []
+  "red_flags": [
+    {
+      "type": "aipac",
+      "label": "AIPAC-Linked Out-of-State Donor Network Funds 87% of Q4 2025 Fundraising",
+      "detail": "87% of Miller's Q4 2025 fundraising (~$892K) came from out-of-state donors. At least 258 of her donors previously gave to AIPAC/United Democracy Project. A super PAC called 'Affordable Chicago Now' (donors undisclosed) is running ads in her support, identified by The American Prospect as AIPAC stealth infrastructure. Miller's campaign denied soliciting AIPAC support but acknowledged accepting donations from known AIPAC contributors. This is a deeply progressive D+18 district where AIPAC-linked funding represents a significant electoral red flag.",
+      "source": "https://www.hpherald.com/evening_digest/out-of-state-donors-propel-donna-miller-to-fundraising-lead/article_e7a30f4f-7a33-43bc-bc00-5e25cf63d49f.html; https://prospect.org/2026/02/06/aipac-coordinates-donors-in-illinois-house-primaries/",
+      "confirmed": true
+    },
+    {
+      "type": "governance",
+      "label": "Stepping Down from County Seat Mid-Term to Run for Congress",
+      "detail": "Miller was elected to a second term as Cook County Commissioner in 2022 but is choosing not to finish her term, instead running for Congress. The Chicago Tribune's March 14, 2026 coverage confirmed she is among those vacating their county seats mid-cycle, opening the 6th District to a new race. The 6th District primary attracted 5 candidates, with attorney Wesam Shahed emerging as the frontrunner.",
+      "source": "https://www.chicagotribune.com/2026/03/14/cook-county-board-seats-in-play-new-faces-guaranteed-among-17-commissioners/",
+      "confirmed": true
+    }
+  ],
+  "key_votes": [
+    {
+      "bill": "Cook County CPR/AED Training Program for County Employees (Miller's legislation)",
+      "vote": "sponsor/lead",
+      "summary": "Miller authored legislation creating a virtual countywide CPR/AED training program for all newly hired and current Cook County employees. The program won a National Achievement Award from NACO (National Association of Counties). Source: Miller's own 2022 WTTW campaign statement.",
+      "source": "https://news.wttw.com/elections/voters-guide/2022-general/Donna-Miller"
+    },
+    {
+      "bill": "COVID-19 Federal Funding Channeling to Suburban Cook County",
+      "vote": "administrative/advocacy",
+      "summary": "During the pandemic, Miller led efforts to channel federal COVID relief, FEMA funding, and first responder resources toward suburban Cook County communities in the 6th District. She coordinated food drives with USDA and local agencies to provide food for thousands of families, and secured funding to keep small businesses open.",
+      "source": "https://news.wttw.com/elections/voters-guide/2022-general/Donna-Miller"
+    },
+    {
+      "bill": "Cook County Board — Membership on key oversight committees",
+      "vote": "committee service",
+      "summary": "Miller serves as Chair of Asset Management, Contract Compliance, Veterans, and Metra Commissioner Appointments-Zone 4 committees. She is Vice-Chair of Workforce, Housing and Community Development. This committee portfolio covers county infrastructure management, contractor accountability, transportation, and veteran services.",
+      "source": "https://www.cookcountyil.gov/all-people/donna-miller"
+    }
+  ],
+  "policy_platform": [
+    {
+      "topic": "Healthcare Access / Disparities",
+      "position": "Advocate for eliminating healthcare disparities, particularly in the Southland/south suburban Cook County. Supports expanding Medicaid access, addressing CCHHS billing inefficiencies, and sharing charitable care burden more broadly across private hospitals in Cook County.",
+      "source": "https://news.wttw.com/elections/voters-guide/2022-general/Donna-Miller"
+    },
+    {
+      "topic": "Mental Health Services",
+      "position": "Identifies access to mental health services as the most pressing issue for constituents, particularly in South Cook County which scores among the highest on the Social Vulnerability Index. Advocates for expanded behavioral health services following closure of mental health clinics.",
+      "source": "https://news.wttw.com/elections/voters-guide/2022-general/Donna-Miller"
+    },
+    {
+      "topic": "Reproductive Rights",
+      "position": "Long-standing supporter of women's reproductive rights. Former Chair of Planned Parenthood Illinois board (2017–2018) and Planned Parenthood Illinois Action (2015–2017). Ran for county commissioner in 2018 with Planned Parenthood support.",
+      "source": "https://en.wikipedia.org/wiki/Donna_Miller"
+    },
+    {
+      "topic": "Small Business / Economic Development in Southland",
+      "position": "Advocates for investment in small businesses in south suburban Cook County. Secured pandemic funding for small businesses, coordinates across 36 municipalities in district.",
+      "source": "https://news.wttw.com/elections/voters-guide/2022-general/Donna-Miller"
+    },
+    {
+      "topic": "Property Tax / Public Service",
+      "position": "Has not made specific property tax pledges in available sources. Candidate statement focused on healthcare and small business support.",
+      "source": "https://news.wttw.com/elections/voters-guide/2022-general/Donna-Miller"
+    }
+  ],
+  "career_history": [
+    {
+      "role": "Cook County Board Commissioner, District 6",
+      "org": "Cook County Board of Commissioners",
+      "years": "December 2018–present",
+      "highlight": "Won 2018 primary beating Murphy and Presta; won 2022 re-election. Committees chaired: Asset Management, Contract Compliance, Veterans, Metra Zone 4. Stepping down to run for IL-02 Congress."
+    },
+    {
+      "role": "Healthcare Consultant / Account Specialist",
+      "org": "Various pharmaceutical/biotech companies",
+      "years": "approximately 1987–2018",
+      "highlight": "25+ years in biotech/pharmaceutical healthcare industry. Reviewed evidence-based medicine, peer-reviewed clinical and pharmacoeconomic data. This background was foundational to her COVID-19 pandemic response work as commissioner."
+    },
+    {
+      "role": "Director, Multi Cultural Markets",
+      "org": "American Heart Association",
+      "years": "undated",
+      "highlight": ""
+    },
+    {
+      "role": "Board Chair",
+      "org": "Planned Parenthood Illinois",
+      "years": "2017–2018 (board member 2012–present)",
+      "highlight": ""
+    },
+    {
+      "role": "Board Chair",
+      "org": "Planned Parenthood Illinois Action",
+      "years": "2015–2017 (board member 2012–present)",
+      "highlight": ""
+    },
+    {
+      "role": "Legislative Liaison",
+      "org": "Alliance of Illinois State Dental Society",
+      "years": "undated",
+      "highlight": ""
+    },
+    {
+      "role": "Vice-President",
+      "org": "Illinois Democratic Women",
+      "years": "undated",
+      "highlight": ""
+    },
+    {
+      "role": "DNC Rules Committee Member",
+      "org": "Democratic National Convention 2016",
+      "years": "2016",
+      "highlight": "Member of DNC Rules Committee for the 2016 Democratic National Convention."
+    },
+    {
+      "role": "2nd Congressional District Healthcare Task Force",
+      "org": "Office of Rep. Robin Kelly",
+      "years": "2014–2017",
+      "highlight": "Worked with Congresswoman Robin Kelly; co-chaired Robin Kelly Annual Golf Event 2014–2017."
+    }
+  ],
+  "endorsements": [
+    {
+      "org": "Chicago Tribune (2018 primary)",
+      "significance": "Endorsed Miller in her initial 2018 Cook County Commissioner race",
+      "source": "https://en.wikipedia.org/wiki/Donna_Miller"
+    },
+    {
+      "org": "Chicago Sun-Times (2018 primary)",
+      "significance": "Endorsed Miller in her initial 2018 Cook County Commissioner race",
+      "source": "https://en.wikipedia.org/wiki/Donna_Miller"
+    },
+    {
+      "org": "SEIU (2018 primary)",
+      "significance": "Service Employees International Union endorsement, 2018",
+      "source": "https://en.wikipedia.org/wiki/Donna_Miller"
+    },
+    {
+      "org": "United Food and Commercial Workers (2018 primary)",
+      "significance": "",
+      "source": "https://en.wikipedia.org/wiki/Donna_Miller"
+    },
+    {
+      "org": "Democracy for America (2018 primary)",
+      "significance": "Progressive organization endorsement",
+      "source": "https://en.wikipedia.org/wiki/Donna_Miller"
+    },
+    {
+      "org": "Rep. Danny K. Davis (2018 primary)",
+      "significance": "Then-incumbent congressional endorsement",
+      "source": "https://en.wikipedia.org/wiki/Donna_Miller"
+    },
+    {
+      "org": "Rep. Robin Kelly (2018 primary)",
+      "significance": "Rep. Kelly's endorsement of Miller in 2018 — note: Kelly is now the source of the open IL-02 seat",
+      "source": "https://en.wikipedia.org/wiki/Donna_Miller"
+    },
+    {
+      "org": "Rep. Jan Schakowsky (2018 primary)",
+      "significance": "Schakowsky endorsed Miller for county in 2018 (Schakowsky is separately backing Biss for her own IL-09 seat in 2026)",
+      "source": "https://en.wikipedia.org/wiki/Donna_Miller"
+    },
+    {
+      "org": "Rep. Raja Krishnamoorthi (2018 primary)",
+      "significance": "",
+      "source": "https://en.wikipedia.org/wiki/Donna_Miller"
+    },
+    {
+      "org": "National Association of Social Workers — Illinois Council (2018 primary)",
+      "significance": "",
+      "source": "https://en.wikipedia.org/wiki/Donna_Miller"
+    }
+  ],
+  "social_pulse": {
+    "summary": "Miller has relatively low organic social media presence but her IL-02 campaign has generated significant negative coverage around AIPAC-linked donor network (Hyde Park Herald, American Prospect). The out-of-state donor controversy (87% Q4 2025 funding from outside Illinois) is the dominant narrative. County board work has been below radar — no major controversies or viral moments. Viewed by progressives as a moderate-to-conservative Democrat backed by national money in a deeply progressive district.",
+    "sentiment": "mixed-to-negative (among primary progressive voters due to AIPAC funding)",
+    "hashtags": [
+      "#DonnaMiller",
+      "#IL02",
+      "#CookCounty6th",
+      "#AIPAC"
+    ],
+    "last_updated": "2026-03-14"
+  },
+  "trust_indicators": [
+    {
+      "label": "FEC filings current (H6IL02355)",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "ILSBE county commissioner disclosures on file (elections.il.gov)",
+      "value": "Assumed — not directly retrieved in this session",
+      "type": "neutral"
+    },
+    {
+      "label": "8+ years of documented county service record",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "87% of Q4 2025 congressional fundraising from out-of-state donors",
+      "value": "Confirmed per FEC/Hyde Park Herald analysis",
+      "type": "flag"
+    },
+    {
+      "label": "258+ donors with prior AIPAC/UDP giving history",
+      "value": "Confirmed by Hyde Park Herald FEC donor overlap analysis",
+      "type": "flag"
+    },
+    {
+      "label": "NACO National Achievement Award (CPR/AED training program)",
+      "value": "Confirmed per Miller's WTTW voter guide statement",
+      "type": "positive"
+    }
+  ],
+  "transparency_score": {
+    "grade": "A",
+    "computed": true,
+    "financial_transparency": "C",
+    "platform_completeness": "A",
+    "record_available": true,
+    "red_flags_count": 2,
+    "computed_at": "2026-03-18"
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Donna_Miller",
+    "https://www.cookcountyil.gov/all-people/donna-miller",
+    "https://news.wttw.com/elections/voters-guide/2022-general/Donna-Miller",
+    "https://www.hpherald.com/evening_digest/out-of-state-donors-propel-donna-miller-to-fundraising-lead/article_e7a30f4f-7a33-43bc-bc00-5e25cf63d49f.html",
+    "https://prospect.org/2026/02/06/aipac-coordinates-donors-in-illinois-house-primaries/",
+    "https://www.fec.gov/data/elections/house/IL/02/",
+    "https://www.chicagotribune.com/2026/03/14/cook-county-board-seats-in-play-new-faces-guaranteed-among-17-commissioners/"
+  ],
+  "fec_candidate_id": "H6IL02355",
+  "fec_committee_id": "C00911164",
+  "finance": {
+    "total_raised": 1971085,
+    "total_spent": 1505780,
+    "cash_on_hand": 465305,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "ZOLLAR, NIKKI",
+      "amount": 3500,
+      "employer": "ALL TECH TRACKING",
+      "occupation": "OWNER",
+      "date": "2025-08-22"
+    },
+    {
+      "name": "STOWELL, MARY M",
+      "amount": 3500,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-07-08"
+    },
+    {
+      "name": "SALTER, TOI L",
+      "amount": 3500,
+      "employer": "SALTER FINANCIAL MANAGEMENT",
+      "occupation": "FINANCIAL MANAGER",
+      "date": "2025-07-12"
+    },
+    {
+      "name": "PRABHAKAR, VIJAY",
+      "amount": 3500,
+      "employer": "SELF EMPLOYED",
+      "occupation": "SELF EMPLOYED",
+      "date": "2025-09-29"
+    },
+    {
+      "name": "PRABHAKAR, VIJAY",
+      "amount": 3500,
+      "employer": "SELF EMPLOYED",
+      "occupation": "SELF EMPLOYED",
+      "date": "2025-08-08"
+    },
+    {
+      "name": "POWELL, VICTOR",
+      "amount": 3500,
+      "employer": "POWELL PHOTOGRAPHYINC",
+      "occupation": "PHOTOGRAPHER",
+      "date": "2025-07-08"
+    },
+    {
+      "name": "MCWILLIAMS, DARRYL",
+      "amount": 3500,
+      "employer": "DARRYL MCWILLIAMS",
+      "occupation": "CONSULTANT",
+      "date": "2025-07-07"
+    },
+    {
+      "name": "M ABDALLAH, MOHAMMED",
+      "amount": 3500,
+      "employer": "HILLS PROPERTY",
+      "occupation": "CEO",
+      "date": "2025-07-15"
+    },
+    {
+      "name": "LIGHTFOOT, LORI",
+      "amount": 3500,
+      "employer": "NOT EMPLOYED",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-07-16"
+    },
+    {
+      "name": "BANDELE, CHARLOTTE",
+      "amount": 3500,
+      "employer": "STRATALYS",
+      "occupation": "MARKET RESEARCH",
+      "date": "2025-07-05"
+    }
+  ],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

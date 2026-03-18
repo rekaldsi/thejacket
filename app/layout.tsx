@@ -1,37 +1,89 @@
 import type { Metadata } from "next";
+import { Space_Grotesk } from "next/font/google";
 import Link from "next/link";
+import MobileNav from "@/components/MobileNav";
+import { Analytics } from "@vercel/analytics/next";
+import { LanguageProvider } from "@/lib/i18n";
+import { T } from "@/components/T";
+import { LangToggle } from "@/components/LangToggle";
 import "./globals.css";
 
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  variable: "--font-space-grotesk"
+});
+
 export const metadata: Metadata = {
-  title: "TheJacket",
-  description: "See who they really work for."
+  title: "TheJacket — See who they really work for",
+  description: "Cook County civic transparency. Every candidate, every donor, every red flag. Illinois Primary — March 17, 2026.",
+  icons: {
+    icon: "/favicon-32.png",
+    apple: "/icon-192.png",
+  },
+  openGraph: {
+    title: "TheJacket — See who they really work for",
+    description: "Cook County civic transparency. Every candidate, every donor, every red flag.",
+    images: [{ url: "/logo.png" }],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>
-        <div className="mx-auto flex min-h-screen w-full max-w-7xl flex-col px-4 md:px-8">
-          <header className="border-b border-jacket-border py-5">
-            <nav className="flex items-center justify-between font-mono uppercase tracking-wider">
-              <Link href="/" className="text-xl text-jacket-white">
-                THEJACKET
-              </Link>
-              <span className="text-jacket-amber">thejacket.cc</span>
-            </nav>
-          </header>
+      <body className={`${spaceGrotesk.variable} bg-jacket-black font-sans text-jacket-white antialiased`}>
+        <LanguageProvider>
+          <div className="h-1 w-full bg-jacket-amber" />
 
-          <main className="flex-1 py-8">{children}</main>
+          <div className="mx-auto flex min-h-screen w-full max-w-7xl flex-col px-4 md:px-8">
+            <header className="sticky top-0 z-50 bg-jacket-black/95 backdrop-blur-sm border-b border-jacket-border">
+              <nav className="flex items-center justify-between py-4">
+                <Link href="/" className="text-xl font-extrabold uppercase tracking-tight text-jacket-white">
+                  THE<span className="text-jacket-amber">JACKET</span>
+                </Link>
 
-          <footer className="border-t border-jacket-border py-6 text-xs uppercase tracking-wide text-zinc-400">
-            <div className="flex flex-col justify-between gap-2 md:flex-row">
-              <span>THEJACKET / COOK COUNTY PRIMARY / MARCH 17, 2026</span>
-              <Link href="/about" className="text-jacket-amber">
-                ABOUT + METHODOLOGY
-              </Link>
-            </div>
-          </footer>
-        </div>
+                <div className="hidden items-center gap-3 text-xs uppercase tracking-widest text-zinc-300 md:flex">
+                  <Link href="/races" className="transition-colors hover:text-jacket-amber">
+                    <T k="nav_races" />
+                  </Link>
+                  <span className="text-zinc-600">|</span>
+                  <Link href="/judges" className="transition-colors hover:text-jacket-amber">
+                    <T k="nav_judges" />
+                  </Link>
+                  <span className="text-zinc-600">|</span>
+                  <Link href="/scorecard" className="transition-colors hover:text-jacket-amber">
+                    <T k="nav_scorecard" />
+                  </Link>
+                  <span className="text-zinc-600">|</span>
+                  <Link href="/booth" className="font-bold text-jacket-amber transition-colors hover:text-white">
+                    <T k="nav_booth_mode" />
+                  </Link>
+                  <span className="text-zinc-600">|</span>
+                  <Link href="/about" className="transition-colors hover:text-jacket-amber">
+                    <T k="nav_about" />
+                  </Link>
+                </div>
+
+                <div className="flex items-center gap-3">
+                  <span className="hidden font-mono text-xs uppercase tracking-widest text-jacket-amber md:inline">COOK COUNTY &mdash; MAR 17</span>
+                  <LangToggle />
+                  <MobileNav />
+                </div>
+              </nav>
+            </header>
+
+            <main className="flex-1 py-8">{children}</main>
+            <Analytics />
+
+            <footer className="border-t border-jacket-border py-6 text-xs uppercase tracking-wide text-zinc-400">
+              <div className="flex flex-col justify-between gap-2 md:flex-row">
+                <span>THE<span className="text-jacket-amber">JACKET</span> / COOK COUNTY PRIMARY / MARCH 17, 2026</span>
+                <Link href="/about" className="text-jacket-amber">
+                  <T k="about_title_prefix" /> <T k="about_title_suffix" /> + <T k="methodology_header" />
+                </Link>
+              </div>
+            </footer>
+          </div>
+        </LanguageProvider>
       </body>
     </html>
   );

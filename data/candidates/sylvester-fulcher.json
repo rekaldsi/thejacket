@@ -1,0 +1,71 @@
+{
+  "id": "sylvester-fulcher",
+  "name": "Sylvester Fulcher",
+  "party": "Democratic",
+  "office": "Cook County Commissioner District 6",
+  "race_id": "cook-county-commissioner-dist-6",
+  "incumbent": false,
+  "bio": "Sylvester Fulcher is a senior administrator at the Illinois Department of Children and Family Services (DCFS), running in the open District 6 Democratic primary.",
+  "prior_office": "Senior Administrator, Illinois Department of Children and Family Services",
+  "website": null,
+  "jacket": {
+    "total_raised": 5500,
+    "cash_on_hand": 4287.28,
+    "data_date": "2026-03-14",
+    "source": "https://illinoissunshine.org/committees/40909/",
+    "note": "Committee: Friends of Sylvester Fulcher (ID 40909, founded Oct 9, 2025). Cash on hand: $4,287.28. Debts: $5,000. Only two donors: candidate self ($5,000) and Christina Fulcher ($500). Essentially self-funded with minimal fundraising.",
+    "fec_id": null,
+    "ilsbe_id": "40909",
+    "donors": [
+      {
+        "name": "Sylvester Fulcher",
+        "amount": 5000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40909/",
+        "confirmed": true
+      },
+      {
+        "name": "Christina Fulcher",
+        "amount": 500,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40909/",
+        "confirmed": true
+      }
+    ]
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "policy_platform": [],
+  "career_history": [
+    {
+      "role": "Senior Administrator, IDCFS",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    }
+  ],
+  "data_status": "partial",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
+    "https://illinoissunshine.org/committees/40909/"
+  ],
+  "photo_url": null,
+  "endorsements": [],
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": {
+    "grade": "C",
+    "computed": true,
+    "financial_transparency": "A",
+    "platform_completeness": "F",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-18"
+  },
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

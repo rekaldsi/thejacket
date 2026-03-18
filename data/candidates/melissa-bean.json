@@ -1,0 +1,72 @@
+{
+  "id": "melissa-bean",
+  "name": "Melissa Bean",
+  "party": "Democratic",
+  "office": "U.S. House (IL-08)",
+  "race_id": "il-08-us-house-d-2026",
+  "bio": "Melissa Bean is a former U.S. Representative for Illinois' 8th Congressional District, serving from 2005 to 2011, when she was defeated in the Tea Party wave election. During her tenure she was known as a moderate Democrat, serving on the House Financial Services Committee. She has worked in the financial services and technology industries since leaving Congress. She re-entered politics to seek the open seat created by Raja Krishnamoorthi's Senate run and has emerged as a frontrunner with significant fundraising support.",
+  "prior_office": "U.S. Representative (IL-08, 2005–2011)",
+  "website": "https://melissabean.com",
+  "photo_url": null,
+  "data_status": "partial",
+  "jacket": {
+    "total_raised": null,
+    "data_date": "2026-03-16",
+    "source": "https://www.fec.gov/data/",
+    "note": "FEC data pending lookup.",
+    "donors": []
+  },
+  "red_flags": [],
+  "endorsements": [],
+  "key_votes": [],
+  "news_hits": [
+    {
+      "title": "Editorial: Melissa Bean and Jennifer Davis for the 8th Congressional District primary",
+      "url": "https://www.chicagotribune.com/2026/02/09/editorial-illinois-8th-congressional-district-melissa-bean-jennifer-davis-endorsements/",
+      "source": "Chicago Tribune",
+      "date": "2026-02-09",
+      "summary": "Chicago Tribune editorial board endorses Melissa Bean for the Democratic nomination to succeed Rep. Raja Krishnamoorthi in IL-08, citing her prior experience as a former U.S. Representative for the district from 2005–2011.",
+      "sentiment": "positive"
+    },
+    {
+      "title": "At the Races: Big primaries in the Prairie State",
+      "url": "https://rollcall.com/2026/03/17/at-the-races-primaries-illinois/",
+      "source": "Roll Call",
+      "date": "2026-03-17",
+      "summary": "Roll Call Election Day roundup names Bean as one of eight Democrats vying to succeed Krishnamoorthi in IL-08. Other notable candidates in the field include Melissa Conyears-Ervin, Kina Collins, La Shawn Ford, and Jason Friedman.",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Early front-runner Melissa Bean seeks to reclaim 8th Congressional District seat she lost in 2010",
+      "url": "https://chicago.suntimes.com/elections/2026/03/17/us-house-illinois-8th-congressional-district-primary-results",
+      "source": "Chicago Sun-Times",
+      "date": "2026-03-17",
+      "summary": "Melissa Bean is attempting a political comeback in IL-08, the seat she held 2005-2011. Voters decide today which Democratic hopeful will be on the November ballot.",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Illinois Eighth Congressional District Primary 2026: Live Election Results",
+      "url": "https://www.nytimes.com/interactive/2026/us/elections/results-illinois-us-house-8-primary.html",
+      "source": "New York Times",
+      "date": "2026-03-17",
+      "summary": "Live primary results for the crowded IL-08 Democratic primary; Melissa Bean among prominent candidates with Junaid Ahmed, Kevin Morrison, and Yasmeen Bankole.",
+      "sentiment": "neutral"
+    }
+  ],
+  "score": null,
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "F",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-18"
+  },
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

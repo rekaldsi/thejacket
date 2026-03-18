@@ -1,0 +1,36 @@
+{
+  "id": "natalie-l-howse",
+  "name": "Natalie L. Howse",
+  "party": "Democratic",
+  "office": "circuit",
+  "subcircuit": "1st",
+  "race_id": "judicial-1st-subcircuit-balanoff-vacancy",
+  "vacancy_of": "Judge Balanoff",
+  "bio": "Natalie L. Howse is running uncontested for a 1st Subcircuit seat. Every bar association in the Alliance rated her Not Recommended. The CBA also rated her Not Recommended. Despite this unanimous rejection from the legal community, she will win the seat unopposed — a structural failure of the judicial election system that allows unqualified candidates to obtain judgeships without facing electoral accountability.",
+  "background": "Attorney — specific practice area not publicly detailed.",
+  "years_experience": 8,
+  "bar_ratings": {
+    "alliance_rating": "NR",
+    "alliance_detail": "Not Recommended — unanimous from all Alliance bar associations",
+    "cba_rating": "NR",
+    "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx"
+  },
+  "red_flags": [
+    {
+      "type": "ethics",
+      "label": "Unanimous Not Recommended from all bar associations — wins uncontested",
+      "detail": "Every bar association in the Alliance of Bar Associations for Judicial Screening, as well as the Chicago Bar Association, rated Natalie L. Howse as Not Recommended. Despite this unanimous rejection from the legal community, she will become a Cook County circuit court judge because no one filed to run against her. This is the system working exactly as the patronage machine intends.",
+      "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx",
+      "confirmed": true
+    }
+  ],
+  "uncontested": true,
+  "photo_url": null,
+  "primary_result": {
+    "status": "pending",
+    "yes_pct": null,
+    "no_pct": null,
+    "votes": null,
+    "updated": null
+  }
+}

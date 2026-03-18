@@ -1,0 +1,234 @@
+{
+  "id": "sarah-bury",
+  "name": "Sarah Bury",
+  "party": "Democratic",
+  "office": "MWRD Commissioner",
+  "race_id": "mwrd-6yr-2026",
+  "incumbent": false,
+  "bio": "Sarah Bury (age 42) is a Rogers Park-based attorney and environmental advocate challenging three incumbents for one of the three open MWRD 6-year term seats. She earned a joint JD/MA in environmental law and policy from American University (Washington, DC), with internships at the City of Chicago legal department, U.S. EPA, Center for International Environmental Law (CIEL), and DOJ. She grew up in a home that flooded and has experienced basement flooding in multiple Cook County neighborhoods. She previously ran for MWRD in 2019 (did not win) and applied for a board appointment in 2024 (not selected; Beth McElroy Kirkwood was instead appointed by Gov. Pritzker). She has been endorsed by Sierra Club. Chicago Tribune endorsed the three incumbents over Bury, noting McElroy Kirkwood 'is Bury's target' as someone 'more interested in cozying up to her political pals than tackling the complicated MWRD business at hand.' Bury's campaign raised $23,176 total with $6,352 cash on hand (ILSBE committee 35354).",
+  "prior_office": "Student Representative, Whitney Young High School Local School Council (early 2000s). No prior elected office. Candidate for MWRD Commissioner 2019; applicant for MWRD board appointment 2024.",
+  "website": "https://www.sarah4waterrec.org",
+  "jacket": {
+    "total_raised": 23176,
+    "cash_on_hand": 6352,
+    "funds_available": 1852,
+    "contributions_since_q4_2025": 4500,
+    "debts_and_obligations": 4400,
+    "ilsbe_committee": "Sarah Bury for Water Reclamation",
+    "ilsbe_committee_id": "35354",
+    "donors": [
+      {
+        "name": "Itemized donors — top 25 require JS-rendered page",
+        "amount": null,
+        "category": "individual",
+        "label": "ILSBE committee 35354 — total raised $23,176; $6,352 cash on hand confirmed. Individual donor names require browser rendering of ILSBE JS interface.",
+        "source": "https://www.illinoissunshine.org/committees/sarah-bury-for-water-reclamation-35354/",
+        "confirmed": true,
+        "counts_toward_total_raised": true
+      }
+    ],
+    "source": "https://www.illinoissunshine.org/committees/sarah-bury-for-water-reclamation-35354/",
+    "note": "Total contributions: $23,176 (via Transparency USA). Dec 31, 2025 quarterly report: $1,852.87 funds available; $4,500 contributions since Q4 2025; cash on hand ~$6,352.87; debts $4,400. Grassroots campaign; significantly outspent by incumbents (Brady-Davis ~$70K, Eira ~$48K cash on hand).",
+    "data_date": "2026-03-14"
+  },
+  "red_flags": [
+    {
+      "type": "electoral",
+      "label": "Chicago Tribune endorsed incumbents over Bury",
+      "detail": "Tribune Feb 18, 2026 editorial endorsed Brady-Davis and Eira Corral Sepúlveda for re-election and specifically targeted Bury's challenge of Beth McElroy Kirkwood, describing Kirkwood as someone Bury says is 'more interested in cozying up to her political pals' — implying Bury is a protest challenger without elected track record.",
+      "source": "https://www.chicagotribune.com/2026/02/18/metropolitan-water-reclamation-district-mcelroy-kirkwood-brady-davis-sepulveda/",
+      "confirmed": true
+    },
+    {
+      "type": "financial",
+      "label": "Significantly outspent by all three incumbents",
+      "detail": "Bury has $6,352 cash on hand vs Brady-Davis ~$70K and Eira ~$48K. She is the lowest-funded candidate in the race by a wide margin, which may limit her voter outreach.",
+      "source": "https://www.illinoissunshine.org/committees/sarah-bury-for-water-reclamation-35354/",
+      "confirmed": true
+    }
+  ],
+  "key_votes": [],
+  "policy_platform": [
+    {
+      "topic": "Government Accountability & Transparency",
+      "position": "MWRD board meetings held in inaccessible location/time; restore and expand remote public comment. MWRD website needs improvement. Supplement monthly meetings with evening/weekend community events.",
+      "source": "https://ballotpedia.org/Sarah_Bury"
+    },
+    {
+      "topic": "Fiscal Responsibility",
+      "position": "Responsible management of MWRD's $1.4 billion budget; Back to Basics approach ensuring core mission is fulfilled responsibly.",
+      "source": "https://www.sarah4waterrec.org"
+    },
+    {
+      "topic": "Public Participation",
+      "position": "Facilitate public participation in MWRD decisions. MWRD should meet community members where they are — evening and weekend events in Cook County communities.",
+      "source": "https://www.sarah4waterrec.org"
+    },
+    {
+      "topic": "Water Quality / Flooding",
+      "position": "Clean water access and flood prevention. Strategically distribute green infrastructure to alleviate basement and street flooding. Reduce combined sewer overflows.",
+      "source": "https://www.sarah4waterrec.org"
+    },
+    {
+      "topic": "Environmental Justice",
+      "position": "Green infrastructure distributed equitably, with focus on areas with higher flooding propensity and working-class, diverse communities.",
+      "source": "https://www.sarah4waterrec.org"
+    },
+    {
+      "topic": "Water Treatment",
+      "position": "Advocates for UV vs. chlorine water treatment evaluation. Equitable green space distribution. River swimmability through sewer overflow reduction.",
+      "source": "https://www.sarah4waterrec.org"
+    },
+    {
+      "topic": "Community Education",
+      "position": "MWRD should be better known to county residents. Climate change curriculum in schools; Space to Grow program investment. Hosts podcast about local climate solutions.",
+      "source": "https://ballotpedia.org/Sarah_Bury"
+    }
+  ],
+  "career_history": [
+    {
+      "role": "Senior Project Manager / Attorney",
+      "org": "Corporate litigation (discovery support)",
+      "years": "current",
+      "highlight": "Works in discovery on corporate litigation matters as primary employment."
+    },
+    {
+      "role": "Dale Bryson Water Quality Fellow",
+      "org": "Alliance for the Great Lakes",
+      "years": "prior",
+      "highlight": "Drafted letters on water pollution; compared phosphorus laws across Midwest states."
+    },
+    {
+      "role": "Water Issue Specialist",
+      "org": "League of Women Voters of Illinois",
+      "years": "prior",
+      "highlight": "Tracked water-related legislation at state level."
+    },
+    {
+      "role": "Vice President / Treasurer",
+      "org": "League of Women Voters Lake Michigan Region",
+      "years": "current",
+      "highlight": "Board leadership role in regional LWV chapter."
+    },
+    {
+      "role": "Volunteer, Chicago Water Team",
+      "org": "Sierra Club",
+      "years": "ongoing",
+      "highlight": "Monitored stormwater permit compliance; tested Chicago River for phosphorus and dissolved oxygen."
+    },
+    {
+      "role": "Secretary",
+      "org": "Loyola Park Advisory Council",
+      "years": "prior",
+      "highlight": "Neighborhood civic engagement in Rogers Park."
+    },
+    {
+      "role": "Field Organizer",
+      "org": "Ald. Maria Hadden campaign (49th Ward); Bring Chicago Home ballot campaign",
+      "years": "2023–2024",
+      "highlight": "Political campaign organizing experience."
+    },
+    {
+      "role": "Volunteer Management",
+      "org": "Operation Swing State (Kamala Harris 2024 campaign)",
+      "years": "2024",
+      "highlight": "Managed volunteers for presidential campaign."
+    },
+    {
+      "role": "Steering Committee Member",
+      "org": "Network 49",
+      "years": "current",
+      "highlight": "Active in 49th Ward progressive political organization."
+    },
+    {
+      "role": "Collected signatures for MWRD Commissioner Cam Davis",
+      "org": "Metropolitan Water Reclamation District",
+      "years": "prior",
+      "highlight": "Worked alongside former Commissioner Debra Shore — demonstrates long-standing MWRD interest."
+    },
+    {
+      "role": "UN Climate Negotiator Attendee",
+      "org": "UNFCCC Conference of Parties",
+      "years": "prior",
+      "highlight": "Attended international climate negotiations."
+    },
+    {
+      "role": "JD/MA Graduate",
+      "org": "American University, Washington DC",
+      "years": "prior",
+      "highlight": "Joint JD/MA in environmental law and policy. Internships at City of Chicago legal dept, U.S. EPA, CIEL, DOJ."
+    }
+  ],
+  "endorsements": [
+    "Sierra Club (source: https://www.sarah4waterrec.org)"
+  ],
+  "data_status": "enriched",
+  "sources": [
+    "https://ballotpedia.org/Sarah_Bury",
+    "https://www.illinoissunshine.org/committees/sarah-bury-for-water-reclamation-35354/",
+    "https://www.transparencyusa.org/il/committee/sarah-bury-for-water-reclamation-35354",
+    "https://www.chicagotribune.com/2026/02/18/metropolitan-water-reclamation-district-mcelroy-kirkwood-brady-davis-sepulveda/",
+    "https://news.wttw.com/elections/voters-guide/2026-primary/sarah-bury",
+    "https://www.sarah4waterrec.org/about-sarah"
+  ],
+  "photo_url": null,
+  "trust_indicators": [
+    {
+      "label": "ILSBE committee registered and reporting",
+      "value": "Committee 35354 — filings on record",
+      "type": "positive"
+    },
+    {
+      "label": "Sierra Club endorsement",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "JD/MA environmental law — strongest environmental credentials in race",
+      "value": "American University JD/MA; EPA, DOJ, CIEL internships",
+      "type": "positive"
+    },
+    {
+      "label": "Chicago Tribune endorsed incumbents over Bury",
+      "value": true,
+      "type": "negative"
+    },
+    {
+      "label": "Significantly underfunded vs incumbents",
+      "value": "$6,352 cash on hand vs incumbents' $48K–$70K",
+      "type": "negative"
+    },
+    {
+      "label": "No prior elected office",
+      "value": true,
+      "type": "neutral"
+    }
+  ],
+  "social_pulse": {
+    "summary": "Grassroots challenger profile. Builds credibility through lived experience with flooding and deep technical expertise. Limited mainstream media endorsements. Sierra Club and environmental community support.",
+    "sentiment": "neutral-positive",
+    "hashtags": [
+      "#SarahBury",
+      "#MWRD",
+      "#WaterJustice",
+      "#CookCounty",
+      "#CleanWater"
+    ],
+    "last_updated": "2026-03-14"
+  },
+  "transparency_score": {
+    "grade": "C",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "A",
+    "record_available": false,
+    "red_flags_count": 2,
+    "computed_at": "2026-03-18"
+  },
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

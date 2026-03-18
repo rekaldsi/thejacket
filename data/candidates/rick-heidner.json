@@ -1,0 +1,236 @@
+{
+  "id": "rick-heidner",
+  "name": "Rick Heidner",
+  "party": "Republican",
+  "office": "Governor of Illinois",
+  "race_id": "il-governor-r-2026",
+  "bio": "Rick Heidner, 65, is a Barrington Hills real estate developer and the founder of Gold Rush Gaming, the third-largest video gaming terminal operator in Illinois with machines in nearly 800 bars, restaurants, and gas stations statewide. He also owns Heidner Properties (280+ commercial properties nationally, headquartered in Hoffman Estates), the Ricky Rockets Fuel Centers gas station chain, and wholesale fuel supplier Prairie State Energy. Heidner and his wife Alisa founded Gold Rush Gaming in 2012; the company's machines have processed roughly $3 billion in bets in a recent 12-month period. He has zero prior elected or appointed public office experience. He entered the 2026 GOP governor primary on October 22, 2025 — less than two weeks before the petition deadline — with his running mate Homer Glen Mayor Christina Neitzke-Troike.",
+  "prior_office": "None",
+  "website": "https://rickforillinois.com",
+  "photo_url": null,
+  "jacket": {
+    "total_raised": 2778791,
+    "pac_support_total": 181000,
+    "data_date": "2026-03-14",
+    "source": "https://illinoissunshine.org/committees/rick-for-illinois-inc-40926/",
+    "note": "As of Dec 31, 2025 quarterly report: $1.16M funds available + $1.62M contributions since then = $2.78M cash on hand. Includes $1M personal self-loan reported Oct 2025 and $181,000 from AL-PAC Illinois (Leopardo construction firm executives). Spent ~$239,800 on petition signature gathering and $54,700 on polling in Q4 2025.",
+    "donors": [
+      {
+        "name": "Rick Heidner (self)",
+        "amount": 1000000,
+        "note": "Self-loan to campaign, reported October 2025",
+        "source": "https://news.wttw.com/2025/10/22/illinois-video-gambling-mogul-rich-heidner-jumps-gop-gubernatorial-race"
+      },
+      {
+        "name": "AL-PAC Illinois (Leopardo construction firm executives)",
+        "amount": 181000,
+        "note": "PAC formed April 2025, reported no contributions until mid-December 2025",
+        "source": "https://www.chicagotribune.com/2026/01/16/illinois-gop-gov-candidate-rick-heidner-spent-nearly-250000-to-get-his-name-on-the-primary-ballot/"
+      }
+    ],
+    "fec_id": null
+  },
+  "red_flags": [
+    {
+      "type": "conflict_of_interest",
+      "label": "Video Gaming Regulator Conflict: Governor Appoints Illinois Gaming Board Members",
+      "detail": "The Illinois Gaming Board — whose members are appointed by the governor — regulates Gold Rush Gaming, Heidner's own video gaming terminal company. A governor-appointed board oversees licensing, can revoke licenses, and sets VGT operating rules. In 2019, the IGB moved to revoke Gold Rush's license; in 2021, a settlement was reached for $75,000. Heidner would be in a position to influence the composition of the board that regulates his own multimillion-dollar business.",
+      "source": "https://www.chicagotribune.com/2021/04/21/video-gambling-operator-pays-75000-in-settlement-as-illinois-gaming-board-drops-attempt-to-revoke-license/",
+      "confirmed": true
+    },
+    {
+      "type": "business_association",
+      "label": "Business Ties to Banker with Alleged Mob Connections (Suspenzi/Parkway Bank)",
+      "detail": "A 2019 Chicago Tribune investigation found Heidner had long-standing real estate partnerships with Rocco Suspenzi, chairman of Parkway Bank & Trust, whose family concealed secret ownership stakes in the Rosemont Emerald casino alongside alleged mob figures. Rocco Suspenzi invoked the Fifth Amendment at a 2005 Gaming Board hearing. Heidner removed Suspenzi's name from Illinois LLCs two weeks before his 2012 gaming license was approved, but continued doing business together in other states. Heidner denied any organized crime ties.",
+      "source": "https://www.chicagotribune.com/2019/10/11/video-gambling-owner-pitching-racetrack-casino-is-in-business-with-family-whose-financial-ties-to-mob-figures-sunk-rosemont-casino/",
+      "confirmed": true
+    },
+    {
+      "type": "business_association",
+      "label": "Real Estate Partnership with Convicted Bookmaker Dominic Buttitta",
+      "detail": "Heidner and Dominic Buttitta formed Heidner-Buttitta Properties LLC in 2005 and jointly owned a building in Elgin leased to a bar using Gold Rush machines. Buttitta pleaded guilty in February 2012 to federal charges of running an illegal sportsbook and skimming from a strip club. Heidner removed Buttitta's name from the corporation one week before Buttitta's guilty plea — and two weeks before his gaming license was approved by the IGB.",
+      "source": "https://www.chicagotribune.com/2019/10/11/video-gambling-owner-pitching-racetrack-casino-is-in-business-with-family-whose-financial-ties-to-mob-figures-sunk-rosemont-casino/",
+      "confirmed": true
+    },
+    {
+      "type": "regulatory",
+      "label": "$5 Million Federal Tax Lien (2023)",
+      "detail": "In April 2023, the IRS filed a $5,083,274 federal tax lien against Rick and Alisa Heidner personally for unpaid 2021 income taxes. A spokesman attributed the shortfall to an accounting reclassification and rising interest rates, stating the balance would be paid through an IRS installment plan by August 2023.",
+      "source": "https://chicago.suntimes.com/2023/7/14/23794309/rick-heidner-alisa-gold-rush-amusements-irs-income-taxes-illinois-video-gambling-king",
+      "confirmed": true
+    },
+    {
+      "type": "regulatory",
+      "label": "Illinois Gaming Board License Revocation Attempt (2019) and $75,000 Settlement (2021)",
+      "detail": "In December 2019 the Illinois Gaming Board moved to revoke Gold Rush Gaming's state license, alleging Heidner offered an illegal $5 million inducement to induce the owner of the Stella's and Shelby's gambling cafe chain not to switch suppliers. In April 2021, Gold Rush paid $75,000 ($45,000 in investigative costs + $30,000 fine for 'unprofessional conduct') and the IGB dropped revocation proceedings. Neither party admitted wrongdoing.",
+      "source": "https://www.chicagotribune.com/2021/04/21/video-gambling-operator-pays-75000-in-settlement-as-illinois-gaming-board-drops-attempt-to-revoke-license/",
+      "confirmed": true
+    },
+    {
+      "type": "ethics",
+      "label": "Named in Federal Search Warrant in Martin Sandoval Public Corruption Probe (2019)",
+      "detail": "In October 2019, Heidner's name appeared in a federal search warrant executed at the Springfield office of Democratic state Sen. Martin Sandoval as part of a sweeping public corruption probe. Federal prosecutors subsequently confirmed Heidner was not a target of the investigation.",
+      "source": "https://news.wttw.com/2025/10/22/illinois-video-gambling-mogul-rich-heidner-jumps-gop-gubernatorial-race",
+      "confirmed": false
+    }
+  ],
+  "key_votes": [
+    {
+      "bill": "N/A — No prior elected office",
+      "vote": "N/A",
+      "summary": "Heidner has never held elected or appointed public office and has no legislative voting record. Key positions are derived from campaign statements and candidate questionnaires.",
+      "source": "https://chicago.suntimes.com/elections/2026/candidate-questionnaires/rick-heidner-christina-neitzke-troike-illinois-governor-primary"
+    },
+    {
+      "bill": "Illinois Gaming Board — Gold Rush License Settlement (April 2021)",
+      "vote": "Settlement agreement — Gold Rush pays $75,000, IGB drops revocation",
+      "summary": "Gold Rush Gaming, under Heidner's direction, agreed to a $75,000 settlement with the Illinois Gaming Board to resolve the December 2019 license revocation proceeding and related lawsuits, including suits accusing IGB staff of leaking sensitive information. The board voted unanimously to approve.",
+      "source": "https://www.chicagotribune.com/2021/04/21/video-gambling-operator-pays-75000-in-settlement-as-illinois-gaming-board-drops-attempt-to-revoke-license/"
+    },
+    {
+      "bill": "Tinley Park Racino Proposal (2019) — Blocked by Pritzker Administration",
+      "vote": "Proposed development blocked post-Tribune investigation",
+      "summary": "Heidner partnered with Hawthorne Racecourse president Tim Carey to develop a horse racing track and casino on state-owned land in Tinley Park. Following the October 2019 Tribune investigation revealing Heidner's business ties to figures with alleged mob connections, Gov. Pritzker halted the sale of the state-owned site in October 2019. Heidner has said the blocking was unfair and denies it was justified.",
+      "source": "https://www.chicagotribune.com/2026/03/08/illinois-2026-gop-primary-for-governor-features-four-candidates-and-one-familiar-face-but-big-donors-sit-out/"
+    },
+    {
+      "bill": "Governor Proposed: Two-Term Limit for Governor (2026 campaign)",
+      "vote": "Supports — stated position",
+      "summary": "Heidner has stated he would pursue a two-term limit specifically for the Illinois governor's office on day one of his administration, citing Pritzker's third-term bid as the impetus. He has not publicly proposed broader term limits for the legislature.",
+      "source": "https://www.stlpr.org/podcast/politically-speaking/2026-02-23/illinois-republican-heidner-business-acumen-governors-office"
+    },
+    {
+      "bill": "SAFE-T Act — Pretrial Fairness/Cash Bail Elimination (2021 IL law)",
+      "vote": "Opposes — wants repeal or full restart",
+      "summary": "Heidner has called for scrapping the SAFE-T Act entirely, saying 'let's just probably start all over because it's got to stop.' He cites the November 2025 case in which a man with a lengthy criminal history set a Chicago woman on fire on the CTA as evidence the law fails public safety.",
+      "source": "https://www.stlpr.org/podcast/politically-speaking/2026-02-23/illinois-republican-heidner-business-acumen-governors-office"
+    },
+    {
+      "bill": "TRUST Act — Illinois Sanctuary Law (signed by Republican Gov. Rauner, 2017)",
+      "vote": "Opposes — would repeal",
+      "summary": "Heidner supports abolishing the TRUST Act and allowing local law enforcement to cooperate with ICE, arguing that six to eight weeks of law enforcement cooperation would have resolved the Operation Midway Blitz situation.",
+      "source": "https://www.chicagotribune.com/2026/03/08/illinois-2026-gop-primary-for-governor-features-four-candidates-and-one-familiar-face-but-big-donors-sit-out/"
+    }
+  ],
+  "endorsements": [
+    "Brett Corrigan, campaign chairman — former Bailey 2022 campaign operative; chairs Save Illinois PAC"
+  ],
+  "policy_positions": [
+    "Two-term limit for governor: 'We should have two terms for a limit for a governor. None of this would be this way if JB Pritzker wasn't able to run for a third term.' (STLPR, Feb. 23, 2026)",
+    "SAFE-T Act: Wants full repeal or restart — 'let's just probably start all over because it's got to stop.' Specific concern: re-releasing detainees who are actively in drug withdrawal after only ~2 hours of processing",
+    "Property taxes: Opposes new taxes; supports freezing all state taxes and auditing every state department for waste; opposes the CEJA (Climate and Equitable Jobs Act); wants business-friendly incentives to expand tax base",
+    "Immigration: Repeal TRUST Act; full cooperation with ICE; supports a path to citizenship for undocumented immigrants who have long-term, law-abiding residence, jobs, and children in school — distinguishing him from Bailey",
+    "Pensions: No new taxes; would adjust retirement age and contribution percentages for new hires while honoring existing retirees' benefits",
+    "First-time homebuyers: Would exempt down payment amounts from state income tax in the year of purchase; would seek similar federal legislation",
+    "Bears stadium: Supports state infrastructure assistance to keep Bears in Illinois; says it would generate 'hundreds and hundreds of millions of dollars of tax dollars'",
+    "Business climate: 'Freeze all taxes and increase our tax base by bringing in new businesses'; supports data centers paying their own energy costs",
+    "Climate and Equitable Jobs Act (CEJA, 2021): Opposes; wants rollback of mandated renewable energy transition",
+    "Ethics reform: Expressed general support but offered no specific proposals in Sun-Times questionnaire, declining to name anyone"
+  ],
+  "career_history": [
+    {
+      "role": "Founder and Owner",
+      "org": "Gold Rush Gaming (video gaming terminal operator)",
+      "years": "2012–present",
+      "highlight": "Third-largest VGT operator in Illinois; machines in nearly 800 Illinois locations; processed ~$3 billion in bets in a 12-month period per 2023 IRS lien records. Licensed by Illinois Gaming Board in February 2012."
+    },
+    {
+      "role": "Founder and Owner",
+      "org": "Heidner Properties",
+      "years": "Prior to 2012–present",
+      "highlight": "Owns and manages 280+ commercial properties across the U.S.; headquartered at 5277 Trillium Blvd, Hoffman Estates, IL 60192. Real estate base that predated and financially supported gaming expansion."
+    },
+    {
+      "role": "Owner",
+      "org": "Ricky Rockets Fuel Centers and Prairie State Energy",
+      "years": "Not publicly specified–present",
+      "highlight": "Operates a gas station chain (Ricky Rockets) and wholesale fuel supplier (Prairie State Energy) in the Chicago area."
+    },
+    {
+      "role": "Candidate for Illinois Governor",
+      "org": "Republican Party",
+      "years": "October 2025–present",
+      "highlight": "Entered race October 22, 2025, less than two weeks before petition deadline. Self-funded $1 million initial loan. Running mate: Homer Glen Mayor Christina Neitzke-Troike. Labels himself 'Trump Republican for Governor.'"
+    }
+  ],
+  "trust_indicators": [
+    {
+      "label": "No prior public office",
+      "value": "Zero elected or appointed government experience; first-time candidate at age 65",
+      "type": "negative"
+    },
+    {
+      "label": "Self-funded campaign",
+      "value": "$1 million personal self-loan to campaign; $239,800 spent on petition-gathering alone",
+      "type": "negative"
+    },
+    {
+      "label": "Direct financial conflict with IGB",
+      "value": "Governor appoints IGB members who regulate Gold Rush Gaming — Heidner's core business",
+      "type": "negative"
+    },
+    {
+      "label": "$5M IRS lien (2023)",
+      "value": "Paid under installment plan; no criminal charges; confirmed resolved per spokesman",
+      "type": "negative"
+    },
+    {
+      "label": "Bipartisan donor history",
+      "value": "Donated to Democrats (Brandon Johnson $25,000, Kim Foxx $2,500, Toni Preckwinkle $5,000) and Republicans — critics call it 'pay-to-play'",
+      "type": "negative"
+    },
+    {
+      "label": "Business scale and track record",
+      "value": "Built three separate multi-location businesses (real estate, gaming, fuel) from the ground up; employs significant Illinois workforce",
+      "type": "positive"
+    },
+    {
+      "label": "Moderate immigration position",
+      "value": "Breaks from GOP field by supporting path to citizenship for long-term, tax-paying undocumented residents",
+      "type": "positive"
+    }
+  ],
+  "transparency_grade": null,
+  "policy_platform": [],
+  "news_hits": [
+    {
+      "headline": "Illinois 2026 GOP primary for governor features four candidates and one familiar face but big donors sit out",
+      "summary": "Chicago Tribune reports on the underfunded GOP governor primary, noting Heidner is 'facing criticism for donating to several Democratic candidates before his run for the Republican nomination' — including $25,000 to Brandon Johnson, $5,000 to Toni Preckwinkle, and $2,500 to Kim Foxx — which opponents call 'pay-to-play.'",
+      "url": "https://www.chicagotribune.com/2026/03/08/illinois-2026-gop-primary-for-governor-features-four-candidates-and-one-familiar-face-but-big-donors-sit-out/",
+      "date": "2026-03-08",
+      "severity": "high",
+      "source_name": "Chicago Tribune"
+    },
+    {
+      "headline": "Illinois primary election: Key races for governor, U.S. Senate",
+      "summary": "USA Today's primary preview highlights Heidner's business acumen pitch while noting the dual controversy of his gaming industry conflict of interest (the governor appoints the Illinois Gaming Board that regulates his own company) and his history of donating to Democratic candidates.",
+      "url": "https://eu.usatoday.com/story/news/politics/elections/2026/03/14/illinois-primary-election-2026-key-races-for-governor-us-senate-comptroller/89084056007/",
+      "date": "2026-03-14",
+      "severity": "medium",
+      "source_name": "USA Today"
+    },
+    {
+      "headline": "Familiar foes line up in Republican primary for chance against Gov. JB Pritzker",
+      "summary": "Chicago Sun-Times profiles the four-way GOP governor primary, describing Heidner as a candidate who 'lost a big chunk of his fortune in regulatory fights with Pritzker's administration' — specifically the 2019 blocking of his Tinley Park racino proposal after the Tribune's investigation into his business ties.",
+      "url": "https://chicago.suntimes.com/elections/2026/02/23/illinois-republican-primary-governor-candidates-preview-bailey-dabrowski-heidner-mendrick",
+      "date": "2026-02-23",
+      "severity": "medium",
+      "source_name": "Chicago Sun-Times"
+    }
+  ],
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "C",
+    "platform_completeness": "F",
+    "record_available": true,
+    "red_flags_count": 6,
+    "computed_at": "2026-03-18"
+  },
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

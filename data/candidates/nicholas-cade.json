@@ -1,0 +1,155 @@
+{
+  "id": "nicholas-cade",
+  "name": "Nicholas Cade",
+  "party": "Democratic",
+  "office": "Cook County Commissioner District 8",
+  "race_id": "cook-county-commissioner-dist-8",
+  "incumbent": false,
+  "bio": "Nicholas Cade is a U.S. Navy veteran challenging incumbent Commissioner Jessica Vasquez in the District 8 Democratic primary.",
+  "prior_office": "U.S. Navy veteran. No elected office confirmed.",
+  "website": "https://www.cadeforcook.com/",
+  "jacket": {
+    "total_raised": null,
+    "cash_on_hand": 88568.29,
+    "data_date": "2026-03-14",
+    "source": "https://illinoissunshine.org/committees/40665/",
+    "note": "Committee: Friends of Nicholas Cade (ID 40665, founded May 19, 2025). Funds available $74,068.29 + contributions since Dec 31, 2025 of $14,500. Debts: $10,000. Top donors: candidate self ($10,000), Cynthia Jamison-Marcy ($7,300), David A Kolber ($7,300), Charles Marcy ($7,300), Philip Cade ($7,300), LEE PAC ($6,000), Kristin Campbell ($5,000), Patricia Kolber ($5,000), Andreas L Ervriviades ($5,000). Largely individual donor-funded; no major union backing.",
+    "fec_id": null,
+    "ilsbe_id": "40665",
+    "donors": [
+      {
+        "name": "Nicholas Cade",
+        "amount": 10000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40665/",
+        "confirmed": true
+      },
+      {
+        "name": "Cynthia Jamison-Marcy",
+        "amount": 7300,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40665/",
+        "confirmed": true
+      },
+      {
+        "name": "David A Kolber",
+        "amount": 7300,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40665/",
+        "confirmed": true
+      },
+      {
+        "name": "Charles Marcy",
+        "amount": 7300,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40665/",
+        "confirmed": true
+      },
+      {
+        "name": "Philip Cade",
+        "amount": 7300,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40665/",
+        "confirmed": true
+      },
+      {
+        "name": "LEE PAC",
+        "amount": 6000,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/40665/",
+        "confirmed": true
+      },
+      {
+        "name": "Kristin Campbell",
+        "amount": 5000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40665/",
+        "confirmed": true
+      },
+      {
+        "name": "Patricia Kolber",
+        "amount": 5000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40665/",
+        "confirmed": true
+      },
+      {
+        "name": "Andreas L Ervriviades",
+        "amount": 5000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40665/",
+        "confirmed": true
+      },
+      {
+        "name": "Ann Kadinsky-Cade",
+        "amount": 3000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40665/",
+        "confirmed": true
+      },
+      {
+        "name": "Joan Greco",
+        "amount": 2500,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40665/",
+        "confirmed": true
+      },
+      {
+        "name": "Jeffrey Mullins",
+        "amount": 1500,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40665/",
+        "confirmed": true
+      },
+      {
+        "name": "Travis Moyer",
+        "amount": 1500,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40665/",
+        "confirmed": true
+      },
+      {
+        "name": "Annette J Cade",
+        "amount": 1500,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40665/",
+        "confirmed": true
+      }
+    ]
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "policy_platform": [],
+  "career_history": [
+    {
+      "role": "U.S. Navy veteran",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    }
+  ],
+  "data_status": "partial",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
+    "https://illinoissunshine.org/committees/40665/"
+  ],
+  "photo_url": null,
+  "endorsements": [],
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "F",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-18"
+  },
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

@@ -1,0 +1,478 @@
+{
+  "id": "thomas-dart",
+  "name": "Thomas Dart",
+  "party": "Democratic",
+  "office": "Cook County Sheriff",
+  "race_id": "cook-county-sheriff-d-2026",
+  "uncontested": true,
+  "years_in_office": 20,
+  "bio": "Thomas J. Dart has served as Cook County Sheriff since 2006 — a 20-year incumbency. He previously served in the Illinois Senate (1991–1993) and Illinois House (1993–2003). He holds a BA from Providence College and a JD from Loyola University Chicago. He runs the second-largest single-site jail in the United States, overseeing ~6,700 employees and a $700M+ annual budget. In 2026, he faces no Democratic primary opponent.",
+  "prior_office": "Illinois House (1993–2003); Illinois Senate (1991–1993)",
+  "website": "https://www.cookcountysheriff.org",
+  "photo_url": null,
+  "jacket": {
+    "total_raised": 386103.57,
+    "data_date": "2026-03-14",
+    "source": "https://illinoissunshine.org/committees/19319/",
+    "note": "ILSBE committee #19319. Top-25 donors scraped via Firecrawl 2026-03-14.",
+    "donors_note": "Showing top 5 donors ($15,000 — 3.9% of total raised). Full contributor list: illinoissunshine.org/committees/19319/",
+    "fec_id": null,
+    "ilsbe_id": "19319",
+    "donors": [
+      {
+        "name": "James V. Riley",
+        "amount": 56000,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/19319/",
+        "confirmed": true
+      },
+      {
+        "name": "George Zervas",
+        "amount": 55000,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/19319/",
+        "confirmed": true
+      },
+      {
+        "name": "SEIU Illinois Council PAC Fund",
+        "amount": 37965.63,
+        "category": "labor",
+        "source": "https://www.illinoissunshine.org/committees/19319/",
+        "confirmed": true
+      },
+      {
+        "name": "Peter Spyropoulos",
+        "amount": 32000,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/19319/",
+        "confirmed": true
+      },
+      {
+        "name": "John F. Winters, Jr.",
+        "amount": 30800,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/19319/",
+        "confirmed": true
+      },
+      {
+        "name": "UA Political Education Committee (Plumbers union)",
+        "amount": 25000,
+        "category": "labor",
+        "source": "https://www.illinoissunshine.org/committees/19319/",
+        "confirmed": true
+      },
+      {
+        "name": "Construction & General Laborers' District Council",
+        "amount": 23700,
+        "category": "labor",
+        "source": "https://www.illinoissunshine.org/committees/19319/",
+        "confirmed": true
+      },
+      {
+        "name": "Nicolay & Dart LLC",
+        "amount": 23500,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/19319/",
+        "confirmed": true
+      },
+      {
+        "name": "Michael Mackey",
+        "amount": 23450,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/19319/",
+        "confirmed": true
+      },
+      {
+        "name": "IUOE Local 399 Political Education Fund",
+        "amount": 10000,
+        "category": "Union PAC",
+        "source": "ILSBE",
+        "confirmed": true
+      },
+      {
+        "name": "Thomas M. Tully",
+        "amount": 2500,
+        "category": "individual",
+        "source": "ILSBE",
+        "confirmed": true
+      },
+      {
+        "name": "GRG Holdings LLC",
+        "amount": 1000,
+        "category": "Corporate",
+        "source": "ILSBE",
+        "confirmed": true
+      },
+      {
+        "name": "JMS Electric Inc",
+        "amount": 1000,
+        "category": "Corporate",
+        "source": "ILSBE",
+        "confirmed": true
+      },
+      {
+        "name": "All-Circo Inc",
+        "amount": 500,
+        "category": "Corporate",
+        "source": "ILSBE",
+        "confirmed": true
+      }
+    ],
+    "cash_on_hand": 388603.57
+  },
+  "red_flags": [
+    {
+      "type": "civil-rights",
+      "label": "2023: Deadliest jail year in 30+ years — 18 detainee deaths",
+      "detail": "Injustice Watch investigation found 18 detainee deaths at Cook County Jail in 2023, the deadliest year in at least 30 years. Supervision and medical care lapses were identified in at least half the deaths. Dart failed to properly report circumstances to state regulators and families.",
+      "source": "https://www.injusticewatch.org/project/jail-deaths/2024/cook-county-jail-deaths-2023/",
+      "confirmed": true
+    },
+    {
+      "type": "civil-rights",
+      "label": "DOJ Consent Decree 2010–2017 — unconstitutional jail conditions",
+      "detail": "The federal DOJ sued Cook County in 2010 (United States v. Cook County, 1:10-cv-02946) over unconstitutional living conditions at Cook County Jail. A consent decree placed the jail under federal oversight for 7+ years. The decree was lifted in 2017. The 'cross-watching' practice (one officer monitoring two tiers) that was central to the decree is reportedly still in use.",
+      "source": "https://clearinghouse.net/case/13145/",
+      "confirmed": true
+    },
+    {
+      "type": "civil-rights",
+      "label": "Unlawful detention class action — Black Chicagoans held weeks after bond paid",
+      "detail": "A class action lawsuit alleges Dart's office unlawfully detained nine Black Chicagoans for up to two weeks after they paid bond, violating the Fourth Amendment by refusing to release them to electronic monitoring. A federal appellate court allowed the suit to proceed in January 2024.",
+      "source": "https://www.injusticewatch.org/criminal-courts/cook-county-jail/2020/dart-electronic-monitoring-lawsuit-appellate-court/",
+      "confirmed": true
+    },
+    {
+      "type": "ethics",
+      "label": "Political coercion — 30+ employees forced onto 2022 campaign",
+      "detail": "Two senior jail officials (Drake Carpenter and Aracelis Gotay) filed suit alleging they were coerced into performing 2022 campaign work — checking petitions and canvassing — and were allegedly fired 8 days after amending their lawsuit to add the coercion allegation. According to the lawsuit, sign-in sheets show 30+ employees at campaign signature challenge sessions on county time. These allegations have not been adjudicated and Dart has not been found liable.",
+      "source": "https://chicago.suntimes.com/the-watchdogs/2024/05/27/cook-county-jail-officials-fired-coerced-political-work-sheriff-tom-dart",
+      "confirmed": false
+    },
+    {
+      "type": "ethics",
+      "label": "Sgt. Pagani whistleblower suit (2025) — ghost pay, COVID fraud, nepotism",
+      "detail": "According to a 60-page federal lawsuit filed by Sgt. Nicole Pagani in 2025, she alleges she was demoted after reportedly discovering: ghost payrolling by 20+ employees; falsified COVID hazardous-duty pay records (potential federal fund misappropriation); nepotism in hiring (family members of senior staff); employees training personal dogs on county time; racist images on government devices; and further campaign coercion. She further alleges Dart's inner circle directed her to suppress the findings. These are unverified allegations in active litigation; Dart has not been charged or found liable.",
+      "source": "https://cwbchicago.com/2025/01/in-federal-lawsuit-demoted-investigator-claims-she-found-ghost-payrolling-covid-fraud-nepotism-and-more-at-the-sheriffs-office.html",
+      "confirmed": false
+    },
+    {
+      "type": "ethics",
+      "label": "FBI ghost payroll probe (2022–2024)",
+      "detail": "The FBI joined an internal investigation of Cook County Sheriff's Office employees allegedly working second jobs at a Des Plaines security firm while on the county clock. FBI confirmed in late 2023 that no federal charges were filed, but the internal investigation concluded with firings.",
+      "source": "https://chicago.suntimes.com/metro-state/2022/4/1/23006376/ghost-payrolling-fbi-probe-cook-county-sheriff-office-double-dipping",
+      "confirmed": true
+    },
+    {
+      "type": "ethics",
+      "label": "Skipped County Board hearing on jail deaths",
+      "detail": "In December 2024, the Cook County Board called a special hearing in response to Injustice Watch's reporting on the 18 jail deaths. Dart did not attend while families of deceased detainees gave tearful testimony.",
+      "source": "https://www.injusticewatch.org/project/jail-deaths/2024/sheriff-tom-dart-county-board-hearing-on-jail-deaths/",
+      "confirmed": true
+    },
+    {
+      "type": "patronage",
+      "label": "100+ Director titles — patronage machine at county jail",
+      "detail": "A February 2026 report by C4 Cook County claimed to document over 100 'Director' and 'Executive Director' titles at Cook County Jail — reportedly more than entire state DOC systems. The report alleges the office has a revolving door of former journalists hired as communications staff, potentially creating structural conflicts of interest in critical coverage. The claim that this amounts to deliberate suppression has not been independently verified.",
+      "source": "https://www.c4cookcounty.org/articles/corruption-exposed",
+      "confirmed": false
+    },
+    {
+      "type": "patronage",
+      "label": "Hired journalists to suppress coverage — ABC7, Tribune, WBBM",
+      "detail": "According to a report by C4 Cook County, Dart allegedly hired an ABC 7 reporter (now PIO), a Chicago Tribune reporter (now Executive Director), a WBBM producer (PIO), and others including Fox 32 anchor Dane Placko's son and radio host Roe Conn. These reported hires are from news organizations that cover Cook County. Whether these hiring decisions constitute intentional suppression of coverage has not been independently verified or adjudicated.",
+      "source": "https://www.c4cookcounty.org/articles/corruption-exposed",
+      "confirmed": false
+    },
+    {
+      "type": "ethics",
+      "label": "Deborah Mell (Blagojevich family) hired as director",
+      "detail": "According to a report by C4 Cook County, Dart allegedly hired Deborah Mell — daughter of political figure Richard Mell and sister-in-law of impeached Governor Rod Blagojevich — as a director-level employee at the Sheriff's Office. This claim has not been independently verified, and no impropriety in the hiring has been established.",
+      "source": "https://www.c4cookcounty.org/articles/corruption-exposed",
+      "confirmed": false
+    },
+    {
+      "type": "ethics",
+      "label": "Electronic monitoring program sunset in 2024 following years of civil rights cri",
+      "detail": "Electronic monitoring program sunset in 2024 following years of civil rights criticism — advocates called it a 'human rights crisis' with arbitrary restrictions on liberty",
+      "source": "https://www.cookcountysheriff.org",
+      "confirmed": false
+    },
+    {
+      "type": "ethics",
+      "label": "Nicolay & Dart LLC ($23,500 donor) — company shares candidate's surname; potenti",
+      "detail": "Nicolay & Dart LLC ($23,500 donor) — company shares candidate's surname; potential conflict not investigated but notable",
+      "source": "https://www.cookcountysheriff.org",
+      "confirmed": false
+    },
+    {
+      "type": "ethics",
+      "label": "20+ years in office: Critics note incumbency entrenchment and minimal electoral ",
+      "detail": "20+ years in office: Critics note incumbency entrenchment and minimal electoral competition (2026 primary: no Democratic challenger filed)",
+      "source": "https://www.cookcountysheriff.org",
+      "confirmed": false
+    },
+    {
+      "type": "ethics",
+      "label": "Justice Not Fear and Chicago Appleseed documented harms to EM participants under",
+      "detail": "Justice Not Fear and Chicago Appleseed documented harms to EM participants under Dart's oversight — Dart accused of spreading 'disinformation' about EM reforms",
+      "source": "https://www.cookcountysheriff.org",
+      "confirmed": false
+    },
+    {
+      "label": "Electronic monitoring program sunset in 2024 following years of civil rights criticism — advocates called it a 'human rights crisis' with arbitrary restrictions on liberty"
+    },
+    {
+      "label": "Nicolay & Dart LLC ($23,500 donor) — company shares candidate's surname; potential conflict not investigated but notable"
+    },
+    {
+      "label": "20+ years in office: Critics note incumbency entrenchment and minimal electoral competition (2026 primary: no Democratic challenger filed)"
+    },
+    {
+      "label": "Justice Not Fear and Chicago Appleseed documented harms to EM participants under Dart's oversight — Dart accused of spreading 'disinformation' about EM reforms"
+    }
+  ],
+  "key_votes": [
+    {
+      "bill": "2008: Suspended all foreclosure evictions in Cook County during subprime mortgag",
+      "vote": "record",
+      "summary": "2008: Suspended all foreclosure evictions in Cook County during subprime mortgage crisis, citing harm to renters — Time magazine named him one of 100 Most Influential People (2009)",
+      "source": "https://www.cookcountysheriff.org"
+    },
+    {
+      "bill": "2013: Launched Office of Mental Health Policy & Advocacy — 24-hour Care Line for",
+      "vote": "record",
+      "summary": "2013: Launched Office of Mental Health Policy & Advocacy — 24-hour Care Line for mentally ill ex-inmates, screening all pre-bond detainees; pioneered diversion-over-incarceration approach",
+      "source": "https://www.cookcountysheriff.org"
+    },
+    {
+      "bill": "2019: Filed lawsuit against Craigslist to close 'erotic services' section — dism",
+      "vote": "record",
+      "summary": "2019: Filed lawsuit against Craigslist to close 'erotic services' section — dismissed on Section 230 immunity grounds",
+      "source": "https://www.cookcountysheriff.org"
+    },
+    {
+      "bill": "2020-2024: Ran nation's largest single-site jail (Cook County), reduced populati",
+      "vote": "record",
+      "summary": "2020-2024: Ran nation's largest single-site jail (Cook County), reduced population through electronic monitoring — program overseen 1989-2025",
+      "source": "https://www.cookcountysheriff.org"
+    },
+    {
+      "bill": "2024 Nov: Cook County Board voted to sunset Dart's electronic monitoring program",
+      "vote": "record",
+      "summary": "2024 Nov: Cook County Board voted to sunset Dart's electronic monitoring program, transferring oversight to Chief Judge amid human rights concerns about restrictive conditions",
+      "source": "https://www.cookcountysheriff.org"
+    },
+    {
+      "bill": "2025 Mar: EM program formally transferred to Chief Judge's office; Dart's office",
+      "vote": "record",
+      "summary": "2025 Mar: EM program formally transferred to Chief Judge's office; Dart's office offered 100 EM unit employees transition positions",
+      "source": "https://www.cookcountysheriff.org"
+    },
+    {
+      "bill": "2006-present: Refused to honor ICE detainer requests — Cook County does not hold",
+      "vote": "record",
+      "summary": "2006-present: Refused to honor ICE detainer requests — Cook County does not hold immigrants for ICE beyond release date; sanctuary jurisdiction",
+      "source": "https://www.cookcountysheriff.org"
+    }
+  ],
+  "endorsements": [
+    {
+      "org": "Cook County Democratic Party",
+      "significance": "Official party slate endorsee — effectively party-backed machine candidate"
+    },
+    {
+      "org": "IUOE Local 399",
+      "significance": "Largest confirmed donor ($10,000). Operating engineers union."
+    }
+  ],
+  "jail_timeline": [
+    {
+      "year": 2006,
+      "event": "Dart elected Cook County Sheriff, defeating incumbent Michael Sheahan's chosen successor",
+      "type": "milestone"
+    },
+    {
+      "year": 2010,
+      "event": "DOJ files federal lawsuit — 'unconstitutional living conditions' at Cook County Jail",
+      "type": "legal"
+    },
+    {
+      "year": 2017,
+      "event": "DOJ consent decree lifted after 7+ years of federal oversight",
+      "type": "legal"
+    },
+    {
+      "year": 2022,
+      "event": "FBI joins internal ghost payrolling probe — employees allegedly working second jobs on county time",
+      "type": "legal"
+    },
+    {
+      "year": 2023,
+      "event": "18 detainee deaths — deadliest year in 30+ years. Dart fails to notify regulators or families.",
+      "type": "death"
+    },
+    {
+      "year": 2024,
+      "event": "Cory Ulmer beaten to death by guards. Dart initially calls it 'a medical emergency.' 73-page federal civil rights suit filed.",
+      "type": "death"
+    },
+    {
+      "year": 2024,
+      "event": "County Board calls hearing on jail deaths. Dart does not attend.",
+      "type": "ethics"
+    },
+    {
+      "year": 2025,
+      "event": "Sgt. Pagani files 60-page federal whistleblower suit — ghost pay, COVID fraud, nepotism, racist images, campaign coercion",
+      "type": "legal"
+    },
+    {
+      "year": 2026,
+      "event": "Running unopposed. Again. 20th year in office.",
+      "type": "election"
+    }
+  ],
+  "accountability_gap": {
+    "oversight_bodies": [
+      {
+        "name": "Cook County Board of Commissioners",
+        "role": "Controls the Sheriff's Office budget. Has subpoena power for oversight hearings.",
+        "race_link": "cook-county-board-president-democratic-primary",
+        "action": "Find your County Board district commissioner and ask where they stood on jail oversight."
+      },
+      {
+        "name": "Illinois Attorney General",
+        "role": "Can investigate civil rights violations in state-funded institutions.",
+        "race_link": null,
+        "action": "Contact the IL Attorney General's office to request a civil rights investigation."
+      },
+      {
+        "name": "Illinois Prisoner Review Board",
+        "role": "Required to receive reports on deaths in custody — reports Dart allegedly failed to file.",
+        "race_link": null,
+        "action": "File a complaint with the IL Prisoner Review Board."
+      }
+    ],
+    "what_you_can_do": [
+      "Read Injustice Watch's full 'Dying on Dart's Watch' series — the most complete record of jail deaths.",
+      "Contact your Cook County Board commissioner and ask them to call another oversight hearing.",
+      "Share this page — Dart's power depends on civic disengagement.",
+      "Register to vote in the November 2026 general election, when independent candidates may appear on the ballot."
+    ],
+    "read_more": [
+      {
+        "label": "Injustice Watch: Dying on Dart's Watch",
+        "url": "https://www.injusticewatch.org/project/jail-deaths/"
+      },
+      {
+        "label": "Chicago Sun-Times: Campaign coercion investigation",
+        "url": "https://chicago.suntimes.com/the-watchdogs/2024/05/27/cook-county-jail-officials-fired-coerced-political-work-sheriff-tom-dart"
+      },
+      {
+        "label": "CWB Chicago: Pagani whistleblower lawsuit",
+        "url": "https://cwbchicago.com/2025/01/in-federal-lawsuit-demoted-investigator-claims-she-found-ghost-payrolling-covid-fraud-nepotism-and-more-at-the-sheriffs-office.html"
+      }
+    ]
+  },
+  "career_history": [
+    {
+      "role": "Cook County Sheriff",
+      "org": "Cook County Sheriff's Office",
+      "years": "2006–present",
+      "highlight": "20-year incumbency; runs the second-largest single-site jail in the U.S."
+    },
+    {
+      "role": "State Representative",
+      "org": "Illinois House of Representatives",
+      "years": "1993–2003",
+      "highlight": "10 years in the state legislature"
+    },
+    {
+      "role": "State Senator",
+      "org": "Illinois Senate",
+      "years": "1991–1993"
+    },
+    {
+      "role": "Private Attorney",
+      "org": "Private Practice",
+      "years": "pre-1991"
+    }
+  ],
+  "policy_platform": [
+    {
+      "topic": "Jail Reform",
+      "position": "Has resisted calls for large-scale decarceration; opposes elimination of cash bail without alternatives. Has framed jail conditions as a mental-health crisis requiring more resources, not fewer detainees.",
+      "source": "https://www.injusticewatch.org/project/jail-deaths/"
+    },
+    {
+      "topic": "Electronic Monitoring",
+      "position": "Expanded electronic monitoring as an alternative to detention, but faces lawsuits alleging unlawful detention of people who paid bond.",
+      "source": "https://www.injusticewatch.org/criminal-courts/cook-county-jail/2020/dart-electronic-monitoring-lawsuit-appellate-court/"
+    },
+    {
+      "topic": "Gun Control",
+      "position": "Has publicly opposed Pornhub and payment processors facilitating gun straw purchases. Supports background check legislation.",
+      "source": "https://www.cookcountysheriff.org"
+    }
+  ],
+  "social_pulse": {
+    "summary": "Predominantly negative coverage. Jail death investigations dominate social discourse around Dart. Supporters credit him with expanding diversion programs; critics cite 20+ years of jail deaths and federal investigations.",
+    "sentiment": "negative",
+    "hashtags": [
+      "#FreeCookCountyJail",
+      "#JailDeaths",
+      "#DyingOnDartsWatch",
+      "#TomDart"
+    ],
+    "last_updated": "2026-03-13"
+  },
+  "trust_indicators": [
+    {
+      "label": "FEC/ILSBE disclosure filed",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "DOJ consent decree (2010–2017)",
+      "value": "Federal oversight for unconstitutional jail conditions",
+      "type": "negative"
+    },
+    {
+      "label": "18 detainee deaths in 2023 — deadliest in 30+ years",
+      "value": true,
+      "type": "negative"
+    },
+    {
+      "label": "FBI ghost payroll probe (2022–2024)",
+      "value": "Confirmed FBI involvement; no federal charges filed",
+      "type": "negative"
+    },
+    {
+      "label": "Running unopposed in 2026 primary",
+      "value": true,
+      "type": "negative"
+    },
+    {
+      "label": "Skipped County Board hearing on jail deaths (Dec 2024)",
+      "value": true,
+      "type": "negative"
+    }
+  ],
+  "transparency_score": {
+    "grade": "C",
+    "computed": true,
+    "financial_transparency": "A",
+    "platform_completeness": "B",
+    "record_available": true,
+    "red_flags_count": 18,
+    "computed_at": "2026-03-18"
+  },
+  "data_status": "partial",
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

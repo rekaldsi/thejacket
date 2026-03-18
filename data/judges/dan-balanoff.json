@@ -1,0 +1,43 @@
+{
+  "id": "dan-balanoff",
+  "name": "Dan Balanoff",
+  "party": "Democratic",
+  "office": "circuit",
+  "subcircuit": "8th",
+  "race_id": "judicial-8th-subcircuit-mivka-vacancy",
+  "vacancy_of": "Judge Mivka",
+  "bio": "Dan Balanoff is the son and grandson of Cook County circuit court judges — a family with deep judicial connections in Cook County. Despite this pedigree, the bar associations were nearly unanimous in rating him as Not Recommended or Not Qualified: 9 out of 10 Alliance associations rated him NR or NQ, with one leaving the rating blank. The CBA also rated him Not Recommended. The bar community's assessment suggests his qualifications do not meet the standard his family name implies.",
+  "background": "Son and grandson of Cook County judges. Family judicial connections are his primary credential.",
+  "years_experience": 5,
+  "bar_ratings": {
+    "alliance_rating": "NR",
+    "alliance_detail": "9 NR/NQ from Alliance bar associations; 1 blank. Near-unanimous negative assessment.",
+    "cba_rating": "NR",
+    "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx"
+  },
+  "red_flags": [
+    {
+      "type": "ethics",
+      "label": "Nearly universal Not Recommended/Not Qualified from bar associations despite family judicial connections",
+      "detail": "9 out of 10 Alliance bar associations rated Dan Balanoff as Not Recommended or Not Qualified. The Chicago Bar Association also rated him Not Recommended. This near-consensus rejection from the legal community is remarkable given his family's long history on the Cook County bench and raises serious concerns about his independent qualifications.",
+      "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx",
+      "confirmed": true
+    },
+    {
+      "type": "patronage",
+      "label": "No significant qualification beyond family judicial connections",
+      "detail": "Balanoff's candidacy appears to rest primarily on being the son and grandson of Cook County circuit judges. The bar associations' near-universal rejection suggests that family name alone does not constitute sufficient legal qualification for the bench. Voters should consider whether judicial seats should pass within families through political networks rather than on merit.",
+      "source": "https://www.injusticewatch.org/judges/judicial-elections/2026-primary/",
+      "confirmed": true
+    }
+  ],
+  "uncontested": false,
+  "photo_url": null,
+  "primary_result": {
+    "status": "pending",
+    "yes_pct": null,
+    "no_pct": null,
+    "votes": null,
+    "updated": null
+  }
+}

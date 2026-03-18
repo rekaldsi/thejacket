@@ -1,0 +1,70 @@
+{
+  "id": "cat-sharp",
+  "name": "Cat Sharp",
+  "status": "withdrawn",
+  "withdrawal_date": "2026-03-14",
+  "withdrawal_note": "Withdrew prior to March 17, 2026 primary. Endorsements transferred to Che-Che Wilson.",
+  "party": "Democratic",
+  "office": "Cook County Commissioner District 12",
+  "race_id": "cook-county-commissioner-dist-12",
+  "incumbent": false,
+  "bio": "Catherine 'Cat' Sharp is the Chief of Staff to Chicago Alder Andre Vasquez (40th Ward). She initially received the endorsement of retiring incumbent Commissioner Bridget Degnen and had support from Run for Something and other progressives. However, she WITHDREW from the race prior to the March 17, 2026 primary.",
+  "prior_office": "Chief of Staff to Chicago Alder Andre Vasquez (40th Ward)",
+  "website": "https://www.catherinesharp.com/",
+  "jacket": {
+    "total_raised": null,
+    "cash_on_hand": null,
+    "data_date": "2026-03-14",
+    "source": null,
+    "note": "CANDIDATE WITHDREW FROM RACE. No campaign committee filing found in ILSBE. Illinois Sunshine county-races page (as of 3/14/2026) shows only 4 candidates in District 12, Sharp not listed. Wikipedia confirms withdrawal prior to primary (March 17, 2026). Endorsements went to Che-Che Wilson after her withdrawal.",
+    "fec_id": null,
+    "ilsbe_id": null,
+    "donors": []
+  },
+  "red_flags": [
+    {
+      "type": "status",
+      "label": "WITHDRAWN FROM RACE",
+      "detail": "Catherine Sharp withdrew from the District 12 race prior to the March 17, 2026 primary. She is NOT an active candidate.",
+      "source": "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
+      "confirmed": true
+    }
+  ],
+  "key_votes": [],
+  "policy_platform": [],
+  "career_history": [
+    {
+      "role": "Chief of Staff to Chicago Alder Andre Vasquez (40th Ward)",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    }
+  ],
+  "endorsements": [
+    "Bridget Degnen (retiring incumbent Cook County Commissioner, District 12 — prior to Sharp's withdrawal)",
+    "Run for Something (withdrew endorsement after Sharp withdrew from race)"
+  ],
+  "data_status": "stub",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
+    "https://illinoissunshine.org/county-races/2026/"
+  ],
+  "photo_url": null,
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "F",
+    "record_available": false,
+    "red_flags_count": 1,
+    "computed_at": "2026-03-18"
+  },
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

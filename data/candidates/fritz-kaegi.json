@@ -6,15 +6,329 @@
   "race_id": "cook-county-assessor-d-2026",
   "bio": "Fritz Kaegi is the incumbent Cook County Assessor and a candidate in the 2026 Democratic primary. The assessor's office oversees property assessment values used in county tax billing. (Source: scout ballot context, March 13, 2026)",
   "prior_office": "Cook County Assessor",
-  "website": "https://www.fritzkaegi.com",
+  "website": "https://www.fritzforassessor.com",
   "jacket": {
-    "total_raised": null,
+    "total_raised": 2792789,
     "data_date": "2026-03-13",
-    "source": "https://www.elections.il.gov/CampaignDisclosure",
-    "note": "ILSBE committee totals pending ETL import.",
-    "donors": []
+    "source": "https://www.illinoissunshine.org/committees/33897/",
+    "note": "County race — ILSBE filing, not FEC.",
+    "donors": [
+      {
+        "name": "Fritz Kaegi (self)",
+        "amount": 7137456.35,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/33897/",
+        "confirmed": true
+      },
+      {
+        "name": "Fred Eychaner",
+        "amount": 362900,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/33897/",
+        "confirmed": true
+      },
+      {
+        "name": "Joe Mansueto",
+        "amount": 156000,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/33897/",
+        "confirmed": true
+      },
+      {
+        "name": "Stephen Schuler",
+        "amount": 156000,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/33897/",
+        "confirmed": true
+      },
+      {
+        "name": "Leo A Smith",
+        "amount": 102700,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/33897/",
+        "confirmed": true
+      },
+      {
+        "name": "Daniel Tierney",
+        "amount": 50000,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/33897/",
+        "confirmed": true
+      },
+      {
+        "name": "Jerry Reinsdorf",
+        "amount": 41600,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/33897/",
+        "confirmed": true
+      },
+      {
+        "name": "Peter Ehrich",
+        "amount": 41400,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/33897/",
+        "confirmed": true
+      },
+      {
+        "name": "Michael Fenstermacher",
+        "amount": 39000,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/33897/",
+        "confirmed": true
+      },
+      {
+        "name": "Thomas Roberts",
+        "amount": 33162.7,
+        "category": "individual",
+        "source": "https://www.illinoissunshine.org/committees/33897/",
+        "confirmed": true
+      }
+    ],
+    "fec_id": null
   },
-  "red_flags": [],
-  "key_votes": [],
-  "endorsements": []
+  "red_flags": [
+    {
+      "type": "ethics",
+      "label": "Both candidates accuse each other of accepting questionable donations (Fox32 Feb",
+      "detail": "Both candidates accuse each other of accepting questionable donations (Fox32 Feb 2026 — mutual accusations, neither substantiated)",
+      "source": "https://www.fritzforassessor.com",
+      "confirmed": false
+    },
+    {
+      "type": "ethics",
+      "label": "Hynes campaign argues Kaegi's data errors caused chaotic assessment appeals and ",
+      "detail": "Hynes campaign argues Kaegi's data errors caused chaotic assessment appeals and missed deadlines — contested claim",
+      "source": "https://www.fritzforassessor.com",
+      "confirmed": false
+    },
+    {
+      "type": "ethics",
+      "label": "Kaegi has loaned his own campaign $5.4M (debt obligation on ILSBE) — heavy self-",
+      "detail": "Kaegi has loaned his own campaign $5.4M (debt obligation on ILSBE) — heavy self-funding by a wealthy candidate",
+      "source": "https://www.fritzforassessor.com",
+      "confirmed": false
+    },
+    {
+      "label": "Both candidates accuse each other of accepting questionable donations (Fox32 Feb 2026 — mutual accusations, neither substantiated)"
+    },
+    {
+      "label": "Hynes campaign argues Kaegi's data errors caused chaotic assessment appeals and missed deadlines — contested claim"
+    },
+    {
+      "label": "Kaegi has loaned his own campaign $5.4M (debt obligation on ILSBE) — heavy self-funding by a wealthy candidate"
+    }
+  ],
+  "key_votes": [
+    {
+      "bill": "2018: Defeated incumbent Joseph Berrios (implicated in pay-to-play) — ran on tra",
+      "vote": "record",
+      "summary": "2018: Defeated incumbent Joseph Berrios (implicated in pay-to-play) — ran on transparency/anti-corruption platform",
+      "source": "https://www.fritzforassessor.com"
+    },
+    {
+      "bill": "2018-present: Implemented mass reassessment reforms using data-driven methods; U",
+      "vote": "record",
+      "summary": "2018-present: Implemented mass reassessment reforms using data-driven methods; U of Chicago study (2024) found 'substantial progress in improving fairness of residential assessments'",
+      "source": "https://www.fritzforassessor.com"
+    },
+    {
+      "bill": "2022: Survived primary challenge from Kari Steele (MWRD President) 53.8% to 46.2",
+      "vote": "record",
+      "summary": "2022: Survived primary challenge from Kari Steele (MWRD President) 53.8% to 46.2% — contested race reflecting industry pushback",
+      "source": "https://www.fritzforassessor.com"
+    },
+    {
+      "bill": "2022-2025: Launched Affordable Housing Program, automated senior/veteran exempti",
+      "vote": "record",
+      "summary": "2022-2025: Launched Affordable Housing Program, automated senior/veteran exemption renewals, expanded field inspection staff",
+      "source": "https://www.fritzforassessor.com"
+    },
+    {
+      "bill": "2025: Cook County Assessor's Office released 2024 Chicago Reassessment Report sh",
+      "vote": "record",
+      "summary": "2025: Cook County Assessor's Office released 2024 Chicago Reassessment Report showing equity improvements; expanded commercial valuation reform with PTAX Reform Group",
+      "source": "https://www.fritzforassessor.com"
+    },
+    {
+      "bill": "Debts of $5.4M on committee suggest significant self-loan to campaign",
+      "vote": "record",
+      "summary": "Debts of $5.4M on committee suggest significant self-loan to campaign",
+      "source": "https://www.fritzforassessor.com"
+    }
+  ],
+  "endorsements": [
+    {
+      "name": "Chicago Tribune Editorial Board",
+      "type": "newspaper",
+      "confirmed": true,
+      "source": "https://www.chicagotribune.com/2026/02/07/editorial-fritz-kaegi-cook-county-assessor-endorsement-patrick-hynes/"
+    }
+  ],
+  "photo_url": null,
+  "career_history": [
+    {
+      "role": "Cook County Assessor",
+      "org": "Cook County Assessor's Office",
+      "years": "2018–present",
+      "highlight": "Won on reform platform; overhauled assessment equity practices"
+    },
+    {
+      "role": "Portfolio Manager / Asset Manager",
+      "org": "Columbia Wanger Asset Management",
+      "years": "2001–2018",
+      "highlight": "~17 years managing equity portfolios"
+    }
+  ],
+  "policy_platform": [
+    {
+      "topic": "Property Tax Equity",
+      "position": "Championed fair property assessment reform, reducing the longstanding 'regressivity' that over-taxed lower-value properties while undertaxing commercial real estate.",
+      "source": "https://www.cookcountyassessor.com"
+    },
+    {
+      "topic": "Transparency",
+      "position": "Created online appeal tracking, published assessment methodology, expanded data access. First assessor to publish detailed mass appraisal models.",
+      "source": "https://www.cookcountyassessor.com"
+    },
+    {
+      "topic": "Commercial Property Assessment",
+      "position": "Raised assessments on undervalued commercial and industrial properties; faced intense opposition from commercial real estate lobby.",
+      "source": "https://www.chicagomag.com"
+    }
+  ],
+  "social_pulse": {
+    "summary": "Positive among housing equity advocates and progressive media. Negative from commercial real estate and property tax appeal attorneys. Moderate name recognition overall.",
+    "sentiment": "mixed",
+    "hashtags": [
+      "#FritzKaegi",
+      "#CookCountyAssessor",
+      "#PropertyTaxEquity"
+    ],
+    "last_updated": "2026-03-13"
+  },
+  "trust_indicators": [
+    {
+      "label": "Reform-oriented assessor — reduced assessment regressivity",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "Published assessment methodology publicly",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "No confirmed corruption or ethics findings",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "Contested race — faces challenger(s)",
+      "value": true,
+      "type": "neutral"
+    }
+  ],
+  "transparency_score": {
+    "grade": "C",
+    "computed": true,
+    "financial_transparency": "A",
+    "platform_completeness": "B",
+    "record_available": true,
+    "red_flags_count": 6,
+    "computed_at": "2026-03-18"
+  },
+  "news_hits": [
+    {
+      "headline": "Cook County assessor candidates grapple over the reasons for skyrocketing property taxes",
+      "title": "Cook County assessor candidates grapple over the reasons for skyrocketing property taxes",
+      "summary": "Chicago Tribune pre-primary deep-dive on the Kaegi vs. Hynes race. Both candidates spar over who bears responsibility for soaring Cook County property tax bills. Kaegi defends his equalization reforms; Hynes argues those reforms shifted burdens onto homeowners.",
+      "url": "https://www.chicagotribune.com/2026/03/13/cook-county-assessor-candidates-property-taxes/",
+      "date": "2026-03-13",
+      "severity": "high",
+      "source": "Chicago Tribune",
+      "source_name": "Chicago Tribune",
+      "sentiment": "neutral"
+    },
+    {
+      "headline": "Property tax collection rates drop in Chicago neighborhoods with big bill hikes",
+      "title": "Property tax collection rates drop in Chicago neighborhoods with big bill hikes",
+      "summary": "Chicago Tribune reports declining property tax collection rates in neighborhoods with the largest bill increases. Notes that several community leaders in hard-hit neighborhoods have endorsed challenger Pat Hynes over incumbent Kaegi, citing the burden of assessment increases.",
+      "url": "https://www.chicagotribune.com/2026/03/09/property-tax-collection-rates-drop-big-bill-hikes/",
+      "date": "2026-03-09",
+      "severity": "medium",
+      "source": "Chicago Tribune",
+      "source_name": "Chicago Tribune",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Five Illinois congressional seats, Senate seat open in historic election year",
+      "url": "https://www.wbez.org/government-politics/elections/2026/03/13/midterm-illinois-primary-march-17-congressional-senate-historic-election-year",
+      "source": "WBEZ",
+      "date": "2026-03-13",
+      "summary": "WBEZ comprehensive March 17 primary preview covers all key races including Cook County Board President (Preckwinkle vs. Reilly), Cook County Assessor (Kaegi vs. Hynes), U.S. Senate, governor, and comptroller.",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "What elections are coming up in Illinois? Here's what's ahead in the 2026 primary",
+      "url": "https://www.nbcchicago.com/illinois-election-2026/what-elections-are-coming-up-in-illinois-heres-whats-ahead-in-the-2026-primary/3904662/",
+      "source": "NBC Chicago",
+      "date": "2026-03-11",
+      "summary": "NBC Chicago overview of key 2026 primary races, covering Preckwinkle vs. Reilly for Cook County Board President and Kaegi vs. Hynes for Assessor among the notable local contests.",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Cook County Assessor Fritz Kaegi faces strong challenge from suburban assessor Pat Hynes in bid for 3rd term",
+      "url": "https://chicago.suntimes.com/elections/2026/02/27/cook-county-assessor-fritz-kaegi-lyons-township-pat-hynes-march-17-democratic-primary",
+      "source": "Chicago Sun-Times",
+      "date": "2026-02-27",
+      "summary": "Sun-Times profiles the Kaegi vs. Hynes assessor primary. Hynes, first-term Lyons Township Assessor with 23 years working inside the Assessor's office as a residential field inspector, is running as the Cook County Democratic Party-endorsed challenger against Kaegi's third-term bid. The piece covers their contrasting approaches to property valuation methodology and accountability.",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Illinois primary: What to know for Tuesday's election",
+      "url": "https://www.chicagotribune.com/2026/03/15/daywatch-special-edition-what-to-know-for-tuesdays-primary-election/",
+      "source": "Chicago Tribune",
+      "date": "2026-03-15",
+      "summary": "Tribune day-before guide covers the Assessor's race, showing Kaegi and Hynes at a Des Plaines candidate forum. Race framed as incumbent-defender vs. property-tax-reform challenger with one day to go.",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Cold weather to greet Illinois voters Tuesday as primary features open US Senate, crowded House races",
+      "url": "https://www.chicagotribune.com/2026/03/16/cold-weather-to-greet-illinois-voters-tuesday-as-primary-features-open-us-senate-crowded-house-races/",
+      "source": "Chicago Tribune",
+      "date": "2026-03-16",
+      "summary": "Tribune election-eve (March 16) roundup confirms cold weather forecast for primary day. Cook County Assessor race between incumbent Kaegi and challenger Hynes is among the key county-level contests voters will decide Tuesday. Both candidates have made skyrocketing property tax bills the central flashpoint of the race.",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Cook County Assessor Fritz Kaegi faces suburban opponent for influential position over property taxes",
+      "url": "https://chicago.suntimes.com/elections/2026/03/17/cook-county-assessor-illinois-primary-results",
+      "source": "Chicago Sun-Times",
+      "date": "2026-03-17",
+      "summary": "Fritz Kaegi faces Pat Hynes in Democratic primary; Kaegi previously won 82%+ against Libertarian in 2022. Winner faces Libertarian Nico Tsatsoulis in November.",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "2026 primary day election results: Cook County assessor",
+      "url": "https://www.chicagotribune.com/2026/03/17/2026-primary-day-election-results-cook-county-assessor/",
+      "source": "Chicago Tribune",
+      "date": "2026-03-17",
+      "summary": "Two-term Assessor Fritz Kaegi faces a challenge from Pat Hynes in the Democratic primary.",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Election Night: Kaegi vs. Hynes Cook County Assessor results being counted",
+      "url": "https://abc7chicago.com/post/illinois-election-results-cook-county-assessor-candidates-pat-hynes-fritz-kaegi-vie-position-primary-2026/18726366/",
+      "source": "ABC7 Chicago",
+      "date": "2026-03-17",
+      "summary": "Results are being tallied in the hotly contested Cook County Assessor Democratic primary on Election Night. Two-term incumbent Fritz Kaegi faces challenger Pat Hynes (Lyons Township assessor). Since there are no Republican candidates running for assessor, the Democratic primary winner will automatically be the next assessor. Kaegi has blasted Hynes for accepting donations from property tax attorneys; Hynes blames Kaegi for skyrocketing property taxes on the South and West sides of Chicago.",
+      "sentiment": "neutral"
+    }
+  ],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

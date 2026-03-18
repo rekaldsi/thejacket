@@ -1,41 +1,41 @@
 import Link from "next/link";
-import { getRaces } from "@/lib/data";
+import { getRaces, getCandidatesByRaceId } from "@/lib/data";
+import RacesClient from "@/components/RacesClient";
+
+export const metadata = {
+  title: "All Races — TheJacket",
+  description: "Every primary on the March 17, 2026 Illinois ballot — Democratic, Republican, Libertarian, and more.",
+};
 
 export default function RacesPage() {
-  const races = getRaces();
+  const raw = getRaces().filter((r) => !r.note?.includes("judicial"));
 
-  const grouped = {
-    federal: races.filter((race) => race.title.includes("U.S.")),
-    county: races.filter((race) => race.title.includes("Cook County"))
-  };
+  // Hydrate candidate counts from live data, pass serializable plain objects to client
+  const races = raw.map((r) => ({
+    id: r.id,
+    slug: r.slug,
+    title: r.title,
+    jurisdiction: r.jurisdiction,
+    party: r.party ?? "Democratic",
+    candidateCount: getCandidatesByRaceId(r.id).length,
+    note: r.note,
+  }));
 
   return (
-    <div className="space-y-8">
-      <h1 className="font-mono text-4xl uppercase">All Races</h1>
-
-      <section>
-        <h2 className="mb-3 font-mono text-xl uppercase text-jacket-amber">Federal</h2>
-        <div className="grid gap-3 md:grid-cols-2">
-          {grouped.federal.map((race) => (
-            <Link key={race.id} href={`/race/${race.slug}`} className="border border-jacket-border p-4 hover:border-jacket-amber">
-              <h3 className="font-mono uppercase">{race.title}</h3>
-              <p className="mt-2 text-sm text-zinc-400">{race.jurisdiction}</p>
-            </Link>
-          ))}
+    <>
+      <div className="mb-6 flex items-center justify-between rounded-sm border border-jacket-amber/30 bg-jacket-amber/5 px-4 py-3">
+        <div className="flex items-center gap-2">
+          <span className="relative flex h-2 w-2 shrink-0">
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" />
+            <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500" />
+          </span>
+          <span className="font-mono text-xs uppercase tracking-widest text-jacket-amber">Primary Results Live</span>
         </div>
-      </section>
-
-      <section>
-        <h2 className="mb-3 font-mono text-xl uppercase text-jacket-amber">County</h2>
-        <div className="grid gap-3 md:grid-cols-2">
-          {grouped.county.map((race) => (
-            <Link key={race.id} href={`/race/${race.slug}`} className="border border-jacket-border p-4 hover:border-jacket-amber">
-              <h3 className="font-mono uppercase">{race.title}</h3>
-              <p className="mt-2 text-sm text-zinc-400">{race.jurisdiction}</p>
-            </Link>
-          ))}
-        </div>
-      </section>
-    </div>
+        <Link href="/results" className="font-mono text-xs uppercase tracking-widest text-jacket-amber hover:underline">
+          View Results →
+        </Link>
+      </div>
+      <RacesClient races={races} />
+    </>
   );
 }

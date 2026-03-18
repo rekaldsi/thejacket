@@ -1,0 +1,178 @@
+{
+  "id": "kisha-mccaskill",
+  "name": "Kisha McCaskill",
+  "party": "Democratic",
+  "office": "Cook County Commissioner District 5",
+  "race_id": "cook-county-commissioner-dist-5",
+  "incumbent": true,
+  "bio": "Kisha McCaskill is the incumbent 5th District Commissioner, first appointed in 2025. She is seeking re-election to her first full term in a contested Democratic primary. She holds endorsements from major county officials, labor unions, and legislators including Toni Preckwinkle, AFSCME Council 31, Chicago Federation of Labor, SEIU, and multiple state legislators. She is challenged by Kiana Belcher and at least one additional challenger.",
+  "prior_office": "Cook County Commissioner District 5 (appointed 2025–present). Background not fully detailed in available sources.",
+  "website": "https://votemccaskill.com/",
+  "jacket": {
+    "total_raised": null,
+    "cash_on_hand": 110745.34,
+    "data_date": "2026-03-14",
+    "source": "https://illinoissunshine.org/committees/40606/",
+    "note": "Committee: Citizens for Dr Kisha E McCaskill (ID 40606, founded Jan 13, 2025). Funds available $68,945.34 + contributions since Dec 31, 2025 of $41,800. Debts: $30,000. Top donors: Friends of Anthony L McCaskill Inc ($20,500 — family PAC), candidate self ($20,000 + $3,000), Quintin King ($7,300), Elzie Higginbottom ($5,000), Laurice Geanes ($5,000), Local 134 IBEW ($5,000). Multiple family business donors (Aaron Q McCaskill Inc, EVL Industries, Myriad Barn LLC etc on Feb 18, 2026).",
+    "fec_id": null,
+    "ilsbe_id": "40606",
+    "donors": [
+      {
+        "name": "Friends of Anthony L McCaskill Inc",
+        "amount": 20500,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/40606/",
+        "confirmed": true
+      },
+      {
+        "name": "Kisha McCaskill",
+        "amount": 20000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40606/",
+        "confirmed": true
+      },
+      {
+        "name": "Quintin King",
+        "amount": 7300,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40606/",
+        "confirmed": true
+      },
+      {
+        "name": "Elzie Higginbottom",
+        "amount": 5000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40606/",
+        "confirmed": true
+      },
+      {
+        "name": "Laurice Geanes",
+        "amount": 5000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40606/",
+        "confirmed": true
+      },
+      {
+        "name": "Local 134 IBEW",
+        "amount": 5000,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/40606/",
+        "confirmed": true
+      },
+      {
+        "name": "HB Services and Rentals Inc",
+        "amount": 4000,
+        "category": "Corporate",
+        "source": "https://illinoissunshine.org/committees/40606/",
+        "confirmed": true
+      },
+      {
+        "name": "Three A's Maintenance",
+        "amount": 4000,
+        "category": "Corporate",
+        "source": "https://illinoissunshine.org/committees/40606/",
+        "confirmed": true
+      },
+      {
+        "name": "Jame Vasselli",
+        "amount": 3500,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40606/",
+        "confirmed": true
+      },
+      {
+        "name": "Aaron Q McCaskill Inc",
+        "amount": 3000,
+        "category": "Corporate",
+        "source": "https://illinoissunshine.org/committees/40606/",
+        "confirmed": true
+      },
+      {
+        "name": "Kisha E McCaskill",
+        "amount": 3000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40606/",
+        "confirmed": true
+      },
+      {
+        "name": "DelGaldo Law Group LLC",
+        "amount": 3000,
+        "category": "Corporate",
+        "source": "https://illinoissunshine.org/committees/40606/",
+        "confirmed": true
+      },
+      {
+        "name": "AFSCME Illinois Council 31",
+        "amount": 2000,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/40606/",
+        "confirmed": true
+      },
+      {
+        "name": "Chicago Land Operators Joint Labor-Management PAC",
+        "amount": 2000,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/40606/",
+        "confirmed": true
+      },
+      {
+        "name": "Raja for Illinois",
+        "amount": 2000,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/40606/",
+        "confirmed": true
+      }
+    ]
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "policy_platform": [],
+  "career_history": [
+    {
+      "role": "Cook County Commissioner District 5 (appointed 2025)",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    }
+  ],
+  "endorsements": [
+    "Toni Preckwinkle (Cook County Board President)",
+    "AFSCME Council 31",
+    "Chicago Federation of Labor",
+    "Chicago Fire Fighters Union Local 2",
+    "IBEW Local 134",
+    "IUOE Local 150",
+    "Napoleon Harris (IL State Senator)",
+    "Debbie Meyers-Martin (IL State Rep)",
+    "Bob Rita (IL State Rep)",
+    "Justin Slaughter (IL State Rep)",
+    "Chris Welch (IL House Speaker)",
+    "Anthony Beale (Chicago Alder, 9th Ward)",
+    "Howard Brookins (former Chicago Alder, 21st Ward)",
+    "Ronnie Mosley (Chicago Alder, 21st Ward)",
+    "Deborah Sims (former Cook County Commissioner, 5th District)"
+  ],
+  "data_status": "partial",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
+    "https://illinoissunshine.org/committees/40606/"
+  ],
+  "photo_url": null,
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "F",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-18"
+  },
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

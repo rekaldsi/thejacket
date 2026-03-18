@@ -1,0 +1,254 @@
+{
+  "id": "elizabeth-granato",
+  "name": "Elizabeth Granato",
+  "party": "Democratic",
+  "office": "Cook County Commissioner District 12",
+  "race_id": "cook-county-commissioner-dist-12",
+  "incumbent": false,
+  "bio": "Elizabeth Granato is the Bureau Chief of the Cook County Bureau of Asset Management and wife of State Senator Ram Villivalam. She is the frontrunner in the open District 12 race (incumbent Bridget Degnen is retiring). She holds an extensive list of endorsements from U.S. Congress members, state legislators, labor unions, and the Chicago Tribune. Her husband Ram Villivalam serves as both Chair and Treasurer of her campaign committee.",
+  "prior_office": "Bureau Chief, Cook County Bureau of Asset Management",
+  "website": "https://www.elizabethforcookcounty.com/",
+  "jacket": {
+    "total_raised": 517660,
+    "cash_on_hand": 400593.12,
+    "data_date": "2026-03-14",
+    "source": "https://illinoissunshine.org/committees/40741/",
+    "note": "Dominant fundraiser in this race. Husband Ram Villivalam is Chair AND Treasurer of committee. Top donors are Villivalam's own political committees ($72,800 each x3), Friends of Robert Martwick ($40K), Friends of Don Harmon ($30K), Friends of Omar Aquino ($25K). Heavy labor PAC support.",
+    "fec_id": null,
+    "ilsbe_id": "40741",
+    "donors": [
+      {
+        "name": "Ram for 39th Ward Democratic Committeeman",
+        "amount": 72800,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Ram for IL-05 State Central Committeeman",
+        "amount": 72800,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Friends of Ram",
+        "amount": 72800,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Friends of Robert Martwick",
+        "amount": 40000,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Friends of Don Harmon for State Senate",
+        "amount": 30000,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Friends of Omar Aquino",
+        "amount": 25000,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Assyrian American Political Advocacy Committee",
+        "amount": 15000,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Service Employees Local 1 Illinois PEC",
+        "amount": 10000,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "SEIU Illinois Council PAC",
+        "amount": 10000,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Chicagoland Operators Joint Labor-Management PAC",
+        "amount": 10000,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Friends of Bill Cunningham",
+        "amount": 10000,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Mid-America Carpenters Regional Council PAC",
+        "amount": 7500,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Citizens for Laura Murphy",
+        "amount": 7500,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Debra Granato",
+        "amount": 7300,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Chicago Federation of Labor",
+        "amount": 5000,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Progressive Turnout Project",
+        "amount": 5000,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "Friends of Josina Morita",
+        "amount": 5000,
+        "category": "political-committee",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      },
+      {
+        "name": "LiUNA Chicago Laborers District Council",
+        "amount": 5000,
+        "category": "labor-pac",
+        "source": "https://illinoissunshine.org/committees/40741/",
+        "confirmed": true
+      }
+    ]
+  },
+  "red_flags": [
+    {
+      "type": "conflict",
+      "label": "Husband controls campaign committee",
+      "detail": "Ram Villivalam (IL State Senator, husband) is BOTH Chair AND Treasurer of Friends of Elizabeth Granato. His three political committees collectively donated $218,400 to her campaign — 42% of her total raised.",
+      "source": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?id=40741",
+      "confirmed": true
+    },
+    {
+      "type": "conflict",
+      "label": "Spousal political connection",
+      "detail": "Husband Ram Villivalam is an IL State Senator; potential conflicts if both serve in overlapping jurisdictions.",
+      "source": "https://en.wikipedia.org/wiki/Ram_Villivalam",
+      "confirmed": false
+    }
+  ],
+  "key_votes": [],
+  "policy_platform": [],
+  "career_history": [
+    {
+      "role": "Bureau Chief, Cook County Bureau of Asset Management",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "County government administrator",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    }
+  ],
+  "endorsements": [
+    "Chuy García (U.S. Rep, IL-04)",
+    "Raja Krishnamoorthi (U.S. Rep, IL-08)",
+    "Mike Quigley (U.S. Rep, IL-05)",
+    "Delia Ramirez (U.S. Rep, IL-03)",
+    "Jan Schakowsky (U.S. Rep, IL-09)",
+    "Omar Aquino (IL State Senator)",
+    "Mattie Hunter (IL State Senator)",
+    "Robert Martwick (IL State Senator)",
+    "Robert Peters (IL State Senator)",
+    "Ram Villivalam (IL State Senator, husband)",
+    "Michael Kelly (IL State Rep)",
+    "Kevin Olickal (IL State Rep)",
+    "Scott Britton (Cook County Commissioner, District 12 predecessor)",
+    "Daniel La Spata (Chicago Alder, 1st Ward)",
+    "Bill Lowry (Cook County Commissioner, District 3)",
+    "Stanley Moore (Cook County Commissioner, District 4)",
+    "Josina Morita (Cook County Commissioner, District 13)",
+    "Samantha Nugent (Chicago City Council President Pro Tempore)",
+    "Ameya Pawar (former Chicago Alder)",
+    "Chicago Federation of Labor",
+    "Amalgamated Transit Union Local 241",
+    "Brotherhood of Locomotive Engineers and Trainmen IL State Legislative Board",
+    "Brotherhood of Maintenance of Way Employes",
+    "Brotherhood of Railroad Signalmen",
+    "Chicago Fire Fighters Union Local 2",
+    "Heat and Frost Insulators Local 17",
+    "IAM (International Association of Machinists)",
+    "SMART-TD (Sheet Metal, Air, Rail and Transportation Workers)",
+    "IBEW Local 9",
+    "IUOE Local 150",
+    "Ironworkers District Council of Chicago",
+    "Mid-America Carpenters Regional Council",
+    "SEIU Illinois State Council",
+    "Teamsters Local 700",
+    "Citizen Action Illinois",
+    "Sierra Club Illinois",
+    "Chicago Tribune",
+    "Bricklayers and Allied Craftworkers Administrative DC 1"
+  ],
+  "data_status": "full",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
+    "https://illinoissunshine.org/committees/40741/",
+    "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?id=40741"
+  ],
+  "photo_url": null,
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": {
+    "grade": "C",
+    "computed": true,
+    "financial_transparency": "A",
+    "platform_completeness": "F",
+    "record_available": false,
+    "red_flags_count": 2,
+    "computed_at": "2026-03-18"
+  },
+  "news_hits": [
+    {
+      "headline": "Cook County board seats in play, with new faces guaranteed among 17 commissioners",
+      "summary": "Chicago Tribune's primary preview notes District 12 is an open seat (incumbent Bridget Degnen retiring) with Granato positioned as the frontrunner based on endorsements from multiple U.S. representatives, the Chicago Tribune editorial board, labor unions, and a dominant fundraising total of $517K cash on hand.",
+      "url": "https://www.chicagotribune.com/2026/03/14/cook-county-board-seats-in-play-new-faces-guaranteed-among-17-commissioners/",
+      "date": "2026-03-14",
+      "severity": "medium",
+      "source_name": "Chicago Tribune"
+    }
+  ],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

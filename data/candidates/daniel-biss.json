@@ -2,21 +2,475 @@
   "id": "daniel-biss",
   "name": "Daniel Biss",
   "party": "Democratic",
-  "office": "U.S. House (IL-09)",
+  "office": "U.S. House — IL-09",
   "race_id": "il-09-us-house-d-2026",
-  "bio": "Daniel Biss is listed as a Democratic candidate in the 2026 IL-09 open-seat primary. He is the mayor of Evanston and previously served in the Illinois General Assembly. (Source: Shaw Local candidate list, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
-  "prior_office": "Mayor of Evanston; former state legislator",
-  "website": "",
+  "incumbent": false,
+  "data_status": "enriched",
+  "bio": "Daniel Kálmán Biss (born August 27, 1977, Akron, Ohio) is a Democratic politician and mathematician serving as the 22nd Mayor of Evanston, Illinois (since May 10, 2021). He is running for the open IL-09 congressional seat in 2026, seeking to succeed retiring Rep. Jan Schakowsky, who endorsed him on January 7, 2026. Biss was born into a Jewish Israeli family of musicians — his mother is violinist Miriam Fried, his father is violinist Paul Biss, his brother is pianist Jonathan Biss, and his paternal grandmother was cellist Raya Garbousova. He attended Bloomington North High School in Bloomington, Indiana, was a 1995 Westinghouse Science Talent Search finalist, received a BA summa cum laude from Harvard University in 1998, and an MA and PhD in mathematics (algebraic topology) from MIT in 2002. His doctoral advisor was Michael J. Hopkins. He was a Clay Research Fellow (2002–2007) and visiting scholar at the Institute for Advanced Study (fall 2003). He was an assistant professor of mathematics at the University of Chicago from 2002 to 2008. His academic career was later shadowed by multiple errata and one formal retraction (2017) of papers, with journal editors concluding the findings were inaccurate but not fraudulent. He began his political career in 2009 as a policy adviser to IL Gov. Pat Quinn, then won a seat in the Illinois House in 2010 (17th District) and was elected to the Illinois Senate (9th District) in 2012, serving through 2019. He was a lead co-sponsor of the pension reform law SB 1 in 2013, which the IL Supreme Court struck down as unconstitutional in 2015; Biss later called his support for it 'an error.' In 2017 he ran for governor, gaining national progressive attention but losing the 2018 primary to J.B. Pritzker (26.70% vs. Pritzker's 45.13%). He served briefly as executive director of Rust Belt Rising (2018). In 2021 he was elected Evanston mayor in a landslide, was re-elected 62.7% in April 2025. His mayoral tenure included supporting Evanston's first-in-nation municipal reparations program, passing a public campaign finance matching fund scheme (first in Illinois), and casting a tie-breaking vote to allow Northwestern University to rebuild Ryan Field. He has raised ~$2.54M for the congressional race as of Dec. 31, 2025 (FEC H6IL09228). The Democratic primary on March 17, 2026 also features state senator Laura Fine and journalist Kat Abughazaleh (the fundraising leader with ~$2.7M).",
+  "prior_office": "Mayor of Evanston (2021–present); Illinois State Senator, 9th District (2013–2019); Illinois State Representative, 17th District (2011–2013); Policy Adviser to Governor Pat Quinn (2009–2010)",
+  "website": "https://www.danielbiss.com",
+  "photo_url": null,
   "jacket": {
-    "total_raised": null,
+    "total_raised": 2539961,
     "data_date": "2026-03-13",
-    "source": "https://www.fec.gov/data/elections/house/IL/09/",
-    "note": "FEC candidate totals pending ETL import.",
-    "donors": []
+    "source": "https://www.fec.gov/data/candidate/H6IL09228/",
+    "note": "~$2.54M raised through Dec 31, 2025 per FEC filings. Abughazaleh leads with ~$2.7M. Fine also near $2M.",
+    "fec_id": "H6IL09228",
+    "donors": [
+      {
+        "name": "J Street PAC",
+        "amount": null,
+        "category": "pac",
+        "note": "J Street PAC listed as contributing to Biss (part of $108,809 from committees). Amount not itemized in public sources.",
+        "source": "https://legis1.com/news/the-money-race-to-replace-jan-schakowsky-whos-funding-the-fight-for-illinoiss-9th-congressional-district-in-2026/",
+        "confirmed": true
+      },
+      {
+        "name": "3.14 Action Fund (outside/independent expenditure PAC)",
+        "amount": 158000,
+        "category": "independent_expenditure_pac",
+        "note": "Pro-science hybrid PAC spent $158K+ in independent expenditures supporting Biss through mailers featuring Sen. Elizabeth Warren's endorsement.",
+        "source": "https://legis1.com/news/the-money-race-to-replace-jan-schakowsky-whos-funding-the-fight-for-illinoiss-9th-congressional-district-in-2026/",
+        "confirmed": true
+      },
+      {
+        "name": "In-state Illinois individual donors (85% of contributions)",
+        "amount": 1300000,
+        "category": "individual",
+        "note": "Estimated from Biss campaign statement that 85% of Q4 2025 donations were from Illinois donors. Confirmed as pattern, not exact FEC line item.",
+        "source": "https://dailynorthwestern.com/2026/02/02/city/abughazaleh-biss-fine-lead-fundraising-as-11-million-floods-congressional-race/",
+        "confirmed": false
+      },
+      {
+        "name": "Out-of-state donors — Massachusetts",
+        "amount": 26500,
+        "category": "individual",
+        "note": "Confirmed by Daily Northwestern FEC data analysis",
+        "source": "https://dailynorthwestern.com/2026/02/02/city/abughazaleh-biss-fine-lead-fundraising-as-11-million-floods-congressional-race/",
+        "confirmed": true
+      },
+      {
+        "name": "Out-of-state donors — New York",
+        "amount": 25000,
+        "category": "individual",
+        "note": "Confirmed by Daily Northwestern FEC data analysis",
+        "source": "https://dailynorthwestern.com/2026/02/02/city/abughazaleh-biss-fine-lead-fundraising-as-11-million-floods-congressional-race/",
+        "confirmed": true
+      }
+    ]
   },
-  "red_flags": [],
-  "key_votes": [],
+  "red_flags": [
+    {
+      "type": "aipac",
+      "label": "Allegedly Sought AIPAC Support Before Distancing",
+      "detail": "Jewish Insider reported that Biss sought support from AIPAC before publicly distancing himself from the organization. Biss has denied initiating contact, stating AIPAC approached him first. A mutual FEC complaint was filed between the Biss and Fine campaigns over related campaign finance claims in 2026. These allegations have not been verified and no finding of wrongdoing has been made.",
+      "source": "https://jewishinsider.com; https://en.wikipedia.org/wiki/Daniel_Biss",
+      "confirmed": false
+    },
+    {
+      "type": "academic",
+      "label": "Four Academic Papers Retracted or Corrected (2008–2017)",
+      "detail": "At least four of Biss's mathematics papers published while a University of Chicago professor were later discovered to contain major errors. Two papers in Annals of Mathematics and Advances in Mathematics (2003) were found to have a 'serious flaw' destroying their main theorems (2007, Russian mathematician Nikolai Mnëv). A 2006 paper in Inventiones Mathematicae co-authored with Benson Farb was acknowledged to have a 'fatal error' (2009). A fourth paper in Topology and Its Applications was formally retracted by the publisher in 2017, with the journal stating definitions were ambiguous and most results false. Journal editors concluded findings were inaccurate but not fraudulent. Biss acknowledged all errors. His 2018 gubernatorial campaign attributed the issue to 'silly opposition research' by Pritzker allies.",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Biss; Chicago Sun-Times, Sep. 29, 2017; Retraction Watch, Feb. 2017",
+      "confirmed": true
+    },
+    {
+      "type": "management",
+      "label": "2024 Northwestern Pro-Palestine Protest Controversy",
+      "detail": "In January 2026, Republican members of the U.S. House, led by Rep. Tim Walberg, requested information from Biss regarding his handling of 2024 pro-Palestine student encampment protests at Northwestern University. Republicans alleged the city declined to provide additional police support, raising concerns about Jewish student safety. Biss defended his decision not to deploy Evanston police, citing public safety and respect for peaceful protest rights. He described the letter as 'a dishonest political attack' but said he would cooperate with any congressional subpoena.",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Biss",
+      "confirmed": true
+    },
+    {
+      "type": "pension",
+      "label": "Supported Pension Reform (SB 1) Later Struck Down as Unconstitutional",
+      "detail": "Biss was lead co-sponsor of Illinois SB 1 (2013), which significantly cut pension plans for retired state employees to address the state's ~$100B pension deficit. The IL Supreme Court struck it down as unconstitutional in May 2015, ruling it violated the pension protection clause. Biss later called his support for SB 1 'an error,' saying he 'allowed himself to think we couldn't do better.' AFSCME, one of the largest state employee unions, cited Biss's statement that 'as a matter of politics, I can get away with really offending state employees because I don't represent that many of them.'",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Biss; Chicago Tribune, May 8, 2015",
+      "confirmed": true
+    }
+  ],
+  "key_votes": [
+    {
+      "bill": "Illinois SB 1 — Pension Reform Act, 2013",
+      "vote": "lead co-sponsor/yes",
+      "summary": "Biss was lead champion of pension reform to address the state's $100B+ pension deficit. He served on the Conference Committee on SB 1. The law passed with bipartisan support but was struck down by the IL Supreme Court as unconstitutional in May 2015. Biss later said it was 'an error.' He subsequently supported funding pensions via graduated income tax and a financial transaction tax.",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Biss; http://votesmart.org/bill/16386/46516/amends-state-employee-pension-plans"
+    },
+    {
+      "bill": "Illinois SB 10 — Same-Sex Marriage, 2013",
+      "vote": "yes (floor speech)",
+      "summary": "Biss delivered a speech on the IL Senate floor in support of legalizing same-sex marriage in Illinois in 2013. The bill passed and was signed into law by Gov. Pat Quinn.",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Biss; ChicagoPride.com, May 10, 2021"
+    },
+    {
+      "bill": "Illinois SB 1424 — State Matching Funds for Small-Donor Campaigns, 2017",
+      "vote": "sponsor",
+      "summary": "Biss sponsored a bill that would have created a state program for matching funds for small-donor contributions to political campaigns — a campaign finance reform tied to his long-standing interest in reducing big-money influence in politics.",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Biss"
+    },
+    {
+      "bill": "Illinois SB 780 — Ranked Choice Voting for Statewide Offices, 2017",
+      "vote": "sponsor",
+      "summary": "Biss sponsored SB 780 proposing to elect a number of statewide offices by ranked-choice ballot, a structural electoral reform.",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Biss"
+    },
+    {
+      "bill": "Illinois SB 1933 — Automatic Voter Registration, 2017",
+      "vote": "co-sponsor",
+      "summary": "Co-sponsored automatic voter registration bill (authored by State Sen. Andy Manar) allowing automatic registration when applying for an Illinois driver's license. Enacted as Public Act 100-0464.",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Biss; Illinois SBOE release"
+    },
+    {
+      "bill": "Illinois ACA Protection Bill — Pre-Existing Conditions, June 2017",
+      "vote": "yes",
+      "summary": "Voted to reinforce the Affordable Care Act in Illinois by prohibiting insurance companies from discriminating against customers with pre-existing conditions, as the federal ACA faced repeal attempts.",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Biss"
+    },
+    {
+      "bill": "Evanston Reparations Program (Resolution 126-R-19), 2021",
+      "vote": "yes (as mayor-elect, supported and helped implement)",
+      "summary": "As mayor-elect, Biss released a statement supporting Evanston's approved measure establishing the first city-funded reparations program in U.S. history, providing $25,000 grants to Black residents affected by discriminatory housing policies (1919–1969). Also gave outgoing Mayor Hagerty input on Reparations Committee members.",
+      "source": "https://www.cityofevanston.org/reparations; https://en.wikipedia.org/wiki/Daniel_Biss"
+    },
+    {
+      "bill": "Evanston Municipal Campaign Finance Matching Fund, 2023",
+      "vote": "yes/signed",
+      "summary": "As mayor, Biss signed into law a municipal campaign finance reform creating a public matching fund scheme for municipal races — making Evanston the first city in Illinois with a public campaign finance matching program.",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Biss"
+    },
+    {
+      "bill": "Evanston Healthy Buildings Ordinance (greenhouse gas emission limits)",
+      "vote": "yes/enacted",
+      "summary": "As mayor, Biss enacted the Healthy Buildings Ordinance to curb carbon emissions through greenhouse gas emission limits on buildings. Part of his climate and sustainability agenda.",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Biss"
+    },
+    {
+      "bill": "Northwestern Ryan Field Stadium Rebuild — Tie-breaking vote, 2024",
+      "vote": "yes (tie-breaking)",
+      "summary": "As mayor, Biss cast the tie-breaking council vote to allow Northwestern University to demolish and rebuild Ryan Field. The new law included a community benefits agreement where Northwestern invests approximately $10 million in the city annually for 15 years. Biss called the $800M privately-funded project 'a generational investment.'",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Biss"
+    },
+    {
+      "bill": "Evanston Civilian Police Review Board",
+      "vote": "yes",
+      "summary": "Biss supported establishment of civilian oversight of the Evanston police department as part of broader police accountability reforms during his mayoral tenure.",
+      "source": "https://www.danielbiss.com (campaign site)"
+    }
+  ],
+  "policy_platform": [
+    {
+      "topic": "Reparations",
+      "position": "Led Evanston's support for and implementation of the first-in-nation municipal reparations program for Black residents affected by discriminatory housing policies.",
+      "source": "https://www.cityofevanston.org/reparations"
+    },
+    {
+      "topic": "Housing Affordability",
+      "position": "Supports expanded affordable housing, anti-displacement policies, community land trusts. As Evanston mayor, pushed for four-unit apartments on larger single-family lots (scaling back after community pushback on initial Envision Evanston plan).",
+      "source": "https://danielbiss.com; https://en.wikipedia.org/wiki/Daniel_Biss"
+    },
+    {
+      "topic": "Progressive Taxation",
+      "position": "Consistent advocate for graduated income tax and tax on financial transactions to fund public services. Supported graduated income tax proposal at state level.",
+      "source": "https://danielbiss.com; Crain's Chicago Business, Feb. 2, 2018"
+    },
+    {
+      "topic": "Healthcare / Single-Payer",
+      "position": "Supports universal health care; advocates specifically for a state-level single-payer healthcare system. Voted in 2017 to protect ACA pre-existing conditions coverage in Illinois.",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Biss"
+    },
+    {
+      "topic": "Labor",
+      "position": "Consistent supporter of labor unions. Received AFSCME contributions early in career; though his SB 1 vote on pension cuts strained relationship with public employee unions.",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Biss"
+    },
+    {
+      "topic": "Campaign Finance Reform",
+      "position": "Sponsored state matching fund legislation (SB 1424, 2017). As Evanston mayor, created first Illinois city public campaign finance matching fund program (2023). Supports ranked choice voting.",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Biss"
+    },
+    {
+      "topic": "Climate / Environment",
+      "position": "Enacted Evanston Healthy Buildings Ordinance for GHG limits. Has indicated support for limiting carbon emissions going back to 2008 Political Courage Test responses.",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Biss"
+    },
+    {
+      "topic": "Immigration",
+      "position": "Has defended decisions related to Northwestern pro-Palestine protests as supporting peaceful protest rights. No specific federal immigration platform documented in sources.",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Biss"
+    },
+    {
+      "topic": "Guns",
+      "position": "7% NRA Political Victory Fund rating (2010) — strongly against NRA-backed firearm policies.",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Biss"
+    },
+    {
+      "topic": "Israel / Middle East",
+      "position": "Complex position. In 2017, briefly named DSA member Carlos Ramirez-Rosa as gubernatorial running mate, then dropped him in 6 days after Ramirez-Rosa expressed support for BDS. In 2026, Jewish Insider reported he sought AIPAC support before distancing (Biss denies); endorsed by J Street PAC (pro-Israel, pro-peace).",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Biss; Jewish Insider"
+    }
+  ],
+  "career_history": [
+    {
+      "role": "Mayor of Evanston",
+      "org": "City of Evanston",
+      "years": "2021–present",
+      "highlight": "22nd mayor of Evanston. Oversaw historic reparations program — first city-funded reparations in U.S. Enacted public campaign finance matching fund (first in Illinois). Re-elected 62.7% in April 2025. Cast tie-breaking vote for Northwestern stadium rebuild."
+    },
+    {
+      "role": "Executive Director",
+      "org": "Rust Belt Rising (nonprofit for training Democratic candidates in Great Lakes states)",
+      "years": "2018–2019",
+      "highlight": "Accepted position September 2018 after gubernatorial loss. Also worked as clean energy consultant."
+    },
+    {
+      "role": "Illinois State Senator, 9th District",
+      "org": "Illinois Senate",
+      "years": "2013–2019",
+      "highlight": "Lead co-sponsor of pension reform SB 1 (2013, later struck down). Sponsored SB 1424 (small-donor matching), SB 780 (ranked-choice), SB 1933 (automatic voter registration). Delivered floor speech for same-sex marriage bill (2013). Ran for governor 2018 (lost to Pritzker)."
+    },
+    {
+      "role": "Illinois State Representative, 17th District",
+      "org": "Illinois House of Representatives",
+      "years": "2011–2013",
+      "highlight": "Won 2010 election against Republican Elizabeth Coulson. Committees: Appropriations (Elementary/Secondary Education), Personnel & Pensions, Consumer Protection, International Trade & Commerce."
+    },
+    {
+      "role": "Policy Adviser to Governor",
+      "org": "Office of Illinois Governor Pat Quinn",
+      "years": "2009–2010",
+      "highlight": "Starting point for political career after first failed 2008 House run."
+    },
+    {
+      "role": "Assistant Professor of Mathematics",
+      "org": "University of Chicago",
+      "years": "2002–2008",
+      "highlight": "Research in algebraic topology. Won 1999 Morgan Prize as undergraduate. Clay Research Fellow 2002–2007. Later had four papers subject to errata/retraction (errors, not fraud)."
+    }
+  ],
   "endorsements": [
-    { "org": "Jan Schakowsky", "significance": "Incumbent endorsement noted in local reporting." }
-  ]
+    {
+      "org": "Rep. Jan Schakowsky",
+      "significance": "Retiring incumbent's endorsement in her own district — the most powerful signal in this race. Endorsed formally January 7, 2026.",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Biss"
+    },
+    {
+      "org": "Sen. Elizabeth Warren",
+      "significance": "National progressive endorsement; 3.14 Action Fund ran mailers featuring Warren's endorsement.",
+      "source": "https://legis1.com"
+    },
+    {
+      "org": "Gov. J.B. Pritzker (2025 Evanston mayoral re-election)",
+      "significance": "Pritzker endorsed Biss's 2025 mayoral re-election after having beaten him in the 2018 governor's primary.",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Biss"
+    },
+    {
+      "org": "Sen. Dick Durbin",
+      "significance": "Endorsed Biss's 2025 Evanston mayoral re-election",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Biss"
+    },
+    {
+      "org": "Sen. Tammy Duckworth",
+      "significance": "Endorsed Biss's 2025 Evanston mayoral re-election",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Biss"
+    },
+    {
+      "org": "IL Attorney General Kwame Raoul",
+      "significance": "Endorsed Biss's 2025 mayoral re-election",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Biss"
+    },
+    {
+      "org": "National Nurses United (2018 gubernatorial)",
+      "significance": "Largest organization of registered nurses in the U.S.; endorsed Biss for governor",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Biss"
+    },
+    {
+      "org": "Our Revolution (2018 gubernatorial)",
+      "significance": "Progressive organization successor to Bernie Sanders 2016 presidential campaign",
+      "source": "https://en.wikipedia.org/wiki/Daniel_Biss"
+    },
+    {
+      "org": "J Street PAC",
+      "significance": "Pro-Israel, pro-peace PAC; listed as contributing to 2026 congressional campaign",
+      "source": "https://legis1.com"
+    }
+  ],
+  "social_pulse": {
+    "summary": "Strong positive sentiment among progressive Democrats nationally and in IL-09. Endorsed by Schakowsky — the most coveted endorsement. National progressive credibility from 2018 governor's race. Evanston reparations policy generates ongoing national media attention. Fundraising competitive (~$2.54M) but trails Abughazaleh. Some friction with AFSCME and state employee unions over SB 1 history.",
+    "sentiment": "positive",
+    "hashtags": [
+      "#DanielBiss",
+      "#Evanston",
+      "#Reparations",
+      "#BissForCongress",
+      "#IL09"
+    ],
+    "last_updated": "2026-03-14"
+  },
+  "trust_indicators": [
+    {
+      "label": "FEC filings current",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "No ethics violations on record",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "Led first U.S. city-funded reparations program",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "Harvard/MIT credentials — policy depth",
+      "value": true,
+      "type": "positive"
+    },
+    {
+      "label": "Academic paper retractions (4 papers, errors not fraud)",
+      "value": "Confirmed by journal editors: inaccurate not fraudulent",
+      "type": "neutral"
+    },
+    {
+      "label": "Pension reform (SB 1) later struck down — Biss called it an 'error'",
+      "value": "Confirmed; Biss has publicly acknowledged and owned the mistake",
+      "type": "neutral"
+    },
+    {
+      "label": "Lost 2018 gubernatorial primary to Pritzker",
+      "value": "26.70% — third in three-way race (Pritzker 45.13%, Kennedy 24.37%)",
+      "type": "neutral"
+    }
+  ],
+  "transparency_score": {
+    "grade": "B",
+    "computed": true,
+    "financial_transparency": "B",
+    "platform_completeness": "A",
+    "record_available": true,
+    "red_flags_count": 4,
+    "computed_at": "2026-03-18"
+  },
+  "news_hits": [
+    {
+      "headline": "Two Progressives Fight AIPAC (and Each Other) in IL-09",
+      "summary": "The American Prospect reports that AIPAC-linked Elect Chicago Women (ECW) super PAC has spent millions supporting state Sen. Laura Fine and attacking Evanston Mayor Daniel Biss in the IL-09 race. Biss warned: 'It's absolutely essential that we not allow AIPAC to buy the seat.' Abughazaleh is also rising in polls, forcing AIPAC to pivot spending against her.",
+      "url": "https://prospect.org/2026/03/13/progressives-fight-aipac-congress-illinois-biss-fine-abughazaleh/",
+      "date": "2026-03-13",
+      "severity": "high",
+      "source_name": "The American Prospect"
+    },
+    {
+      "headline": "AIPAC's Attack on the Liberal Zionists",
+      "summary": "Jewish Currents examines how AIPAC is spending against Biss despite his relatively moderate Israel positions, and notes a poll showing Abughazaleh narrowing to within 4 points of Biss — creating a three-way dynamic where AIPAC's anti-Biss spending may be backfiring by pushing voters toward Abughazaleh.",
+      "url": "https://jewishcurrents.org/aipacs-attack-on-the-liberal-zionists",
+      "date": "2026-03-11",
+      "severity": "high",
+      "source_name": "Jewish Currents"
+    },
+    {
+      "headline": "Inside AIPAC's peculiar strategy to sink progressives: Attack them from the left",
+      "summary": "Axios reports that Elect Chicago Women (ECW), a new super PAC rumored to be backed by AIPAC donors, has spent millions in IL-09 supporting Laura Fine and attacking Biss — while AIPAC's United Democracy Project spent $266K against Abughazaleh, creating a multi-front spending war in the final week.",
+      "url": "https://www.axios.com/2026/03/13/aipac-illinois-abughazaleh-ahmed-bean-biss-israel",
+      "date": "2026-03-13",
+      "severity": "high",
+      "source_name": "Axios"
+    },
+    {
+      "headline": "A voter's guide to the confusing world of super PACs influencing 2026 Illinois primary races",
+      "summary": "WBEZ confirms 3.14 Action Fund (pro-science PAC) has spent $409,000 in support of Biss, while AIPAC-linked spending against him escalates in the final week before the primary.",
+      "url": "https://www.wbez.org/government-politics/elections/2026/03/13/super-pacs-influence-2026-illinois-primary-races-glossary",
+      "date": "2026-03-13",
+      "severity": "medium",
+      "source_name": "WBEZ Chicago"
+    }
+  ],
+  "fec_candidate_id": "H6IL09228",
+  "fec_committee_id": "C00905307",
+  "finance": {
+    "total_raised": 2539961,
+    "total_spent": 1894042,
+    "cash_on_hand": 645919,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "LUMPKIN, BENJAMIN",
+      "amount": 9000,
+      "employer": "SELF-EMPLOYED",
+      "occupation": "WRITER",
+      "date": "2026-02-03"
+    },
+    {
+      "name": "SACKS, STEVEN",
+      "amount": 7000,
+      "employer": "N/A",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-12-30"
+    },
+    {
+      "name": "PRITZKER, JENNIFER N",
+      "amount": 7000,
+      "employer": "TAWANI ENTERPRISE",
+      "occupation": "CEO",
+      "date": "2026-02-10"
+    },
+    {
+      "name": "MCNALLY, R STEPHEN",
+      "amount": 7000,
+      "employer": "SELF-EMPLOYED",
+      "occupation": "ATTORNEY",
+      "date": "2025-12-31"
+    },
+    {
+      "name": "SACKS, STEVEN",
+      "amount": 7000,
+      "employer": "N/A",
+      "occupation": "NOT EMPLOYED",
+      "date": "2025-12-30"
+    },
+    {
+      "name": "MCNALLY, R STEPHEN",
+      "amount": 7000,
+      "employer": "SELF-EMPLOYED",
+      "occupation": "ATTORNEY",
+      "date": "2025-12-31"
+    },
+    {
+      "name": "HENRY, SCOTT",
+      "amount": 7000,
+      "employer": "CELADON",
+      "occupation": "DEVELOPER",
+      "date": "2025-09-29"
+    },
+    {
+      "name": "WILLIAMS, ZACHARY",
+      "amount": 6000,
+      "employer": "SELF-EMPLOYED",
+      "occupation": "ANTIQUE DEALER",
+      "date": "2025-12-30"
+    },
+    {
+      "name": "WILLIAMS, ZACHARY",
+      "amount": 6000,
+      "employer": "SELF-EMPLOYED",
+      "occupation": "ANTIQUE DEALER",
+      "date": "2025-12-30"
+    },
+    {
+      "name": "O'KEEFE, DANIEL",
+      "amount": 5000,
+      "employer": "NORTHWESTERN UNIVERITY",
+      "occupation": "EMERITUS PROFESSOR",
+      "date": "2026-01-21"
+    }
+  ],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

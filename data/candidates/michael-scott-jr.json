@@ -1,0 +1,162 @@
+{
+  "id": "michael-scott-jr",
+  "name": "Michael Scott Jr.",
+  "party": "Democratic",
+  "office": "Cook County Commissioner District 2",
+  "race_id": "cook-county-commissioner-dist-2",
+  "incumbent": true,
+  "bio": "Michael Scott Jr. is the incumbent 2nd District Commissioner, first appointed in 2024. He is seeking re-election to his first full 4-year term. He is challenged by Andre Smith, an activist and perennial candidate who also ran in this district in 2022.",
+  "prior_office": "Cook County Commissioner District 2 (appointed 2024–present). Son of Michael Scott Sr., former Chicago Board of Education president.",
+  "website": "https://www.commissionerscott.com/",
+  "jacket": {
+    "total_raised": null,
+    "cash_on_hand": 98433.24,
+    "data_date": "2026-03-14",
+    "source": "https://illinoissunshine.org/committees/40016/",
+    "note": "Committee: Committee to Elect Michael Scott Jr (ID 40016). Funds available $58,933.24 + contributions since Dec 31, 2025 of $39,500. Top donors include labor PACs (SEIU $6k, LIUNA $7k, IBEW $5k, AFSCME $2k, Carpenters $2k), corporate (Comcast $2.5k, CineCity Studios $7k), and individual donors Elzie Higginbottom ($7.5k), Michael Sacks ($7.3k), Heather Steans ($6k).",
+    "fec_id": null,
+    "ilsbe_id": "40016",
+    "donors": [
+      {
+        "name": "Chicago Land Operators Joint Labor-Mgmt PAC",
+        "amount": 11000,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/40016/",
+        "confirmed": true
+      },
+      {
+        "name": "24th Ward Democratic Organization",
+        "amount": 10500,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/40016/",
+        "confirmed": true
+      },
+      {
+        "name": "Elzie Higginbottom",
+        "amount": 7500,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40016/",
+        "confirmed": true
+      },
+      {
+        "name": "Michael Sacks",
+        "amount": 7300,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40016/",
+        "confirmed": true
+      },
+      {
+        "name": "CineCity Studios",
+        "amount": 7000,
+        "category": "Corporate",
+        "source": "https://illinoissunshine.org/committees/40016/",
+        "confirmed": true
+      },
+      {
+        "name": "LIUNA Chicago Laborers' District Council PAC",
+        "amount": 7000,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/40016/",
+        "confirmed": true
+      },
+      {
+        "name": "SEIU IL Council PAC Fund",
+        "amount": 6000,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/40016/",
+        "confirmed": true
+      },
+      {
+        "name": "Heather Steans",
+        "amount": 6000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40016/",
+        "confirmed": true
+      },
+      {
+        "name": "Local 134 State & Municipal PAC IBEW",
+        "amount": 5000,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/40016/",
+        "confirmed": true
+      },
+      {
+        "name": "Alexander S Pissios",
+        "amount": 5000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40016/",
+        "confirmed": true
+      },
+      {
+        "name": "Cozen O'Connor",
+        "amount": 4000,
+        "category": "Corporate",
+        "source": "https://illinoissunshine.org/committees/40016/",
+        "confirmed": true
+      },
+      {
+        "name": "Comcast Financial Agency Corporation",
+        "amount": 2500,
+        "category": "Corporate",
+        "source": "https://illinoissunshine.org/committees/40016/",
+        "confirmed": true
+      },
+      {
+        "name": "Illinois Hotel-Motel PAC (IHMPAC)",
+        "amount": 2500,
+        "category": "pac",
+        "source": "https://illinoissunshine.org/committees/40016/",
+        "confirmed": true
+      },
+      {
+        "name": "Mid-America Carpenters Regional Council PAC",
+        "amount": 2000,
+        "category": "labor",
+        "source": "https://illinoissunshine.org/committees/40016/",
+        "confirmed": true
+      },
+      {
+        "name": "Gery J Chico",
+        "amount": 2000,
+        "category": "individual",
+        "source": "https://illinoissunshine.org/committees/40016/",
+        "confirmed": true
+      }
+    ]
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "policy_platform": [],
+  "career_history": [
+    {
+      "role": "Cook County Commissioner District 2 (appointed 2024)",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    }
+  ],
+  "data_status": "partial",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
+    "https://illinoissunshine.org/committees/40016/"
+  ],
+  "photo_url": null,
+  "endorsements": [],
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": {
+    "grade": "F",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "F",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-18"
+  },
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

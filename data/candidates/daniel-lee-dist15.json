@@ -1,0 +1,87 @@
+{
+  "id": "daniel-lee-dist15",
+  "name": "Daniel Lee",
+  "party": "Republican",
+  "office": "Cook County Commissioner District 15",
+  "race_id": "cook-county-commissioner-dist-15",
+  "incumbent": false,
+  "bio": "Daniel Lee is a small business owner and a longtime resident of Hoffman Estates who has been raising a family in Cook County for over 25 years. He serves on the Hoffman Estates Economic Development Commission and Planning & Zoning Commission. Lee is one of two Republicans competing in the March 17, 2026 Republican primary for District 15 (along with Gabriella Hoxie). He runs as a conservative emphasizing family values, law enforcement support, and fiscal responsibility under the banner 'Make Cook County Great Again.' His campaign website is citizens4daniellee.com.",
+  "prior_office": null,
+  "website": "https://citizens4daniellee.com/",
+  "photo_url": null,
+  "jacket": {
+    "total_raised": null,
+    "cash_on_hand": null,
+    "data_date": "2026-03-14",
+    "source": "https://illinoissunshine.org/county-races/2026/",
+    "note": "No separate Illinois Sunshine committee found for Lee as of research date. Total District 15 race funds = $133,326.91 (all three candidates).",
+    "fec_id": null,
+    "ilsbe_id": null,
+    "donors": []
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "policy_platform": [
+    {
+      "topic": "Position",
+      "position": "Back law enforcement and public safety"
+    },
+    {
+      "topic": "Position",
+      "position": "Conservative values and fiscal responsibility"
+    },
+    {
+      "topic": "Position",
+      "position": "Reduce Cook County taxes"
+    },
+    {
+      "topic": "Position",
+      "position": "Family values"
+    }
+  ],
+  "career_history": [
+    {
+      "role": "Small business owner",
+      "org": "",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "Member, Hoffman Estates Economic Development Commission",
+      "org": "Village of Hoffman Estates",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "Member, Hoffman Estates Planning & Zoning Commission",
+      "org": "Village of Hoffman Estates",
+      "years": "",
+      "highlight": ""
+    }
+  ],
+  "endorsements": [],
+  "data_status": "partial",
+  "sources": [
+    "https://ballotpedia.org/Daniel_Lee_(Illinois)",
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
+    "https://www.chicagotribune.com/2026/03/14/cook-county-board-seats-in-play-new-faces-guaranteed-among-17-commissioners/"
+  ],
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": {
+    "grade": "C",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "A",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-18"
+  },
+  "data_note": "Republican primary candidate for District 15. Contested GOP primary vs. Gabriella Hoxie.",
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

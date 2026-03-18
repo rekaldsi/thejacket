@@ -1,0 +1,206 @@
+{
+  "id": "jeannie-evans",
+  "name": "Jeannie Evans",
+  "party": "Republican",
+  "office": "U.S. Senate (Illinois)",
+  "race_id": "us-senate-il-r-2026",
+  "incumbent": false,
+  "bio": "Jeannie Evans is a Chicago-based attorney and antitrust enforcement lawyer running for the Republican U.S. Senate nomination in Illinois. She has built a career as a lead attorney in antitrust and consumer protection cases, recovering billions of dollars for consumers and working on high-profile cases involving Chinese tech companies including TikTok, CapCut, and Temu for alleged illegal collection of Americans' personal and biometric data. Evans grew up with personal experience of gun violence — she lost her brother as an innocent victim of drug-related gun violence at age 21 — and raised her family on Chicago's South Side. As the second-best-funded Republican Senate candidate (behind frontrunner Don Tracy), she raised $510,861 through December 2025, including $300,000 in self-funding, leaving $298,594 cash on hand. She participated in the ABC7 Chicago Republican primary debate in February 2026 alongside Tracy and Casey Chlebek.",
+  "prior_office": "None confirmed",
+  "website": "https://jeannievans.com",
+  "photo_url": null,
+  "jacket": {
+    "total_raised": 510861,
+    "cash_on_hand": 298594,
+    "data_date": "2026-03-14",
+    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
+    "note": "FEC data as of Dec 31, 2025. Includes $300,000 self-funded by Evans. Total raised $510,861; spent $212,267; cash on hand $298,594.",
+    "fec_id": null,
+    "ilsbe_id": null,
+    "donors": []
+  },
+  "red_flags": [
+    {
+      "type": "self-funding",
+      "label": "59% of fundraising is Evans' own money",
+      "detail": "Of $510,861 raised, $300,000 (59%) was self-funded. Limited outside donor base, though she raised more outside money proportionally than Tracy.",
+      "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
+      "confirmed": true
+    }
+  ],
+  "key_votes": [],
+  "policy_platform": [
+    {
+      "topic": "Position",
+      "position": "Promote small businesses and job growth; reduce red tape and streamline business formation"
+    },
+    {
+      "topic": "Position",
+      "position": "Bring down cost of living through antitrust enforcement and promoting fair market competition"
+    },
+    {
+      "topic": "Position",
+      "position": "Cut taxes and remove unreasonable regulations"
+    },
+    {
+      "topic": "Position",
+      "position": "Oppose Chicago Mayor Brandon Johnson's proposed head tax on employees"
+    },
+    {
+      "topic": "Position",
+      "position": "Fight crime; support law enforcement; invest in community safety on South and West Sides"
+    },
+    {
+      "topic": "Position",
+      "position": "Preserve freedom of speech and individual liberties"
+    },
+    {
+      "topic": "Position",
+      "position": "Reform education to prepare students for trades and innovation-economy careers"
+    },
+    {
+      "topic": "Position",
+      "position": "Balance the federal budget"
+    },
+    {
+      "topic": "Position",
+      "position": "Support Illinois farmers and expand agricultural exports"
+    },
+    {
+      "topic": "Position",
+      "position": "Lead on AI policy: keep America competitive, protect data rights, increase AI transparency"
+    },
+    {
+      "topic": "Position",
+      "position": "Hold China accountable; protect Americans from surveillance by Chinese tech firms"
+    },
+    {
+      "topic": "Position",
+      "position": "Support innovation and university-industry partnerships"
+    }
+  ],
+  "career_history": [
+    {
+      "role": "Attorney, Antitrust and Consumer Protection",
+      "org": "Private practice / law firm (specific firm not publicly confirmed)",
+      "years": "~2000s–present",
+      "highlight": "Lead attorney in antitrust enforcement cases recovering billions for consumers; took on Chinese tech companies TikTok, CapCut, and Temu for alleged illegal data collection."
+    }
+  ],
+  "endorsements": [],
+  "data_status": "partial",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
+    "https://ballotpedia.org/Jeannie_Evans",
+    "https://www.nprillinois.org/2026-03-13/who-will-win-the-u-s-senate-primaries-in-illinois-lets-look-at-the-data"
+  ],
+  "trust_indicators": [
+    {
+      "label": "Professional background",
+      "value": "Career antitrust litigator with demonstrated consumer protection record — unique credential among Illinois Senate candidates",
+      "type": "positive"
+    },
+    {
+      "label": "Self-funding",
+      "value": "Majority of campaign financed by candidate's personal funds",
+      "type": "negative"
+    }
+  ],
+  "social_pulse": null,
+  "transparency_score": {
+    "grade": "C",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "A",
+    "record_available": false,
+    "red_flags_count": 1,
+    "computed_at": "2026-03-18"
+  },
+  "fec_candidate_id": "S6IL00672",
+  "fec_committee_id": "C00921759",
+  "finance": {
+    "total_raised": 629827,
+    "total_spent": 539908,
+    "cash_on_hand": 89919,
+    "source": "FEC",
+    "last_updated": "2026-03-15"
+  },
+  "fec_top_donors": [
+    {
+      "name": "WATTS, GREG",
+      "amount": 7000,
+      "employer": "WILSON SONSINI",
+      "occupation": "ATTORNEY",
+      "date": "2025-12-11"
+    },
+    {
+      "name": "JESSEN, LENA",
+      "amount": 7000,
+      "employer": "RETIRED",
+      "occupation": "RETIRED",
+      "date": "2025-12-31"
+    },
+    {
+      "name": "YOUNG, JACK",
+      "amount": 7000,
+      "employer": "RETIRED",
+      "occupation": "RETIRED",
+      "date": "2025-12-30"
+    },
+    {
+      "name": "WILCOX, BRIGHAM",
+      "amount": 7000,
+      "employer": "EDGE BUILDERS",
+      "occupation": "OWNER",
+      "date": "2025-12-27"
+    },
+    {
+      "name": "AGUERAARCAS, BLAISE",
+      "amount": 7000,
+      "employer": "GOOGLE",
+      "occupation": "ENGINEER",
+      "date": "2025-12-22"
+    },
+    {
+      "name": "CHRISTENSEN, CHRISTOPHER",
+      "amount": 6000,
+      "employer": "RETIRED",
+      "occupation": "RETIRED",
+      "date": "2025-12-31"
+    },
+    {
+      "name": "HOUGHTON, STEVE",
+      "amount": 3500,
+      "employer": "SELF",
+      "occupation": "REAL ESTATE",
+      "date": "2025-12-03"
+    },
+    {
+      "name": "HOUGHTON, JENNIFER",
+      "amount": 3500,
+      "employer": "SELF",
+      "occupation": "INFLUENCER",
+      "date": "2025-12-03"
+    },
+    {
+      "name": "EVANS, DANIEL",
+      "amount": 3500,
+      "employer": "ACCESS CLINICAL PARTNERS",
+      "occupation": "ATTORNEY",
+      "date": "2025-11-24"
+    },
+    {
+      "name": "MICKELSEN, KATHERYN",
+      "amount": 3500,
+      "employer": "SELF",
+      "occupation": "STAY AT HOME",
+      "date": "2025-12-31"
+    }
+  ],
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ginger-odom",
+  "name": "Ginger Odom",
+  "party": "Democratic",
+  "office": "circuit",
+  "subcircuit": "1st",
+  "race_id": "judicial-1st-subcircuit-walker-vacancy",
+  "vacancy_of": "Judge Walker",
+  "bio": "Judge Ginger Odom is the appointed incumbent circuit court judge currently filling this vacancy. She received all positive ratings from the Alliance bar associations and a Recommended from the CBA. As the appointed incumbent she brings current judicial experience to this contested primary.",
+  "background": "Appointed incumbent circuit court judge.",
+  "years_experience": 10,
+  "bar_ratings": {
+    "alliance_rating": "Q",
+    "alliance_detail": "All positive ratings from Alliance bar associations",
+    "cba_rating": "R",
+    "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx"
+  },
+  "red_flags": [],
+  "uncontested": false,
+  "photo_url": null,
+  "primary_result": {
+    "status": "pending",
+    "yes_pct": null,
+    "no_pct": null,
+    "votes": null,
+    "updated": null
+  }
+}

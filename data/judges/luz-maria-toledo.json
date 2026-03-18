@@ -1,0 +1,29 @@
+{
+  "id": "luz-maria-toledo",
+  "name": "Luz Maria Toledo",
+  "party": "Democratic",
+  "office": "circuit",
+  "subcircuit": "countywide",
+  "race_id": "judicial-countywide-cobbs-vacancy",
+  "vacancy_of": "Judge Cobbs",
+  "bio": "Luz Maria Toledo has served as an Assistant State's Attorney since 2007, focusing on real estate tax defense. She has nearly two decades of courtroom experience in Cook County courts and brings a strong prosecutorial and tax law background to her judicial candidacy.",
+  "background": "Assistant State's Attorney since 2007; real estate tax defense specialist.",
+  "years_experience": 19,
+  "bar_ratings": {
+    "alliance_rating": "Q",
+    "alliance_detail": "Qualified — unanimous from all Alliance bar associations",
+    "cba_rating": "R",
+    "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx"
+  },
+  "red_flags": [],
+  "uncontested": false,
+  "website": "https://toledoforjudge.com",
+  "photo_url": null,
+  "primary_result": {
+    "status": "pending",
+    "yes_pct": null,
+    "no_pct": null,
+    "votes": null,
+    "updated": null
+  }
+}

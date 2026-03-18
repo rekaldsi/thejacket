@@ -1,0 +1,85 @@
+{
+  "id": "gabriella-hoxie",
+  "name": "Gabriella Hoxie",
+  "party": "Republican",
+  "office": "Cook County Commissioner District 15",
+  "race_id": "cook-county-commissioner-dist-15",
+  "incumbent": false,
+  "bio": "Gabriella Hoxie, 25, is a Republican candidate for Cook County Commissioner District 15. She is endorsed by both the Chicago Tribune and Daily Herald editorial boards in the Republican primary, facing fellow Republican Daniel Lee. She would be one of the youngest Cook County Commissioners if elected.",
+  "prior_office": null,
+  "website": "https://hoxieforillinois.com/",
+  "photo_url": null,
+  "jacket": {
+    "total_raised": null,
+    "cash_on_hand": null,
+    "data_date": "2026-03-14",
+    "source": "https://illinoissunshine.org/county-races/2026/",
+    "note": "Total District 15 race funds = $133,326.91 (all three candidates). No separate Illinois Sunshine committee found for Hoxie as of research date.",
+    "fec_id": null,
+    "ilsbe_id": null,
+    "donors": []
+  },
+  "red_flags": [],
+  "key_votes": [],
+  "policy_platform": [
+    {
+      "topic": "Position",
+      "position": "Property tax relief and increased oversight of Cook County Board of Review"
+    },
+    {
+      "topic": "Position",
+      "position": "Support for law enforcement and keeping violent criminals incarcerated"
+    },
+    {
+      "topic": "Position",
+      "position": "Lower taxes and reduce regulation to lower cost of living"
+    },
+    {
+      "topic": "Position",
+      "position": "Government accountability and transparency; end pay-to-play politics"
+    }
+  ],
+  "career_history": [
+    {
+      "role": "Staffer for Illinois House Republican Leader Tony McCombie",
+      "org": "Illinois House of Representatives Republican caucus",
+      "years": "",
+      "highlight": ""
+    },
+    {
+      "role": "Vice Chair, North Cook Young Republicans",
+      "org": "Young Republicans",
+      "years": "",
+      "highlight": ""
+    }
+  ],
+  "endorsements": [
+    "Chicago Tribune Editorial Board",
+    "Daily Herald Editorial Board"
+  ],
+  "data_status": "partial",
+  "sources": [
+    "https://ballotpedia.org/Gabriella_Hoxie",
+    "https://hoxieforillinois.com/",
+    "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
+    "https://www.chicagotribune.com/2026/03/14/cook-county-board-seats-in-play-new-faces-guaranteed-among-17-commissioners/"
+  ],
+  "trust_indicators": [],
+  "social_pulse": null,
+  "transparency_score": {
+    "grade": "C",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "A",
+    "record_available": false,
+    "red_flags_count": 0,
+    "computed_at": "2026-03-18"
+  },
+  "data_note": "Republican primary candidate for District 15. Contested GOP primary vs. Daniel Lee.",
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
+}

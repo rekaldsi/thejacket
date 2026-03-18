@@ -1,20 +1,102 @@
 {
   "id": "ed-hershey",
   "name": "Ed Hershey",
-  "party": "We The People",
+  "party": "Working Class Party",
   "office": "U.S. House (IL-04)",
   "race_id": "il-04-us-house-open-2026",
-  "bio": "Ed Hershey is listed as a We The People candidate in IL-04 in public ballot summaries. His filing appears in the 2026 open-seat district coverage. (Source: Shaw Local candidate list, March 5, 2026: https://www.shawlocal.com/northwest-herald/2026/03/05/illinois-primary-ballot-heres-whos-running-in-the-march-17-election/)",
-  "prior_office": "Not listed in source summary",
-  "website": "",
+  "data_status": "limited",
+  "data_note": "Limited campaign finance data. Hershey is a GENERAL ELECTION candidate (November 3, 2026), NOT in the March 17 primary. Working Class Party candidate.",
+  "bio": "Ed Hershey (Working Class Party) is running for election to the U.S. House to represent Illinois' 4th Congressional District. He is running in the GENERAL ELECTION (November 3, 2026), not the March 17 primary. He was a 2022 and 2024 candidate as well. His career background is as a teacher. He earned a bachelor's degree from the University of Chicago in 2001. Candidate is based on platform of working-class advocacy.",
+  "prior_office": "Teacher (education professional)",
+  "website": "https://workingclassfight.com/",
   "jacket": {
     "total_raised": null,
-    "data_date": "2026-03-13",
-    "source": "https://www.fec.gov/data/elections/house/IL/04/",
-    "note": "FEC candidate totals pending ETL import.",
+    "cash_on_hand": null,
+    "data_date": "2026-03-14",
+    "source": null,
+    "note": "NO FEC COMMITTEE FILINGS FOUND for 2026. Hershey has FEC ID H2IL04178 (OTHER party, campaign history 2022, 2024, 2026) but no committee in current cycle. Appears to be unfunded general election candidate. No Schedule A donations filed.",
+    "fec_id": "H2IL04178",
+    "ilsbe_id": null,
     "donors": []
   },
-  "red_flags": [],
+  "red_flags": [
+    {
+      "type": "funding",
+      "label": "No campaign committee established",
+      "detail": "FEC candidate ID H2IL04178 exists but has NO committee filings for 2026. Appears to be essentially unfunded.",
+      "source": "https://api.open.fec.gov/v1/candidates/?q=hershey&state=IL",
+      "confirmed": true
+    },
+    {
+      "type": "status",
+      "label": "General election only (not March 17 primary)",
+      "detail": "Hershey is NOT running in the March 17 Democratic or Republican primary. He is running as a Working Class Party candidate in the general election only (November 3, 2026).",
+      "source": "https://ballotpedia.org/Illinois%27_4th_Congressional_District_election,_2026",
+      "confirmed": true
+    }
+  ],
   "key_votes": [],
-  "endorsements": []
+  "endorsements": [],
+  "career_history": [
+    {
+      "role": "Teacher",
+      "org": "Education sector",
+      "years": "n/a",
+      "highlight": "Public school teacher; working-class background"
+    }
+  ],
+  "policy_platform": [
+    {
+      "topic": "Platform",
+      "position": "Working-class advocacy; candidate for 'Working Class Party' with focus on working-class rights and economic justice.",
+      "source": "https://workingclassfight.com/"
+    },
+    {
+      "topic": "Immigration",
+      "position": "Federal funds must be mobilized to house immigrants to this country decently. All immigrants in this country, both new asylum-seekers and long-time residents, must enjoy full rights, and immediately.",
+      "source": "https://chicago.suntimes.com/candidate-questionnaires/ed-hershey-illinois-4th-congressional-district"
+    }
+  ],
+  "social_pulse": {
+    "summary": "Working Class Party, third-party candidate. Low public profile. Activist-oriented.",
+    "sentiment": "activist",
+    "last_updated": "2026-03-14"
+  },
+  "trust_indicators": [
+    {
+      "label": "FEC Candidate ID",
+      "value": "H2IL04178 (exists)",
+      "type": "neutral"
+    },
+    {
+      "label": "Campaign Status",
+      "value": "General election only; no primary filing",
+      "type": "neutral"
+    }
+  ],
+  "transparency_score": {
+    "grade": "D",
+    "computed": true,
+    "financial_transparency": "F",
+    "platform_completeness": "C",
+    "record_available": false,
+    "red_flags_count": 2,
+    "computed_at": "2026-03-18"
+  },
+  "sources": [
+    "https://ballotpedia.org/Ed_Hershey",
+    "https://ballotpedia.org/Illinois%27_4th_Congressional_District_election,_2026",
+    "https://chicago.suntimes.com/candidate-questionnaires/ed-hershey-illinois-4th-congressional-district",
+    "https://workingclassfight.com/",
+    "https://api.open.fec.gov/v1/candidates/?q=hershey&state=IL"
+  ],
+  "photo_url": null,
+  "fec_candidate_id": "H2IL04178",
+  "fec_committee_id": "C00814954",
+  "primary_result": {
+    "status": "pending",
+    "votes": null,
+    "pct": null,
+    "updated": null
+  }
 }

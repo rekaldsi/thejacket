@@ -1,0 +1,29 @@
+{
+  "id": "steven-q-mckenzie",
+  "name": "Steven Q. McKenzie",
+  "party": "Democratic",
+  "office": "circuit",
+  "subcircuit": "countywide",
+  "race_id": "judicial-countywide-burke-vacancy",
+  "vacancy_of": "Judge Burke",
+  "bio": "Steven Q. McKenzie has served in the City of Chicago Law Department since 2006, bringing nearly two decades of municipal law experience to his judicial candidacy. He received a Recommended from the CBA and mostly positive Alliance ratings, with one Not Recommended from the Puerto Rican Bar Association of Illinois. He is running uncontested.",
+  "background": "City of Chicago Law Department attorney since 2006.",
+  "years_experience": 20,
+  "bar_ratings": {
+    "alliance_rating": "Mixed",
+    "alliance_detail": "Mixed — 1 NR from Puerto Rican Bar Association of Illinois (PRBBA); otherwise positive from Alliance associations",
+    "cba_rating": "R",
+    "source": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx"
+  },
+  "red_flags": [],
+  "uncontested": true,
+  "website": "https://stevenqmckenzieforjudge.com",
+  "photo_url": null,
+  "primary_result": {
+    "status": "pending",
+    "yes_pct": null,
+    "no_pct": null,
+    "votes": null,
+    "updated": null
+  }
+}
