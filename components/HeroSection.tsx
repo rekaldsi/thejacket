@@ -7,6 +7,7 @@ import { useLanguage } from "@/lib/i18n";
 import { translations } from "@/lib/translations";
 
 const PRIMARY_DATE = new Date("2026-03-17T06:00:00Z"); // 12:00 AM CST = 06:00 UTC
+const RESULTS_MODE = true; // Primary is over — flip to results mode
 
 function useCountdown() {
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0, total: 0 });
@@ -29,23 +30,40 @@ function useCountdown() {
   return timeLeft;
 }
 
-function CountdownUnit({ value, label }: { value: number; label: string }) {
+function ResultsBanner() {
   return (
-    <div className="flex flex-col items-center leading-none">
-      <span className="font-mono text-lg font-black tabular-nums text-jacket-amber">
-        {String(value).padStart(2, "0")}
-      </span>
-      <span className="font-mono text-[9px] uppercase tracking-widest text-zinc-600 mt-0.5">{label}</span>
+    <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-4">
+      {/* Results pill */}
+      <div className="flex items-center gap-2">
+        <span className="relative flex h-2.5 w-2.5 shrink-0">
+          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" />
+          <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-green-500" />
+        </span>
+        <span className="font-mono text-xs uppercase tracking-[0.22em] text-green-400">
+          March 17 Primary — Results In
+        </span>
+      </div>
+
+      {/* CTA buttons */}
+      <div className="flex flex-wrap gap-2">
+        <Link
+          href="/results"
+          className="inline-block rounded-sm bg-jacket-amber px-4 py-2 font-mono text-xs font-black uppercase tracking-widest text-jacket-black hover:bg-jacket-black hover:text-jacket-amber border border-jacket-amber transition-all animate-cta-pulse"
+        >
+          All Results →
+        </Link>
+        <Link
+          href="/results/judges"
+          className="inline-block rounded-sm border border-jacket-amber/50 px-4 py-2 font-mono text-xs font-black uppercase tracking-widest text-jacket-amber/80 hover:border-jacket-amber hover:text-jacket-amber transition-colors"
+        >
+          ⚖️ Judge Results
+        </Link>
+      </div>
     </div>
   );
 }
 
-function Divider() {
-  return <span className="font-mono text-jacket-amber/40 text-base self-start mt-1">:</span>;
-}
-
 export default function HeroSection() {
-  const { days, hours, minutes, seconds, total } = useCountdown();
   const [visible, setVisible] = useState(false);
   const sectionRef = useRef<HTMLDivElement>(null);
   const { lang } = useLanguage();
@@ -55,8 +73,6 @@ export default function HeroSection() {
     const id = setTimeout(() => setVisible(true), 50);
     return () => clearTimeout(id);
   }, []);
-
-  const elapsed = total === 0;
 
   const fadeIn = (delay: string) => ({
     opacity: visible ? 1 : 0,
@@ -104,7 +120,7 @@ export default function HeroSection() {
           className="font-mono text-xs uppercase tracking-[0.22em] text-jacket-amber"
           style={fadeIn("0.05s")}
         >
-          {d.dateline}
+          {RESULTS_MODE ? "March 17, 2026 · Cook County Primary" : d.dateline}
         </p>
 
         {/* Wordmark */}
@@ -130,7 +146,9 @@ export default function HeroSection() {
           className="max-w-xl text-xl text-zinc-300"
           style={fadeIn("0.35s")}
         >
-          {d.tagline}
+          {RESULTS_MODE
+            ? "The primary is over. See who won, what it means, and who owns them."
+            : d.tagline}
         </p>
 
         {/* Pull quote — always English (Robin Williams quote) */}
@@ -146,60 +164,81 @@ export default function HeroSection() {
           </div>
         </blockquote>
 
-        {/* Countdown */}
-        <div style={fadeIn("0.5s")}>
-          {!elapsed ? (
-            <div className="flex items-start gap-2">
-              <CountdownUnit value={days} label={d.days_label} />
-              <Divider />
-              <CountdownUnit value={hours} label={d.hours_label} />
-              <Divider />
-              <CountdownUnit value={minutes} label={d.minutes_label} />
-              <Divider />
-              <CountdownUnit value={seconds} label={d.seconds_label} />
-            </div>
+        {/* Results banner / countdown */}
+        <div style={fadeIn("0.5s")} className="w-full md:w-auto">
+          {RESULTS_MODE ? (
+            <ResultsBanner />
           ) : (
-            <div className="flex flex-col gap-2">
-              <div className="flex items-center gap-2">
-                <span className="relative flex h-2.5 w-2.5 shrink-0">
-                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" />
-                  <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-green-500" />
-                </span>
-                <span className="font-mono text-sm font-black uppercase tracking-[0.18em] text-jacket-amber">
-                  March 17 Primary — Results Live
-                </span>
-              </div>
-              <Link
-                href="/results"
-                className="inline-block rounded-sm border border-jacket-amber bg-jacket-amber px-5 py-2.5 font-mono text-sm font-black uppercase tracking-widest text-jacket-black transition-all hover:bg-jacket-black hover:text-jacket-amber"
-              >
-                See Results →
-              </Link>
-            </div>
+            <CountdownWidget />
           )}
         </div>
 
-        {/* CTA */}
-        <div style={fadeIn("0.62s")} className="w-full md:w-auto">
-          <Link
-            href="/races"
-            className="
-              inline-block w-full md:w-auto text-center whitespace-nowrap rounded-sm
-              border border-jacket-amber
-              bg-jacket-amber px-6 py-3
-              font-mono text-sm font-black uppercase tracking-widest
-              text-jacket-black
-              transition-all duration-200
-              hover:bg-jacket-black hover:text-jacket-amber
-              focus:outline-none focus:ring-2 focus:ring-jacket-amber focus:ring-offset-2 focus:ring-offset-jacket-black
-              animate-cta-pulse
-            "
-          >
-            {d.find_ballot}
-          </Link>
-        </div>
+        {/* CTA — post-primary: see results instead of find ballot */}
+        {!RESULTS_MODE && (
+          <div style={fadeIn("0.62s")} className="w-full md:w-auto">
+            <Link
+              href="/races"
+              className="
+                inline-block w-full md:w-auto text-center whitespace-nowrap rounded-sm
+                border border-jacket-amber
+                bg-jacket-amber px-6 py-3
+                font-mono text-sm font-black uppercase tracking-widest
+                text-jacket-black
+                transition-all duration-200
+                hover:bg-jacket-black hover:text-jacket-amber
+                focus:outline-none focus:ring-2 focus:ring-jacket-amber focus:ring-offset-2 focus:ring-offset-jacket-black
+                animate-cta-pulse
+              "
+            >
+              {d.find_ballot}
+            </Link>
+          </div>
+        )}
 
       </div>
     </section>
   );
+}
+
+// Internal countdown component (only used pre-election)
+function CountdownWidget() {
+  const { days, hours, minutes, seconds, total } = useCountdown();
+  const elapsed = total === 0;
+  const { lang } = useLanguage();
+  const d = translations[lang];
+
+  if (elapsed) {
+    return (
+      <span className="font-mono text-sm uppercase tracking-[0.22em] text-jacket-amber animate-pulse">
+        {d.primary_day_go_vote}
+      </span>
+    );
+  }
+
+  return (
+    <div className="flex items-start gap-2">
+      <CountdownUnit value={days} label={d.days_label} />
+      <CountdownDivider />
+      <CountdownUnit value={hours} label={d.hours_label} />
+      <CountdownDivider />
+      <CountdownUnit value={minutes} label={d.minutes_label} />
+      <CountdownDivider />
+      <CountdownUnit value={seconds} label={d.seconds_label} />
+    </div>
+  );
+}
+
+function CountdownUnit({ value, label }: { value: number; label: string }) {
+  return (
+    <div className="flex flex-col items-center leading-none">
+      <span className="font-mono text-lg font-black tabular-nums text-jacket-amber">
+        {String(value).padStart(2, "0")}
+      </span>
+      <span className="font-mono text-[9px] uppercase tracking-widest text-zinc-600 mt-0.5">{label}</span>
+    </div>
+  );
+}
+
+function CountdownDivider() {
+  return <span className="font-mono text-jacket-amber/40 text-base self-start mt-1">:</span>;
 }

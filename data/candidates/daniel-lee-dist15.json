@@ -79,9 +79,9 @@
   },
   "data_note": "Republican primary candidate for District 15. Contested GOP primary vs. Gabriella Hoxie.",
   "primary_result": {
-    "status": "pending",
-    "votes": null,
-    "pct": null,
-    "updated": null
+    "status": "won",
+    "votes": 5294,
+    "pct": 61.15,
+    "updated": "2026-03-18T03:22:24.240Z"
   }
 }

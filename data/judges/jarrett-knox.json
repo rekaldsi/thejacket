@@ -19,10 +19,10 @@
   "uncontested": false,
   "photo_url": null,
   "primary_result": {
-    "status": "pending",
-    "yes_pct": null,
+    "status": "won",
+    "yes_pct": 65.85,
     "no_pct": null,
-    "votes": null,
-    "updated": null
+    "votes": 11955,
+    "updated": "2026-03-18T03:22:24.240Z"
   }
 }

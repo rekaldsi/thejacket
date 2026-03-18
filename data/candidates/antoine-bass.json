@@ -48,9 +48,9 @@
     "computed_at": "2026-03-18"
   },
   "primary_result": {
-    "status": "pending",
-    "votes": null,
-    "pct": null,
-    "updated": null
+    "status": "lost",
+    "votes": 2990,
+    "pct": 8.99,
+    "updated": "2026-03-18T03:22:24.240Z"
   }
 }

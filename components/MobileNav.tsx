@@ -82,6 +82,18 @@ export default function MobileNav() {
 
             {/* Nav links — centered, generous tap targets */}
             <nav className="flex flex-col items-center px-6 py-4 gap-1">
+              {/* Results — highlighted post-primary */}
+              <Link
+                href="/results"
+                onClick={close}
+                className="w-full rounded-sm py-4 text-center font-mono text-base font-bold uppercase tracking-widest text-green-400 transition-colors active:bg-green-400/10 hover:text-green-300 border-b border-jacket-border/30 flex items-center justify-center gap-2"
+              >
+                <span className="relative flex h-2 w-2">
+                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" />
+                  <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500" />
+                </span>
+                Results
+              </Link>
               {[
                 { href: "/races", label: d.nav_races },
                 { href: "/judges", label: d.nav_judges },

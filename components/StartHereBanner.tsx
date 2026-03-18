@@ -30,32 +30,35 @@ export default function StartHereBanner() {
   const mobileBubble = ready && !dismissed ? (
     <div className="fixed bottom-5 right-4 z-50 md:hidden">
       {expanded ? (
-        <div className="w-56 rounded-md border border-jacket-amber/60 bg-jacket-black shadow-2xl shadow-black/60">
-          <div className="flex items-center justify-between border-b border-jacket-amber/20 px-3 py-2">
-            <span className="font-mono text-[10px] font-black uppercase tracking-widest text-jacket-amber">
-              {d.mar_17_primary}
+        <div className="w-56 rounded-md border border-green-500/60 bg-jacket-black shadow-2xl shadow-black/60">
+          <div className="flex items-center justify-between border-b border-green-500/20 px-3 py-2">
+            <span className="font-mono text-[10px] font-black uppercase tracking-widest text-green-400">
+              Results Are In
             </span>
             <button onClick={dismiss} className="font-mono text-xs text-zinc-500 hover:text-white" aria-label="Close">
               ✕
             </button>
           </div>
           <div className="flex flex-col gap-1.5 p-3">
-            <Link href="/booth" onClick={dismiss}
+            <Link href="/results" onClick={dismiss}
               className="block rounded-sm border border-jacket-amber bg-jacket-amber py-1.5 text-center font-mono text-[11px] font-black uppercase tracking-widest text-jacket-black transition-colors hover:bg-jacket-black hover:text-jacket-amber">
-              {d.build_my_ballot}
+              All Results →
             </Link>
-            <Link href="/races" onClick={dismiss}
+            <Link href="/results/judges" onClick={dismiss}
               className="block rounded-sm border border-jacket-amber py-1.5 text-center font-mono text-[11px] font-black uppercase tracking-widest text-jacket-amber transition-colors hover:bg-jacket-amber hover:text-jacket-black">
-              {d.browse_races}
+              ⚖️ Judge Results
             </Link>
           </div>
         </div>
       ) : (
         <button onClick={() => setExpanded(true)}
-          className="flex items-center gap-1.5 rounded-full border border-jacket-amber/70 bg-jacket-black/90 px-3 py-2 shadow-lg shadow-black/50 backdrop-blur-sm"
-          aria-label={d.new_here}>
-          <span className="text-sm">🗳</span>
-          <span className="font-mono text-[11px] font-black uppercase tracking-widest text-jacket-amber">{d.new_here}</span>
+          className="flex items-center gap-1.5 rounded-full border border-green-500/70 bg-jacket-black/90 px-3 py-2 shadow-lg shadow-black/50 backdrop-blur-sm"
+          aria-label="Results are in">
+          <span className="relative flex h-2 w-2">
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" />
+            <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500" />
+          </span>
+          <span className="font-mono text-[11px] font-black uppercase tracking-widest text-green-400">Results In</span>
         </button>
       )}
     </div>
@@ -69,24 +72,30 @@ export default function StartHereBanner() {
           <div className="flex items-center justify-between gap-4 h-[28px]" />
         </div>
       ) : dismissed ? null : (
-        <div className="rounded-sm border border-jacket-amber/40 bg-jacket-amber/5 px-5 py-3">
+        <div className="rounded-sm border border-green-500/30 bg-green-500/5 px-5 py-3">
           <div className="flex items-center justify-between gap-4">
             <div className="flex items-center gap-4">
-              <p className="font-mono text-[11px] uppercase tracking-widest text-jacket-amber">
-                IL Primary — Mar 17
-              </p>
+              <div className="flex items-center gap-2">
+                <span className="relative flex h-2 w-2">
+                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" />
+                  <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500" />
+                </span>
+                <p className="font-mono text-[11px] uppercase tracking-widest text-green-400">
+                  March 17 Primary — Results In
+                </p>
+              </div>
               <p className="text-sm font-bold text-jacket-white">
-                {d.new_here_tagline}
+                See who won every Cook County race
               </p>
             </div>
             <div className="flex shrink-0 items-center gap-2">
-              <Link href="/booth" onClick={dismiss}
+              <Link href="/results" onClick={dismiss}
                 className="whitespace-nowrap rounded-sm border border-jacket-amber bg-jacket-amber px-4 py-1.5 font-mono text-xs font-black uppercase tracking-widest text-jacket-black transition-colors hover:bg-jacket-black hover:text-jacket-amber">
-                {d.build_my_ballot}
+                All Results →
               </Link>
-              <Link href="/races" onClick={dismiss}
+              <Link href="/results/judges" onClick={dismiss}
                 className="whitespace-nowrap rounded-sm border border-jacket-amber px-4 py-1.5 font-mono text-xs font-black uppercase tracking-widest text-jacket-amber transition-colors hover:bg-jacket-amber hover:text-jacket-black">
-                {d.browse_races}
+                ⚖️ Judges
               </Link>
               <button onClick={dismiss}
                 className="ml-1 font-mono text-sm text-zinc-600 hover:text-zinc-300 transition-colors"

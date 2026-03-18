@@ -104,9 +104,9 @@
     "last_updated": "2026-03-15"
   },
   "primary_result": {
-    "status": "pending",
-    "votes": null,
-    "pct": null,
-    "updated": null
+    "status": "lost",
+    "votes": 1199,
+    "pct": 0.4,
+    "updated": "2026-03-18T03:22:24.240Z"
   }
 }

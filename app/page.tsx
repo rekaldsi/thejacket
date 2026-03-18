@@ -312,28 +312,26 @@ export default function HomePage() {
 
       {/* ── FIND YOUR FULL BALLOT ── */}
       <section className="rounded-sm border border-jacket-amber/30 bg-jacket-amber/5 px-6 py-8 text-center">
-        <p className="mb-1 font-mono text-xs uppercase tracking-[0.22em] text-jacket-amber"><T k="illinois_primary_date" /></p>
-        <h2 className="mb-2 text-2xl font-black uppercase tracking-tight"><T k="see_your_full_ballot" /></h2>
+        <p className="mb-1 font-mono text-xs uppercase tracking-[0.22em] text-green-400">
+          March 17, 2026 Primary — Results In
+        </p>
+        <h2 className="mb-2 text-2xl font-black uppercase tracking-tight">See Who Won</h2>
         <p className="mx-auto mb-6 max-w-lg text-sm text-zinc-400">
-          <T k="ballot_body_text" />
+          Full results for every Cook County and Illinois race — plus judicial results no other outlet is tracking.
         </p>
         <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
-          <a
-            href="https://www.elections.il.gov/ElectionInformation/GetElectionSampleBallot.aspx"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href="/results"
             className="inline-block whitespace-nowrap rounded-sm bg-jacket-amber px-6 py-3 font-mono text-sm font-black uppercase tracking-widest text-jacket-black transition-colors hover:bg-jacket-black hover:text-jacket-amber border border-jacket-amber"
           >
-            <T k="my_full_ballot_ilsos" />
-          </a>
-          <a
-            href="https://chicagoelections.gov/voting/my-voter-information"
-            target="_blank"
-            rel="noopener noreferrer"
+            All Race Results →
+          </Link>
+          <Link
+            href="/results/judges"
             className="inline-block whitespace-nowrap rounded-sm border border-jacket-amber px-6 py-3 font-mono text-sm font-black uppercase tracking-widest text-jacket-amber transition-colors hover:bg-jacket-amber hover:text-jacket-black"
           >
-            <T k="chicago_voters" />
-          </a>
+            ⚖️ Judicial Results
+          </Link>
         </div>
       </section>
 

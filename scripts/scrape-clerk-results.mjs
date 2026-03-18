@@ -246,7 +246,7 @@ async function writeJudgeResult(entry, row, timestamp) {
 
   data.primary_result = {
     status,
-    yes_pct: null,
+    yes_pct: row.pct ?? null,   // For contested races: store vote % here
     no_pct:  null,
     votes:   row.votes,
     updated: timestamp,
@@ -298,7 +298,7 @@ async function main() {
   let judgesUpdated     = 0;
   let racesScraped      = 0;
   const unmatched       = [];
-  const updatedFiles    = new Set(); // prevent double-updates
+  const updatedFiles    = new Map(); // filePath → 'won'|'lost' — prefer 'won'
 
   // Load all data files
   const [candidateFiles, judgeFiles] = await Promise.all([
@@ -350,32 +350,46 @@ async function main() {
     // Judge match (for judicial races)
     if (row.isJudicial) {
       const jMatch = fuzzyMatch(row.candidateName, judgeFiles);
-      if (jMatch && !updatedFiles.has(jMatch.filePath + '|' + row.raceName)) {
-        await writeJudgeResult(jMatch, row, timestamp);
-        updatedFiles.add(jMatch.filePath + '|' + row.raceName);
-        judgesUpdated++;
-        if (DRY_RUN) console.log(`  [dry] judge ${jMatch.data.name} → ${row.winner ? 'won' : 'lost'}`);
+      if (jMatch) {
+        const key = jMatch.filePath;
+        const existing = updatedFiles.get(key);
+        // Prefer 'won' over 'lost' — if we already wrote won, skip
+        if (!existing || (existing === 'lost' && row.winner)) {
+          await writeJudgeResult(jMatch, row, timestamp);
+          updatedFiles.set(key, row.winner ? 'won' : 'lost');
+          if (!existing) judgesUpdated++;
+          if (DRY_RUN) console.log(`  [dry] judge ${jMatch.data.name} → ${row.winner ? 'won' : 'lost'}`);
+        }
         continue;
       }
     }
 
     // Candidate match
     const cMatch = fuzzyMatch(row.candidateName, candidateFiles);
-    if (cMatch && !updatedFiles.has(cMatch.filePath + '|' + row.raceName)) {
-      await writeCandidateResult(cMatch, row, timestamp);
-      updatedFiles.add(cMatch.filePath + '|' + row.raceName);
-      candidatesUpdated++;
-      if (DRY_RUN) console.log(`  [dry] candidate ${cMatch.data.name} → ${row.winner ? 'won' : 'lost'}`);
+    if (cMatch) {
+      const key = cMatch.filePath;
+      const existing = updatedFiles.get(key);
+      // Prefer 'won' over 'lost'
+      if (!existing || (existing === 'lost' && row.winner)) {
+        await writeCandidateResult(cMatch, row, timestamp);
+        updatedFiles.set(key, row.winner ? 'won' : 'lost');
+        if (!existing) candidatesUpdated++;
+        if (DRY_RUN) console.log(`  [dry] candidate ${cMatch.data.name} → ${row.winner ? 'won' : 'lost'}`);
+      }
       continue;
     }
 
     // Fallback: try judge even for non-judicial rows
     if (!row.isJudicial) {
       const jFallback = fuzzyMatch(row.candidateName, judgeFiles);
-      if (jFallback && !updatedFiles.has(jFallback.filePath + '|' + row.raceName)) {
-        await writeJudgeResult(jFallback, row, timestamp);
-        updatedFiles.add(jFallback.filePath + '|' + row.raceName);
-        judgesUpdated++;
+      if (jFallback) {
+        const key = jFallback.filePath;
+        const existing = updatedFiles.get(key);
+        if (!existing || (existing === 'lost' && row.winner)) {
+          await writeJudgeResult(jFallback, row, timestamp);
+          updatedFiles.set(key, row.winner ? 'won' : 'lost');
+          if (!existing) judgesUpdated++;
+        }
         continue;
       }
     }

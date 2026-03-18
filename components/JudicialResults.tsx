@@ -54,6 +54,8 @@ function ResultStatus({ result }: { result: JudgePrimaryResult | undefined }) {
     );
   }
 
+  const pct = result.yes_pct; // for contested races yes_pct holds vote pct
+
   if (result.status === "won") {
     return (
       <span className="flex items-center gap-1 font-mono text-[10px] uppercase tracking-widest text-green-400">
@@ -61,7 +63,7 @@ function ResultStatus({ result }: { result: JudgePrimaryResult | undefined }) {
         {result.votes && (
           <span className="text-zinc-400">
             {" "}· {result.votes.toLocaleString()} votes
-            {result.pct !== null ? ` (${result.pct}%)` : ""}
+            {pct !== null && pct !== undefined ? ` (${pct}%)` : ""}
           </span>
         )}
       </span>
@@ -72,7 +74,7 @@ function ResultStatus({ result }: { result: JudgePrimaryResult | undefined }) {
     return (
       <span className="font-mono text-[10px] uppercase tracking-widest text-zinc-500">
         Did not advance
-        {result.pct !== null ? ` · ${result.pct}%` : ""}
+        {pct !== null && pct !== undefined ? ` · ${pct}%` : ""}
       </span>
     );
   }
@@ -139,8 +141,8 @@ function RetentionBar({ result }: { result: JudgePrimaryResult }) {
   );
 }
 
-function ContestBar({ result }: { result: JudgePrimaryResult; total?: number }) {
-  const pct = result.pct ?? 0;
+function ContestBar({ result }: { result: JudgePrimaryResult }) {
+  const pct = result.yes_pct ?? 0; // For contested races, yes_pct holds the vote %
   const won = result.status === "won";
   const pending = result.status === "pending";
 

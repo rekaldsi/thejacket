@@ -20,10 +20,10 @@
   "website": "https://ashontaforjudge.com",
   "photo_url": null,
   "primary_result": {
-    "status": "pending",
-    "yes_pct": null,
+    "status": "won",
+    "yes_pct": 54.96,
     "no_pct": null,
-    "votes": null,
-    "updated": null
+    "votes": 139103,
+    "updated": "2026-03-18T03:22:24.240Z"
   }
 }

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "5060e02d",
+    "label": "thejacket-dev",
+    "command": "cd /Users/jerrycieslik/projects/thejacket && npm run dev",
+    "cwd": "/Users/jerrycieslik/projects/thejacket",
+    "startedAt": 1773804044972,
+    "processType": "server",
+    "group": null,
+    "readyPattern": null,
+    "readyPort": 3000,
+    "pid": 78051
+  }
+]

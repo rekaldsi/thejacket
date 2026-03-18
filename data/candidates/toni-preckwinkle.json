@@ -413,9 +413,9 @@
     }
   ],
   "primary_result": {
-    "status": "pending",
-    "votes": null,
-    "pct": null,
-    "updated": null
+    "status": "won",
+    "votes": 187452,
+    "pct": 65.99,
+    "updated": "2026-03-18T03:22:24.240Z"
   }
 }

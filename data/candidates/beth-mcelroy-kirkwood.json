@@ -370,9 +370,9 @@
     "https://www.illinoissunshine.org/committees/40660/"
   ],
   "primary_result": {
-    "status": "pending",
-    "votes": null,
-    "pct": null,
-    "updated": null
+    "status": "won",
+    "votes": 7958,
+    "pct": 100,
+    "updated": "2026-03-18T03:22:24.240Z"
   }
 }
