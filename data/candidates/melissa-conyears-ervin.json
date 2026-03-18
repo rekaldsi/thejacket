@@ -5,7 +5,7 @@
   "office": "U.S. House (IL-08)",
   "race_id": "il-08-us-house-d-2026",
   "bio": "Melissa Conyears-Ervin has served as Chicago City Treasurer since 2019, managing the city's investment portfolio and overseeing financial operations. She previously served in the Illinois General Assembly. As City Treasurer she has focused on financial literacy programs and equitable banking access.",
-  "prior_office": "Chicago City Treasurer (2019–present); Illinois State Representative",
+  "prior_office": "Chicago City Treasurer (2019\u2013present); Illinois State Representative",
   "website": null,
   "photo_url": null,
   "data_status": "partial",
@@ -51,6 +51,30 @@
       "date": "2026-03-17",
       "summary": "City Treasurer Melissa Conyears-Ervin is competing in the crowded Democratic primary for Illinois' 7th Congressional District, being vacated by longtime Rep. Danny Davis (first elected 1996). The Democratic frontrunners in the 7th District primary include state Rep. La Shawn Ford, Conyears-Ervin, developer Jason Friedman, and community organizer Kina Collins. Results are being counted on Election Night.",
       "sentiment": "neutral"
+    },
+    {
+      "title": "La Shawn Ford Declares Victory in Race to Replace Danny Davis in Illinois' 7th District Primary",
+      "url": "https://news.wttw.com/2026/03/17/ford-conyears-ervin-tight-race-replace-danny-davis-illinois-7th-district-primary",
+      "source": "WTTW News",
+      "date": "2026-03-17",
+      "summary": "La Shawn Ford declared victory in the Democratic primary for the 7th Congressional District after Melissa Conyears-Ervin conceded the race. Despite $5M in AIPAC-backed super PAC spending for Conyears-Ervin, Ford won in the crowded 13-candidate field.",
+      "sentiment": "negative"
+    },
+    {
+      "title": "AIPAC-backed Chicago Democrat loses primary despite outside spending blitz",
+      "url": "https://www.foxnews.com/politics/aipac-backed-chicago-democrat-loses-primary-despite-outside-spending-blitz",
+      "source": "Fox News",
+      "date": "2026-03-17",
+      "summary": "Chicago City Treasurer Melissa Conyears-Ervin failed to defeat a crowded field of Democratic candidates despite AIPAC spending aggressively to put her over the top. Conyears-Ervin received the second-highest PAC backing of any Illinois primary candidate at $5.0M, yet La Shawn Ford prevailed.",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Illinois Primary Election Takeaways: Stratton Wins and AIPAC's Power Is Tested",
+      "url": "https://www.nytimes.com/2026/03/18/us/elections/illinois-primary-elections-takeaways.html",
+      "source": "New York Times",
+      "date": "2026-03-18",
+      "summary": "NYT takeaways highlight Conyears-Ervin's defeat as AIPAC's most notable Illinois primary loss \u2014 $5M in spending could not overcome a divided anti-AIPAC vote in the crowded IL-07 field. Ford's win is seen as a setback for the pro-Israel lobby's 2026 congressional strategy.",
+      "sentiment": "negative"
     }
   ],
   "score": null,
@@ -64,9 +88,10 @@
     "computed_at": "2026-03-18"
   },
   "primary_result": {
-    "status": "won",
+    "status": "lost",
     "votes": 11028,
     "pct": 23.37,
-    "updated": "2026-03-18T03:25:24.145Z"
+    "note": "Lost Democratic primary for IL-07 to La Shawn Ford. AIPAC spent $5M backing Conyears-Ervin but Ford won the crowded 13-candidate field.",
+    "updated": "2026-03-18T13:10:00.000Z"
   }
 }

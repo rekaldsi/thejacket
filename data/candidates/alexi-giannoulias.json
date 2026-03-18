@@ -4,8 +4,8 @@
   "party": "Democratic",
   "office": "Illinois Secretary of State",
   "race_id": "il-secretary-of-state-d-2026",
-  "bio": "Alexi Giannoulias has served as Illinois Secretary of State since January 2023, elected in November 2022. He previously served as Illinois State Treasurer from 2007 to 2011. In 2010, he ran for the U.S. Senate seat vacated by Barack Obama, losing to Republican Mark Kirk by 2 percentage points. His family owned Broadway Bank in Chicago, which failed in April 2010 during the financial crisis — an issue that dogged his 2010 Senate campaign. As Secretary of State, he has focused on driver's license access, voting rights, and digitizing state services.",
-  "prior_office": "Illinois Secretary of State (2023–present); Illinois State Treasurer (2007–2011)",
+  "bio": "Alexi Giannoulias has served as Illinois Secretary of State since January 2023, elected in November 2022. He previously served as Illinois State Treasurer from 2007 to 2011. In 2010, he ran for the U.S. Senate seat vacated by Barack Obama, losing to Republican Mark Kirk by 2 percentage points. His family owned Broadway Bank in Chicago, which failed in April 2010 during the financial crisis \u2014 an issue that dogged his 2010 Senate campaign. As Secretary of State, he has focused on driver's license access, voting rights, and digitizing state services.",
+  "prior_office": "Illinois Secretary of State (2023\u2013present); Illinois State Treasurer (2007\u20132011)",
   "website": "https://www.ilsos.gov",
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Alexi_Giannoulias_official_photo.jpg/440px-Alexi_Giannoulias_official_photo.jpg",
   "data_status": "partial",
@@ -18,7 +18,7 @@
   },
   "red_flags": [
     {
-      "title": "Broadway Bank failure — family bank collapsed during 2010 financial crisis",
+      "title": "Broadway Bank failure \u2014 family bank collapsed during 2010 financial crisis",
       "description": "Broadway Bank, owned by the Giannoulias family, was seized by federal regulators and failed in April 2010. The bank had made loans to convicted criminals including Tony Rezko and Michael 'Jaws' Giorango, and had expanded its risky loan portfolio significantly under Alexi's tenure as senior loan officer (2002-2006) before he became State Treasurer. The failure became a major issue in his 2010 U.S. Senate race.",
       "source": "https://www.chicagotribune.com/2010/04/23/fdic-seizes-broadway-bank/",
       "confirmed": true,
@@ -59,6 +59,22 @@
       "date": "2026-03-17",
       "summary": "Incumbent Democratic Secretary of State Alexi Giannoulias is running unopposed in his primary for reelection, automatically advancing to the November general election. For the GOP nomination for secretary of state, Joliet resident Diane M. Harris is competing against Chicagoan Walter Adamczyk. The winner will face Giannoulias in November; Giannoulias is a heavy favorite in the blue state.",
       "sentiment": "positive"
+    },
+    {
+      "title": "Juliana Stratton, Daniel Biss, Darren Bailey among winners in 2026 Illinois primary elections",
+      "url": "https://chicago.suntimes.com/live/election-day-illinois-primaries-2026-results-analysis",
+      "source": "Chicago Sun-Times",
+      "date": "2026-03-17",
+      "summary": "Sun-Times election night recap confirms Alexi Giannoulias ran unopposed in the Democratic Secretary of State primary, advancing automatically to the November general election. Giannoulias was first elected in 2022 and is seeking his second term.",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Illinois Primary Election Takeaways: Stratton Wins and AIPAC's Power Is Tested",
+      "url": "https://www.nytimes.com/2026/03/18/us/elections/illinois-primary-elections-takeaways.html",
+      "source": "New York Times",
+      "date": "2026-03-18",
+      "summary": "Post-primary coverage of statewide races confirms Giannoulias advances unopposed as Democratic Secretary of State nominee for November 2026.",
+      "sentiment": "positive"
     }
   ],
   "score": null,
@@ -75,6 +91,6 @@
     "status": "won",
     "votes": 277039,
     "pct": 100,
-    "updated": "2026-03-18T03:25:24.145Z"
+    "updated": "2026-03-18T03:39:53.721Z"
   }
 }
