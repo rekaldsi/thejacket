@@ -5,7 +5,7 @@
   "office": "U.S. House (IL-08)",
   "race_id": "il-08-us-house-d-2026",
   "bio": "Melissa Bean is a former U.S. Representative for Illinois' 8th Congressional District, serving from 2005 to 2011, when she was defeated in the Tea Party wave election. During her tenure she was known as a moderate Democrat, serving on the House Financial Services Committee. She has worked in the financial services and technology industries since leaving Congress. She re-entered politics to seek the open seat created by Raja Krishnamoorthi's Senate run and has emerged as a frontrunner with significant fundraising support.",
-  "prior_office": "U.S. Representative (IL-08, 2005\u20132011)",
+  "prior_office": "U.S. Representative (IL-08, 2005–2011)",
   "website": "https://melissabean.com",
   "photo_url": null,
   "data_status": "partial",
@@ -25,7 +25,7 @@
       "url": "https://www.chicagotribune.com/2026/02/09/editorial-illinois-8th-congressional-district-melissa-bean-jennifer-davis-endorsements/",
       "source": "Chicago Tribune",
       "date": "2026-02-09",
-      "summary": "Chicago Tribune editorial board endorses Melissa Bean for the Democratic nomination to succeed Rep. Raja Krishnamoorthi in IL-08, citing her prior experience as a former U.S. Representative for the district from 2005\u20132011.",
+      "summary": "Chicago Tribune editorial board endorses Melissa Bean for the Democratic nomination to succeed Rep. Raja Krishnamoorthi in IL-08, citing her prior experience as a former U.S. Representative for the district from 2005–2011.",
       "sentiment": "positive"
     },
     {
@@ -61,6 +61,6 @@
     "platform_completeness": "F",
     "record_available": false,
     "red_flags_count": 0,
-    "computed_at": "2026-03-17"
+    "computed_at": "2026-03-18"
   }
 }
