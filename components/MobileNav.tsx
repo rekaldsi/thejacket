@@ -53,13 +53,13 @@ export default function MobileNav() {
         <>
           {/* Backdrop — taps outside close the menu */}
           <div
-            className="fixed inset-0 z-40 bg-black/60 backdrop-blur-sm md:hidden"
+            className="fixed inset-0 z-[55] bg-black/60 backdrop-blur-sm md:hidden"
             onClick={close}
             aria-hidden="true"
           />
 
-          {/* Menu panel — slides down from top, solid background */}
-          <div className="fixed left-0 right-0 top-0 z-50 border-b border-jacket-border bg-jacket-black md:hidden">
+          {/* Menu panel — z-[60] ensures it covers the fixed StartHereBanner pill (z-50) */}
+          <div className="fixed left-0 right-0 top-0 z-[60] border-b border-jacket-border bg-jacket-black md:hidden">
             {/* Header row with logo + lang toggle + close */}
             <div className="flex items-center justify-between border-b border-jacket-border px-4 py-4">
               <Link href="/" onClick={close} className="text-xl font-extrabold uppercase tracking-tight text-jacket-white">
@@ -96,7 +96,6 @@ export default function MobileNav() {
                 { href: "/judges", label: d.nav_judges },
                 { href: "/scorecard", label: d.nav_scorecard },
                 { href: "/about", label: d.nav_about },
-                { href: "/methodology", label: "Methodology" },
               ].map(({ href, label }) => (
                 <Link
                   key={href}
