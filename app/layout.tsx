@@ -42,38 +42,27 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   THE<span className="text-jacket-amber">JACKET</span>
                 </Link>
 
-                <div className="hidden items-center gap-3 text-xs uppercase tracking-widest text-zinc-300 md:flex">
-                  <Link href="/results" className="font-bold text-green-400 transition-colors hover:text-jacket-white">
+                <div className="hidden items-center gap-x-4 text-[11px] uppercase tracking-wider text-zinc-300 md:flex lg:gap-x-5 lg:text-xs lg:tracking-widest">
+                  <Link href="/results" className="font-bold text-green-400 transition-colors hover:text-jacket-white whitespace-nowrap">
                     Results
                   </Link>
-                  <span className="text-zinc-600">|</span>
-                  <Link href="/races" className="transition-colors hover:text-jacket-amber">
+                  <Link href="/races" className="transition-colors hover:text-jacket-amber whitespace-nowrap">
                     <T k="nav_races" />
                   </Link>
-                  <span className="text-zinc-600">|</span>
-                  <Link href="/judges" className="transition-colors hover:text-jacket-amber">
+                  <Link href="/judges" className="transition-colors hover:text-jacket-amber whitespace-nowrap">
                     <T k="nav_judges" />
                   </Link>
-                  <span className="text-zinc-600">|</span>
-                  <Link href="/scorecard" className="transition-colors hover:text-jacket-amber">
+                  <Link href="/scorecard" className="transition-colors hover:text-jacket-amber whitespace-nowrap">
                     <T k="nav_scorecard" />
                   </Link>
-                  <span className="text-zinc-600">|</span>
-                  <Link href="/booth" className="font-bold text-jacket-amber transition-colors hover:text-white">
+                  <Link href="/bills" className="transition-colors hover:text-jacket-amber whitespace-nowrap">Bills</Link>
+                  <Link href="/booth" className="font-bold text-jacket-amber transition-colors hover:text-white whitespace-nowrap">
                     <T k="nav_booth_mode" />
                   </Link>
-                  <span className="text-zinc-600">|</span>
-                  <Link href="/about" className="transition-colors hover:text-jacket-amber">
+                  <Link href="/about" className="transition-colors hover:text-jacket-amber whitespace-nowrap">
                     <T k="nav_about" />
                   </Link>
-                  <span className="text-zinc-600">|</span>
-                  <Link href="/methodology" className="transition-colors hover:text-jacket-amber">
-                    Methodology
-                  </Link>
-                  <span className="text-zinc-600">|</span>
-                  <Link href="/bills" className="transition-colors hover:text-jacket-amber">BILLS</Link>
-                  <span className="text-zinc-600">|</span>
-                  <Link href="/my-ballot" className="opacity-40 cursor-not-allowed" title="Coming November 2026">MY BALLOT</Link>
+                  <Link href="/my-ballot" className="opacity-40 cursor-not-allowed whitespace-nowrap" title="Coming November 2026">My Ballot</Link>
                 </div>
 
                 <div className="flex items-center gap-3">

@@ -88,10 +88,7 @@ export default function MobileNav() {
                 onClick={close}
                 className="w-full rounded-sm py-4 text-center font-mono text-base font-bold uppercase tracking-widest text-green-400 transition-colors active:bg-green-400/10 hover:text-green-300 border-b border-jacket-border/30 flex items-center justify-center gap-2"
               >
-                <span className="relative flex h-2 w-2">
-                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" />
-                  <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500" />
-                </span>
+                <span className="inline-flex h-2 w-2 rounded-full bg-green-400 animate-pulse" />
                 Results
               </Link>
               {[
@@ -130,16 +127,14 @@ export default function MobileNav() {
                 My Ballot
               </Link>
 
-              {/* Booth Mode CTA — prominent, full width */}
-              <div className="w-full pt-6">
-                <Link
-                  href="/booth"
-                  onClick={close}
-                  className="block w-full rounded-sm border border-jacket-amber bg-jacket-amber py-4 text-center font-mono text-sm font-black uppercase tracking-widest text-jacket-black transition-colors hover:bg-jacket-black hover:text-jacket-amber"
-                >
-                  {d.nav_booth_mode} — {d.nav_build_your_ballot}
-                </Link>
-              </div>
+              {/* Booth Mode */}
+              <Link
+                href="/booth"
+                onClick={close}
+                className="w-full rounded-sm py-5 text-center font-mono text-base font-bold uppercase tracking-widest text-jacket-amber border-b border-jacket-border/30 hover:text-white transition-colors"
+              >
+                {d.nav_booth_mode}
+              </Link>
 
               {/* Share button — bottom of menu, subtle */}
               <div className="w-full pt-4 pb-2 flex justify-center">
