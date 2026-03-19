@@ -49,9 +49,10 @@
     "computed_at": "2026-03-19"
   },
   "primary_result": {
-    "status": "pending",
+    "status": "write-in-no-result",
     "votes": null,
     "pct": null,
     "updated": null
-  }
+  },
+  "notes": "Write-in only candidate. Cook County Clerk shows No Candidate for Treasurer R primary. Race may have produced no major-party nominee."
 }

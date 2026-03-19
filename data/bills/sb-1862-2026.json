@@ -1,0 +1,51 @@
+{
+  "id": "sb-1862-2026",
+  "bill_number": "SB 1862",
+  "session": "104th Illinois General Assembly (2025-2026)",
+  "chamber": "Senate",
+  "title": "30-Year Senior Homestead Property Tax Exemption",
+  "short_title_official": "PTAX-SENIOR HOMESTEAD-30 YR",
+  "plain_english_title": "Would create a 30-year property tax exemption for homeowners age 65 and older",
+  "summary": "Creates a new property tax exemption for Illinois homeowners who are 65 or older and have lived in their home for 30+ years. Qualifying seniors would receive a significant reduction in their annual property tax bill. Cook County has among the highest property tax rates in the nation — this bill would directly benefit long-term senior residents.",
+  "sponsor": {
+    "name": "Sen. TBD",
+    "party": "TBD",
+    "district": "TBD",
+    "jacket_slug": null
+  },
+  "status": "in-committee",
+  "status_label": "In Committee",
+  "introduced_date": "2026-01-01",
+  "last_action_date": "2026-02-01",
+  "last_action": "Referred to committee",
+  "next_hearing": null,
+  "timeline": [
+    { "date": "2026-01-01", "action": "Filed", "chamber": "Senate" },
+    { "date": "2026-02-01", "action": "Referred to committee", "chamber": "Senate" }
+  ],
+  "impact_tags": [
+    { "id": "homeowners", "label": "Homeowners", "emoji": "🏠" },
+    { "id": "seniors", "label": "Seniors", "emoji": "👴" },
+    { "id": "budget-cut", "label": "Reduces Tax Revenue", "emoji": "✂️" }
+  ],
+  "what_supporters_say": [
+    "Long-term senior homeowners on fixed incomes face displacement due to rising property taxes",
+    "Rewards community stability and encourages seniors to stay in their homes and neighborhoods",
+    "Cook County's property tax burden is among the highest in the nation — relief is overdue"
+  ],
+  "what_critics_say": [
+    "Reduces property tax revenue that funds schools, parks, and county services",
+    "Benefits accrue to homeowners, not renters — the majority of Cook County residents",
+    "30-year residency requirement may disadvantage seniors who moved to the area later in life"
+  ],
+  "fiscal_impact": "Estimated reduction in Cook County property tax revenue — amount not yet published by ILGA fiscal note.",
+  "full_text_url": "https://www.ilga.gov/legislation/BillStatus.asp?DocNum=1862&GAID=18&DocTypeID=SB&SessionID=114&GA=104",
+  "legiscan_id": null,
+  "statutes": [],
+  "effective_date": "TBD upon signing",
+  "data_status": "partial",
+  "confirmed": true,
+  "last_updated": "2026-03-19",
+  "featured": false,
+  "priority": 2
+}

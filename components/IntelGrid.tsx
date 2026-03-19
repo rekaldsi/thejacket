@@ -56,6 +56,16 @@ function getCards(
         ctaLabel: "View All Results →",
         accent: "green",
       },
+      {
+        id: "bills",
+        eyebrow: "Illinois Legislature",
+        title: "Bills & Legislation",
+        description: "Track active Illinois bills affecting Cook County voters — plain-English summaries, impact tags, and hearing dates.",
+        meta: "HB-4414 hearing March 24",
+        href: "/bills",
+        ctaLabel: "Track Bills →",
+        accent: "amber",
+      },
     ];
   }
 
