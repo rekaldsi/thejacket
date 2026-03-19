@@ -624,6 +624,30 @@
       "date": "2026-03-18",
       "summary": "The Guardian reports on Stratton's Senate primary win. Rep. Krishnamoorthi conceded at his election night event: \"Obviously this is not the result we sought, but unlike Donald Trump I'm not going to question the outcome. I am honored at the support we received from every corner of this state.\" Krishnamoorthi finished second with ~35% of the vote.",
       "sentiment": "negative"
+    },
+    {
+      "title": "Raja Krishnamoorthi concedes Illinois Senate Democratic primary to Juliana Stratton",
+      "url": "https://apnews.com/article/election-primary-illinois-democrats-senate-house-f9432112c459e87fdbfea0bdbcd4e492",
+      "source": "AP News",
+      "date": "2026-03-18",
+      "summary": "AP News covers Krishnamoorthi's concession at his election night watch party after losing the Illinois Democratic Senate primary to Lt. Gov. Juliana Stratton. He conceded with wife Priya Bala at his side, saying 'Unlike Donald Trump I'm not going to question the outcome' and pledging full support for Stratton in the general election.",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Illinois Lt. Gov. Stratton wins Senate Democratic primary \u2014 Krishnamoorthi concedes",
+      "url": "https://www.cnbc.com/2026/03/18/update-3-illinois-lt-gov-stratton-wins-senate-democratic-primary-for-dick-durbins-seat.html",
+      "source": "CNBC",
+      "date": "2026-03-18",
+      "summary": "CNBC national coverage of the Illinois Senate Democratic primary result. Krishnamoorthi, the early frontrunner who raised $30.5M and was the second-highest fundraising federal candidate this cycle, fell to Stratton after her late surge powered by Pritzker's independent expenditure PAC and anti-ICE messaging dominated the final weeks of the race.",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Juliana Stratton wins Illinois Democratic primary \u2014 Krishnamoorthi beaten",
+      "url": "https://www.bbc.com/news/articles/cd9g9j3y2p0o",
+      "source": "BBC News",
+      "date": "2026-03-18",
+      "summary": "BBC international coverage of Stratton's Senate primary win. Notes Krishnamoorthi 'took a more measured stance' on immigration, calling for abolishment of 'Trump's ICE,' while Stratton won on a more full-throated progressive anti-Trump platform. Race drew global attention as a test of whether immigration fury could drive Democratic primary outcomes.",
+      "sentiment": "negative"
     }
   ],
   "fec_candidate_id": "S6IL00482",

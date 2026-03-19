@@ -428,12 +428,21 @@
       "date": "2026-03-17",
       "summary": "Peoria Journal Star reports final primary results showing State Rep. Margaret Croke winning the Illinois Comptroller Democratic primary. Lake County Treasurer Holly Kim finished third with approximately 22.4% of the vote, behind Croke (37.1%) and state Sen. Karina Villa (33.1%).",
       "sentiment": "negative"
+    },
+    {
+      "title": "'This election is not over': Democratic race for Illinois comptroller still undecided as Croke holds slim lead",
+      "url": "https://www.chicagotribune.com/2026/03/18/illinois-comptroller-democratic-primary/",
+      "source": "Chicago Tribune",
+      "date": "2026-03-18",
+      "summary": "Tribune morning-after report confirms the Illinois Comptroller Democratic primary remains too close to call. Holly Kim, who had Comptroller Susana Mendoza's endorsement, finished a distant third with ~24% of votes counted at 92% reporting, trailing leader Croke (34.6%) and Villa (32.2%). Approximately 88,000 Chicago mail-in ballots remain outstanding. Kim's third-place finish is a significant setback for her campaign.",
+      "sentiment": "negative"
     }
   ],
   "primary_result": {
     "status": "lost",
     "votes": 57289,
     "pct": 20.74,
-    "updated": "2026-03-18T03:39:53.721Z"
+    "updated": "2026-03-18T20:00:00.000Z",
+    "pct_note": "Early count showed 20.74%; Tribune March 18 update shows ~24% at 92% reporting \u2014 final count pending outstanding Chicago mail-in ballots"
   }
 }
