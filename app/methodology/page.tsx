@@ -162,26 +162,6 @@ export default function MethodologyPage() {
         </ul>
       </section>
 
-      {/* CORRECTIONS */}
-      <section className="space-y-3">
-        <h2 className={sectionHeader}>Submit a Correction</h2>
-        <p className="text-sm leading-relaxed text-zinc-400">
-          Found an error? We take accuracy seriously. If you have a primary source document
-          (court filing, official record, news article from a credible outlet) that contradicts
-          something on this platform, please send it to:
-        </p>
-        <a
-          href="mailto:corrections@thejacket.cc"
-          className="inline-block font-mono text-sm text-jacket-amber underline-offset-2 hover:underline"
-        >
-          corrections@thejacket.cc
-        </a>
-        <p className="text-sm text-zinc-500">
-          Include the candidate name, the specific claim, and a link to the source document.
-          We review all submissions and publish corrections promptly.
-        </p>
-      </section>
-
       {/* ABOUT */}
       <section className="space-y-3">
         <h2 className={sectionHeader}>About the Platform</h2>
