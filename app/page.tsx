@@ -2,8 +2,10 @@ import Link from "next/link";
 import { getAllCandidates, getAllJudges, getRaces } from "@/lib/data";
 import { buildScorecard } from "@/lib/scoring";
 import { scoreJudge } from "@/lib/judgeScoring";
+import { getFeaturedBills } from "@/lib/bills";
 import HotBoardCarousel from "@/components/HotBoardCarousel";
-import { extractSignals } from "@/components/HotBoard";
+import { extractSignals, extractBillSignals } from "@/components/HotBoard";
+import type { FeedSignal } from "@/components/HotBoardCarousel";
 import HeroSection from "@/components/HeroSection";
 import IntelGrid from "@/components/IntelGrid";
 import ScrollReveal from "@/components/ScrollReveal";
@@ -142,12 +144,30 @@ export default function HomePage() {
     .sort((a, b) => rankSignalScore(b[0]) - rankSignalScore(a[0]));
 
   // Round-robin interleave: take one from each candidate group in order, cycle
-  const allSignals: ReturnType<typeof extractSignals> = [];
+  const candidateSignals: ReturnType<typeof extractSignals> = [];
   const maxLen = Math.max(...sortedGroups.map((g) => g.length), 0);
   for (let i = 0; i < maxLen; i++) {
     for (const group of sortedGroups) {
-      if (i < group.length) allSignals.push(group[i]);
+      if (i < group.length) candidateSignals.push(group[i]);
     }
+  }
+
+  // Inject bill signals — one bill card every ~4 candidate signals so they're
+  // visible but don't crowd out candidate intel.
+  const featuredBills = getFeaturedBills();
+  const billSignals = extractBillSignals(featuredBills);
+  const allSignals: FeedSignal[] = [];
+  let billIdx = 0;
+  for (let i = 0; i < candidateSignals.length; i++) {
+    allSignals.push(candidateSignals[i]);
+    // Insert a bill card after every 4th candidate signal
+    if ((i + 1) % 4 === 0 && billIdx < billSignals.length) {
+      allSignals.push(billSignals[billIdx++]);
+    }
+  }
+  // Append any remaining bill signals at the end
+  while (billIdx < billSignals.length) {
+    allSignals.push(billSignals[billIdx++]);
   }
 
   return (

@@ -11,6 +11,47 @@
 
 import Link from "next/link";
 import type { Candidate } from "@/lib/types";
+import type { Bill } from "@/lib/bills";
+
+/** A bill surfaced in the live intel feed */
+export type BillSignal = {
+  type: "bill";
+  billId: string;
+  bill_number: string;
+  chamber: string;
+  label: string;
+  detail: string;
+  severity: "critical" | "high" | "medium";
+  next_hearing_date?: string;
+};
+
+/** Convert featured bills into feed-ready BillSignals */
+export function extractBillSignals(bills: Bill[]): BillSignal[] {
+  return bills
+    .filter((b) => b.featured && b.status !== "dead" && b.status !== "signed" && b.status !== "vetoed")
+    .map((b) => {
+      // Urgency: hearing within 7 days = high, within 14 = medium
+      let severity: BillSignal["severity"] = "medium";
+      if (b.next_hearing) {
+        const daysOut = Math.ceil((new Date(b.next_hearing.date).getTime() - Date.now()) / 86_400_000);
+        if (daysOut >= 0 && daysOut <= 7) severity = "high";
+        if (daysOut >= 0 && daysOut <= 2) severity = "critical";
+      }
+      const hearingNote = b.next_hearing
+        ? ` · Hearing ${new Date(b.next_hearing.date).toLocaleDateString("en-US", { month: "short", day: "numeric" })}`
+        : "";
+      return {
+        type: "bill" as const,
+        billId: b.id,
+        bill_number: b.bill_number,
+        chamber: b.chamber,
+        label: b.plain_english_title,
+        detail: `${b.status_label}${hearingNote} · ${b.sponsor.name}`,
+        severity,
+        next_hearing_date: b.next_hearing?.date,
+      };
+    });
+}
 
 export type HotSignal = {
   candidateId: string;
