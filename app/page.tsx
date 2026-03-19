@@ -1,12 +1,11 @@
 import Link from "next/link";
-import { existsSync, readFileSync } from "fs";
-import path from "path";
 import { getAllCandidates, getAllJudges, getRaces } from "@/lib/data";
 import { buildScorecard } from "@/lib/scoring";
 import { scoreJudge } from "@/lib/judgeScoring";
 import HotBoardCarousel from "@/components/HotBoardCarousel";
 import { extractSignals } from "@/components/HotBoard";
 import HeroSection from "@/components/HeroSection";
+import IntelGrid from "@/components/IntelGrid";
 import ScrollReveal from "@/components/ScrollReveal";
 import StartHereBanner from "@/components/StartHereBanner";
 import { T } from "@/components/T";
@@ -82,49 +81,6 @@ function JudicialAlarmCard({ judge }: { judge: Judge }) {
   );
 }
 
-function ResultsBanner() {
-  // Read manifest if available
-  let lastUpdated: string | null = null;
-  try {
-    const manifestPath = path.join(process.cwd(), "data", "results-manifest.json");
-    if (existsSync(manifestPath)) {
-      const manifest = JSON.parse(readFileSync(manifestPath, "utf-8"));
-      lastUpdated = manifest.last_updated ?? null;
-    }
-  } catch {}
-
-  const formatted = lastUpdated
-    ? new Date(lastUpdated).toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit", timeZone: "America/Chicago" }) + " CT"
-    : null;
-
-  return (
-    <section className="rounded-sm border border-jacket-amber bg-jacket-amber/5 px-5 py-4">
-      <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-        <div className="flex items-center gap-3">
-          <span className="relative flex h-3 w-3 shrink-0">
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" />
-            <span className="relative inline-flex h-3 w-3 rounded-full bg-green-500" />
-          </span>
-          <div>
-            <p className="font-black uppercase tracking-tight text-jacket-white">March 17 Primary — Results Live</p>
-            {formatted && (
-              <p className="font-mono text-[11px] text-zinc-500 mt-0.5">Updated {formatted} · Auto-refreshing</p>
-            )}
-            {!formatted && (
-              <p className="font-mono text-[11px] text-zinc-500 mt-0.5">Awaiting first results update</p>
-            )}
-          </div>
-        </div>
-        <Link
-          href="/results"
-          className="shrink-0 inline-block rounded-sm border border-jacket-amber bg-jacket-amber px-5 py-2 font-mono text-sm font-black uppercase tracking-widest text-jacket-black transition-all hover:bg-jacket-black hover:text-jacket-amber"
-        >
-          View All Results →
-        </Link>
-      </div>
-    </section>
-  );
-}
 
 export default function HomePage() {
   const races = getRaces();
@@ -204,8 +160,8 @@ export default function HomePage() {
       {/* ── HERO ── */}
       <HeroSection />
 
-      {/* ── RESULTS BANNER ── */}
-      <ResultsBanner />
+      {/* ── INTEL GRID ── */}
+      <IntelGrid />
 
       {/* ── HOT BOARD ── */}
       {allSignals.length > 0 && (
@@ -310,30 +266,6 @@ export default function HomePage() {
         </section>
       </ScrollReveal>
 
-      {/* ── FIND YOUR FULL BALLOT ── */}
-      <section className="rounded-sm border border-jacket-amber/30 bg-jacket-amber/5 px-6 py-8 text-center">
-        <p className="mb-1 font-mono text-xs uppercase tracking-[0.22em] text-green-400">
-          March 17, 2026 Primary — Results In
-        </p>
-        <h2 className="mb-2 text-2xl font-black uppercase tracking-tight">See Who Won</h2>
-        <p className="mx-auto mb-6 max-w-lg text-sm text-zinc-400">
-          Full results for every Cook County and Illinois race — plus judicial results no other outlet is tracking.
-        </p>
-        <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
-          <Link
-            href="/results"
-            className="inline-block whitespace-nowrap rounded-sm bg-jacket-amber px-6 py-3 font-mono text-sm font-black uppercase tracking-widest text-jacket-black transition-colors hover:bg-jacket-black hover:text-jacket-amber border border-jacket-amber"
-          >
-            All Race Results →
-          </Link>
-          <Link
-            href="/results/judges"
-            className="inline-block whitespace-nowrap rounded-sm border border-jacket-amber px-6 py-3 font-mono text-sm font-black uppercase tracking-widest text-jacket-amber transition-colors hover:bg-jacket-amber hover:text-jacket-black"
-          >
-            ⚖️ Judicial Results
-          </Link>
-        </div>
-      </section>
 
     </div>
     </>
