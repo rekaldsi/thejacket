@@ -71,7 +71,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     Methodology
                   </Link>
                   <span className="text-zinc-600">|</span>
-                  <Link href="/bills" className="opacity-40 cursor-not-allowed" title="Coming November 2026">BILLS</Link>
+                  <Link href="/bills" className="transition-colors hover:text-jacket-amber">BILLS</Link>
                   <span className="text-zinc-600">|</span>
                   <Link href="/my-ballot" className="opacity-40 cursor-not-allowed" title="Coming November 2026">MY BALLOT</Link>
                 </div>

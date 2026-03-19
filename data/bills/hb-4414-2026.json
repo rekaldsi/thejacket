@@ -1,0 +1,69 @@
+{
+  "id": "hb-4414-2026",
+  "bill_number": "HB 4414",
+  "session": "104th Illinois General Assembly (2025-2026)",
+  "chamber": "House",
+  "title": "Handgun Ammunition Serialization & Registry",
+  "short_title_official": "CRIM CD-HANDGUN AMMO-SERIALIZE",
+  "plain_english_title": "Would require all handgun ammunition sold or possessed in Illinois to be individually serialized and registered with the state",
+  "summary": "Starting January 1, 2027, all handgun ammunition manufactured, imported, sold, given, or possessed in public in Illinois must carry a unique serial number traceable to the buyer. The Illinois State Police would maintain a centralized registry of every handgun ammo transaction. A new fee of up to 5 cents per round would fund the program. Possessing non-serialized ammo in public would become a Class C misdemeanor; manufacturing or selling it, a Class A misdemeanor.",
+  "sponsor": {
+    "name": "Rep. Anne Stava-Murray",
+    "party": "Democratic",
+    "district": "District 81",
+    "jacket_slug": null
+  },
+  "status": "in-committee",
+  "status_label": "In Committee",
+  "introduced_date": "2026-01-13",
+  "last_action_date": "2026-03-12",
+  "last_action": "Assigned to Judiciary - Criminal Committee",
+  "next_hearing": {
+    "date": "2026-03-24",
+    "time": "4:00 PM",
+    "location": "Stratton Building Room D-1, Springfield, IL",
+    "label": "⚠️ Committee Hearing — March 24, 4:00 PM, Springfield"
+  },
+  "timeline": [
+    { "date": "2026-01-13", "action": "Filed with Clerk by Rep. Anne Stava-Murray", "chamber": "House" },
+    { "date": "2026-01-14", "action": "First Reading", "chamber": "House" },
+    { "date": "2026-01-14", "action": "Referred to Rules Committee", "chamber": "House" },
+    { "date": "2026-03-12", "action": "Assigned to Judiciary - Criminal Committee", "chamber": "House" },
+    { "date": "2026-03-24", "action": "Committee Hearing scheduled", "chamber": "House", "upcoming": true }
+  ],
+  "impact_tags": [
+    { "id": "privacy-surveillance", "label": "Privacy / Surveillance", "emoji": "🔒" },
+    { "id": "second-amendment", "label": "Second Amendment", "emoji": "🔫" },
+    { "id": "new-fee-tax", "label": "New Fee", "emoji": "💰" },
+    { "id": "requires-registration", "label": "Requires Registration", "emoji": "📋" },
+    { "id": "criminal-justice", "label": "Criminal Justice", "emoji": "⚖️" }
+  ],
+  "what_supporters_say": [
+    "Serialized ammunition helps law enforcement trace bullets recovered at crime scenes back to the original purchaser",
+    "Creates an accountability chain from manufacturer to end user, similar to vehicle registration",
+    "Provides a new investigative tool for solving gun crimes in Chicago and Cook County"
+  ],
+  "what_critics_say": [
+    "Creates a state registry of law-abiding gun owners' purchase patterns — a privacy concern",
+    "Criminals will acquire ammo outside legal channels; only law-abiding owners are burdened",
+    "The up-to-5-cent-per-round fee increases the cost of legal, responsible ammo ownership",
+    "Non-serialized ammo already in circulation cannot be grandfathered — enforcement is unclear",
+    "Manufacturing feasibility of individual bullet serialization at scale is disputed"
+  ],
+  "fiscal_impact": "A new fee of up to $0.05 per round of handgun ammunition would be collected by the Illinois State Police to fund the registry infrastructure. Total revenue projection not yet published.",
+  "full_text_url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=4414&GAID=18&DocTypeID=HB&SessionID=114&GA=104",
+  "legiscan_id": null,
+  "statutes": [
+    "720 ILCS 5/24-0.05 (new)",
+    "720 ILCS 5/24-1.11 (new)",
+    "720 ILCS 5/24-1.12 (new)",
+    "720 ILCS 5/24-1.13 (new)",
+    "720 ILCS 5/24-1.14 (new)"
+  ],
+  "effective_date": "Immediately upon signing; ammo serialization requirements effective January 1, 2027",
+  "data_status": "full",
+  "confirmed": true,
+  "last_updated": "2026-03-19",
+  "featured": true,
+  "priority": 1
+}

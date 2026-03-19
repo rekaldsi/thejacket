@@ -111,21 +111,24 @@ export default function MobileNav() {
                 </Link>
               ))}
 
-              {/* Placeholder nav items — coming November 2026 */}
-              {[
-                { href: "/bills", label: "Bills" },
-                { href: "/my-ballot", label: "My Ballot" },
-              ].map(({ href, label }) => (
-                <Link
-                  key={href}
-                  href={href}
-                  onClick={close}
-                  className="w-full rounded-sm py-5 text-center font-mono text-base uppercase tracking-widest text-zinc-600 opacity-40 border-b border-jacket-border/30"
-                  title="Coming November 2026"
-                >
-                  {label}
-                </Link>
-              ))}
+              {/* Bills — live now */}
+              <Link
+                href="/bills"
+                onClick={close}
+                className="w-full rounded-sm py-5 text-center font-mono text-base uppercase tracking-widest text-jacket-white border-b border-jacket-border/30 hover:text-jacket-amber transition-colors"
+              >
+                Bills
+              </Link>
+
+              {/* My Ballot — coming November 2026 */}
+              <Link
+                href="/my-ballot"
+                onClick={close}
+                className="w-full rounded-sm py-5 text-center font-mono text-base uppercase tracking-widest text-zinc-600 opacity-40 border-b border-jacket-border/30"
+                title="Coming November 2026"
+              >
+                My Ballot
+              </Link>
 
               {/* Booth Mode CTA — prominent, full width */}
               <div className="w-full pt-6">
