@@ -147,9 +147,10 @@
     "computed_at": "2026-03-19"
   },
   "primary_result": {
-    "status": "pending",
+    "status": "lost",
     "votes": null,
     "pct": null,
-    "updated": null
+    "note": "Lost to incumbent Vasquez \u2014 Chicago Tribune 2026-03-18",
+    "updated": "2026-03-19"
   }
 }
