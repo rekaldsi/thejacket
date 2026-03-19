@@ -84,20 +84,23 @@ function groupBySeat(races: RaceData[]): SeatGroup[] {
 }
 
 function RaceCard({ race }: { race: RaceData }) {
+  const { lang } = useLanguage();
+  const d = translations[lang];
   const explainer = getExplainer(race.title);
+  const primaryLabel = lang === "es" ? "Primaria" : "Primary";
   return (
     <Link
       href={`/race/${race.slug}`}
       className="flex flex-col gap-2 border border-jacket-border p-4 transition-colors hover:border-jacket-amber"
     >
       <span className={`self-start rounded px-2 py-0.5 font-mono text-[10px] uppercase tracking-widest ${partyPill(race.party)}`}>
-        {race.party} Primary
+        {race.party} {primaryLabel}
       </span>
       <h3 className="font-mono text-sm font-black uppercase leading-tight">{seatKey(race.title)}</h3>
       {explainer && <p className="text-xs text-zinc-500 line-clamp-2">{explainer}</p>}
       <div className="mt-auto flex items-center gap-3 pt-1">
         <span className="font-mono text-xs text-jacket-amber">
-          {race.candidateCount} candidate{race.candidateCount !== 1 ? "s" : ""}
+          {race.candidateCount} {race.candidateCount !== 1 ? d.races_candidates_plural : d.races_candidates_label}
         </span>
         <span className="font-mono text-xs text-zinc-600">{race.jurisdiction}</span>
         <span className="ml-auto font-mono text-xs text-zinc-500">→</span>
@@ -107,32 +110,38 @@ function RaceCard({ race }: { race: RaceData }) {
 }
 
 function SeatGroupBlock({ group }: { group: SeatGroup }) {
+  const { lang } = useLanguage();
+  const d = translations[lang];
+  const primariesLabel = d.races_primaries_label;
   if (group.races.length === 1) return <RaceCard race={group.races[0]} />;
   return (
     <div className="overflow-hidden rounded-sm border border-jacket-border/60">
       <div className="border-b border-jacket-border/40 bg-zinc-900/40 px-3 py-1.5">
         <span className="font-mono text-[10px] uppercase tracking-widest text-zinc-500">
-          {group.seat} — {group.races.length} primaries
+          {group.seat} — {group.races.length} {primariesLabel}
         </span>
       </div>
       <div className={`grid divide-x divide-jacket-border/40 ${group.races.length === 2 ? "grid-cols-2" : "grid-cols-1"}`}>
-        {group.races.map((race) => (
-          <Link
-            key={race.id}
-            href={`/race/${race.slug}`}
-            className="group flex flex-col gap-2 p-4 transition-colors hover:bg-zinc-900/60"
-          >
-            <span className={`self-start rounded px-2 py-0.5 font-mono text-[10px] uppercase tracking-widest ${partyPill(race.party)}`}>
-              {race.party}
-            </span>
-            <div className="flex items-center justify-between">
-              <span className="font-mono text-xs text-jacket-amber">
-                {race.candidateCount} candidate{race.candidateCount !== 1 ? "s" : ""}
+        {group.races.map((race) => {
+          const cLabel = race.candidateCount !== 1 ? d.races_candidates_plural : d.races_candidates_label;
+          return (
+            <Link
+              key={race.id}
+              href={`/race/${race.slug}`}
+              className="group flex flex-col gap-2 p-4 transition-colors hover:bg-zinc-900/60"
+            >
+              <span className={`self-start rounded px-2 py-0.5 font-mono text-[10px] uppercase tracking-widest ${partyPill(race.party)}`}>
+                {race.party}
               </span>
-              <span className="font-mono text-xs text-zinc-600 transition-colors group-hover:text-jacket-amber">→</span>
-            </div>
-          </Link>
-        ))}
+              <div className="flex items-center justify-between">
+                <span className="font-mono text-xs text-jacket-amber">
+                  {race.candidateCount} {cLabel}
+                </span>
+                <span className="font-mono text-xs text-zinc-600 transition-colors group-hover:text-jacket-amber">→</span>
+              </div>
+            </Link>
+          );
+        })}
       </div>
     </div>
   );
@@ -165,23 +174,26 @@ const DISTRICT_LOOKUP: { dist: string; communities: string }[] = [
 ];
 
 function DistrictFinder() {
+  const { lang } = useLanguage();
+  const d = translations[lang];
+
   return (
     <details className="group border border-jacket-border rounded-sm">
       <summary className="cursor-pointer select-none px-4 py-3 font-mono text-xs uppercase tracking-widest text-zinc-400 hover:text-jacket-amber flex items-center gap-2">
         <span className="transition-transform group-open:rotate-90">▶</span>
-        Which Cook County Commissioner district am I in?
+        {d.races_district_finder_label}
       </summary>
       <div className="border-t border-jacket-border px-4 py-4 space-y-2">
         <p className="text-xs text-zinc-400 mb-3">
-          Find your community below to identify your district, then scroll to the Cook County section.
-          Not sure?{" "}
+          {d.races_district_finder_desc}{" "}
+          {d.races_district_finder_not_sure}{" "}
           <a
             href="https://www.cookcountyclerkil.gov/elections/voters/find-your-polling-place-and-sample-ballot"
             target="_blank"
             rel="noreferrer"
             className="text-jacket-amber hover:underline"
           >
-            Look up your exact address on the Cook County Clerk site ↗
+            {d.races_district_finder_look_up}
           </a>
         </p>
         <div className="grid gap-1.5 sm:grid-cols-2">

@@ -1,7 +1,7 @@
 import { getAllCandidates, getAllJudges, getRaces } from "@/lib/data";
 import { scoreCandidate } from "@/lib/scoring";
 import { scoreJudge } from "@/lib/judgeScoring";
-import BoothBuilder from "@/components/BoothBuilder";
+import BoothPageClient from "./BoothPageClient";
 import type { BoothSection, BoothJudicialRace } from "@/components/BoothBuilder";
 
 export const metadata = {
@@ -127,29 +127,5 @@ export default function BoothPage() {
       entries: judgesByRace[r.id],
     }));
 
-  return (
-    <div className="space-y-10 pb-16">
-
-      {/* Header */}
-      <section className="space-y-3 border-b border-jacket-border pb-8">
-        <p className="font-mono text-xs uppercase tracking-widest text-jacket-amber">
-          🗳 Cook County Primary — March 17, 2026
-        </p>
-        <h1 className="text-5xl font-black uppercase leading-none tracking-tight md:text-6xl">
-          Booth Mode
-        </h1>
-        <p className="text-zinc-300">
-          Build your personal ballot. See every candidate&apos;s transparency grade and red flags side-by-side.
-          Tap who you want — your picks are yours alone, saved only on this device.
-        </p>
-        <p className="font-mono text-xs text-zinc-500">
-          ⚠️ Grades reflect documented public record — not an endorsement. Tap any candidate to read the full sourced profile before deciding. Verify at FEC.gov and ILSBE before voting.
-        </p>
-      </section>
-
-      {/* Interactive ballot builder */}
-      <BoothBuilder sections={sections} judicialRaces={judicialRaces} />
-
-    </div>
-  );
+  return <BoothPageClient sections={sections} judicialRaces={judicialRaces} />;
 }

@@ -3,6 +3,8 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import type { Candidate, Race } from "@/lib/types";
+import { useLanguage } from "@/lib/i18n";
+import { translations } from "@/lib/translations";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -22,20 +24,24 @@ type Props = {
 // ─── Result Badge ─────────────────────────────────────────────────────────────
 
 function WinnerBadge() {
+  const { lang } = useLanguage();
+  const d = translations[lang];
   return (
     <span className="rounded-sm bg-green-500/20 px-1.5 py-0.5 font-mono text-[9px] font-bold uppercase tracking-wider text-green-400 border border-green-500/30">
-      ✓ Won
+      {d.results_winner_badge}
     </span>
   );
 }
 
 function PendingBadge() {
+  const { lang } = useLanguage();
+  const d = translations[lang];
   return (
     <span
       className="font-mono text-[9px] uppercase tracking-widest text-zinc-500"
-      title="Results pending official canvass — minor party and local races are certified on a slower timeline"
+      title={d.results_pending_badge}
     >
-      Pending canvass
+      {d.results_pending_badge}
     </span>
   );
 }
@@ -43,6 +49,8 @@ function PendingBadge() {
 // ─── Candidate result row ─────────────────────────────────────────────────────
 
 function CandidateRow({ candidate, isWinner }: { candidate: Candidate; isWinner: boolean }) {
+  const { lang } = useLanguage();
+  const d = translations[lang];
   const result = candidate.primary_result;
   const hasResult = result && result.status !== "pending" && result.pct !== null;
   const status = result?.status;
@@ -64,7 +72,7 @@ function CandidateRow({ candidate, isWinner }: { candidate: Candidate; isWinner:
           {isWinner && !isLost && hasResult && <WinnerBadge />}
           {isUncontested && (
             <span className="rounded-sm bg-amber-500/10 px-1.5 py-0.5 font-mono text-[9px] uppercase tracking-wider text-amber-400 border border-amber-500/20">
-              Uncontested
+              {d.results_uncontested_badge}
             </span>
           )}
         </div>
@@ -80,7 +88,7 @@ function CandidateRow({ candidate, isWinner }: { candidate: Candidate; isWinner:
             </div>
             <span className="font-mono text-[10px] text-zinc-500">
               {result.pct.toFixed(1)}%
-              {result.votes ? ` · ${result.votes.toLocaleString()} votes` : ""}
+              {result.votes ? ` · ${result.votes.toLocaleString()} ${d.results_pending === "Pendientes" ? "votos" : "votes"}` : ""}
             </span>
           </div>
         )}
@@ -117,6 +125,9 @@ function RaceCard({
   candidates: Candidate[];
   activeParty: string;
 }) {
+  const { lang } = useLanguage();
+  const d = translations[lang];
+
   // When a party filter is active, show only matching candidates
   const displayCandidates =
     activeParty === "All"
@@ -162,19 +173,19 @@ function RaceCard({
           </p>
           {isMultiPartyRace && (
             <p className="font-mono text-[9px] uppercase tracking-widest text-amber-500/70 mt-0.5">
-              Each party advances its own nominee to November
+              {d.results_multiparty_note}
             </p>
           )}
         </div>
         {!hasSomeResult && <PendingBadge />}
         {hasSomeResult && winner && !isMultiPartyRace && (
           <span className="shrink-0 font-mono text-[9px] uppercase tracking-widest text-green-400">
-            Called
+            {d.results_called_status}
           </span>
         )}
         {hasSomeResult && isMultiPartyRace && winners.length > 0 && (
           <span className="shrink-0 font-mono text-[9px] uppercase tracking-widest text-green-400">
-            {winners.length} Nominees Set
+            {winners.length} {d.results_nominees_set}
           </span>
         )}
       </div>
@@ -210,6 +221,9 @@ function ResultsSection({
   items: RaceItem[];
   activeParty: string;
 }) {
+  const { lang } = useLanguage();
+  const d = translations[lang];
+
   if (items.length === 0) return null;
 
   const calledCount = items.filter((r) =>
@@ -227,7 +241,7 @@ function ResultsSection({
           <span className="text-jacket-amber">{label}</span>
         </h2>
         <span className="font-mono text-[10px] uppercase tracking-widest text-zinc-600">
-          {calledCount}/{items.length} called
+          {calledCount}/{items.length} {d.results_called_label}
         </span>
       </div>
       <div className="grid gap-3 md:grid-cols-2">
@@ -277,6 +291,8 @@ export default function ResultsClient({
   lastUpdated,
 }: Props) {
   const [activeParty, setActiveParty] = useState("All");
+  const { lang } = useLanguage();
+  const d = translations[lang];
 
   // Compute party counts from all candidates with primary_result data
   const partyCounts = useMemo(() => {
@@ -320,14 +336,15 @@ export default function ResultsClient({
       {/* Page header */}
       <div className="border-b border-jacket-border pb-6">
         <p className="mb-2 font-mono text-xs uppercase tracking-[0.22em] text-jacket-amber">
-          March 17, 2026 · Illinois Gubernatorial Primary
+          {d.results_page_subtitle}
         </p>
         <h1 className="text-4xl font-black uppercase leading-tight tracking-tight">
-          Primary <span className="text-jacket-amber">Results</span>
+          {lang === "es" ? "Resultados de la" : "Primary"}{" "}
+          <span className="text-jacket-amber">{lang === "es" ? "Primaria" : "Results"}</span>
         </h1>
         <p className="mt-3 max-w-2xl text-zinc-400 text-sm">
-          All Cook County and Illinois primary results — {totalRaces} races,{" "}
-          {totalCandidates} candidates. Non-partisan. Direct from official sources.
+          {d.results_page_desc_pre} {totalRaces} {d.results_page_races}{" "}
+          {totalCandidates} {d.results_page_candidates}
         </p>
 
         {/* Stats row */}
@@ -335,27 +352,27 @@ export default function ResultsClient({
           <div className="rounded-sm border border-jacket-border px-3 py-2 text-center">
             <p className="font-mono text-2xl font-black text-jacket-amber">{calledRaces}</p>
             <p className="font-mono text-[9px] uppercase tracking-widest text-zinc-500">
-              Races Called
+              {d.results_races_called}
             </p>
           </div>
           <div className="rounded-sm border border-jacket-border px-3 py-2 text-center">
             <p className="font-mono text-2xl font-black text-jacket-white">
               {totalRaces - calledRaces}
             </p>
-            <p className="font-mono text-[9px] uppercase tracking-widest text-zinc-500">Pending</p>
+            <p className="font-mono text-[9px] uppercase tracking-widest text-zinc-500">{d.results_pending}</p>
           </div>
           <div className="rounded-sm border border-jacket-border px-3 py-2 text-center">
             <p className="font-mono text-2xl font-black text-jacket-white">{totalCandidates}</p>
             <p className="font-mono text-[9px] uppercase tracking-widest text-zinc-500">
-              Candidates
+              {d.results_candidates}
             </p>
           </div>
         </div>
 
         {lastUpdated && (
           <p className="mt-3 font-mono text-[10px] uppercase tracking-widest text-zinc-600">
-            Last updated:{" "}
-            {new Date(lastUpdated).toLocaleString("en-US", {
+            {d.results_last_updated}{" "}
+            {new Date(lastUpdated).toLocaleString(lang === "es" ? "es-MX" : "en-US", {
               timeZone: "America/Chicago",
             })}{" "}
             CST
@@ -368,16 +385,16 @@ export default function ResultsClient({
             href="/results/judges"
             className="inline-flex items-center gap-1.5 rounded-sm border border-jacket-amber bg-jacket-amber/10 px-3 py-1.5 font-mono text-xs font-bold uppercase tracking-widest text-jacket-amber hover:bg-jacket-amber hover:text-jacket-black transition-all"
           >
-            <span>⚖️</span> Judicial Results
+            <span>⚖️</span> {d.results_judicial_results}
             <span className="font-normal text-jacket-amber/60">
-              → {judges.length} judges
+              → {judges.length} {d.results_judges_count}
             </span>
           </Link>
           <Link
             href="/races"
             className="inline-flex items-center gap-1 rounded-sm border border-zinc-700 px-3 py-1.5 font-mono text-xs uppercase tracking-widest text-zinc-400 hover:border-jacket-amber hover:text-jacket-amber transition-colors"
           >
-            Candidate profiles →
+            {d.results_candidate_profiles}
           </Link>
         </div>
       </div>
@@ -386,7 +403,7 @@ export default function ResultsClient({
       <div className="sticky top-0 z-10 -mx-4 px-4 py-3 bg-jacket-black/95 backdrop-blur-sm border-b border-jacket-border">
         <div className="flex flex-wrap items-center gap-2">
           <span className="font-mono text-[9px] uppercase tracking-widest text-zinc-600 mr-1">
-            Filter:
+            {d.results_filter_label}
           </span>
           {pills.map((party) => (
             <button
@@ -395,7 +412,7 @@ export default function ResultsClient({
               className={partyPillClass(party, activeParty === party)}
             >
               {party === "All"
-                ? `All · ${raceData.reduce((n, r) => n + r.candidates.length, 0)}`
+                ? `${lang === "es" ? "Todos" : "All"} · ${raceData.reduce((n, r) => n + r.candidates.length, 0)}`
                 : `${party} · ${partyCounts[party] ?? 0}`}
             </button>
           ))}
@@ -422,26 +439,25 @@ export default function ResultsClient({
         <div className="flex items-center justify-between flex-wrap gap-4">
           <div>
             <p className="font-mono text-xs uppercase tracking-[0.22em] text-jacket-amber mb-1">
-              Exclusive
+              {d.results_judicial_exclusive}
             </p>
-            <h2 className="text-xl font-black uppercase tracking-tight">Judicial Results</h2>
+            <h2 className="text-xl font-black uppercase tracking-tight">{d.results_judicial_callout_title}</h2>
             <p className="mt-1 text-sm text-zinc-400 max-w-lg">
-              {judges.length} judges tracked with bar association ratings. No other Chicago outlet
-              is showing this.
+              {judges.length} {d.results_judicial_callout_desc}
             </p>
           </div>
           <Link
             href="/results/judges"
             className="shrink-0 rounded-sm border border-jacket-amber bg-jacket-amber px-5 py-2.5 font-mono text-sm font-black uppercase tracking-widest text-jacket-black hover:bg-jacket-black hover:text-jacket-amber transition-all"
           >
-            View Judge Results →
+            {d.results_view_judge_results}
           </Link>
         </div>
       </section>
 
       {/* Source attribution */}
       <div className="border-t border-jacket-border pt-6 text-xs text-zinc-600 space-y-1">
-        <p className="font-mono uppercase tracking-widest">Data Sources</p>
+        <p className="font-mono uppercase tracking-widest">{d.results_data_sources}</p>
         <p>
           <a
             href="https://electionnight.cookcountyclerkil.gov/"
@@ -461,10 +477,7 @@ export default function ResultsClient({
             ILSBE — Certified Results
           </a>
         </p>
-        <p>
-          Results are unofficial until certified by the Illinois State Board of Elections. All data
-          is non-partisan. DYOR.
-        </p>
+        <p>{d.results_unofficial_note}</p>
       </div>
     </div>
   );

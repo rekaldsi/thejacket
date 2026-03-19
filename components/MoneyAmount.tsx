@@ -1,4 +1,8 @@
+"use client";
+
 import { cn } from "@/lib/utils";
+import { useLanguage } from "@/lib/i18n";
+import { translations } from "@/lib/translations";
 
 type MoneyAmountProps = {
   value: number | null;
@@ -6,8 +10,11 @@ type MoneyAmountProps = {
 };
 
 export default function MoneyAmount({ value, className }: MoneyAmountProps) {
+  const { lang } = useLanguage();
+  const d = translations[lang];
+
   if (value === null) {
-    return <span className={cn("font-mono text-jacket-amber", className)}>N/A</span>;
+    return <span className={cn("font-mono text-jacket-amber", className)}>{d.money_na}</span>;
   }
 
   return (

@@ -4,6 +4,8 @@ import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import type { ScorecardEntry } from "@/lib/scoring";
 import type { Judge } from "@/lib/types";
+import { useLanguage } from "@/lib/i18n";
+import { translations } from "@/lib/translations";
 
 // ── Types ──────────────────────────────────────────────────────────────────
 
@@ -52,6 +54,9 @@ function gradeOf(g: string) {
 // ── Main component ─────────────────────────────────────────────────────────
 
 export default function BoothBuilder({ sections, judicialRaces }: Props) {
+  const { lang } = useLanguage();
+  const d = translations[lang];
+
   // picks: raceId → candidateId (or judgeId)
   const [picks, setPicks] = useState<Record<string, string>>({});
   const [hydrated, setHydrated] = useState(false);
@@ -103,7 +108,7 @@ export default function BoothBuilder({ sections, judicialRaces }: Props) {
       <div className="space-y-2">
         <div className="flex items-center justify-between">
           <p className="font-mono text-xs uppercase tracking-widest text-zinc-500">
-            Your ballot — {pickCount} of {totalRaces} races picked
+            {d.booth_ballot_label} {pickCount} {d.booth_of_label} {totalRaces} {d.booth_races_picked_label}
           </p>
           <div className="flex items-center gap-3">
             {pickCount > 0 && (
@@ -112,13 +117,13 @@ export default function BoothBuilder({ sections, judicialRaces }: Props) {
                   onClick={() => setShowBallot((v) => !v)}
                   className="rounded-sm border border-jacket-amber px-3 py-1.5 font-mono text-xs uppercase tracking-widest text-jacket-amber transition-colors hover:bg-jacket-amber hover:text-jacket-black"
                 >
-                  {showBallot ? "Hide ballot" : "View my ballot"}
+                  {showBallot ? d.booth_hide_ballot : d.booth_view_ballot}
                 </button>
                 <button
                   onClick={clearAll}
                   className="font-mono text-xs uppercase tracking-widest text-zinc-600 hover:text-zinc-400 transition-colors"
                 >
-                  Clear all
+                  {d.booth_clear_all}
                 </button>
               </>
             )}
@@ -136,7 +141,7 @@ export default function BoothBuilder({ sections, judicialRaces }: Props) {
       {showBallot && pickCount > 0 && (
         <section className="rounded border border-jacket-amber/30 bg-jacket-amber/5 p-5 space-y-4">
           <h2 className="font-mono text-xs uppercase tracking-widest text-jacket-amber">
-            🗳 Your Ballot — {pickCount} pick{pickCount !== 1 ? "s" : ""}
+            {d.booth_my_ballot_header} {pickCount} {pickCount !== 1 ? d.booth_picks_plural : d.booth_picks_label}
           </h2>
           <div className="divide-y divide-jacket-border">
             {sections.flatMap((s) =>
@@ -189,7 +194,7 @@ export default function BoothBuilder({ sections, judicialRaces }: Props) {
               })}
           </div>
           <p className="font-mono text-[10px] text-zinc-600">
-            Picks saved locally on this device. Not shared or stored.
+            {d.booth_local_saved}
           </p>
         </section>
       )}
@@ -223,10 +228,10 @@ export default function BoothBuilder({ sections, judicialRaces }: Props) {
       {judicialRaces.length > 0 && (
         <section className="space-y-4">
           <h2 className="border-b border-jacket-border pb-2 font-mono text-xs uppercase tracking-widest text-jacket-amber">
-            Judicial Races
+            {d.booth_judicial_races}
           </h2>
           <p className="font-mono text-xs text-zinc-500">
-            Bar association ratings from Alliance of Bar Associations + Chicago Bar Association. NR = Not Recommended.
+            {d.booth_judicial_bar_note}
           </p>
           <div className="space-y-5">
             {judicialRaces.map((race) => (
@@ -244,11 +249,9 @@ export default function BoothBuilder({ sections, judicialRaces }: Props) {
       {/* Footer disclaimer */}
       <section className="border-t border-jacket-border pt-6">
         <p className="text-xs text-zinc-600">
-          TheJacket is a civic transparency tool — not an endorsement. Picks are yours alone, stored only on this device.
-          All grades sourced from FEC filings, ILSBE, court records, and named investigative journalism.
-          Verify at{" "}
+          {d.booth_footer_disclaimer}{" "}
           <a href="https://fec.gov" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-jacket-amber underline">fec.gov</a>
-          {" "}and{" "}
+          {" "}{d.booth_footer_and}{" "}
           <a href="https://illinoissunshine.org" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-jacket-amber underline">illinoissunshine.org</a>.
         </p>
       </section>
@@ -268,6 +271,8 @@ function RaceCard({
   pickedId?: string;
   onPick: (id: string) => void;
 }) {
+  const { lang } = useLanguage();
+  const d = translations[lang];
   const isContested = race.entries.length > 1;
 
   return (
@@ -281,6 +286,7 @@ function RaceCard({
           const isPicked = pickedId === entry.candidate.id;
           const baseGrade = gradeOf(entry.grade);
           const gradeBg = GRADE_BG[baseGrade] ?? GRADE_BG.F;
+          const confirmedFlagsCount = entry.candidate.red_flags.filter(f => f.confirmed).length;
 
           return (
             <button
@@ -314,11 +320,11 @@ function RaceCard({
                   </p>
                   {entry.candidate.red_flags.length > 0 && (
                     <p className="mt-0.5 font-mono text-[10px] text-zinc-500">
-                      🚩 {entry.candidate.red_flags.filter(f => f.confirmed).length} confirmed flag{entry.candidate.red_flags.filter(f => f.confirmed).length !== 1 ? "s" : ""}
+                      🚩 {confirmedFlagsCount} {confirmedFlagsCount !== 1 ? d.booth_confirmed_flags_plural : d.booth_confirmed_flags}
                     </p>
                   )}
                   {entry.candidate.red_flags.length === 0 && (
-                    <p className="mt-0.5 font-mono text-[10px] text-green-600">No confirmed flags</p>
+                    <p className="mt-0.5 font-mono text-[10px] text-green-600">{d.booth_no_flags}</p>
                   )}
                 </div>
               </div>
@@ -329,7 +335,7 @@ function RaceCard({
                 onClick={(e) => e.stopPropagation()}
                 className="mt-2 block font-mono text-[10px] text-zinc-600 hover:text-jacket-amber transition-colors"
               >
-                View full profile →
+                {d.booth_view_full_profile}
               </Link>
             </button>
           );
@@ -339,14 +345,14 @@ function RaceCard({
       {/* Withdrawn note */}
       {(race.withdrawn ?? []).length > 0 && (
         <p className="font-mono text-[10px] text-zinc-700">
-          Withdrawn: {(race.withdrawn ?? []).join(", ")}
+          {d.booth_withdrawn_label} {(race.withdrawn ?? []).join(", ")}
         </p>
       )}
 
       {/* Uncontested note */}
       {!isContested && race.entries.length === 1 && (
         <p className="font-mono text-[10px] text-zinc-600">
-          Running unopposed — only option on the ballot.
+          {d.booth_running_unopposed}
         </p>
       )}
     </div>
@@ -364,6 +370,9 @@ function JudicialRaceCard({
   pickedId?: string;
   onPick: (id: string) => void;
 }) {
+  const { lang } = useLanguage();
+  const d = translations[lang];
+
   return (
     <div className="space-y-2">
       <p className="font-mono text-[10px] uppercase tracking-widest text-zinc-500">{race.title}</p>
@@ -374,7 +383,10 @@ function JudicialRaceCard({
           const baseGrade = gradeOf(entry.grade);
           const gradeBg = GRADE_BG[baseGrade] ?? GRADE_BG.F;
           const r = entry.judge.bar_ratings;
-          const barLine = [r.alliance_rating && `Alliance: ${r.alliance_rating}`, r.cba_rating && `CBA: ${r.cba_rating}`].filter(Boolean).join(" · ");
+          const barLine = [
+            r.alliance_rating && `${d.judges_alliance_label}: ${r.alliance_rating}`,
+            r.cba_rating && `${d.judges_cba_label}: ${r.cba_rating}`
+          ].filter(Boolean).join(" · ");
 
           return (
             <button
@@ -414,7 +426,7 @@ function JudicialRaceCard({
                 onClick={(e) => e.stopPropagation()}
                 className="mt-2 block font-mono text-[10px] text-zinc-600 hover:text-jacket-amber transition-colors"
               >
-                View judicial profiles →
+                {d.booth_view_judicial_profiles}
               </Link>
             </button>
           );

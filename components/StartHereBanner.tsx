@@ -3,6 +3,8 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { SITE_MODE, getSiteModeConfig } from "@/lib/siteMode";
+import { useLanguage } from "@/lib/i18n";
+import { translations } from "@/lib/translations";
 
 const STORAGE_KEY = "thejacket_start_dismissed";
 const NOVEMBER_DATE = new Date("2026-11-03T06:00:00Z");
@@ -11,7 +13,62 @@ function daysUntilNovember(): number {
   return Math.max(0, Math.ceil((NOVEMBER_DATE.getTime() - Date.now()) / 86_400_000));
 }
 
+// ── Translate the cfg labels based on language ────────────────────────────────
+
+function getLocalizedCfg(lang: "en" | "es") {
+  const cfg = getSiteModeConfig();
+  const isEs = lang === "es";
+  if (!isEs) return cfg;
+
+  // Per-mode translations of the CTA labels
+  const modeLabels: Record<string, { pill: string; header: string; primary: string; secondary: string | null }> = {
+    "pre-primary": {
+      pill: "17 Mar · Cuenta regresiva",
+      header: "Primaria en cuenta regresiva",
+      primary: "Encuentra tu boleta →",
+      secondary: "Ver todas las contiendas",
+    },
+    "primary-results": {
+      pill: "● Resultados disponibles",
+      header: "Los resultados están disponibles",
+      primary: "Todos los resultados →",
+      secondary: "⚖️ Resultados Judiciales",
+    },
+    "between-elections": {
+      pill: "● Inteligencia en vivo",
+      header: "Inteligencia Cívica",
+      primary: "Ver Proyectos →",
+      secondary: "Archivo de resultados",
+    },
+    "pre-november": {
+      pill: `● 3 Nov · Cuenta regresiva`,
+      header: "General del 3 de Noviembre",
+      primary: "Mi Boleta →",
+      secondary: "Archivo de resultados",
+    },
+    "november-results": {
+      pill: "● Resultados del 3 Nov",
+      header: "Los resultados están disponibles",
+      primary: "Todos los resultados →",
+      secondary: "⚖️ Resultados Judiciales",
+    },
+  };
+
+  const m = modeLabels[SITE_MODE];
+  if (!m) return cfg;
+
+  return {
+    ...cfg,
+    startHerePillText: m.pill,
+    startHereHeader: m.header,
+    startHerePrimaryLabel: m.primary,
+    startHereSecondaryLabel: m.secondary,
+  };
+}
+
 export default function StartHereBanner() {
+  const { lang } = useLanguage();
+  const d = translations[lang];
   const [ready, setReady] = useState(false);
   const [dismissed, setDismissed] = useState(false);
   const [expanded, setExpanded] = useState(false);
@@ -33,7 +90,7 @@ export default function StartHereBanner() {
     setExpanded(false);
   }
 
-  const cfg = getSiteModeConfig();
+  const cfg = getLocalizedCfg(lang);
   const isGreen = SITE_MODE === "primary-results" || SITE_MODE === "november-results";
   const dotColor = isGreen ? "bg-green-500" : "bg-jacket-amber";
   const dotPing = isGreen ? "bg-green-400" : "bg-jacket-amber";
@@ -44,7 +101,7 @@ export default function StartHereBanner() {
   const bgColor = isGreen ? "bg-green-500/5" : "bg-jacket-amber/5";
 
   const pillLabel = SITE_MODE === "pre-november"
-    ? `Nov 3 · ${daysLeft} days`
+    ? (lang === "es" ? `3 Nov · ${daysLeft} días` : `Nov 3 · ${daysLeft} days`)
     : cfg.startHerePillText;
 
   const mobileBubble = ready && !dismissed ? (
@@ -55,7 +112,7 @@ export default function StartHereBanner() {
             <span className={`font-mono text-[10px] font-black uppercase tracking-widest ${textColor}`}>
               {cfg.startHereHeader}
             </span>
-            <button onClick={dismiss} className="font-mono text-xs text-zinc-500 hover:text-white" aria-label="Close">
+            <button onClick={dismiss} className="font-mono text-xs text-zinc-500 hover:text-white" aria-label={lang === "es" ? "Cerrar" : "Close"}>
               ✕
             </button>
           </div>
@@ -122,7 +179,7 @@ export default function StartHereBanner() {
               )}
               <button onClick={dismiss}
                 className="ml-1 font-mono text-sm text-zinc-600 hover:text-zinc-300 transition-colors"
-                aria-label="Dismiss">
+                aria-label={lang === "es" ? "Cerrar" : "Dismiss"}>
                 ✕
               </button>
             </div>

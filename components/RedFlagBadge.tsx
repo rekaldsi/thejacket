@@ -1,4 +1,8 @@
+"use client";
+
 import type { RedFlag } from "@/lib/types";
+import { useLanguage } from "@/lib/i18n";
+import { translations } from "@/lib/translations";
 
 type RedFlagBadgeProps = {
   flag: RedFlag;
@@ -9,6 +13,9 @@ function isHttpUrl(value: string) {
 }
 
 export default function RedFlagBadge({ flag }: RedFlagBadgeProps) {
+  const { lang } = useLanguage();
+  const d = translations[lang];
+
   return (
     <article className="w-full rounded-sm border-l-4 border-jacket-red bg-red-950/20 p-4">
       <div className="flex items-center gap-2 text-sm">
@@ -20,7 +27,7 @@ export default function RedFlagBadge({ flag }: RedFlagBadgeProps) {
       <p className={`mt-2 text-sm leading-relaxed text-zinc-300 ${!flag.confirmed ? "italic" : ""}`}>{flag.detail}</p>
 
       <p className="mt-2 text-xs text-zinc-500">
-        Source:{" "}
+        {d.flag_source_label}{" "}
         {isHttpUrl(flag.source) ? (
           <a href={flag.source} target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-jacket-amber">
             &rarr; {flag.source}
