@@ -66,6 +66,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   <Link href="/about" className="transition-colors hover:text-jacket-amber">
                     <T k="nav_about" />
                   </Link>
+                  <span className="text-zinc-600">|</span>
+                  <span className="opacity-40 cursor-not-allowed" title="Coming November 2026">BILLS</span>
+                  <span className="text-zinc-600">|</span>
+                  <span className="opacity-40 cursor-not-allowed" title="Coming November 2026">MY BALLOT</span>
                 </div>
 
                 <div className="flex items-center gap-3">
