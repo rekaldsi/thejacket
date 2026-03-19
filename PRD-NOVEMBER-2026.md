@@ -445,3 +445,97 @@ Track every ballot measure, referendum, and constitutional amendment that will a
 ---
 
 *This PRD is version 1.0-DRAFT. Gap-finder and concept-reviewer agent results will be incorporated into v1.1 before GSD2 sprint kick-off.*
+
+---
+
+## APPENDIX A — Gap Finder + Concept Review Findings (v1.1 additions)
+*Incorporated from agent research — March 19, 2026*
+
+### 🔴 Critical Fixes Before Build Starts
+
+**1. May 3 cron date is WRONG for general election candidates**
+Illinois general election candidate filing is late June–early August, NOT May 3. May 3 is the judicial retention filing deadline. Fix: verify exact 2026 SBE calendar. Split into two crons:
+- May 3: judicial retention candidates + ballot measures monitoring
+- ~July 1: general election candidate sweep (once SBE calendar confirmed)
+
+**2. Vercel Hobby will die on election day**
+100GB/month bandwidth cap = ~4-5 days of election-week traffic at 50K visitors. Fix: Vercel Pro ($20/mo) + Cloudflare free tier CDN in front. Non-negotiable.
+
+**3. Cicero API does NOT cover CPD District Council or CPS Board districts**
+These are new electoral bodies (CPD Council 2022, CPS Board 2024) — not in Cicero's standard coverage. Fix: Use Chicago Data Portal GeoJSON + Turf.js point-in-polygon for these two district types. Bake GeoJSON into static assets, never call an API for it.
+
+**4. Wrong ballot data liability**
+Every /my-ballot result MUST include: (a) prominent disclaimer ("Verify with your official BOE"), (b) direct link to chicagoelections.gov or cookcountyclerkil.gov sample ballot, (c) error/feedback mechanism. This is the #1 reputational risk — one wrong district assignment makes Block Club Chicago.
+
+**5. Karen Yarbrough is deceased (March 2024)**
+Remove from all docs. Cook County Clerk = Monica Gordon (running for re-election).
+
+**6. Chicago aldermanic races are NOT November 2026**
+They're February/April 2027. Do NOT include on /my-ballot. Can preview: "Your alderman is [Name], seat up Feb 2027."
+
+**7. Chicago CPS Board IS November 2026 — all 21 seats**
+This is a massive race that must be in the platform. Second ever elected CPS board. Filing deadline May 26.
+
+### 🟠 Architecture Changes
+
+**Recommended district resolution stack (replaces Cicero-only):**
+
+| District Type | Source | Method |
+|---|---|---|
+| Ward (Chicago) | Chicago Data Portal GeoJSON `cdf7-bgn3` | Turf.js point-in-polygon |
+| Precinct | Chicago Data Portal `9pb4-wga2` (2025+) | Turf.js |
+| Congressional | OpenStates /people.geo | API |
+| IL State Senate | OpenStates /people.geo | API |
+| IL State Rep | OpenStates /people.geo | API |
+| Judicial Subcircuit | Cook County Clerk GeoJSON (subcircuit boundaries) | Turf.js |
+| County Board | Cicero API | API (cacheable) |
+| Board of Review | Cicero API | API (cacheable) |
+| CPD District | Chicago Data Portal GeoJSON | Turf.js |
+| CPS Board | Chicago Data Portal GeoJSON (2024 districts) | Turf.js |
+
+**Geocoding:** Census Geocoder (free, no key) → lat/lng → Turf.js for all polygon lookups.
+
+**Caching:** Vercel KV (free tier) — cache district results by rounded lat/lng (4 decimal places), 24h TTL. Kills 80-90% of Cicero credit burn.
+
+**Dual-authority split:** Detect Chicago city limits first (Chicago Data Portal GeoJSON). If inside Chicago → CBOE authority. If suburban → Cook County Clerk authority. Branch UI and sample ballot links accordingly.
+
+### 🟠 Missed Races for November 2026 Ballot
+
+Full confirmed race list additions beyond original PRD:
+- **U.S. Senate** (open seat — Juliana Stratton D, Republican TBD)
+- **ALL 118 IL House seats** (not just Cook County districts)
+- **Cook County Board President** (open seat — Preckwinkle retiring)
+- **Cook County Assessor** (Pat Hynes D, primary winner over Kaegi)
+- **Cook County Clerk** (Monica Gordon, running uncontested or vs. R)
+- **Cook County Sheriff** (verify incumbent/opponent)
+- **Cook County Treasurer** (verify)
+- **Metropolitan Water Reclamation District** (at-large + district seats)
+- **ALL 21 Chicago CPS Board seats** (10 geographic districts + 1 at-large)
+- **Cook County Board of Review** D1 + D2 (already noted) + D3 (verify)
+- **IL Appellate Court First District** — retention elections
+- **All Cook County subcircuit judicial races** (geography-dependent)
+
+### 🟠 Competitive Landscape — BallotReady
+
+**BallotReady** (ballotready.org) is the main competitor. Chicago-born, venture-funded. Does personalized ballot lookup well. **TheJacket's differentiation:** legislation tracking (BallotReady has zero), Cook County intelligence depth (red flags, finance, scoring), judicial bar ratings integration, nonpartisan editorial model. Don't try to beat BallotReady at their own game — go deeper on Cook County intelligence.
+
+### 🟡 Illinois Local Journalism Tax Credit — Real Hurdle
+
+The $15K/journalist refundable tax credit likely does NOT apply to TheJacket in current solo-builder form. The hard gate: a **W-2 employee working 30+ hours/week as a journalist**. It's a real opportunity if/when Jerry hires staff — but not applicable as a solo project. Worth revisiting if TheJacket scales.
+
+### 🟡 Missing Features to Add to Build Sequence
+
+- **Methodology/disclaimer page** — how scoring works, confirmed: true/false definitions, data sources, correction process. Build in Phase 1 alongside cleanup.
+- **Candidate correction/dispute mechanism** — public form for campaigns to submit corrections. Simple Convex form + email to Jerry. Build before launch.
+- **Official BOE sample ballot links** — every /my-ballot result links to official precinct sample ballot PDF. Non-negotiable for credibility.
+- **Early voting + polling place links** — don't build the lookup, just link to official sources. Day-of election value.
+- **Results-night plan** — define how November 4 morning looks. Mode switch, results source (ILSBE or manual), close race handling.
+- **Community sentiment: label as unverified** — "Informal reader poll — not a verified sample." Add CAPTCHA for bulk vote patterns. Or cut entirely for v1.
+
+### 🟡 Data Architecture Addition — Two-Layer for Volatile Data
+
+For breaking news / last-minute changes:
+- **Static JSON** (GitHub → Vercel): bio, finance, bar ratings, confirmed red flags (unchanged)
+- **Convex** (dynamic): withdrawal flags, breaking news snippets, endorsement alerts
+- Candidate page: renders static JSON + client-side Convex query for "latest updates" sidebar
+- This handles Sunday-night withdrawals and breaking red flags without a 3-5 min deploy wait
