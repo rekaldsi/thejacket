@@ -10,6 +10,9 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import type { HotSignal } from "./HotBoard";
+import type { BillSignal } from "./HotBoard";
+
+export type FeedSignal = HotSignal | BillSignal;
 
 const SEVERITY_CONFIG = {
   critical: {
@@ -35,15 +38,17 @@ const SEVERITY_CONFIG = {
   },
 };
 
-function typeIcon(type: HotSignal["type"]) {
+function typeIcon(type: HotSignal["type"] | "bill") {
   if (type === "red_flag") return "🚩";
   if (type === "donor") return "💰";
+  if (type === "bill") return "⚖️";
   return "📰";
 }
 
-function typeLabel(type: HotSignal["type"]) {
+function typeLabel(type: HotSignal["type"] | "bill") {
   if (type === "red_flag") return "FLAG";
   if (type === "donor") return "DONOR";
+  if (type === "bill") return "BILL";
   return "NEWS";
 }
 
@@ -57,10 +62,10 @@ function formatOffice(office: string) {
 }
 
 type Props = {
-  signals: HotSignal[];
+  signals: FeedSignal[];
 };
 
-/** Seeded pseudo-random — deterministic within a 5-minute window, different each visit */
+/** Fisher-Yates shuffle with a given seed — different every page load */
 function seededShuffle<T>(arr: T[], seed: number): T[] {
   const out = [...arr];
   for (let i = out.length - 1; i > 0; i--) {
@@ -76,19 +81,16 @@ export default function HotBoardCarousel({ signals }: Props) {
   const animRef = useRef<number | null>(null);
   const posRef = useRef(0);
 
-  // Shuffle on client — seed changes every 5 minutes so each visit feels fresh.
-  // Split signals: top 1/3 by severity stay weighted front, rest shuffled freely.
-  const [shuffled, setShuffled] = useState<HotSignal[]>(signals);
+  // Shuffle the full array on every mount — new seed per page load so it always
+  // feels fresh. No locked "top" segment; bills and candidate signals mix freely.
+  const [shuffled, setShuffled] = useState<FeedSignal[]>(signals);
   useEffect(() => {
-    const seed = Math.floor(Date.now() / (1000 * 60 * 5)); // new seed every 5 min
-    const topCount = Math.max(1, Math.floor(signals.length / 3));
-    const top = signals.slice(0, topCount);       // keep critical/high at front
-    const rest = seededShuffle(signals.slice(topCount), seed);
-    setShuffled([...top, ...rest]);
+    const seed = Math.random() * 100000; // new seed every page load
+    setShuffled(seededShuffle(signals, seed));
   }, [signals]);
 
   // Duplicate signals so the loop is seamless
-  const items = shuffled.length > 0 ? [...shuffled, ...shuffled] : [];
+  const items: FeedSignal[] = shuffled.length > 0 ? [...shuffled, ...shuffled] : [];
 
   useEffect(() => {
     const track = trackRef.current;
@@ -138,17 +140,40 @@ export default function HotBoardCarousel({ signals }: Props) {
       >
         {items.map((signal, i) => {
           const cfg = SEVERITY_CONFIG[signal.severity] ?? SEVERITY_CONFIG.medium;
-          // Smart link: news → direct source URL, donor → finance section, flag → red-flags section
-          const href =
-            signal.type === "news" && signal.source
-              ? signal.source
-              : signal.type === "donor"
-              ? `/candidate/${signal.candidateId}#finance`
-              : `/candidate/${signal.candidateId}#red-flags`;
-          const isExternal = signal.type === "news" && !!signal.source;
+
+          // Resolve href + external flag based on signal type
+          const isBill = signal.type === "bill";
+          const isExternalNews = signal.type === "news" && !!(signal as HotSignal).source;
+          const href = isBill
+            ? `/bills/${(signal as BillSignal).billId}`
+            : isExternalNews
+            ? (signal as HotSignal).source!
+            : signal.type === "donor"
+            ? `/candidate/${(signal as HotSignal).candidateId}#finance`
+            : `/candidate/${(signal as HotSignal).candidateId}#red-flags`;
+          const isExternal = isExternalNews;
+
+          // Display name: bill uses bill_number, candidate signals use candidateName
+          const displayName = isBill
+            ? (signal as BillSignal).bill_number
+            : (signal as HotSignal).candidateName;
+
+          // Sub-label: bill uses chamber, candidate signals use office
+          const subLabel = isBill
+            ? (signal as BillSignal).chamber.toUpperCase()
+            : formatOffice((signal as HotSignal).office);
+
+          const footerText = isBill
+            ? "Read full bill →"
+            : isExternalNews
+            ? `↗ ${(() => { try { return new URL((signal as HotSignal).source!).hostname.replace("www.", ""); } catch { return "Source"; } })()} (opens article)`
+            : signal.type === "donor"
+            ? "View finance →"
+            : "View red flags →";
+
           return (
             <Link
-              key={`${signal.candidateId}-${signal.type}-${i}`}
+              key={`${isBill ? (signal as BillSignal).billId : (signal as HotSignal).candidateId}-${signal.type}-${i}`}
               href={href}
               target={isExternal ? "_blank" : undefined}
               rel={isExternal ? "noopener noreferrer" : undefined}
@@ -160,16 +185,16 @@ export default function HotBoardCarousel({ signals }: Props) {
               <div className="flex items-center gap-2">
                 <span className={`h-2 w-2 shrink-0 rounded-full ${cfg.dot} ${cfg.pulse}`} />
                 <span className={`truncate font-mono text-[10px] font-bold uppercase tracking-widest ${cfg.name} group-hover:text-jacket-amber`}>
-                  {signal.candidateName}
+                  {displayName}
                 </span>
                 <span className={`ml-auto shrink-0 rounded px-1.5 py-0.5 font-mono text-[9px] uppercase tracking-wide ${cfg.badge}`}>
                   {typeIcon(signal.type)} {typeLabel(signal.type)}
                 </span>
               </div>
 
-              {/* Office */}
+              {/* Sub-label (office or chamber) */}
               <p className="font-mono text-[9px] uppercase tracking-wide text-zinc-600">
-                {formatOffice(signal.office)}
+                {subLabel}
               </p>
 
               {/* Label */}
@@ -185,11 +210,7 @@ export default function HotBoardCarousel({ signals }: Props) {
               </p>
 
               <span className="mt-auto font-mono text-[10px] text-zinc-700 group-hover:text-jacket-amber">
-                {signal.type === "news" && signal.source
-                  ? `↗ ${(() => { try { return new URL(signal.source).hostname.replace("www.", ""); } catch { return "Source"; } })()} (opens article)`
-                  : signal.type === "donor"
-                  ? "View finance →"
-                  : "View red flags →"}
+                {footerText}
               </span>
             </Link>
           );
