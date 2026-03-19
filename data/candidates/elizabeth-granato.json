@@ -149,7 +149,7 @@
     {
       "type": "conflict",
       "label": "Husband controls campaign committee",
-      "detail": "Ram Villivalam (IL State Senator, husband) is BOTH Chair AND Treasurer of Friends of Elizabeth Granato. His three political committees collectively donated $218,400 to her campaign \u2014 42% of her total raised.",
+      "detail": "Ram Villivalam (IL State Senator, husband) is BOTH Chair AND Treasurer of Friends of Elizabeth Granato. His three political committees collectively donated $218,400 to her campaign — 42% of her total raised.",
       "source": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?id=40741",
       "confirmed": true
     },
@@ -178,7 +178,7 @@
     }
   ],
   "endorsements": [
-    "Chuy Garc\u00eda (U.S. Rep, IL-04)",
+    "Chuy García (U.S. Rep, IL-04)",
     "Raja Krishnamoorthi (U.S. Rep, IL-08)",
     "Mike Quigley (U.S. Rep, IL-05)",
     "Delia Ramirez (U.S. Rep, IL-03)",
@@ -248,7 +248,7 @@
   "primary_result": {
     "status": "won",
     "votes": null,
-    "pct": 67.0,
+    "pct": 67,
     "updated": "2026-03-19"
   },
   "status": "winner"

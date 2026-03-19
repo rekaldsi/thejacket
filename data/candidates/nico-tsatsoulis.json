@@ -41,7 +41,7 @@
   "primary_result": {
     "status": "won",
     "votes": null,
-    "pct": 100.0,
+    "pct": 100,
     "updated": "2026-03-19"
   },
   "status": "winner"

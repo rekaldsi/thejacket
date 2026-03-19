@@ -41,7 +41,7 @@
     }
   ],
   "endorsements": [
-    "Bridget Degnen (retiring incumbent Cook County Commissioner, District 12 \u2014 prior to Sharp's withdrawal)",
+    "Bridget Degnen (retiring incumbent Cook County Commissioner, District 12 — prior to Sharp's withdrawal)",
     "Run for Something (withdrew endorsement after Sharp withdrew from race)"
   ],
   "data_status": "stub",
@@ -64,7 +64,7 @@
   "primary_result": {
     "status": "lost",
     "votes": null,
-    "pct": 0.0,
+    "pct": 0,
     "updated": "2026-03-19"
   }
 }
