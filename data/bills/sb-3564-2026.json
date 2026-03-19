@@ -1,0 +1,61 @@
+{
+  "id": "sb-3564-2026",
+  "bill_number": "SB 3564",
+  "session": "104th Illinois General Assembly (2025-2026)",
+  "chamber": "Senate",
+  "title": "Facial Recognition in Law Enforcement Restrictions",
+  "short_title_official": "POLICE-FACIAL RECOGNITION ACT",
+  "plain_english_title": "Would restrict how Illinois police can use facial recognition technology — no real-time scanning, no use for lawful protest surveillance, and results alone can't justify a warrant",
+  "summary": "Creates the Facial Recognition Technology in Law Enforcement Act. Bans law enforcement from using facial recognition for live or real-time identification of individuals, for monitoring people engaged in constitutionally protected activity (like protests) unless there is reasonable suspicion of an active crime, or solely on the basis of race, religion, political beliefs, sexual orientation, or housing status. Facial recognition results alone cannot serve as the sole basis for a probable cause warrant. Requires the Illinois State Police to conduct compliance audits and publish annual reports. Requires the Law Enforcement Training Standards Board to develop a statewide model policy and training curriculum. Effective immediately upon signing.",
+  "sponsor": {
+    "name": "Sen. Adriane Johnson",
+    "party": "Democratic",
+    "district": "District 30",
+    "jacket_slug": null
+  },
+  "status": "in-committee",
+  "status_label": "In Committee — Senate Assignments",
+  "introduced_date": "2026-02-05",
+  "last_action_date": "2026-02-05",
+  "last_action": "Referred to Assignments Committee",
+  "next_hearing": null,
+  "timeline": [
+    { "date": "2026-02-05", "action": "Filed with Secretary by Sen. Adriane Johnson", "chamber": "Senate" },
+    { "date": "2026-02-05", "action": "First Reading", "chamber": "Senate" },
+    { "date": "2026-02-05", "action": "Referred to Assignments Committee", "chamber": "Senate" }
+  ],
+  "impact_tags": [
+    { "id": "privacy-surveillance", "label": "Privacy / Surveillance", "emoji": "🔒" },
+    { "id": "policing-reform", "label": "Policing Reform", "emoji": "🚔" },
+    { "id": "civil-liberties", "label": "Civil Liberties", "emoji": "✊" },
+    { "id": "criminal-justice", "label": "Criminal Justice", "emoji": "⚖️" },
+    { "id": "technology-regulation", "label": "Technology Regulation", "emoji": "💻" }
+  ],
+  "what_supporters_say": [
+    "Facial recognition technology has documented racial bias — studies show false match rates up to 34% higher for darker-skinned faces",
+    "Banning real-time scanning protects the right to attend a protest or political rally without being tracked by police",
+    "Requiring audits and ISP reporting creates meaningful accountability where none currently exists",
+    "Prevents the technology from becoming a tool for mass surveillance of lawful political activity",
+    "Results-alone warrant bar follows federal courts' emerging consensus that AI outputs require corroboration"
+  ],
+  "what_critics_say": [
+    "Restricting real-time identification could hamper active suspect searches and fugitive apprehension",
+    "Law enforcement agencies argue existing BIPA protections already regulate biometric data collection",
+    "The compliance audit requirement adds administrative burden without clear enforcement mechanism",
+    "Some prosecutors argue the warrant standard creates a new evidentiary hurdle with no legal precedent"
+  ],
+  "fiscal_impact": "Requires Illinois State Police to conduct and publish annual compliance audits. Law Enforcement Training Standards Board must develop new model policy and training curriculum. No fee or revenue mechanism. Fiscal note not yet published.",
+  "full_text_url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=3564&GAID=18&DocTypeID=SB&LegId=166614&SessionID=114",
+  "legiscan_id": null,
+  "statutes": [
+    "New Act (Facial Recognition Technology in Law Enforcement Act)",
+    "725 ILCS 5/107-9.5 (new)",
+    "50 ILCS 705/ (Illinois Police Training Act — amendment)"
+  ],
+  "effective_date": "Immediately upon signing",
+  "data_status": "full",
+  "confirmed": true,
+  "last_updated": "2026-03-19",
+  "featured": true,
+  "priority": 2
+}

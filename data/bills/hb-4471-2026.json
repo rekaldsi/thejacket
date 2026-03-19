@@ -1,0 +1,73 @@
+{
+  "id": "hb-4471-2026",
+  "bill_number": "HB 4471",
+  "session": "104th Illinois General Assembly (2025-2026)",
+  "chamber": "House",
+  "title": "Convertible Pistol (Glock Switch) Ban",
+  "short_title_official": "CRIM CD-CONVERTIBLE PISTOLS",
+  "plain_english_title": "Would make it a felony to manufacture, sell, or possess a pistol that can be illegally converted into a machine gun using a 'Glock switch' or similar device",
+  "summary": "Enacts the Responsible Gun Manufacturing Act. Amends the Criminal Code to make it a crime to manufacture, sell, purchase, import, or transfer a 'convertible pistol' — defined as any semi-automatic pistol designed or modified to accept a conversion device (commonly called a 'Glock switch' or 'auto sear') that enables automatic fire. Any machine gun equipped with such a switch is also covered. Exemptions exist for licensed federal firearms manufacturers and law enforcement. House Committee Amendment 1 (filed March 17) is currently pending in the Gun Violence Prevention Committee. Hearing held today: March 19, 2026.",
+  "sponsor": {
+    "name": "Rep. Justin Slaughter",
+    "party": "Democratic",
+    "district": "District 27",
+    "jacket_slug": null
+  },
+  "co_sponsors": [
+    { "name": "Rep. Michael Crawford", "party": "Democratic", "role": "Chief Co-Sponsor" },
+    { "name": "Rep. Abdelnasser Rashid", "party": "Democratic", "role": "Co-Sponsor" }
+  ],
+  "status": "in-committee",
+  "status_label": "In Committee — Gun Violence Prevention",
+  "introduced_date": "2026-01-16",
+  "last_action_date": "2026-03-18",
+  "last_action": "House Committee Amendment 1 referred to Gun Violence Prevention Committee",
+  "next_hearing": {
+    "date": "2026-03-19",
+    "time": "2:00 PM",
+    "location": "Capitol Building Room 118, Springfield, IL",
+    "label": "🔴 Committee Hearing — TODAY March 19, 2:00 PM, Springfield"
+  },
+  "timeline": [
+    { "date": "2026-01-16", "action": "Filed with the Clerk by Rep. Justin Slaughter", "chamber": "House" },
+    { "date": "2026-01-20", "action": "First Reading", "chamber": "House" },
+    { "date": "2026-01-20", "action": "Referred to Rules Committee", "chamber": "House" },
+    { "date": "2026-02-10", "action": "Added Chief Co-Sponsor Rep. Michael Crawford", "chamber": "House" },
+    { "date": "2026-02-27", "action": "Added Co-Sponsor Rep. Abdelnasser Rashid", "chamber": "House" },
+    { "date": "2026-03-12", "action": "Assigned to Gun Violence Prevention Committee", "chamber": "House" },
+    { "date": "2026-03-17", "action": "House Committee Amendment 1 filed by Rep. Justin Slaughter", "chamber": "House" },
+    { "date": "2026-03-18", "action": "Amendment 1 referred to Gun Violence Prevention Committee", "chamber": "House" },
+    { "date": "2026-03-19", "action": "Committee Hearing — Amendment 1", "chamber": "House", "upcoming": true }
+  ],
+  "impact_tags": [
+    { "id": "gun-violence", "label": "Gun Violence", "emoji": "🔫" },
+    { "id": "criminal-justice", "label": "Criminal Justice", "emoji": "⚖️" },
+    { "id": "second-amendment", "label": "Second Amendment", "emoji": "🛡️" },
+    { "id": "public-safety", "label": "Public Safety", "emoji": "🚨" }
+  ],
+  "what_supporters_say": [
+    "Glock switches convert legal handguns into illegal machine guns in seconds — they are the weapon of choice in mass shootings and drive-by shootings in Chicago",
+    "Possessing the switch device is already a federal felony; this bill aligns Illinois state law to close enforcement gaps",
+    "Law enforcement has seen a dramatic surge in recovered Glock switches in Chicago — CPD data shows hundreds recovered in recent years",
+    "Targets the device, not responsible gun owners — standard semi-automatic pistols remain fully legal",
+    "Modeled on successful laws in other states that have been upheld against Second Amendment challenges"
+  ],
+  "what_critics_say": [
+    "Criminals who want Glock switches already obtain them illegally — a new state ban will not deter them",
+    "Definition of 'convertible pistol' is broad and could inadvertently capture legal firearms with certain modifications",
+    "Enforcement and prosecution burden falls on already-strained state's attorney offices",
+    "The Illinois State Rifle Association argues the bill punishes lawful owners for the actions of criminals"
+  ],
+  "fiscal_impact": "No fee or revenue mechanism. Enforcement costs absorbed by Illinois State Police and county prosecutors. Fiscal note not yet published.",
+  "full_text_url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=4471&GAID=18&DocTypeID=HB&SessionID=114",
+  "legiscan_id": null,
+  "statutes": [
+    "720 ILCS 5/24-1 (amended — Criminal Code of 2012)"
+  ],
+  "effective_date": "Immediately upon signing",
+  "data_status": "full",
+  "confirmed": true,
+  "last_updated": "2026-03-19",
+  "featured": true,
+  "priority": 3
+}
