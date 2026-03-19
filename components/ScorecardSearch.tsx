@@ -3,6 +3,8 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import type { ScorecardEntry } from "@/lib/scoring";
+import { useLanguage } from "@/lib/i18n";
+import { translations } from "@/lib/translations";
 
 const GRADE_COLOR: Record<string, string> = {
   "A+": "text-green-300", A: "text-green-400", "A-": "text-green-500",
@@ -12,22 +14,13 @@ const GRADE_COLOR: Record<string, string> = {
   F:    "text-red-400",
 };
 
-function gradeToNum(grade: string): number {
-  const map: Record<string, number> = {
-    "A+": 97, A: 93, "A-": 90,
-    "B+": 87, B: 83, "B-": 80,
-    "C+": 77, C: 73, "C-": 70,
-    "D+": 67, D: 63, "D-": 60,
-    F: 40,
-  };
-  return map[grade] ?? 50;
-}
-
 type Props = {
   entries: ScorecardEntry[];
 };
 
 export default function ScorecardSearch({ entries }: Props) {
+  const { lang } = useLanguage();
+  const d = translations[lang];
   const [query, setQuery] = useState("");
   const [raceFilter, setRaceFilter] = useState("all");
 
@@ -70,7 +63,7 @@ export default function ScorecardSearch({ entries }: Props) {
           </span>
           <input
             type="search"
-            placeholder="Search candidate, office, party…"
+            placeholder={d.scorecard_search_placeholder}
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             className="w-full rounded-sm border border-jacket-border bg-zinc-900 py-2.5 pl-8 pr-4 font-mono text-sm text-jacket-white placeholder-zinc-600 outline-none focus:border-jacket-amber focus:ring-1 focus:ring-jacket-amber"
@@ -83,7 +76,7 @@ export default function ScorecardSearch({ entries }: Props) {
           onChange={(e) => setRaceFilter(e.target.value)}
           className="rounded-sm border border-jacket-border bg-zinc-900 px-3 py-2.5 font-mono text-sm text-jacket-white outline-none focus:border-jacket-amber focus:ring-1 focus:ring-jacket-amber sm:w-64"
         >
-          <option value="all">All races</option>
+          <option value="all">{d.scorecard_all_races_option}</option>
           {raceOptions.map((o) => (
             <option key={o} value={o}>
               {o.replace("Cook County ", "").replace("U.S. House — ", "IL-").replace("U.S. Senate (Illinois)", "IL Senate")}
@@ -97,7 +90,7 @@ export default function ScorecardSearch({ entries }: Props) {
             onClick={() => { setQuery(""); setRaceFilter("all"); }}
             className="whitespace-nowrap rounded-sm border border-zinc-700 px-4 py-2.5 font-mono text-xs uppercase tracking-widest text-zinc-400 transition-colors hover:border-jacket-amber hover:text-jacket-amber"
           >
-            Clear
+            {d.scorecard_clear_button}
           </button>
         )}
       </div>
@@ -105,19 +98,19 @@ export default function ScorecardSearch({ entries }: Props) {
       {/* Results count */}
       {isFiltering && (
         <p className="font-mono text-xs uppercase tracking-widest text-zinc-600">
-          {filtered.length} result{filtered.length !== 1 ? "s" : ""} — {entries.length} total candidates
+          {filtered.length} {filtered.length !== 1 ? d.scorecard_result_plural : d.scorecard_result_singular} — {entries.length} {d.scorecard_results_of}
         </p>
       )}
 
       {/* No results */}
       {filtered.length === 0 && (
         <div className="border border-jacket-border py-12 text-center">
-          <p className="font-mono text-sm uppercase tracking-widest text-zinc-500">No candidates match your search</p>
+          <p className="font-mono text-sm uppercase tracking-widest text-zinc-500">{d.scorecard_no_results}</p>
           <button
             onClick={() => { setQuery(""); setRaceFilter("all"); }}
             className="mt-4 font-mono text-xs text-jacket-amber hover:underline"
           >
-            Clear filters
+            {d.scorecard_clear_filters}
           </button>
         </div>
       )}
@@ -127,7 +120,7 @@ export default function ScorecardSearch({ entries }: Props) {
         <section>
           {!isFiltering && (
             <h2 className="mb-3 border-l-4 border-green-500 pl-3 text-lg font-black uppercase tracking-tight text-green-400">
-              Cleanest Record — A Grade
+              {d.scorecard_clean_header}
             </h2>
           )}
           <ScorecardTable entries={clean} showGradeHeader={isFiltering} />
@@ -138,7 +131,7 @@ export default function ScorecardSearch({ entries }: Props) {
         <section>
           {!isFiltering && (
             <h2 className="mb-3 border-l-4 border-yellow-400 pl-3 text-lg font-black uppercase tracking-tight text-yellow-400">
-              Notable Concerns — B / C / D Grade
+              {d.scorecard_mid_header}
             </h2>
           )}
           <ScorecardTable entries={mid} showGradeHeader={isFiltering} />
@@ -149,7 +142,7 @@ export default function ScorecardSearch({ entries }: Props) {
         <section>
           {!isFiltering && (
             <h2 className="mb-3 border-l-4 border-jacket-red pl-3 text-lg font-black uppercase tracking-tight text-jacket-red">
-              Most Flagged — F Grade
+              {d.scorecard_flagged_header}
             </h2>
           )}
           <ScorecardTable entries={flagged} showGradeHeader={isFiltering} />

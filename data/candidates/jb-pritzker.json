@@ -469,6 +469,30 @@
       "date": "2026-03-18",
       "summary": "Fox News reports Pritzker scored a significant political victory as his endorsed candidate Juliana Stratton won the Illinois Senate Democratic primary. Pritzker's top political adviser said 'A lot will be written about JB Pritzker tomorrow \u2014 and for good reason.' Pritzker ran unopposed in the Democratic primary for governor.",
       "sentiment": "positive"
+    },
+    {
+      "title": "'He has to justify what he did': Black leaders slam JB Pritzker after Illinois primary",
+      "url": "https://www.politico.com/news/2026/03/19/pritzker-2028-congressional-black-caucus-tensions-00835266",
+      "source": "Politico",
+      "date": "2026-03-19",
+      "summary": "Hard feelings linger among Black leaders and the Congressional Black Caucus after Pritzker's financial support lifted Juliana Stratton to victory over their preferred candidate in the Democratic Senate primary, raising tensions as Pritzker eyes a national political future.",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Gov. JB Pritzker flexes political muscle through Juliana Stratton's decisive Senate primary win",
+      "url": "https://www.wbez.org/government-politics/elections/2026/03/18/pritzker-stratton-senate-win-endorsement",
+      "source": "WBEZ Chicago",
+      "date": "2026-03-18",
+      "summary": "Analysis of how Pritzker's financial backing and endorsement was the decisive factor in Stratton's Senate primary win, also boosting Margaret Croke in the comptroller race. Pritzker brushed aside national media coverage framing him as kingmaker.",
+      "sentiment": "positive"
+    },
+    {
+      "title": "King of Illinois: Pritzker swings Senate race as he targets Trump",
+      "url": "https://www.politico.com/news/2026/03/18/pritzker-kingmaker-illinois-senate-stratton-00833545",
+      "source": "Politico",
+      "date": "2026-03-18",
+      "summary": "Politico profiles Pritzker as the decisive force in the Illinois primary, spending heavily to back Stratton while positioning himself as a national Democratic leader opposing Trump. Raises questions about Pritzker's 2028 presidential ambitions.",
+      "sentiment": "positive"
     }
   ],
   "transparency_score": {

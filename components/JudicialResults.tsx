@@ -1,6 +1,8 @@
 "use client";
 
 import type { Judge, JudgePrimaryResult } from "@/lib/types";
+import { useLanguage } from "@/lib/i18n";
+import { translations } from "@/lib/translations";
 
 const RETENTION_THRESHOLD = 60; // Illinois retention threshold %
 
@@ -38,10 +40,13 @@ function groupJudges(judges: Judge[]): GroupedJudges {
 }
 
 function ResultStatus({ result }: { result: JudgePrimaryResult | undefined }) {
+  const { lang } = useLanguage();
+  const d = translations[lang];
+
   if (!result || result.status === "pending") {
     return (
       <span className="font-mono text-[10px] uppercase tracking-widest text-zinc-500">
-        Awaiting certification
+        {d.judicial_results_awaiting}
       </span>
     );
   }
@@ -49,7 +54,7 @@ function ResultStatus({ result }: { result: JudgePrimaryResult | undefined }) {
   if (result.status === "uncontested-won") {
     return (
       <span className="flex items-center gap-1 font-mono text-[10px] uppercase tracking-widest text-amber-400">
-        <span>🏆</span> Uncontested — Advances
+        <span>🏆</span> {d.judicial_results_uncontested_advances}
       </span>
     );
   }
@@ -59,10 +64,10 @@ function ResultStatus({ result }: { result: JudgePrimaryResult | undefined }) {
   if (result.status === "won") {
     return (
       <span className="flex items-center gap-1 font-mono text-[10px] uppercase tracking-widest text-green-400">
-        <span>🏆</span> Won
+        <span>🏆</span> {d.judicial_results_won}
         {result.votes && (
           <span className="text-zinc-400">
-            {" "}· {result.votes.toLocaleString()} votes
+            {" "}· {result.votes.toLocaleString()} {d.judicial_results_votes_label}
             {pct !== null && pct !== undefined ? ` (${pct}%)` : ""}
           </span>
         )}
@@ -73,7 +78,7 @@ function ResultStatus({ result }: { result: JudgePrimaryResult | undefined }) {
   if (result.status === "lost") {
     return (
       <span className="font-mono text-[10px] uppercase tracking-widest text-zinc-500">
-        Did not advance
+        {d.judicial_results_did_not_advance}
         {pct !== null && pct !== undefined ? ` · ${pct}%` : ""}
       </span>
     );
@@ -85,7 +90,7 @@ function ResultStatus({ result }: { result: JudgePrimaryResult | undefined }) {
     const close = yes >= RETENTION_THRESHOLD && yes < 65;
     return (
       <span className={`flex items-center gap-1 font-mono text-[10px] uppercase tracking-widest ${comfortable ? "text-green-400" : close ? "text-amber-400" : "text-green-400"}`}>
-        ✓ Retained · {yes.toFixed(1)}% YES
+        ✓ {d.judicial_results_retained} · {yes.toFixed(1)}% {d.judicial_results_yes_label}
       </span>
     );
   }
@@ -94,7 +99,7 @@ function ResultStatus({ result }: { result: JudgePrimaryResult | undefined }) {
     const yes = result.yes_pct ?? 0;
     return (
       <span className="flex items-center gap-1 font-mono text-[10px] uppercase tracking-widest text-red-400">
-        ✗ NOT Retained · {yes.toFixed(1)}% YES
+        ✗ {d.judicial_results_not_retained} · {yes.toFixed(1)}% {d.judicial_results_yes_label}
       </span>
     );
   }
@@ -103,6 +108,8 @@ function ResultStatus({ result }: { result: JudgePrimaryResult | undefined }) {
 }
 
 function RetentionBar({ result }: { result: JudgePrimaryResult }) {
+  const { lang } = useLanguage();
+  const d = translations[lang];
   const yes = result.yes_pct ?? 0;
   const no = result.no_pct ?? 100 - yes;
   const pending = result.status === "pending";
@@ -122,7 +129,7 @@ function RetentionBar({ result }: { result: JudgePrimaryResult }) {
             <div
               className="absolute top-0 z-10 h-full w-0.5 bg-jacket-amber"
               style={{ left: `${RETENTION_THRESHOLD}%` }}
-              title={`${RETENTION_THRESHOLD}% retention threshold`}
+              title={`${RETENTION_THRESHOLD}% ${d.judicial_results_threshold_label}`}
             />
           </>
         )}
@@ -133,15 +140,17 @@ function RetentionBar({ result }: { result: JudgePrimaryResult }) {
 
       {/* Labels */}
       <div className="flex justify-between font-mono text-[9px] uppercase tracking-widest text-zinc-600">
-        <span>YES {pending ? "—" : `${yes.toFixed(1)}%`}</span>
-        <span className="text-jacket-amber/60">{RETENTION_THRESHOLD}% threshold</span>
-        <span>NO {pending ? "—" : `${no.toFixed(1)}%`}</span>
+        <span>{d.judicial_results_yes_label} {pending ? "—" : `${yes.toFixed(1)}%`}</span>
+        <span className="text-jacket-amber/60">{RETENTION_THRESHOLD}% {d.judicial_results_threshold_label}</span>
+        <span>{d.judicial_results_no_label} {pending ? "—" : `${no.toFixed(1)}%`}</span>
       </div>
     </div>
   );
 }
 
 function ContestBar({ result }: { result: JudgePrimaryResult }) {
+  const { lang } = useLanguage();
+  const d = translations[lang];
   const pct = result.yes_pct ?? 0; // For contested races, yes_pct holds the vote %
   const won = result.status === "won";
   const pending = result.status === "pending";
@@ -159,7 +168,7 @@ function ContestBar({ result }: { result: JudgePrimaryResult }) {
       </div>
       {!pending && (
         <div className="mt-0.5 font-mono text-[9px] text-zinc-500">
-          {result.votes?.toLocaleString() ?? "—"} votes · {pct > 0 ? `${pct.toFixed(1)}%` : "—"}
+          {result.votes?.toLocaleString() ?? "—"} {d.judicial_results_votes_label} · {pct > 0 ? `${pct.toFixed(1)}%` : "—"}
         </div>
       )}
     </div>
@@ -184,8 +193,9 @@ function BarRatingBadge({ rating, label }: { rating: string; label: string }) {
 }
 
 function JudgeResultRow({ judge }: { judge: Judge }) {
+  const { lang } = useLanguage();
+  const d = translations[lang];
   const result = judge.primary_result;
-  const isRetention = false; // All judges in our data are contested primary races
   const isContested = !judge.uncontested;
   const hasResult = result && result.status !== "pending";
   const isWon = result?.status === "won" || result?.status === "uncontested-won";
@@ -204,19 +214,21 @@ function JudgeResultRow({ judge }: { judge: Judge }) {
             </span>
             {isWon && !judge.uncontested && hasResult && (
               <span className="rounded-sm bg-green-500/20 px-1.5 py-0.5 font-mono text-[9px] font-bold uppercase tracking-wider text-green-400 border border-green-500/30">
-                WINNER
+                {d.judicial_results_winner}
               </span>
             )}
             {judge.uncontested && (
               <span className="rounded-sm bg-amber-500/10 px-1.5 py-0.5 font-mono text-[9px] uppercase tracking-wider text-amber-400 border border-amber-500/20">
-                Uncontested
+                {d.judicial_results_uncontested}
               </span>
             )}
           </div>
 
           {/* Vacancy / race context */}
           <p className="mt-0.5 font-mono text-[10px] uppercase tracking-widest text-zinc-500">
-            {judge.vacancy_of ? `Vacancy: ${judge.vacancy_of}` : `${judge.subcircuit === "countywide" ? "Countywide" : `${judge.subcircuit} Subcircuit`}`}
+            {judge.vacancy_of
+              ? `${d.judicial_results_vacancy} ${judge.vacancy_of}`
+              : `${judge.subcircuit === "countywide" ? d.judicial_results_countywide : `${judge.subcircuit} ${d.judicial_results_subcircuit}`}`}
           </p>
 
           {/* Status */}
@@ -232,8 +244,8 @@ function JudgeResultRow({ judge }: { judge: Judge }) {
 
         {/* Bar ratings */}
         <div className="flex shrink-0 flex-col items-end gap-1">
-          <BarRatingBadge rating={judge.bar_ratings.alliance_rating} label="Alliance" />
-          <BarRatingBadge rating={judge.bar_ratings.cba_rating} label="CBA" />
+          <BarRatingBadge rating={judge.bar_ratings.alliance_rating} label={d.judges_alliance_label} />
+          <BarRatingBadge rating={judge.bar_ratings.cba_rating} label={d.judges_cba_label} />
         </div>
       </div>
     </div>
@@ -258,6 +270,8 @@ function JudgeGroup({ title, judges }: { title: string; judges: Judge[] }) {
 }
 
 export default function JudicialResults({ judges, showAll = true }: Props) {
+  const { lang } = useLanguage();
+  const d = translations[lang];
   const groups = groupJudges(judges);
   const sortedSubcircuits = Object.entries(groups.subcircuits).sort(([a], [b]) => {
     // Sort subcircuits numerically
@@ -275,43 +289,43 @@ export default function JudicialResults({ judges, showAll = true }: Props) {
       {/* Header bar */}
       <div className="mb-6 flex items-center justify-between flex-wrap gap-2">
         <div>
-          <h2 className="text-2xl font-black uppercase tracking-tight">Judicial Results</h2>
+          <h2 className="text-2xl font-black uppercase tracking-tight">{d.judicial_results_title}</h2>
           <p className="mt-1 text-sm text-zinc-400">
-            {reported} of {total} judges reported · <span className="text-zinc-600">IL retention threshold: {RETENTION_THRESHOLD}%</span>
+            {reported} {d.judicial_results_reported} {total} {d.judicial_results_judges_reported} · <span className="text-zinc-600">{d.judicial_results_retention_threshold} {RETENTION_THRESHOLD}%</span>
           </p>
         </div>
         <div className="font-mono text-[10px] uppercase tracking-widest text-zinc-600">
-          Source: Cook County Clerk
+          {d.judicial_results_source}
         </div>
       </div>
 
       {/* Source note */}
       <div className="mb-6 rounded-sm border border-jacket-amber/20 bg-jacket-amber/5 px-4 py-3 text-xs text-zinc-400">
-        <span className="font-bold text-jacket-amber">First in Chicago</span> — Judicial primary results with bar association ratings.
-        No other major outlet is tracking this. Bar ratings: <span className="text-zinc-300">HR</span> = Highly Recommended,{" "}
-        <span className="text-zinc-300">Q</span> = Qualified, <span className="text-zinc-300">NR/NQ</span> = Not Recommended.
+        <span className="font-bold text-jacket-amber">{d.judicial_results_first_chicago}</span> — {d.judicial_results_first_desc}{" "}
+        {d.judicial_results_bar_legend} <span className="text-zinc-300">HR</span> = {lang === "es" ? "Altamente Recomendado" : "Highly Recommended"},{" "}
+        <span className="text-zinc-300">Q</span> = {lang === "es" ? "Calificado" : "Qualified"},{" "}
+        <span className="text-zinc-300">NR/NQ</span> = {lang === "es" ? "No Recomendado" : "Not Recommended"}.
         <br />
         <span className="text-zinc-600 mt-1 block">
-          All listed judges are in contested Democratic primaries. Winners advance to November general ballot.
-          For judges running uncontested, they advance automatically.
+          {d.judicial_results_contested_note}
         </span>
       </div>
 
       {/* Appellate */}
       {groups.appellate.length > 0 && (
-        <JudgeGroup title="Appellate Court — 1st District" judges={groups.appellate} />
+        <JudgeGroup title={d.judicial_results_appellate} judges={groups.appellate} />
       )}
 
       {/* Countywide Circuit */}
       {groups.circuit_countywide.length > 0 && (
-        <JudgeGroup title="Circuit Court — Countywide" judges={groups.circuit_countywide} />
+        <JudgeGroup title={d.judicial_results_circuit_countywide} judges={groups.circuit_countywide} />
       )}
 
       {/* Subcircuits */}
       {sortedSubcircuits.map(([subcircuit, subcircuitJudges]) => (
         <JudgeGroup
           key={subcircuit}
-          title={`Circuit Court — ${subcircuit} Subcircuit`}
+          title={`${d.judicial_results_circuit_subcircuit} ${subcircuit} ${d.judicial_results_subcircuit}`}
           judges={subcircuitJudges}
         />
       ))}

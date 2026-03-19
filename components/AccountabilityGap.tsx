@@ -1,20 +1,27 @@
+"use client";
+
 import Link from "next/link";
 import type { AccountabilityGap as AccountabilityGapType } from "@/lib/types";
+import { useLanguage } from "@/lib/i18n";
+import { translations } from "@/lib/translations";
 
 type AccountabilityGapProps = {
   gap: AccountabilityGapType;
 };
 
 export default function AccountabilityGap({ gap }: AccountabilityGapProps) {
+  const { lang } = useLanguage();
+  const d = translations[lang];
+
   return (
     <div className="space-y-6 rounded-sm border border-jacket-border bg-jacket-gray/50 p-5">
       {/* Header */}
       <div>
         <h3 className="border-l-2 border-jacket-amber pl-3 text-sm font-black uppercase tracking-widest text-zinc-200">
-          Who&apos;s Watching?
+          {d.accountability_who_watching}
         </h3>
         <p className="mt-2 pl-5 text-sm text-zinc-400">
-          The Sheriff runs the jail. But the Sheriff isn&apos;t the only check. These bodies have oversight power — and accountability of their own.
+          {d.accountability_oversight_desc}
         </p>
       </div>
 
@@ -29,7 +36,7 @@ export default function AccountabilityGap({ gap }: AccountabilityGapProps) {
                   href={`/race/${body.race_link}`}
                   className="font-mono text-xs text-jacket-amber hover:underline"
                 >
-                  → See race on TheJacket
+                  {d.accountability_see_race}
                 </Link>
               ) : null}
             </div>
@@ -44,10 +51,10 @@ export default function AccountabilityGap({ gap }: AccountabilityGapProps) {
       {/* What can I do */}
       <div>
         <h4 className="mb-3 font-mono text-xs font-black uppercase tracking-widest text-jacket-amber">
-          What Can I Do?
+          {d.accountability_what_can_i_do}
         </h4>
         <p className="mb-3 text-sm text-zinc-500">
-          You can&apos;t vote against Thomas Dart in the primary. But you can:
+          {d.accountability_cant_vote}
         </p>
         <ol className="space-y-2">
           {gap.what_you_can_do.map((action, i) => (
@@ -62,7 +69,7 @@ export default function AccountabilityGap({ gap }: AccountabilityGapProps) {
       {/* Read more */}
       <div>
         <h4 className="mb-3 font-mono text-xs font-black uppercase tracking-widest text-jacket-amber">
-          Read More
+          {d.accountability_read_more}
         </h4>
         <ul className="space-y-1.5">
           {gap.read_more.map((link) => (

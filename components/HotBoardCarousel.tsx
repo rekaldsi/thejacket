@@ -9,8 +9,10 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import type { HotSignal } from "./HotBoard";
-import type { BillSignal } from "./HotBoard";
+import type { HotSignal } from "./HotBoardUtils";
+import type { BillSignal } from "./HotBoardUtils";
+import { useLanguage } from "@/lib/i18n";
+import { translations } from "@/lib/translations";
 
 export type FeedSignal = HotSignal | BillSignal;
 
@@ -45,11 +47,15 @@ function typeIcon(type: HotSignal["type"] | "bill") {
   return "📰";
 }
 
-function typeLabel(type: HotSignal["type"] | "bill") {
-  if (type === "red_flag") return "FLAG";
-  if (type === "donor") return "DONOR";
-  if (type === "bill") return "BILL";
-  return "NEWS";
+function typeLabel(type: HotSignal["type"] | "bill", lang: "en" | "es") {
+  const labels = {
+    en: { red_flag: "FLAG", donor: "DONOR", bill: "BILL", news: "NEWS" },
+    es: { red_flag: "ALERTA", donor: "DONANTE", bill: "PROYECTO", news: "NOTICIA" },
+  };
+  if (type === "red_flag") return labels[lang].red_flag;
+  if (type === "donor") return labels[lang].donor;
+  if (type === "bill") return labels[lang].bill;
+  return labels[lang].news;
 }
 
 function formatOffice(office: string) {
@@ -76,6 +82,8 @@ function seededShuffle<T>(arr: T[], seed: number): T[] {
 }
 
 export default function HotBoardCarousel({ signals }: Props) {
+  const { lang } = useLanguage();
+  const d = translations[lang];
   const trackRef = useRef<HTMLDivElement>(null);
   const [paused, setPaused] = useState(false);
   const animRef = useRef<number | null>(null);
@@ -164,12 +172,12 @@ export default function HotBoardCarousel({ signals }: Props) {
             : formatOffice((signal as HotSignal).office);
 
           const footerText = isBill
-            ? "Read full bill →"
+            ? d.carousel_read_bill
             : isExternalNews
-            ? `↗ ${(() => { try { return new URL((signal as HotSignal).source!).hostname.replace("www.", ""); } catch { return "Source"; } })()} (opens article)`
+            ? `↗ ${(() => { try { return new URL((signal as HotSignal).source!).hostname.replace("www.", ""); } catch { return "Source"; } })()} (${d.carousel_opens_article})`
             : signal.type === "donor"
-            ? "View finance →"
-            : "View red flags →";
+            ? d.carousel_view_finance
+            : d.carousel_view_flags;
 
           return (
             <Link
@@ -188,7 +196,7 @@ export default function HotBoardCarousel({ signals }: Props) {
                   {displayName}
                 </span>
                 <span className={`ml-auto shrink-0 rounded px-1.5 py-0.5 font-mono text-[9px] uppercase tracking-wide ${cfg.badge}`}>
-                  {typeIcon(signal.type)} {typeLabel(signal.type)}
+                  {typeIcon(signal.type)} {typeLabel(signal.type, lang)}
                 </span>
               </div>
 
@@ -221,7 +229,7 @@ export default function HotBoardCarousel({ signals }: Props) {
       {paused && (
         <div className="pointer-events-none absolute bottom-2 right-20 z-20">
           <span className="rounded bg-zinc-900/80 px-2 py-0.5 font-mono text-[9px] uppercase tracking-widest text-zinc-500">
-            ⏸ paused
+            {d.carousel_paused}
           </span>
         </div>
       )}

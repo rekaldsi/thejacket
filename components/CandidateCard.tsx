@@ -1,7 +1,11 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import type { Candidate } from "@/lib/types";
 import MoneyAmount from "@/components/MoneyAmount";
+import { useLanguage } from "@/lib/i18n";
+import { translations } from "@/lib/translations";
 
 type CandidateCardProps = {
   candidate: Candidate;
@@ -22,6 +26,8 @@ function getPartyPillClasses(party: string) {
 }
 
 export default function CandidateCard({ candidate }: CandidateCardProps) {
+  const { lang } = useLanguage();
+  const d = translations[lang];
   const initials = getInitials(candidate.name);
   const flagCount = candidate.red_flags.length;
   const isWithdrawn = candidate.status === "withdrawn";
@@ -45,26 +51,26 @@ export default function CandidateCard({ candidate }: CandidateCardProps) {
             <h3 className={`text-base font-bold ${isWithdrawn ? "line-through text-zinc-500" : ""}`}>{candidate.name}</h3>
             <span className={`rounded-full px-2 py-0.5 text-xs ${getPartyPillClasses(candidate.party)}`}>{candidate.party}</span>
             {isWithdrawn && (
-              <span className="rounded-full bg-zinc-800 px-2 py-0.5 text-xs font-mono uppercase tracking-wider text-zinc-400">Withdrawn</span>
+              <span className="rounded-full bg-zinc-800 px-2 py-0.5 text-xs font-mono uppercase tracking-wider text-zinc-400">{d.card_withdrawn_label}</span>
             )}
             {!isWithdrawn && candidate.data_status === "limited" && (
-              <span className="rounded-full bg-zinc-700 px-2 py-0.5 text-xs text-zinc-400">Limited Data</span>
+              <span className="rounded-full bg-zinc-700 px-2 py-0.5 text-xs text-zinc-400">{d.card_limited_data_label}</span>
             )}
           </div>
           <p className="mt-1 text-xs text-zinc-400">{candidate.office}</p>
 
           {isWithdrawn ? (
             <p className="mt-2 text-xs text-zinc-600 italic">
-              {candidate.withdrawal_note ?? "Withdrew from race."}
+              {candidate.withdrawal_note ?? d.card_withdrew_default}
             </p>
           ) : (
             <div className="mt-2 border-t border-jacket-border/50 pt-2">
               <div className="flex items-center justify-between font-mono text-sm">
-                <span className="text-zinc-400">Raised</span>
+                <span className="text-zinc-400">{d.card_raised_label}</span>
                 <MoneyAmount value={candidate.jacket.total_raised} />
               </div>
               <p className={`mt-2 text-xs ${flagCount > 0 ? "text-jacket-red" : "text-zinc-600"}`}>
-                {flagCount > 0 ? `🚩 ${flagCount}` : "- none"}
+                {flagCount > 0 ? `🚩 ${flagCount}` : d.card_no_flags}
               </p>
             </div>
           )}

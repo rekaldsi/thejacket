@@ -4,7 +4,7 @@ import { buildScorecard } from "@/lib/scoring";
 import { scoreJudge } from "@/lib/judgeScoring";
 import { getFeaturedBills } from "@/lib/bills";
 import HotBoardCarousel from "@/components/HotBoardCarousel";
-import { extractSignals, extractBillSignals } from "@/components/HotBoard";
+import { extractSignals, extractBillSignals } from "@/components/HotBoardUtils";
 import type { FeedSignal } from "@/components/HotBoardCarousel";
 import HeroSection from "@/components/HeroSection";
 import IntelGrid from "@/components/IntelGrid";

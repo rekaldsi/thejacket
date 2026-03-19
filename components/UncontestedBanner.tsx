@@ -1,4 +1,8 @@
+"use client";
+
 import Link from "next/link";
+import { useLanguage } from "@/lib/i18n";
+import { translations } from "@/lib/translations";
 
 type UncontestedBannerProps = {
   count: number;
@@ -6,7 +10,9 @@ type UncontestedBannerProps = {
 };
 
 export default function UncontestedBanner({ count, topCandidate }: UncontestedBannerProps) {
-  const officeLabel = count === 1 ? "office" : "offices";
+  const { lang } = useLanguage();
+  const d = translations[lang];
+  const officeLabel = count === 1 ? d.uncontested_banner_offices_singular : d.uncontested_banner_offices_plural;
 
   return (
     <Link
@@ -18,21 +24,22 @@ export default function UncontestedBanner({ count, topCandidate }: UncontestedBa
           <div className="flex items-center gap-2.5">
             <span className="h-2 w-2 animate-pulse rounded-full bg-jacket-amber" />
             <p className="font-mono text-sm font-black uppercase tracking-[0.18em] text-jacket-amber">
-              ⚠️ Running Alone —{" "}
+              ⚠️ {d.uncontested_banner_heading}{" "}
               <span className="text-white">
-                {count} {officeLabel} with no competition
+                {count} {officeLabel}
               </span>
             </p>
           </div>
           <p className="pl-4 text-sm text-zinc-400">
-            No challenger doesn&apos;t mean no record.{" "}
+            {d.uncontested_banner_body}{" "}
             <span className="text-zinc-500">
-              Featuring {topCandidate} and {count - 1 > 0 ? `${count - 1} more` : "others"}.
+              {d.uncontested_banner_featuring} {topCandidate}{" "}
+              {count - 1 > 0 ? `${lang === "es" ? "y" : "and"} ${count - 1} ${d.uncontested_banner_and_more}` : `${lang === "es" ? "y" : "and"} ${d.uncontested_banner_and_others}`}.
             </span>
           </p>
         </div>
         <span className="shrink-0 font-mono text-xs uppercase tracking-widest text-jacket-amber group-hover:underline">
-          See the full list →
+          {d.uncontested_banner_cta}
         </span>
       </div>
     </Link>

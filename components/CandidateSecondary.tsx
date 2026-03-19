@@ -3,11 +3,15 @@
 import { useState } from "react";
 import AccountabilityGap from "@/components/AccountabilityGap";
 import type { Candidate } from "@/lib/types";
+import { useLanguage } from "@/lib/i18n";
+import { translations } from "@/lib/translations";
 
 const sectionHeader =
   "border-l-2 border-jacket-amber pl-3 text-sm font-black uppercase tracking-widest text-zinc-200";
 
 export default function CandidateSecondary({ candidate }: { candidate: Candidate }) {
+  const { lang } = useLanguage();
+  const d = translations[lang];
   const [expanded, setExpanded] = useState(false);
 
   const hasCareer = candidate.career_history && candidate.career_history.length > 0;
@@ -29,7 +33,7 @@ export default function CandidateSecondary({ candidate }: { candidate: Candidate
           onClick={() => setExpanded(!expanded)}
           className="w-full border border-jacket-border px-4 py-3 font-mono text-sm font-black uppercase tracking-widest text-zinc-300 transition-colors hover:border-jacket-amber hover:text-jacket-amber"
         >
-          {expanded ? "Collapse ↑" : "Full Record ↓"}
+          {expanded ? d.secondary_collapse : d.secondary_expand}
         </button>
       </div>
 
@@ -39,7 +43,7 @@ export default function CandidateSecondary({ candidate }: { candidate: Candidate
         {/* Career History */}
         {hasCareer && (
           <section className="space-y-4">
-            <h2 className={sectionHeader}>Career History</h2>
+            <h2 className={sectionHeader}>{d.secondary_career_header}</h2>
             <ol className="space-y-4 border-l-2 border-zinc-800 pl-4">
               {candidate.career_history!.map((entry, i) => (
                 <li key={i} className="relative">
@@ -63,7 +67,7 @@ export default function CandidateSecondary({ candidate }: { candidate: Candidate
         {/* Policy Platform */}
         {hasPlatform && (
           <section className="space-y-4">
-            <h2 className={sectionHeader}>What They Stand For</h2>
+            <h2 className={sectionHeader}>{d.secondary_platform_header}</h2>
             <div className="grid gap-3 sm:grid-cols-2">
               {candidate.policy_platform!.map((item, i) => {
                 // Handle both string and object formats gracefully
@@ -86,7 +90,7 @@ export default function CandidateSecondary({ candidate }: { candidate: Candidate
                       rel="noreferrer"
                       className="mt-1 block text-xs text-zinc-500 hover:text-jacket-amber hover:underline"
                     >
-                      ↗ Source
+                      {d.secondary_source}
                     </a>
                   ) : null}
                 </div>
@@ -99,7 +103,7 @@ export default function CandidateSecondary({ candidate }: { candidate: Candidate
         {/* Endorsements */}
         {hasEndorsements && (
           <section className="space-y-3">
-            <h2 className={sectionHeader}>Endorsements</h2>
+            <h2 className={sectionHeader}>{d.secondary_endorsements_header}</h2>
             <ul className="list-disc space-y-2 pl-5 text-sm text-zinc-300">
               {candidate.endorsements.map((endorsement) => (
                 <li key={endorsement.org}>
@@ -114,7 +118,7 @@ export default function CandidateSecondary({ candidate }: { candidate: Candidate
         {/* Social Media Pulse */}
         {hasSocial && (
           <section className="space-y-3">
-            <h2 className={sectionHeader}>Social Media Pulse</h2>
+            <h2 className={sectionHeader}>{d.secondary_social_header}</h2>
             <div className="space-y-3 border border-jacket-border p-4">
               <div className="flex items-center gap-3">
                 <span
@@ -129,17 +133,17 @@ export default function CandidateSecondary({ candidate }: { candidate: Candidate
                   }`}
                 >
                   {candidate.social_pulse!.sentiment === "low-profile"
-                    ? "low profile"
+                    ? d.secondary_low_profile
                     : candidate.social_pulse!.sentiment}
                 </span>
                 <span className="font-mono text-xs text-zinc-600">
-                  Updated {candidate.social_pulse!.last_updated}
+                  {d.secondary_updated} {candidate.social_pulse!.last_updated}
                 </span>
               </div>
               <p className="text-sm text-zinc-300">{candidate.social_pulse!.summary}</p>
               {candidate.social_pulse!.sentiment === "low-profile" && (
                 <p className="text-xs italic text-zinc-500">
-                  Low profile means limited public presence — not a red flag on its own.
+                  {d.secondary_low_profile_note}
                 </p>
               )}
               {candidate.social_pulse!.hashtags && candidate.social_pulse!.hashtags.length > 0 ? (
@@ -161,7 +165,7 @@ export default function CandidateSecondary({ candidate }: { candidate: Candidate
         {/* Trust Indicators */}
         {hasTrust && (
           <section className="space-y-3">
-            <h2 className={sectionHeader}>Trust Indicators</h2>
+            <h2 className={sectionHeader}>{d.secondary_trust_header}</h2>
             <ul className="space-y-2">
               {candidate.trust_indicators!.map((indicator, i) => (
                 <li key={i} className="flex items-start gap-2 text-sm">

@@ -1,4 +1,8 @@
+"use client";
+
 import type { JailTimelineEvent } from "@/lib/types";
+import { useLanguage } from "@/lib/i18n";
+import { translations } from "@/lib/translations";
 
 type JailDeathTimelineProps = {
   events: JailTimelineEvent[];
@@ -38,24 +42,27 @@ function getTextColor(type: JailTimelineEvent["type"]) {
   }
 }
 
-function getTypeLabel(type: JailTimelineEvent["type"]) {
-  switch (type) {
-    case "death":
-      return { label: "Death in Custody", classes: "bg-red-900/50 text-red-300" };
-    case "legal":
-      return { label: "Legal Action", classes: "bg-yellow-900/40 text-yellow-400" };
-    case "ethics":
-      return { label: "Ethics", classes: "bg-orange-900/40 text-orange-400" };
-    case "election":
-      return { label: "Election", classes: "bg-zinc-800 text-zinc-400" };
-    case "milestone":
-      return { label: "Milestone", classes: "bg-blue-900/40 text-blue-400" };
-    default:
-      return { label: type, classes: "bg-zinc-800 text-zinc-400" };
-  }
-}
-
 export default function JailDeathTimeline({ events }: JailDeathTimelineProps) {
+  const { lang } = useLanguage();
+  const d = translations[lang];
+
+  function getTypeLabel(type: JailTimelineEvent["type"]) {
+    switch (type) {
+      case "death":
+        return { label: d.timeline_death_label, classes: "bg-red-900/50 text-red-300" };
+      case "legal":
+        return { label: d.timeline_legal_label, classes: "bg-yellow-900/40 text-yellow-400" };
+      case "ethics":
+        return { label: d.timeline_ethics_label, classes: "bg-orange-900/40 text-orange-400" };
+      case "election":
+        return { label: d.timeline_election_label, classes: "bg-zinc-800 text-zinc-400" };
+      case "milestone":
+        return { label: d.timeline_milestone_label, classes: "bg-blue-900/40 text-blue-400" };
+      default:
+        return { label: type, classes: "bg-zinc-800 text-zinc-400" };
+    }
+  }
+
   return (
     <div className="relative space-y-0">
       {/* Vertical line */}
