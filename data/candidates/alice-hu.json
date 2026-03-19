@@ -71,9 +71,10 @@
     "computed_at": "2026-03-19"
   },
   "primary_result": {
-    "status": "pending",
+    "status": "won",
     "votes": null,
-    "pct": null,
-    "updated": null
-  }
+    "pct": 100.0,
+    "updated": "2026-03-19"
+  },
+  "status": "winner"
 }

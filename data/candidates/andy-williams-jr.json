@@ -6,7 +6,7 @@
   "race_id": "il-attorney-general-r-2026",
   "incumbent": false,
   "bio": "Andy Williams Jr. is one of two Republicans in the 2026 Illinois Attorney General primary, competing against Bob Fioretti for the right to face Democratic incumbent Kwame Raoul in November. Very limited public profile information is available from research conducted for this filing. Campaign finance data and full biographical details were not found in publicly available sources as of March 14, 2026.",
-  "prior_office": "Unknown — not confirmed in available sources",
+  "prior_office": "Unknown \u2014 not confirmed in available sources",
   "website": null,
   "photo_url": null,
   "jacket": {
@@ -41,9 +41,9 @@
     "computed_at": "2026-03-19"
   },
   "primary_result": {
-    "status": "pending",
+    "status": "lost",
     "votes": null,
     "pct": null,
-    "updated": null
+    "updated": "2026-03-19"
   }
 }

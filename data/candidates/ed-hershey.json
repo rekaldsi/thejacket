@@ -94,9 +94,10 @@
   "fec_candidate_id": "H2IL04178",
   "fec_committee_id": "C00814954",
   "primary_result": {
-    "status": "pending",
+    "status": "won",
     "votes": null,
-    "pct": null,
-    "updated": null
-  }
+    "pct": 100.0,
+    "updated": "2026-03-19"
+  },
+  "status": "winner"
 }
