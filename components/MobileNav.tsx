@@ -110,6 +110,20 @@ export default function MobileNav() {
                 </Link>
               ))}
 
+              {/* Placeholder nav items — coming November 2026 */}
+              {[
+                { label: "Bills" },
+                { label: "My Ballot" },
+              ].map(({ label }) => (
+                <span
+                  key={label}
+                  className="w-full rounded-sm py-5 text-center font-mono text-base uppercase tracking-widest text-zinc-600 opacity-40 cursor-not-allowed border-b border-jacket-border/30"
+                  title="Coming November 2026"
+                >
+                  {label}
+                </span>
+              ))}
+
               {/* Booth Mode CTA — prominent, full width */}
               <div className="w-full pt-6">
                 <Link
