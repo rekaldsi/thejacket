@@ -4,8 +4,8 @@
   "party": "Democratic",
   "office": "Illinois Secretary of State",
   "race_id": "il-secretary-of-state-d-2026",
-  "bio": "Alexi Giannoulias has served as Illinois Secretary of State since January 2023, elected in November 2022. He previously served as Illinois State Treasurer from 2007 to 2011. In 2010, he ran for the U.S. Senate seat vacated by Barack Obama, losing to Republican Mark Kirk by 2 percentage points. His family owned Broadway Bank in Chicago, which failed in April 2010 during the financial crisis — an issue that dogged his 2010 Senate campaign. As Secretary of State, he has focused on driver's license access, voting rights, and digitizing state services.",
-  "prior_office": "Illinois Secretary of State (2023–present); Illinois State Treasurer (2007–2011)",
+  "bio": "Alexi Giannoulias has served as Illinois Secretary of State since January 2023, elected in November 2022. He previously served as Illinois State Treasurer from 2007 to 2011. In 2010, he ran for the U.S. Senate seat vacated by Barack Obama, losing to Republican Mark Kirk by 2 percentage points. His family owned Broadway Bank in Chicago, which failed in April 2010 during the financial crisis \u2014 an issue that dogged his 2010 Senate campaign. As Secretary of State, he has focused on driver's license access, voting rights, and digitizing state services.",
+  "prior_office": "Illinois Secretary of State (2023\u2013present); Illinois State Treasurer (2007\u20132011)",
   "website": "https://www.ilsos.gov",
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Alexi_Giannoulias_official_photo.jpg/440px-Alexi_Giannoulias_official_photo.jpg",
   "data_status": "partial",
@@ -18,7 +18,7 @@
   },
   "red_flags": [
     {
-      "title": "Broadway Bank failure — family bank collapsed during 2010 financial crisis",
+      "title": "Broadway Bank failure \u2014 family bank collapsed during 2010 financial crisis",
       "description": "Broadway Bank, owned by the Giannoulias family, was seized by federal regulators and failed in April 2010. The bank had made loans to convicted criminals including Tony Rezko and Michael 'Jaws' Giorango, and had expanded its risky loan portfolio significantly under Alexi's tenure as senior loan officer (2002-2006) before he became State Treasurer. The failure became a major issue in his 2010 U.S. Senate race.",
       "source": "https://www.chicagotribune.com/2010/04/23/fdic-seizes-broadway-bank/",
       "confirmed": true,
@@ -98,6 +98,22 @@
       "source": "Chicago Tribune",
       "date": "2026-03-07",
       "summary": "Tribune preview of the Republican primary to oppose Giannoulias in November. Notes two underfunded Republicans contested the GOP primary while Giannoulias ran unopposed on the Democratic side. In the 2022 general election Giannoulias won with 54% over Republican Dan Brady. He is heavily favored for reelection in the November general election.",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Giannoulias Cruises: Unopposed in Democratic Primary, GOP Brawls for Illinois Secretary of State",
+      "url": "https://hoodline.com/2026/03/giannoulias-cruises-as-gop-brawls-over-illinois-secretary-of-state-job/",
+      "source": "Hoodline",
+      "date": "2026-03-20",
+      "summary": "Alexi Giannoulias advances unopposed in the Democratic primary. On the Republican side, Diane Harris and Walter Adamczyk contested the GOP nomination. Giannoulias heads to the general as a heavy favorite.",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Illinois Secretary of State Primary Election 2026 Live Results",
+      "url": "https://www.nbcnews.com/politics/2026-primary-elections/illinois-secretary-of-state-results",
+      "source": "NBC News",
+      "date": "2026-03-20",
+      "summary": "NBC News confirms Giannoulias is unopposed in the Democratic primary as he seeks a second term as Illinois Secretary of State.",
       "sentiment": "positive"
     }
   ],
