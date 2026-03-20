@@ -5,7 +5,7 @@
   "office": "U.S. House (IL-08)",
   "race_id": "il-08-us-house-d-2026",
   "bio": "Melissa Conyears-Ervin has served as Chicago City Treasurer since 2019, managing the city's investment portfolio and overseeing financial operations. She previously served in the Illinois General Assembly. As City Treasurer she has focused on financial literacy programs and equitable banking access.",
-  "prior_office": "Chicago City Treasurer (2019–present); Illinois State Representative",
+  "prior_office": "Chicago City Treasurer (2019\u2013present); Illinois State Representative",
   "website": null,
   "photo_url": null,
   "data_status": "partial",
@@ -73,7 +73,7 @@
       "url": "https://www.nytimes.com/2026/03/18/us/elections/illinois-primary-elections-takeaways.html",
       "source": "New York Times",
       "date": "2026-03-18",
-      "summary": "NYT takeaways highlight Conyears-Ervin's defeat as AIPAC's most notable Illinois primary loss — $5M in spending could not overcome a divided anti-AIPAC vote in the crowded IL-07 field. Ford's win is seen as a setback for the pro-Israel lobby's 2026 congressional strategy.",
+      "summary": "NYT takeaways highlight Conyears-Ervin's defeat as AIPAC's most notable Illinois primary loss \u2014 $5M in spending could not overcome a divided anti-AIPAC vote in the crowded IL-07 field. Ford's win is seen as a setback for the pro-Israel lobby's 2026 congressional strategy.",
       "sentiment": "negative"
     },
     {
@@ -90,6 +90,22 @@
       "source": "Roll Call",
       "date": "2026-03-18",
       "summary": "Roll Call post-primary analysis confirms Melissa Bean won the Democratic primary for Illinois' 8th District, defeating Melissa Conyears-Ervin and six other candidates. Bean is now the Democratic nominee and heavily favored in the November general election in the safely Democratic suburban Chicago district. Conyears-Ervin's loss ends her bid to return to elected office after leaving the Chicago City Treasurer role.",
+      "sentiment": "negative"
+    },
+    {
+      "title": "AIPAC Spent $12 Million Losing Illinois Primary Elections \u2014 Including $5M for Conyears-Ervin in IL-07",
+      "url": "https://www.newsweek.com/aipac-illinois-democratic-primary-elections-11694996",
+      "source": "Newsweek",
+      "date": "2026-03-19",
+      "summary": "Newsweek's post-primary accounting of AIPAC's $12M+ spending across Illinois. United Democracy Project (AIPAC-affiliated) spent $5 million in the 7th Congressional District, mostly backing Conyears-Ervin \u2014 one of AIPAC's biggest single-race investments in Illinois. Despite the spending, La Shawn Ford won the crowded 13-candidate field, handing AIPAC one of its highest-profile losses of the cycle.",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Super PAC scorecard \u2014 how outside spending groups fared in efforts to influence Illinois primary voters",
+      "url": "https://www.wbez.org/government-politics/elections/2026/03/18/illinois-primary-super-pac-spending-aipac-cryptocurrency-ai-sports-betting",
+      "source": "WBEZ",
+      "date": "2026-03-18",
+      "summary": "WBEZ's PAC scorecard confirms United Democracy Project spent $5 million in the 7th Congressional District backing Melissa Conyears-Ervin. She lost to La Shawn Ford. The loss was widely seen as a significant AIPAC defeat in a crowded field, despite Conyears-Ervin having strong name recognition from her time as Chicago City Treasurer.",
       "sentiment": "negative"
     }
   ],
