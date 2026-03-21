@@ -4,8 +4,8 @@
   "party": "Democratic",
   "office": "Illinois Comptroller",
   "race_id": "il-comptroller-d-2026",
-  "bio": "Holly Kim is the Lake County Treasurer, currently serving her second term, and is running for Illinois Comptroller in the four-way Democratic primary on March 17, 2026. She earned a high school diploma from Glenbrook North High School and a bachelor's degree from Northeastern Illinois University. If elected, she would make history as the first Asian American elected to a statewide constitutional office in Illinois. Kim was first elected Lake County Treasurer in 2018 and reelected. As Lake County Treasurer, she oversees an office that processes and cuts $73.5 million in checks and $2.8 billion in ACH distributions annually \u2014 a function she argues is directly analogous to the Comptroller's core work. Under her leadership, the Lake County Treasurer's office secured record investment earnings of over $3.2 million in a single year, representing a 200%+ increase from when she took office. She serves as a Commissioner for the Bank On Illinois initiative under the Illinois Comptroller's Office, giving her direct familiarity with the statewide operation. She is affiliated with Mano a Mano, the Hanul Family Alliance, the Illinois Asian American Caucus, the Democratic Party of Lake County, and the Fremont Township Democrats. The four-candidate Democratic primary also includes Rep. Margaret Croke (top fundraiser), Rep. Karina Villa, and Rep. Stephanie Kifowit. Kim carries the explicit endorsement of outgoing Comptroller Susana Mendoza. Kim has described her background in technology and process improvement as core to her platform, including pushing back against misuse of license plate reader data as a Village Trustee in Mundelein in 2013.",
-  "prior_office": "Lake County Treasurer (2018\u2013present, serving second term); Village Trustee, Mundelein (prior); Township Director, Fremont Township",
+  "bio": "Holly Kim is the Lake County Treasurer, currently serving her second term, and is running for Illinois Comptroller in the four-way Democratic primary on March 17, 2026. She earned a high school diploma from Glenbrook North High School and a bachelor's degree from Northeastern Illinois University. If elected, she would make history as the first Asian American elected to a statewide constitutional office in Illinois. Kim was first elected Lake County Treasurer in 2018 and reelected. As Lake County Treasurer, she oversees an office that processes and cuts $73.5 million in checks and $2.8 billion in ACH distributions annually — a function she argues is directly analogous to the Comptroller's core work. Under her leadership, the Lake County Treasurer's office secured record investment earnings of over $3.2 million in a single year, representing a 200%+ increase from when she took office. She serves as a Commissioner for the Bank On Illinois initiative under the Illinois Comptroller's Office, giving her direct familiarity with the statewide operation. She is affiliated with Mano a Mano, the Hanul Family Alliance, the Illinois Asian American Caucus, the Democratic Party of Lake County, and the Fremont Township Democrats. The four-candidate Democratic primary also includes Rep. Margaret Croke (top fundraiser), Rep. Karina Villa, and Rep. Stephanie Kifowit. Kim carries the explicit endorsement of outgoing Comptroller Susana Mendoza. Kim has described her background in technology and process improvement as core to her platform, including pushing back against misuse of license plate reader data as a Village Trustee in Mundelein in 2013.",
+  "prior_office": "Lake County Treasurer (2018–present, serving second term); Village Trustee, Mundelein (prior); Township Director, Fremont Township",
   "website": "https://www.voteforhollykim.com",
   "photo_url": null,
   "jacket": {
@@ -14,7 +14,7 @@
     "cash_on_hand": 327936.5,
     "data_date": "2026-03-14",
     "source": "https://illinoissunshine.org/committees/friends-of-holly-kim-32198/",
-    "note": "ILSBE committee ID 32198 ('Friends of Holly Kim') confirmed. Dec 31, 2025 quarterly report: $240,991.30 funds available + $86,945.20 contributions since Dec 31 = $327,936.50 cash on hand. $34.59 in investments, $2,000 in debts. Top donor: Teamsters Local 705 PAC Account $78,000 (March 11, 2026 \u2014 very recent). Holly Kim herself contributed $23,362.60. Lake County Democratic Central Committee gave $21,322.77. Ethereum donation of $8,158.84 (cryptocurrency contribution \u2014 notable). Old National Bank, Clarity Partners LLC, Leonard Law Group, and multiple Teamster locals all in top donors, indicating strong labor and local business support base. Fourth in fundraising in IL Comptroller race.",
+    "note": "ILSBE committee ID 32198 ('Friends of Holly Kim') confirmed. Dec 31, 2025 quarterly report: $240,991.30 funds available + $86,945.20 contributions since Dec 31 = $327,936.50 cash on hand. $34.59 in investments, $2,000 in debts. Top donor: Teamsters Local 705 PAC Account $78,000 (March 11, 2026 — very recent). Holly Kim herself contributed $23,362.60. Lake County Democratic Central Committee gave $21,322.77. Ethereum donation of $8,158.84 (cryptocurrency contribution — notable). Old National Bank, Clarity Partners LLC, Leonard Law Group, and multiple Teamster locals all in top donors, indicating strong labor and local business support base. Fourth in fundraising in IL Comptroller race.",
     "donors": [
       {
         "name": "Teamsters Local 705 PAC Account",
@@ -198,8 +198,8 @@
   "red_flags": [],
   "key_votes": [
     {
-      "bill": "License Plate Reader (LPR) Data Privacy Restrictions \u2014 Mundelein Village Board, 2013",
-      "vote": "Yes \u2014 championed",
+      "bill": "License Plate Reader (LPR) Data Privacy Restrictions — Mundelein Village Board, 2013",
+      "vote": "Yes — championed",
       "summary": "As Village Trustee in Mundelein, Kim pushed back against proposed uses of license plate reader data, insisting on strong guardrails to prevent surveillance overreach. The policy was adopted with her restrictions in place. Kim cites this as foundational to her ongoing data privacy advocacy.",
       "source": "https://www.voteforhollykim.com"
     }
@@ -217,13 +217,13 @@
     {
       "role": "Lake County Treasurer",
       "org": "Lake County, Illinois",
-      "years": "2018\u2013present",
+      "years": "2018–present",
       "highlight": "Serving second term. Oversees $2.8B in ACH distributions annually. Achieved record investment earnings of over $3.2M in a single year (200%+ increase). Manages unionized AFSCME workforce. Added credit unions as property tax collection sites to improve access for working families."
     },
     {
       "role": "Village Trustee",
       "org": "Village of Mundelein, Illinois",
-      "years": "circa 2013\u20132018",
+      "years": "circa 2013–2018",
       "highlight": "Pushed back against misuse of LPR data. Only board member to oppose Governor Rauner's Turnaround Agenda; her pushback helped prevent it from advancing."
     },
     {
@@ -253,7 +253,7 @@
     },
     {
       "topic": "Prevailing Wage Enforcement",
-      "position": "Strengthen and expand enforcement of prevailing wage laws; invest in the Comptroller's Prevailing Wage Department to ensure workers on public projects are paid legally required wages. Pro-union \u2014 manages AFSCME-represented workforce as Treasurer.",
+      "position": "Strengthen and expand enforcement of prevailing wage laws; invest in the Comptroller's Prevailing Wage Department to ensure workers on public projects are paid legally required wages. Pro-union — manages AFSCME-represented workforce as Treasurer.",
       "source": "https://www.voteforhollykim.com"
     },
     {
@@ -284,17 +284,17 @@
   },
   "trust_indicators": [
     {
-      "label": "Endorsed by incumbent Comptroller Susana Mendoza \u2014 confirmed",
+      "label": "Endorsed by incumbent Comptroller Susana Mendoza — confirmed",
       "value": true,
       "type": "positive"
     },
     {
-      "label": "Two terms as elected Lake County Treasurer \u2014 confirmed",
+      "label": "Two terms as elected Lake County Treasurer — confirmed",
       "value": true,
       "type": "positive"
     },
     {
-      "label": "Manages $2.8B in ACH distributions annually \u2014 confirmed via Ballotpedia survey",
+      "label": "Manages $2.8B in ACH distributions annually — confirmed via Ballotpedia survey",
       "value": true,
       "type": "positive"
     },
@@ -386,7 +386,7 @@
       "url": "https://www.chicagotribune.com/2026/03/16/lake-county-primaries/",
       "source": "Chicago Tribune",
       "date": "2026-03-16",
-      "summary": "Tribune election-eve report on Lake County primary turnout expectations. Lake County Clerk Anthony Vega projects ~15% of the county's 461,338 registered voters will cast ballots. Relevant to Holly Kim \u2014 the Lake County Treasurer \u2014 as she depends heavily on Lake County name recognition and local Democratic support as her base for the statewide Comptroller race.",
+      "summary": "Tribune election-eve report on Lake County primary turnout expectations. Lake County Clerk Anthony Vega projects ~15% of the county's 461,338 registered voters will cast ballots. Relevant to Holly Kim — the Lake County Treasurer — as she depends heavily on Lake County name recognition and local Democratic support as her base for the statewide Comptroller race.",
       "sentiment": "neutral"
     },
     {
@@ -446,7 +446,7 @@
       "sentiment": "negative"
     },
     {
-      "title": "Super PAC scorecard \u2014 how outside spending groups fared in efforts to influence Illinois primary voters",
+      "title": "Super PAC scorecard — how outside spending groups fared in efforts to influence Illinois primary voters",
       "url": "https://www.wbez.org/government-politics/elections/2026/03/18/illinois-primary-super-pac-spending-aipac-cryptocurrency-ai-sports-betting",
       "source": "WBEZ",
       "date": "2026-03-18",
@@ -491,6 +491,6 @@
     "votes": 57289,
     "pct": 20.74,
     "updated": "2026-03-18T20:00:00.000Z",
-    "pct_note": "Early count showed 20.74%; Tribune March 18 update shows ~24% at 92% reporting \u2014 final count pending outstanding Chicago mail-in ballots"
+    "pct_note": "Early count showed 20.74%; Tribune March 18 update shows ~24% at 92% reporting — final count pending outstanding Chicago mail-in ballots"
   }
 }
