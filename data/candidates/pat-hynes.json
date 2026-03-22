@@ -5,13 +5,13 @@
   "office": "Cook County Assessor",
   "race_id": "cook-county-assessor-d-2026",
   "bio": "Patrick (Pat) Hynes has served as Lyons Township Assessor since 2021 and brings 30 years of property tax experience to his challenge of incumbent Fritz Kaegi. He is also a firefighter and EMT. His campaign focuses on assessment accuracy errors he attributes to Kaegi's tenure. (Source: Ballotpedia Cook County Assessor 2026)",
-  "prior_office": "Lyons Township Assessor (2021–present)",
+  "prior_office": "Lyons Township Assessor (2021\u2013present)",
   "website": "https://www.assessorhynes.com",
   "jacket": {
     "total_raised": 1613074,
     "data_date": "2026-03-13",
     "source": "https://www.illinoissunshine.org/committees/hynes-for-assessor-36733/",
-    "note": "ILSBE committee totals pending ETL import. County race — no FEC filing.",
+    "note": "ILSBE committee totals pending ETL import. County race \u2014 no FEC filing.",
     "donors": [
       {
         "name": "Chicagoland Operators Joint Labor-Management PAC",
@@ -89,55 +89,55 @@
     {
       "type": "ethics",
       "label": "Heavy construction union donor network (Laborers/Operating Engineers/Carpenters)",
-      "detail": "Heavy construction union donor network (Laborers/Operating Engineers/Carpenters) raises pay-to-play concerns — property tax attorneys and construction industry could benefit from favorable assessments",
+      "detail": "Heavy construction union donor network (Laborers/Operating Engineers/Carpenters) raises pay-to-play concerns \u2014 property tax attorneys and construction industry could benefit from favorable assessments",
       "source": "https://www.assessorhynes.com",
       "confirmed": false
     },
     {
       "type": "ethics",
-      "label": "Michael Sacks ($125K) — Pritzker ally and Grosvenor Capital Management CEO; ties",
-      "detail": "Michael Sacks ($125K) — Pritzker ally and Grosvenor Capital Management CEO; ties to Democratic party establishment",
+      "label": "Michael Sacks ($125K) \u2014 Pritzker ally and Grosvenor Capital Management CEO; ties",
+      "detail": "Michael Sacks ($125K) \u2014 Pritzker ally and Grosvenor Capital Management CEO; ties to Democratic party establishment",
       "source": "https://www.assessorhynes.com",
       "confirmed": false
     },
     {
       "type": "ethics",
-      "label": "Kaegi campaign accuses Hynes of being 'beholden to property tax attorneys' — not",
-      "detail": "Kaegi campaign accuses Hynes of being 'beholden to property tax attorneys' — not independently confirmed but large PAC support from industry-adjacent donors is notable",
+      "label": "Kaegi campaign accuses Hynes of being 'beholden to property tax attorneys' \u2014 not",
+      "detail": "Kaegi campaign accuses Hynes of being 'beholden to property tax attorneys' \u2014 not independently confirmed but large PAC support from industry-adjacent donors is notable",
       "source": "https://www.assessorhynes.com",
       "confirmed": false
     },
     {
       "type": "ethics",
-      "label": "One Future Illinois PAC ($125K) — Democratic establishment super PAC backed by p",
-      "detail": "One Future Illinois PAC ($125K) — Democratic establishment super PAC backed by party leadership",
+      "label": "One Future Illinois PAC ($125K) \u2014 Democratic establishment super PAC backed by p",
+      "detail": "One Future Illinois PAC ($125K) \u2014 Democratic establishment super PAC backed by party leadership",
       "source": "https://www.assessorhynes.com",
       "confirmed": false
     },
     {
-      "label": "Heavy construction union donor network (Laborers/Operating Engineers/Carpenters) raises pay-to-play concerns — property tax attorneys and construction industry could benefit from favorable assessments"
+      "label": "Heavy construction union donor network (Laborers/Operating Engineers/Carpenters) raises pay-to-play concerns \u2014 property tax attorneys and construction industry could benefit from favorable assessments"
     },
     {
-      "label": "Michael Sacks ($125K) — Pritzker ally and Grosvenor Capital Management CEO; ties to Democratic party establishment"
+      "label": "Michael Sacks ($125K) \u2014 Pritzker ally and Grosvenor Capital Management CEO; ties to Democratic party establishment"
     },
     {
-      "label": "Kaegi campaign accuses Hynes of being 'beholden to property tax attorneys' — not independently confirmed but large PAC support from industry-adjacent donors is notable"
+      "label": "Kaegi campaign accuses Hynes of being 'beholden to property tax attorneys' \u2014 not independently confirmed but large PAC support from industry-adjacent donors is notable"
     },
     {
-      "label": "One Future Illinois PAC ($125K) — Democratic establishment super PAC backed by party leadership"
+      "label": "One Future Illinois PAC ($125K) \u2014 Democratic establishment super PAC backed by party leadership"
     }
   ],
   "key_votes": [
     {
-      "bill": "No voting record — challenger, first-time countywide candidate",
+      "bill": "No voting record \u2014 challenger, first-time countywide candidate",
       "vote": "record",
-      "summary": "No voting record — challenger, first-time countywide candidate",
+      "summary": "No voting record \u2014 challenger, first-time countywide candidate",
       "source": "https://www.assessorhynes.com"
     },
     {
-      "bill": "Lyons Township Assessor since 2022 — elected office, no public voting record ava",
+      "bill": "Lyons Township Assessor since 2022 \u2014 elected office, no public voting record ava",
       "vote": "record",
-      "summary": "Lyons Township Assessor since 2022 — elected office, no public voting record available",
+      "summary": "Lyons Township Assessor since 2022 \u2014 elected office, no public voting record available",
       "source": "https://www.assessorhynes.com"
     },
     {
@@ -163,7 +163,7 @@
     {
       "role": "Lyons Township Assessor",
       "org": "Lyons Township",
-      "years": "2021–present",
+      "years": "2021\u2013present",
       "highlight": "30 years of property tax experience; firefighter and EMT"
     },
     {
@@ -349,11 +349,11 @@
       "sentiment": "positive"
     },
     {
-      "title": "Super PAC scorecard — how outside spending groups fared in efforts to influence Illinois primary voters",
+      "title": "Super PAC scorecard \u2014 how outside spending groups fared in efforts to influence Illinois primary voters",
       "url": "https://www.wbez.org/government-politics/elections/2026/03/18/illinois-primary-super-pac-spending-aipac-cryptocurrency-ai-sports-betting",
       "source": "WBEZ",
       "date": "2026-03-18",
-      "summary": "WBEZ post-primary analysis of outside spending. Pat Hynes, who won the Cook County Assessor Democratic primary over incumbent Fritz Kaegi, benefited from the Cook County Democratic Party's slate support. The assessor race was notable as the only contested countywide Democratic race with no Republican challenger — making Hynes's primary win tantamount to election.",
+      "summary": "WBEZ post-primary analysis of outside spending. Pat Hynes, who won the Cook County Assessor Democratic primary over incumbent Fritz Kaegi, benefited from the Cook County Democratic Party's slate support. The assessor race was notable as the only contested countywide Democratic race with no Republican challenger \u2014 making Hynes's primary win tantamount to election.",
       "sentiment": "neutral"
     },
     {
@@ -379,6 +379,14 @@
       "date": "2026-03-19",
       "summary": "Tribune post-primary analysis of $30M+ in outside spending. Crypto-industry PAC spent $10M against Stratton in the Senate race but failed. The Cook County Assessor race saw significant outside money back Kaegi (Tribune editorial board endorsed him) while Hynes, backed by the Cook County Democratic Party, prevailed decisively.",
       "sentiment": "neutral"
+    },
+    {
+      "title": "Pat Hynes recaps Democratic primary win, discusses property tax fairness plans",
+      "url": "https://www.fox32chicago.com/video/fmc-11gg3rvxz2syl5sy",
+      "source": "Fox 32 Chicago",
+      "date": "2026-03-18",
+      "summary": "Pat Hynes discussed his primary victory over incumbent Fritz Kaegi in a Fox 32 interview. Hynes outlined plans to address property tax fairness, improve transparency, and implement operational changes at the assessor's office. He is the presumptive next Cook County Assessor with no Republican opponent in November.",
+      "sentiment": "positive"
     }
   ],
   "primary_result": {
