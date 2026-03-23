@@ -4,8 +4,8 @@
   "party": "Republican",
   "office": "Governor of Illinois",
   "race_id": "il-governor-r-2026",
-  "bio": "Darren Bailey, born March 17, 1966, in Louisville, Illinois, is a farmer from Xenia, Clay County, who holds an Associate of Science in agricultural production from Lake Land College. He served one term in the Illinois House (109th District, 2019\u20132021) and one term in the Illinois Senate (55th District, 2021\u20132023) before becoming the 2022 Republican nominee for governor, losing to JB Pritzker by 12.5 percentage points (54.91% vs. 42.37%). After losing a 2024 congressional primary to incumbent Rep. Mike Bost by 2.8 points, Bailey announced a 2026 gubernatorial rematch in September 2025, pairing with Cook County Republican Chair Aaron Del Mar as running mate. He is campaigning on an 'Illinois DOGE' spending audit commission, repeal of the 2021 Climate and Equitable Jobs Act, and property tax reform, while moderating his tone following the October 2025 helicopter crash that killed his son Zachary, daughter-in-law Kelsey, and two grandchildren.",
-  "prior_office": "Illinois Senate, 55th District (2021\u20132023); Illinois House, 109th District (2019\u20132021)",
+  "bio": "Darren Bailey, born March 17, 1966, in Louisville, Illinois, is a farmer from Xenia, Clay County, who holds an Associate of Science in agricultural production from Lake Land College. He served one term in the Illinois House (109th District, 2019–2021) and one term in the Illinois Senate (55th District, 2021–2023) before becoming the 2022 Republican nominee for governor, losing to JB Pritzker by 12.5 percentage points (54.91% vs. 42.37%). After losing a 2024 congressional primary to incumbent Rep. Mike Bost by 2.8 points, Bailey announced a 2026 gubernatorial rematch in September 2025, pairing with Cook County Republican Chair Aaron Del Mar as running mate. He is campaigning on an 'Illinois DOGE' spending audit commission, repeal of the 2021 Climate and Equitable Jobs Act, and property tax reform, while moderating his tone following the October 2025 helicopter crash that killed his son Zachary, daughter-in-law Kelsey, and two grandchildren.",
+  "prior_office": "Illinois Senate, 55th District (2021–2023); Illinois House, 109th District (2019–2021)",
   "website": "https://baileyforillinois.com",
   "photo_url": null,
   "jacket": {
@@ -13,10 +13,10 @@
     "pac_support_total": null,
     "data_date": "2026-03-14",
     "source": "https://illinoissunshine.org/committees/bailey-for-illinois-34092/",
-    "note": "ILSBE Dec 31, 2025 quarterly report: $152,634 cash on hand; $316,885 in debts and obligations. FEC committee C00844449 ('Bailey for Congress') also registered \u2014 likely leftover from 2024 congressional primary \u2014 but shows 0 contributions in 2026 cycle, confirming governor race financing flows through ILSBE. Individual donor detail requires ILSBE PDF exhibit parsing; aggregate totals confirmed. Campaign finance reflects historically low fundraising for a gubernatorial candidate \u2014 far behind Ted Dabrowski's $1.8M. Committee formally confirmed via FEC committee lookup.",
+    "note": "ILSBE Dec 31, 2025 quarterly report: $152,634 cash on hand; $316,885 in debts and obligations. FEC committee C00844449 ('Bailey for Congress') also registered — likely leftover from 2024 congressional primary — but shows 0 contributions in 2026 cycle, confirming governor race financing flows through ILSBE. Individual donor detail requires ILSBE PDF exhibit parsing; aggregate totals confirmed. Campaign finance reflects historically low fundraising for a gubernatorial candidate — far behind Ted Dabrowski's $1.8M. Committee formally confirmed via FEC committee lookup.",
     "donors": [
       {
-        "name": "Donors listed in ILSBE filing \u2014 itemized data not yet extracted from PDF exhibits",
+        "name": "Donors listed in ILSBE filing — itemized data not yet extracted from PDF exhibits",
         "amount": 0,
         "category": "note",
         "source": "https://illinoissunshine.org/committees/bailey-for-illinois-34092/",
@@ -29,28 +29,28 @@
     {
       "type": "electability",
       "label": "Lost 2022 governor race by 12.5 points statewide",
-      "detail": "In the November 8, 2022 general election, Bailey received 1,739,095 votes (42.37%) vs. JB Pritzker's 2,253,748 (54.91%), a 12.5-percentage-point margin \u2014 the widest Illinois Republican loss in a governor's race since 2002. Bailey was shut out in all six collar counties except one, reflecting deep suburban Chicago weakness.",
+      "detail": "In the November 8, 2022 general election, Bailey received 1,739,095 votes (42.37%) vs. JB Pritzker's 2,253,748 (54.91%), a 12.5-percentage-point margin — the widest Illinois Republican loss in a governor's race since 2002. Bailey was shut out in all six collar counties except one, reflecting deep suburban Chicago weakness.",
       "source": "https://en.wikipedia.org/wiki/2022_Illinois_gubernatorial_election",
       "confirmed": true
     },
     {
       "type": "electability",
       "label": "Pritzker spent $24M via DGA to prop Bailey up in GOP primary",
-      "detail": "Gov. JB Pritzker contributed $24 million to the Democratic Governors' Association, which ran ads calling Bailey 'too conservative for Illinois' \u2014 a deliberate strategy to elevate the most beatable Republican over moderate Richard Irvin (backed by $50M from Ken Griffin). The tactic worked: Bailey won the June 2022 primary with 57.7%, then lost the general by 12.5 points.",
+      "detail": "Gov. JB Pritzker contributed $24 million to the Democratic Governors' Association, which ran ads calling Bailey 'too conservative for Illinois' — a deliberate strategy to elevate the most beatable Republican over moderate Richard Irvin (backed by $50M from Ken Griffin). The tactic worked: Bailey won the June 2022 primary with 57.7%, then lost the general by 12.5 points.",
       "source": "https://www.stlpr.org/government-politics-issues/2024-01-10/illinois-politics-marred-by-deep-pocketed-self-funded-candidates-and-dark-money",
       "confirmed": true
     },
     {
       "type": "ethics",
-      "label": "Voted to raise school property taxes 81% \u2014 now campaigns against property taxes",
-      "detail": "Tax records at the Clay County Treasurer's office and Illinois Department of Revenue show that from 1996 to 2012, while serving on the North Clay Board of Education, Bailey voted to increase the property tax levy every time one was proposed, totaling an 81% combined increase \u2014 a direct contradiction of his anti-property-tax legislative and campaign messaging.",
+      "label": "Voted to raise school property taxes 81% — now campaigns against property taxes",
+      "detail": "Tax records at the Clay County Treasurer's office and Illinois Department of Revenue show that from 1996 to 2012, while serving on the North Clay Board of Education, Bailey voted to increase the property tax levy every time one was proposed, totaling an 81% combined increase — a direct contradiction of his anti-property-tax legislative and campaign messaging.",
       "source": "https://www.wcia.com/illinois-capitol-news/bailey-defends-voting-to-raise-property-taxes-81-on-local-school-board/",
       "confirmed": true
     },
     {
       "type": "governance",
       "label": "Least productive legislator in Senate GOP caucus: 1 bill signed in 2 years",
-      "detail": "As an Illinois state senator from 2021\u20132023, Bailey was chief sponsor of exactly one bill that became law \u2014 SB 2150, a firefighter recruitment measure. WBEZ found no member of the 18-person Senate Republican caucus had fewer chief-sponsored bills enacted. His House record was similarly thin: one bill (increased fines for passing school buses) over two years.",
+      "detail": "As an Illinois state senator from 2021–2023, Bailey was chief sponsor of exactly one bill that became law — SB 2150, a firefighter recruitment measure. WBEZ found no member of the 18-person Senate Republican caucus had fewer chief-sponsored bills enacted. His House record was similarly thin: one bill (increased fines for passing school buses) over two years.",
       "source": "https://www.nprillinois.org/illinois/2022-09-30/examining-the-record-darren-bailey-pushed-to-fix-the-states-ills-but-critics-call-him-ineffective",
       "confirmed": true
     },
@@ -64,7 +64,7 @@
     {
       "type": "governance",
       "label": "Refused to wear mask in 2020 House session, ejected in 81-27 bipartisan vote",
-      "detail": "On May 20, 2020, the Illinois House voted 81\u201327 \u2014 a bipartisan margin \u2014 to remove Bailey from the chamber floor for refusing to wear a mask during the COVID-19 pandemic. He had also filed a lawsuit in Clay County Circuit Court challenging Pritzker's stay-at-home order; a judge issued a temporary restraining order that applied only to Bailey personally and was later vacated.",
+      "detail": "On May 20, 2020, the Illinois House voted 81–27 — a bipartisan margin — to remove Bailey from the chamber floor for refusing to wear a mask during the COVID-19 pandemic. He had also filed a lawsuit in Clay County Circuit Court challenging Pritzker's stay-at-home order; a judge issued a temporary restraining order that applied only to Bailey personally and was later vacated.",
       "source": "https://www.washingtonpost.com/nation/2020/05/21/illinois-gop-lawmaker-removed-mask/",
       "confirmed": true
     },
@@ -78,49 +78,49 @@
   ],
   "key_votes": [
     {
-      "bill": "HB 3653 (SAFE-T Act) \u2013 January 2021",
+      "bill": "HB 3653 (SAFE-T Act) – January 2021",
       "vote": "voted no",
       "summary": "The SAFE-T Act abolished mandatory cash bail for criminal defendants in Illinois and implemented broader criminal justice reforms. Bailey voted against it and later made opposition to the Act a cornerstone of his tough-on-crime gubernatorial campaigns.",
       "source": "https://www.nprillinois.org/illinois/2022-09-30/examining-the-record-darren-bailey-pushed-to-fix-the-states-ills-but-critics-call-him-ineffective"
     },
     {
-      "bill": "HB 1438 (Recreational Cannabis Legalization) \u2013 May 2019",
+      "bill": "HB 1438 (Recreational Cannabis Legalization) – May 2019",
       "vote": "voted no",
       "summary": "Bailey voted against legalizing recreational cannabis in Illinois, consistent with his socially conservative position opposing the bill signed by Gov. Pritzker in June 2019.",
       "source": "https://www.nprillinois.org/illinois/2022-09-30/examining-the-record-darren-bailey-pushed-to-fix-the-states-ills-but-critics-call-him-ineffective"
     },
     {
-      "bill": "SB 690 (Casino Expansion) \u2013 June 2019",
+      "bill": "SB 690 (Casino Expansion) – June 2019",
       "vote": "voted no",
       "summary": "Bailey voted against the Illinois casino expansion bill that authorized new casinos including a potential Chicago casino. He opposed further gambling expansion on moral grounds.",
       "source": "https://www.nprillinois.org/illinois/2022-09-30/examining-the-record-darren-bailey-pushed-to-fix-the-states-ills-but-critics-call-him-ineffective"
     },
     {
-      "bill": "HB 0062 ($45B Infrastructure Package) \u2013 June 2019",
+      "bill": "HB 0062 ($45B Infrastructure Package) – June 2019",
       "vote": "voted no",
       "summary": "Bailey voted against the $45 billion Rebuild Illinois infrastructure package, the state's largest such investment in decades, which funded roads, bridges, schools, and transit through a gas tax increase.",
       "source": "https://www.nprillinois.org/illinois/2022-09-30/examining-the-record-darren-bailey-pushed-to-fix-the-states-ills-but-critics-call-him-ineffective"
     },
     {
-      "bill": "HR 101 (Chicago 51st State Resolution) \u2013 2019",
+      "bill": "HR 101 (Chicago 51st State Resolution) – 2019",
       "vote": "led",
       "summary": "Bailey sponsored a resolution calling for Chicago to be expelled from Illinois and made its own state, citing policy disagreements on guns, abortion, and immigration. It gained no traction legislatively. Bailey later called it 'a warning shot' after it became a liability during the 2022 governor race.",
       "source": "https://en.wikipedia.org/wiki/Darren_Bailey"
     },
     {
-      "bill": "HB 3831 (Gender Reassignment Surgery Funding Ban) \u2013 101st GA",
+      "bill": "HB 3831 (Gender Reassignment Surgery Funding Ban) – 101st GA",
       "vote": "led",
       "summary": "Bailey pushed legislation to prohibit public funding for gender reassignment surgery, part of a broader pattern of anti-transgender legislation he championed during his House term.",
       "source": "https://www.nprillinois.org/illinois/2022-09-30/examining-the-record-darren-bailey-pushed-to-fix-the-states-ills-but-critics-call-him-ineffective"
     },
     {
-      "bill": "SB 2150 (Firefighter Recruitment Act) \u2013 102nd GA",
+      "bill": "SB 2150 (Firefighter Recruitment Act) – 102nd GA",
       "vote": "led",
       "summary": "The only bill Bailey successfully shepherded into law as a state senator, SB 2150 created incentives to recruit volunteer firefighters. His entire two-year Senate record produced only this one enacted bill, according to WBEZ's review.",
       "source": "https://www.nprillinois.org/illinois/2022-09-30/examining-the-record-darren-bailey-pushed-to-fix-the-states-ills-but-critics-call-him-ineffective"
     },
     {
-      "bill": "HB 4284 (Reproductive Health Act Opposition) \u2013 101st GA 2019",
+      "bill": "HB 4284 (Reproductive Health Act Opposition) – 101st GA 2019",
       "vote": "opposed",
       "summary": "Bailey vocally and repeatedly opposed the Reproductive Health Act, Illinois's landmark 2019 abortion-rights law that repealed the state's dormant abortion ban and established abortion as a fundamental right. He challenged the bill's use of 'individual' rather than 'woman,' and has since called for a complete abortion ban in Illinois.",
       "source": "https://www.nprillinois.org/illinois/2022-09-30/examining-the-record-darren-bailey-pushed-to-fix-the-states-ills-but-critics-call-him-ineffective"
@@ -128,10 +128,10 @@
   ],
   "endorsements": [
     "Donald Trump (endorsed in 2022 primary; Bailey not seeking Trump endorsement in 2026 race)",
-    "Dick Uihlein, Uline founder \u2014 $18M+ in 2022 (no equivalent 2026 endorsement confirmed)"
+    "Dick Uihlein, Uline founder — $18M+ in 2022 (no equivalent 2026 endorsement confirmed)"
   ],
   "policy_positions": [
-    "Proposes 'Illinois DOGE' efficiency commission led by Lt. Gov. candidate Aaron Del Mar to audit state boards, commissions, and duplicate agencies \u2014 no specific dollar savings estimate given",
+    "Proposes 'Illinois DOGE' efficiency commission led by Lt. Gov. candidate Aaron Del Mar to audit state boards, commissions, and duplicate agencies — no specific dollar savings estimate given",
     "Repeal 2021 Climate and Equitable Jobs Act (CEJA); return to fossil fuels + nuclear energy mix to lower utility rates",
     "Cap annual property tax rates to not exceed a homeowner's mortgage rate; state to compensate with increased education funding (mechanism unspecified)",
     "Repeal TRUST Act (state sanctuary law preventing local police cooperation with ICE); stated he would pursue legislative consensus rather than executive order",
@@ -145,32 +145,32 @@
     {
       "role": "Farmer and Private Christian School Operator",
       "org": "Bailey Family Farm; Xenia, IL private school",
-      "years": "1980s\u2013present",
+      "years": "1980s–present",
       "highlight": "Multi-generational family farm in Clay County. He and wife Cindy also operate a private Christian school in Xenia."
     },
     {
       "role": "Board Member",
       "org": "North Clay Board of Education",
-      "years": "~1996\u20132012",
-      "highlight": "Voted to raise property tax levy by a combined 81% across his tenure \u2014 later became a liability when campaigning against property taxes."
+      "years": "~1996–2012",
+      "highlight": "Voted to raise property tax levy by a combined 81% across his tenure — later became a liability when campaigning against property taxes."
     },
     {
       "role": "Member, Illinois House of Representatives (109th District)",
       "org": "Illinois General Assembly",
-      "years": "2019\u20132021",
+      "years": "2019–2021",
       "highlight": "Sponsored Chicago expulsion resolution (HR 101), opposed Reproductive Health Act, cannabis legalization, and major infrastructure package. One enacted bill (school bus fine increase) in two years."
     },
     {
       "role": "Member, Illinois Senate (55th District)",
       "org": "Illinois General Assembly",
-      "years": "2021\u20132023",
+      "years": "2021–2023",
       "highlight": "Voted against SAFE-T Act (cash bail abolition). Sponsored one enacted bill in two years (firefighter recruitment). Served on Agriculture, Education, Health, and Energy committees."
     },
     {
       "role": "Republican Nominee for Governor",
       "org": "Illinois Republican Party",
       "years": "2022",
-      "highlight": "Won 6-way primary with 57.7% (aided by $24M Pritzker/DGA ad campaign). Lost general election to JB Pritzker 42.37% to 54.91% \u2014 a 12.5-point loss, with collapse in suburban Chicago collar counties."
+      "highlight": "Won 6-way primary with 57.7% (aided by $24M Pritzker/DGA ad campaign). Lost general election to JB Pritzker 42.37% to 54.91% — a 12.5-point loss, with collapse in suburban Chicago collar counties."
     },
     {
       "role": "Congressional Primary Candidate (IL-12)",
@@ -182,7 +182,7 @@
   "trust_indicators": [
     {
       "label": "Legislative record",
-      "value": "2 total bills enacted across 4-year career (House + Senate combined) \u2014 fewest of any Senate Republican in his caucus",
+      "value": "2 total bills enacted across 4-year career (House + Senate combined) — fewest of any Senate Republican in his caucus",
       "type": "negative"
     },
     {
@@ -197,7 +197,7 @@
     },
     {
       "label": "Campaign fundraising 2026",
-      "value": "Only $152,634 cash on hand as of Dec 31, 2025; $316,885 in debts \u2014 far behind Dabrowski's $1.8M raised",
+      "value": "Only $152,634 cash on hand as of Dec 31, 2025; $316,885 in debts — far behind Dabrowski's $1.8M raised",
       "type": "negative"
     },
     {
@@ -216,7 +216,7 @@
   "news_hits": [
     {
       "headline": "Familiar foes line up in Republican primary for chance against Gov. JB Pritzker",
-      "summary": "Chicago Sun-Times profiles Bailey as the field's frontrunner on name recognition from his 2022 loss, but notes the campaign has only $152K cash on hand vs. $316K in debts, and that he remained in the race after the October 2025 helicopter crash that killed his son, daughter-in-law, and two grandchildren \u2014 describing him as a 'changed candidate' running with a moderating tone.",
+      "summary": "Chicago Sun-Times profiles Bailey as the field's frontrunner on name recognition from his 2022 loss, but notes the campaign has only $152K cash on hand vs. $316K in debts, and that he remained in the race after the October 2025 helicopter crash that killed his son, daughter-in-law, and two grandchildren — describing him as a 'changed candidate' running with a moderating tone.",
       "url": "https://chicago.suntimes.com/elections/2026/02/23/illinois-republican-primary-governor-candidates-preview-bailey-dabrowski-heidner-mendrick",
       "date": "2026-02-23",
       "severity": "medium",
@@ -224,7 +224,7 @@
     },
     {
       "headline": "Illinois primary election: Key races for governor, U.S. Senate",
-      "summary": "USA Today pre-primary analysis notes a Victory Research poll showing Pritzker with a 20% lead over Bailey in a hypothetical general election rematch, with Pritzker's approval at 52% \u2014 underscoring Bailey's continued electability challenge despite his frontrunner status in the GOP primary.",
+      "summary": "USA Today pre-primary analysis notes a Victory Research poll showing Pritzker with a 20% lead over Bailey in a hypothetical general election rematch, with Pritzker's approval at 52% — underscoring Bailey's continued electability challenge despite his frontrunner status in the GOP primary.",
       "url": "https://eu.usatoday.com/story/news/politics/elections/2026/03/14/illinois-primary-election-2026-key-races-for-governor-us-senate-comptroller/89084056007/",
       "date": "2026-03-14",
       "severity": "medium",
@@ -273,7 +273,7 @@
       "url": "https://www.chicagotribune.com/2026/03/15/daywatch-special-edition-what-to-know-for-tuesdays-primary-election/",
       "source": "Chicago Tribune",
       "date": "2026-03-15",
-      "summary": "Tribune day-before guide covers the four-way Republican governor's primary. Notes Bailey as the downstate farmer and former state lawmaker who won the 2022 GOP primary but lost to Pritzker by nearly 13 points \u2014 now running again with a pocketbook-focused message.",
+      "summary": "Tribune day-before guide covers the four-way Republican governor's primary. Notes Bailey as the downstate farmer and former state lawmaker who won the 2022 GOP primary but lost to Pritzker by nearly 13 points — now running again with a pocketbook-focused message.",
       "sentiment": "neutral"
     },
     {
@@ -297,7 +297,7 @@
       "url": "https://www.stlpr.org/government-politics-issues/2026-03-16/watch-to-watch-illinois-primaries",
       "source": "St. Louis Public Radio",
       "date": "2026-03-16",
-      "summary": "STLPR election-eve preview notes Bailey is the frontrunner in the four-way GOP governor's primary, but questions whether DuPage County Sheriff James Mendrick \u2014 who has broader suburban Chicago appeal \u2014 can upset him. GOP voters must decide whether electability or ideology matters more. Pritzker is running uncontested on the Democratic side.",
+      "summary": "STLPR election-eve preview notes Bailey is the frontrunner in the four-way GOP governor's primary, but questions whether DuPage County Sheriff James Mendrick — who has broader suburban Chicago appeal — can upset him. GOP voters must decide whether electability or ideology matters more. Pritzker is running uncontested on the Democratic side.",
       "sentiment": "neutral"
     },
     {
@@ -329,7 +329,7 @@
       "url": "https://www.chicagotribune.com/2026/03/17/illinois-primary-day-election-results/",
       "source": "Chicago Tribune",
       "date": "2026-03-17",
-      "summary": "Former state Sen. Darren Bailey \u2014 who lost to Gov. Pritzker by 11 points in the 2022 general election \u2014 is competing in the Republican gubernatorial primary on March 17. Four Republican candidates are on the ballot looking to thwart Pritzker's bid for a rare third term. Pritzker ran unopposed on the Democratic side and addressed supporters after polls closed, vowing to fight Trump's agenda.",
+      "summary": "Former state Sen. Darren Bailey — who lost to Gov. Pritzker by 11 points in the 2022 general election — is competing in the Republican gubernatorial primary on March 17. Four Republican candidates are on the ballot looking to thwart Pritzker's bid for a rare third term. Pritzker ran unopposed on the Democratic side and addressed supporters after polls closed, vowing to fight Trump's agenda.",
       "sentiment": "neutral"
     },
     {
@@ -369,7 +369,7 @@
       "url": "https://www.nbcchicago.com/illinois-election-2026/who-won-the-illinois-primary-election-latest-results-governor-senate-races-too-close-to-call/3909983/",
       "source": "NBC Chicago",
       "date": "2026-03-18",
-      "summary": "NBC Chicago post-primary roundup confirms Bailey won the Republican gubernatorial nomination and will face incumbent Gov. Pritzker in a November rematch. The result gives Illinois Republicans their nominee \u2014 but the general election against the well-funded incumbent faces a steep climb in a state where Democrats hold a structural advantage.",
+      "summary": "NBC Chicago post-primary roundup confirms Bailey won the Republican gubernatorial nomination and will face incumbent Gov. Pritzker in a November rematch. The result gives Illinois Republicans their nominee — but the general election against the well-funded incumbent faces a steep climb in a state where Democrats hold a structural advantage.",
       "sentiment": "neutral"
     },
     {
@@ -377,7 +377,7 @@
       "url": "https://www.chicagotribune.com/2026/03/19/bailey-dabrowski-proft-republican-politics-illinois-gop-ilgop-elections/",
       "source": "Chicago Tribune",
       "date": "2026-03-19",
-      "summary": "Tribune editorial notes Illinois Republican primary turnout collapsed \u2014 Bailey and his three rivals collectively drew fewer votes than even the historically low 2014 primary, raising questions about party viability heading into the general election.",
+      "summary": "Tribune editorial notes Illinois Republican primary turnout collapsed — Bailey and his three rivals collectively drew fewer votes than even the historically low 2014 primary, raising questions about party viability heading into the general election.",
       "sentiment": "negative"
     },
     {
@@ -405,7 +405,7 @@
       "sentiment": "positive"
     },
     {
-      "title": "Stratton victory boosts Pritzker clout \u2014 Pritzker targets Bailey immediately after primary",
+      "title": "Stratton victory boosts Pritzker clout — Pritzker targets Bailey immediately after primary",
       "url": "https://www.politico.com/newsletters/illinois-playbook/2026/03/18/stratton-victory-boosts-pritzker-clout-00833636",
       "source": "Politico Illinois Playbook",
       "date": "2026-03-18",
@@ -417,7 +417,7 @@
       "url": "https://capitolnewsillinois.com/news/illinois-governors-race-will-be-a-rematch-in-2026/",
       "source": "Capitol News Illinois",
       "date": "2026-03-17",
-      "summary": "Capitol News Illinois reports that Republican voters chose Darren Bailey to face Gov. JB Pritzker in a 2026 rematch, as Bailey secured the GOP gubernatorial nomination over three primary opponents \u2014 Ted Dabrowski, Rick Heidner, and James Mendrick. Bailey celebrates with running mate Aaron Del Mar after securing the nomination.",
+      "summary": "Capitol News Illinois reports that Republican voters chose Darren Bailey to face Gov. JB Pritzker in a 2026 rematch, as Bailey secured the GOP gubernatorial nomination over three primary opponents — Ted Dabrowski, Rick Heidner, and James Mendrick. Bailey celebrates with running mate Aaron Del Mar after securing the nomination.",
       "sentiment": "positive"
     },
     {
@@ -433,7 +433,7 @@
       "url": "https://www.chicagotribune.com/2026/03/19/outside-spending-illinois-primaries-results/",
       "source": "Chicago Tribune",
       "date": "2026-03-19",
-      "summary": "Post-primary spending analysis notes Bailey's primary win came with minimal outside PAC support \u2014 a contrast to the 2022 cycle where Pritzker spent $35M boosting Bailey in the GOP primary. In 2026, major Republican donors largely sat out the primary, leaving Bailey to run on his own political brand heading into what analysts expect will be another heavy underdog race against Pritzker.",
+      "summary": "Post-primary spending analysis notes Bailey's primary win came with minimal outside PAC support — a contrast to the 2022 cycle where Pritzker spent $35M boosting Bailey in the GOP primary. In 2026, major Republican donors largely sat out the primary, leaving Bailey to run on his own political brand heading into what analysts expect will be another heavy underdog race against Pritzker.",
       "sentiment": "negative"
     },
     {
@@ -441,7 +441,7 @@
       "url": "https://www.cbsnews.com/chicago/news/illinois-2026-primary-election-results-governor-pritzker-bailey/",
       "source": "CBS Chicago",
       "date": "2026-03-17",
-      "summary": "CBS News projects Darren Bailey wins the Illinois Republican gubernatorial primary, setting up a direct rematch against incumbent Democratic Gov. JB Pritzker \u2014 the same matchup from 2022 in which Pritzker won by 11 points. Bailey will need to significantly broaden his support beyond his conservative downstate base to compete in November.",
+      "summary": "CBS News projects Darren Bailey wins the Illinois Republican gubernatorial primary, setting up a direct rematch against incumbent Democratic Gov. JB Pritzker — the same matchup from 2022 in which Pritzker won by 11 points. Bailey will need to significantly broaden his support beyond his conservative downstate base to compete in November.",
       "sentiment": "neutral"
     },
     {
@@ -465,7 +465,7 @@
       "url": "https://www.wbez.org/government-politics/elections/2026/03/19/juliana-stratton-us-senate-democratic-primary-victory-strong-showing-suburbs-downstate",
       "source": "WBEZ",
       "date": "2026-03-19",
-      "summary": "WBEZ analysis of Stratton's primary win notes her strength in suburbs and downstate Illinois \u2014 a coalition-building achievement that reflects Gov. Pritzker's political machine. The piece includes context on the general election matchup setting up Bailey's rematch against Pritzker.",
+      "summary": "WBEZ analysis of Stratton's primary win notes her strength in suburbs and downstate Illinois — a coalition-building achievement that reflects Gov. Pritzker's political machine. The piece includes context on the general election matchup setting up Bailey's rematch against Pritzker.",
       "sentiment": "neutral"
     }
   ],
@@ -476,7 +476,7 @@
     "platform_completeness": "F",
     "record_available": true,
     "red_flags_count": 7,
-    "computed_at": "2026-03-22"
+    "computed_at": "2026-03-23"
   },
   "primary_result": {
     "status": "won",
