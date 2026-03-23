@@ -474,6 +474,22 @@
       "date": "2026-03-20",
       "summary": "Rich Miller's post-primary column analyzing winners who outperformed spending expectations includes context on Cook County races. Preckwinkle's decisive 68%-32% win over Ald. Reilly is cited as a case where establishment organization and incumbency overpowered a well-funded challenger.",
       "sentiment": "positive"
+    },
+    {
+      "title": "Toni Preckwinkle, Longtime Chicago Democrat, Holds Off Moderate Challenger",
+      "url": "https://www.nytimes.com/2026/03/17/us/elections/cook-county-board-president-illinois.html",
+      "source": "New York Times",
+      "date": "2026-03-17",
+      "summary": "NYT profiles Preckwinkle's primary win over moderate challenger Ald. Brendan Reilly, framing it as a decisive victory for the progressive Cook County Democratic establishment over a modernization-focused challenger. The win cements Preckwinkle's path to a fifth four-year term as Board President — a tenure that would equal George Dunne as the county's longest-serving leader.",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Toni Preckwinkle fends off challenger Brendan Reilly in primary for Cook County Board President",
+      "url": "https://www.cbsnews.com/chicago/news/cook-county-board-president-2026-primary-election-results/",
+      "source": "CBS Chicago",
+      "date": "2026-03-17",
+      "summary": "CBS Chicago reports the AP projected Preckwinkle winning the Democratic primary with 68% of the vote at 79% of ballots counted. Preckwinkle defeated Ald. Reilly to clinch the Democratic nomination and is heavily favored in the November general election in Cook County.",
+      "sentiment": "positive"
     }
   ],
   "primary_result": {
