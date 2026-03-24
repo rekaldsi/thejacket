@@ -581,6 +581,22 @@
       "date": "2026-03-18",
       "summary": "Chicago Tribune county-level map breakdown of the 2026 Republican governor primary results, confirming Bailey's primary win and setting up the Pritzker-Bailey general election rematch. Pritzker is seeking a historic third term — the first Illinois governor to seek a third term since Jim Thompson won three.",
       "sentiment": "neutral"
+    },
+    {
+      "title": "Pritzker quips on weight loss, Rahm and 2028 buzz in Washington speech",
+      "url": "https://chicago.suntimes.com/politics/2026/03/21/pritzker-quips-weight-loss-rahm-2028-buzz-washington-speech",
+      "source": "Chicago Sun-Times",
+      "date": "2026-03-21",
+      "summary": "Gov. JB Pritzker spoke at the Gridiron Club dinner in Washington, D.C. on March 21, 2026, joking about his rapid weight loss, ribbing former Mayor Rahm Emanuel (another potential 2028 presidential hopeful), and criticizing the Trump administration before an audience of Washington journalists and dignitaries. The appearance fed significant 2028 presidential speculation.",
+      "sentiment": "positive"
+    },
+    {
+      "title": "At Gridiron dinner, it's time for the 2028 potentials to get roasted",
+      "url": "https://www.washingtonpost.com/style/power/2026/03/22/gridiron-dinner-pritzker-huckabee-sanders/",
+      "source": "Washington Post",
+      "date": "2026-03-22",
+      "summary": "Washington Post covers Pritzker's prominent Gridiron Club speech, noting he addressed the ongoing speculation about his dramatic weight loss with a joke and positioned himself as a leading potential 2028 Democratic presidential candidate. The speech followed his successful primary cycle in Illinois where he backed Juliana Stratton to the Senate nomination.",
+      "sentiment": "positive"
     }
   ],
   "transparency_score": {
