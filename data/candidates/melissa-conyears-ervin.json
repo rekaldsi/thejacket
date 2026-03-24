@@ -5,7 +5,7 @@
   "office": "U.S. House (IL-08)",
   "race_id": "il-08-us-house-d-2026",
   "bio": "Melissa Conyears-Ervin has served as Chicago City Treasurer since 2019, managing the city's investment portfolio and overseeing financial operations. She previously served in the Illinois General Assembly. As City Treasurer she has focused on financial literacy programs and equitable banking access.",
-  "prior_office": "Chicago City Treasurer (2019–present); Illinois State Representative",
+  "prior_office": "Chicago City Treasurer (2019\u2013present); Illinois State Representative",
   "website": null,
   "photo_url": null,
   "data_status": "partial",
@@ -73,7 +73,7 @@
       "url": "https://www.nytimes.com/2026/03/18/us/elections/illinois-primary-elections-takeaways.html",
       "source": "New York Times",
       "date": "2026-03-18",
-      "summary": "NYT takeaways highlight Conyears-Ervin's defeat as AIPAC's most notable Illinois primary loss — $5M in spending could not overcome a divided anti-AIPAC vote in the crowded IL-07 field. Ford's win is seen as a setback for the pro-Israel lobby's 2026 congressional strategy.",
+      "summary": "NYT takeaways highlight Conyears-Ervin's defeat as AIPAC's most notable Illinois primary loss \u2014 $5M in spending could not overcome a divided anti-AIPAC vote in the crowded IL-07 field. Ford's win is seen as a setback for the pro-Israel lobby's 2026 congressional strategy.",
       "sentiment": "negative"
     },
     {
@@ -93,15 +93,15 @@
       "sentiment": "negative"
     },
     {
-      "title": "AIPAC Spent $12 Million Losing Illinois Primary Elections — Including $5M for Conyears-Ervin in IL-07",
+      "title": "AIPAC Spent $12 Million Losing Illinois Primary Elections \u2014 Including $5M for Conyears-Ervin in IL-07",
       "url": "https://www.newsweek.com/aipac-illinois-democratic-primary-elections-11694996",
       "source": "Newsweek",
       "date": "2026-03-19",
-      "summary": "Newsweek's post-primary accounting of AIPAC's $12M+ spending across Illinois. United Democracy Project (AIPAC-affiliated) spent $5 million in the 7th Congressional District, mostly backing Conyears-Ervin — one of AIPAC's biggest single-race investments in Illinois. Despite the spending, La Shawn Ford won the crowded 13-candidate field, handing AIPAC one of its highest-profile losses of the cycle.",
+      "summary": "Newsweek's post-primary accounting of AIPAC's $12M+ spending across Illinois. United Democracy Project (AIPAC-affiliated) spent $5 million in the 7th Congressional District, mostly backing Conyears-Ervin \u2014 one of AIPAC's biggest single-race investments in Illinois. Despite the spending, La Shawn Ford won the crowded 13-candidate field, handing AIPAC one of its highest-profile losses of the cycle.",
       "sentiment": "negative"
     },
     {
-      "title": "Super PAC scorecard — how outside spending groups fared in efforts to influence Illinois primary voters",
+      "title": "Super PAC scorecard \u2014 how outside spending groups fared in efforts to influence Illinois primary voters",
       "url": "https://www.wbez.org/government-politics/elections/2026/03/18/illinois-primary-super-pac-spending-aipac-cryptocurrency-ai-sports-betting",
       "source": "WBEZ",
       "date": "2026-03-18",
@@ -121,7 +121,7 @@
       "url": "https://www.chicagotribune.com/2026/03/17/illinois-2nd-democratic-primary/",
       "source": "Chicago Tribune",
       "date": "2026-03-17",
-      "summary": "Tribune story on the IL-02 race notes that outgoing Rep. Robin Kelly — who gave up the seat to run for Senate — vacated a district now won by Donna Miller. Melissa Conyears-Ervin ran in the adjacent IL-07 (not IL-02) and lost to La Shawn Ford in the Democratic primary for Danny Davis's open seat.",
+      "summary": "Tribune story on the IL-02 race notes that outgoing Rep. Robin Kelly \u2014 who gave up the seat to run for Senate \u2014 vacated a district now won by Donna Miller. Melissa Conyears-Ervin ran in the adjacent IL-07 (not IL-02) and lost to La Shawn Ford in the Democratic primary for Danny Davis's open seat.",
       "sentiment": "negative"
     },
     {
@@ -129,7 +129,7 @@
       "url": "https://www.chicagotribune.com/2026/03/19/outside-spending-illinois-primaries-results/",
       "source": "Chicago Tribune",
       "date": "2026-03-19",
-      "summary": "Post-primary spending analysis notes that the United Democracy Project (AIPAC-aligned) spent $5M supporting Conyears-Ervin in IL-07 against La Shawn Ford — and lost. The piece characterizes the IL-07 result as a clear defeat for AIPAC-aligned spending, as Ford won despite the $5M outside investment for his opponent.",
+      "summary": "Post-primary spending analysis notes that the United Democracy Project (AIPAC-aligned) spent $5M supporting Conyears-Ervin in IL-07 against La Shawn Ford \u2014 and lost. The piece characterizes the IL-07 result as a clear defeat for AIPAC-aligned spending, as Ford won despite the $5M outside investment for his opponent.",
       "sentiment": "negative"
     },
     {
@@ -153,8 +153,16 @@
       "url": "https://www.theguardian.com/us-news/2026/mar/17/illinois-election-day-senate-congressional-races",
       "source": "The Guardian",
       "date": "2026-03-17",
-      "summary": "Guardian Election Day overview of Illinois congressional races. Identifies Conyears-Ervin as a prominent IL-07 Democratic primary contender backed by AIPAC-affiliated United Democracy Project independent expenditures — making her race a bellwether test of pro-Israel PAC influence in progressive urban districts.",
+      "summary": "Guardian Election Day overview of Illinois congressional races. Identifies Conyears-Ervin as a prominent IL-07 Democratic primary contender backed by AIPAC-affiliated United Democracy Project independent expenditures \u2014 making her race a bellwether test of pro-Israel PAC influence in progressive urban districts.",
       "sentiment": "neutral"
+    },
+    {
+      "title": "Crowded primary for Krishnamoorthi's suburban House seat underscores Democrats' generational divide",
+      "url": "https://chicago.suntimes.com/elections/2026/02/25/illinois-primary-melissa-bean-junaid-ahmed-kevin-morrison-yasmeen-bankole",
+      "source": "Chicago Sun-Times",
+      "date": "2026-03-17",
+      "summary": "Sun-Times primary result update: Bean won the 8-candidate Democratic primary. Conyears-Ervin, backed by Chicago progressive networks, came in second but was unable to match Bean's suburban appeal and moderate positioning in a district that stretches from Chicago's Northwest Side to Elgin.",
+      "sentiment": "negative"
     }
   ],
   "score": null,
