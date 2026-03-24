@@ -315,6 +315,22 @@
   "policy_platform": [],
   "news_hits": [
     {
+      "title": "Trump decries Loyola student's killing while pushing deportations; suspect's court date postponed",
+      "url": "https://chicago.suntimes.com/crime/2026/03/23/chicago-crime-trump-sheridan-gorman-loyola-murder-shooting-deportation-immigration",
+      "source": "Chicago Sun-Times",
+      "date": "2026-03-23",
+      "summary": "Pritzker office broke silence on murder of Loyola University freshman Sheridan Gorman (18), allegedly killed by Venezuelan national Jose Medina-Medina (25). Pritzker statement called for accountability 'to the fullest extent of state and federal law' and avoided Trump's politicization of the case amid mass deportation operations. Medina hospitalized with TB, missed court hearing, remains in custody pending Friday hearing.",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Pritzker accuses Trump of politicizing Loyola student's murder case",
+      "url": "https://www.foxnews.com/politics/pritzker-breaks-silence-migrant-charged-students-murder-blames-trump-politicizing-case",
+      "source": "Fox News",
+      "date": "2026-03-24",
+      "summary": "Pritzker office statement on Loyola student Sheridan Gorman murder case involving Venezuelan migrant. Pritzker criticized Trump for using the case to justify mass deportations and 'Operation Midway Blitz' immigration enforcement, while calling for justice and accountability through proper legal channels.",
+      "sentiment": "negative"
+    },
+    {
       "headline": "Who is running for Illinois governor in the 2026 primary election? Full list of candidates",
       "title": "Who is running for Illinois governor in the 2026 primary election? Full list of candidates",
       "summary": "NBC Chicago (March 13) pre-primary overview notes Pritzker is running for re-election while simultaneously eyeing a potential 2028 presidential run. He faces no significant Democratic primary challenger and is the heavy general election favorite.",

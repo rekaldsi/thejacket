@@ -313,6 +313,14 @@
   },
   "news_hits": [
     {
+      "title": "IL U.S. Rep says health care crisis caused by failing to extend ACA tax credits",
+      "url": "https://www.kpvi.com/interests/il-u-s-rep-says-health-care-crisis-caused-by-failing-to-extend-aca-tax/article_3dd671d9-c682-510f-9163-58bc3182d336.html",
+      "source": "KPVI / The Center Square",
+      "date": "2026-03-23",
+      "summary": "Cook County Board President Toni Preckwinkle joined Rep. Lauren Underwood at ACA anniversary press conference in Chicago, criticizing Trump administration for failing to extend expanded tax credits. Preckwinkle stated that local government should not have to backfill for federal disinvestment on healthcare.",
+      "sentiment": "negative"
+    },
+    {
       "headline": "Cook County Board president race hinges on whether voters want steady hand or new course",
       "summary": "The Chicago Tribune's pre-primary analysis examines the race between incumbent Preckwinkle and challenger Ald. Brendan Reilly (42nd Ward), framing it as an establishment vs. modernization contest. Reilly has raised competitively and made the Tyler Technologies contract cost overruns a central attack.",
       "url": "https://www.chicagotribune.com/2026/03/11/cook-county-board-president/",
