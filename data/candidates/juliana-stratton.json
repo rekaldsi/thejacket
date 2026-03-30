@@ -988,6 +988,14 @@
       "date": "2026-03-28",
       "summary": "The New York Times published an updated polling tracker for the 2026 Illinois U.S. Senate general election, tracking Juliana Stratton (D) vs. Don Tracy (R). Stratton leads in early post-primary polling.",
       "sentiment": "positive"
+    },
+    {
+      "title": "Illinois House poised to consider a ban on new ICE detention centers near homes, schools and parks",
+      "url": "https://www.chicagotribune.com/2026/03/29/illinois-house-ice-facility-expansion-prohibitions/",
+      "source": "Chicago Tribune",
+      "date": "2026-03-29",
+      "summary": "The Illinois House is set to consider a bill — passed through committee 8-3 on a party-line vote — banning new ICE detention centers within 1,500 feet of schools, churches, parks, and homes. The bill aligns directly with Stratton's campaign platform as the only primary candidate who called for abolishing ICE outright, and reinforces her general election contrast with Republican Don Tracy.",
+      "sentiment": "positive"
     }
   ],
   "fec_candidate_id": "S6IL00458",

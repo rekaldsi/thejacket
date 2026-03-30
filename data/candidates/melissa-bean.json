@@ -219,6 +219,14 @@
       "date": "2026-03-27",
       "summary": "Rich Miller's post-primary turnout analysis is a positive signal for Bean's IL-08 general election bid. Democratic turnout surged across DuPage (+45%), Lake (+27%), and Will counties — all relevant to the suburban/exurban IL-08 district stretching from northwest Chicago through Elgin and Geneva. Republican turnout collapsed in these same geographies. Bean faces Republican Jennifer Davis in November in a district Miller's data suggests is increasingly blue-leaning.",
       "sentiment": "positive"
+    },
+    {
+      "title": "Illinois House poised to consider a ban on new ICE detention centers near homes, schools and parks",
+      "url": "https://www.chicagotribune.com/2026/03/29/illinois-house-ice-facility-expansion-prohibitions/",
+      "source": "Chicago Tribune",
+      "date": "2026-03-29",
+      "summary": "Illinois House Democrats advanced a bill banning new ICE detention centers near homes, schools, and parks. The legislation is a key litmus test for IL-08's November general election — Bean faces Republican Jennifer Davis in a district where immigration enforcement has been a central voter concern following Operation Midway Blitz.",
+      "sentiment": "neutral"
     }
   ],
   "score": null,
