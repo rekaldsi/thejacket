@@ -5,13 +5,13 @@
   "office": "Cook County Assessor",
   "race_id": "cook-county-assessor-d-2026",
   "bio": "Patrick (Pat) Hynes has served as Lyons Township Assessor since 2021 and brings 30 years of property tax experience to his challenge of incumbent Fritz Kaegi. He is also a firefighter and EMT. His campaign focuses on assessment accuracy errors he attributes to Kaegi's tenure. (Source: Ballotpedia Cook County Assessor 2026)",
-  "prior_office": "Lyons Township Assessor (2021\u2013present)",
+  "prior_office": "Lyons Township Assessor (2021–present)",
   "website": "https://www.assessorhynes.com",
   "jacket": {
     "total_raised": 1613074,
     "data_date": "2026-03-13",
     "source": "https://www.illinoissunshine.org/committees/hynes-for-assessor-36733/",
-    "note": "ILSBE committee totals pending ETL import. County race \u2014 no FEC filing.",
+    "note": "ILSBE committee totals pending ETL import. County race — no FEC filing.",
     "donors": [
       {
         "name": "Chicagoland Operators Joint Labor-Management PAC",
@@ -89,55 +89,55 @@
     {
       "type": "ethics",
       "label": "Heavy construction union donor network (Laborers/Operating Engineers/Carpenters)",
-      "detail": "Heavy construction union donor network (Laborers/Operating Engineers/Carpenters) raises pay-to-play concerns \u2014 property tax attorneys and construction industry could benefit from favorable assessments",
+      "detail": "Heavy construction union donor network (Laborers/Operating Engineers/Carpenters) raises pay-to-play concerns — property tax attorneys and construction industry could benefit from favorable assessments",
       "source": "https://www.assessorhynes.com",
       "confirmed": false
     },
     {
       "type": "ethics",
-      "label": "Michael Sacks ($125K) \u2014 Pritzker ally and Grosvenor Capital Management CEO; ties",
-      "detail": "Michael Sacks ($125K) \u2014 Pritzker ally and Grosvenor Capital Management CEO; ties to Democratic party establishment",
+      "label": "Michael Sacks ($125K) — Pritzker ally and Grosvenor Capital Management CEO; ties",
+      "detail": "Michael Sacks ($125K) — Pritzker ally and Grosvenor Capital Management CEO; ties to Democratic party establishment",
       "source": "https://www.assessorhynes.com",
       "confirmed": false
     },
     {
       "type": "ethics",
-      "label": "Kaegi campaign accuses Hynes of being 'beholden to property tax attorneys' \u2014 not",
-      "detail": "Kaegi campaign accuses Hynes of being 'beholden to property tax attorneys' \u2014 not independently confirmed but large PAC support from industry-adjacent donors is notable",
+      "label": "Kaegi campaign accuses Hynes of being 'beholden to property tax attorneys' — not",
+      "detail": "Kaegi campaign accuses Hynes of being 'beholden to property tax attorneys' — not independently confirmed but large PAC support from industry-adjacent donors is notable",
       "source": "https://www.assessorhynes.com",
       "confirmed": false
     },
     {
       "type": "ethics",
-      "label": "One Future Illinois PAC ($125K) \u2014 Democratic establishment super PAC backed by p",
-      "detail": "One Future Illinois PAC ($125K) \u2014 Democratic establishment super PAC backed by party leadership",
+      "label": "One Future Illinois PAC ($125K) — Democratic establishment super PAC backed by p",
+      "detail": "One Future Illinois PAC ($125K) — Democratic establishment super PAC backed by party leadership",
       "source": "https://www.assessorhynes.com",
       "confirmed": false
     },
     {
-      "label": "Heavy construction union donor network (Laborers/Operating Engineers/Carpenters) raises pay-to-play concerns \u2014 property tax attorneys and construction industry could benefit from favorable assessments"
+      "label": "Heavy construction union donor network (Laborers/Operating Engineers/Carpenters) raises pay-to-play concerns — property tax attorneys and construction industry could benefit from favorable assessments"
     },
     {
-      "label": "Michael Sacks ($125K) \u2014 Pritzker ally and Grosvenor Capital Management CEO; ties to Democratic party establishment"
+      "label": "Michael Sacks ($125K) — Pritzker ally and Grosvenor Capital Management CEO; ties to Democratic party establishment"
     },
     {
-      "label": "Kaegi campaign accuses Hynes of being 'beholden to property tax attorneys' \u2014 not independently confirmed but large PAC support from industry-adjacent donors is notable"
+      "label": "Kaegi campaign accuses Hynes of being 'beholden to property tax attorneys' — not independently confirmed but large PAC support from industry-adjacent donors is notable"
     },
     {
-      "label": "One Future Illinois PAC ($125K) \u2014 Democratic establishment super PAC backed by party leadership"
+      "label": "One Future Illinois PAC ($125K) — Democratic establishment super PAC backed by party leadership"
     }
   ],
   "key_votes": [
     {
-      "bill": "No voting record \u2014 challenger, first-time countywide candidate",
+      "bill": "No voting record — challenger, first-time countywide candidate",
       "vote": "record",
-      "summary": "No voting record \u2014 challenger, first-time countywide candidate",
+      "summary": "No voting record — challenger, first-time countywide candidate",
       "source": "https://www.assessorhynes.com"
     },
     {
-      "bill": "Lyons Township Assessor since 2022 \u2014 elected office, no public voting record ava",
+      "bill": "Lyons Township Assessor since 2022 — elected office, no public voting record ava",
       "vote": "record",
-      "summary": "Lyons Township Assessor since 2022 \u2014 elected office, no public voting record available",
+      "summary": "Lyons Township Assessor since 2022 — elected office, no public voting record available",
       "source": "https://www.assessorhynes.com"
     },
     {
@@ -163,7 +163,7 @@
     {
       "role": "Lyons Township Assessor",
       "org": "Lyons Township",
-      "years": "2021\u2013present",
+      "years": "2021–present",
       "highlight": "30 years of property tax experience; firefighter and EMT"
     },
     {
@@ -223,7 +223,7 @@
     "platform_completeness": "B",
     "record_available": true,
     "red_flags_count": 8,
-    "computed_at": "2026-03-30"
+    "computed_at": "2026-03-31"
   },
   "data_status": "partial",
   "news_hits": [
@@ -357,11 +357,11 @@
       "sentiment": "positive"
     },
     {
-      "title": "Super PAC scorecard \u2014 how outside spending groups fared in efforts to influence Illinois primary voters",
+      "title": "Super PAC scorecard — how outside spending groups fared in efforts to influence Illinois primary voters",
       "url": "https://www.wbez.org/government-politics/elections/2026/03/18/illinois-primary-super-pac-spending-aipac-cryptocurrency-ai-sports-betting",
       "source": "WBEZ",
       "date": "2026-03-18",
-      "summary": "WBEZ post-primary analysis of outside spending. Pat Hynes, who won the Cook County Assessor Democratic primary over incumbent Fritz Kaegi, benefited from the Cook County Democratic Party's slate support. The assessor race was notable as the only contested countywide Democratic race with no Republican challenger \u2014 making Hynes's primary win tantamount to election.",
+      "summary": "WBEZ post-primary analysis of outside spending. Pat Hynes, who won the Cook County Assessor Democratic primary over incumbent Fritz Kaegi, benefited from the Cook County Democratic Party's slate support. The assessor race was notable as the only contested countywide Democratic race with no Republican challenger — making Hynes's primary win tantamount to election.",
       "sentiment": "neutral"
     },
     {
@@ -425,23 +425,23 @@
       "url": "https://chicago.suntimes.com/the-watchdogs/2026/03/20/annette-guzman-brandon-johnson-property-tax-breaks-kaegi",
       "source": "Chicago Sun-Times",
       "date": "2026-03-20",
-      "summary": "Sun-Times Watchdogs investigation revealing that the assessor's office Hynes is inheriting failed to process a homeowner exemption cancellation for Mayor Johnson's budget director Annette Guzman, resulting in five years of illegal tax breaks. The story surfaces as a governance challenge for Hynes, who campaigned on cleaning up assessor office operations and fixing systemic errors that harmed Cook County homeowners. The assessor's office ordered repayment of only $2,071.89 and waived all interest \u2014 a response critics called inadequate.",
+      "summary": "Sun-Times Watchdogs investigation revealing that the assessor's office Hynes is inheriting failed to process a homeowner exemption cancellation for Mayor Johnson's budget director Annette Guzman, resulting in five years of illegal tax breaks. The story surfaces as a governance challenge for Hynes, who campaigned on cleaning up assessor office operations and fixing systemic errors that harmed Cook County homeowners. The assessor's office ordered repayment of only $2,071.89 and waived all interest — a response critics called inadequate.",
       "sentiment": "negative"
     },
     {
-      "title": "United Center owners seek nearly $55M property tax break for 1901 Project \u2014 first major case for incoming assessor",
+      "title": "United Center owners seek nearly $55M property tax break for 1901 Project — first major case for incoming assessor",
       "url": "https://chicago.suntimes.com/real-estate/2026/03/23/united-center-owners-wirtz-reinsdorf-1901-project-55-million-property-tax-break",
       "source": "Chicago Sun-Times",
       "date": "2026-03-23",
-      "summary": "Mayor Brandon Johnson introduced a $54.7M property tax incentive package to City Council for the 1901 Project, a $7B entertainment district surrounding the United Center. The Class 7b special assessment \u2014 approved by the Cook County Assessor's office \u2014 would give the Wirtz and Reinsdorf families a 10% property tax rate for 10 years. As incoming Cook County Assessor, Pat Hynes will inherit oversight of how such large commercial property tax abatements and classifications are administered. The case tests whether Hynes will bring the taxpayer-first approach he promised during the campaign or accommodate major commercial interests.",
+      "summary": "Mayor Brandon Johnson introduced a $54.7M property tax incentive package to City Council for the 1901 Project, a $7B entertainment district surrounding the United Center. The Class 7b special assessment — approved by the Cook County Assessor's office — would give the Wirtz and Reinsdorf families a 10% property tax rate for 10 years. As incoming Cook County Assessor, Pat Hynes will inherit oversight of how such large commercial property tax abatements and classifications are administered. The case tests whether Hynes will bring the taxpayer-first approach he promised during the campaign or accommodate major commercial interests.",
       "sentiment": "neutral"
     },
     {
-      "title": "Primary voter turnout numbers \u2014 high for Democrats, low for Republicans \u2014 may guide future trends",
+      "title": "Primary voter turnout numbers — high for Democrats, low for Republicans — may guide future trends",
       "url": "https://chicago.suntimes.com/columnists/2026/03/27/primary-voter-turnout-democrats-republicans-kane-dupage-lake-will-suburbs-rich-miller",
       "source": "Chicago Sun-Times / Rich Miller",
       "date": "2026-03-27",
-      "summary": "Rich Miller's post-primary analysis contextualizes the Democratic primary environment in which Hynes defeated incumbent Fritz Kaegi. High Democratic turnout across all major suburban Cook County areas is broadly favorable for Hynes in November \u2014 no Republican candidate has filed for Cook County Assessor, making Hynes the presumptive winner of the office.",
+      "summary": "Rich Miller's post-primary analysis contextualizes the Democratic primary environment in which Hynes defeated incumbent Fritz Kaegi. High Democratic turnout across all major suburban Cook County areas is broadly favorable for Hynes in November — no Republican candidate has filed for Cook County Assessor, making Hynes the presumptive winner of the office.",
       "sentiment": "positive"
     },
     {
@@ -449,7 +449,7 @@
       "url": "https://chicago.suntimes.com/elections/2026/03/21/cook-county-assessor-fritz-kaegi-lyons-township-dan-hynes-democratic-primary-property-tax-increase-factor",
       "source": "Chicago Sun-Times",
       "date": "2026-03-21",
-      "summary": "Sun-Times analysis confirms property tax backlash drove Hynes' upset win \u2014 Hynes won 66% in the 24th Ward (102% tax increase), 68% in the 16th Ward (92% increase), nearly 70% in University Park (255% increase in 2023). Hynes' 35,000-vote suburban margin was decisive. 'The work ahead is about fairness and justice for those who have been harmed over the last eight years,' he said.",
+      "summary": "Sun-Times analysis confirms property tax backlash drove Hynes' upset win — Hynes won 66% in the 24th Ward (102% tax increase), 68% in the 16th Ward (92% increase), nearly 70% in University Park (255% increase in 2023). Hynes' 35,000-vote suburban margin was decisive. 'The work ahead is about fairness and justice for those who have been harmed over the last eight years,' he said.",
       "sentiment": "positive"
     },
     {
@@ -469,7 +469,7 @@
       "sentiment": "positive"
     },
     {
-      "title": "Pritzker brings heat \u2014 and 2028 buzz",
+      "title": "Pritzker brings heat — and 2028 buzz",
       "url": "https://www.politico.com/newsletters/illinois-playbook/2026/03/23/pritzker-brings-heat-and-2028-buzz-00839505",
       "source": "politico.com",
       "date": "2026-03-23",
@@ -481,7 +481,7 @@
       "url": "https://www.politico.com/newsletters/illinois-playbook/2026/03/30/illinois-leads-the-way-on-resistance-00849824",
       "source": "politico.com",
       "date": "2026-03-30",
-      "summary": "Illinois' response to Trump's immigration crackdown \u2014 with Gov. Pritzker coordinating with Democratic governors and Mayor Brandon Johnson issuing executive orders limiting ICE's reach following Operation Midway Blitz \u2014 is being cited as a blueprint for Democratic resistance nationally.",
+      "summary": "Illinois' response to Trump's immigration crackdown — with Gov. Pritzker coordinating with Democratic governors and Mayor Brandon Johnson issuing executive orders limiting ICE's reach following Operation Midway Blitz — is being cited as a blueprint for Democratic resistance nationally.",
       "sentiment": "neutral"
     }
   ],
