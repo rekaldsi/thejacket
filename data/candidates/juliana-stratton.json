@@ -1052,6 +1052,14 @@
       "date": "2026-03-31",
       "summary": "Politico profiles political strategist Quentin Fulks, who engineered Juliana Stratton's Senate primary win over better-funded rivals Raja Krishnamoorthi and Robin Kelly. Stratton's Illinois Future PAC (funded by $5M from Gov. Pritzker) outmaneuvered Krishnamoorthi's $30M campaign and Fairshake's $10M pro-Krishnamoorthi crypto PAC. The piece frames the result as a masterclass in strategic spending over raw dollar advantage.",
       "sentiment": "positive"
+    },
+    {
+      "title": "Juliana Stratton wins Illinois Democratic US Senate primary",
+      "url": "https://www.nytimes.com/interactive/2026/us/elections/results-illinois-us-senate-primary.html",
+      "source": "The New York Times / Associated Press",
+      "date": "2026-04-01",
+      "summary": "Lt. Gov. Juliana Stratton won the Democratic US Senate primary, defeating Rep. Raja Krishnamoorthi (33.1%, 399K votes) and Rep. Robin Kelly (18.1%, 218K votes) with 40.2% of the vote (484K). AP called the race. Stratton's Cook County machine advantage and Gov. Pritzker's $5M PAC backing proved decisive. The seat is rated Solidly Democratic, giving Stratton a strong general-election path.",
+      "sentiment": "positive"
     }
   ],
   "fec_candidate_id": "S6IL00458",
@@ -1137,8 +1145,9 @@
   ],
   "primary_result": {
     "status": "won",
-    "votes": 106786,
-    "pct": 35.94,
-    "updated": "2026-03-18T03:39:53.721Z"
+    "votes": 484321,
+    "pct": 40.2,
+    "updated": "2026-04-01T01:02:00.000Z",
+    "note": "Won Democratic US Senate primary over Krishnamoorthi (33.1%) and Kelly (18.1%). AP called."
   }
 }

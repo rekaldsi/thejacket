@@ -733,6 +733,14 @@
       "date": "2026-03-31",
       "summary": "Politico profiles political strategist Quentin Fulks, who engineered Juliana Stratton's Senate primary win over better-funded rivals Raja Krishnamoorthi and Robin Kelly. Stratton's Illinois Future PAC (funded by $5M from Gov. Pritzker) outmaneuvered Krishnamoorthi's $30M campaign and Fairshake's $10M pro-Krishnamoorthi crypto PAC. The piece frames the result as a masterclass in strategic spending over raw dollar advantage.",
       "sentiment": "positive"
+    },
+    {
+      "title": "JB Pritzker wins Illinois Democratic gubernatorial primary uncontested",
+      "url": "https://www.nbcnews.com/politics/2026-primary-elections/illinois-governor-results",
+      "source": "NBC News / Associated Press",
+      "date": "2026-04-01",
+      "summary": "Gov. JB Pritzker won the Democratic gubernatorial primary uncontested, advancing to the general election. Pritzker faces Republican Darren Bailey in November. He is seeking a third term ahead of a potential 2028 presidential campaign.",
+      "sentiment": "positive"
     }
   ],
   "transparency_score": {
@@ -746,8 +754,9 @@
   },
   "primary_result": {
     "status": "won",
-    "votes": 280431,
-    "pct": 100,
-    "updated": "2026-03-18T03:39:53.721Z"
+    "votes": 0,
+    "pct": 100.0,
+    "updated": "2026-04-01T01:02:00.000Z",
+    "note": "Uncontested Democratic primary win. Faces Bailey in November."
   }
 }

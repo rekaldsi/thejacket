@@ -848,6 +848,14 @@
       "date": "2026-03-31",
       "summary": "Politico profiles political strategist Quentin Fulks, who engineered Juliana Stratton's Senate primary win over better-funded rivals Raja Krishnamoorthi and Robin Kelly. Stratton's Illinois Future PAC (funded by $5M from Gov. Pritzker) outmaneuvered Krishnamoorthi's $30M campaign and Fairshake's $10M pro-Krishnamoorthi crypto PAC. The piece frames the result as a masterclass in strategic spending over raw dollar advantage.",
       "sentiment": "negative"
+    },
+    {
+      "title": "Raja Krishnamoorthi loses Illinois Senate Democratic primary to Juliana Stratton",
+      "url": "https://www.nytimes.com/interactive/2026/us/elections/results-illinois-us-senate-primary.html",
+      "source": "The New York Times / Associated Press",
+      "date": "2026-04-01",
+      "summary": "Rep. Raja Krishnamoorthi finished second in the Democratic Senate primary with 33.1% (399K votes), behind Lt. Gov. Juliana Stratton (40.2%). Despite a $30M war chest and $10M in support from crypto-backed Fairshake PAC, Krishnamoorthi's money advantage could not overcome Stratton's coalition and Pritzker machine backing. He won DuPage, Lake, Kane, McHenry counties but lost Cook decisively.",
+      "sentiment": "negative"
     }
   ],
   "fec_candidate_id": "S6IL00482",
@@ -933,8 +941,9 @@
   ],
   "primary_result": {
     "status": "lost",
-    "votes": 105242,
-    "pct": 35.42,
-    "updated": "2026-03-18T03:39:53.721Z"
+    "votes": 399331,
+    "pct": 33.1,
+    "updated": "2026-04-01T01:02:00.000Z",
+    "note": "Lost Democratic Senate primary to Stratton despite $30M campaign. AP called for Stratton."
   }
 }

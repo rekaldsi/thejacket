@@ -730,6 +730,14 @@
       "date": "2026-03-31",
       "summary": "Politico profiles political strategist Quentin Fulks, who engineered Juliana Stratton's Senate primary win over better-funded rivals Raja Krishnamoorthi and Robin Kelly. Stratton's Illinois Future PAC (funded by $5M from Gov. Pritzker) outmaneuvered Krishnamoorthi's $30M campaign and Fairshake's $10M pro-Krishnamoorthi crypto PAC. The piece frames the result as a masterclass in strategic spending over raw dollar advantage.",
       "sentiment": "negative"
+    },
+    {
+      "title": "Robin Kelly finishes third in Illinois Democratic Senate primary",
+      "url": "https://www.nytimes.com/interactive/2026/us/elections/results-illinois-us-senate-primary.html",
+      "source": "The New York Times / Associated Press",
+      "date": "2026-04-01",
+      "summary": "Rep. Robin Kelly placed third in the Democratic Senate primary with 18.1% (218K votes) behind Stratton and Krishnamoorthi. Kelly was the only candidate to lead in a county (Kankakee) through the night. NYT analysis noted concern that Kelly would split Black voters with Stratton, which may have contributed to Stratton's broad coalition win.",
+      "sentiment": "negative"
     }
   ],
   "fec_candidate_id": "S6IL00474",
@@ -815,9 +823,9 @@
   ],
   "primary_result": {
     "status": "lost",
-    "votes": 54619,
-    "pct": 18.4,
-    "note": "Third-place finish. Stratton won with ~39.7%, Krishnamoorthi second with ~33.4%.",
-    "updated": "2026-03-18T13:10:00.000Z"
+    "votes": 218133,
+    "pct": 18.1,
+    "updated": "2026-04-01T01:02:00.000Z",
+    "note": "Third place in Democratic Senate primary. Won Kankakee County only."
   }
 }
