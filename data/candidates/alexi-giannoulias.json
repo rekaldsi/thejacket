@@ -4,8 +4,8 @@
   "party": "Democratic",
   "office": "Illinois Secretary of State",
   "race_id": "il-secretary-of-state-d-2026",
-  "bio": "Alexi Giannoulias has served as Illinois Secretary of State since January 2023, elected in November 2022. He previously served as Illinois State Treasurer from 2007 to 2011. In 2010, he ran for the U.S. Senate seat vacated by Barack Obama, losing to Republican Mark Kirk by 2 percentage points. His family owned Broadway Bank in Chicago, which failed in April 2010 during the financial crisis — an issue that dogged his 2010 Senate campaign. As Secretary of State, he has focused on driver's license access, voting rights, and digitizing state services.",
-  "prior_office": "Illinois Secretary of State (2023–present); Illinois State Treasurer (2007–2011)",
+  "bio": "Alexi Giannoulias has served as Illinois Secretary of State since January 2023, elected in November 2022. He previously served as Illinois State Treasurer from 2007 to 2011. In 2010, he ran for the U.S. Senate seat vacated by Barack Obama, losing to Republican Mark Kirk by 2 percentage points. His family owned Broadway Bank in Chicago, which failed in April 2010 during the financial crisis \u2014 an issue that dogged his 2010 Senate campaign. As Secretary of State, he has focused on driver's license access, voting rights, and digitizing state services.",
+  "prior_office": "Illinois Secretary of State (2023\u2013present); Illinois State Treasurer (2007\u20132011)",
   "website": "https://www.ilsos.gov",
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Alexi_Giannoulias_official_photo.jpg/440px-Alexi_Giannoulias_official_photo.jpg",
   "data_status": "partial",
@@ -18,7 +18,7 @@
   },
   "red_flags": [
     {
-      "title": "Broadway Bank failure — family bank collapsed during 2010 financial crisis",
+      "title": "Broadway Bank failure \u2014 family bank collapsed during 2010 financial crisis",
       "description": "Broadway Bank, owned by the Giannoulias family, was seized by federal regulators and failed in April 2010. The bank had made loans to convicted criminals including Tony Rezko and Michael 'Jaws' Giorango, and had expanded its risky loan portfolio significantly under Alexi's tenure as senior loan officer (2002-2006) before he became State Treasurer. The failure became a major issue in his 2010 U.S. Senate race.",
       "source": "https://www.chicagotribune.com/2010/04/23/fdic-seizes-broadway-bank/",
       "confirmed": true,
@@ -129,7 +129,7 @@
       "url": "https://www.politico.com/newsletters/illinois-playbook/2026/02/26/giannoulias-banks-9m-mayoral-buzz-00799906",
       "source": "Politico Illinois Playbook",
       "date": "2026-02-26",
-      "summary": "Politico Illinois Playbook reports a scoop: Illinois Secretary of State Alexi Giannoulias has logged a stunning $9 million in campaign contributions — an extraordinary amount for an uncontested statewide incumbent — fueling growing talk that he is laying the groundwork to run for mayor of Chicago in 2027. Giannoulias faces no Democratic primary opponent and is a heavy November general election favorite against Republican Diane Harris.",
+      "summary": "Politico Illinois Playbook reports a scoop: Illinois Secretary of State Alexi Giannoulias has logged a stunning $9 million in campaign contributions \u2014 an extraordinary amount for an uncontested statewide incumbent \u2014 fueling growing talk that he is laying the groundwork to run for mayor of Chicago in 2027. Giannoulias faces no Democratic primary opponent and is a heavy November general election favorite against Republican Diane Harris.",
       "sentiment": "neutral"
     },
     {
@@ -137,7 +137,7 @@
       "url": "https://www.ilsos.gov/news/2026/march-2-2026-giannoulias-joins-illinois-literacy-foundation-ymca-to-celebrate-national-read-across-america-day-with-book-donation-and-day-of-service.html",
       "source": "Illinois Secretary of State Office",
       "date": "2026-03-02",
-      "summary": "Secretary of State Giannoulias joined the Illinois Literacy Foundation and YMCA of Metropolitan Chicago for a Day of Service on March 2, 2026 — National Read Across America Day — donating books and participating in literacy programming. Official press release from the SOS office.",
+      "summary": "Secretary of State Giannoulias joined the Illinois Literacy Foundation and YMCA of Metropolitan Chicago for a Day of Service on March 2, 2026 \u2014 National Read Across America Day \u2014 donating books and participating in literacy programming. Official press release from the SOS office.",
       "sentiment": "positive"
     },
     {
@@ -157,7 +157,7 @@
       "sentiment": "positive"
     },
     {
-      "title": "Illinois Democrats ran on anti-Trump messaging ahead of general election — Giannoulias among winners gearing up for November",
+      "title": "Illinois Democrats ran on anti-Trump messaging ahead of general election \u2014 Giannoulias among winners gearing up for November",
       "url": "https://chicago.suntimes.com/elections/2026/03/18/illinois-democrats-ran-anti-trump-ice-messaging-now-what",
       "source": "Chicago Sun-Times",
       "date": "2026-03-18",
@@ -185,7 +185,7 @@
       "url": "https://chicago.suntimes.com/politics/2026/03/21/pritzker-quips-weight-loss-rahm-2028-buzz-washington-speech",
       "source": "Chicago Sun-Times",
       "date": "2026-03-21",
-      "summary": "Gov. Pritzker's Gridiron Club speech and post-primary political positioning is relevant to Giannoulias as IL Secretary of State — Pritzker is the dominant force in Illinois Democratic politics and his priorities (transit funding, immigrant protection, 2028 presidential aspirations) directly shape the legislative and political environment Giannoulias operates in as a statewide officer.",
+      "summary": "Gov. Pritzker's Gridiron Club speech and post-primary political positioning is relevant to Giannoulias as IL Secretary of State \u2014 Pritzker is the dominant force in Illinois Democratic politics and his priorities (transit funding, immigrant protection, 2028 presidential aspirations) directly shape the legislative and political environment Giannoulias operates in as a statewide officer.",
       "sentiment": "neutral"
     },
     {
@@ -193,11 +193,11 @@
       "url": "https://chicago.suntimes.com/immigration/2026/03/25/broadview-ice-detention-center-illinois-legislation",
       "source": "Chicago Sun-Times",
       "date": "2026-03-25",
-      "summary": "An Illinois House committee advanced legislation barring new ICE detention centers from residential neighborhoods — part of a broader wave of Illinois state immigration bills in the post-Midway Blitz political environment. As Secretary of State, Giannoulias oversees driver's license policy, voter registration, and other state functions that intersect with immigrant communities.",
+      "summary": "An Illinois House committee advanced legislation barring new ICE detention centers from residential neighborhoods \u2014 part of a broader wave of Illinois state immigration bills in the post-Midway Blitz political environment. As Secretary of State, Giannoulias oversees driver's license policy, voter registration, and other state functions that intersect with immigrant communities.",
       "sentiment": "neutral"
     },
     {
-      "title": "Primary voter turnout numbers — high for Democrats, low for Republicans — may guide future trends",
+      "title": "Primary voter turnout numbers \u2014 high for Democrats, low for Republicans \u2014 may guide future trends",
       "url": "https://chicago.suntimes.com/columnists/2026/03/27/primary-voter-turnout-democrats-republicans-kane-dupage-lake-will-suburbs-rich-miller",
       "source": "Chicago Sun-Times / Rich Miller",
       "date": "2026-03-27",
@@ -209,7 +209,7 @@
       "url": "https://chicago.suntimes.com/travel/2026/03/26/tsa-travel-airports-dhs-ice-ohare-federal-budget-congress-impasse-government-shutdown",
       "source": "Chicago Sun-Times",
       "date": "2026-03-26",
-      "summary": "The DHS funding standoff has placed ICE agents at Illinois airports including O'Hare. Illinois Secretary of State Alexi Giannoulias has been an advocate for immigrant access to state IDs and driver's licenses — immigration enforcement proximity at airports highlights the ongoing policy tension between federal enforcement and state-level services his office administers.",
+      "summary": "The DHS funding standoff has placed ICE agents at Illinois airports including O'Hare. Illinois Secretary of State Alexi Giannoulias has been an advocate for immigrant access to state IDs and driver's licenses \u2014 immigration enforcement proximity at airports highlights the ongoing policy tension between federal enforcement and state-level services his office administers.",
       "sentiment": "neutral"
     },
     {
@@ -221,7 +221,7 @@
       "sentiment": "positive"
     },
     {
-      "title": "Pritzker brings heat — and 2028 buzz",
+      "title": "Pritzker brings heat \u2014 and 2028 buzz",
       "url": "https://www.politico.com/newsletters/illinois-playbook/2026/03/23/pritzker-brings-heat-and-2028-buzz-00839505",
       "source": "politico.com",
       "date": "2026-03-23",
@@ -233,7 +233,7 @@
       "url": "https://www.politico.com/newsletters/illinois-playbook/2026/03/30/illinois-leads-the-way-on-resistance-00849824",
       "source": "politico.com",
       "date": "2026-03-30",
-      "summary": "Illinois' response to Trump's immigration crackdown — with Gov. Pritzker coordinating with Democratic governors and Mayor Brandon Johnson issuing executive orders limiting ICE's reach following Operation Midway Blitz — is being cited as a blueprint for Democratic resistance nationally.",
+      "summary": "Illinois' response to Trump's immigration crackdown \u2014 with Gov. Pritzker coordinating with Democratic governors and Mayor Brandon Johnson issuing executive orders limiting ICE's reach following Operation Midway Blitz \u2014 is being cited as a blueprint for Democratic resistance nationally.",
       "sentiment": "positive"
     },
     {
@@ -241,7 +241,7 @@
       "url": "https://www.wbez.org/news/2026/03/30/property-taxes-cook-county-treasurer-study",
       "source": "WBEZ",
       "date": "2026-03-30",
-      "summary": "Cook County Treasurer Maria Pappas' report on skyrocketing property taxes — up 182% since 1995, twice the rate of inflation — is context for Alexi Giannoulias's uncontested Democratic path to November as Secretary of State. The report highlights state legislative failures that Giannoulias may need to address rhetorically as he campaigns statewide.",
+      "summary": "Cook County Treasurer Maria Pappas' report on skyrocketing property taxes \u2014 up 182% since 1995, twice the rate of inflation \u2014 is context for Alexi Giannoulias's uncontested Democratic path to November as Secretary of State. The report highlights state legislative failures that Giannoulias may need to address rhetorically as he campaigns statewide.",
       "sentiment": "neutral"
     },
     {
@@ -265,7 +265,7 @@
       "url": "https://www.politico.com/newsletters/illinois-playbook/2026/04/02/no-fooling-illinois-seeing-a-jobs-surge",
       "source": "Politico Illinois Playbook",
       "date": "2026-04-02",
-      "summary": "The April 2, 2026 Politico Illinois Playbook covers the Q1 2026 jobs surge and Illinois Democrats' post-primary positioning. Secretary of State Alexi Giannoulias, who ran unopposed in the Democratic primary and is sitting on $9M in campaign funds, is widely mentioned in connection with a potential 2027 Chicago mayoral run — the April post-primary period is when his positioning will begin to come into focus.",
+      "summary": "The April 2, 2026 Politico Illinois Playbook covers the Q1 2026 jobs surge and Illinois Democrats' post-primary positioning. Secretary of State Alexi Giannoulias, who ran unopposed in the Democratic primary and is sitting on $9M in campaign funds, is widely mentioned in connection with a potential 2027 Chicago mayoral run \u2014 the April post-primary period is when his positioning will begin to come into focus.",
       "sentiment": "neutral"
     },
     {
@@ -274,6 +274,14 @@
       "source": "MyStateline / WTVO WQRF",
       "date": "2026-04-02",
       "summary": "Illinois Secretary of State Alexi Giannoulias secured nearly $950,000 for Illinois investors as part of a $19 million multi-state settlement involving five major brokerage firms accused of charging excessive commissions on small-dollar stock trades. The action underscores Giannoulias's investor protection mandate as he heads into a November reelection contest against Republican Diane Harris.",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Alexi Giannoulias wins Illinois Secretary of State Democratic primary uncontested; faces Republican Diane Harris",
+      "url": "https://chicago.suntimes.com/elections/2026/graphics/voter-guide-primary-election-illinois/illinois-primary-results-2026/",
+      "source": "Chicago Sun-Times / WBEZ",
+      "date": "2026-04-03",
+      "summary": "Secretary of State Alexi Giannoulias ran uncontested in the Illinois Democratic primary and advances to the November general election against Republican Diane Harris. Giannoulias's $9M war chest and incumbency advantage make him a strong favorite in November. His office also remains active on investor protection enforcement.",
       "sentiment": "positive"
     }
   ],

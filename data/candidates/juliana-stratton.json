@@ -4,8 +4,8 @@
   "party": "Democratic",
   "office": "U.S. Senate (Illinois)",
   "race_id": "us-senate-il-d-2026",
-  "bio": "Juliana Stratton is the Lieutenant Governor of Illinois, serving as J.B. Pritzker's running mate since January 2019. She was born and raised in Chicago. She earned a B.S. in Broadcast Journalism from the University of Illinois at Urbana-Champaign (1987) and a J.D. from DePaul University College of Law (1992). After law school, she founded JDS Mediation Services, Inc. and served as Executive Director of Cook County Justice for Children and the Cook County Justice Advisory Council. She taught conflict management and negotiation skills at Loyola University Chicago, and served as Director of the Center for Public Safety and Justice at University of Illinois at Chicago. Stratton was elected to the Illinois House of Representatives (26th District / later 5th District under redistricting) in 2014, serving 2015–2019 with a focus on the House Judiciary-Criminal Law Committee and criminal justice reform. She was elected Lieutenant Governor of Illinois in 2018 — the first Black woman elected to statewide office in Illinois history — and reelected in 2022. As Lt. Gov., she has led the Governor's Rural Affairs Council and championed cannabis legalization equity provisions. She announced her Senate candidacy in late April 2025, one day after Dick Durbin announced his retirement. Gov. Pritzker endorsed her immediately and has committed $5M to the independent expenditure PAC supporting her (Illinois Future PAC). She pledged not to accept any corporate PAC money for her Senate campaign. She has surged in polling in the final weeks before the March 17 primary, with one poll showing her at 33% (vs. Krishnamoorthi at 29%). (Sources: Ballotpedia; Chicago Sun-Times; WTTW Voter Guide 2026; FEC S6IL00458)",
-  "prior_office": "Lieutenant Governor of Illinois (2019–present); Illinois State Representative (26th/5th District, 2015–2019)",
+  "bio": "Juliana Stratton is the Lieutenant Governor of Illinois, serving as J.B. Pritzker's running mate since January 2019. She was born and raised in Chicago. She earned a B.S. in Broadcast Journalism from the University of Illinois at Urbana-Champaign (1987) and a J.D. from DePaul University College of Law (1992). After law school, she founded JDS Mediation Services, Inc. and served as Executive Director of Cook County Justice for Children and the Cook County Justice Advisory Council. She taught conflict management and negotiation skills at Loyola University Chicago, and served as Director of the Center for Public Safety and Justice at University of Illinois at Chicago. Stratton was elected to the Illinois House of Representatives (26th District / later 5th District under redistricting) in 2014, serving 2015\u20132019 with a focus on the House Judiciary-Criminal Law Committee and criminal justice reform. She was elected Lieutenant Governor of Illinois in 2018 \u2014 the first Black woman elected to statewide office in Illinois history \u2014 and reelected in 2022. As Lt. Gov., she has led the Governor's Rural Affairs Council and championed cannabis legalization equity provisions. She announced her Senate candidacy in late April 2025, one day after Dick Durbin announced his retirement. Gov. Pritzker endorsed her immediately and has committed $5M to the independent expenditure PAC supporting her (Illinois Future PAC). She pledged not to accept any corporate PAC money for her Senate campaign. She has surged in polling in the final weeks before the March 17 primary, with one poll showing her at 33% (vs. Krishnamoorthi at 29%). (Sources: Ballotpedia; Chicago Sun-Times; WTTW Voter Guide 2026; FEC S6IL00458)",
+  "prior_office": "Lieutenant Governor of Illinois (2019\u2013present); Illinois State Representative (26th/5th District, 2015\u20132019)",
   "website": "https://www.julianastratton.com",
   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Juliana_Stratton_2023_%28cropped%29.jpg",
   "jacket": {
@@ -13,14 +13,14 @@
     "pac_support_total": 11800000,
     "data_date": "2026-03-13",
     "source": "https://www.fec.gov/data/candidate/S6IL00458/",
-    "note": "FEC campaign committee S6IL00458 raised ~$4M directly. Illinois Future PAC — an independent expenditure PAC backing Stratton — has spent at least $11.8M per FEC records (Capitol News Illinois, March 2026). Pritzker committed $5M to Illinois Future PAC; other contributors include Laura Ricketts (Chicago Cubs co-owner, $250K) and multiple Pritzker family members. Stratton pledged no corporate PAC money to her campaign committee — a pledge she has kept to her campaign committee, but critics note she benefits from the Illinois Future PAC super PAC.",
+    "note": "FEC campaign committee S6IL00458 raised ~$4M directly. Illinois Future PAC \u2014 an independent expenditure PAC backing Stratton \u2014 has spent at least $11.8M per FEC records (Capitol News Illinois, March 2026). Pritzker committed $5M to Illinois Future PAC; other contributors include Laura Ricketts (Chicago Cubs co-owner, $250K) and multiple Pritzker family members. Stratton pledged no corporate PAC money to her campaign committee \u2014 a pledge she has kept to her campaign committee, but critics note she benefits from the Illinois Future PAC super PAC.",
     "donors": [
       {
-        "name": "Gov. J.B. Pritzker (via Illinois Future PAC — independent expenditure)",
+        "name": "Gov. J.B. Pritzker (via Illinois Future PAC \u2014 independent expenditure)",
         "amount": 5000000,
         "category": "outside_pac",
         "pac_type": "independent_expenditure",
-        "label": "Independent Expenditure PAC — NOT campaign committee funds",
+        "label": "Independent Expenditure PAC \u2014 NOT campaign committee funds",
         "source": "https://www.chicagotribune.com/2026/02/01/illinois-us-senate-democrats-campaign-reports-reports-2025/",
         "confirmed": true,
         "counts_toward_total_raised": false,
@@ -46,10 +46,10 @@
         "source": "https://capitolnewsillinois.com/news/who-is-contributing-to-illinois-u-s-senate-candidates/",
         "confirmed": true,
         "counts_toward_total_raised": true,
-        "amount_note": "MK Pritzker, two adult children, and four cousins each contributed the max $7,000 (split primary/general = $3,500 + $3,500 per person). Six family members × $7,000 = $42,000. JB Pritzker himself gave the max $7,000 directly. Jennifer Pritzker is a former Trump supporter who has more recently backed Democrats. (Capitol News Illinois, July 28, 2025)"
+        "amount_note": "MK Pritzker, two adult children, and four cousins each contributed the max $7,000 (split primary/general = $3,500 + $3,500 per person). Six family members \u00d7 $7,000 = $42,000. JB Pritzker himself gave the max $7,000 directly. Jennifer Pritzker is a former Trump supporter who has more recently backed Democrats. (Capitol News Illinois, July 28, 2025)"
       },
       {
-        "name": "AIPAC-network donors (≥27 individuals — direct campaign committee)",
+        "name": "AIPAC-network donors (\u226527 individuals \u2014 direct campaign committee)",
         "amount": 70000,
         "category": "aipac",
         "pac_type": null,
@@ -66,7 +66,7 @@
         "source": "https://capitolnewsillinois.com/news/who-is-contributing-to-illinois-u-s-senate-candidates/",
         "confirmed": true,
         "counts_toward_total_raised": true,
-        "amount_note": "12 IL General Assembly members contributed to campaign; amounts not aggregated in reporting — requires itemized FEC lookup"
+        "amount_note": "12 IL General Assembly members contributed to campaign; amounts not aggregated in reporting \u2014 requires itemized FEC lookup"
       },
       {
         "name": "Jerry Reinsdorf (White Sox and Bulls owner) and family",
@@ -99,49 +99,49 @@
         "name": "Marquis Energy Corporate PAC",
         "amount": 5000,
         "category": "pac",
-        "label": "Returned — no longer in campaign funds",
+        "label": "Returned \u2014 no longer in campaign funds",
         "source": "https://www.chicagotribune.com/2025/11/06/end-citizens-united-endorses-stratton-senate/",
         "confirmed": true,
         "counts_toward_total_raised": false,
         "amount_note": "Stratton's campaign received $5,000 from Marquis Energy Corporate PAC and returned it in June 2025 per Chicago Tribune. However, campaign accepted $21,000 from Marquis family members personally. Marquis family also contributed $46,000 to Level Up PAC (Stratton's hybrid PAC) per Sun-Times."
       }
     ],
-    "donors_note": "Stratton pledged no corporate PAC money to her campaign committee — a pledge confirmed by Sun-Times and Tribune. BUT: (1) Her prior state campaign funds accepted corporate PAC money; (2) she accepted $21,000 from Marquis Energy family members individually; (3) Illinois Future PAC — which has spent $11.8M on her behalf — is overwhelmingly funded by billionaire Gov. Pritzker; (4) her own Level Up PAC (created Jan. 2025) accepted $46,000 from Marquis family and $5,000 in corporate PAC money. Krishnamoorthi calls this 'shameless hypocrisy.' (Sources: Chicago Sun-Times 11/21/2025; Chicago Tribune 11/6/2025; Capitol News Illinois 3/10/2026)",
+    "donors_note": "Stratton pledged no corporate PAC money to her campaign committee \u2014 a pledge confirmed by Sun-Times and Tribune. BUT: (1) Her prior state campaign funds accepted corporate PAC money; (2) she accepted $21,000 from Marquis Energy family members individually; (3) Illinois Future PAC \u2014 which has spent $11.8M on her behalf \u2014 is overwhelmingly funded by billionaire Gov. Pritzker; (4) her own Level Up PAC (created Jan. 2025) accepted $46,000 from Marquis family and $5,000 in corporate PAC money. Krishnamoorthi calls this 'shameless hypocrisy.' (Sources: Chicago Sun-Times 11/21/2025; Chicago Tribune 11/6/2025; Capitol News Illinois 3/10/2026)",
     "fec_id": "S6IL00458"
   },
   "red_flags": [
     {
       "type": "aipac",
-      "label": "AIPAC Donor Network — $70K+ Direct + Former AIPAC President on Finance Committee",
+      "label": "AIPAC Donor Network \u2014 $70K+ Direct + Former AIPAC President on Finance Committee",
       "detail": "The Intercept reported on March 12, 2026 that at least 27 AIPAC donors gave $70K+ directly to Stratton's Senate campaign. Lee Rosenberg, a former president of AIPAC, sits on her campaign finance committee. AIPAC is officially staying neutral in the IL Senate race but its donor network is active for Stratton. This is an apparent tension with her progressive positioning, particularly given that she has been endorsed by Elizabeth Warren and End Citizens United.",
       "source": "https://theintercept.com/2026/03/12/illinois-senate-aipac-stratton/",
       "confirmed": true
     },
     {
       "type": "dark-money",
-      "label": "Corporate Contributions Despite 'No Corporate PAC' Pledge — Sun-Times Investigation",
+      "label": "Corporate Contributions Despite 'No Corporate PAC' Pledge \u2014 Sun-Times Investigation",
       "detail": "Chicago Sun-Times (Nov. 21, 2025) reported that while Stratton vowed to reject corporate PAC money, she has a history of accepting corporate PAC and direct corporate contributions in her state campaign funds since 2016. For her Senate race: she returned a $5,000 Marquis Energy PAC check but accepted $21,000 from Marquis family members personally, and her Level Up PAC accepted $46,000 from Marquis family and $5,000 in corporate PAC money. Krishnamoorthi's campaign aired a TV ad citing the Sun-Times story. Stratton's campaign says the pledge applies only to her Senate campaign committee, which has held to it.",
       "source": "https://chicago.suntimes.com/the-watchdogs/2025/11/21/juliana-stratton-us-senate-bid-march-primary-corporate-pac-money",
       "confirmed": true
     },
     {
       "type": "dark-money",
-      "label": "Illinois Future PAC — $11.8M in Outside Spending, Pritzker-Controlled",
+      "label": "Illinois Future PAC \u2014 $11.8M in Outside Spending, Pritzker-Controlled",
       "detail": "Illinois Future PAC, which has spent $11.8M supporting Stratton and attacking Krishnamoorthi, is overwhelmingly funded by Gov. JB Pritzker ($5M) and allies including Laura Ricketts ($250K). Stratton benefits directly from this spending while officially not coordinating. The Fairshake PAC's ads and the Indian American Impact Fund PAC have attacked Stratton for 'relying on dark money super PACs.' Capitol News Illinois (March 10, 2026) confirmed Illinois Future PAC as the largest outside spender in the race.",
       "source": "https://capitolnewsillinois.com/news/outside-groups-spending-big-on-illinois-senate-race/",
       "confirmed": true
     },
     {
       "type": "conflict-of-interest",
-      "label": "Democratic Lieutenant Governors Association (DLGA) PAC — ICE Contractor Funding",
-      "detail": "Fairshake PAC ads accused Stratton of benefiting from the Democratic Lieutenant Governors Association PAC, which has received money from an ICE contractor. Krishnamoorthi's campaign cited this to counter Stratton's attacks on him for accepting Palantir CTO donations. Capitol News Illinois confirmed the DLGA PAC connection. The allegation is that one of Stratton's PAC supporters is funded by the same type of ICE contractor she attacks Krishnamoorthi for. Confirmed as a claim in the race — exact details of DLGA donor composition require independent verification.",
+      "label": "Democratic Lieutenant Governors Association (DLGA) PAC \u2014 ICE Contractor Funding",
+      "detail": "Fairshake PAC ads accused Stratton of benefiting from the Democratic Lieutenant Governors Association PAC, which has received money from an ICE contractor. Krishnamoorthi's campaign cited this to counter Stratton's attacks on him for accepting Palantir CTO donations. Capitol News Illinois confirmed the DLGA PAC connection. The allegation is that one of Stratton's PAC supporters is funded by the same type of ICE contractor she attacks Krishnamoorthi for. Confirmed as a claim in the race \u2014 exact details of DLGA donor composition require independent verification.",
       "source": "https://capitolnewsillinois.com/news/outside-groups-spending-big-on-illinois-senate-race/",
       "confirmed": false
     }
   ],
   "key_votes": [
     {
-      "bill": "HB 40 (Illinois) — Reproductive Health Act, 2017",
+      "bill": "HB 40 (Illinois) \u2014 Reproductive Health Act, 2017",
       "vote": "yes",
       "summary": "As IL State Representative, Stratton was a lead advocate for HB 40, ensuring Illinois women retain access to abortion funding regardless of insurance coverage if Roe v. Wade were overturned. Signed into law October 2017.",
       "source": "https://emilyslist.org/candidate/juliana-stratton/"
@@ -153,13 +153,13 @@
       "source": "https://en.wikipedia.org/wiki/Juliana_Stratton"
     },
     {
-      "bill": "SAFE-T Act (Illinois SB 2328) — Criminal Justice Reform, 2021",
+      "bill": "SAFE-T Act (Illinois SB 2328) \u2014 Criminal Justice Reform, 2021",
       "vote": "yes",
       "summary": "Stratton publicly supported and advocated for the SAFE-T Act, Illinois's comprehensive criminal justice reform package: ended cash bail, established police accountability measures, reformed use-of-force standards. Signed February 2021.",
       "source": "https://ltgov.illinois.gov/"
     },
     {
-      "bill": "Illinois SALT Act — Protecting Residents from Federal Immigration Enforcement",
+      "bill": "Illinois SALT Act \u2014 Protecting Residents from Federal Immigration Enforcement",
       "vote": "yes",
       "summary": "Stratton cited the SALT Act (signed under Pritzker administration in 2025) as protecting Illinoisans from 'illegal and unethical federal immigration enforcement conduct.' She listed it as a key accomplishment in her Sun-Times candidate questionnaire (March 2026).",
       "source": "https://chicago.suntimes.com/elections/2026/candidate-questionnaires/juliana-stratton-illinois-primary-united-states-senate"
@@ -293,7 +293,7 @@
       "source": "https://www.julianastratton.com/endorsements"
     },
     {
-      "name": "Rep. Jesús 'Chuy' García (IL-4)",
+      "name": "Rep. Jes\u00fas 'Chuy' Garc\u00eda (IL-4)",
       "type": "individual",
       "confirmed": true,
       "source": "https://www.julianastratton.com/endorsements"
@@ -351,13 +351,13 @@
     {
       "role": "Lieutenant Governor of Illinois",
       "org": "State of Illinois",
-      "years": "2019–present",
+      "years": "2019\u2013present",
       "highlight": "First Black woman elected to statewide office in Illinois history; reelected 2022; chairs Governor's Rural Affairs Council; led JEDI Cannabis Commission for equitable cannabis licensing; sued Trump administration to defend federal funding for child care, SNAP, infrastructure, and disaster relief"
     },
     {
       "role": "Illinois State Representative, 26th District (later 5th District)",
       "org": "Illinois General Assembly",
-      "years": "2015–2019",
+      "years": "2015\u20132019",
       "highlight": "House Judiciary-Criminal Law Committee; lead advocate for HB 40 (Reproductive Health Act, 2017) and criminal justice reform; championed SAFE-T Act groundwork"
     },
     {
@@ -381,8 +381,8 @@
     {
       "role": "Founder and President",
       "org": "JDS Mediation Services, Inc.",
-      "years": "1990s–2000s",
-      "highlight": "Founded private mediation firm after law school — background in conflict resolution and legal services"
+      "years": "1990s\u20132000s",
+      "highlight": "Founded private mediation firm after law school \u2014 background in conflict resolution and legal services"
     },
     {
       "role": "J.D.",
@@ -409,7 +409,7 @@
     },
     {
       "topic": "Immigration",
-      "position": "Supports abolishing ICE (per WTTW debate, March 9, 2026 — confirmed by Illinois Future PAC ad messaging). Supports SALT Act-style protections for immigrants at federal level.",
+      "position": "Supports abolishing ICE (per WTTW debate, March 9, 2026 \u2014 confirmed by Illinois Future PAC ad messaging). Supports SALT Act-style protections for immigrants at federal level.",
       "source": "https://news.wttw.com/2026/03/09/kelly-stratton-vow-block-additional-funding-iran-war-during-wttw-news-senate-debate"
     },
     {
@@ -429,7 +429,7 @@
     }
   ],
   "social_pulse": {
-    "summary": "Surging in final weeks — one poll shows her at 33%, ahead of Krishnamoorthi (29%). Strong earned media from Warren, EMILYs List, and progressive organizations. Negative ads from Fairshake ($5.5M+) attacking her record, AIPAC Intercept story, and Krishnamoorthi 'hypocrisy' attacks have created friction. Positive national coverage as progressive alternative. Base is Chicago South Side and south suburbs (overlapping with Kelly's base), suburban Democrats, and progressive women voters.",
+    "summary": "Surging in final weeks \u2014 one poll shows her at 33%, ahead of Krishnamoorthi (29%). Strong earned media from Warren, EMILYs List, and progressive organizations. Negative ads from Fairshake ($5.5M+) attacking her record, AIPAC Intercept story, and Krishnamoorthi 'hypocrisy' attacks have created friction. Positive national coverage as progressive alternative. Base is Chicago South Side and south suburbs (overlapping with Kelly's base), suburban Democrats, and progressive women voters.",
     "sentiment": "positive-surging",
     "hashtags": [
       "#JulianaStratton",
@@ -508,24 +508,24 @@
   },
   "news_hits": [
     {
-      "headline": "AIPAC Is Staying Out of Illinois Senate Race — But Its Donors Back Juliana Stratton",
-      "summary": "The Intercept reported that at least 27 AIPAC donors gave $70K+ directly to Stratton's campaign committee, and that former AIPAC president Lee Rosenberg sits on her campaign finance committee — despite AIPAC officially remaining neutral in the race.",
+      "headline": "AIPAC Is Staying Out of Illinois Senate Race \u2014 But Its Donors Back Juliana Stratton",
+      "summary": "The Intercept reported that at least 27 AIPAC donors gave $70K+ directly to Stratton's campaign committee, and that former AIPAC president Lee Rosenberg sits on her campaign finance committee \u2014 despite AIPAC officially remaining neutral in the race.",
       "url": "https://theintercept.com/2026/03/12/aipac-illinois-senate-stratton-kelly-krishnamoorthi/",
       "date": "2026-03-12",
       "severity": "high",
       "source_name": "The Intercept"
     },
     {
-      "headline": "The crypto lobby has poured $8.6M into Illinois primaries — $5.2M in single ad buy targeting Stratton",
-      "summary": "Fairshake, the crypto industry super PAC funded primarily by Coinbase and Trump megadonors Andreessen Horowitz, dropped $5.2 million in a single ad buy attacking Stratton — making her one of the most crypto-targeted Senate candidates in the country this cycle.",
+      "headline": "The crypto lobby has poured $8.6M into Illinois primaries \u2014 $5.2M in single ad buy targeting Stratton",
+      "summary": "Fairshake, the crypto industry super PAC funded primarily by Coinbase and Trump megadonors Andreessen Horowitz, dropped $5.2 million in a single ad buy attacking Stratton \u2014 making her one of the most crypto-targeted Senate candidates in the country this cycle.",
       "url": "https://dailynorthwestern.com/2026/03/09/city/the-crypto-lobby-has-poured-8-6m-into-illinois-primaries-analysts-say-some-candidates-are-quietly-vying-for-its-support/",
       "date": "2026-03-09",
       "severity": "high",
       "source_name": "Daily Northwestern"
     },
     {
-      "headline": "Crypto PACs flood Illinois Senate primary — ads accuse Stratton of ties to Madigan and ICE contractor",
-      "summary": "Fairshake ads accuse Stratton of being aligned with convicted former IL House Speaker Michael Madigan, and allege one of her supporting PACs accepted money from an ICE contractor — charges Stratton and allies deny.",
+      "headline": "Crypto PACs flood Illinois Senate primary \u2014 ads accuse Stratton of ties to Madigan and ICE contractor",
+      "summary": "Fairshake ads accuse Stratton of being aligned with convicted former IL House Speaker Michael Madigan, and allege one of her supporting PACs accepted money from an ICE contractor \u2014 charges Stratton and allies deny.",
       "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4488833/crypto-pacs-illinois-senate-primary-dick-durbin-replacement/",
       "date": "2026-03-12",
       "severity": "high",
@@ -533,7 +533,7 @@
     },
     {
       "headline": "A historic Senate opening meets a divided Illinois Democratic Party",
-      "summary": "Politico's pre-primary analysis notes that crypto PACs are running attack ads against Stratton while simultaneously boosting Kelly to siphon votes away from her — a coordinated strategy to benefit Krishnamoorthi.",
+      "summary": "Politico's pre-primary analysis notes that crypto PACs are running attack ads against Stratton while simultaneously boosting Kelly to siphon votes away from her \u2014 a coordinated strategy to benefit Krishnamoorthi.",
       "url": "https://www.politico.com/news/2026/03/12/a-historic-senate-opening-meets-a-divided-illinois-democratic-party-00827236",
       "date": "2026-03-12",
       "severity": "medium",
@@ -541,7 +541,7 @@
     },
     {
       "headline": "Will Illinois' Democratic Primary for Senate Divide Black Voters?",
-      "summary": "The New York Times examines how the three-way race — with Stratton and Kelly splitting the Black female electorate — could hand Krishnamoorthi a plurality win despite neither progressive candidate being able to consolidate support.",
+      "summary": "The New York Times examines how the three-way race \u2014 with Stratton and Kelly splitting the Black female electorate \u2014 could hand Krishnamoorthi a plurality win despite neither progressive candidate being able to consolidate support.",
       "url": "https://www.nytimes.com/2026/03/12/us/politics/illinois-senate-primary-stratton-kelly-krishnamoorthi.html",
       "date": "2026-03-12",
       "severity": "medium",
@@ -678,11 +678,11 @@
       "sentiment": "neutral"
     },
     {
-      "title": "What to Watch in Tuesday's Illinois Primaries — and Where the Money Went",
+      "title": "What to Watch in Tuesday's Illinois Primaries \u2014 and Where the Money Went",
       "url": "https://www.nytimes.com/2026/03/17/us/elections/il-primary-election-today-what-to-know.html",
       "source": "New York Times",
       "date": "2026-03-17",
-      "summary": "NYT Election Day guide names Stratton as a top-tier contender in the IL Senate primary. Late polling shows her surging to 29.4% vs Krishnamoorthi's 31.6% — within the margin of error, making the race a genuine toss-up.",
+      "summary": "NYT Election Day guide names Stratton as a top-tier contender in the IL Senate primary. Late polling shows her surging to 29.4% vs Krishnamoorthi's 31.6% \u2014 within the margin of error, making the race a genuine toss-up.",
       "sentiment": "positive"
     },
     {
@@ -730,7 +730,7 @@
       "url": "https://www.politico.com/news/2026/03/17/juliana-stratton-wins-illinois-senate-democrat-primary-00833523",
       "source": "Politico",
       "date": "2026-03-17",
-      "summary": "Stratton's victory is framed nationally as a historic win — she will be on track to become Illinois' fourth Black senator and the sixth Black woman in the current Senate if she wins in November against Republican Don Tracy.",
+      "summary": "Stratton's victory is framed nationally as a historic win \u2014 she will be on track to become Illinois' fourth Black senator and the sixth Black woman in the current Senate if she wins in November against Republican Don Tracy.",
       "sentiment": "positive"
     },
     {
@@ -810,7 +810,7 @@
       "url": "https://www.chicagotribune.com/2026/03/18/juliana-stratton-don-tracy-illinois-us-senate/",
       "source": "Chicago Tribune",
       "date": "2026-03-18",
-      "summary": "Tribune post-primary profile frames the November general election matchup: Stratton vs. Republican nominee Don Tracy, former Illinois Republican Party chair. If she defeats Tracy, Stratton would become just the sixth Black woman — and second from Illinois — elected to the U.S. Senate. The race is rated solidly Democratic.",
+      "summary": "Tribune post-primary profile frames the November general election matchup: Stratton vs. Republican nominee Don Tracy, former Illinois Republican Party chair. If she defeats Tracy, Stratton would become just the sixth Black woman \u2014 and second from Illinois \u2014 elected to the U.S. Senate. The race is rated solidly Democratic.",
       "sentiment": "positive"
     },
     {
@@ -862,11 +862,11 @@
       "sentiment": "positive"
     },
     {
-      "title": "'He has to justify what he did': Black leaders slam JB Pritzker after Illinois primary — casting shadow over Stratton's win",
+      "title": "'He has to justify what he did': Black leaders slam JB Pritzker after Illinois primary \u2014 casting shadow over Stratton's win",
       "url": "https://www.politico.com/news/2026/03/19/pritzker-2028-congressional-black-caucus-tensions-00835266",
       "source": "Politico",
       "date": "2026-03-19",
-      "summary": "Congressional Black Caucus members are venting frustration that Pritzker's financial intervention tilted the Senate primary toward Stratton and away from Robin Kelly, the CBC's endorsed candidate. The CBC's Yvette Clarke called it 'beyond frustrating.' While a win for Stratton, the controversy adds a party unity headache heading into the general election against Republican Don Tracy — with CBC members signaling they won't forget the slight going into 2028.",
+      "summary": "Congressional Black Caucus members are venting frustration that Pritzker's financial intervention tilted the Senate primary toward Stratton and away from Robin Kelly, the CBC's endorsed candidate. The CBC's Yvette Clarke called it 'beyond frustrating.' While a win for Stratton, the controversy adds a party unity headache heading into the general election against Republican Don Tracy \u2014 with CBC members signaling they won't forget the slight going into 2028.",
       "sentiment": "negative"
     },
     {
@@ -874,7 +874,7 @@
       "url": "https://chicago.suntimes.com/elections/2026/03/18/pritzker-stratton-senate-win-endorsement",
       "source": "Chicago Sun-Times",
       "date": "2026-03-18",
-      "summary": "Sun-Times post-primary analysis of Pritzker's role in Stratton's Senate primary win. Notes Stratton faces Republican nominee Don Tracy (former Illinois Republican Party chair) in November in deep-blue Illinois — giving her a clear path toward becoming only the sixth Black woman elected to the U.S. Senate.",
+      "summary": "Sun-Times post-primary analysis of Pritzker's role in Stratton's Senate primary win. Notes Stratton faces Republican nominee Don Tracy (former Illinois Republican Party chair) in November in deep-blue Illinois \u2014 giving her a clear path toward becoming only the sixth Black woman elected to the U.S. Senate.",
       "sentiment": "positive"
     },
     {
@@ -882,7 +882,7 @@
       "url": "https://www.pbs.org/newshour/nation/illinois-lt-gov-juliana-stratton-wins-democratic-primary-for-u-s-senate",
       "source": "PBS NewsHour",
       "date": "2026-03-17",
-      "summary": "PBS NewsHour reports Juliana Stratton won Tuesday's Democratic primary for U.S. Senate, edging out two sitting members of the U.S. House — Reps. Krishnamoorthi and Kelly — to advance to a November general election against Republican nominee Don Tracy, the former state party chair. If she wins in November, Stratton would become the 15th Black U.S. senator in American history.",
+      "summary": "PBS NewsHour reports Juliana Stratton won Tuesday's Democratic primary for U.S. Senate, edging out two sitting members of the U.S. House \u2014 Reps. Krishnamoorthi and Kelly \u2014 to advance to a November general election against Republican nominee Don Tracy, the former state party chair. If she wins in November, Stratton would become the 15th Black U.S. senator in American history.",
       "sentiment": "positive"
     },
     {
@@ -898,7 +898,7 @@
       "url": "https://www.politico.com/live-updates/2026/03/18/congress/congressional-black-caucus-juliana-stratton-illinois-00833987",
       "source": "Politico",
       "date": "2026-03-18",
-      "summary": "CBC chair gave a measured congratulation to Stratton after her Senate primary win. The CBC had backed Rep. Robin Kelly and warned Gov. Pritzker against his millions in support for Stratton — creating friction heading into the general election campaign.",
+      "summary": "CBC chair gave a measured congratulation to Stratton after her Senate primary win. The CBC had backed Rep. Robin Kelly and warned Gov. Pritzker against his millions in support for Stratton \u2014 creating friction heading into the general election campaign.",
       "sentiment": "negative"
     },
     {
@@ -922,11 +922,11 @@
       "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
       "source": "Wikipedia / AP",
       "date": "2026-03-23",
-      "summary": "Final certified primary results: Juliana Stratton won the Democratic Senate nomination with 40.1% of the vote, defeating Rep. Raja Krishnamoorthi and Rep. Robin Kelly. Republican Don Tracy won the GOP primary with 39.9% of the vote. Stratton will be the heavy favorite in November — Democrats have not lost a Senate race in Illinois since 2010.",
+      "summary": "Final certified primary results: Juliana Stratton won the Democratic Senate nomination with 40.1% of the vote, defeating Rep. Raja Krishnamoorthi and Rep. Robin Kelly. Republican Don Tracy won the GOP primary with 39.9% of the vote. Stratton will be the heavy favorite in November \u2014 Democrats have not lost a Senate race in Illinois since 2010.",
       "sentiment": "positive"
     },
     {
-      "title": "Juliana Stratton's strong suburban, downstate coalition fueled her Senate primary victory — Sun-Times analysis",
+      "title": "Juliana Stratton's strong suburban, downstate coalition fueled her Senate primary victory \u2014 Sun-Times analysis",
       "url": "https://chicago.suntimes.com/elections/2026/03/18/juliana-stratton-us-senate-democratic-primary-victory-strong-showing-suburbs-downstate",
       "source": "Chicago Sun-Times",
       "date": "2026-03-18",
@@ -934,11 +934,11 @@
       "sentiment": "positive"
     },
     {
-      "title": "Politicians battle over immigration policy after Loyola student's death — Stratton's general election positioning under pressure",
+      "title": "Politicians battle over immigration policy after Loyola student's death \u2014 Stratton's general election positioning under pressure",
       "url": "https://www.nbcchicago.com/news/local/politicians-battle-over-immigration-policy-after-loyola-students-death/3913223/",
       "source": "NBC Chicago",
       "date": "2026-03-25",
-      "summary": "The murder of Loyola University student Sheridan Gorman by a Venezuelan migrant who had prior contact with Chicago police triggered a political firestorm on March 25. Democrats including Stratton, who won the Senate primary on an anti-Trump immigration messaging platform, now face pressure to defend sanctuary city policies ahead of the general election. Republican Senate challenger Don Tracy and gubernatorial candidate Darren Bailey are using Gorman's death to attack Illinois Democrats on crime and immigration enforcement — a direct challenge to Stratton's core general election narrative.",
+      "summary": "The murder of Loyola University student Sheridan Gorman by a Venezuelan migrant who had prior contact with Chicago police triggered a political firestorm on March 25. Democrats including Stratton, who won the Senate primary on an anti-Trump immigration messaging platform, now face pressure to defend sanctuary city policies ahead of the general election. Republican Senate challenger Don Tracy and gubernatorial candidate Darren Bailey are using Gorman's death to attack Illinois Democrats on crime and immigration enforcement \u2014 a direct challenge to Stratton's core general election narrative.",
       "sentiment": "negative"
     },
     {
@@ -946,7 +946,7 @@
       "url": "https://chicago.suntimes.com/immigration/2026/03/25/broadview-ice-detention-center-illinois-legislation",
       "source": "Chicago Sun-Times",
       "date": "2026-03-25",
-      "summary": "Illinois House committee advanced a bill barring new ICE detention centers from residential areas — a direct win for Stratton's signature anti-ICE campaign platform. As the Democratic Senate nominee, Stratton pledged to 'abolish ICE' during her primary campaign. House Speaker Welch's testimony in favor mirrors the anti-deportation messaging that powered Stratton's late surge in the primary.",
+      "summary": "Illinois House committee advanced a bill barring new ICE detention centers from residential areas \u2014 a direct win for Stratton's signature anti-ICE campaign platform. As the Democratic Senate nominee, Stratton pledged to 'abolish ICE' during her primary campaign. House Speaker Welch's testimony in favor mirrors the anti-deportation messaging that powered Stratton's late surge in the primary.",
       "sentiment": "positive"
     },
     {
@@ -954,7 +954,7 @@
       "url": "https://chicago.suntimes.com/immigration/2026/03/24/chicago-crime-trump-pritzker-bovino-immigration-midway-blitz-deport-immigration",
       "source": "Chicago Sun-Times",
       "date": "2026-03-24",
-      "summary": "The fatal shooting of 18-year-old Loyola student Sheridan Gorman by a Venezuelan immigrant suspect reignites Chicago's sanctuary debate. As Senate nominee, Stratton — who ran on abolishing ICE — faces immediate pressure on her core immigration platform. Darren Bailey (her likely November opponent) called for Pritzker to end sanctuary policies. Stratton has not yet responded publicly to the Gorman case as of March 24.",
+      "summary": "The fatal shooting of 18-year-old Loyola student Sheridan Gorman by a Venezuelan immigrant suspect reignites Chicago's sanctuary debate. As Senate nominee, Stratton \u2014 who ran on abolishing ICE \u2014 faces immediate pressure on her core immigration platform. Darren Bailey (her likely November opponent) called for Pritzker to end sanctuary policies. Stratton has not yet responded publicly to the Gorman case as of March 24.",
       "sentiment": "negative"
     },
     {
@@ -966,7 +966,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "Primary voter turnout numbers — high for Democrats, low for Republicans — may guide future trends",
+      "title": "Primary voter turnout numbers \u2014 high for Democrats, low for Republicans \u2014 may guide future trends",
       "url": "https://chicago.suntimes.com/columnists/2026/03/27/primary-voter-turnout-democrats-republicans-kane-dupage-lake-will-suburbs-rich-miller",
       "source": "Chicago Sun-Times / Rich Miller",
       "date": "2026-03-27",
@@ -974,11 +974,11 @@
       "sentiment": "positive"
     },
     {
-      "title": "Trump to sign order paying TSA agents as DHS funding standoff drags on — ICE at O'Hare",
+      "title": "Trump to sign order paying TSA agents as DHS funding standoff drags on \u2014 ICE at O'Hare",
       "url": "https://chicago.suntimes.com/travel/2026/03/26/tsa-travel-airports-dhs-ice-ohare-federal-budget-congress-impasse-government-shutdown",
       "source": "Chicago Sun-Times",
       "date": "2026-03-26",
-      "summary": "The 41-day DHS funding impasse — which has ICE agents checking IDs at O'Hare terminals — is the exact policy battleground Stratton ran on as the only Senate candidate to support abolishing ICE. The TSA callout crisis (500+ TSA officers quit, 11% daily no-show rate) and Trump's unilateral executive action to fund TSA outside appropriations process validates Stratton's post-primary argument about the need for a Senate that will stand firm against executive overreach.",
+      "summary": "The 41-day DHS funding impasse \u2014 which has ICE agents checking IDs at O'Hare terminals \u2014 is the exact policy battleground Stratton ran on as the only Senate candidate to support abolishing ICE. The TSA callout crisis (500+ TSA officers quit, 11% daily no-show rate) and Trump's unilateral executive action to fund TSA outside appropriations process validates Stratton's post-primary argument about the need for a Senate that will stand firm against executive overreach.",
       "sentiment": "positive"
     },
     {
@@ -994,7 +994,7 @@
       "url": "https://www.chicagotribune.com/2026/03/29/illinois-house-ice-facility-expansion-prohibitions/",
       "source": "Chicago Tribune",
       "date": "2026-03-29",
-      "summary": "The Illinois House is set to consider a bill — passed through committee 8-3 on a party-line vote — banning new ICE detention centers within 1,500 feet of schools, churches, parks, and homes. The bill aligns directly with Stratton's campaign platform as the only primary candidate who called for abolishing ICE outright, and reinforces her general election contrast with Republican Don Tracy.",
+      "summary": "The Illinois House is set to consider a bill \u2014 passed through committee 8-3 on a party-line vote \u2014 banning new ICE detention centers within 1,500 feet of schools, churches, parks, and homes. The bill aligns directly with Stratton's campaign platform as the only primary candidate who called for abolishing ICE outright, and reinforces her general election contrast with Republican Don Tracy.",
       "sentiment": "positive"
     },
     {
@@ -1014,7 +1014,7 @@
       "sentiment": "neutral"
     },
     {
-      "title": "Pritzker brings heat — and 2028 buzz",
+      "title": "Pritzker brings heat \u2014 and 2028 buzz",
       "url": "https://www.politico.com/newsletters/illinois-playbook/2026/03/23/pritzker-brings-heat-and-2028-buzz-00839505",
       "source": "politico.com",
       "date": "2026-03-23",
@@ -1026,7 +1026,7 @@
       "url": "https://www.politico.com/newsletters/illinois-playbook/2026/03/30/illinois-leads-the-way-on-resistance-00849824",
       "source": "politico.com",
       "date": "2026-03-30",
-      "summary": "Illinois' response to Trump's immigration crackdown — with Gov. Pritzker coordinating with Democratic governors and Mayor Brandon Johnson issuing executive orders limiting ICE's reach following Operation Midway Blitz — is being cited as a blueprint for Democratic resistance nationally.",
+      "summary": "Illinois' response to Trump's immigration crackdown \u2014 with Gov. Pritzker coordinating with Democratic governors and Mayor Brandon Johnson issuing executive orders limiting ICE's reach following Operation Midway Blitz \u2014 is being cited as a blueprint for Democratic resistance nationally.",
       "sentiment": "positive"
     },
     {
@@ -1042,7 +1042,7 @@
       "url": "https://www.nbcnews.com/politics/2026-election/democratic-senate-candidate-juliana-stratton-victory-illinois-senate-rcna265518",
       "source": "NBC News",
       "date": "2026-03-29",
-      "summary": "NBC News post-primary analysis of Juliana Stratton's Senate primary victory. According to Quentin Fulks, who led the super PAC backing her, Stratton's anti-ICE position, push for a \\/hour minimum wage, and significant boost from Gov. JB Pritzker were the decisive factors in her win over Rep. Raja Krishnamoorthi and Rep. Robin Kelly. The piece breaks down how Stratton's coalition — dominant in Chicago's Black community plus strong suburban performance — overcame Krishnamoorthi's massive fundraising advantage.",
+      "summary": "NBC News post-primary analysis of Juliana Stratton's Senate primary victory. According to Quentin Fulks, who led the super PAC backing her, Stratton's anti-ICE position, push for a \\/hour minimum wage, and significant boost from Gov. JB Pritzker were the decisive factors in her win over Rep. Raja Krishnamoorthi and Rep. Robin Kelly. The piece breaks down how Stratton's coalition \u2014 dominant in Chicago's Black community plus strong suburban performance \u2014 overcame Krishnamoorthi's massive fundraising advantage.",
       "sentiment": "positive"
     },
     {
@@ -1075,6 +1075,14 @@
       "source": "Politico Illinois Playbook",
       "date": "2026-04-02",
       "summary": "Hot off her primary win, Lt. Gov. Juliana Stratton is reintroducing herself as the Democratic nominee for U.S. Senate ahead of the November general election battle against Republican Don Tracy. Stratton's team is pivoting from primary mode to general election mode, beginning the process of broadening her coalition beyond the progressive primary base that delivered her primary victory over Raja Krishnamoorthi and Robin Kelly. This is the first Politico Illinois Playbook since the March 17 primary to frame the Senate race as a general election contest.",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Stratton wins Illinois Democratic U.S. Senate primary with 40.2%, will face Republican Don Tracy in November",
+      "url": "https://chicago.suntimes.com/elections/2026/graphics/voter-guide-primary-election-illinois/illinois-primary-results-2026/",
+      "source": "Chicago Sun-Times / WBEZ",
+      "date": "2026-04-03",
+      "summary": "Lt. Gov. Juliana Stratton won the Illinois Democratic U.S. Senate primary with 40.2% (484,321 votes), defeating Rep. Raja Krishnamoorthi (33.1%) and Rep. Robin Kelly (18.1%), per AP results with 94.3% estimated votes in. She will face Republican Don Tracy in the November general election. Pritzker adviser Mike Ollen called it 'Juliana's win' while crediting her as 'a great fighter against Trump.'",
       "sentiment": "positive"
     }
   ],
