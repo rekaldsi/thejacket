@@ -11,7 +11,7 @@
     "total_raised": 2792789,
     "data_date": "2026-03-13",
     "source": "https://www.illinoissunshine.org/committees/33897/",
-    "note": "County race \u2014 ILSBE filing, not FEC.",
+    "note": "County race — ILSBE filing, not FEC.",
     "donors": [
       {
         "name": "Fritz Kaegi (self)",
@@ -90,39 +90,39 @@
     {
       "type": "ethics",
       "label": "Both candidates accuse each other of accepting questionable donations (Fox32 Feb",
-      "detail": "Both candidates accuse each other of accepting questionable donations (Fox32 Feb 2026 \u2014 mutual accusations, neither substantiated)",
+      "detail": "Both candidates accuse each other of accepting questionable donations (Fox32 Feb 2026 — mutual accusations, neither substantiated)",
       "source": "https://www.fritzforassessor.com",
       "confirmed": false
     },
     {
       "type": "ethics",
       "label": "Hynes campaign argues Kaegi's data errors caused chaotic assessment appeals and ",
-      "detail": "Hynes campaign argues Kaegi's data errors caused chaotic assessment appeals and missed deadlines \u2014 contested claim",
+      "detail": "Hynes campaign argues Kaegi's data errors caused chaotic assessment appeals and missed deadlines — contested claim",
       "source": "https://www.fritzforassessor.com",
       "confirmed": false
     },
     {
       "type": "ethics",
-      "label": "Kaegi has loaned his own campaign $5.4M (debt obligation on ILSBE) \u2014 heavy self-",
-      "detail": "Kaegi has loaned his own campaign $5.4M (debt obligation on ILSBE) \u2014 heavy self-funding by a wealthy candidate",
+      "label": "Kaegi has loaned his own campaign $5.4M (debt obligation on ILSBE) — heavy self-",
+      "detail": "Kaegi has loaned his own campaign $5.4M (debt obligation on ILSBE) — heavy self-funding by a wealthy candidate",
       "source": "https://www.fritzforassessor.com",
       "confirmed": false
     },
     {
-      "label": "Both candidates accuse each other of accepting questionable donations (Fox32 Feb 2026 \u2014 mutual accusations, neither substantiated)"
+      "label": "Both candidates accuse each other of accepting questionable donations (Fox32 Feb 2026 — mutual accusations, neither substantiated)"
     },
     {
-      "label": "Hynes campaign argues Kaegi's data errors caused chaotic assessment appeals and missed deadlines \u2014 contested claim"
+      "label": "Hynes campaign argues Kaegi's data errors caused chaotic assessment appeals and missed deadlines — contested claim"
     },
     {
-      "label": "Kaegi has loaned his own campaign $5.4M (debt obligation on ILSBE) \u2014 heavy self-funding by a wealthy candidate"
+      "label": "Kaegi has loaned his own campaign $5.4M (debt obligation on ILSBE) — heavy self-funding by a wealthy candidate"
     }
   ],
   "key_votes": [
     {
-      "bill": "2018: Defeated incumbent Joseph Berrios (implicated in pay-to-play) \u2014 ran on tra",
+      "bill": "2018: Defeated incumbent Joseph Berrios (implicated in pay-to-play) — ran on tra",
       "vote": "record",
-      "summary": "2018: Defeated incumbent Joseph Berrios (implicated in pay-to-play) \u2014 ran on transparency/anti-corruption platform",
+      "summary": "2018: Defeated incumbent Joseph Berrios (implicated in pay-to-play) — ran on transparency/anti-corruption platform",
       "source": "https://www.fritzforassessor.com"
     },
     {
@@ -134,7 +134,7 @@
     {
       "bill": "2022: Survived primary challenge from Kari Steele (MWRD President) 53.8% to 46.2",
       "vote": "record",
-      "summary": "2022: Survived primary challenge from Kari Steele (MWRD President) 53.8% to 46.2% \u2014 contested race reflecting industry pushback",
+      "summary": "2022: Survived primary challenge from Kari Steele (MWRD President) 53.8% to 46.2% — contested race reflecting industry pushback",
       "source": "https://www.fritzforassessor.com"
     },
     {
@@ -169,13 +169,13 @@
     {
       "role": "Cook County Assessor",
       "org": "Cook County Assessor's Office",
-      "years": "2018\u2013present",
+      "years": "2018–present",
       "highlight": "Won on reform platform; overhauled assessment equity practices"
     },
     {
       "role": "Portfolio Manager / Asset Manager",
       "org": "Columbia Wanger Asset Management",
-      "years": "2001\u20132018",
+      "years": "2001–2018",
       "highlight": "~17 years managing equity portfolios"
     }
   ],
@@ -208,7 +208,7 @@
   },
   "trust_indicators": [
     {
-      "label": "Reform-oriented assessor \u2014 reduced assessment regressivity",
+      "label": "Reform-oriented assessor — reduced assessment regressivity",
       "value": true,
       "type": "positive"
     },
@@ -223,7 +223,7 @@
       "type": "positive"
     },
     {
-      "label": "Contested race \u2014 faces challenger(s)",
+      "label": "Contested race — faces challenger(s)",
       "value": true,
       "type": "neutral"
     }
@@ -235,7 +235,7 @@
     "platform_completeness": "B",
     "record_available": true,
     "red_flags_count": 6,
-    "computed_at": "2026-04-03"
+    "computed_at": "2026-04-04"
   },
   "news_hits": [
     {
@@ -349,7 +349,7 @@
       "sentiment": "negative"
     },
     {
-      "title": "Super PAC scorecard \u2014 how outside spending groups fared in efforts to influence Illinois primary voters",
+      "title": "Super PAC scorecard — how outside spending groups fared in efforts to influence Illinois primary voters",
       "url": "https://www.wbez.org/government-politics/elections/2026/03/18/illinois-primary-super-pac-spending-aipac-cryptocurrency-ai-sports-betting",
       "source": "WBEZ",
       "date": "2026-03-18",
@@ -393,7 +393,7 @@
       "url": "https://www.wbez.org/government-politics/elections/2026/03/23/cook-county-assessor-fritz-kaegi-lyons-township-dan-hynes-democratic-primary-property-tax-increase-factor",
       "source": "WBEZ Chicago",
       "date": "2026-03-23",
-      "summary": "WBEZ analysis mirrors Sun-Times findings: Kaegi's primary loss was geographically driven by property tax angst \u2014 he performed worst in areas of Cook County where homeowners faced the steepest tax increases. Hynes, as Lyons Township Assessor, benefited from comparison as a local official closer to suburban homeowner frustrations.",
+      "summary": "WBEZ analysis mirrors Sun-Times findings: Kaegi's primary loss was geographically driven by property tax angst — he performed worst in areas of Cook County where homeowners faced the steepest tax increases. Hynes, as Lyons Township Assessor, benefited from comparison as a local official closer to suburban homeowner frustrations.",
       "sentiment": "negative"
     },
     {
@@ -401,7 +401,7 @@
       "url": "https://chicago.suntimes.com/the-watchdogs/2026/03/20/annette-guzman-brandon-johnson-property-tax-breaks-kaegi",
       "source": "Chicago Sun-Times",
       "date": "2026-03-20",
-      "summary": "Sun-Times Watchdogs investigation reveals Mayor Brandon Johnson's budget director Annette Guzman received illegal homeowner property tax exemptions for five years on a South Loop condo she no longer lived in \u2014 breaks administered by Kaegi's office, which also employed Guzman as chief administrative officer until 2020. Kaegi's staff failed to process Guzman's 2021 request to cancel the exemption, resulting in $3,434 in wrongful tax breaks. After Sun-Times inquiries, Kaegi ordered Guzman to repay only three years' worth ($2,071.89) and waived interest \u2014 an outcome critics say underscores the lax oversight that plagued Kaegi's assessor tenure in its final stretch.",
+      "summary": "Sun-Times Watchdogs investigation reveals Mayor Brandon Johnson's budget director Annette Guzman received illegal homeowner property tax exemptions for five years on a South Loop condo she no longer lived in — breaks administered by Kaegi's office, which also employed Guzman as chief administrative officer until 2020. Kaegi's staff failed to process Guzman's 2021 request to cancel the exemption, resulting in $3,434 in wrongful tax breaks. After Sun-Times inquiries, Kaegi ordered Guzman to repay only three years' worth ($2,071.89) and waived interest — an outcome critics say underscores the lax oversight that plagued Kaegi's assessor tenure in its final stretch.",
       "sentiment": "negative"
     },
     {
@@ -409,15 +409,15 @@
       "url": "https://chicago.suntimes.com/real-estate/2026/03/23/united-center-owners-wirtz-reinsdorf-1901-project-55-million-property-tax-break",
       "source": "Chicago Sun-Times",
       "date": "2026-03-23",
-      "summary": "Mayor Johnson introduced a $54.7M property tax incentive for the 1901 Project/United Center development \u2014 spotlighting the assessment system Kaegi ran for eight years. The deal involves exactly the type of commercial property tax break that critics said Kaegi mishandled under his equalization model. Coming just days after his primary loss, the proposal is a reminder of the contested territory he navigated during his tenure.",
+      "summary": "Mayor Johnson introduced a $54.7M property tax incentive for the 1901 Project/United Center development — spotlighting the assessment system Kaegi ran for eight years. The deal involves exactly the type of commercial property tax break that critics said Kaegi mishandled under his equalization model. Coming just days after his primary loss, the proposal is a reminder of the contested territory he navigated during his tenure.",
       "sentiment": "neutral"
     },
     {
-      "title": "Primary voter turnout numbers \u2014 high for Democrats, low for Republicans \u2014 may guide future trends",
+      "title": "Primary voter turnout numbers — high for Democrats, low for Republicans — may guide future trends",
       "url": "https://chicago.suntimes.com/columnists/2026/03/27/primary-voter-turnout-democrats-republicans-kane-dupage-lake-will-suburbs-rich-miller",
       "source": "Chicago Sun-Times / Rich Miller",
       "date": "2026-03-27",
-      "summary": "Rich Miller's post-primary turnout analysis published the same week as Kaegi's concession to Pat Hynes. The piece is not specifically about the assessor race but contextualizes the broader Democratic primary wave that nevertheless ousted Kaegi. Miller notes incumbents in county-level races were not immune to challenger upsets even amid high Dem turnout \u2014 Kaegi's loss is one of the notable examples.",
+      "summary": "Rich Miller's post-primary turnout analysis published the same week as Kaegi's concession to Pat Hynes. The piece is not specifically about the assessor race but contextualizes the broader Democratic primary wave that nevertheless ousted Kaegi. Miller notes incumbents in county-level races were not immune to challenger upsets even amid high Dem turnout — Kaegi's loss is one of the notable examples.",
       "sentiment": "neutral"
     },
     {
@@ -425,7 +425,7 @@
       "url": "https://www.wbez.org/news/2026/03/30/property-taxes-cook-county-treasurer-study",
       "source": "WBEZ",
       "date": "2026-03-30",
-      "summary": "Cook County Treasurer Maria Pappas released a study showing property taxes grew 182% over 30 years \u2014 twice the rate of inflation. The findings put fresh scrutiny on the Cook County assessment system overseen by Assessor Kaegi, a key issue in his reelection race.",
+      "summary": "Cook County Treasurer Maria Pappas released a study showing property taxes grew 182% over 30 years — twice the rate of inflation. The findings put fresh scrutiny on the Cook County assessment system overseen by Assessor Kaegi, a key issue in his reelection race.",
       "sentiment": "negative"
     },
     {
@@ -437,7 +437,7 @@
       "sentiment": "positive"
     },
     {
-      "title": "Pritzker brings heat \u2014 and 2028 buzz",
+      "title": "Pritzker brings heat — and 2028 buzz",
       "url": "https://www.politico.com/newsletters/illinois-playbook/2026/03/23/pritzker-brings-heat-and-2028-buzz-00839505",
       "source": "politico.com",
       "date": "2026-03-23",
@@ -449,7 +449,7 @@
       "url": "https://www.politico.com/newsletters/illinois-playbook/2026/03/30/illinois-leads-the-way-on-resistance-00849824",
       "source": "politico.com",
       "date": "2026-03-30",
-      "summary": "Illinois' response to Trump's immigration crackdown \u2014 with Gov. Pritzker coordinating with Democratic governors and Mayor Brandon Johnson issuing executive orders limiting ICE's reach following Operation Midway Blitz \u2014 is being cited as a blueprint for Democratic resistance nationally.",
+      "summary": "Illinois' response to Trump's immigration crackdown — with Gov. Pritzker coordinating with Democratic governors and Mayor Brandon Johnson issuing executive orders limiting ICE's reach following Operation Midway Blitz — is being cited as a blueprint for Democratic resistance nationally.",
       "sentiment": "neutral"
     },
     {
@@ -457,11 +457,11 @@
       "url": "https://www.politico.com/newsletters/illinois-playbook/2026/04/02/no-fooling-illinois-seeing-a-jobs-surge",
       "source": "Politico Illinois Playbook",
       "date": "2026-04-02",
-      "summary": "The April 2, 2026 Politico Illinois Playbook notes Illinois Democrats are touting a Q1 2026 jobs surge. As the outgoing Cook County Assessor, Kaegi is in the final months of his tenure preparing for the transition to Hynes-elect. The broader economic environment \u2014 jobs, investment, and property values \u2014 will define the Cook County assessor landscape through the November general.",
+      "summary": "The April 2, 2026 Politico Illinois Playbook notes Illinois Democrats are touting a Q1 2026 jobs surge. As the outgoing Cook County Assessor, Kaegi is in the final months of his tenure preparing for the transition to Hynes-elect. The broader economic environment — jobs, investment, and property values — will define the Cook County assessor landscape through the November general.",
       "sentiment": "neutral"
     },
     {
-      "title": "Editorial: Maria Pappas' property tax numbers don't lie \u2014 Kaegi lost reelection over property tax anger",
+      "title": "Editorial: Maria Pappas' property tax numbers don't lie — Kaegi lost reelection over property tax anger",
       "url": "https://www.chicagotribune.com/2026/03/30/editorial-maria-pappas-property-taxes-inflation-wages-chicago-pritzker/",
       "source": "Chicago Tribune",
       "date": "2026-03-30",
